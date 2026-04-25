@@ -17,8 +17,8 @@ import com.servalabs.chat.mms.OutgoingMessage
 import com.servalabs.chat.profiles.ProfileName
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional
 
 /**

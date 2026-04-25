@@ -15,7 +15,7 @@ import com.servalabs.chat.archive.stream.BackupFrameEmitter
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.zkgroup.backups.BackupLevel
+import com.servalabs.chat.libsignal.zkgroup.backups.BackupLevel
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.v2.ExportState
 import com.servalabs.chat.backup.v2.ImportState
@@ -47,10 +47,10 @@ import com.servalabs.chat.util.ProfileUtil
 import com.servalabs.chat.util.SecurePreferenceManager
 import com.servalabs.chat.util.TextSecurePreferences
 import com.servalabs.chat.webrtc.CallDataMode
-import org.signal.libsignal.api.push.UsernameLinkComponents
-import org.signal.libsignal.api.storage.IAPSubscriptionId.AppleIAPOriginalTransactionId
-import org.signal.libsignal.api.storage.IAPSubscriptionId.GooglePlayBillingPurchaseToken
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId.AppleIAPOriginalTransactionId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId.GooglePlayBillingPurchaseToken
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.util.Currency
 
 /**

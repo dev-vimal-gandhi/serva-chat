@@ -7,7 +7,7 @@ package com.servalabs.chat.libsignal.internal.push
 
 import com.fasterxml.jackson.annotation.JsonCreator
 import com.servalabs.chat.core.util.Base64
-import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
+import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
 
 /**
  * Request body to create a call link credential response.

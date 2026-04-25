@@ -17,9 +17,9 @@ import com.servalabs.chat.recipients.Recipient.Companion.self
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.recipients.RecipientUtil
 import com.servalabs.chat.util.GroupUtil
-import org.signal.libsignal.api.crypto.ContentHint
-import org.signal.libsignal.api.messages.SignalServiceDataMessage
-import org.signal.libsignal.api.messages.SignalServiceDataMessage.Companion.newBuilder
+import com.servalabs.chat.libsignal.api.crypto.ContentHint
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage.Companion.newBuilder
 import kotlin.time.Duration.Companion.days
 
 /**

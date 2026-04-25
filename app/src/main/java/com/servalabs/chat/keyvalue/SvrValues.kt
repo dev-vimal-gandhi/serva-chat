@@ -3,7 +3,7 @@ package com.servalabs.chat.keyvalue
 import com.servalabs.chat.core.models.MasterKey
 import com.servalabs.chat.core.util.StringStringSerializer
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.api.kbs.PinHashUtil.localPinHash
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil.localPinHash
 
 class SvrValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {

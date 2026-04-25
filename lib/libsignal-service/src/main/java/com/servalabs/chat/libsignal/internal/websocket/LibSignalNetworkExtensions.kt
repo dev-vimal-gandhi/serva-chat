@@ -6,7 +6,7 @@
 
 package com.servalabs.chat.libsignal.internal.websocket
 
-import org.signal.libsignal.net.Network
+import com.servalabs.chat.libsignal.net.Network
 import com.servalabs.chat.libsignal.internal.configuration.SignalServiceConfiguration
 
 private const val TAG = "LibSignalNetworkExtensions"

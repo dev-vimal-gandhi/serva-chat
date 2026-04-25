@@ -7,8 +7,8 @@ import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.isNotEmpty
 import com.servalabs.chat.core.util.isNullOrEmpty
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.BuildConfig
 import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
 import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme

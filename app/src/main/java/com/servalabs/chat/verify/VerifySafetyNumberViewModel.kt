@@ -17,9 +17,9 @@ import kotlinx.coroutines.launch
 import com.servalabs.chat.core.util.concurrent.SignalDispatchers
 import com.servalabs.chat.core.util.concurrent.SignalExecutors
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.signal.libsignal.protocol.fingerprint.NumericFingerprintGenerator
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.fingerprint.Fingerprint
+import com.servalabs.chat.libsignal.protocol.fingerprint.NumericFingerprintGenerator
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.crypto.ReentrantSessionLock
 import com.servalabs.chat.database.IdentityTable

@@ -2,12 +2,12 @@ package com.servalabs.chat.registration.secondary
 
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.util.ByteUtil
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException
+import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.util.ByteUtil
 import com.servalabs.chat.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 import java.security.GeneralSecurityException

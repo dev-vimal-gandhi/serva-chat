@@ -10,7 +10,7 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.StickerTable;
 import com.servalabs.chat.database.model.StickerPackRecord;
@@ -18,8 +18,8 @@ import com.servalabs.chat.database.model.StickerRecord;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.core.util.Hex;
 import com.servalabs.chat.stickers.StickerManifest;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
-import org.signal.libsignal.api.messages.SignalServiceStickerManifest;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStickerManifest;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -36,8 +36,8 @@ import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.storage.StorageSyncModels
 import com.servalabs.chat.storage.StorageSyncModels.toLocal
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.storage.SignalNotificationProfileRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalNotificationProfileRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import java.time.DayOfWeek
 
 /**

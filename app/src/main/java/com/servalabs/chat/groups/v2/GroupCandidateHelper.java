@@ -4,15 +4,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 import com.servalabs.chat.database.RecipientTable;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.util.ProfileUtil;
-import org.signal.libsignal.api.SignalServiceAccountManager;
-import org.signal.libsignal.api.groupsv2.GroupCandidate;
+import com.servalabs.chat.libsignal.api.SignalServiceAccountManager;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupCandidate;
 import com.servalabs.chat.core.models.ServiceId;
 
 import java.io.IOException;

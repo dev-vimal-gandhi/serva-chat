@@ -6,7 +6,7 @@ import org.osmdroid.tileprovider.modules.IFilesystemCache
 import org.osmdroid.tileprovider.tilesource.ITileSource
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.util.EncryptedStreamUtils
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.ByteArrayInputStream
 import java.io.File
 import java.io.IOException

@@ -10,7 +10,7 @@ import com.servalabs.chat.database.model.RecipientRecord;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.util.RemoteConfig;
-import org.signal.libsignal.api.account.AccountAttributes;
+import com.servalabs.chat.libsignal.api.account.AccountAttributes;
 
 public final class LogSectionCapabilities implements LogSection {
 

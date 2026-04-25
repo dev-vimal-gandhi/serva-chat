@@ -30,7 +30,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.service.KeyCachingService
 import com.servalabs.chat.util.BubbleUtil.BubbleState
 import com.servalabs.chat.util.ServiceUtil
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.util.Optional
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.Executor

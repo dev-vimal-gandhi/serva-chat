@@ -1,12 +1,12 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.NoSessionException
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.state.SessionRecord
+import com.servalabs.chat.libsignal.protocol.NoSessionException
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.state.SessionRecord
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.SignalServiceAccountDataStore
-import org.signal.libsignal.api.SignalServiceSessionStore
+import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
+import com.servalabs.chat.libsignal.api.SignalServiceSessionStore
 import kotlin.jvm.Throws
 
 /**

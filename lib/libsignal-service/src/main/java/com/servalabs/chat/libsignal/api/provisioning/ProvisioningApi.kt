@@ -7,7 +7,7 @@ package com.servalabs.chat.libsignal.api.provisioning
 
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.urlEncode
-import org.signal.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.registration.RestoreMethodBody

@@ -8,11 +8,11 @@ package com.servalabs.chat.jobs
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.donations.InAppPaymentType
-import org.signal.libsignal.zkgroup.VerificationFailedException
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredential
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequestContext
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredential
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialRequestContext
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialResponse
 import com.servalabs.chat.backup.v2.BackupRepository
 import com.servalabs.chat.backup.v2.MessageBackupTier
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api.crypto
+package com.servalabs.chat.libsignal.api.crypto
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import com.servalabs.chat.core.util.copyTo
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.ByteArrayOutputStream
 
 class AttachmentCipherStreamUtilTest {

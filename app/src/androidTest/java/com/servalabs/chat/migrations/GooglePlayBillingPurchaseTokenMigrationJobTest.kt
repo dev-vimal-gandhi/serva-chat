@@ -20,8 +20,8 @@ import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.storage.IAPSubscriptionId
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 
 @RunWith(AndroidJUnit4::class)
 class GooglePlayBillingPurchaseTokenMigrationJobTest {

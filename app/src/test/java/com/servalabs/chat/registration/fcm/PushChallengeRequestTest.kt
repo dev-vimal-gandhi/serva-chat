@@ -21,7 +21,7 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import com.servalabs.chat.isAbsent
-import org.signal.libsignal.api.SignalServiceAccountManager
+import com.servalabs.chat.libsignal.api.SignalServiceAccountManager
 import java.io.IOException
 import java.util.Optional
 

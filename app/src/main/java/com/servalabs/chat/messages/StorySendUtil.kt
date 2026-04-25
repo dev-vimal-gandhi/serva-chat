@@ -3,8 +3,8 @@ package com.servalabs.chat.messages
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
 import com.servalabs.chat.mms.OutgoingMessage
-import org.signal.libsignal.api.messages.SignalServicePreview
-import org.signal.libsignal.api.messages.SignalServiceTextAttachment
+import com.servalabs.chat.libsignal.api.messages.SignalServicePreview
+import com.servalabs.chat.libsignal.api.messages.SignalServiceTextAttachment
 import java.io.IOException
 import java.util.Optional
 import kotlin.math.roundToInt

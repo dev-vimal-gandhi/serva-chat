@@ -13,7 +13,7 @@ import com.servalabs.chat.backup.v2.ImportState
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.DistributionListPrivacyMode
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Handles the importing of [DistributionListItem] models into the local database.

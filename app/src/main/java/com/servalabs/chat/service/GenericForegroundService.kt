@@ -19,7 +19,7 @@ import com.servalabs.chat.R
 import com.servalabs.chat.jobs.ForegroundServiceUtil
 import com.servalabs.chat.jobs.UnableToStartException
 import com.servalabs.chat.notifications.NotificationChannels
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

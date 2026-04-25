@@ -6,7 +6,7 @@
 
 package com.servalabs.chat.libsignal.api.crypto;
 
-import org.signal.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
 
 public class UntrustedIdentityException extends Exception {
 

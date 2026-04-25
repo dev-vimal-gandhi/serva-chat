@@ -19,9 +19,9 @@ import com.servalabs.chat.jobmanager.impl.RestoreAttachmentConstraintObserver
 import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
 import com.servalabs.chat.keyvalue.protos.BackupDownloadNotifierState
 import com.servalabs.chat.util.Environment
-import org.signal.libsignal.api.archive.ArchiveServiceCredential
-import org.signal.libsignal.api.archive.GetArchiveCdnCredentialsResponse
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.api.archive.ArchiveServiceCredential
+import com.servalabs.chat.libsignal.api.archive.GetArchiveCdnCredentialsResponse
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 import java.io.IOException
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.time.Duration

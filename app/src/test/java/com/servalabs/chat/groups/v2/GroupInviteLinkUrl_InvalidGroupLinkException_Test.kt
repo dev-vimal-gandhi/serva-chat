@@ -11,7 +11,7 @@ import okio.ByteString
 import org.junit.Test
 import com.servalabs.chat.core.util.Base64.encodeUrlSafeWithoutPadding
 import com.servalabs.chat.core.util.Util
-import org.signal.libsignal.zkgroup.InvalidInputException
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupInviteLink
 import com.servalabs.chat.groups.v2.GroupInviteLinkUrl.InvalidGroupLinkException
 import com.servalabs.chat.groups.v2.GroupInviteLinkUrl.UnknownGroupLinkVersionException

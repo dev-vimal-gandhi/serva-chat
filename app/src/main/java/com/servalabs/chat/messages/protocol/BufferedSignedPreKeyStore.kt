@@ -1,11 +1,11 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.InvalidKeyIdException
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyStore
+import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException
+import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyStore
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.SignalServiceAccountDataStore
+import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
 
 /**
  * An in-memory signed prekey store that is intended to be used temporarily while decrypting messages.

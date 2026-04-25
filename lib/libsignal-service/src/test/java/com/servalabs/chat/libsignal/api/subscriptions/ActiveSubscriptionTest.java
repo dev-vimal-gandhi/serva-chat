@@ -1,7 +1,7 @@
-package org.signal.libsignal.api.subscriptions;
+package com.servalabs.chat.libsignal.api.subscriptions;
 
 import org.junit.Test;
-import org.signal.libsignal.internal.util.JsonUtil;
+import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -8,7 +8,7 @@ package com.servalabs.chat.core.models.storageservice
 /**
  * Key used to encrypt a manifest in the storage service.
  *
- * Created via [org.signal.libsignal.api.storage.StorageKey.deriveManifestKey].
+ * Created via [com.servalabs.chat.libsignal.api.storage.StorageKey.deriveManifestKey].
  */
 class StorageManifestKey(val key: ByteArray) : StorageCipherKey {
   init {

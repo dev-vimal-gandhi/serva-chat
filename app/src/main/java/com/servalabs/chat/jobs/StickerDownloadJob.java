@@ -14,8 +14,8 @@ import com.servalabs.chat.jobmanager.Job;
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
 import com.servalabs.chat.mms.PartAuthority;
 import com.servalabs.chat.core.util.Hex;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

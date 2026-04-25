@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.core.util.Preconditions;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.StickerTable;
 import com.servalabs.chat.database.model.IncomingSticker;
@@ -16,10 +16,10 @@ import com.servalabs.chat.jobmanager.JobManager;
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
 import com.servalabs.chat.stickers.BlessedPacks;
 import com.servalabs.chat.core.util.Hex;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
-import org.signal.libsignal.api.messages.SignalServiceStickerManifest;
-import org.signal.libsignal.api.messages.SignalServiceStickerManifest.StickerInfo;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStickerManifest;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStickerManifest.StickerInfo;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;
 import java.util.ArrayList;

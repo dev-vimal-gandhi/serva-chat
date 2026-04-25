@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.Hex;
-import org.signal.libsignal.api.util.OptionalUtil;
+import com.servalabs.chat.libsignal.api.util.OptionalUtil;
 
 import java.util.Optional;
 import java.util.regex.Matcher;

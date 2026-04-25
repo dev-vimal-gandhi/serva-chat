@@ -15,7 +15,7 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import okhttp3.OkHttpClient
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import com.servalabs.chat.components.settings.app.subscription.getBadge
 import com.servalabs.chat.database.model.databaseprotos.GiftBadge
 import com.servalabs.chat.dependencies.AppDependencies

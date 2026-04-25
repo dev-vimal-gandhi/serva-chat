@@ -2,7 +2,7 @@ package com.servalabs.chat.keyvalue
 
 import com.servalabs.chat.core.models.storageservice.StorageKey
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.api.storage.SignalStorageManifest
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest
 
 class StorageServiceValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {

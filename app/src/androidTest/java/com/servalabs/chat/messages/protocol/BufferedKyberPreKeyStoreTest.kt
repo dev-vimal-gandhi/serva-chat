@@ -9,7 +9,7 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.ReusedBaseKeyException
+import com.servalabs.chat.libsignal.protocol.ReusedBaseKeyException
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.testing.SignalDatabaseRule
 import com.servalabs.chat.util.KyberPreKeysTestUtil

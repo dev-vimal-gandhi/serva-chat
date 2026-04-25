@@ -65,7 +65,7 @@ import com.servalabs.chat.core.util.toOptional
 import com.servalabs.chat.core.util.toSingleLine
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
-import org.signal.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.DatabaseAttachment

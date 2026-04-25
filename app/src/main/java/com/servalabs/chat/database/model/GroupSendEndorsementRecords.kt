@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.database.model
 
-import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsement
+import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsement
 import com.servalabs.chat.recipients.RecipientId
 
 /**

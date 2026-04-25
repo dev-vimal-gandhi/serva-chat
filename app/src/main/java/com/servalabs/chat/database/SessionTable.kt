@@ -12,10 +12,10 @@ import com.servalabs.chat.core.util.requireNonNullBlob
 import com.servalabs.chat.core.util.requireNonNullString
 import com.servalabs.chat.core.util.requireString
 import com.servalabs.chat.core.util.select
-import org.signal.libsignal.protocol.InvalidSessionException
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.state.SessionRecord
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.protocol.InvalidSessionException
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.state.SessionRecord
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.io.IOException
 import java.util.LinkedList
 

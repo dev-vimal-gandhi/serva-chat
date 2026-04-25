@@ -44,7 +44,7 @@ object SignalStorageCipher {
   }
 
   @JvmStatic
-  @Throws(org.signal.libsignal.protocol.InvalidKeyException::class)
+  @Throws(com.servalabs.chat.libsignal.protocol.InvalidKeyException::class)
   fun decrypt(key: StorageCipherKey, data: ByteArray): ByteArray {
     try {
       val cipher = Cipher.getInstance("AES/GCM/NoPadding")
@@ -54,11 +54,11 @@ object SignalStorageCipher {
       cipher.init(Cipher.DECRYPT_MODE, SecretKeySpec(key.serialize(), "AES"), GCMParameterSpec(128, iv))
       return cipher.doFinal(cipherText)
     } catch (e: InvalidKeyException) {
-      throw org.signal.libsignal.protocol.InvalidKeyException(e)
+      throw com.servalabs.chat.libsignal.protocol.InvalidKeyException(e)
     } catch (e: BadPaddingException) {
-      throw org.signal.libsignal.protocol.InvalidKeyException(e)
+      throw com.servalabs.chat.libsignal.protocol.InvalidKeyException(e)
     } catch (e: IllegalBlockSizeException) {
-      throw org.signal.libsignal.protocol.InvalidKeyException(e)
+      throw com.servalabs.chat.libsignal.protocol.InvalidKeyException(e)
     } catch (e: NoSuchAlgorithmException) {
       throw AssertionError(e)
     } catch (e: NoSuchPaddingException) {

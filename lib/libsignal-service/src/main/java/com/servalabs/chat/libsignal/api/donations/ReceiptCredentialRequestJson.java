@@ -7,7 +7,7 @@ package com.servalabs.chat.libsignal.api.donations;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
 import com.servalabs.chat.core.util.Base64;
 
 class ReceiptCredentialRequestJson {

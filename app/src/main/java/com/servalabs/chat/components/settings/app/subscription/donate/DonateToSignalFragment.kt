@@ -50,7 +50,7 @@ import com.servalabs.chat.util.Projection
 import com.servalabs.chat.util.SpanUtil
 import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import java.math.BigDecimal
 import java.util.Currency
 

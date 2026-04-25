@@ -7,12 +7,12 @@ import io.mockk.verify
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
 import com.servalabs.chat.database.IdentityTable
 import com.servalabs.chat.database.model.IdentityStoreRecord
-import org.signal.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS
+import com.servalabs.chat.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS
 
 class SignalBaseIdentityKeyStoreTest {
   companion object {

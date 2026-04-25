@@ -5,7 +5,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.keyvalue.SignalStore;
-import org.signal.libsignal.api.SignalServiceDataStore;
+import com.servalabs.chat.libsignal.api.SignalServiceDataStore;
 import com.servalabs.chat.core.models.ServiceId;
 
 public final class SignalServiceDataStoreImpl implements SignalServiceDataStore {

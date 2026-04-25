@@ -34,8 +34,8 @@ import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.databinding.DonationInProgressFragmentBinding
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
-import org.signal.libsignal.api.subscriptions.PayPalCreatePaymentMethodResponse
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalCreatePaymentMethodResponse
 
 class PayPalPaymentInProgressFragment : DialogFragment(R.layout.donation_in_progress_fragment) {
 

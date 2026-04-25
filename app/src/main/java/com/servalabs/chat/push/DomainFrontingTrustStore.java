@@ -4,7 +4,7 @@ package com.servalabs.chat.push;
 import android.content.Context;
 
 import com.servalabs.chat.R;
-import org.signal.libsignal.api.push.TrustStore;
+import com.servalabs.chat.libsignal.api.push.TrustStore;
 
 import java.io.InputStream;
 

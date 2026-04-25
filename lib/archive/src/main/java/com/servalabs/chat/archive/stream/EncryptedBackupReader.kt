@@ -18,7 +18,7 @@ import com.servalabs.chat.core.util.readVarInt32
 import com.servalabs.chat.core.util.stream.LimitedInputStream
 import com.servalabs.chat.core.util.stream.MacInputStream
 import com.servalabs.chat.core.util.writeVarInt32
-import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
+import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
 import java.io.ByteArrayOutputStream
 import java.io.EOFException
 import java.io.IOException

@@ -36,7 +36,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobs.InAppPaymentKeepAliveJob
 import com.servalabs.chat.util.parcelers.MillisecondDurationParceler
 import com.servalabs.chat.util.parcelers.NullableSubscriberIdParceler
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.milliseconds

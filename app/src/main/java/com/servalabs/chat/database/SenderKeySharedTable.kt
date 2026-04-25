@@ -11,10 +11,10 @@ import com.servalabs.chat.core.util.requireInt
 import com.servalabs.chat.core.util.requireString
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.withinTransaction
-import org.signal.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Keeps track of which recipients are aware of which distributionIds. For the storage of sender

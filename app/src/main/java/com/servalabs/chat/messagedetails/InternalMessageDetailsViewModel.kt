@@ -14,7 +14,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 
 class InternalMessageDetailsViewModel(val messageId: Long) : ViewModel() {
 

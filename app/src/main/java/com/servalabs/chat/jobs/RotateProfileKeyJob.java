@@ -3,7 +3,7 @@ package com.servalabs.chat.jobs;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.crypto.ProfileKeyUtil;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.jobmanager.JsonJobData;

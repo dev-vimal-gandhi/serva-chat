@@ -7,8 +7,8 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.websocket.SignalWebSocket
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.websocket.SignalWebSocket
 import kotlin.time.Duration.Companion.days
 
 /**

@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.crypto
+package com.servalabs.chat.libsignal.api.crypto
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -6,7 +6,7 @@ import assertk.assertions.isTrue
 import assertk.fail
 import org.junit.Test
 import com.servalabs.chat.core.util.readFully
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import java.io.ByteArrayInputStream
 import java.security.MessageDigest
 

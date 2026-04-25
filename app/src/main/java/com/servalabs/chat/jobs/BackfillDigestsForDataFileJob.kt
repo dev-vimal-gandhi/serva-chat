@@ -14,8 +14,8 @@ import com.servalabs.chat.core.util.withinTransaction
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobs.protos.BackfillDigestsForDataFileJobData
-import org.signal.libsignal.api.crypto.AttachmentCipherOutputStream
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherOutputStream
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.IOException
 
 /**

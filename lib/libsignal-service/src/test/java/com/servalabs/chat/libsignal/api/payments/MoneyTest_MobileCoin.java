@@ -1,7 +1,7 @@
-package org.signal.libsignal.api.payments;
+package com.servalabs.chat.libsignal.api.payments;
 
 import org.junit.Test;
-import org.signal.libsignal.api.util.Uint64RangeException;
+import com.servalabs.chat.libsignal.api.util.Uint64RangeException;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

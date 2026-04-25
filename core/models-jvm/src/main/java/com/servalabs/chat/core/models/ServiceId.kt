@@ -9,8 +9,8 @@ import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.logging.Log
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.logging.Log
 import java.util.UUID
 
 /**
@@ -21,15 +21,15 @@ import java.util.UUID
  * The only times you truly know, and the only times you should actually care, is during CDS refreshes or specific inbound messages
  * that link them together.
  */
-sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.ServiceId) {
+sealed class ServiceId(val libSignalServiceId: com.servalabs.chat.libsignal.protocol.ServiceId) {
   companion object {
     private const val TAG = "ServiceId"
 
     @JvmStatic
-    fun fromLibSignal(serviceId: org.signal.libsignal.protocol.ServiceId): ServiceId {
+    fun fromLibSignal(serviceId: com.servalabs.chat.libsignal.protocol.ServiceId): ServiceId {
       return when (serviceId) {
-        is org.signal.libsignal.protocol.ServiceId.Aci -> ACI(serviceId)
-        is org.signal.libsignal.protocol.ServiceId.Pni -> PNI(serviceId)
+        is com.servalabs.chat.libsignal.protocol.ServiceId.Aci -> ACI(serviceId)
+        is com.servalabs.chat.libsignal.protocol.ServiceId.Pni -> PNI(serviceId)
         else -> throw IllegalArgumentException("Unknown libsignal ServiceId type!")
       }
     }
@@ -43,13 +43,13 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
       }
 
       return try {
-        fromLibSignal(org.signal.libsignal.protocol.ServiceId.parseFromString(raw))
+        fromLibSignal(com.servalabs.chat.libsignal.protocol.ServiceId.parseFromString(raw))
       } catch (e: IllegalArgumentException) {
         if (logFailures) {
           Log.w(TAG, "[parseOrNull(String)] Illegal argument!", e)
         }
         null
-      } catch (e: org.signal.libsignal.protocol.ServiceId.InvalidServiceIdException) {
+      } catch (e: com.servalabs.chat.libsignal.protocol.ServiceId.InvalidServiceIdException) {
         if (logFailures) {
           Log.w(TAG, "[parseOrNull(String)] Invalid ServiceId!", e)
         }
@@ -66,14 +66,14 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
 
       return try {
         if (raw.size == 17) {
-          fromLibSignal(org.signal.libsignal.protocol.ServiceId.parseFromFixedWidthBinary(raw))
+          fromLibSignal(com.servalabs.chat.libsignal.protocol.ServiceId.parseFromFixedWidthBinary(raw))
         } else {
-          fromLibSignal(org.signal.libsignal.protocol.ServiceId.parseFromBinary(raw))
+          fromLibSignal(com.servalabs.chat.libsignal.protocol.ServiceId.parseFromBinary(raw))
         }
       } catch (e: IllegalArgumentException) {
         Log.w(TAG, "[parseOrNull(Bytes)] Illegal argument!", e)
         null
-      } catch (e: org.signal.libsignal.protocol.ServiceId.InvalidServiceIdException) {
+      } catch (e: com.servalabs.chat.libsignal.protocol.ServiceId.InvalidServiceIdException) {
         Log.w(TAG, "[parseOrNull(Bytes)] Invalid ServiceId!", e)
         null
       }
@@ -139,16 +139,16 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
    */
   override fun toString(): String = libSignalServiceId.toServiceIdString()
 
-  data class ACI(val libSignalAci: org.signal.libsignal.protocol.ServiceId.Aci) : ServiceId(libSignalAci) {
+  data class ACI(val libSignalAci: com.servalabs.chat.libsignal.protocol.ServiceId.Aci) : ServiceId(libSignalAci) {
     companion object {
       @JvmField
       val UNKNOWN = from(UuidUtil.UNKNOWN_UUID)
 
       @JvmStatic
-      fun from(uuid: UUID): ACI = ACI(org.signal.libsignal.protocol.ServiceId.Aci(uuid))
+      fun from(uuid: UUID): ACI = ACI(com.servalabs.chat.libsignal.protocol.ServiceId.Aci(uuid))
 
       @JvmStatic
-      fun fromLibSignal(aci: org.signal.libsignal.protocol.ServiceId.Aci): ACI = ACI(aci)
+      fun fromLibSignal(aci: com.servalabs.chat.libsignal.protocol.ServiceId.Aci): ACI = ACI(aci)
 
       @JvmStatic
       fun parseOrNull(raw: String?): ACI? = ServiceId.parseOrNull(raw).let { it as? ACI }
@@ -194,13 +194,13 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
     override fun toString(): String = super.toString()
   }
 
-  data class PNI(val libSignalPni: org.signal.libsignal.protocol.ServiceId.Pni) : ServiceId(libSignalPni) {
+  data class PNI(val libSignalPni: com.servalabs.chat.libsignal.protocol.ServiceId.Pni) : ServiceId(libSignalPni) {
     companion object {
       @JvmField
       var UNKNOWN = from(UuidUtil.UNKNOWN_UUID)
 
       @JvmStatic
-      fun from(uuid: UUID): PNI = PNI(org.signal.libsignal.protocol.ServiceId.Pni(uuid))
+      fun from(uuid: UUID): PNI = PNI(com.servalabs.chat.libsignal.protocol.ServiceId.Pni(uuid))
 
       /** Parses a string as a PNI, regardless if the `PNI:` prefix is present or not. Only use this if you are certain that what you're reading is a PNI. */
       @JvmStatic
@@ -212,7 +212,7 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
         } else {
           val uuid = UuidUtil.parseOrNull(raw)
           if (uuid != null) {
-            PNI(org.signal.libsignal.protocol.ServiceId.Pni(uuid))
+            PNI(com.servalabs.chat.libsignal.protocol.ServiceId.Pni(uuid))
           } else {
             null
           }
@@ -229,7 +229,7 @@ sealed class ServiceId(val libSignalServiceId: org.signal.libsignal.protocol.Ser
         } else {
           val uuid = UuidUtil.parseOrNull(raw)
           if (uuid != null) {
-            PNI(org.signal.libsignal.protocol.ServiceId.Pni(uuid))
+            PNI(com.servalabs.chat.libsignal.protocol.ServiceId.Pni(uuid))
           } else {
             null
           }

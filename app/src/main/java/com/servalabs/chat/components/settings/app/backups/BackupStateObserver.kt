@@ -33,8 +33,8 @@ import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.InternetConnectionObserver
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.Locale

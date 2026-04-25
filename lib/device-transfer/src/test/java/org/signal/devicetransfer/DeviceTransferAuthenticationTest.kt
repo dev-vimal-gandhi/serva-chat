@@ -5,7 +5,7 @@ import org.junit.Assert.assertNotEquals
 import org.junit.Before
 import org.junit.Test
 import com.servalabs.chat.devicetransfer.DeviceTransferAuthentication.DeviceTransferAuthenticationException
-import org.signal.libsignal.test.LibSignalLibraryUtil
+import com.servalabs.chat.libsignal.test.LibSignalLibraryUtil
 import kotlin.random.Random
 
 class DeviceTransferAuthenticationTest {

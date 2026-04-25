@@ -10,10 +10,10 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.readNBytesOrThrow
 import com.servalabs.chat.core.util.stream.LimitedInputStream
 import com.servalabs.chat.core.util.stream.TrimmingInputStream
-import org.signal.libsignal.protocol.InvalidMessageException
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
-import org.signal.libsignal.protocol.incrementalmac.IncrementalMacInputStream
-import org.signal.libsignal.protocol.kdf.HKDF
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.incrementalmac.ChunkSizeChoice
+import com.servalabs.chat.libsignal.protocol.incrementalmac.IncrementalMacInputStream
+import com.servalabs.chat.libsignal.protocol.kdf.HKDF
 import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.ByteArrayInputStream
 import java.io.File

@@ -7,8 +7,8 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.R;
 import com.servalabs.chat.recipients.Recipient;
-import org.signal.libsignal.api.payments.FormatterOptions;
-import org.signal.libsignal.api.payments.Money;
+import com.servalabs.chat.libsignal.api.payments.FormatterOptions;
+import com.servalabs.chat.libsignal.api.payments.Money;
 
 import java.util.UUID;
 

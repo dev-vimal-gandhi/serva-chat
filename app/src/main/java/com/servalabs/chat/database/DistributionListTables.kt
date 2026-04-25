@@ -26,9 +26,9 @@ import com.servalabs.chat.database.model.StoryType
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageRecordUpdate
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.storage.SignalStoryDistributionListRecord
-import org.signal.libsignal.api.storage.recipientServiceAddresses
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.storage.SignalStoryDistributionListRecord
+import com.servalabs.chat.libsignal.api.storage.recipientServiceAddresses
 import java.util.UUID
 
 /**

@@ -12,7 +12,7 @@ import com.servalabs.chat.database.IdentityTable;
 import com.servalabs.chat.database.model.IdentityRecord;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.core.util.concurrent.SimpleTask;
-import org.signal.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 import java.util.List;
 

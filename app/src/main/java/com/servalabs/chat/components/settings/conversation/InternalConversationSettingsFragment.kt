@@ -24,7 +24,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.core.util.roundedString
 import com.servalabs.chat.core.util.withinTransaction
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.MainActivity
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.UriAttachment

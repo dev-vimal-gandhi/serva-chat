@@ -26,9 +26,9 @@ import com.servalabs.chat.testing.InAppPaymentsRule
 import com.servalabs.chat.testing.RxTestSchedulerRule
 import com.servalabs.chat.testing.SignalActivityRule
 import com.servalabs.chat.testing.actions.RecyclerViewScrollToBottomAction
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.math.BigDecimal
 import java.util.Currency
 import kotlin.time.Duration.Companion.days

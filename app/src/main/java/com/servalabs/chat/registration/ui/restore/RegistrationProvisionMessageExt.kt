@@ -5,9 +5,9 @@
 
 package com.servalabs.chat.registration.ui.restore
 
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import java.security.InvalidKeyException
 

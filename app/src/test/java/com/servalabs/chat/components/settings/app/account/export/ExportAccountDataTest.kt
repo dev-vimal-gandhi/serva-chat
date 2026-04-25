@@ -21,7 +21,7 @@ import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.util.JsonUtils
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import java.io.IOException
 
 @RunWith(RobolectricTestRunner::class)

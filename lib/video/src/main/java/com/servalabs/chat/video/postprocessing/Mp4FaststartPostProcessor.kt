@@ -8,8 +8,8 @@ package com.servalabs.chat.video.postprocessing
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readLength
 import com.servalabs.chat.core.util.stream.LimitedInputStream
-import org.signal.libsignal.media.Mp4Sanitizer
-import org.signal.libsignal.media.SanitizedMetadata
+import com.servalabs.chat.libsignal.media.Mp4Sanitizer
+import com.servalabs.chat.libsignal.media.SanitizedMetadata
 import java.io.ByteArrayInputStream
 import java.io.InputStream
 import java.io.OutputStream

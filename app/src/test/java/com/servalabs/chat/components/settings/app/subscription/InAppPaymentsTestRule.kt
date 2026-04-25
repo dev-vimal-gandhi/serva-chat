@@ -17,7 +17,7 @@ import org.junit.rules.ExternalResource
 import com.servalabs.chat.core.util.money.FiatMoney
 import com.servalabs.chat.donations.InAppPaymentType
 import com.servalabs.chat.donations.PaymentSourceType
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialResponse
 import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType

@@ -7,9 +7,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
+import com.servalabs.chat.libsignal.protocol.logging.Log;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 

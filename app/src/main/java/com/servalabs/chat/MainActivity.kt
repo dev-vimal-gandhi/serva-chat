@@ -188,7 +188,7 @@ import com.servalabs.chat.window.AppScaffoldAnimationStateFactory
 import com.servalabs.chat.window.AppScaffoldNavigator
 import com.servalabs.chat.window.NavigationType
 import com.servalabs.chat.window.rememberThreePaneScaffoldNavigatorDelegate
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 import com.servalabs.chat.core.ui.R as CoreUiR
 
 class MainActivity :

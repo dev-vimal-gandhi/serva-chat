@@ -11,9 +11,9 @@ import com.servalabs.chat.core.util.StreamUtil
 import org.signal.libsignal.svr2.PinHash
 import com.servalabs.chat.registration.v2.testdata.KbsTestVector
 import com.servalabs.chat.testutil.SecureRandomTestUtil
-import org.signal.libsignal.api.kbs.PinHashUtil.createNewKbsData
-import org.signal.libsignal.api.kbs.PinHashUtil.decryptSvrDataIVCipherText
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil.createNewKbsData
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil.decryptSvrDataIVCipherText
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 
 class PinHashKbsDataTest {
   @Test

@@ -17,7 +17,7 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobs.protos.InAppPaymentSetupJobData
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
 
 class InAppPaymentPayPalOneTimeSetupJob private constructor(data: InAppPaymentSetupJobData, parameters: Parameters) : InAppPaymentSetupJob(data, parameters) {
 

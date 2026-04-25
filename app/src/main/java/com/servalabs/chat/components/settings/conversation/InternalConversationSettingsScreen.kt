@@ -24,7 +24,7 @@ import com.servalabs.chat.core.ui.compose.Scaffolds
 import com.servalabs.chat.core.ui.compose.SignalIcons
 import com.servalabs.chat.core.ui.compose.Texts
 import com.servalabs.chat.core.util.Hex.fromStringCondensed
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.R
 import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.recipients.RecipientId

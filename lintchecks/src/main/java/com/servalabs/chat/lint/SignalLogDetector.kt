@@ -43,7 +43,7 @@ class SignalLogDetector : Detector(), Detector.UastScanner {
       )
     }
 
-    if (evaluator.isMemberInClass(method, "org.signal.libsignal.protocol.logging.Log")) {
+    if (evaluator.isMemberInClass(method, "com.servalabs.chat.libsignal.protocol.logging.Log")) {
       context.report(
         issue = LOG_NOT_APP,
         scope = node,

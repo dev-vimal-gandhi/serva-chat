@@ -2,7 +2,7 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.signal.libsignal.internal.crypto
+package com.servalabs.chat.libsignal.internal.crypto
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo

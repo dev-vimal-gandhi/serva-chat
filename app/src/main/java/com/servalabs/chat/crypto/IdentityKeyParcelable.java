@@ -22,8 +22,8 @@ import android.os.Parcelable;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.util.ParcelUtil;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
 
 public class IdentityKeyParcelable implements Parcelable {
 

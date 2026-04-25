@@ -51,7 +51,7 @@ import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
 import com.servalabs.chat.util.Environment
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds

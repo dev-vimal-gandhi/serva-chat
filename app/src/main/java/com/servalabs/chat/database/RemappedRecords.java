@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;

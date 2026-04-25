@@ -19,8 +19,8 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.notifications.v2.ConversationId
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.push.exceptions.ProofRequiredException
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.push.exceptions.ProofRequiredException
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration

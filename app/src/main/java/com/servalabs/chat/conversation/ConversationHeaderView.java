@@ -39,7 +39,7 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.util.LongClickMovementMethod;
 import com.servalabs.chat.util.SpanUtil;
 import com.servalabs.chat.util.ViewUtil;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 public class ConversationHeaderView extends ConstraintLayout {
 

@@ -21,9 +21,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.ECPrivateKey;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey;
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
 
 import java.security.GeneralSecurityException;
 import java.security.MessageDigest;

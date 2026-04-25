@@ -14,7 +14,7 @@ import androidx.core.content.ContextCompat;
 
 import com.servalabs.chat.core.util.PendingIntentFlags;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.api.util.SleepTimer;
+import com.servalabs.chat.libsignal.api.util.SleepTimer;
 
 import java.util.concurrent.ConcurrentSkipListSet;
 

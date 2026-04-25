@@ -4,11 +4,11 @@ import android.text.TextUtils
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.RequestResult
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.RecipientTable.PhoneNumberSharingState
 import com.servalabs.chat.database.SignalDatabase
@@ -22,12 +22,12 @@ import com.servalabs.chat.profiles.manage.UsernameRepository
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.ProfileUtil
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.crypto.InvalidCiphertextException
-import org.signal.libsignal.api.crypto.ProfileCipher
-import org.signal.libsignal.api.profiles.ProfileAndCredential
-import org.signal.libsignal.api.profiles.SignalServiceProfile
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
-import org.signal.libsignal.api.util.ExpiringProfileCredentialUtil
+import com.servalabs.chat.libsignal.api.crypto.InvalidCiphertextException
+import com.servalabs.chat.libsignal.api.crypto.ProfileCipher
+import com.servalabs.chat.libsignal.api.profiles.ProfileAndCredential
+import com.servalabs.chat.libsignal.api.profiles.SignalServiceProfile
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.util.ExpiringProfileCredentialUtil
 import java.io.IOException
 
 /**

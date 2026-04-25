@@ -1,14 +1,14 @@
 package com.servalabs.chat.verify
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.KeyTransparency.CheckMode
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.KeyTransparency.CheckMode
+import com.servalabs.chat.libsignal.net.RequestResult
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.model.KeyTransparencyStore
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.crypto.UnidentifiedAccess
+import com.servalabs.chat.libsignal.api.crypto.UnidentifiedAccess
 import java.time.Duration
 
 /**

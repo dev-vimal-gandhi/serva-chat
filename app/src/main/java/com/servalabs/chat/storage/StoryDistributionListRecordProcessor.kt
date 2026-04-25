@@ -5,11 +5,11 @@ import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.database.RecipientTable
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.storage.SignalStoryDistributionListRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.toSignalStoryDistributionListRecord
-import org.signal.libsignal.api.util.OptionalUtil.asOptional
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.storage.SignalStoryDistributionListRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.toSignalStoryDistributionListRecord
+import com.servalabs.chat.libsignal.api.util.OptionalUtil.asOptional
 import java.io.IOException
 import java.util.Optional
 

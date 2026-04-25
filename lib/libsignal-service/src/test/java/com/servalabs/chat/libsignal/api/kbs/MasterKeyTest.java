@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.kbs;
+package com.servalabs.chat.libsignal.api.kbs;
 
 import org.junit.Test;
 import com.servalabs.chat.core.models.MasterKey;

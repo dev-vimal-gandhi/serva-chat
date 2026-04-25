@@ -8,7 +8,7 @@ package com.servalabs.chat.libsignal.api.donations;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
 
 /**
  * POST /v1/donation/redeem-receipt

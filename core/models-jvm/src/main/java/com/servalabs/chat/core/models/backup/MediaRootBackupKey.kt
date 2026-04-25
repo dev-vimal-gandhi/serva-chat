@@ -7,7 +7,7 @@ package com.servalabs.chat.core.models.backup
 
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.RandomUtil
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
 
 /**
  * Safe typing around a media root backup key, which is a 32-byte array.
@@ -25,11 +25,11 @@ class MediaRootBackupKey(override val value: ByteArray) : BackupKey {
    * The private key used to generate anonymous credentials when interacting with the backup service.
    */
   override fun deriveAnonymousCredentialPrivateKey(aci: ServiceId.ACI): ECPrivateKey {
-    return org.signal.libsignal.messagebackup.BackupKey(value).deriveEcKey(aci.libSignalAci)
+    return com.servalabs.chat.libsignal.messagebackup.BackupKey(value).deriveEcKey(aci.libSignalAci)
   }
 
   fun deriveMediaId(mediaName: MediaName): MediaId {
-    return MediaId(org.signal.libsignal.messagebackup.BackupKey(value).deriveMediaId(mediaName.name))
+    return MediaId(com.servalabs.chat.libsignal.messagebackup.BackupKey(value).deriveMediaId(mediaName.name))
   }
 
   fun deriveMediaSecrets(mediaName: MediaName): MediaKeyMaterial {
@@ -42,11 +42,11 @@ class MediaRootBackupKey(override val value: ByteArray) : BackupKey {
   }
 
   fun deriveThumbnailTransitKey(thumbnailMediaName: MediaName): ByteArray {
-    return org.signal.libsignal.messagebackup.BackupKey(value).deriveThumbnailTransitEncryptionKey(deriveMediaId(thumbnailMediaName).value)
+    return com.servalabs.chat.libsignal.messagebackup.BackupKey(value).deriveThumbnailTransitEncryptionKey(deriveMediaId(thumbnailMediaName).value)
   }
 
   private fun deriveMediaSecrets(mediaId: MediaId): MediaKeyMaterial {
-    val libsignalBackupKey = org.signal.libsignal.messagebackup.BackupKey(value)
+    val libsignalBackupKey = com.servalabs.chat.libsignal.messagebackup.BackupKey(value)
     val combinedKey = libsignalBackupKey.deriveMediaEncryptionKey(mediaId.value)
 
     return MediaKeyMaterial(
@@ -61,7 +61,7 @@ class MediaRootBackupKey(override val value: ByteArray) : BackupKey {
    */
   fun deriveBackupId(aci: ServiceId.ACI): BackupId {
     return BackupId(
-      org.signal.libsignal.messagebackup.BackupKey(value).deriveBackupId(aci.libSignalAci)
+      com.servalabs.chat.libsignal.messagebackup.BackupKey(value).deriveBackupId(aci.libSignalAci)
     )
   }
 

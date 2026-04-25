@@ -16,15 +16,15 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.backup.v2.MessageBackupTier
 import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.registration.data.network.RegisterAccountResult
-import org.signal.libsignal.api.provisioning.ProvisioningSocket
-import org.signal.libsignal.internal.crypto.SecondaryProvisioningCipher
+import com.servalabs.chat.libsignal.api.provisioning.ProvisioningSocket
+import com.servalabs.chat.libsignal.internal.crypto.SecondaryProvisioningCipher
 import java.io.Closeable
 
 class RestoreViaQrViewModel : ViewModel() {

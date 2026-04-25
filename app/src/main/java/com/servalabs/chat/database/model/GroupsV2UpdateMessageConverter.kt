@@ -53,8 +53,8 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPe
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedRequestingMember
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState
 import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil
-import org.signal.libsignal.api.push.ServiceIds
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil
+import com.servalabs.chat.libsignal.api.push.ServiceIds
 import java.util.LinkedList
 import java.util.Optional
 import java.util.stream.Collectors

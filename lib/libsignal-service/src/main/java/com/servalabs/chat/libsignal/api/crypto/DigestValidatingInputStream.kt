@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.api.crypto
 
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import java.io.FilterInputStream
 import java.io.IOException
 import java.io.InputStream

@@ -27,7 +27,7 @@ import com.servalabs.chat.util.DefaultValueLiveData;
 import com.servalabs.chat.util.SingleLiveEvent;
 import com.servalabs.chat.util.TextSecurePreferences;
 import com.servalabs.chat.util.livedata.LiveDataUtil;
-import org.signal.libsignal.api.util.StreamDetails;
+import com.servalabs.chat.libsignal.api.util.StreamDetails;
 
 import java.io.IOException;
 import java.io.InputStream;

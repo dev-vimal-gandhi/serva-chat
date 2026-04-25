@@ -26,7 +26,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.search.SearchFilter
 import com.servalabs.chat.search.SearchRepository
 import com.servalabs.chat.util.livedata.Store
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 /**
  * Simple, reusable view model that manages a ContactSearchPagedDataSource as well as filter and expansion state.

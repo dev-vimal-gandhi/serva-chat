@@ -18,7 +18,7 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
 
 /**
  * When we migrate subscriptions, purchase tokens are stored as '-' string. This migration

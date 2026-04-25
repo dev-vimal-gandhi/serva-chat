@@ -22,7 +22,7 @@ import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readFully
 import com.servalabs.chat.core.util.toJson
-import org.signal.libsignal.crypto.Aes256Ctr32
+import com.servalabs.chat.libsignal.crypto.Aes256Ctr32
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.LocalExportProgress
 import com.servalabs.chat.backup.v2.BackupRepository
@@ -30,9 +30,9 @@ import com.servalabs.chat.database.AttachmentTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
-import org.signal.libsignal.api.crypto.AttachmentCipherOutputStream
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherOutputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

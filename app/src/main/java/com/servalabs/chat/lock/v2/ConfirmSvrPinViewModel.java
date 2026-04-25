@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.servalabs.chat.pin.SvrRepository;
 import com.servalabs.chat.util.DefaultValueLiveData;
-import org.signal.libsignal.api.svr.SecureValueRecovery;
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Scheduler;

@@ -1,7 +1,7 @@
 package com.servalabs.chat.logging;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.logging.SignalProtocolLogger;
+import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLogger;
 
 public class CustomSignalProtocolLogger implements SignalProtocolLogger {
   @Override

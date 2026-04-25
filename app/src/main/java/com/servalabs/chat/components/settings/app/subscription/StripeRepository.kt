@@ -21,7 +21,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.Environment
-import org.signal.libsignal.api.subscriptions.StripeClientSecret
+import com.servalabs.chat.libsignal.api.subscriptions.StripeClientSecret
 
 /**
  * Manages bindings with payment APIs

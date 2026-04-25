@@ -12,8 +12,8 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.InvalidMacException
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMacException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
@@ -37,15 +37,15 @@ import com.servalabs.chat.s3.S3
 import com.servalabs.chat.transport.RetryLaterException
 import com.servalabs.chat.util.AttachmentUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
-import org.signal.libsignal.api.push.exceptions.MissingConfigurationException
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
-import org.signal.libsignal.api.push.exceptions.RangeException
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.push.exceptions.MissingConfigurationException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.push.exceptions.RangeException
 import java.io.File
 import java.io.IOException
 import java.util.Optional
@@ -361,7 +361,7 @@ class AttachmentDownloadJob private constructor(
       } else {
         markFailed(messageId, attachmentId)
       }
-    } catch (e: org.signal.libsignal.protocol.incrementalmac.InvalidMacException) {
+    } catch (e: com.servalabs.chat.libsignal.protocol.incrementalmac.InvalidMacException) {
       Log.w(TAG, "[$attachmentId] Detected an invalid incremental mac. Clearing and marking as a temporary failure, requiring the user to manually try again.")
       SignalDatabase.attachments.clearIncrementalMacsForAttachmentAndAnyDuplicates(attachmentId, attachment.remoteKey, attachment.dataHash)
       markFailed(messageId, attachmentId)

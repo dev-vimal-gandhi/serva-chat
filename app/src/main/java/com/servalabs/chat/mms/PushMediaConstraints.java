@@ -13,8 +13,8 @@ import com.servalabs.chat.util.LocaleRemoteConfig;
 import com.servalabs.chat.util.RemoteConfig;
 import com.servalabs.chat.video.TranscodingPreset;
 import com.servalabs.chat.video.videoconverter.utils.DeviceCapabilities;
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil;
-import org.signal.libsignal.internal.crypto.PaddingInputStream;
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil;
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream;
 
 import java.util.Arrays;
 

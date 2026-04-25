@@ -22,7 +22,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Test
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.RequestResult
 import com.servalabs.chat.registration.KeyMaterial
 import com.servalabs.chat.registration.NetworkController
 import com.servalabs.chat.registration.PreExistingRegistrationData

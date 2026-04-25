@@ -8,7 +8,7 @@ import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
 import com.servalabs.chat.dependencies.AppDependencies;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
 
 import java.io.InputStream;
 

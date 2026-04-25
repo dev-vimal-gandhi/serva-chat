@@ -2,7 +2,7 @@ package com.servalabs.chat.notifications.profiles
 
 import com.servalabs.chat.conversation.colors.AvatarColor
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.StorageId
 
 data class NotificationProfile(
   val id: Long,

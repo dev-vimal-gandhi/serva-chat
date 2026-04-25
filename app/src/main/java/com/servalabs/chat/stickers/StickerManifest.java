@@ -11,7 +11,7 @@ import java.util.Optional;
 
 /**
  * Local model that represents the data present in the libsignal model
- * {@link org.signal.libsignal.api.messages.SignalServiceStickerManifest}.
+ * {@link com.servalabs.chat.libsignal.api.messages.SignalServiceStickerManifest}.
  */
 public final class StickerManifest {
 

@@ -11,7 +11,7 @@ import org.junit.Assert.assertNull
 import org.junit.Test
 import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.models.ServiceId.PNI
-import org.signal.libsignal.protocol.ReusedBaseKeyException
+import com.servalabs.chat.libsignal.protocol.ReusedBaseKeyException
 import com.servalabs.chat.util.KyberPreKeysTestUtil.generateECPublicKey
 import com.servalabs.chat.util.KyberPreKeysTestUtil.getStaleTime
 import com.servalabs.chat.util.KyberPreKeysTestUtil.insertTestRecord

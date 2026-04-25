@@ -8,8 +8,8 @@ import androidx.annotation.WorkerThread;
 
 import com.servalabs.chat.core.util.BidiUtil;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
 import com.servalabs.chat.R;
 import com.servalabs.chat.database.GroupTable;
 import com.servalabs.chat.database.SignalDatabase;

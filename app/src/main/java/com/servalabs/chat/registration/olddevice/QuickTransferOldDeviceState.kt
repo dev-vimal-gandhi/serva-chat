@@ -6,7 +6,7 @@
 package com.servalabs.chat.registration.olddevice
 
 import com.servalabs.chat.registration.data.QuickRegistrationRepository
-import org.signal.libsignal.api.provisioning.RestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod
 
 data class QuickTransferOldDeviceState(
   val reRegisterUri: String,

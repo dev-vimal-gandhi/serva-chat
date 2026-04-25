@@ -10,8 +10,8 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.StreamUtil
 import com.servalabs.chat.core.util.androidx.DocumentFileInfo
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.InvalidMacException
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMacException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
 import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
@@ -22,9 +22,9 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobs.protos.RestoreLocalAttachmentJobData
 import com.servalabs.chat.mms.MmsException
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.StreamSupplier
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.StreamSupplier
 import java.io.IOException
 
 /**

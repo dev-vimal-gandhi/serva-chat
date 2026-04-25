@@ -16,11 +16,11 @@ import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.net.NotPushRegisteredException;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.util.TextSecurePreferences;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage;
-import org.signal.libsignal.api.messages.multidevice.StickerPackOperationMessage;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage;
+import com.servalabs.chat.libsignal.api.messages.multidevice.StickerPackOperationMessage;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException;
 
 import java.util.LinkedList;
 import java.util.List;

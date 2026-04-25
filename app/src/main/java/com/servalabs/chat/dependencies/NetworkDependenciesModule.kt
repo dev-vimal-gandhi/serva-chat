@@ -13,8 +13,8 @@ import okhttp3.ConnectionSpec
 import okhttp3.OkHttpClient
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.resettableLazy
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.zkgroup.receipts.ClientZkReceiptOperations
 import com.servalabs.chat.BuildConfig
 import com.servalabs.chat.crypto.storage.SignalServiceDataStoreImpl
 import com.servalabs.chat.groups.GroupsV2Authorization

@@ -7,7 +7,7 @@ package com.servalabs.chat.util.parcelers
 
 import android.os.Parcel
 import kotlinx.parcelize.Parceler
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 
 /**
  * Parceler for nullable SubscriberIds

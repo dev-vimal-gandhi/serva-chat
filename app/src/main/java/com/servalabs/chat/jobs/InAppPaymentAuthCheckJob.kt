@@ -29,7 +29,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.subscription.LevelUpdate
 import com.servalabs.chat.subscription.LevelUpdateOperation
 import com.servalabs.chat.util.Environment
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import kotlin.concurrent.withLock
 import kotlin.time.Duration.Companion.days
 

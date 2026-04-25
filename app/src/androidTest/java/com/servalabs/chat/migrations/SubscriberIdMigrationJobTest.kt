@@ -15,7 +15,7 @@ import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.util.Currency
 
 @RunWith(AndroidJUnit4::class)

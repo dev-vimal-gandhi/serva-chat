@@ -11,7 +11,7 @@ import com.bumptech.glide.load.ResourceDecoder
 import com.bumptech.glide.load.engine.Resource
 import com.servalabs.chat.core.util.StreamUtil
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.media.WebpSanitizer
+import com.servalabs.chat.libsignal.media.WebpSanitizer
 import java.io.IOException
 import java.io.InputStream
 

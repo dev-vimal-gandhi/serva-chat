@@ -6,7 +6,7 @@
 package com.servalabs.chat.backup.v2
 
 import com.servalabs.chat.attachments.AttachmentId
-import org.signal.libsignal.api.archive.BatchArchiveMediaResponse
+import com.servalabs.chat.libsignal.api.archive.BatchArchiveMediaResponse
 
 /**
  * Result of attempting to batch copy multiple attachments at once with helpers for

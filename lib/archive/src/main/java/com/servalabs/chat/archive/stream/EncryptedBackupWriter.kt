@@ -14,7 +14,7 @@ import com.servalabs.chat.core.models.backup.MessageBackupKey
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.stream.MacOutputStream
 import com.servalabs.chat.core.util.writeVarInt32
-import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
+import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
 import java.io.IOException
 import java.io.OutputStream
 import javax.crypto.Cipher

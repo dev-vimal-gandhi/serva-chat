@@ -1,6 +1,6 @@
 package com.servalabs.chat
 
-import org.signal.libsignal.api.account.AccountAttributes
+import com.servalabs.chat.libsignal.api.account.AccountAttributes
 
 object AppCapabilities {
   /**

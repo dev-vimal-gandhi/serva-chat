@@ -6,8 +6,8 @@
 package com.servalabs.chat.libsignal.api.groupsv2
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsement
-import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
+import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsement
+import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
 import java.time.Instant
 
 /**

@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.payments;
+package com.servalabs.chat.libsignal.api.payments;
 
 import org.junit.Test;
 

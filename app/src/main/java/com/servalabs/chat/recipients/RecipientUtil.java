@@ -29,8 +29,8 @@ import com.servalabs.chat.mms.OutgoingMessage;
 import com.servalabs.chat.sms.MessageSender;
 import com.servalabs.chat.storage.StorageSyncHelper;
 import com.servalabs.chat.core.models.ServiceId;
-import org.signal.libsignal.api.push.SignalServiceAddress;
-import org.signal.libsignal.api.push.exceptions.NotFoundException;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.push.exceptions.NotFoundException;
 
 import java.io.IOException;
 import java.util.Collection;

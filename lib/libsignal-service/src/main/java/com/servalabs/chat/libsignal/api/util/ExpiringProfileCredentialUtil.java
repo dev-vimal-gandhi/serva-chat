@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.util;
 
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 
 import java.time.temporal.ChronoField;
 import java.util.concurrent.TimeUnit;

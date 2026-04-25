@@ -86,7 +86,7 @@ import com.servalabs.chat.util.VibrateUtil
 import com.servalabs.chat.webrtc.CallParticipantsViewState
 import com.servalabs.chat.webrtc.audio.SignalAudioManager
 import com.servalabs.chat.webrtc.audio.SignalAudioManager.ChosenAudioDeviceIdentifier
-import org.signal.libsignal.api.messages.calls.HangupMessage
+import com.servalabs.chat.libsignal.api.messages.calls.HangupMessage
 import kotlin.time.Duration.Companion.seconds
 
 /** Conversion */

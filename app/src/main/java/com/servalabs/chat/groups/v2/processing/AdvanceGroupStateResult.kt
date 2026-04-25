@@ -1,7 +1,7 @@
 package com.servalabs.chat.groups.v2.processing
 
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
-import org.signal.libsignal.api.groupsv2.DecryptedGroupChangeLog
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog
 
 /**
  * Result of applying group state changes to a local group state.

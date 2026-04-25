@@ -3,7 +3,7 @@ package com.servalabs.chat.libsignal.internal.push;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
-import org.signal.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 

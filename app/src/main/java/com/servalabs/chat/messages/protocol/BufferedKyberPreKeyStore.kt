@@ -6,14 +6,14 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.InvalidKeyIdException
-import org.signal.libsignal.protocol.ReusedBaseKeyException
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException
+import com.servalabs.chat.libsignal.protocol.ReusedBaseKeyException
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
 import com.servalabs.chat.database.KyberPreKeyTable.KyberPreKey
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.SignalServiceAccountDataStore
-import org.signal.libsignal.api.SignalServiceKyberPreKeyStore
+import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
+import com.servalabs.chat.libsignal.api.SignalServiceKyberPreKeyStore
 
 /**
  * An in-memory kyber prekey store that is intended to be used temporarily while decrypting messages.

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 /**
  * Represents an individual credential for an archive operation. Note that is isn't the final
- * credential you will actually use -- that's [org.signal.libsignal.zkgroup.backups.BackupAuthCredential].
+ * credential you will actually use -- that's [com.servalabs.chat.libsignal.zkgroup.backups.BackupAuthCredential].
  * But you use these to make those.
  */
 class ArchiveServiceCredential(

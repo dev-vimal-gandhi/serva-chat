@@ -4,8 +4,8 @@ import org.junit.Test;
 import com.servalabs.chat.core.util.Hex;
 import com.servalabs.chat.core.util.StreamUtil;
 import com.servalabs.chat.registration.testdata.PinSanitationVector;
-import org.signal.libsignal.api.kbs.PinHashUtil;
-import org.signal.libsignal.internal.util.JsonUtil;
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil;
+import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

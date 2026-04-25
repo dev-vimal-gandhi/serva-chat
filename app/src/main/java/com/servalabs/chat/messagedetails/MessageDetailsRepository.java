@@ -27,7 +27,7 @@ import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.mms.Slide;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.push.DistributionId;
+import com.servalabs.chat.libsignal.api.push.DistributionId;
 
 import java.util.LinkedList;
 import java.util.List;

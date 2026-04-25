@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
@@ -30,7 +30,7 @@ import com.servalabs.chat.core.util.Util;
 import com.servalabs.chat.util.RemoteConfig;
 import com.servalabs.chat.webrtc.audio.SignalAudioManager;
 import org.webrtc.PeerConnection;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
 
 import java.util.List;
 import java.util.Objects;

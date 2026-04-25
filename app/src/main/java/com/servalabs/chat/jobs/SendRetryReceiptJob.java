@@ -4,9 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
+import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage;
 import com.servalabs.chat.crypto.SealedSenderAccessUtil;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.groups.GroupId;
@@ -17,8 +17,8 @@ import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
-import org.signal.libsignal.api.push.SignalServiceAddress;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith
 import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.util.Hex
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.database.MessageTable.InsertResult
 import com.servalabs.chat.database.model.GroupsV2UpdateMessageConverter
 import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context

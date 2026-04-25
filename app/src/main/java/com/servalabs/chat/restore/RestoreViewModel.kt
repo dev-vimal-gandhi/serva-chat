@@ -26,7 +26,7 @@ import com.servalabs.chat.registration.data.QuickRegistrationRepository
 import com.servalabs.chat.registration.ui.restore.RestoreMethod
 import com.servalabs.chat.registration.ui.restore.StorageServiceRestore
 import com.servalabs.chat.util.Environment
-import org.signal.libsignal.api.provisioning.RestoreMethod as ApiRestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod as ApiRestoreMethod
 
 /**
  * Shared view model for the restore flow.

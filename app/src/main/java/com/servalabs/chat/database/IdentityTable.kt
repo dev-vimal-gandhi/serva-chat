@@ -33,7 +33,7 @@ import com.servalabs.chat.core.util.requireNonNullString
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.toOptional
 import com.servalabs.chat.core.util.update
-import org.signal.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
 import com.servalabs.chat.database.SignalDatabase.Companion.recipients
 import com.servalabs.chat.database.model.IdentityRecord
 import com.servalabs.chat.database.model.IdentityStoreRecord

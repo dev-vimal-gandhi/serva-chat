@@ -13,11 +13,11 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.mebiBytes
 import com.servalabs.chat.mms.PartAuthority
 import com.servalabs.chat.util.MediaUtil
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.messages.SignalServiceAttachment.ProgressListener
-import org.signal.libsignal.api.messages.SignalServiceAttachmentStream
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment.ProgressListener
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentStream
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.IOException
 import java.io.InputStream
 import java.security.MessageDigest

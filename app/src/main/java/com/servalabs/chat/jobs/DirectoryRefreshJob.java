@@ -10,7 +10,7 @@ import com.servalabs.chat.jobmanager.Job;
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;
 

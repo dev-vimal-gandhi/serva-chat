@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.api
 
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.KyberPreKeyStore
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyStore
 
 /**
  * And extension of the normal protocol sender key store interface that has additional methods that are

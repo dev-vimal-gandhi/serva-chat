@@ -15,8 +15,8 @@ import com.servalabs.chat.keyvalue.EmojiValues;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.s3.S3;
 import com.servalabs.chat.util.dynamiclanguage.DynamicLanguageContextWrapper;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
-import org.signal.libsignal.internal.util.JsonUtil;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 
 import java.io.IOException;
 import java.util.Arrays;

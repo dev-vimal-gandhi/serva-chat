@@ -19,9 +19,9 @@ import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readFully
-import org.signal.libsignal.messagebackup.ComparableBackup
-import org.signal.libsignal.messagebackup.MessageBackup
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.messagebackup.ComparableBackup
+import com.servalabs.chat.libsignal.messagebackup.MessageBackup
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.database.KeyValueDatabase
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore

@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.groupsv2
+package com.servalabs.chat.libsignal.api.groupsv2
 
 import assertk.assertThat
 import assertk.assertions.containsExactly
@@ -7,11 +7,11 @@ import assertk.assertions.single
 import org.junit.Before
 import org.junit.Test
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams
-import org.signal.libsignal.api.groupsv2.GroupsV2Operations.GroupOperations
-import org.signal.libsignal.internal.util.Util
-import org.signal.libsignal.testutil.LibSignalLibraryUtil
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Operations.GroupOperations
+import com.servalabs.chat.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil
 import java.util.UUID
 
 @Suppress("ClassName")

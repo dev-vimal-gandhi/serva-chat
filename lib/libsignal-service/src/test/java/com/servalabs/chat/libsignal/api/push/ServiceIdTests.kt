@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api.push
+package com.servalabs.chat.libsignal.api.push
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
@@ -13,8 +13,8 @@ import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.util.UuidUtil
 import java.util.UUID
-import org.signal.libsignal.protocol.ServiceId.Aci as LibSignalAci
-import org.signal.libsignal.protocol.ServiceId.Pni as LibSignalPni
+import com.servalabs.chat.libsignal.protocol.ServiceId.Aci as LibSignalAci
+import com.servalabs.chat.libsignal.protocol.ServiceId.Pni as LibSignalPni
 
 class ServiceIdTests {
 

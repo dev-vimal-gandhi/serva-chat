@@ -31,7 +31,7 @@ import com.servalabs.chat.releasechannel.ReleaseChannel
 import com.servalabs.chat.s3.S3
 import com.servalabs.chat.transport.RetryLaterException
 import com.servalabs.chat.util.LocaleRemoteConfig
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import java.io.IOException
 import java.lang.Integer.max
 import java.security.MessageDigest

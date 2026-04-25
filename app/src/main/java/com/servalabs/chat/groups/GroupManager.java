@@ -8,10 +8,10 @@ import androidx.annotation.WorkerThread;
 
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
+import com.servalabs.chat.libsignal.zkgroup.groups.UuidCiphertext;
 import com.servalabs.chat.storageservice.storage.protos.groups.ExternalGroupCredential;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
 import com.servalabs.chat.database.GroupTable;
@@ -22,7 +22,7 @@ import com.servalabs.chat.groups.v2.GroupLinkPassword;
 import com.servalabs.chat.groups.v2.processing.GroupUpdateResult;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.groupsv2.GroupLinkNotActiveException;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupLinkNotActiveException;
 
 import java.io.IOException;
 import java.util.Collection;

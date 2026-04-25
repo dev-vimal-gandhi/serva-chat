@@ -69,8 +69,8 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.util.ExpirationUtil;
 import com.servalabs.chat.util.SpanUtil;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil;
-import org.signal.libsignal.api.push.ServiceIds;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil;
+import com.servalabs.chat.libsignal.api.push.ServiceIds;
 
 import java.util.Arrays;
 import java.util.Collections;

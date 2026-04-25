@@ -6,10 +6,10 @@
 package com.servalabs.chat.core.models.backup
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
 
 /**
- * Contains the common properties for all "backup keys", namely the [MessageBackupKey] and [org.signal.libsignal.api.backup.MediaRootBackupKey]
+ * Contains the common properties for all "backup keys", namely the [MessageBackupKey] and [com.servalabs.chat.libsignal.api.backup.MediaRootBackupKey]
  */
 interface BackupKey {
 

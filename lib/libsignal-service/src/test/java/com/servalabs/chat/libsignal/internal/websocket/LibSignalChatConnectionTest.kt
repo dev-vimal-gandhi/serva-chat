@@ -15,11 +15,11 @@ import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
 import com.servalabs.chat.libsignal.internal.CompletableFuture
-import org.signal.libsignal.net.ChatConnection
-import org.signal.libsignal.net.ChatConnectionListener
-import org.signal.libsignal.net.ChatServiceException
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.net.UnauthenticatedChatConnection
+import com.servalabs.chat.libsignal.net.ChatConnection
+import com.servalabs.chat.libsignal.net.ChatConnectionListener
+import com.servalabs.chat.libsignal.net.ChatServiceException
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.net.UnauthenticatedChatConnection
 import com.servalabs.chat.libsignal.api.websocket.HealthMonitor
 import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 import java.io.IOException

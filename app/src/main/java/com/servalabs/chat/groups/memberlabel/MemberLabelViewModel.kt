@@ -23,7 +23,7 @@ import com.servalabs.chat.groups.memberlabel.MemberLabelUiState.SaveState
 import com.servalabs.chat.groups.ui.GroupMemberOrder
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 
 private val MEMBER_ORDER: Comparator<GroupMemberWithLabel> = GroupMemberOrder.comparator(
   isSelf = { it.recipient.isSelf },

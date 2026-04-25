@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.api.messages;
 
 
-import org.signal.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 import com.servalabs.chat.libsignal.api.push.exceptions.ProofRequiredException;
 import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException;

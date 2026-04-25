@@ -18,7 +18,7 @@ import com.servalabs.chat.registration.data.QuickRegistrationRepository
 import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceState
 import com.servalabs.chat.registration.olddevice.preparedevice.PrepareDeviceScreenEvents
 import com.servalabs.chat.registration.olddevice.transferaccount.TransferScreenEvents
-import org.signal.libsignal.api.provisioning.RestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod
 import java.util.UUID
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.minutes

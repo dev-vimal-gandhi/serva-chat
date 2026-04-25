@@ -16,8 +16,8 @@ import com.servalabs.chat.attachments.InvalidAttachmentException
 import com.servalabs.chat.database.AttachmentTable
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.io.IOException
 import java.util.Optional
 

@@ -25,10 +25,10 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.testutil.MockSignalStoreRule
 import com.servalabs.chat.testutil.SystemOutLogger
-import org.signal.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
-import org.signal.libsignal.api.subscriptions.SubscriberId
-import org.signal.libsignal.internal.EmptyResponse
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.internal.EmptyResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

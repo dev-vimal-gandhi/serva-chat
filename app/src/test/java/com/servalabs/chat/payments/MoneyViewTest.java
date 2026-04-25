@@ -9,7 +9,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.signal.libsignal.api.payments.Currency;
+import com.servalabs.chat.libsignal.api.payments.Currency;
 
 import static org.junit.Assert.assertEquals;
 

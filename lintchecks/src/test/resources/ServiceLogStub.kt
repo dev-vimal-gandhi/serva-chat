@@ -1,4 +1,4 @@
-package org.signal.libsignal.protocol.logging
+package com.servalabs.chat.libsignal.protocol.logging
 
 object Log {
   fun v(tag: String?, msg: String?) {

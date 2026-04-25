@@ -22,7 +22,7 @@ import com.servalabs.chat.database.model.StoryType
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.UUID
 
 @RunWith(AndroidJUnit4::class)

@@ -22,10 +22,10 @@ import com.servalabs.chat.database.model.databaseprotos.TerminalDonationQueue
 import com.servalabs.chat.database.model.isExpired
 import com.servalabs.chat.payments.currency.CurrencyUtil
 import com.servalabs.chat.subscription.LevelUpdateOperation
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.IdempotencyKey
-import org.signal.libsignal.api.subscriptions.SubscriberId
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.IdempotencyKey
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 import java.util.Currency
 import java.util.Locale
 import java.util.Optional

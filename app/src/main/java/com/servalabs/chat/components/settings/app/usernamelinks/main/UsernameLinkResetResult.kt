@@ -1,6 +1,6 @@
 package com.servalabs.chat.components.settings.app.usernamelinks.main
 
-import org.signal.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
 
 /**
  * Result of resetting the username link.

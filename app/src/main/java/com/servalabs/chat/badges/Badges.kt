@@ -15,7 +15,7 @@ import com.servalabs.chat.badges.models.Badge.Category.Companion.fromCode
 import com.servalabs.chat.components.settings.DSLConfiguration
 import com.servalabs.chat.database.model.databaseprotos.BadgeList
 import com.servalabs.chat.util.ScreenDensity
-import org.signal.libsignal.api.profiles.SignalServiceProfile
+import com.servalabs.chat.libsignal.api.profiles.SignalServiceProfile
 import java.math.BigDecimal
 import java.sql.Timestamp
 import java.util.concurrent.TimeUnit

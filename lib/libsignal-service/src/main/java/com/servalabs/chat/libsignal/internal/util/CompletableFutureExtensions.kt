@@ -5,10 +5,10 @@
 
 package com.servalabs.chat.libsignal.internal.util
 
-import org.signal.libsignal.internal.CompletableFuture
+import com.servalabs.chat.libsignal.internal.CompletableFuture
 
 /**
- * A Kotlin friendly adapter for [org.signal.libsignal.internal.CompletableFuture.whenComplete]
+ * A Kotlin friendly adapter for [com.servalabs.chat.libsignal.internal.CompletableFuture.whenComplete]
  * taking two callbacks ([onSuccess] and [onFailure]) instead of a [java.util.function.BiConsumer].
  *
  * Note that for libsignal's implementation of CompletableFuture, whenComplete will complete handlers in

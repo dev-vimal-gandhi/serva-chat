@@ -7,11 +7,11 @@ package com.servalabs.chat.libsignal.api.attachment
 
 import kotlinx.coroutines.runBlocking
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.AuthMessagesService
-import org.signal.libsignal.net.AuthenticatedChatConnection
-import org.signal.libsignal.net.RequestResult
-import org.signal.libsignal.net.UploadTooLargeException
-import org.signal.libsignal.net.getOrError
+import com.servalabs.chat.libsignal.net.AuthMessagesService
+import com.servalabs.chat.libsignal.net.AuthenticatedChatConnection
+import com.servalabs.chat.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.UploadTooLargeException
+import com.servalabs.chat.libsignal.net.getOrError
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
 import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId

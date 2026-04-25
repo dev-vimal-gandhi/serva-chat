@@ -27,7 +27,7 @@ import com.servalabs.chat.database.InAppPaymentTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.util.rx.RxStore
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 class StripePaymentInProgressViewModel : ViewModel() {
 

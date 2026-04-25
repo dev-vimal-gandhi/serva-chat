@@ -32,7 +32,7 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
 import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import java.time.Instant
 import java.time.temporal.ChronoUnit
 

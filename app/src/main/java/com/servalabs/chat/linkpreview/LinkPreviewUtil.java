@@ -16,7 +16,7 @@ import com.annimon.stream.Stream;
 import com.servalabs.chat.util.DateUtils;
 import com.servalabs.chat.util.LinkUtil;
 import com.servalabs.chat.core.util.Util;
-import org.signal.libsignal.api.util.OptionalUtil;
+import com.servalabs.chat.libsignal.api.util.OptionalUtil;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -19,11 +19,11 @@ import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
 import com.servalabs.chat.transport.RetryLaterException;
 import com.servalabs.chat.util.GroupUtil;
-import org.signal.libsignal.api.crypto.ContentHint;
-import org.signal.libsignal.api.crypto.UntrustedIdentityException;
-import org.signal.libsignal.api.messages.SendMessageResult;
-import org.signal.libsignal.api.messages.SignalServiceDataMessage;
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException;
+import com.servalabs.chat.libsignal.api.crypto.ContentHint;
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException;
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage;
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException;
 
 import java.io.IOException;
 import java.util.List;

@@ -3,7 +3,7 @@ package com.servalabs.chat.stickers
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobs.StickerPackDownloadJob
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 
 /**
  * Maintains a list of "blessed" sticker packs that essentially serve as defaults.

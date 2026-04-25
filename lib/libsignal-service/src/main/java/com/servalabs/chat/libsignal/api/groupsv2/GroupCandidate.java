@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.libsignal.api.util.ExpiringProfileCredentialUtil;
 

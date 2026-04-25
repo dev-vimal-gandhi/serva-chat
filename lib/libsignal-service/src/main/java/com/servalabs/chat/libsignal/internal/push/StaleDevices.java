@@ -7,7 +7,7 @@ package com.servalabs.chat.libsignal.internal.push;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.signal.libsignal.net.MismatchedDeviceException;
+import com.servalabs.chat.libsignal.net.MismatchedDeviceException;
 
 import java.util.ArrayList;
 import java.util.List;

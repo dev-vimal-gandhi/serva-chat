@@ -32,7 +32,7 @@ import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.mms.Slide;
 import com.servalabs.chat.mms.SlideClickListener;
 import com.servalabs.chat.mms.SlidesClickedListener;
-import org.signal.libsignal.api.util.OptionalUtil;
+import com.servalabs.chat.libsignal.api.util.OptionalUtil;
 
 import java.util.Collections;
 

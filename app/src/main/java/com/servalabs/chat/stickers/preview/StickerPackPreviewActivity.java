@@ -36,7 +36,7 @@ import com.servalabs.chat.stickers.manage.StickerManagementRepository;
 import com.servalabs.chat.util.DeviceProperties;
 import com.servalabs.chat.util.DynamicNoActionBarTheme;
 import com.servalabs.chat.util.DynamicTheme;
-import org.signal.libsignal.api.util.OptionalUtil;
+import com.servalabs.chat.libsignal.api.util.OptionalUtil;
 
 import java.util.Collections;
 import java.util.Optional;

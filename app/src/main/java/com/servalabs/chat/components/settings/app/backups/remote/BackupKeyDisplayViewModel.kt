@@ -21,7 +21,7 @@ import com.servalabs.chat.backup.v2.StagedBackupKeyRotations
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobs.RestoreOptimizedMediaJob
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 
 class BackupKeyDisplayViewModel : ViewModel(), BackupKeyCredentialManagerHandler {
 

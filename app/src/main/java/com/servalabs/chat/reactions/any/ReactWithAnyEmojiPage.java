@@ -4,7 +4,7 @@ import androidx.annotation.AttrRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.List;
 import java.util.Objects;

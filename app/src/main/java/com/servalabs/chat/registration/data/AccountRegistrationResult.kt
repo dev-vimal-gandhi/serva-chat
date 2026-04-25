@@ -6,7 +6,7 @@
 package com.servalabs.chat.registration.data
 
 import com.servalabs.chat.core.models.MasterKey
-import org.signal.libsignal.api.account.PreKeyCollection
+import com.servalabs.chat.libsignal.api.account.PreKeyCollection
 
 data class AccountRegistrationResult(
   val uuid: String,

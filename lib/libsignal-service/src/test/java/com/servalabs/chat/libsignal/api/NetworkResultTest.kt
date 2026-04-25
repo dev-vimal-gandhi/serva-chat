@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api
+package com.servalabs.chat.libsignal.api
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
 
 class NetworkResultTest {
   @Test

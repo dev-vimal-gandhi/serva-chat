@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.signal.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.libsignal.api.push.SignedPreKeyEntity;
 import com.servalabs.chat.libsignal.internal.push.KyberPreKeyEntity;
 import com.servalabs.chat.libsignal.internal.push.OutgoingPushMessage;

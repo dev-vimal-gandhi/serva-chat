@@ -13,10 +13,10 @@ import okio.ByteString.Companion.toByteString
 import org.junit.Test
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.libsignal.internal.push.ProvisionEnvelope
 import com.servalabs.chat.libsignal.internal.push.ProvisionMessage
 import com.servalabs.chat.libsignal.internal.push.ProvisioningVersion

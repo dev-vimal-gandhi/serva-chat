@@ -25,9 +25,9 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.testutil.RxPluginsRule
-import org.signal.libsignal.api.subscriptions.SubscriberId
-import org.signal.libsignal.internal.EmptyResponse
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.internal.EmptyResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import java.util.Currency
 
 @RunWith(RobolectricTestRunner::class)

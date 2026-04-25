@@ -21,7 +21,7 @@ import com.servalabs.chat.profiles.AvatarHelper
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.NameUtil
-import org.signal.libsignal.api.util.StreamDetails
+import com.servalabs.chat.libsignal.api.util.StreamDetails
 import java.io.IOException
 
 private val TAG = Log.tag(AvatarPickerRepository::class.java)

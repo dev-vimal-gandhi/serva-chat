@@ -10,8 +10,8 @@ import com.servalabs.chat.archive.proto.Group
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.toInt
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedBannedMember
@@ -34,7 +34,7 @@ import com.servalabs.chat.groups.v2.processing.GroupsV2StateProcessor
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.groupsv2.GroupsV2Operations
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Operations
 
 /**
  * Handles the importing of [ArchiveGroup] models into the local database.

@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.JsonSerializer
 import com.fasterxml.jackson.databind.SerializerProvider
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import com.servalabs.chat.core.util.Base64
-import org.signal.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
 
 /**
  * Represents the request body when setting the archive public key.

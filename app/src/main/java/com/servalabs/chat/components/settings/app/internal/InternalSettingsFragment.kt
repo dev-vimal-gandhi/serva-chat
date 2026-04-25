@@ -60,7 +60,7 @@ import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.ConversationUtil
 import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
 import java.util.Optional
 import java.util.UUID
 import java.util.concurrent.TimeUnit

@@ -48,7 +48,7 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.recipients.rememberRecipientField
 import com.servalabs.chat.stories.dialogs.StoryDialogs
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.UUID
 
 /**

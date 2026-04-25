@@ -3,7 +3,7 @@ package com.servalabs.chat.components.settings.app.subscription.donate
 import androidx.lifecycle.ViewModel
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.database.InAppPaymentTable
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 /**
  * State holder for the checkout flow when utilizing Google Pay.

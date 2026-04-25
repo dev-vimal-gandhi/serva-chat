@@ -13,7 +13,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 class StoryViewsRepository {
 

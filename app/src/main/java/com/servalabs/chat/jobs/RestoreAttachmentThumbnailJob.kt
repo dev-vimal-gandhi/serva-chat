@@ -5,7 +5,7 @@
 package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.InvalidAttachmentException
 import com.servalabs.chat.backup.v2.ArchiveDatabaseExecutor
@@ -21,10 +21,10 @@ import com.servalabs.chat.jobmanager.JsonJobData
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.push.exceptions.MissingConfigurationException
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.push.exceptions.MissingConfigurationException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.io.File
 import java.io.IOException
 import java.util.concurrent.TimeUnit

@@ -5,8 +5,8 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
 import org.signal.ringrtc.PeekInfo;
@@ -18,9 +18,9 @@ import com.servalabs.chat.webrtc.audio.AudioManagerCompat;
 import com.servalabs.chat.webrtc.audio.SignalAudioManager;
 import com.servalabs.chat.webrtc.locks.LockManager;
 import org.webrtc.PeerConnection;
-import org.signal.libsignal.api.messages.calls.HangupMessage;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
-import org.signal.libsignal.api.messages.calls.OpaqueMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.HangupMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OpaqueMessage;
 
 import java.net.InetSocketAddress;
 import java.net.Proxy;

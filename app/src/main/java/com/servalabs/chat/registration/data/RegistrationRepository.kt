@@ -24,9 +24,9 @@ import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.models.backup.MediaRootBackupKey
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.util.KeyHelper
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.util.KeyHelper
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.AppCapabilities
 import com.servalabs.chat.crypto.PreKeyUtil
 import com.servalabs.chat.crypto.ProfileKeyUtil

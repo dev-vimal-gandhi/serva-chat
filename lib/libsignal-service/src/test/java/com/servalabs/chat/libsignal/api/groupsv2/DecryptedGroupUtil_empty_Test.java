@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Test;
 import com.servalabs.chat.core.util.UuidUtil;
@@ -20,13 +20,13 @@ import okio.ByteString;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.member;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingMemberRemoval;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingPniAciMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.promoteAdmin;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.randomProfileKey;
-import static org.signal.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.member;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingMemberRemoval;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingPniAciMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.promoteAdmin;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.randomProfileKey;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
 
 @SuppressWarnings("NewClassNamingConvention")
 public final class DecryptedGroupUtil_empty_Test {

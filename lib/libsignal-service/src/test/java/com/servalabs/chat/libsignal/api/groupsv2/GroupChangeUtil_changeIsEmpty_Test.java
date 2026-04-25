@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Test;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChange;
@@ -8,7 +8,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.signal.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
 
 @SuppressWarnings("NewClassNamingConvention")
 public final class GroupChangeUtil_changeIsEmpty_Test {

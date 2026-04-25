@@ -9,8 +9,8 @@ import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.BuildConfig;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.util.RemoteConfig;
-import org.signal.libsignal.api.SignalServiceAccountManager;
-import org.signal.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.SignalServiceAccountManager;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 
 public class AccountManagerFactory {
 

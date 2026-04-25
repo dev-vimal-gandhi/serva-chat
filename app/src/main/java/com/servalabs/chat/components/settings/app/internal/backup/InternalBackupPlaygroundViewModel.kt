@@ -36,7 +36,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readNBytesOrThrow
 import com.servalabs.chat.core.util.roundedString
 import com.servalabs.chat.core.util.stream.LimitedInputStream
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.DatabaseAttachment
 import com.servalabs.chat.backup.ArchiveUploadProgress
@@ -57,8 +57,8 @@ import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.svr.SvrBApi
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.svr.SvrBApi
 import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream

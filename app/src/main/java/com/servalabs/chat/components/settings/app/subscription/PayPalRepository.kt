@@ -9,10 +9,10 @@ import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.services.DonationsService
-import org.signal.libsignal.api.subscriptions.PayPalConfirmPaymentIntentResponse
-import org.signal.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
-import org.signal.libsignal.api.subscriptions.PayPalCreatePaymentMethodResponse
+import com.servalabs.chat.libsignal.api.services.DonationsService
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalConfirmPaymentIntentResponse
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalCreatePaymentIntentResponse
+import com.servalabs.chat.libsignal.api.subscriptions.PayPalCreatePaymentMethodResponse
 import java.util.Locale
 
 /**

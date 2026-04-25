@@ -1,8 +1,8 @@
 package com.servalabs.chat.profiles.manage
 
 import org.signal.libsignal.usernames.Username
-import org.signal.libsignal.api.util.discriminator
-import org.signal.libsignal.api.util.nickname
+import com.servalabs.chat.libsignal.api.util.discriminator
+import com.servalabs.chat.libsignal.api.util.nickname
 
 /**
  * Describes the state of the username suffix, which is a spanned CharSequence.

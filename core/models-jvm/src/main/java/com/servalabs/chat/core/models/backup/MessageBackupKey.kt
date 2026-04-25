@@ -6,11 +6,11 @@
 package com.servalabs.chat.core.models.backup
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
-import org.signal.libsignal.messagebackup.MessageBackupKey
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
+import com.servalabs.chat.libsignal.messagebackup.MessageBackupKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
 
-private typealias LibSignalBackupKey = org.signal.libsignal.messagebackup.BackupKey
+private typealias LibSignalBackupKey = com.servalabs.chat.libsignal.messagebackup.BackupKey
 
 /**
  * Safe typing around a backup key, which is a 32-byte array.

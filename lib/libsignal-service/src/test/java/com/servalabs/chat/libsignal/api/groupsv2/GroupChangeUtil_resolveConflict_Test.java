@@ -1,8 +1,8 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Test;
 import com.servalabs.chat.core.util.UuidUtil;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChange;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
@@ -15,7 +15,7 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMo
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedString;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedTimer;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState;
-import org.signal.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.internal.util.Util;
 
 import java.util.List;
 import java.util.UUID;
@@ -24,22 +24,22 @@ import okio.ByteString;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.admin;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.approveMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.bannedMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.demoteAdmin;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.encrypt;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.encryptedMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.encryptedRequestingMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.member;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingMemberRemoval;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.pendingPniAciMember;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.presentation;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.promoteAdmin;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.randomProfileKey;
-import static org.signal.libsignal.api.groupsv2.ProtoTestUtils.requestingMember;
-import static org.signal.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.admin;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.approveMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.bannedMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.demoteAdmin;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.encrypt;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.encryptedMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.encryptedRequestingMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.member;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingMemberRemoval;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.pendingPniAciMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.presentation;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.promoteAdmin;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.randomProfileKey;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtoTestUtils.requestingMember;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
 
 @SuppressWarnings("NewClassNamingConvention")
 public final class GroupChangeUtil_resolveConflict_Test {

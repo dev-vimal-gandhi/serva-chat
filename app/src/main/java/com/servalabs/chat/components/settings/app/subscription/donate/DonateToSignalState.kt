@@ -11,7 +11,7 @@ import com.servalabs.chat.database.model.isLongRunning
 import com.servalabs.chat.database.model.isPending
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.subscription.Subscription
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.concurrent.TimeUnit

@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.core.util.Util;
-import org.signal.libsignal.api.payments.PaymentsConstants;
+import com.servalabs.chat.libsignal.api.payments.PaymentsConstants;
 
 import java.util.Locale;
 

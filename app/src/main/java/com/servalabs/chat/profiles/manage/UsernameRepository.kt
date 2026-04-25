@@ -11,7 +11,7 @@ import com.servalabs.chat.core.util.Result.Companion.success
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.RequestResult
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
 import org.signal.libsignal.usernames.UsernameLinkInvalidEntropyDataLength
@@ -26,10 +26,10 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.NetworkUtil
 import com.servalabs.chat.util.UsernameUtil
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.SignalServiceAccountManager
-import org.signal.libsignal.api.push.UsernameLinkComponents
-import org.signal.libsignal.api.util.Usernames
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.SignalServiceAccountManager
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.util.Usernames
 import java.util.UUID
 
 /**

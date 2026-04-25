@@ -18,7 +18,7 @@ import com.servalabs.chat.core.models.media.Media;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.stickers.StickerLocator;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.ArrayList;
 import java.util.Collection;

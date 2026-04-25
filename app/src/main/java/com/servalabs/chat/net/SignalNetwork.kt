@@ -7,23 +7,23 @@ package com.servalabs.chat.net
 
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.dependencies.KeyTransparencyApi
-import org.signal.libsignal.api.account.AccountApi
-import org.signal.libsignal.api.archive.ArchiveApi
-import org.signal.libsignal.api.attachment.AttachmentApi
-import org.signal.libsignal.api.calling.CallingApi
-import org.signal.libsignal.api.cds.CdsApi
-import org.signal.libsignal.api.certificate.CertificateApi
-import org.signal.libsignal.api.keys.KeysApi
-import org.signal.libsignal.api.link.LinkDeviceApi
-import org.signal.libsignal.api.message.MessageApi
-import org.signal.libsignal.api.payments.PaymentsApi
-import org.signal.libsignal.api.profiles.ProfileApi
-import org.signal.libsignal.api.provisioning.ProvisioningApi
-import org.signal.libsignal.api.ratelimit.RateLimitChallengeApi
-import org.signal.libsignal.api.remoteconfig.RemoteConfigApi
-import org.signal.libsignal.api.storage.StorageServiceApi
-import org.signal.libsignal.api.svr.SvrBApi
-import org.signal.libsignal.api.username.UsernameApi
+import com.servalabs.chat.libsignal.api.account.AccountApi
+import com.servalabs.chat.libsignal.api.archive.ArchiveApi
+import com.servalabs.chat.libsignal.api.attachment.AttachmentApi
+import com.servalabs.chat.libsignal.api.calling.CallingApi
+import com.servalabs.chat.libsignal.api.cds.CdsApi
+import com.servalabs.chat.libsignal.api.certificate.CertificateApi
+import com.servalabs.chat.libsignal.api.keys.KeysApi
+import com.servalabs.chat.libsignal.api.link.LinkDeviceApi
+import com.servalabs.chat.libsignal.api.message.MessageApi
+import com.servalabs.chat.libsignal.api.payments.PaymentsApi
+import com.servalabs.chat.libsignal.api.profiles.ProfileApi
+import com.servalabs.chat.libsignal.api.provisioning.ProvisioningApi
+import com.servalabs.chat.libsignal.api.ratelimit.RateLimitChallengeApi
+import com.servalabs.chat.libsignal.api.remoteconfig.RemoteConfigApi
+import com.servalabs.chat.libsignal.api.storage.StorageServiceApi
+import com.servalabs.chat.libsignal.api.svr.SvrBApi
+import com.servalabs.chat.libsignal.api.username.UsernameApi
 
 /**
  * A convenient way to access network operations, similar to [com.servalabs.chat.database.SignalDatabase] and [com.servalabs.chat.keyvalue.SignalStore].

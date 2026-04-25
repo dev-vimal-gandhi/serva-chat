@@ -35,7 +35,7 @@ import com.servalabs.chat.groups.v2.ChangeBuilder
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.Recipient.Companion.resolved
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.ServiceIds
+import com.servalabs.chat.libsignal.api.push.ServiceIds
 import java.util.UUID
 
 @RunWith(RobolectricTestRunner::class)

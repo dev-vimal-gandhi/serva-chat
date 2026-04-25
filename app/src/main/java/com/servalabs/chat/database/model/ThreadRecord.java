@@ -29,7 +29,7 @@ import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
 import com.servalabs.chat.database.model.databaseprotos.MessageExtras;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.Objects;
 

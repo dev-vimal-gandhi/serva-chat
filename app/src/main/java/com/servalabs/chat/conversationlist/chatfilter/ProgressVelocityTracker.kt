@@ -1,7 +1,7 @@
 package com.servalabs.chat.conversationlist.chatfilter
 
 import androidx.annotation.FloatRange
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 import kotlin.time.Duration
 
 /**

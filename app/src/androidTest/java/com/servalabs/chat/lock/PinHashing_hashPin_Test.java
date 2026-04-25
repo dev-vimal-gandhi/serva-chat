@@ -6,9 +6,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import com.servalabs.chat.core.util.Hex;
 import org.signal.libsignal.svr2.PinHash;
-import org.signal.libsignal.api.kbs.KbsData;
+import com.servalabs.chat.libsignal.api.kbs.KbsData;
 import com.servalabs.chat.core.models.MasterKey;
-import org.signal.libsignal.api.kbs.PinHashUtil;
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil;
 
 import java.io.IOException;
 

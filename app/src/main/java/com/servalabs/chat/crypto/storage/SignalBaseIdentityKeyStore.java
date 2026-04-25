@@ -8,9 +8,9 @@ import androidx.annotation.Nullable;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.state.IdentityKeyStore;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import com.servalabs.chat.libsignal.protocol.state.IdentityKeyStore;
 import com.servalabs.chat.crypto.ReentrantSessionLock;
 import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore.SaveResult;
 import com.servalabs.chat.database.IdentityTable;
@@ -25,7 +25,7 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.util.IdentityUtil;
 import com.servalabs.chat.core.util.LRUCache;
-import org.signal.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
 import com.servalabs.chat.core.models.ServiceId;
 
 import java.util.ArrayList;

@@ -5,7 +5,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.push.IasTrustStore;
-import org.signal.libsignal.api.push.TrustStore;
+import com.servalabs.chat.libsignal.api.push.TrustStore;
 
 import java.io.IOException;
 import java.security.KeyStore;

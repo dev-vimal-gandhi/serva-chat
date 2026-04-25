@@ -10,30 +10,30 @@ import com.servalabs.chat.core.models.ServiceId.PNI;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.ProtoUtil;
 import com.servalabs.chat.core.util.UuidUtil;
-import org.signal.libsignal.metadata.certificate.SenderCertificate;
-import org.signal.libsignal.net.MismatchedDeviceException;
-import org.signal.libsignal.net.MultiRecipientMessageResponse;
-import org.signal.libsignal.net.MultiRecipientSendAuthorization;
-import org.signal.libsignal.net.MultiRecipientSendFailure;
-import org.signal.libsignal.net.RequestResult;
-import org.signal.libsignal.net.RequestUnauthorizedException;
-import org.signal.libsignal.net.UploadTooLargeException;
-import org.signal.libsignal.net.RetryLaterException;
-import org.signal.libsignal.protocol.IdentityKey;
-import org.signal.libsignal.protocol.IdentityKeyPair;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.protocol.InvalidRegistrationIdException;
-import org.signal.libsignal.protocol.NoSessionException;
-import org.signal.libsignal.protocol.SessionBuilder;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.groups.GroupSessionBuilder;
-import org.signal.libsignal.protocol.logging.Log;
-import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
-import org.signal.libsignal.protocol.message.PlaintextContent;
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
-import org.signal.libsignal.protocol.state.PreKeyBundle;
-import org.signal.libsignal.protocol.state.SessionRecord;
-import org.signal.libsignal.zkgroup.groupsend.GroupSendFullToken;
+import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate;
+import com.servalabs.chat.libsignal.net.MismatchedDeviceException;
+import com.servalabs.chat.libsignal.net.MultiRecipientMessageResponse;
+import com.servalabs.chat.libsignal.net.MultiRecipientSendAuthorization;
+import com.servalabs.chat.libsignal.net.MultiRecipientSendFailure;
+import com.servalabs.chat.libsignal.net.RequestResult;
+import com.servalabs.chat.libsignal.net.RequestUnauthorizedException;
+import com.servalabs.chat.libsignal.net.UploadTooLargeException;
+import com.servalabs.chat.libsignal.net.RetryLaterException;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.protocol.InvalidRegistrationIdException;
+import com.servalabs.chat.libsignal.protocol.NoSessionException;
+import com.servalabs.chat.libsignal.protocol.SessionBuilder;
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import com.servalabs.chat.libsignal.protocol.groups.GroupSessionBuilder;
+import com.servalabs.chat.libsignal.protocol.logging.Log;
+import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage;
+import com.servalabs.chat.libsignal.protocol.message.PlaintextContent;
+import com.servalabs.chat.libsignal.protocol.message.SenderKeyDistributionMessage;
+import com.servalabs.chat.libsignal.protocol.state.PreKeyBundle;
+import com.servalabs.chat.libsignal.protocol.state.SessionRecord;
+import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendFullToken;
 import com.servalabs.chat.libsignal.api.attachment.AttachmentApi;
 import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil;
 import com.servalabs.chat.libsignal.api.crypto.ContentHint;
@@ -2561,7 +2561,7 @@ public class SignalServiceMessageSender {
       byte[] ciphertext;
       try {
         ciphertext = cipher.encryptForGroup(distributionId, targetInfo.destinations, targetInfo.sessions, sealedSenderAccess.getSenderCertificate(), content.encode(), contentHint, groupId);
-      } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+      } catch (com.servalabs.chat.libsignal.protocol.UntrustedIdentityException e) {
         throw new UntrustedIdentityException("Untrusted during group encrypt", e.getName(), e.getUntrustedIdentity());
       }
 
@@ -2865,7 +2865,7 @@ public class SignalServiceMessageSender {
             SignalProtocolAddress preKeyAddress  = new SignalProtocolAddress(recipient.getIdentifier(), preKey.getDeviceId());
             SignalSessionBuilder  sessionBuilder = new SignalSessionBuilder(sessionLock, new SessionBuilder(aciStore, preKeyAddress));
             sessionBuilder.process(preKey);
-          } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+          } catch (com.servalabs.chat.libsignal.protocol.UntrustedIdentityException e) {
             throw new UntrustedIdentityException("Untrusted identity key!", recipient.getIdentifier(), preKey.getIdentityKey());
           }
         }
@@ -2880,7 +2880,7 @@ public class SignalServiceMessageSender {
 
     try {
       return cipher.encrypt(signalProtocolAddress, sealedSenderAccess, plaintext);
-    } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+    } catch (com.servalabs.chat.libsignal.protocol.UntrustedIdentityException e) {
       throw new UntrustedIdentityException("Untrusted on send", recipient.getIdentifier(), e.getUntrustedIdentity());
     }
   }
@@ -2942,7 +2942,7 @@ public class SignalServiceMessageSender {
           SignalProtocolAddress preKeyAddress  = new SignalProtocolAddress(recipient.getIdentifier(), preKey.getDeviceId());
           SignalSessionBuilder  sessionBuilder = new SignalSessionBuilder(sessionLock, new SessionBuilder(aciStore, preKeyAddress));
           sessionBuilder.process(preKey);
-        } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+        } catch (com.servalabs.chat.libsignal.protocol.UntrustedIdentityException e) {
           Log.i(TAG, "[eagerPrefetch] Untrusted identity for recipient");
           return;
 
@@ -2997,7 +2997,7 @@ public class SignalServiceMessageSender {
         try {
           SignalSessionBuilder sessionBuilder = new SignalSessionBuilder(sessionLock, new SessionBuilder(aciStore, new SignalProtocolAddress(recipient.getIdentifier(), missingDeviceId)));
           sessionBuilder.process(preKey);
-        } catch (org.signal.libsignal.protocol.UntrustedIdentityException e) {
+        } catch (com.servalabs.chat.libsignal.protocol.UntrustedIdentityException e) {
           throw new UntrustedIdentityException("Untrusted identity key!", recipient.getIdentifier(), preKey.getIdentityKey());
         }
       }

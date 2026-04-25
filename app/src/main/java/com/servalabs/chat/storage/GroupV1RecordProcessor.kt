@@ -7,10 +7,10 @@ import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.RecipientRecord
 import com.servalabs.chat.groups.BadGroupIdException
 import com.servalabs.chat.groups.GroupId
-import org.signal.libsignal.api.storage.SignalGroupV1Record
-import org.signal.libsignal.api.storage.SignalStorageRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.toSignalGroupV1Record
+import com.servalabs.chat.libsignal.api.storage.SignalGroupV1Record
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.toSignalGroupV1Record
 import java.util.Optional
 
 /**

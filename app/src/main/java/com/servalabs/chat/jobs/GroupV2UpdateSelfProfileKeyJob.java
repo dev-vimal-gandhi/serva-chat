@@ -22,8 +22,8 @@ import com.servalabs.chat.jobmanager.impl.DecryptionsDrainedConstraint;
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.recipients.Recipient;
-import org.signal.libsignal.api.groupsv2.NoCredentialForRedemptionTimeException;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.groupsv2.NoCredentialForRedemptionTimeException;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;
 import java.util.Optional;

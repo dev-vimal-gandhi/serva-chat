@@ -7,8 +7,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.servalabs.chat.util.SingleLiveEvent;
-import org.signal.libsignal.api.kbs.PinValidityChecker;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.kbs.PinValidityChecker;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 public final class CreateSvrPinViewModel extends ViewModel implements BaseSvrPinViewModel {
 

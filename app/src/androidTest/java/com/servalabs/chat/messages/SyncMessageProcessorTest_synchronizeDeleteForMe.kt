@@ -37,8 +37,8 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.testing.MessageContentFuzzer.DeleteForMeSync
 import com.servalabs.chat.testing.SignalActivityRule
 import com.servalabs.chat.util.IdentityUtil
-import org.signal.libsignal.api.attachment.AttachmentUploadResult
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.attachment.AttachmentUploadResult
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.util.UUID
 
 @Suppress("ClassName")

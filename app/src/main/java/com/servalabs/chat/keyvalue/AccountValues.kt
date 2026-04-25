@@ -11,10 +11,10 @@ import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.nullIfBlank
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.protocol.util.Medium
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.util.Medium
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.crypto.storage.PreKeyMetadataStore
 import com.servalabs.chat.database.SignalDatabase
@@ -23,13 +23,13 @@ import com.servalabs.chat.jobmanager.impl.RegisteredConstraint
 import com.servalabs.chat.jobs.PreKeysSyncJob
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.SecurePreferenceManager
-import org.signal.libsignal.api.push.ServiceIds
-import org.signal.libsignal.api.push.SignalServiceAddress
-import org.signal.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.push.ServiceIds
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
 import java.security.SecureRandom
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
-import org.signal.libsignal.messagebackup.AccountEntropyPool as LibSignalAccountEntropyPool
+import com.servalabs.chat.libsignal.messagebackup.AccountEntropyPool as LibSignalAccountEntropyPool
 
 class AccountValues internal constructor(store: KeyValueStore, context: Context) : SignalStoreValues(store) {
 

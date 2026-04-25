@@ -10,7 +10,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.messages.SendMessageResult
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.withLock
 

@@ -17,7 +17,7 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGr
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMember
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedString
 import com.servalabs.chat.testutil.LogRecorder
-import org.signal.libsignal.api.groupsv2.DecryptedGroupChangeLog
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog
 import java.util.UUID
 
 class GroupStatePatcherTest {

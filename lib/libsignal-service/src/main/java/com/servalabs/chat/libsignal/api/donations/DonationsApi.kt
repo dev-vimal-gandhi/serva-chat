@@ -7,9 +7,9 @@ package com.servalabs.chat.libsignal.api.donations
 
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.urlEncode
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialRequest
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialResponse
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.push.exceptions.MalformedResponseException
 import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription

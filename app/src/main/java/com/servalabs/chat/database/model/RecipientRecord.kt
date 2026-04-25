@@ -4,8 +4,8 @@ import android.net.Uri
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.models.ServiceId.PNI
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import com.servalabs.chat.badges.models.Badge
 import com.servalabs.chat.conversation.colors.AvatarColor
 import com.servalabs.chat.conversation.colors.ChatColors

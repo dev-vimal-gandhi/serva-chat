@@ -6,13 +6,13 @@
 package com.servalabs.chat.crypto.storage
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.InvalidKeyIdException
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.KyberPreKeyStore
+import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyStore
 import com.servalabs.chat.crypto.ReentrantSessionLock
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.SignalServiceKyberPreKeyStore
+import com.servalabs.chat.libsignal.api.SignalServiceKyberPreKeyStore
 import kotlin.jvm.Throws
 
 /**

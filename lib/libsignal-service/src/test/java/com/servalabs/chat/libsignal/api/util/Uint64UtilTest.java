@@ -1,12 +1,12 @@
-package org.signal.libsignal.api.util;
+package com.servalabs.chat.libsignal.api.util;
 
 import org.junit.Test;
 
 import java.math.BigInteger;
 
 import static org.junit.Assert.assertEquals;
-import static org.signal.libsignal.api.util.Uint64Util.bigIntegerToUInt64;
-import static org.signal.libsignal.api.util.Uint64Util.uint64ToBigInteger;
+import static com.servalabs.chat.libsignal.api.util.Uint64Util.bigIntegerToUInt64;
+import static com.servalabs.chat.libsignal.api.util.Uint64Util.uint64ToBigInteger;
 
 public final class Uint64UtilTest {
 

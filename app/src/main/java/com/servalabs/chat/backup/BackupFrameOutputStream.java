@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 
 import com.servalabs.chat.core.util.Conversions;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.kdf.HKDF;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import com.servalabs.chat.libsignal.protocol.kdf.HKDF;
+import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
 import com.servalabs.chat.attachments.AttachmentId;
 import com.servalabs.chat.backup.proto.Attachment;
 import com.servalabs.chat.backup.proto.Avatar;

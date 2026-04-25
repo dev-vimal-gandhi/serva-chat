@@ -14,10 +14,10 @@ import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
 import com.servalabs.chat.core.models.ServiceId;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException;
 
 import java.io.IOException;
 import java.util.List;

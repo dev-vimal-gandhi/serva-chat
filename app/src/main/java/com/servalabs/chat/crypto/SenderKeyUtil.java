@@ -2,12 +2,12 @@ package com.servalabs.chat.crypto;
 
 import androidx.annotation.NonNull;
 
-import org.signal.libsignal.protocol.SignalProtocolAddress;
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.keyvalue.SignalStore;
-import org.signal.libsignal.api.SignalSessionLock;
-import org.signal.libsignal.api.push.DistributionId;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.push.DistributionId;
 
 public final class SenderKeyUtil {
   private SenderKeyUtil() {}

@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import com.servalabs.chat.libsignal.protocol.message.SenderKeyDistributionMessage;
 import com.servalabs.chat.crypto.SealedSenderAccessUtil;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.model.DistributionListRecord;
@@ -18,11 +18,11 @@ import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.crypto.SealedSenderAccess;
-import org.signal.libsignal.api.messages.SendMessageResult;
-import org.signal.libsignal.api.push.DistributionId;
-import org.signal.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess;
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult;
+import com.servalabs.chat.libsignal.api.push.DistributionId;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 
 import java.util.Collections;
 import java.util.List;

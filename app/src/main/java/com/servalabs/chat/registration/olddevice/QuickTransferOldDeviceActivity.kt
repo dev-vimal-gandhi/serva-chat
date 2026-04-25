@@ -34,7 +34,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.DynamicNoActionBarTheme
 import com.servalabs.chat.util.DynamicTheme
 import com.servalabs.chat.util.viewModel
-import org.signal.libsignal.api.provisioning.RestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod
 
 /**
  * Launched after scanning QR code from new device to start the transfer/reregistration process from

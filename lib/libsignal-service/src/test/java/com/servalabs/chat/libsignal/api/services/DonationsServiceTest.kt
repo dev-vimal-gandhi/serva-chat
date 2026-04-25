@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.services
+package com.servalabs.chat.libsignal.api.services
 
 import io.mockk.every
 import io.mockk.mockk
@@ -7,11 +7,11 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.donations.DonationsApi
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.donations.DonationsApi
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 
 class DonationsServiceTest {
   private val donationsApi: DonationsApi = mockk<DonationsApi>()

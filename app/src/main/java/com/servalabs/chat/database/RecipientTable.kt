@@ -43,11 +43,11 @@ import com.servalabs.chat.core.util.toInt
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.updateAll
 import com.servalabs.chat.core.util.withinTransaction
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 import com.servalabs.chat.badges.Badges.toDatabaseBadge
 import com.servalabs.chat.badges.models.Badge

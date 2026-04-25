@@ -1,8 +1,8 @@
 package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.KeyTransparency.CheckMode
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.KeyTransparency.CheckMode
+import com.servalabs.chat.libsignal.net.RequestResult
 import org.signal.libsignal.usernames.Username
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.SignalDatabase
@@ -18,7 +18,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.crypto.UnidentifiedAccess
+import com.servalabs.chat.libsignal.api.crypto.UnidentifiedAccess
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.minutes

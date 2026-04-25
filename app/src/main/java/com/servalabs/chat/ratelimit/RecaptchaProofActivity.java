@@ -25,7 +25,7 @@ import com.servalabs.chat.util.DynamicTheme;
 import com.servalabs.chat.util.ExceptionHelper;
 import com.servalabs.chat.core.util.Util;
 import com.servalabs.chat.util.views.SimpleProgressDialog;
-import org.signal.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
 
 import java.io.IOException;
 

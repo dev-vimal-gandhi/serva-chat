@@ -19,10 +19,10 @@ import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.registration.secondary.DeviceNameCipher;
 import com.servalabs.chat.registration.data.RegistrationRepository;
 import com.servalabs.chat.util.TextSecurePreferences;
-import org.signal.libsignal.api.NetworkResultUtil;
-import org.signal.libsignal.api.account.AccountAttributes;
-import org.signal.libsignal.api.crypto.UnidentifiedAccess;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.account.AccountAttributes;
+import com.servalabs.chat.libsignal.api.crypto.UnidentifiedAccess;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

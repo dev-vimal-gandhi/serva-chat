@@ -12,7 +12,7 @@ import com.servalabs.chat.database.model.MessageRecord
 import com.servalabs.chat.database.model.MmsMessageRecord
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 /**
  * Object responsible for the construction of SafetyNumberBottomSheetFragment and Arg objects.

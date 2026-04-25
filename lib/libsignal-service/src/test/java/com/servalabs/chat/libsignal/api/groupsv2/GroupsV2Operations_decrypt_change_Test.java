@@ -1,24 +1,24 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 import com.servalabs.chat.core.models.ServiceId.PNI;
 import com.servalabs.chat.core.util.UuidUtil;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.groups.ClientZkGroupCipher;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCommitment;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
+import com.servalabs.chat.libsignal.zkgroup.groups.ClientZkGroupCipher;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
+import com.servalabs.chat.libsignal.zkgroup.groups.UuidCiphertext;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCommitment;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChange;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
@@ -34,8 +34,8 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedRe
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedString;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedTimer;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState;
-import org.signal.libsignal.internal.util.Util;
-import org.signal.libsignal.testutil.LibSignalLibraryUtil;
+import com.servalabs.chat.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil;
 
 import java.io.IOException;
 import java.time.Instant;
@@ -49,7 +49,7 @@ import okio.ByteString;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-import static org.signal.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
 
 @SuppressWarnings("NewClassNamingConvention")
 public final class GroupsV2Operations_decrypt_change_Test {

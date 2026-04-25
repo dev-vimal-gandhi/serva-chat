@@ -23,7 +23,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.SignalE164Util
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 
 class AdvancedPrivacySettingsViewModel(
   private val sharedPreferences: SharedPreferences,

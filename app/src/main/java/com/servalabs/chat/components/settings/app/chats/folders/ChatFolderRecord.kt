@@ -3,7 +3,7 @@ package com.servalabs.chat.components.settings.app.chats.folders
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.StorageId
 
 /**
  * Represents an entry in the [com.servalabs.chat.database.ChatFolderTables].

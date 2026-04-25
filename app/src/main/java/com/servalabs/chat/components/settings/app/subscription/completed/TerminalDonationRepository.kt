@@ -11,7 +11,7 @@ import com.servalabs.chat.badges.Badges
 import com.servalabs.chat.badges.models.Badge
 import com.servalabs.chat.database.model.databaseprotos.TerminalDonationQueue
 import com.servalabs.chat.dependencies.AppDependencies
-import org.signal.libsignal.api.services.DonationsService
+import com.servalabs.chat.libsignal.api.services.DonationsService
 import java.util.Locale
 
 class TerminalDonationRepository(

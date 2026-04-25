@@ -3,7 +3,7 @@ package com.servalabs.chat.util;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 
 /**

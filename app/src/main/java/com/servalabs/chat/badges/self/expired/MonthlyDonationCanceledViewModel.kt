@@ -22,7 +22,7 @@ import com.servalabs.chat.components.settings.app.subscription.errors.mapToError
 import com.servalabs.chat.database.InAppPaymentTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
 
 class MonthlyDonationCanceledViewModel(
   inAppPaymentId: InAppPaymentTable.InAppPaymentId?

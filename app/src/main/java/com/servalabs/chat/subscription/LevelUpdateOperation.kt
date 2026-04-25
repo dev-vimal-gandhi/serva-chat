@@ -1,6 +1,6 @@
 package com.servalabs.chat.subscription
 
-import org.signal.libsignal.api.subscriptions.IdempotencyKey
+import com.servalabs.chat.libsignal.api.subscriptions.IdempotencyKey
 import java.io.Closeable
 
 /**

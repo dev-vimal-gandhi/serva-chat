@@ -9,8 +9,8 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
-import org.signal.libsignal.api.attachment.AttachmentUploadResult
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.attachment.AttachmentUploadResult
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import kotlin.random.Random
 
 object AttachmentTableTestUtil {

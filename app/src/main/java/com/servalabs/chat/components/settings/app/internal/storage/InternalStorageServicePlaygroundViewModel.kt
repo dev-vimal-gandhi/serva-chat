@@ -18,9 +18,9 @@ import com.servalabs.chat.core.util.bytes
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.storage.SignalStorageManifest
-import org.signal.libsignal.api.storage.SignalStorageRecord
-import org.signal.libsignal.api.storage.StorageServiceRepository
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord
+import com.servalabs.chat.libsignal.api.storage.StorageServiceRepository
 
 class InternalStorageServicePlaygroundViewModel : ViewModel() {
 

@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.models.MasterKey
 import com.servalabs.chat.core.util.Hex
-import org.signal.libsignal.protocol.logging.Log
+import com.servalabs.chat.libsignal.protocol.logging.Log
 import org.signal.libsignal.svr2.PinHash
 import com.servalabs.chat.svr2.proto.BackupRequest
 import com.servalabs.chat.svr2.proto.DeleteRequest

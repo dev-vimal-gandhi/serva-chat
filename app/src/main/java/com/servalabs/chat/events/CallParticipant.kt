@@ -1,7 +1,7 @@
 package com.servalabs.chat.events
 
 import android.content.Context
-import org.signal.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
 import com.servalabs.chat.R
 import com.servalabs.chat.components.webrtc.BroadcastVideoSink
 import com.servalabs.chat.recipients.Recipient

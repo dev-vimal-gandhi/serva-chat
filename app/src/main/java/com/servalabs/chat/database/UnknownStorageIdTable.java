@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import com.servalabs.chat.core.util.CursorUtil;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.SqlUtil;
-import org.signal.libsignal.api.storage.SignalStorageRecord;
-import org.signal.libsignal.api.storage.StorageId;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord;
+import com.servalabs.chat.libsignal.api.storage.StorageId;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.io.IOException;
 import java.util.ArrayList;

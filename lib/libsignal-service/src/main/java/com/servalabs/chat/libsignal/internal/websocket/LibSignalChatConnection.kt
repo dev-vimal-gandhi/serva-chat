@@ -16,15 +16,15 @@ import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.libsignal.internal.CompletableFuture
-import org.signal.libsignal.net.AppExpiredException
-import org.signal.libsignal.net.AuthenticatedChatConnection
-import org.signal.libsignal.net.ChatConnection
-import org.signal.libsignal.net.ChatConnectionListener
-import org.signal.libsignal.net.ChatServiceException
-import org.signal.libsignal.net.ConnectionInvalidatedException
-import org.signal.libsignal.net.DeviceDeregisteredException
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.net.UnauthenticatedChatConnection
+import com.servalabs.chat.libsignal.net.AppExpiredException
+import com.servalabs.chat.libsignal.net.AuthenticatedChatConnection
+import com.servalabs.chat.libsignal.net.ChatConnection
+import com.servalabs.chat.libsignal.net.ChatConnectionListener
+import com.servalabs.chat.libsignal.net.ChatServiceException
+import com.servalabs.chat.libsignal.net.ConnectionInvalidatedException
+import com.servalabs.chat.libsignal.net.DeviceDeregisteredException
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.net.UnauthenticatedChatConnection
 import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import com.servalabs.chat.libsignal.api.util.CredentialsProvider
 import com.servalabs.chat.libsignal.api.websocket.HealthMonitor
@@ -47,7 +47,7 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
-import org.signal.libsignal.net.ChatConnection.Request as LibSignalRequest
+import com.servalabs.chat.libsignal.net.ChatConnection.Request as LibSignalRequest
 
 /**
  * Implements the WebSocketConnection interface via libsignal-net

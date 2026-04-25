@@ -1,7 +1,7 @@
 package com.servalabs.chat.database.model
 
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Represents an entry in the [com.servalabs.chat.database.DistributionListTables].

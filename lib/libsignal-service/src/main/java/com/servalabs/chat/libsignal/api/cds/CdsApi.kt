@@ -7,9 +7,9 @@ package com.servalabs.chat.libsignal.api.cds
 
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.CdsiProtocolException
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.net.CdsiProtocolException
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.NetworkResult.StatusCodeError
 import com.servalabs.chat.libsignal.api.push.exceptions.CdsiInvalidTokenException

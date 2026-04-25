@@ -2,7 +2,7 @@ package com.servalabs.chat.libsignal.api.util;
 
 import java.math.BigInteger;
 
-import static org.signal.libsignal.protocol.util.ByteUtil.longToByteArray;
+import static com.servalabs.chat.libsignal.protocol.util.ByteUtil.longToByteArray;
 
 public final class Uint64Util {
 

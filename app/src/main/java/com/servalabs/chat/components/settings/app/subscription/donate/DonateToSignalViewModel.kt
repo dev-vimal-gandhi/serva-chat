@@ -36,8 +36,8 @@ import com.servalabs.chat.subscription.LevelUpdate
 import com.servalabs.chat.subscription.Subscription
 import com.servalabs.chat.util.InternetConnectionObserver
 import com.servalabs.chat.util.rx.RxStore
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols

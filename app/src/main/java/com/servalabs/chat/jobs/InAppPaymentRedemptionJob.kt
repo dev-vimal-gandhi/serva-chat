@@ -7,7 +7,7 @@ package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.donations.InAppPaymentType
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import com.servalabs.chat.backup.v2.BackupRepository
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
@@ -23,7 +23,7 @@ import com.servalabs.chat.jobs.protos.InAppPaymentRedemptionJobData
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.hasGiftBadge
 import com.servalabs.chat.util.requireGiftBadge
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import java.io.IOException
 import kotlin.concurrent.withLock
 

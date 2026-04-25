@@ -32,7 +32,7 @@ import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.FileUtils
 import com.servalabs.chat.util.SecurePreferenceManager
 import com.servalabs.chat.util.Triple
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.io.File
 import java.io.IOException
 import java.util.LinkedList

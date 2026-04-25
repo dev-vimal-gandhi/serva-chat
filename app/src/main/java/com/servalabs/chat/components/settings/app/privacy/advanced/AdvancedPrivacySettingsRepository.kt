@@ -13,8 +13,8 @@ import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.NetworkResultUtil
-import org.signal.libsignal.api.push.exceptions.AuthorizationFailedException
+import com.servalabs.chat.libsignal.api.NetworkResultUtil
+import com.servalabs.chat.libsignal.api.push.exceptions.AuthorizationFailedException
 import java.io.IOException
 import java.util.concurrent.ExecutionException
 

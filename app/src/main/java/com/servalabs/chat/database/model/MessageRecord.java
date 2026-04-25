@@ -70,7 +70,7 @@ import com.servalabs.chat.util.GroupUtil;
 import com.servalabs.chat.util.MessageRecordUtil;
 import com.servalabs.chat.util.SignalE164Util;
 import com.servalabs.chat.core.util.Util;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 import com.servalabs.chat.core.util.UuidUtil;

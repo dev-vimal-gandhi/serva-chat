@@ -8,8 +8,8 @@ import com.bumptech.glide.load.data.DataFetcher;
 
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.core.util.Hex;
-import org.signal.libsignal.protocol.InvalidMessageException;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
 
 import java.io.IOException;
 import java.io.InputStream;

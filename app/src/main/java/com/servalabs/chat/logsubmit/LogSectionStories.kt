@@ -5,7 +5,7 @@ import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.DistributionListId
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Prints off the current SMS settings

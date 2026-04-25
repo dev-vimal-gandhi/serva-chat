@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.signal.libsignal.protocol.IdentityKey;
+import com.servalabs.chat.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.PassphraseRequiredActivity;
 import com.servalabs.chat.R;
 import com.servalabs.chat.crypto.IdentityKeyParcelable;

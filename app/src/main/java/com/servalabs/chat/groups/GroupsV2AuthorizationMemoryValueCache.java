@@ -2,8 +2,8 @@ package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
-import org.signal.libsignal.api.groupsv2.GroupsV2Api;
+import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Api;
 
 import java.util.Collections;
 import java.util.HashMap;

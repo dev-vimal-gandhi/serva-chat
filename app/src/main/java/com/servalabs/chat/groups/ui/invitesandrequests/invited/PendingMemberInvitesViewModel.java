@@ -8,7 +8,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
+import com.servalabs.chat.libsignal.zkgroup.groups.UuidCiphertext;
 import com.servalabs.chat.R;
 import com.servalabs.chat.groups.GroupId;
 import com.servalabs.chat.groups.ui.GroupMemberEntry;

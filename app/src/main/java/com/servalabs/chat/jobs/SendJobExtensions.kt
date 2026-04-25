@@ -13,12 +13,12 @@ import com.servalabs.chat.jobmanager.JobLogger
 import com.servalabs.chat.jobmanager.impl.BackoffUtil
 import com.servalabs.chat.transport.RetryLaterException
 import com.servalabs.chat.util.RemoteConfig.serverErrorMaxBackoff
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.push.exceptions.ProofRequiredException
-import org.signal.libsignal.api.push.exceptions.RateLimitException
-import org.signal.libsignal.api.push.exceptions.RetryNetworkException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.ProofRequiredException
+import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException
+import com.servalabs.chat.libsignal.api.push.exceptions.RetryNetworkException
 import java.util.concurrent.TimeUnit
-import org.signal.libsignal.net.RetryLaterException as LibSignalRetryLaterException
+import com.servalabs.chat.libsignal.net.RetryLaterException as LibSignalRetryLaterException
 
 fun Job.getBackoffMillisFromException(tag: String, pastAttemptCount: Int, exception: Exception, default: () -> Long): Long {
   when (exception) {

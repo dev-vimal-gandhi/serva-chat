@@ -1,7 +1,7 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
 import com.servalabs.chat.storageservice.storage.protos.groups.MemberPendingAdminApproval;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedApproveMember;
@@ -12,7 +12,7 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPe
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPendingMemberRemoval;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedRequestingMember;
 import com.servalabs.chat.core.util.UuidUtil;
-import org.signal.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.internal.util.Util;
 
 import java.security.SecureRandom;
 import java.util.Arrays;

@@ -14,7 +14,7 @@ import com.annimon.stream.function.Predicate;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.util.concurrent.SerialMonoLifoExecutor;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.LinkedHashSet;
 import java.util.List;

@@ -12,11 +12,11 @@ import com.servalabs.chat.core.util.requireLong
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
-import org.signal.libsignal.protocol.InvalidMessageException
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.groups.state.SenderKeyRecord
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Stores all of the sender keys -- both the ones we create, and the ones we're told about.

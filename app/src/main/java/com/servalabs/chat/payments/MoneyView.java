@@ -15,9 +15,9 @@ import androidx.core.content.ContextCompat;
 import com.servalabs.chat.R;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.util.DateUtils;
-import org.signal.libsignal.api.payments.Currency;
-import org.signal.libsignal.api.payments.FormatterOptions;
-import org.signal.libsignal.api.payments.Money;
+import com.servalabs.chat.libsignal.api.payments.Currency;
+import com.servalabs.chat.libsignal.api.payments.FormatterOptions;
+import com.servalabs.chat.libsignal.api.payments.Money;
 
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;

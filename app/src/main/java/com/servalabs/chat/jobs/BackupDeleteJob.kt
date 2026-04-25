@@ -21,7 +21,7 @@ import com.servalabs.chat.jobs.protos.BackupDeleteJobData
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import kotlin.time.Duration.Companion.seconds
 
 /**
@@ -293,7 +293,7 @@ class BackupDeleteJob private constructor(
   private fun <T> handleNetworkError(networkResult: NetworkResult<T>): Result {
     Log.d(TAG, "An error occurred.", networkResult.getCause())
 
-    if (networkResult.getCause() is org.signal.libsignal.zkgroup.VerificationFailedException) {
+    if (networkResult.getCause() is com.servalabs.chat.libsignal.zkgroup.VerificationFailedException) {
       Log.i(TAG, "ZK Verification failed. Retrying.")
       return Result.retry(defaultBackoff())
     }

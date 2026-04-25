@@ -18,7 +18,7 @@ import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Test
 import com.servalabs.chat.core.models.MasterKey
-import org.signal.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.RequestResult
 import com.servalabs.chat.registration.KeyMaterial
 import com.servalabs.chat.registration.NetworkController
 import com.servalabs.chat.registration.RegistrationFlowEvent

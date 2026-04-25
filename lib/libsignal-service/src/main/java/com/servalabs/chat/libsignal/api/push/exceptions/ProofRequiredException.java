@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.push.exceptions;
 
-import org.signal.libsignal.protocol.logging.Log;
+import com.servalabs.chat.libsignal.protocol.logging.Log;
 import com.servalabs.chat.libsignal.internal.push.ProofRequiredResponse;
 
 import java.util.HashSet;

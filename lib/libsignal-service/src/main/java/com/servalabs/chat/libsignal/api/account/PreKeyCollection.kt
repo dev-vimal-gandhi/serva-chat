@@ -5,9 +5,9 @@
 
 package com.servalabs.chat.libsignal.api.account
 
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord
 
 /**
  * Holder class to pass around a bunch of prekeys that we send off to the service during registration.

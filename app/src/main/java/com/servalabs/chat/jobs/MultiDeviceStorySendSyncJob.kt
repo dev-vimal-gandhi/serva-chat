@@ -8,10 +8,10 @@ import com.servalabs.chat.jobmanager.JsonJobData
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.messages.SignalServiceStoryMessageRecipient
-import org.signal.libsignal.api.messages.multidevice.SentTranscriptMessage
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStoryMessageRecipient
+import com.servalabs.chat.libsignal.api.messages.multidevice.SentTranscriptMessage
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.util.Optional
 import java.util.concurrent.TimeUnit
 

@@ -10,9 +10,9 @@ import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
 import com.servalabs.chat.mms.IncomingMessage
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.MediaUtil
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional
 import java.util.UUID
 

@@ -2,7 +2,7 @@ package com.servalabs.chat.database
 
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChange
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
@@ -17,10 +17,10 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledStat
 import com.servalabs.chat.database.model.GroupRecord
 import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.groupsv2.DecryptedGroupChangeLog
-import org.signal.libsignal.api.groupsv2.GroupHistoryPage
-import org.signal.libsignal.api.groupsv2.GroupsV2Operations
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog
+import com.servalabs.chat.libsignal.api.groupsv2.GroupHistoryPage
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Operations
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.Optional
 
 fun DecryptedGroupChange.Builder.setNewDescription(description: String) {

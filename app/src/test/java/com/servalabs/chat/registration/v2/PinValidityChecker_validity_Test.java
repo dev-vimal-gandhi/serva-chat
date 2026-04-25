@@ -3,8 +3,8 @@ package com.servalabs.chat.registration.v2;
 import org.junit.Test;
 import com.servalabs.chat.core.util.StreamUtil;
 import com.servalabs.chat.registration.testdata.PinValidityVector;
-import org.signal.libsignal.api.kbs.PinValidityChecker;
-import org.signal.libsignal.internal.util.JsonUtil;
+import com.servalabs.chat.libsignal.api.kbs.PinValidityChecker;
+import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

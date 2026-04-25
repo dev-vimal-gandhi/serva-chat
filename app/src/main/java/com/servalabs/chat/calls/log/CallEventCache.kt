@@ -38,7 +38,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil
 import java.util.concurrent.Executor
 import kotlin.math.max
 import kotlin.math.min

@@ -27,8 +27,8 @@ import com.servalabs.chat.conversation.colors.AvatarColor
 import com.servalabs.chat.conversation.colors.ChatColors
 import com.servalabs.chat.database.AttachmentTable
 import com.servalabs.chat.stickers.StickerLocator
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional
 import com.servalabs.chat.archive.proto.AvatarColor as RemoteAvatarColor
 

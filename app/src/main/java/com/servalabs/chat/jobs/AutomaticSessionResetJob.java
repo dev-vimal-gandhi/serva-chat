@@ -18,9 +18,9 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
 import com.servalabs.chat.util.RemoteConfig;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.crypto.UntrustedIdentityException;
-import org.signal.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 
 import java.io.IOException;
 import java.util.ArrayList;

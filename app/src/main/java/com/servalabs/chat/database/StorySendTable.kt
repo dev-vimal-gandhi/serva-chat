@@ -14,7 +14,7 @@ import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
 import com.servalabs.chat.database.model.MessageId
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 
 /**
  * Sending to a distribution list is a bit trickier. When we send to multiple distribution lists with overlapping membership, we want to

@@ -11,7 +11,7 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.StringUtil;
 import com.servalabs.chat.util.cjkv.CJKVUtil;
-import org.signal.libsignal.api.crypto.ProfileCipher;
+import com.servalabs.chat.libsignal.api.crypto.ProfileCipher;
 
 import java.util.Objects;
 

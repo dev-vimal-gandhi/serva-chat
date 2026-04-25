@@ -18,7 +18,7 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.util.ByteUnit;
 import com.servalabs.chat.util.MediaUtil;
-import org.signal.libsignal.api.util.StreamDetails;
+import com.servalabs.chat.libsignal.api.util.StreamDetails;
 
 import java.io.File;
 import java.io.IOException;

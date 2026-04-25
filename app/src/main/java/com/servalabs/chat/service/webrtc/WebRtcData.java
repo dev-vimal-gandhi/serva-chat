@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.RemotePeer;
-import org.signal.libsignal.api.messages.calls.HangupMessage;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.HangupMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
 import com.servalabs.chat.core.models.ServiceId;
 
 import java.util.UUID;

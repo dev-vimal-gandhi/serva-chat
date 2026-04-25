@@ -6,7 +6,7 @@ import com.servalabs.chat.core.util.logging.Log.tag
 import com.servalabs.chat.core.util.logging.Log.w
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.push.AccountManagerFactory
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.io.IOException
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit

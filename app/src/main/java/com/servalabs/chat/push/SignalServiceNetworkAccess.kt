@@ -17,13 +17,13 @@ import com.servalabs.chat.net.Networking
 import com.servalabs.chat.net.RemoteDeprecationDetectorInterceptor
 import com.servalabs.chat.net.StandardUserAgentInterceptor
 import com.servalabs.chat.net.StorageServiceSizeLoggingInterceptor
-import org.signal.libsignal.api.push.TrustStore
-import org.signal.libsignal.internal.configuration.SignalCdnUrl
-import org.signal.libsignal.internal.configuration.SignalCdsiUrl
-import org.signal.libsignal.internal.configuration.SignalServiceConfiguration
-import org.signal.libsignal.internal.configuration.SignalServiceUrl
-import org.signal.libsignal.internal.configuration.SignalStorageUrl
-import org.signal.libsignal.internal.configuration.SignalSvr2Url
+import com.servalabs.chat.libsignal.api.push.TrustStore
+import com.servalabs.chat.libsignal.internal.configuration.SignalCdnUrl
+import com.servalabs.chat.libsignal.internal.configuration.SignalCdsiUrl
+import com.servalabs.chat.libsignal.internal.configuration.SignalServiceConfiguration
+import com.servalabs.chat.libsignal.internal.configuration.SignalServiceUrl
+import com.servalabs.chat.libsignal.internal.configuration.SignalStorageUrl
+import com.servalabs.chat.libsignal.internal.configuration.SignalSvr2Url
 import java.io.IOException
 import java.util.Optional
 

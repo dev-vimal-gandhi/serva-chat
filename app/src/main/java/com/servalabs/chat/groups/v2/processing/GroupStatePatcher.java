@@ -6,12 +6,12 @@ import androidx.annotation.Nullable;
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupChangeLog;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupExtensions;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil;
-import org.signal.libsignal.api.groupsv2.GroupChangeReconstruct;
-import org.signal.libsignal.api.groupsv2.GroupChangeUtil;
-import org.signal.libsignal.api.groupsv2.NotAbleToApplyGroupV2ChangeException;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupExtensions;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupChangeReconstruct;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupChangeUtil;
+import com.servalabs.chat.libsignal.api.groupsv2.NotAbleToApplyGroupV2ChangeException;
 
 import java.util.ArrayList;
 import java.util.Collections;

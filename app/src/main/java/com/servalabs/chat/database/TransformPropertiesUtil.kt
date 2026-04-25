@@ -9,7 +9,7 @@ import kotlinx.serialization.json.Json
 import com.servalabs.chat.core.models.media.TransformProperties
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.mms.SentMediaQuality
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 import java.io.IOException
 import java.util.Optional
 

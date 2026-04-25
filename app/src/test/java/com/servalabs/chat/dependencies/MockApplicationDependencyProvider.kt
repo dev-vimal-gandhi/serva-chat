@@ -3,9 +3,9 @@ package com.servalabs.chat.dependencies
 import io.mockk.mockk
 import com.servalabs.chat.core.util.billing.BillingApi
 import com.servalabs.chat.core.util.concurrent.DeadlockDetector
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations
-import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations
+import com.servalabs.chat.libsignal.zkgroup.receipts.ClientZkReceiptOperations
 import com.servalabs.chat.components.TypingStatusRepository
 import com.servalabs.chat.components.TypingStatusSender
 import com.servalabs.chat.crypto.storage.SignalServiceDataStoreImpl

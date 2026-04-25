@@ -11,7 +11,7 @@ import com.servalabs.chat.keyvalue.CertificateType;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.util.ExceptionHelper;
-import org.signal.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
 
 import java.io.IOException;
 import java.util.Collection;

@@ -24,7 +24,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.service.webrtc.AndroidTelecomUtil
 import com.servalabs.chat.util.safeUnregisterReceiver
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 private val TAG = Log.tag(SignalAudioManager::class.java)
 

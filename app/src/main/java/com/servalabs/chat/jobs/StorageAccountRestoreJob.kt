@@ -10,12 +10,12 @@ import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.profiles.manage.UsernameRepository.reclaimUsernameIfNecessary
 import com.servalabs.chat.recipients.Recipient.Companion.self
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
-import org.signal.libsignal.api.storage.SignalAccountRecord
-import org.signal.libsignal.api.storage.SignalStorageManifest
-import org.signal.libsignal.api.storage.SignalStorageRecord
-import org.signal.libsignal.api.storage.StorageServiceRepository
-import org.signal.libsignal.api.storage.StorageServiceRepository.ManifestResult
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.storage.SignalAccountRecord
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord
+import com.servalabs.chat.libsignal.api.storage.StorageServiceRepository
+import com.servalabs.chat.libsignal.api.storage.StorageServiceRepository.ManifestResult
 import java.util.concurrent.TimeUnit
 
 /**

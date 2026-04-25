@@ -15,7 +15,7 @@ import com.servalabs.chat.profiles.AvatarHelper;
 import com.servalabs.chat.profiles.ProfileName;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.util.ProfileUtil;
-import org.signal.libsignal.api.util.StreamDetails;
+import com.servalabs.chat.libsignal.api.util.StreamDetails;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

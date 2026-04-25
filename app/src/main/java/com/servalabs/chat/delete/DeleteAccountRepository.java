@@ -18,10 +18,10 @@ import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.groups.GroupManager;
 import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.util.ServiceUtil;
-import org.signal.libsignal.api.NetworkResultUtil;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
-import org.signal.libsignal.internal.EmptyResponse;
-import org.signal.libsignal.internal.ServiceResponse;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.internal.EmptyResponse;
+import com.servalabs.chat.libsignal.internal.ServiceResponse;
 
 import java.io.IOException;
 

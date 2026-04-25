@@ -16,7 +16,7 @@ import androidx.documentfile.provider.DocumentFile;
 
 import com.servalabs.chat.core.util.Util;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.util.ByteUtil;
+import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
 import com.servalabs.chat.BuildConfig;
 import com.servalabs.chat.R;
 import com.servalabs.chat.backup.BackupPassphrase;

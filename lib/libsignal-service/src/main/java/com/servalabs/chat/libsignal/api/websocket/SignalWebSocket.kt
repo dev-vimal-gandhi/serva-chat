@@ -15,9 +15,9 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.libsignal.internal.CompletableFuture
-import org.signal.libsignal.net.BadRequestError
-import org.signal.libsignal.net.RequestResult
-import org.signal.libsignal.net.UnauthenticatedChatConnection
+import com.servalabs.chat.libsignal.net.BadRequestError
+import com.servalabs.chat.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.UnauthenticatedChatConnection
 import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess
 import com.servalabs.chat.libsignal.api.messages.EnvelopeResponse
 import com.servalabs.chat.libsignal.api.util.SleepTimer
@@ -182,7 +182,7 @@ sealed class SignalWebSocket(
    * @param callback The callback to execute with the connection. Should be very quick and
    *                 non-blocking, because it may block other operations on that connection.
    */
-  suspend fun <T> runWithChatConnection(callback: (org.signal.libsignal.net.ChatConnection) -> T): T {
+  suspend fun <T> runWithChatConnection(callback: (com.servalabs.chat.libsignal.net.ChatConnection) -> T): T {
     return getWebSocket().runWithChatConnection(callback)
   }
 

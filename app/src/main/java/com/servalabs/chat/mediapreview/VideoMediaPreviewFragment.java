@@ -17,7 +17,7 @@ import androidx.media3.ui.LegacyPlayerControlView;
 
 import com.servalabs.chat.core.util.concurrent.LifecycleDisposable;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.incrementalmac.InvalidMacException;
+import com.servalabs.chat.libsignal.protocol.incrementalmac.InvalidMacException;
 import com.servalabs.chat.R;
 import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner;
 import com.servalabs.chat.mms.PartUriParser;

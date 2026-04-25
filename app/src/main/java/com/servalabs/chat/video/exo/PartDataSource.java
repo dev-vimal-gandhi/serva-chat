@@ -12,7 +12,7 @@ import androidx.media3.datasource.DataSpec;
 import androidx.media3.datasource.TransferListener;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.InvalidMessageException;
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.attachments.DatabaseAttachment;
 import com.servalabs.chat.backup.v2.DatabaseAttachmentArchiveUtil;
 import com.servalabs.chat.database.AttachmentTable;
@@ -22,11 +22,11 @@ import com.servalabs.chat.mms.PartUriParser;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.models.backup.MediaName;
 import com.servalabs.chat.core.models.backup.MediaRootBackupKey;
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream;
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck;
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil;
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream;
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck;
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil;
 import com.servalabs.chat.core.util.stream.TailerInputStream;
-import org.signal.libsignal.internal.crypto.PaddingInputStream;
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream;
 
 import java.io.EOFException;
 import java.io.File;

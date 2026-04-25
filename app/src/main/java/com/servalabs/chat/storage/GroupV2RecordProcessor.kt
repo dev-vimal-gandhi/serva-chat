@@ -1,17 +1,17 @@
 package com.servalabs.chat.storage
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.database.GroupTable
 import com.servalabs.chat.database.RecipientTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.RecipientRecord
 import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.storage.SignalGroupV2Record
-import org.signal.libsignal.api.storage.SignalStorageRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.toSignalGroupV2Record
+import com.servalabs.chat.libsignal.api.storage.SignalGroupV2Record
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.toSignalGroupV2Record
 import java.util.Optional
 
 /**

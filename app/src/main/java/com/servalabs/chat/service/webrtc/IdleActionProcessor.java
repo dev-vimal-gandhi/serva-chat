@@ -16,7 +16,7 @@ import com.servalabs.chat.recipients.Recipient;
 import org.signal.ringrtc.RemotePeer;
 import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
 import com.servalabs.chat.util.RemoteConfig;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 
 /**

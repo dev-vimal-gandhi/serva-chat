@@ -6,7 +6,7 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.pin.SvrRepository
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.io.IOException
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days

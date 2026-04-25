@@ -44,7 +44,7 @@ import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
 import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
 import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
 import java.util.UUID
 import com.servalabs.chat.core.ui.R as CoreUiR
 

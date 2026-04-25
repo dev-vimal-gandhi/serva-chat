@@ -106,9 +106,9 @@ import com.servalabs.chat.util.ImageCompressionUtil
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.video.EncryptedMediaDataSource
-import org.signal.libsignal.api.attachment.AttachmentUploadResult
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.attachment.AttachmentUploadResult
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.ByteArrayInputStream
 import java.io.File
 import java.io.FileNotFoundException

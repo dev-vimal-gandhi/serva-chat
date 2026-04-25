@@ -19,7 +19,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
 import com.servalabs.chat.payments.FiatMoneyUtil
-import org.signal.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
 
 class LogSectionRemoteBackups : LogSection {
   override fun getTitle(): String = "REMOTE BACKUPS"

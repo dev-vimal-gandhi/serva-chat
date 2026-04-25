@@ -17,7 +17,7 @@ import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.isNotNullOrBlank
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.nullIfBlank
-import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import com.servalabs.chat.R
 import com.servalabs.chat.avatar.fallback.FallbackAvatar
 import com.servalabs.chat.badges.models.Badge
@@ -57,8 +57,8 @@ import com.servalabs.chat.util.SpanUtil
 import com.servalabs.chat.util.UsernameUtil.isValidUsernameForSearch
 import com.servalabs.chat.util.ViewUtil
 import com.servalabs.chat.wallpaper.ChatWallpaper
-import org.signal.libsignal.api.push.SignalServiceAddress
-import org.signal.libsignal.api.util.OptionalUtil
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.util.OptionalUtil
 import java.util.LinkedList
 import java.util.Objects
 import java.util.Optional

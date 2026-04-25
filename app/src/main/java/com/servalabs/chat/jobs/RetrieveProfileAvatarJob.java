@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.conversation.v2.data.AvatarDownloadStateCache;
 import com.servalabs.chat.crypto.ProfileKeyUtil;
 import com.servalabs.chat.database.RecipientTable;
@@ -22,9 +22,9 @@ import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.profiles.AvatarHelper;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.SignalServiceMessageReceiver;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageReceiver;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.File;
 import java.io.IOException;

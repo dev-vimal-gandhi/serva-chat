@@ -29,7 +29,7 @@ import com.servalabs.chat.mms.SentMediaQuality
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.MediaUtil
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import java.io.File
 import java.util.UUID
 import kotlin.random.Random

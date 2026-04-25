@@ -27,8 +27,8 @@ import com.servalabs.chat.core.util.withinTransaction
 import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.storage.IAPSubscriptionId
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.util.Currency
 
 /**

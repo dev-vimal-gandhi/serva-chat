@@ -1,15 +1,15 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.VerificationFailedException;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialPresentation;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPni;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
-import org.signal.libsignal.zkgroup.auth.ClientZkAuthOperations;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
-import org.signal.libsignal.zkgroup.groups.ClientZkGroupCipher;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
+import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialPresentation;
+import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialWithPni;
+import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
+import com.servalabs.chat.libsignal.zkgroup.auth.ClientZkAuthOperations;
+import com.servalabs.chat.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
+import com.servalabs.chat.libsignal.zkgroup.groups.ClientZkGroupCipher;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
+import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse;
 import com.servalabs.chat.storageservice.storage.protos.groups.AvatarUploadAttributes;
 import com.servalabs.chat.storageservice.storage.protos.groups.Group;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupAttributeBlob;

@@ -68,8 +68,8 @@ import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
 import com.servalabs.chat.util.ParcelUtil;
 import com.servalabs.chat.util.SignalLocalMetrics;
-import org.signal.libsignal.api.push.DistributionId;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.push.DistributionId;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.io.IOException;
 import java.util.ArrayList;

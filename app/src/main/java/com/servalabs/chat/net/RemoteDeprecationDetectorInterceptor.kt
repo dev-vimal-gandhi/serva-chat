@@ -6,7 +6,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.logging.Log.tag
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.keyvalue.SignalStore.Companion.misc
-import org.signal.libsignal.internal.configuration.SignalServiceConfiguration
+import com.servalabs.chat.libsignal.internal.configuration.SignalServiceConfiguration
 import java.io.IOException
 
 /**

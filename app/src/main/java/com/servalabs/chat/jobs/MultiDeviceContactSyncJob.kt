@@ -2,7 +2,7 @@ package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.isAbsent
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.InvalidMessageException
+import com.servalabs.chat.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Job
@@ -12,13 +12,13 @@ import com.servalabs.chat.net.NotPushRegisteredException
 import com.servalabs.chat.profiles.AvatarHelper
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.multidevice.DeviceContact
-import org.signal.libsignal.api.messages.multidevice.DeviceContactsInputStream
-import org.signal.libsignal.api.push.SignalServiceAddress
-import org.signal.libsignal.api.push.exceptions.MissingConfigurationException
-import org.signal.libsignal.api.util.AttachmentPointerUtil
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.multidevice.DeviceContact
+import com.servalabs.chat.libsignal.api.messages.multidevice.DeviceContactsInputStream
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.exceptions.MissingConfigurationException
+import com.servalabs.chat.libsignal.api.util.AttachmentPointerUtil
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

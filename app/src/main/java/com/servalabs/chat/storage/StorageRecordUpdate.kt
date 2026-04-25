@@ -1,6 +1,6 @@
 package com.servalabs.chat.storage
 
-import org.signal.libsignal.api.storage.SignalRecord
+import com.servalabs.chat.libsignal.api.storage.SignalRecord
 
 /**
  * Represents a pair of records: one old, and one new. The new record should replace the old.

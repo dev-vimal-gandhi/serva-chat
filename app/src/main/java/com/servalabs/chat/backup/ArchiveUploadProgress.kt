@@ -30,7 +30,7 @@ import com.servalabs.chat.jobs.UploadAttachmentToArchiveJob
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
 import com.servalabs.chat.util.SignalLocalMetrics
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong

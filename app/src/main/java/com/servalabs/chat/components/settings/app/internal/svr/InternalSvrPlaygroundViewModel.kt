@@ -18,7 +18,7 @@ import kotlinx.collections.immutable.persistentListOf
 import com.servalabs.chat.BuildConfig
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.svr.SecureValueRecovery
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery
 
 class InternalSvrPlaygroundViewModel : ViewModel() {
 

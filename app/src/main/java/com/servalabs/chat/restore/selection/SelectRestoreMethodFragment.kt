@@ -30,7 +30,7 @@ import com.servalabs.chat.registration.ui.restore.RestoreMethod
 import com.servalabs.chat.registration.ui.restore.SelectRestoreMethodScreen
 import com.servalabs.chat.restore.RestoreViewModel
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.provisioning.RestoreMethod as ApiRestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod as ApiRestoreMethod
 
 /**
  * Provide options to select restore/transfer operation during quick/post registration.

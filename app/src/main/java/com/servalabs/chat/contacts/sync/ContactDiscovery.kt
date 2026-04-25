@@ -29,7 +29,7 @@ import com.servalabs.chat.registration.util.RegistrationUtil
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.SignalE164Util
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.io.IOException
 import java.util.Calendar
 import java.util.LinkedList

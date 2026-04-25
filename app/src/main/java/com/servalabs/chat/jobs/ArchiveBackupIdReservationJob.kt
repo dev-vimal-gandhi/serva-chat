@@ -12,7 +12,7 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 
 /**
  * Reserves backupIds for both text+media. The intention is that every registered user should be doing this, so it should happen post-registration

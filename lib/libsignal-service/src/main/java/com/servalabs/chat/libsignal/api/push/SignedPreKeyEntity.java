@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.signal.libsignal.protocol.ecc.ECPublicKey;
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
 import com.servalabs.chat.libsignal.internal.push.PreKeyEntity;
 import com.servalabs.chat.core.util.Base64;
 

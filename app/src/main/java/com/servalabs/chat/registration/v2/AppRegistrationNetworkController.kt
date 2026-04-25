@@ -16,10 +16,10 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import com.servalabs.chat.core.models.MasterKey
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.RequestResult
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
 import com.servalabs.chat.registration.NetworkController
 import com.servalabs.chat.registration.NetworkController.AccountAttributes
 import com.servalabs.chat.registration.NetworkController.BackupMasterKeyError

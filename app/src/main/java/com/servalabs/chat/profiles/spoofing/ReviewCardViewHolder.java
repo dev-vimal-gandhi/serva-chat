@@ -19,7 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.servalabs.chat.R;
 import com.servalabs.chat.databinding.ReviewCardBinding;
 import com.servalabs.chat.util.SpanUtil;
-import org.signal.libsignal.api.util.Preconditions;
+import com.servalabs.chat.libsignal.api.util.Preconditions;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,7 +1,7 @@
 package com.servalabs.chat.database.model
 
 import androidx.annotation.WorkerThread
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState
 import com.servalabs.chat.database.GroupTable
@@ -11,8 +11,8 @@ import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.Optional
 
 class GroupRecord(

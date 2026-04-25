@@ -13,7 +13,7 @@ import kotlin.time.Duration.Companion.seconds
  *
  * At the time of this writing there are two implementations available:
  *  - OkHttpWebSocketConnection - the original Android client implementation in Java using OkHttp library
- *  - LibSignalChatConnection - the wrapper around libsignal's [org.signal.libsignal.net.ChatService]
+ *  - LibSignalChatConnection - the wrapper around libsignal's [com.servalabs.chat.libsignal.net.ChatService]
  */
 interface WebSocketConnection {
   companion object {
@@ -55,7 +55,7 @@ interface WebSocketConnection {
    * @return The result of the callback
    * @throws UnsupportedOperationException if this connection doesn't support chat connection access
    */
-  suspend fun <T> runWithChatConnection(callback: (org.signal.libsignal.net.ChatConnection) -> T): T {
+  suspend fun <T> runWithChatConnection(callback: (com.servalabs.chat.libsignal.net.ChatConnection) -> T): T {
     // Default implementation for non-LibSignal connections
     throw UnsupportedOperationException("This connection does not support chat connection access")
   }

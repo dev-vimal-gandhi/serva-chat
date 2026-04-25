@@ -27,10 +27,10 @@ import com.servalabs.chat.donations.InAppPaymentType
 import com.servalabs.chat.donations.PaymentSourceType
 import com.servalabs.chat.donations.StripeDeclineCode
 import com.servalabs.chat.donations.StripeFailureCode
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.VerificationFailedException
-import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequestContext
-import org.signal.libsignal.zkgroup.receipts.ReceiptSerial
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialRequestContext
+import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptSerial
 import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
 import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentError
 import com.servalabs.chat.components.settings.app.subscription.errors.DonationError

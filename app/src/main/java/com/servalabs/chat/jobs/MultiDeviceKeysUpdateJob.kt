@@ -8,11 +8,11 @@ import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.NotPushRegisteredException
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.crypto.UntrustedIdentityException
-import org.signal.libsignal.api.messages.multidevice.KeysMessage
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException
+import com.servalabs.chat.libsignal.api.messages.multidevice.KeysMessage
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException
 import java.io.IOException
 
 class MultiDeviceKeysUpdateJob private constructor(parameters: Parameters) : BaseJob(parameters) {

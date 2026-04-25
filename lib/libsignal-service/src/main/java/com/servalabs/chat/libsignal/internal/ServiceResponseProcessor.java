@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.internal;
 
 
-import org.signal.libsignal.net.ChatServiceException;
+import com.servalabs.chat.libsignal.net.ChatServiceException;
 import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
 import com.servalabs.chat.libsignal.api.util.OptionalUtil;
 import com.servalabs.chat.libsignal.api.util.Preconditions;

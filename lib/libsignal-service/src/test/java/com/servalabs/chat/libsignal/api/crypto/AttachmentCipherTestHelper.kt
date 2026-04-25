@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api.crypto
+package com.servalabs.chat.libsignal.api.crypto
 
 import com.servalabs.chat.core.models.backup.MediaId
 import com.servalabs.chat.core.models.backup.MediaRootBackupKey.MediaKeyMaterial
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 
 object AttachmentCipherTestHelper {
 

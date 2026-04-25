@@ -7,7 +7,7 @@
 
 package com.servalabs.chat.util
 
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.io.IOException
 
 /**

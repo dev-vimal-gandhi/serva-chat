@@ -3,7 +3,7 @@ package com.servalabs.chat.events;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.attachments.Attachment;
-import org.signal.libsignal.api.messages.AttachmentTransferProgress;
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress;
 
 public final class PartProgressEvent {
 

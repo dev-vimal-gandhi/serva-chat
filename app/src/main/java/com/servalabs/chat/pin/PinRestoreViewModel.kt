@@ -12,7 +12,7 @@ import com.servalabs.chat.lock.v2.PinKeyboardType
 import com.servalabs.chat.lock.v2.SvrConstants
 import com.servalabs.chat.util.DefaultValueLiveData
 import com.servalabs.chat.util.SingleLiveEvent
-import org.signal.libsignal.api.svr.SecureValueRecovery
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery
 
 class PinRestoreViewModel : ViewModel() {
   private val repo: SvrRepository = SvrRepository

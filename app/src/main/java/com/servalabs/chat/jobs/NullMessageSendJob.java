@@ -13,10 +13,10 @@ import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.crypto.UntrustedIdentityException;
-import org.signal.libsignal.api.push.SignalServiceAddress;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.util.concurrent.TimeUnit;
 

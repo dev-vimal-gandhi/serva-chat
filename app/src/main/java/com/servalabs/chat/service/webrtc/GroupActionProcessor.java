@@ -24,7 +24,7 @@ import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
 import com.servalabs.chat.service.webrtc.state.WebRtcServiceStateBuilder;
 import org.webrtc.PeerConnection;
 import org.webrtc.VideoTrack;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 
 import java.util.ArrayList;

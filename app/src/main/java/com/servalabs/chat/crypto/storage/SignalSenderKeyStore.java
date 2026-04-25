@@ -5,14 +5,14 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord;
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import com.servalabs.chat.libsignal.protocol.groups.state.SenderKeyRecord;
 import com.servalabs.chat.crypto.ReentrantSessionLock;
 import com.servalabs.chat.database.SenderKeyTable;
 import com.servalabs.chat.database.SignalDatabase;
-import org.signal.libsignal.api.SignalServiceSenderKeyStore;
-import org.signal.libsignal.api.SignalSessionLock;
-import org.signal.libsignal.api.push.DistributionId;
+import com.servalabs.chat.libsignal.api.SignalServiceSenderKeyStore;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.push.DistributionId;
 
 import java.util.Collection;
 import java.util.Set;

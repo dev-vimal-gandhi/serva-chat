@@ -45,7 +45,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.profiles.manage.UsernameRepository
 import com.servalabs.chat.profiles.manage.UsernameRepository.toLink
 import com.servalabs.chat.util.NetworkUtil
-import org.signal.libsignal.api.push.UsernameLinkComponents
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents
 import java.util.Optional
 import java.util.UUID
 

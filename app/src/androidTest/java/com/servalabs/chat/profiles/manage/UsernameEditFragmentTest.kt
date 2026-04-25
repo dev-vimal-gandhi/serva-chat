@@ -29,7 +29,7 @@ import org.junit.runner.RunWith
 import com.servalabs.chat.R
 import com.servalabs.chat.testing.RxTestSchedulerRule
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.util.Usernames
+import com.servalabs.chat.libsignal.api.util.Usernames
 import java.util.concurrent.TimeUnit
 
 @RunWith(AndroidJUnit4::class)

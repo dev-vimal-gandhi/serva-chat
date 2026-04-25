@@ -27,7 +27,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.recipients.RecipientRepository
 import com.servalabs.chat.recipients.ui.RecipientSelection
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 
 class NewConversationViewModel : ViewModel() {
   companion object {

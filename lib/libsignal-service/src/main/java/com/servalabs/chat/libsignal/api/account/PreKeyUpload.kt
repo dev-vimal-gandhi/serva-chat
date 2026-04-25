@@ -5,9 +5,9 @@
 
 package com.servalabs.chat.libsignal.api.account
 
-import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord
+import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord
 import com.servalabs.chat.libsignal.api.push.ServiceIdType
 
 /**

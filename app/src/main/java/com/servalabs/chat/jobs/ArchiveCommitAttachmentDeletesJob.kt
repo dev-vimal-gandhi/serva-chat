@@ -15,7 +15,7 @@ import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import java.lang.RuntimeException
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours

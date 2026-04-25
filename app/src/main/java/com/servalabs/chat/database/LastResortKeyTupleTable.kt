@@ -9,8 +9,8 @@ import android.content.Context
 import android.database.sqlite.SQLiteConstraintException
 import com.servalabs.chat.core.util.insertInto
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.ReusedBaseKeyException
-import org.signal.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.ReusedBaseKeyException
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
 
 /**
  * Stores a Tuple of (kyberPreKeyId, signedPreKeyId, baseKey) for each

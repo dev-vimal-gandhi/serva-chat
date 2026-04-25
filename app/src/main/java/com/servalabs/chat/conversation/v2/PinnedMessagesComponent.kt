@@ -67,7 +67,7 @@ import com.servalabs.chat.util.hasSharedContact
 import com.servalabs.chat.util.hasSticker
 import com.servalabs.chat.util.isPoll
 import com.servalabs.chat.util.isViewOnceMessage
-import org.signal.libsignal.api.payments.FormatterOptions
+import com.servalabs.chat.libsignal.api.payments.FormatterOptions
 import kotlin.jvm.optionals.getOrDefault
 
 /**

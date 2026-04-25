@@ -6,8 +6,8 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.storage.SignalStorageManifest
-import org.signal.libsignal.api.storage.StorageServiceRepository
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest
+import com.servalabs.chat.libsignal.api.storage.StorageServiceRepository
 import java.util.concurrent.TimeUnit
 
 /**

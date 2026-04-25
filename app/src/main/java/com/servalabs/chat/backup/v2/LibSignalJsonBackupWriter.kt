@@ -10,7 +10,7 @@ import com.servalabs.chat.archive.proto.Frame
 import com.servalabs.chat.archive.stream.BackupExportWriter
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.writeVarInt32
-import org.signal.libsignal.messagebackup.BackupJsonExporter
+import com.servalabs.chat.libsignal.messagebackup.BackupJsonExporter
 import java.io.ByteArrayOutputStream
 import java.io.OutputStream
 

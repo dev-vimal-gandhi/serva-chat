@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.util;
 
-import org.signal.libsignal.protocol.logging.Log;
+import com.servalabs.chat.libsignal.protocol.logging.Log;
 
 import java.io.Closeable;
 import java.io.IOException;

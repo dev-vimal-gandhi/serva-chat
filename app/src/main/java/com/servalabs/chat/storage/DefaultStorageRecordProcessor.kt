@@ -1,7 +1,7 @@
 package com.servalabs.chat.storage
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.api.storage.SignalRecord
+import com.servalabs.chat.libsignal.api.storage.SignalRecord
 import java.io.IOException
 import java.util.Optional
 import java.util.TreeSet

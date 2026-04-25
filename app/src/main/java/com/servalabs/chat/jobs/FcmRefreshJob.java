@@ -45,8 +45,8 @@ import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.notifications.NotificationChannels;
 import com.servalabs.chat.notifications.NotificationIds;
 import com.servalabs.chat.transport.RetryLaterException;
-import org.signal.libsignal.api.NetworkResultUtil;
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
 
 import java.io.IOException;
 import java.util.Optional;

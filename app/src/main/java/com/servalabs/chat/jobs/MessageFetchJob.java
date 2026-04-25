@@ -15,7 +15,7 @@ import com.servalabs.chat.messages.WebSocketDrainer;
 import com.servalabs.chat.notifications.NotificationChannels;
 import com.servalabs.chat.service.GenericForegroundService;
 import com.servalabs.chat.util.AppForegroundObserver;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicReference;

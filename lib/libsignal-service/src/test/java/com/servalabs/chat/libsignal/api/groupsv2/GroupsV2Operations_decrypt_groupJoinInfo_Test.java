@@ -1,20 +1,20 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupJoinInfo;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
-import org.signal.libsignal.internal.util.Util;
-import org.signal.libsignal.testutil.LibSignalLibraryUtil;
+import com.servalabs.chat.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.signal.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
+import static com.servalabs.chat.libsignal.api.groupsv2.ProtobufTestUtils.getMaxDeclaredFieldNumber;
 
 public final class GroupsV2Operations_decrypt_groupJoinInfo_Test {
 

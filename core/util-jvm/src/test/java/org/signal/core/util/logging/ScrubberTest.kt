@@ -107,8 +107,8 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "A short email a...@..."
         ),
         arrayOf(
-          "This is not an email Success(result=org.signal.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)",
-          "This is not an email Success(result=org.signal.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)"
+          "This is not an email Success(result=com.servalabs.chat.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)",
+          "This is not an email Success(result=com.servalabs.chat.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)"
         ),
         arrayOf(
           "A email with multiple parts before the @ d.c+b.a@mulitpart.domain.com and a multipart domain",

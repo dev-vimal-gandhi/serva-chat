@@ -24,7 +24,7 @@ import com.servalabs.chat.util.UsernameUtil.InvalidReason
 import com.servalabs.chat.util.UsernameUtil.checkDiscriminator
 import com.servalabs.chat.util.UsernameUtil.checkNickname
 import com.servalabs.chat.util.rx.RxStore
-import org.signal.libsignal.api.util.Usernames
+import com.servalabs.chat.libsignal.api.util.Usernames
 import java.util.concurrent.TimeUnit
 
 /**

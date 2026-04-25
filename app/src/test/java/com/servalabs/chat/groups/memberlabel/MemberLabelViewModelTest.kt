@@ -26,7 +26,7 @@ import com.servalabs.chat.groups.memberlabel.MemberLabelUiState.SaveState
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.testing.CoroutineDispatcherRule
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import java.io.IOException
 
 @OptIn(ExperimentalCoroutinesApi::class)

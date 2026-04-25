@@ -161,7 +161,7 @@ import com.servalabs.chat.util.ViewUtil;
 import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter;
 import com.servalabs.chat.verify.SelfVerificationFailureSheet;
 import com.servalabs.chat.core.ui.WindowSizeClassExtensionsKt;
-import org.signal.libsignal.api.websocket.WebSocketConnectionState;
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

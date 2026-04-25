@@ -39,7 +39,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.rx.RxStore
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 import java.util.concurrent.TimeUnit
 
 sealed class ConversationListViewModel(

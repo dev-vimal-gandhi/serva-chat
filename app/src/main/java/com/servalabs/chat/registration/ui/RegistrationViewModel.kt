@@ -31,10 +31,10 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.isNotNullOrBlank
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.backup.v2.BackupRepository
 import com.servalabs.chat.backup.v2.RestoreTimestampResult

@@ -11,7 +11,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds
 

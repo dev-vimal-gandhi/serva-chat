@@ -26,7 +26,7 @@ import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.jobs.MultiDeviceSubscriptionSyncRequestJob
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.rx.RxStore
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 
 class PayPalPaymentInProgressViewModel : ViewModel() {
 

@@ -24,10 +24,10 @@ import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.ThreadUtil
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.logging.SignalProtocolLogger
-import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLogger
+import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLoggerProvider
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChangeResponse
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
@@ -45,10 +45,10 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.testutil.SystemOutLogger
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.groupsv2.ClientZkOperations
-import org.signal.libsignal.api.groupsv2.GroupsV2Api
-import org.signal.libsignal.api.groupsv2.GroupsV2Operations
-import org.signal.libsignal.api.push.ServiceIds
+import com.servalabs.chat.libsignal.api.groupsv2.ClientZkOperations
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Api
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Operations
+import com.servalabs.chat.libsignal.api.push.ServiceIds
 import java.util.UUID
 
 @Suppress("ClassName")

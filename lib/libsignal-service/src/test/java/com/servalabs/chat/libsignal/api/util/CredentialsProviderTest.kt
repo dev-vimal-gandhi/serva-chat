@@ -2,13 +2,13 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.signal.libsignal.api.util
+package com.servalabs.chat.libsignal.api.util
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertThrows
 import org.junit.Test
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.util.UUID
 
 class CredentialsProviderTest {

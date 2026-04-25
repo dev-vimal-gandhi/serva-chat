@@ -2,9 +2,9 @@ package com.servalabs.chat.groups;
 
 import org.junit.Test;
 import com.servalabs.chat.core.util.Hex;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.groups.GroupIdentifier;
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupIdentifier;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 import static com.servalabs.chat.testutil.SecureRandomTestUtil.mockRandom;
-import static org.signal.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
+import static com.servalabs.chat.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
 
 public final class GroupIdTest {
 

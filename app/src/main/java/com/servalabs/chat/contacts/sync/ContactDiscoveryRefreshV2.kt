@@ -16,10 +16,10 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.SignalE164Util
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.cds.CdsiV2Service
-import org.signal.libsignal.api.push.exceptions.CdsiInvalidTokenException
-import org.signal.libsignal.api.push.exceptions.CdsiResourceExhaustedException
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.cds.CdsiV2Service
+import com.servalabs.chat.libsignal.api.push.exceptions.CdsiInvalidTokenException
+import com.servalabs.chat.libsignal.api.push.exceptions.CdsiResourceExhaustedException
 import java.io.IOException
 import java.util.Optional
 import kotlin.math.roundToInt

@@ -12,9 +12,9 @@ import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.concurrent.SignalExecutors
 import com.servalabs.chat.core.util.inRoundedDays
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.net.RequestResult
-import org.signal.libsignal.net.RetryLaterException
-import org.signal.libsignal.net.UploadTooLargeException
+import com.servalabs.chat.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.RetryLaterException
+import com.servalabs.chat.libsignal.net.UploadTooLargeException
 import com.servalabs.chat.protos.resumableuploads.ResumableUpload
 import com.servalabs.chat.R
 import com.servalabs.chat.attachments.Attachment

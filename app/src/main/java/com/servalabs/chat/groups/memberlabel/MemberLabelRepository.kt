@@ -23,7 +23,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.UiHintValues
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 
 /**
  * Handles the retrieval and modification of group member labels.

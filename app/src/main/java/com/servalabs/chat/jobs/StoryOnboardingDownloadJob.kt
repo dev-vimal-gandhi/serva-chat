@@ -16,7 +16,7 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.releasechannel.ReleaseChannel
 import com.servalabs.chat.s3.S3
 import com.servalabs.chat.transport.RetryLaterException
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.util.Locale
 
 /**

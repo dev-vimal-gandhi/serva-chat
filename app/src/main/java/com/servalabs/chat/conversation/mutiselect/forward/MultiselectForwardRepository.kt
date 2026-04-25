@@ -10,7 +10,7 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.sharing.MultiShareArgs
 import com.servalabs.chat.sharing.MultiShareSender
 import com.servalabs.chat.stories.Stories
-import org.signal.libsignal.api.util.Preconditions
+import com.servalabs.chat.libsignal.api.util.Preconditions
 import java.util.Optional
 
 class MultiselectForwardRepository {

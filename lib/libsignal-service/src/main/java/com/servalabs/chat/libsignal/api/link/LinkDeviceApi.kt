@@ -14,9 +14,9 @@ import com.servalabs.chat.core.models.backup.MediaRootBackupKey
 import com.servalabs.chat.core.models.backup.MessageBackupKey
 import com.servalabs.chat.core.util.Base64.encodeWithPadding
 import com.servalabs.chat.core.util.urlEncode
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.messages.multidevice.DeviceInfo
 import com.servalabs.chat.libsignal.api.provisioning.ProvisioningMessage

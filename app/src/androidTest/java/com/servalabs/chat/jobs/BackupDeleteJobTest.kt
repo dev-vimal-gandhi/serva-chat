@@ -27,8 +27,8 @@ import com.servalabs.chat.jobs.protos.BackupDeleteJobData
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.testing.SignalActivityRule
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 
 class BackupDeleteJobTest {
 

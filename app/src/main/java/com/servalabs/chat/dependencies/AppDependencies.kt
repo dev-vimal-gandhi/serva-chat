@@ -11,9 +11,9 @@ import com.servalabs.chat.core.util.concurrent.DeadlockDetector
 import com.servalabs.chat.core.util.concurrent.LatestValueObservable
 import com.servalabs.chat.core.util.resettableLazy
 import com.servalabs.chat.glide.SignalGlideDependencies
-import org.signal.libsignal.net.Network
-import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations
-import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations
+import com.servalabs.chat.libsignal.net.Network
+import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations
+import com.servalabs.chat.libsignal.zkgroup.receipts.ClientZkReceiptOperations
 import com.servalabs.chat.mediasend.MediaSendDependencies
 import com.servalabs.chat.BuildConfig
 import com.servalabs.chat.components.TypingStatusRepository

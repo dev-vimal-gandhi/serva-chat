@@ -38,10 +38,10 @@ import com.servalabs.chat.mms.SentMediaQuality
 import com.servalabs.chat.providers.BlobProvider
 import com.servalabs.chat.testing.SignalActivityRule
 import com.servalabs.chat.util.MediaUtil
-import org.signal.libsignal.api.crypto.AttachmentCipherOutputStream
-import org.signal.libsignal.api.crypto.NoCipherOutputStream
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherOutputStream
+import com.servalabs.chat.libsignal.api.crypto.NoCipherOutputStream
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.File

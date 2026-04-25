@@ -11,7 +11,7 @@ import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.ratelimit.RateLimitUtil;
 import com.servalabs.chat.util.ExceptionHelper;
-import org.signal.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
 
 import java.util.concurrent.TimeUnit;
 

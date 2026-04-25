@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.internal.push.http
 
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
-import org.signal.libsignal.protocol.incrementalmac.IncrementalMacOutputStream
+import com.servalabs.chat.libsignal.protocol.incrementalmac.ChunkSizeChoice
+import com.servalabs.chat.libsignal.protocol.incrementalmac.IncrementalMacOutputStream
 import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherOutputStream
 import com.servalabs.chat.libsignal.api.crypto.DigestingOutputStream
 import java.io.IOException

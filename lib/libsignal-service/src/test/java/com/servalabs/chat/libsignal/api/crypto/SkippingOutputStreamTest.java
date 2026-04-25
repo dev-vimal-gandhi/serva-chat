@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.crypto;
+package com.servalabs.chat.libsignal.api.crypto;
 
 import org.junit.Test;
 

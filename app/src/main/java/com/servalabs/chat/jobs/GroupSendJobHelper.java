@@ -7,7 +7,7 @@ import com.servalabs.chat.database.documents.IdentityKeyMismatch;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.util.RecipientAccessList;
-import org.signal.libsignal.api.messages.SendMessageResult;
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult;
 
 import java.util.ArrayList;
 import java.util.Collection;

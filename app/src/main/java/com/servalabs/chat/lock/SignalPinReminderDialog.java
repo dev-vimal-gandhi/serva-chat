@@ -32,7 +32,7 @@ import com.servalabs.chat.lock.v2.CreateSvrPinActivity;
 import com.servalabs.chat.lock.v2.SvrConstants;
 import com.servalabs.chat.util.ServiceUtil;
 import com.servalabs.chat.util.ViewUtil;
-import org.signal.libsignal.api.kbs.PinHashUtil;
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil;
 
 import java.util.Objects;
 

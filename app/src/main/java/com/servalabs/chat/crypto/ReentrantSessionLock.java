@@ -1,6 +1,6 @@
 package com.servalabs.chat.crypto;
 
-import org.signal.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

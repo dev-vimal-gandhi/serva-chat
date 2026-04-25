@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.protocol.state.PreKeyRecord;
-import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
+import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord;
+import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord;
 import com.servalabs.chat.crypto.PreKeyUtil;
 import com.servalabs.chat.crypto.storage.PreKeyMetadataStore;
 import com.servalabs.chat.dependencies.AppDependencies;
@@ -14,11 +14,11 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.net.SignalNetwork;
 import com.servalabs.chat.recipients.Recipient;
-import org.signal.libsignal.api.NetworkResultUtil;
-import org.signal.libsignal.api.SignalServiceAccountDataStore;
-import org.signal.libsignal.api.account.PreKeyUpload;
+import com.servalabs.chat.libsignal.api.NetworkResultUtil;
+import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore;
+import com.servalabs.chat.libsignal.api.account.PreKeyUpload;
 import com.servalabs.chat.core.models.ServiceId.PNI;
-import org.signal.libsignal.api.push.ServiceIdType;
+import com.servalabs.chat.libsignal.api.push.ServiceIdType;
 
 import java.io.IOException;
 import java.util.List;

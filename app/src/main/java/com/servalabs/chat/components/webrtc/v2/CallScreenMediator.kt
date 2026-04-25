@@ -12,7 +12,7 @@ import com.servalabs.chat.components.webrtc.WebRtcControls
 import com.servalabs.chat.events.WebRtcViewModel
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.webrtc.CallParticipantsViewState
-import org.signal.libsignal.api.messages.calls.HangupMessage
+import com.servalabs.chat.libsignal.api.messages.calls.HangupMessage
 
 /**
  * Mediates between the activity and the call screen to allow for a consistent API

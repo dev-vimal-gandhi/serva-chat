@@ -20,7 +20,7 @@ import com.servalabs.chat.util.AppForegroundObserver;
 import com.servalabs.chat.webrtc.audio.AudioManagerCommand;
 import com.servalabs.chat.webrtc.audio.SignalAudioManager;
 import com.servalabs.chat.webrtc.locks.LockManager;
-import org.signal.libsignal.api.messages.calls.SignalServiceCallMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.SignalServiceCallMessage;
 
 import java.util.Collection;
 import java.util.UUID;

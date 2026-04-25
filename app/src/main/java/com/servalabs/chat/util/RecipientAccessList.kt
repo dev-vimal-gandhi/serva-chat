@@ -3,7 +3,7 @@ package com.servalabs.chat.util
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 
 /**
  * A list of Recipients, but with some helpful methods for retrieving them by various properties. Uses lazy properties to ensure that it will be as performant

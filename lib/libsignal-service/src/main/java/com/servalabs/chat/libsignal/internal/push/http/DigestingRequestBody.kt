@@ -5,8 +5,8 @@ import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody
 import okio.BufferedSink
 import com.servalabs.chat.core.util.stream.NonClosingOutputStream
-import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
-import org.signal.libsignal.protocol.logging.Log
+import com.servalabs.chat.libsignal.protocol.incrementalmac.ChunkSizeChoice
+import com.servalabs.chat.libsignal.protocol.logging.Log
 import com.servalabs.chat.libsignal.api.crypto.DigestingOutputStream
 import com.servalabs.chat.libsignal.api.crypto.SkippingOutputStream
 import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress

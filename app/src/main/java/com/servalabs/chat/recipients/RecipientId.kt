@@ -19,7 +19,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.groups.GroupId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.util.regex.Pattern
 
 @Parcelize

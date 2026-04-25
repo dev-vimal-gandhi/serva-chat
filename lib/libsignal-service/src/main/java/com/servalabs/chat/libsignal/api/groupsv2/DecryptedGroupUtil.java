@@ -2,7 +2,7 @@ package com.servalabs.chat.libsignal.api.groupsv2;
 
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.core.models.ServiceId.ACI;
-import org.signal.libsignal.protocol.logging.Log;
+import com.servalabs.chat.libsignal.protocol.logging.Log;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedApproveMember;

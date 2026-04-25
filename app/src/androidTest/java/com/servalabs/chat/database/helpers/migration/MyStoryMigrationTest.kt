@@ -14,7 +14,7 @@ import com.servalabs.chat.database.DistributionListTables
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.DistributionListId
 import com.servalabs.chat.testing.SignalDatabaseRule
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.UUID
 import com.servalabs.chat.database.SQLiteDatabase as SignalSQLiteDatabase
 

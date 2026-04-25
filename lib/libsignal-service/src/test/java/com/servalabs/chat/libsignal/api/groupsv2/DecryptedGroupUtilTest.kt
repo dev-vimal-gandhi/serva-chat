@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.groupsv2
+package com.servalabs.chat.libsignal.api.groupsv2
 
 import assertk.assertThat
 import assertk.assertions.containsExactly
@@ -10,7 +10,7 @@ import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPendingMember
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPendingMemberRemoval
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.util.UUID
 
 class DecryptedGroupUtilTest {

@@ -25,7 +25,7 @@ import com.servalabs.chat.database.model.DistributionListId
 import com.servalabs.chat.database.model.DistributionListPrivacyMode
 import com.servalabs.chat.database.model.DistributionListRecord
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.io.Closeable
 
 private val TAG = Log.tag(DistributionListArchiveExporter::class)

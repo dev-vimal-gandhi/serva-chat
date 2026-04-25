@@ -18,8 +18,8 @@ import com.servalabs.chat.net.NotPushRegisteredException;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientUtil;
 import com.servalabs.chat.util.TextSecurePreferences;
-import org.signal.libsignal.api.messages.SignalServiceTypingMessage;
-import org.signal.libsignal.api.messages.SignalServiceTypingMessage.Action;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceTypingMessage;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceTypingMessage.Action;
 
 import java.util.Collections;
 import java.util.List;

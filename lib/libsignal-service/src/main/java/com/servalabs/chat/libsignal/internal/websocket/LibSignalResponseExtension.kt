@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.internal.websocket
 
-import org.signal.libsignal.net.*
+import com.servalabs.chat.libsignal.net.*
 
 import kotlin.text.decodeToString
 fun ChatConnection.Response.toWebsocketResponse(isUnidentified: Boolean): WebsocketResponse {

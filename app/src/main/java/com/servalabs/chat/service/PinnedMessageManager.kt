@@ -11,7 +11,7 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.GroupUtil
 import com.servalabs.chat.util.NetworkUtil
-import org.signal.libsignal.api.messages.SignalServiceDataMessage
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage
 
 /**
  * Manages waking up and unpinning pinned messages at the correct time

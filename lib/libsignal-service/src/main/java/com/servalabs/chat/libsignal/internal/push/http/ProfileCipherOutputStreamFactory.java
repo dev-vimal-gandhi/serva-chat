@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.internal.push.http;
 
 
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.libsignal.api.crypto.DigestingOutputStream;
 import com.servalabs.chat.libsignal.api.crypto.ProfileCipherOutputStream;
 

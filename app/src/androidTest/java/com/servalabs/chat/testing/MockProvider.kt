@@ -1,11 +1,11 @@
 package com.servalabs.chat.testing
 
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.protocol.IdentityKeyPair
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.state.PreKeyRecord
-import org.signal.libsignal.protocol.util.KeyHelper
-import org.signal.libsignal.protocol.util.Medium
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair
+import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord
+import com.servalabs.chat.libsignal.protocol.util.KeyHelper
+import com.servalabs.chat.libsignal.protocol.util.Medium
 import com.servalabs.chat.crypto.PreKeyUtil
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.libsignal.api.messages.multidevice.DeviceInfo

@@ -12,9 +12,9 @@ import com.servalabs.chat.core.util.toOptional
 import org.signal.ringrtc.CallLinkRootKey
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
-import org.signal.libsignal.api.storage.SignalCallLinkRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.toSignalCallLinkRecord
+import com.servalabs.chat.libsignal.api.storage.SignalCallLinkRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.toSignalCallLinkRecord
 import java.util.Optional
 
 /**

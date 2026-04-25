@@ -102,10 +102,10 @@ import com.servalabs.chat.util.hasSharedContact
 import com.servalabs.chat.util.hasTextSlide
 import com.servalabs.chat.util.isViewOnceMessage
 import com.servalabs.chat.util.requireTextSlide
-import org.signal.libsignal.api.crypto.ContentHint
-import org.signal.libsignal.api.messages.SendMessageResult
-import org.signal.libsignal.api.messages.SignalServiceDataMessage
-import org.signal.libsignal.api.messages.SignalServiceDataMessage.Companion.newBuilder
+import com.servalabs.chat.libsignal.api.crypto.ContentHint
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage.Companion.newBuilder
 import java.io.IOException
 import kotlin.jvm.optionals.getOrNull
 import kotlin.math.max

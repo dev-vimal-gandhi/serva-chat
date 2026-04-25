@@ -7,12 +7,12 @@ package com.servalabs.chat.libsignal.api.message
 
 import kotlinx.coroutines.runBlocking
 import com.servalabs.chat.core.models.ServiceId
-import org.signal.libsignal.net.MultiRecipientMessageResponse
-import org.signal.libsignal.net.MultiRecipientSendAuthorization
-import org.signal.libsignal.net.MultiRecipientSendFailure
-import org.signal.libsignal.net.RequestResult
-import org.signal.libsignal.net.UnauthMessagesService
-import org.signal.libsignal.net.getOrError
+import com.servalabs.chat.libsignal.net.MultiRecipientMessageResponse
+import com.servalabs.chat.libsignal.net.MultiRecipientSendAuthorization
+import com.servalabs.chat.libsignal.net.MultiRecipientSendFailure
+import com.servalabs.chat.libsignal.net.RequestResult
+import com.servalabs.chat.libsignal.net.UnauthMessagesService
+import com.servalabs.chat.libsignal.net.getOrError
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess
 import com.servalabs.chat.libsignal.api.websocket.SignalWebSocket

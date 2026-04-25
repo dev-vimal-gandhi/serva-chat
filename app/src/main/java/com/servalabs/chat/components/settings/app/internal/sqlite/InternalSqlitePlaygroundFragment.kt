@@ -51,7 +51,7 @@ import com.servalabs.chat.core.ui.compose.DayNightPreviews
 import com.servalabs.chat.core.ui.compose.Previews
 import com.servalabs.chat.core.ui.compose.SignalIcons
 import com.servalabs.chat.core.util.Util
-import org.signal.libsignal.protocol.util.Hex
+import com.servalabs.chat.libsignal.protocol.util.Hex
 import com.servalabs.chat.components.settings.app.internal.sqlite.InternalSqlitePlaygroundViewModel.QueryResult
 
 class InternalSqlitePlaygroundFragment : ComposeFragment() {

@@ -7,7 +7,7 @@ import com.servalabs.chat.components.webrtc.EglBaseWrapper;
 import com.servalabs.chat.events.WebRtcViewModel;
 import org.signal.ringrtc.RemotePeer;
 import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
 
 /**
  * Handles pre-join call actions. This serves as a more capable idle state as no

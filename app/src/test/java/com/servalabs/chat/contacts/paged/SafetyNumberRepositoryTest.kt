@@ -17,7 +17,7 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore
 import com.servalabs.chat.database.IdentityTable
 import com.servalabs.chat.database.RecipientDatabaseTestUtils

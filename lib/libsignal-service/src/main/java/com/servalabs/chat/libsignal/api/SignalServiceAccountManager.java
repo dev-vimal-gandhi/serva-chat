@@ -6,8 +6,8 @@
 
 package com.servalabs.chat.libsignal.api;
 
-import org.signal.libsignal.net.Network;
-import org.signal.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.net.Network;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
 import com.servalabs.chat.libsignal.api.account.AccountApi;
 import com.servalabs.chat.libsignal.api.account.AccountAttributes;
 import com.servalabs.chat.libsignal.api.account.PreKeyCollection;

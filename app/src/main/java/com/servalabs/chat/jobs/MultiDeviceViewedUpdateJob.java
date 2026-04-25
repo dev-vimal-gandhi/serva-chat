@@ -22,12 +22,12 @@ import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.recipients.RecipientUtil;
 import com.servalabs.chat.util.JsonUtils;
 import com.servalabs.chat.util.TextSecurePreferences;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.crypto.UntrustedIdentityException;
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage;
-import org.signal.libsignal.api.messages.multidevice.ViewedMessage;
-import org.signal.libsignal.api.push.exceptions.PushNetworkException;
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException;
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage;
+import com.servalabs.chat.libsignal.api.messages.multidevice.ViewedMessage;
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException;
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException;
 
 import java.io.IOException;
 import java.io.Serializable;

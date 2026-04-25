@@ -7,11 +7,11 @@ package com.servalabs.chat.libsignal.api.keys
 
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.toByteArray
-import org.signal.libsignal.protocol.IdentityKey
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.kem.KEMPublicKey
-import org.signal.libsignal.protocol.state.PreKeyBundle
-import org.signal.libsignal.protocol.state.PreKeyRecord
+import com.servalabs.chat.libsignal.protocol.IdentityKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.kem.KEMPublicKey
+import com.servalabs.chat.libsignal.protocol.state.PreKeyBundle
+import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.account.PreKeyUpload
 import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess

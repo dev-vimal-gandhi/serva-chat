@@ -1,11 +1,11 @@
 package com.servalabs.chat.messages.protocol
 
-import org.signal.libsignal.protocol.SignalProtocolAddress
-import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
+import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import com.servalabs.chat.libsignal.protocol.groups.state.SenderKeyRecord
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.SignalServiceAccountDataStore
-import org.signal.libsignal.api.SignalServiceSenderKeyStore
-import org.signal.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
+import com.servalabs.chat.libsignal.api.SignalServiceSenderKeyStore
+import com.servalabs.chat.libsignal.api.push.DistributionId
 import java.util.UUID
 
 /**

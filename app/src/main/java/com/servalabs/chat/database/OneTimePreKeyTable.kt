@@ -10,11 +10,11 @@ import com.servalabs.chat.core.util.deleteAll
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.requireNonNullString
 import com.servalabs.chat.core.util.update
-import org.signal.libsignal.protocol.InvalidKeyException
-import org.signal.libsignal.protocol.ecc.ECKeyPair
-import org.signal.libsignal.protocol.ecc.ECPrivateKey
-import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.signal.libsignal.protocol.state.PreKeyRecord
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException
+import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair
+import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
+import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord
 import java.io.IOException
 
 class OneTimePreKeyTable(context: Context, databaseHelper: SignalDatabase) : DatabaseTable(context, databaseHelper) {

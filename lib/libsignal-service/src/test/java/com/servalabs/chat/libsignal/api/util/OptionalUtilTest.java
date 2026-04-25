@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.util;
+package com.servalabs.chat.libsignal.api.util;
 
 import org.junit.Test;
 

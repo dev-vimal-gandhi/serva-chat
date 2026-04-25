@@ -15,7 +15,7 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.protos.LeastActiveLinkedDevice
 import com.servalabs.chat.registration.secondary.DeviceNameCipher
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.io.IOException
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds

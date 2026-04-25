@@ -1,6 +1,6 @@
-package org.signal.libsignal.test;
+package com.servalabs.chat.libsignal.test;
 
-import org.signal.libsignal.internal.Native;
+import com.servalabs.chat.libsignal.internal.Native;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;

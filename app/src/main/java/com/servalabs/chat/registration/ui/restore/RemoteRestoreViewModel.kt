@@ -27,8 +27,8 @@ import com.servalabs.chat.keyvalue.Completed
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.Skipped
 import com.servalabs.chat.registration.data.QuickRegistrationRepository
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.provisioning.RestoreMethod
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 

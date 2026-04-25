@@ -26,8 +26,8 @@ import com.servalabs.chat.logsubmit.SubmitDebugLogRepository
 import com.servalabs.chat.notifications.NotificationIds
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.ServiceUtil
-import org.signal.libsignal.api.link.TransferArchiveError
-import org.signal.libsignal.api.link.WaitForLinkedDeviceResponse
+import com.servalabs.chat.libsignal.api.link.TransferArchiveError
+import com.servalabs.chat.libsignal.api.link.WaitForLinkedDeviceResponse
 import kotlin.jvm.optionals.getOrNull
 import kotlin.time.Duration.Companion.seconds
 

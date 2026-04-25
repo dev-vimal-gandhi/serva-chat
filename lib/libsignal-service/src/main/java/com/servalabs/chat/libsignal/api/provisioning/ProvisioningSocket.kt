@@ -24,7 +24,7 @@ import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.IdentityKeyPair
+import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.registration.proto.RegistrationProvisionEnvelope
 import com.servalabs.chat.libsignal.api.buildOkHttpClient
 import com.servalabs.chat.libsignal.api.chooseUrl

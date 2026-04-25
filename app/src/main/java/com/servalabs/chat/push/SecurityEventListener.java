@@ -4,8 +4,8 @@ import android.content.Context;
 
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.crypto.SecurityEvent;
-import org.signal.libsignal.api.SignalServiceMessageSender;
-import org.signal.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 
 public class SecurityEventListener implements SignalServiceMessageSender.EventListener {
 

@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import org.signal.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
+import com.servalabs.chat.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
 
 import java.util.HashMap;
 import java.util.Map;

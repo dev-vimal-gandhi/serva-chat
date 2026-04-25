@@ -4,7 +4,7 @@ import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.protocol.message.CiphertextMessage
+import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage
 import com.servalabs.chat.database.SignalDatabase.Companion.groups
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.groups.GroupChangeBusyException

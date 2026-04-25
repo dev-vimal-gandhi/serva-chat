@@ -3,14 +3,14 @@ package com.servalabs.chat.keyvalue;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
-import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
-import org.signal.libsignal.zkgroup.internal.ByteArray;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
+import com.servalabs.chat.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
+import com.servalabs.chat.libsignal.zkgroup.internal.ByteArray;
 import com.servalabs.chat.database.model.databaseprotos.TemporalAuthCredentialResponse;
 import com.servalabs.chat.database.model.databaseprotos.TemporalAuthCredentialResponses;
 import com.servalabs.chat.groups.GroupsV2Authorization;
-import org.signal.libsignal.api.groupsv2.GroupsV2Api;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupsV2Api;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChange;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;

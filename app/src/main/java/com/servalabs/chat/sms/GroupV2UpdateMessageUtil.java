@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;
 import com.servalabs.chat.mms.MessageGroupContext;
 import com.servalabs.chat.core.models.ServiceId;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupExtensions;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupExtensions;
 
 import java.util.Collections;
 import java.util.Optional;

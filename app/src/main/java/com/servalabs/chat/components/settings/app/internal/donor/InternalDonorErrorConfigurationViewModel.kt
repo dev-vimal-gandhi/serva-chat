@@ -18,7 +18,7 @@ import com.servalabs.chat.components.settings.app.subscription.getSubscriptionLe
 import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import java.util.Locale
 import kotlin.concurrent.withLock
 

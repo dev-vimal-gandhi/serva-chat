@@ -22,9 +22,9 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.JsonJobData
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.internal.EmptyResponse
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.internal.EmptyResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import java.util.Currency
 import java.util.Locale
 import kotlin.concurrent.withLock

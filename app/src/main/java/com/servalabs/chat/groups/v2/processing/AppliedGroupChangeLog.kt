@@ -6,7 +6,7 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGr
 /**
  * Pair of a group state and optionally the corresponding change.
  *
- * Similar to [org.signal.libsignal.api.groupsv2.DecryptedGroupChangeLog] but guaranteed to have a group state.
+ * Similar to [com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog] but guaranteed to have a group state.
  *
  * Changes are typically not available for pending members.
  */

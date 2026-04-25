@@ -8,7 +8,7 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.util.ProfileUtil
-import org.signal.libsignal.api.profiles.SignalServiceProfile
+import com.servalabs.chat.libsignal.api.profiles.SignalServiceProfile
 import java.io.IOException
 import kotlin.time.Duration.Companion.days
 

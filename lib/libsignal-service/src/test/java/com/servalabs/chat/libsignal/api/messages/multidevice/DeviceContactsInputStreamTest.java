@@ -1,7 +1,7 @@
-package org.signal.libsignal.api.messages.multidevice;
+package com.servalabs.chat.libsignal.api.messages.multidevice;
 
 import org.junit.Test;
-import org.signal.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 
 import java.io.ByteArrayInputStream;

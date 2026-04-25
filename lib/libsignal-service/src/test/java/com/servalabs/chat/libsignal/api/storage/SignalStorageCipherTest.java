@@ -1,9 +1,9 @@
-package org.signal.libsignal.api.storage;
+package com.servalabs.chat.libsignal.api.storage;
 
 import org.junit.Test;
 import com.servalabs.chat.core.models.storageservice.StorageItemKey;
-import org.signal.libsignal.protocol.InvalidKeyException;
-import org.signal.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import com.servalabs.chat.libsignal.internal.util.Util;
 
 import static org.junit.Assert.assertArrayEquals;
 

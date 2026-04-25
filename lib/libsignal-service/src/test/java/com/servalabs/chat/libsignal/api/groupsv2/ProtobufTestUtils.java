@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.groupsv2;
+package com.servalabs.chat.libsignal.api.groupsv2;
 
 import com.squareup.wire.Message;
 import com.squareup.wire.WireField;

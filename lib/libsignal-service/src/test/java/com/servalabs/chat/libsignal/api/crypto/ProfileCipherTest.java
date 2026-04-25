@@ -1,11 +1,11 @@
-package org.signal.libsignal.api.crypto;
+package com.servalabs.chat.libsignal.api.crypto;
 
 
 import org.conscrypt.Conscrypt;
 import org.junit.Test;
-import org.signal.libsignal.zkgroup.InvalidInputException;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.signal.libsignal.internal.util.Util;
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.internal.util.Util;
 import com.servalabs.chat.core.util.Base64;
 
 import java.io.ByteArrayInputStream;
@@ -15,7 +15,7 @@ import java.security.Security;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-import static org.signal.libsignal.testutil.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
+import static com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
 
 public class ProfileCipherTest {
 

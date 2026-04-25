@@ -7,7 +7,7 @@ import com.servalabs.chat.core.util.ByteSize
 import com.servalabs.chat.core.util.bytes
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.logging.logW
-import org.signal.libsignal.zkgroup.VerificationFailedException
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
 import com.servalabs.chat.attachments.DatabaseAttachment
@@ -25,7 +25,7 @@ import com.servalabs.chat.jobs.protos.CopyAttachmentToArchiveJobData
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import java.util.concurrent.TimeUnit
 
 /**

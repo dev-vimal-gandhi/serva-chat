@@ -6,11 +6,11 @@
 package com.servalabs.chat.service.webrtc
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.zkgroup.GenericServerPublicParams
-import org.signal.libsignal.zkgroup.InvalidInputException
-import org.signal.libsignal.zkgroup.ServerPublicParams
-import org.signal.libsignal.zkgroup.VerificationFailedException
-import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams
+import com.servalabs.chat.libsignal.zkgroup.GenericServerPublicParams
+import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
+import com.servalabs.chat.libsignal.zkgroup.ServerPublicParams
+import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
+import com.servalabs.chat.libsignal.zkgroup.calllinks.CallLinkSecretParams
 import org.signal.ringrtc.CallException
 import org.signal.ringrtc.CallLinkRootKey
 import com.servalabs.chat.database.SignalDatabase.Companion.callLinks

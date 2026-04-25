@@ -7,8 +7,8 @@ package com.servalabs.chat.database.model
 
 import com.servalabs.chat.donations.InAppPaymentType
 import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
-import org.signal.libsignal.api.storage.IAPSubscriptionId
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import java.util.Currency
 import java.util.concurrent.locks.Lock
 import java.util.concurrent.locks.ReentrantLock

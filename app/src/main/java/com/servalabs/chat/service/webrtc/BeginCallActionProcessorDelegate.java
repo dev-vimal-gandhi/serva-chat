@@ -18,8 +18,8 @@ import com.servalabs.chat.recipients.Recipient;
 import org.signal.ringrtc.RemotePeer;
 import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
 import com.servalabs.chat.core.util.Util;
-import org.signal.libsignal.api.messages.calls.OfferMessage;
-import org.signal.libsignal.api.messages.calls.SignalServiceCallMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage;
+import com.servalabs.chat.libsignal.api.messages.calls.SignalServiceCallMessage;
 
 import java.nio.ByteBuffer;
 

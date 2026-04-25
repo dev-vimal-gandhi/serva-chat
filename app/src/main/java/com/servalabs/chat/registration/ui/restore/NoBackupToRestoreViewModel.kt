@@ -19,7 +19,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.keyvalue.Skipped
 import com.servalabs.chat.registration.data.QuickRegistrationRepository
 import com.servalabs.chat.registration.data.network.RegisterAccountResult
-import org.signal.libsignal.api.provisioning.RestoreMethod
+import com.servalabs.chat.libsignal.api.provisioning.RestoreMethod
 
 class NoBackupToRestoreViewModel(decode: RegistrationProvisionMessage) : ViewModel() {
   companion object {

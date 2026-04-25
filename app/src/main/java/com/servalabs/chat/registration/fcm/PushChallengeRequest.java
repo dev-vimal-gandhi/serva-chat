@@ -12,7 +12,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import com.servalabs.chat.core.util.logging.Log;
-import org.signal.libsignal.api.SignalServiceAccountManager;
+import com.servalabs.chat.libsignal.api.SignalServiceAccountManager;
 
 import java.io.IOException;
 import java.util.Locale;

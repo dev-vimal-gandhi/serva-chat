@@ -1,8 +1,8 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
 
-import org.signal.libsignal.protocol.util.ByteUtil;
-import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
+import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.libsignal.internal.util.Util;
 
 import java.io.IOException;

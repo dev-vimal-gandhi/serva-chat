@@ -37,8 +37,8 @@ import com.servalabs.chat.notifications.NotificationChannels
 import com.servalabs.chat.notifications.NotificationIds
 import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.wallpaper.WallpaperStorage
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.archive.ArchiveGetMediaItemsResponse
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.archive.ArchiveGetMediaItemsResponse
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 

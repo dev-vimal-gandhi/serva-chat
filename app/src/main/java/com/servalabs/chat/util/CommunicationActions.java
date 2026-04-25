@@ -51,7 +51,7 @@ import com.servalabs.chat.service.webrtc.ActiveCallData;
 import com.servalabs.chat.service.webrtc.links.CallLinkRoomId;
 import com.servalabs.chat.sms.MessageSender;
 import com.servalabs.chat.util.views.SimpleProgressDialog;
-import org.signal.libsignal.api.push.UsernameLinkComponents;
+import com.servalabs.chat.libsignal.api.push.UsernameLinkComponents;
 
 import io.reactivex.rxjava3.core.Single;
 

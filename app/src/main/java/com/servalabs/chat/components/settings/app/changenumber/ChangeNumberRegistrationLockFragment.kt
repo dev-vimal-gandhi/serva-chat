@@ -30,7 +30,7 @@ import com.servalabs.chat.util.CommunicationActions
 import com.servalabs.chat.util.SupportEmailUtil
 import com.servalabs.chat.util.ViewUtil
 import com.servalabs.chat.util.navigation.safeNavigate
-import org.signal.libsignal.api.kbs.PinHashUtil
+import com.servalabs.chat.libsignal.api.kbs.PinHashUtil
 import java.util.concurrent.TimeUnit
 
 /**

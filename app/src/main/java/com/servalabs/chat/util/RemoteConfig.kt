@@ -25,7 +25,7 @@ import com.servalabs.chat.util.RemoteConfig.remoteBoolean
 import com.servalabs.chat.util.RemoteConfig.remoteValue
 import com.servalabs.chat.util.RemoteConfig.retryReceiptMaxCount
 import com.servalabs.chat.util.RemoteConfig.retryReceiptMaxCountResetAge
-import org.signal.libsignal.api.NetworkResultUtil
+import com.servalabs.chat.libsignal.api.NetworkResultUtil
 import java.io.IOException
 import java.util.TreeMap
 import java.util.concurrent.locks.ReentrantLock

@@ -34,7 +34,7 @@ import com.servalabs.chat.util.ViewUtil;
 import com.servalabs.chat.util.adapter.AlwaysChangedDiffUtil;
 import com.servalabs.chat.util.text.AfterTextChanged;
 import com.servalabs.chat.util.views.CircularProgressMaterialButton;
-import org.signal.libsignal.api.crypto.ProfileCipher;
+import com.servalabs.chat.libsignal.api.crypto.ProfileCipher;
 
 import java.util.Arrays;
 import java.util.List;
