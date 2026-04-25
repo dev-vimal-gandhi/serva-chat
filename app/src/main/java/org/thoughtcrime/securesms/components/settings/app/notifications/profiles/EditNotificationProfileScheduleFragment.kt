@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import android.content.Context
 import android.os.Bundle
@@ -21,14 +21,14 @@ import com.google.android.material.timepicker.TimeFormat
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleViewModel.SaveScheduleResult
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.orderOfDaysInWeek
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.notifications.profiles.EditNotificationProfileScheduleViewModel.SaveScheduleResult
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.formatHours
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.orderOfDaysInWeek
+import com.servalabs.chat.util.views.CircularProgressMaterialButton
+import com.servalabs.chat.util.visible
 import java.time.DayOfWeek
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter

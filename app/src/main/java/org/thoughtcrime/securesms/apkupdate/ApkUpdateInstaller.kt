@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate
+package com.servalabs.chat.apkupdate
 
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.getDownloadManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ApkUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.FileUtils
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ApkUpdateJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.FileUtils
 import java.io.FileInputStream
 import java.io.IOException
 import java.security.MessageDigest

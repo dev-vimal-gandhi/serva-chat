@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui.addmembers
+package com.servalabs.chat.groups.ui.addmembers
 
 import android.app.Activity.RESULT_CANCELED
 import android.app.Activity.RESULT_OK
@@ -39,23 +39,23 @@ import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.nullIfBlank
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.PushContactSelectionActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsEvent
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.ui.addmembers.AddMembersUiState.UserMessage
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.RecipientLookupFailureMessage
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerCallbacks
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerScaffold
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByActivity
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByMode
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.PushContactSelectionActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.conversation.ConversationSettingsEvent
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.ui.addmembers.AddMembersUiState.UserMessage
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.RecipientLookupFailureMessage
+import com.servalabs.chat.recipients.ui.RecipientPicker
+import com.servalabs.chat.recipients.ui.RecipientPickerCallbacks
+import com.servalabs.chat.recipients.ui.RecipientPickerScaffold
+import com.servalabs.chat.recipients.ui.RecipientSelection
+import com.servalabs.chat.recipients.ui.findby.FindByActivity
+import com.servalabs.chat.recipients.ui.findby.FindByMode
 import java.text.NumberFormat
 
 /**

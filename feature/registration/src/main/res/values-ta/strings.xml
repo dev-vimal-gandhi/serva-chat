@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">பெர்மீஷன்களை அனுமதித்தல்</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">உங்களுக்குத் தெரிந்தவர்களுக்கு மெசேஜ் அனுப்ப உதவ, Signal இந்த அனுமதிகளைக் கோரும். </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">உங்களுக்குத் தெரிந்தவர்களுக்கு மெசேஜ் அனுப்ப உதவ, Serva Chat இந்த அனுமதிகளைக் கோரும். </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">இப்போது வேண்டாம்</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">தொடர்புகள்</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">உங்களுக்குத் தெரிந்தவர்களைக் கண்டறியவும். உங்கள் தொடர்புகள் குறியாக்கம் செய்யப்பட்டுள்ளது, மேலும் Signal சேவைக்குக் காண்பிக்கப்படாது.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">உங்களுக்குத் தெரிந்தவர்களைக் கண்டறியவும். உங்கள் தொடர்புகள் குறியாக்கம் செய்யப்பட்டுள்ளது, மேலும் Serva Chat சேவைக்குக் காண்பிக்கப்படாது.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ஃபோன் அழைப்புகள்</string>
     <!-- Phone calls permission row description -->

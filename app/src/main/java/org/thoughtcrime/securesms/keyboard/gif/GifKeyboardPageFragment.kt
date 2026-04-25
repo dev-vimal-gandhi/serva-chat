@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package com.servalabs.chat.keyboard.gif
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,13 +8,13 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.logging.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Fragment
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4SaveResult
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import com.servalabs.chat.R
+import com.servalabs.chat.giph.mp4.GiphyMp4Fragment
+import com.servalabs.chat.giph.mp4.GiphyMp4SaveResult
+import com.servalabs.chat.giph.mp4.GiphyMp4ViewModel
+import com.servalabs.chat.keyboard.emoji.KeyboardPageSearchView
+import com.servalabs.chat.util.fragments.requireListener
+import com.servalabs.chat.util.views.SimpleProgressDialog
 
 class GifKeyboardPageFragment : LoggingFragment(R.layout.gif_keyboard_page_fragment) {
 

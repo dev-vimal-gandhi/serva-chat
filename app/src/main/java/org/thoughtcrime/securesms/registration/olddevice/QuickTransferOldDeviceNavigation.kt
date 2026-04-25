@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice
+package com.servalabs.chat.registration.olddevice
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
@@ -20,8 +20,8 @@ import androidx.navigation3.ui.NavDisplay
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 import org.signal.core.ui.navigation.TransitionSpecs
-import org.thoughtcrime.securesms.registration.olddevice.preparedevice.PrepareDeviceScreen
-import org.thoughtcrime.securesms.registration.olddevice.transferaccount.TransferAccountScreen
+import com.servalabs.chat.registration.olddevice.preparedevice.PrepareDeviceScreen
+import com.servalabs.chat.registration.olddevice.transferaccount.TransferAccountScreen
 
 /**
  * Navigation routes for the transfer account flow.

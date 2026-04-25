@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import android.text.format.DateFormat
 import androidx.compose.foundation.clickable
@@ -37,13 +37,13 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.atMidnight
-import org.thoughtcrime.securesms.util.atUTC
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.atMidnight
+import com.servalabs.chat.util.atUTC
+import com.servalabs.chat.util.formatHours
+import com.servalabs.chat.util.toLocalDateTime
+import com.servalabs.chat.util.toMillis
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.LocalTime

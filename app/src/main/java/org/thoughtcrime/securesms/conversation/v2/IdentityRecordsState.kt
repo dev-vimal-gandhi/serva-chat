@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.identity.IdentityRecordList
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Current state for all participants identity keys in a conversation excluding self.

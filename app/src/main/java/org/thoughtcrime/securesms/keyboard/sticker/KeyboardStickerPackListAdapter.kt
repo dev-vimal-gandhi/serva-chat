@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package com.servalabs.chat.keyboard.sticker
 
 import android.content.res.ColorStateList
 import android.view.View
@@ -7,11 +7,11 @@ import androidx.core.widget.ImageViewCompat
 import com.bumptech.glide.RequestManager
 import org.signal.glide.apng.ApngOptions
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 class KeyboardStickerPackListAdapter(private val requestManager: RequestManager, private val allowApngAnimation: Boolean, private val onTabSelected: (StickerPack) -> Unit) : MappingAdapter() {
 

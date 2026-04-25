@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package com.servalabs.chat.components.settings.app.data
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -23,12 +23,12 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.util.SecurePreferenceManager
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.webrtc.CallDataMode
 import kotlin.math.abs
 
 class DataAndStorageSettingsFragment : ComposeFragment() {

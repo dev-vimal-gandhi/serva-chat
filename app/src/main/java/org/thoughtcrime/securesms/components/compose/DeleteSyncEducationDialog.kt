@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.compose
+package com.servalabs.chat.components.compose
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -29,8 +29,8 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Show educational info about delete syncing to linked devices. This dialog uses a subject to convey when

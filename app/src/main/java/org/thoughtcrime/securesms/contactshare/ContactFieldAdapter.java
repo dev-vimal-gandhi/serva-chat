@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -18,16 +18,16 @@ import com.annimon.stream.Stream;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
+import com.servalabs.chat.R;
+import com.servalabs.chat.contactshare.Contact.Phone;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
-import static org.thoughtcrime.securesms.contactshare.Contact.Email;
-import static org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
+import static com.servalabs.chat.contactshare.Contact.Avatar;
+import static com.servalabs.chat.contactshare.Contact.Email;
+import static com.servalabs.chat.contactshare.Contact.PostalAddress;
 
 class ContactFieldAdapter extends RecyclerView.Adapter<ContactFieldAdapter.ContactFieldViewHolder> {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import okio.ByteString.Companion.toByteString
@@ -17,12 +17,12 @@ import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.deleteAll
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderId
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderId
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.storage.SignalChatFolderRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import java.util.UUID

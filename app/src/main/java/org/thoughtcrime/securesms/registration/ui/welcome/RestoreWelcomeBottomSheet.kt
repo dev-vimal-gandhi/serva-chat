@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.welcome
+package com.servalabs.chat.registration.ui.welcome
 
 import android.content.DialogInterface
 import androidx.compose.foundation.background
@@ -35,7 +35,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Restore flow starting bottom sheet that allows user to progress through quick restore or manual restore flows

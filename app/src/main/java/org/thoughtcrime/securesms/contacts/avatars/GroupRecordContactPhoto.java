@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package com.servalabs.chat.contacts.avatars;
 
 
 import android.content.Context;
@@ -8,11 +8,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.Conversions;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.profiles.AvatarHelper;
 
 import java.io.IOException;
 import java.io.InputStream;

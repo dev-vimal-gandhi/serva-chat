@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package com.servalabs.chat.components.settings.app.subscription.donate.card
 
 data class CreditCardValidationState(
   val type: CreditCardType,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -7,8 +7,8 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import org.signal.core.ui.initializeScreenshotSecurity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.fragments.findListener
+import com.servalabs.chat.R
+import com.servalabs.chat.util.fragments.findListener
 
 /**
  * Convenience class for wrapping Fragments in full-screen dialogs. Due to how fragments work, they

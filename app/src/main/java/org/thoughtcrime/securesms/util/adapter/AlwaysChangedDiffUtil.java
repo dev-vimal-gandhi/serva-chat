@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter;
+package com.servalabs.chat.util.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;

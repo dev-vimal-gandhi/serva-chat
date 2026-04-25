@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
 import io.mockk.every
 import io.mockk.mockk
@@ -19,15 +19,15 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import org.signal.core.models.ServiceId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.recipients.LiveRecipientCache
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryUtils
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.recipients.LiveRecipientCache
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientRepository
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.ui.countrycode.CountryUtils
 import java.util.Optional
 
 class FindByViewModelTest {

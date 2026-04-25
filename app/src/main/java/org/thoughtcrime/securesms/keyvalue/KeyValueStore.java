@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
@@ -8,7 +8,7 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.SignalUncaughtExceptionHandler;
+import com.servalabs.chat.util.SignalUncaughtExceptionHandler;
 
 import java.util.Collection;
 import java.util.HashSet;

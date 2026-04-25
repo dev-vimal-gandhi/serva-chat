@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup;
+package com.servalabs.chat.restore.restorelocalbackup;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -14,7 +14,7 @@ import android.text.style.ReplacementSpan;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.BackupUtil;
+import com.servalabs.chat.util.BackupUtil;
 
 public class PassphraseAsYouTypeFormatter implements TextWatcher {
 

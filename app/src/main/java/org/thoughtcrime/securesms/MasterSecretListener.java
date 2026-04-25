@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 public interface MasterSecretListener {
   void onMasterSecretCleared();

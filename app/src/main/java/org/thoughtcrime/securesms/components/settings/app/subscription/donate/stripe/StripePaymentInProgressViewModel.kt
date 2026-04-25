@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package com.servalabs.chat.components.settings.app.subscription.donate.stripe
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -14,19 +14,19 @@ import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSource
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.RequiredActionHandler
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import com.servalabs.chat.components.settings.app.subscription.RecurringInAppPaymentRepository
+import com.servalabs.chat.components.settings.app.subscription.StripeRepository
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import com.servalabs.chat.components.settings.app.subscription.donate.RequiredActionHandler
+import com.servalabs.chat.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationErrorSource
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.util.rx.RxStore
 import org.whispersystems.signalservice.api.util.Preconditions
 
 class StripePaymentInProgressViewModel : ViewModel() {

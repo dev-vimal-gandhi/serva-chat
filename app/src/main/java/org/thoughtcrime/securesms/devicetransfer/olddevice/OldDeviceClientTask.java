@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package com.servalabs.chat.devicetransfer.olddevice;
 
 import android.content.Context;
 
@@ -9,13 +9,13 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.ClientTask;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.backup.FullBackupExporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.backup.BackupEvent;
+import com.servalabs.chat.backup.FullBackupExporter;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.DeviceTransferBlockingInterceptor;
+import com.servalabs.chat.util.RemoteConfig;
 
 import java.io.IOException;
 import java.io.OutputStream;

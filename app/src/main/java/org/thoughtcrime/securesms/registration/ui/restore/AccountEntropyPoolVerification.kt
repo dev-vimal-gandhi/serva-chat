@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import org.signal.core.models.AccountEntropyPool
-import org.thoughtcrime.securesms.restore.enterbackupkey.PostRegistrationEnterBackupKeyViewModel
+import com.servalabs.chat.restore.enterbackupkey.PostRegistrationEnterBackupKeyViewModel
 
 /**
  * Help verify a potential string could be an [AccountEntropyPool] string. Intended only

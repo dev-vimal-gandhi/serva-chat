@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package com.servalabs.chat.providers;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -10,11 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.crypto.AttachmentSecret;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.crypto.ModernDecryptingPartInputStream;
+import com.servalabs.chat.util.FileProviderUtil;
 
 import java.io.File;
 import java.io.IOException;

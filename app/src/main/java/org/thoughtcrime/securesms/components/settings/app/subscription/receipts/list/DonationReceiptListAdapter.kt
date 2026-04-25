@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.SectionHeaderPreference
-import org.thoughtcrime.securesms.components.settings.SectionHeaderPreferenceViewHolder
-import org.thoughtcrime.securesms.components.settings.TextPreference
-import org.thoughtcrime.securesms.components.settings.TextPreferenceViewHolder
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.SectionHeaderPreference
+import com.servalabs.chat.components.settings.SectionHeaderPreferenceViewHolder
+import com.servalabs.chat.components.settings.TextPreference
+import com.servalabs.chat.components.settings.TextPreferenceViewHolder
+import com.servalabs.chat.util.StickyHeaderDecoration
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.toLocalDateTime
 
 class DonationReceiptListAdapter(onModelClick: (DonationReceiptListItem.Model) -> Unit) : MappingAdapter(), StickyHeaderDecoration.StickyHeaderAdapter<SectionHeaderPreferenceViewHolder> {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,8 +15,8 @@ import com.google.android.material.color.DynamicColors;
 
 import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.Theme;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SettingsValues.Theme;
 
 public class DynamicTheme {
 

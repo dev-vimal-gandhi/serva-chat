@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package com.servalabs.chat.components.settings.conversation.sounds
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -39,8 +39,8 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting
+import com.servalabs.chat.R
+import com.servalabs.chat.database.RecipientTable.NotificationSetting
 import org.signal.core.ui.R as CoreUiR
 
 @Composable

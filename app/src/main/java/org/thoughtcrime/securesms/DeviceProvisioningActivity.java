@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.os.Bundle;
 import android.view.Window;
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AlertDialog;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
 
 public class DeviceProvisioningActivity extends PassphraseRequiredActivity {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package com.servalabs.chat.mediapreview;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -18,12 +18,12 @@ import androidx.media3.ui.LegacyPlayerControlView;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.incrementalmac.InvalidMacException;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner;
+import com.servalabs.chat.mms.PartUriParser;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.video.VideoPlayer;
 
 import java.util.concurrent.TimeUnit;
 

@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">გაითვალისწინეთ კონფიდენციალურობა.\nიყავით საკუთარი თავი ყველა შეტყობინებაში.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal-ი არაკომერციული ორგანიზაციაა\nწესები &amp; კონფიდენციალურობის პოლიტიკა</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat-ი არაკომერციული ორგანიზაციაა\nწესები &amp; კონფიდენციალურობის პოლიტიკა</string>
     <string name="RegistrationActivity_continue">გაგრძელება</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">აღდგენა ან გადატანა</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">ნებართვების დაშვება</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">იმისათვის, რომ შენს ნაცნობებთან მიმოწერაში დაგეხმაროთ, Signal-ი ამ ნებართვებს მოითხოვს. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">იმისათვის, რომ შენს ნაცნობებთან მიმოწერაში დაგეხმაროთ, Serva Chat-ი ამ ნებართვებს მოითხოვს. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">ახლა არა</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">კონტაქტები</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">იპოვე ნაცნობები. შენი კონტაქტები დაშიფრულია და Signal-ის სერვისისთვის უხილავია.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">იპოვე ნაცნობები. შენი კონტაქტები დაშიფრულია და Serva Chat-ის სერვისისთვის უხილავია.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">სატელეფონო ზარები</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">ჩემი ძველი მობილური მაქვს</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">სწრაფად დასაწყებად დაასკანირე QR კოდი შენი ახლანდელი Signal-ის ანგარიშიდან</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">სწრაფად დასაწყებად დაასკანირე QR კოდი შენი ახლანდელი Serva Chat-ის ანგარიშიდან</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">ჩემი ძველი მობილური არ მაქვს</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">ან Signal-ს თავიდან იწერ იმავე მოწყობილობაზე</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">ან Serva Chat-ს თავიდან იწერ იმავე მოწყობილობაზე</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">აირჩიე, როგორ გსურს შენი მიმოწერის ისტორიისა და ანგარიშის მონაცემების აღდგენა.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal-ის სათადარიგო ასლებიდან</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat-ის სათადარიგო ასლებიდან</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">შენი უფასო ან ფასიანი Signal-ის სათადარიგო ასლების გამოწერა</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">შენი უფასო ან ფასიანი Serva Chat-ის სათადარიგო ასლების გამოწერა</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">მოწყობილობის სათადარიგო ასლების აღდგენა</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Link your account</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">ჯერ არ ხარ Signal-ზე?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">ჯერ არ ხარ Serva Chat-ზე?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">შექმენი ანგარიში</string>
 </resources>

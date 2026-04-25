@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 /**
  * Descriptor of where an error originated from.

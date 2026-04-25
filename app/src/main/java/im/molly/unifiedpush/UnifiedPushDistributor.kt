@@ -1,8 +1,8 @@
 package im.molly.unifiedpush
 
 import android.content.Context
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
 import org.unifiedpush.android.connector.UnifiedPush
 import org.unifiedpush.android.connector.ui.SelectDistributorDialogsBuilder
 import org.unifiedpush.android.connector.ui.UnifiedPushFunctions

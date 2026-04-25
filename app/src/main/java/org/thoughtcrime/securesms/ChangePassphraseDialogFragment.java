@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,12 +24,12 @@ import com.google.android.material.textfield.TextInputLayout;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.crypto.PassphraseValidator;
-import org.thoughtcrime.securesms.crypto.UnrecoverableKeyException;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.crypto.InvalidPassphraseException;
+import com.servalabs.chat.crypto.MasterSecret;
+import com.servalabs.chat.crypto.MasterSecretUtil;
+import com.servalabs.chat.crypto.PassphraseValidator;
+import com.servalabs.chat.crypto.UnrecoverableKeyException;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.util.Arrays;
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package com.servalabs.chat.stories.viewer.post
 
 import android.app.Activity
 import android.os.Bundle
@@ -7,16 +7,16 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.databinding.StoriesPostFragmentBinding
-import org.thoughtcrime.securesms.mediapreview.VideoControlsDelegate
-import org.thoughtcrime.securesms.stories.viewer.page.StoryDisplay
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.video.VideoPlayer.PlayerCallback
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner
+import com.servalabs.chat.databinding.StoriesPostFragmentBinding
+import com.servalabs.chat.mediapreview.VideoControlsDelegate
+import com.servalabs.chat.stories.viewer.page.StoryDisplay
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageViewModel
+import com.servalabs.chat.util.fragments.requireListener
+import com.servalabs.chat.util.visible
+import com.servalabs.chat.video.VideoPlayer.PlayerCallback
 
 /**
  * Renders a given StoryPost object as a viewable story.

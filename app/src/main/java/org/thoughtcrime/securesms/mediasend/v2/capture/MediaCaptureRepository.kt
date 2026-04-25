@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package com.servalabs.chat.mediasend.v2.capture
 
 import android.annotation.SuppressLint
 import android.content.ContentUris
@@ -12,10 +12,10 @@ import org.signal.core.ui.util.StorageUtil
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.video.videoconverter.utils.VideoConstants
+import com.servalabs.chat.mediasend.MediaRepository
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.video.videoconverter.utils.VideoConstants
 import java.io.FileDescriptor
 import java.io.FileInputStream
 import java.io.IOException

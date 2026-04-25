@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class ButtonStripItemView @JvmOverloads constructor(
   context: Context,

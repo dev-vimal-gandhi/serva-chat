@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import androidx.core.view.doOnNextLayout
 import androidx.recyclerview.widget.RecyclerView

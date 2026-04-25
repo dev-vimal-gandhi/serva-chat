@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.os.Bundle
 import androidx.activity.OnBackPressedCallback
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
 
 /**
  * The DSL API can be completely replaced by compose.

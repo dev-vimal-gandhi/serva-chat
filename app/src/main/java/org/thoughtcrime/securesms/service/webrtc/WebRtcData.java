@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
+import com.servalabs.chat.ringrtc.RemotePeer;
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 import org.signal.core.models.ServiceId;

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.models
+package com.servalabs.chat.components.settings.app.subscription.models
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 import java.util.Currency
 
 object CurrencySelection {

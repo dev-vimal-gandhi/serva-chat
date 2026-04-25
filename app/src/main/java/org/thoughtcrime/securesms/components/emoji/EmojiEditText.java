@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -14,12 +14,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiProvider.EmojiDrawable;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.EditTextExtensionsKt;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
 
 import java.util.HashSet;

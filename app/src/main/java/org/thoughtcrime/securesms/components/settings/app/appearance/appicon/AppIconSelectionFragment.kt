@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.appearance.appicon
+package com.servalabs.chat.components.settings.app.appearance.appicon
 
 import android.content.Context
 import androidx.appcompat.content.res.AppCompatResources
@@ -57,10 +57,10 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconPreset
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.appearance.appicon.util.AppIconPreset
+import com.servalabs.chat.components.settings.app.appearance.appicon.util.AppIconUtility
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class AppIconSelectionFragment : ComposeFragment() {
   private lateinit var appIconUtility: AppIconUtility

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -32,7 +32,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import org.signal.core.ui.R as CoreUiR
 
 /**

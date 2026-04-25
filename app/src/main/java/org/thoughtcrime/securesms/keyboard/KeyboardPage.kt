@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard
+package com.servalabs.chat.keyboard
 
 enum class KeyboardPage {
   EMOJI,

@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.reregisterwithpin
+package com.servalabs.chat.registration.ui.reregisterwithpin
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.lock.v2.PinKeyboardType
 
 data class ReRegisterWithPinState(
   val isLocalVerification: Boolean = false,

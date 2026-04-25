@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.window
+package com.servalabs.chat.window
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -49,10 +49,10 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.getWindowBreakpoint
 import org.signal.core.ui.isSplitPane
 import org.signal.core.ui.isWidthExpanded
-import org.thoughtcrime.securesms.main.MainFloatingActionButtonsCallback
-import org.thoughtcrime.securesms.main.MainNavigationBar
-import org.thoughtcrime.securesms.main.MainNavigationRail
-import org.thoughtcrime.securesms.main.MainNavigationState
+import com.servalabs.chat.main.MainFloatingActionButtonsCallback
+import com.servalabs.chat.main.MainNavigationBar
+import com.servalabs.chat.main.MainNavigationRail
+import com.servalabs.chat.main.MainNavigationState
 import kotlin.math.max
 
 enum class NavigationType {

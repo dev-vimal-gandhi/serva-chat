@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.Application
 import io.mockk.mockk

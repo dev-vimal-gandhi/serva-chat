@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package com.servalabs.chat.conversation.colors.ui
 
 import android.content.Context
 import android.graphics.Color
@@ -6,15 +6,15 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TooltipPopup
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.withFixedSize
+import com.servalabs.chat.R
+import com.servalabs.chat.components.TooltipPopup
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.withFixedSize
 
 class ChatColorSelectionAdapter(
   context: Context,

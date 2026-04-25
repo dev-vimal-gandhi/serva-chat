@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package com.servalabs.chat.components.settings.app.account.export
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -17,10 +17,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.JsonUtils
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.util.JsonUtils
 import org.whispersystems.signalservice.api.NetworkResult
 import java.io.IOException
 

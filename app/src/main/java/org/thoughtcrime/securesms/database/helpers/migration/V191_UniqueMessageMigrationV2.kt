@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.SqlUtil
@@ -7,7 +7,7 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.readToList
 import org.signal.core.util.readToSingleBoolean
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * We want to have a unique constraint on message (author, timestamp, thread). Unfortunately, because we haven't had one for all this time, some dupes

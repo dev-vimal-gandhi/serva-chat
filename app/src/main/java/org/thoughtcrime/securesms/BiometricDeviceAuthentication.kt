@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -11,7 +11,7 @@ import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricPrompt
 import androidx.biometric.BiometricPrompt.PromptInfo
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.util.ServiceUtil
 
 /**
  * Authentication using phone biometric (face, fingerprint recognition) or device lock (pattern, pin or passphrase).

@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class RestoreLocalBackupDialog {
   FAILED_TO_LOAD_ARCHIVE,

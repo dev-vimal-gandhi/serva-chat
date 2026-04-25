@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable

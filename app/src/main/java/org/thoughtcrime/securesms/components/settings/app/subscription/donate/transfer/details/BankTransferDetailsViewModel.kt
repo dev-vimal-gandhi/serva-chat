@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.details
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.reactive.asFlow
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details.BankTransferDetailsState.FocusState
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.details.BankTransferDetailsState.FocusState
+import com.servalabs.chat.database.InAppPaymentTable
 
 class BankTransferDetailsViewModel(
   inAppPaymentId: InAppPaymentTable.InAppPaymentId

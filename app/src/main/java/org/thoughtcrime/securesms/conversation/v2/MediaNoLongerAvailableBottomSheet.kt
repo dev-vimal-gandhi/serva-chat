@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.os.Bundle
 import android.view.View
@@ -29,9 +29,9 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
 
 /**
  * Bottom sheet displayed when the user taps media that is not available for download,

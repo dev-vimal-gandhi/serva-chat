@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.clicklisteners
+package com.servalabs.chat.conversation.clicklisteners
 
 import android.os.Bundle
 import androidx.compose.foundation.Image
@@ -49,15 +49,15 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.conversation.clicklisteners.PollVotesFragment.Companion.MAX_INITIAL_VOTER_COUNT
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.conversation.clicklisteners.PollVotesFragment.Companion.MAX_INITIAL_VOTER_COUNT
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
+import com.servalabs.chat.util.viewModel
 
 /**
  * Fragment that shows the results for a given poll.

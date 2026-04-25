@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.Manifest;
 import android.content.Context;
@@ -22,10 +22,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.audio.AudioRecordingHandler;
+import com.servalabs.chat.R;
+import com.servalabs.chat.audio.AudioRecordingHandler;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 public final class MicrophoneRecorderView extends FrameLayout implements View.OnTouchListener {
 

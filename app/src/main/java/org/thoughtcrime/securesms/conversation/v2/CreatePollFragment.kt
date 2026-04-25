@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.app.Dialog
 import android.os.Bundle
@@ -64,10 +64,10 @@ import org.signal.core.ui.compose.copied.androidx.compose.DraggableItem
 import org.signal.core.ui.compose.copied.androidx.compose.dragContainer
 import org.signal.core.ui.compose.copied.androidx.compose.rememberDragDropState
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.polls.Poll
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.polls.Poll
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.ViewUtil
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

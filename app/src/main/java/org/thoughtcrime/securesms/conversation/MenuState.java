@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectCollection;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
-import org.thoughtcrime.securesms.util.MessageConstraintsUtil;
+import com.servalabs.chat.conversation.mutiselect.MultiselectCollection;
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.MessageRecordUtil;
+import com.servalabs.chat.util.MessageConstraintsUtil;
 
 import java.util.Set;
 import java.util.stream.Collectors;

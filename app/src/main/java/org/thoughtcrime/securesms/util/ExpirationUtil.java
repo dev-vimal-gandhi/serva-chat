@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 
 import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.concurrent.TimeUnit;
 

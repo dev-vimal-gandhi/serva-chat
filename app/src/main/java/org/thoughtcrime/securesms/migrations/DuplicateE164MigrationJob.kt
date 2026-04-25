@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.delete
@@ -9,16 +9,16 @@ import org.signal.core.util.requireNonNullString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RecipientTable.Companion.ACI_COLUMN
-import org.thoughtcrime.securesms.database.RecipientTable.Companion.E164
-import org.thoughtcrime.securesms.database.RecipientTable.Companion.ID
-import org.thoughtcrime.securesms.database.RecipientTable.Companion.PNI_COLUMN
-import org.thoughtcrime.securesms.database.RecipientTable.Companion.TABLE_NAME
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.RecipientTable.Companion.ACI_COLUMN
+import com.servalabs.chat.database.RecipientTable.Companion.E164
+import com.servalabs.chat.database.RecipientTable.Companion.ID
+import com.servalabs.chat.database.RecipientTable.Companion.PNI_COLUMN
+import com.servalabs.chat.database.RecipientTable.Companion.TABLE_NAME
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Through testing, we've discovered that there are some duplicate E164's in the database. They're not identical strings, since the UNIQUE constraint

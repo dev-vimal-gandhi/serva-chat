@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package com.servalabs.chat.components.webrtc.controls
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -57,19 +57,19 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarImage
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.webrtc.v2.WebRtcCallViewModel
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.GroupCallRaiseHandEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.fallback.FallbackAvatar
+import com.servalabs.chat.avatar.fallback.FallbackAvatarImage
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.webrtc.v2.WebRtcCallViewModel
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.GroupCallRaiseHandEvent
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.groups.ui.GroupMemberEntry
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.RemoteConfig
 
 /**
  * Renders information about a call (1:1, group, or call link) and provides actions available for

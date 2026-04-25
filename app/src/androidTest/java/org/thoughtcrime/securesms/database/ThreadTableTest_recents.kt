@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertFalse
@@ -8,9 +8,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.SignalDatabaseRule
 import java.util.UUID
 
 @Suppress("ClassName")

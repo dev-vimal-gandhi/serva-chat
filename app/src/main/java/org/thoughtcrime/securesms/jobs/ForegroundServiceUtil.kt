@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.AlarmManager
 import android.app.ForegroundServiceStartNotAllowedException
@@ -12,10 +12,10 @@ import androidx.annotation.WorkerThread
 import androidx.core.content.ContextCompat
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.service.GenericForegroundService
-import org.thoughtcrime.securesms.service.NotificationController
-import org.thoughtcrime.securesms.util.AppForegroundObserver
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.service.GenericForegroundService
+import com.servalabs.chat.service.NotificationController
+import com.servalabs.chat.util.AppForegroundObserver
+import com.servalabs.chat.util.ServiceUtil
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.locks.ReentrantLock

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.polls
+package com.servalabs.chat.polls
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package com.servalabs.chat.stories.viewer.views
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 data class StoryViewsState(
   val loadState: LoadState = LoadState.INIT,

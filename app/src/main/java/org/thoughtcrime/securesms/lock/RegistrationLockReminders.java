@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.lock;
+package com.servalabs.chat.lock;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package com.servalabs.chat.preferences.widgets;
 
 import androidx.annotation.NonNull;
 

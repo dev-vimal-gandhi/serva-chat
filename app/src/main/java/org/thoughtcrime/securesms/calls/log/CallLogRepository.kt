@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Observable
@@ -6,14 +6,14 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.calls.links.UpdateCallLinkRepository
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.CallLogEventSendJob
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
+import com.servalabs.chat.calls.links.UpdateCallLinkRepository
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.CallLogEventSendJob
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.UpdateCallLinkResult
 
 class CallLogRepository(
   private val updateCallLinkRepository: UpdateCallLinkRepository = UpdateCallLinkRepository(),

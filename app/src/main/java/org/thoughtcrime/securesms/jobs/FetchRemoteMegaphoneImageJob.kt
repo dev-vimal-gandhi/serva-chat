@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import okhttp3.ResponseBody
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.s3.S3
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobmanager.impl.AutoDownloadEmojiConstraint
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.s3.S3
+import com.servalabs.chat.transport.RetryLaterException
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 

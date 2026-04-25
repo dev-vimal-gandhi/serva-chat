@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package com.servalabs.chat.preferences;
 
 import android.Manifest;
 import android.app.Activity;
@@ -36,18 +36,18 @@ import org.signal.core.ui.util.StorageUtil;
 import org.signal.core.util.NoExternalStorageException;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupDialog;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.preferences.widgets.UpgradeLocalBackupCard;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.backup.BackupDialog;
+import com.servalabs.chat.backup.BackupEvent;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.LocalBackupJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.preferences.widgets.UpgradeLocalBackupCard;
+import com.servalabs.chat.service.LocalBackupListener;
+import com.servalabs.chat.util.BackupUtil;
+import com.servalabs.chat.util.Environment;
+import com.servalabs.chat.util.JavaTimeExtensionsKt;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.text.NumberFormat;
 import java.time.LocalTime;

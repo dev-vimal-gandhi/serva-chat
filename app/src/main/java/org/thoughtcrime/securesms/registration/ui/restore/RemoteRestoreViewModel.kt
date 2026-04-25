@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -17,16 +17,16 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.RemoteRestoreResult
-import org.thoughtcrime.securesms.backup.v2.RestoreTimestampResult
-import org.thoughtcrime.securesms.backup.v2.RestoreV2Event
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.keyvalue.Completed
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.Skipped
-import org.thoughtcrime.securesms.registration.data.QuickRegistrationRepository
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.RemoteRestoreResult
+import com.servalabs.chat.backup.v2.RestoreTimestampResult
+import com.servalabs.chat.backup.v2.RestoreV2Event
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.keyvalue.Completed
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.Skipped
+import com.servalabs.chat.registration.data.QuickRegistrationRepository
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 import kotlin.time.Duration

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Objects;
 

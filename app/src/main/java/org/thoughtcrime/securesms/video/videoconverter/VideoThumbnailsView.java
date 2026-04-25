@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,9 +17,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
+import com.servalabs.chat.media.DecryptableUriMediaInput;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.video.interfaces.MediaInput;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

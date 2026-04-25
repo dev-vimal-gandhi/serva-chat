@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.push.SignalServiceNetworkAccess;
+import com.servalabs.chat.util.Environment;
+import com.servalabs.chat.util.NetworkUtil;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

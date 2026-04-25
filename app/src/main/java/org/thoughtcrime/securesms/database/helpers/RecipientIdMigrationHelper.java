@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package com.servalabs.chat.database.helpers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -10,9 +10,9 @@ import androidx.annotation.Nullable;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil;
-import org.thoughtcrime.securesms.util.DelimiterUtil;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.phonenumbers.NumberUtil;
+import com.servalabs.chat.util.DelimiterUtil;
 import org.signal.core.util.Util;
 
 import java.util.HashSet;

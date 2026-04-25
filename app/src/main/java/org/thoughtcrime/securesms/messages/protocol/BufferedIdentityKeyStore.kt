@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.signal.core.models.ServiceId
 import org.signal.libsignal.protocol.IdentityKey
@@ -6,7 +6,7 @@ import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.state.IdentityKeyStore
 import org.signal.libsignal.protocol.state.IdentityKeyStore.IdentityChange
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 
 /**

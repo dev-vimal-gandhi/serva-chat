@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package com.servalabs.chat.sharing;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,10 +6,10 @@ import android.widget.TextView;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.Factory;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.adapter.mapping.Factory;
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory;
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder;
 
 public class ShareSelectionViewHolder extends MappingViewHolder<ShareSelectionMappingModel> {
 

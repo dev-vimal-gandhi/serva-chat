@@ -302,10 +302,10 @@ private fun TermsAndPrivacy(
     ),
     modifier = modifier
   ) {
-    Text(
-      text = stringResource(R.string.RegistrationActivity_terms_and_privacy),
-      textAlign = TextAlign.Center
-    )
+    // Text(
+    //   text = stringResource(R.string.RegistrationActivity_terms_and_privacy),
+    //   textAlign = TextAlign.Center
+    // )
   }
 }
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import android.content.res.ColorStateList
 import android.text.style.TextAppearanceSpan
@@ -9,23 +9,23 @@ import androidx.core.widget.TextViewCompat
 import com.bumptech.glide.Glide
 import org.signal.core.ui.util.ThemeUtil
 import com.google.android.material.R as MaterialR
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.databinding.CallLogAdapterItemBinding
-import org.thoughtcrime.securesms.databinding.CallLogCreateCallLinkItemBinding
-import org.thoughtcrime.securesms.databinding.ConversationListItemClearFilterBinding
-import org.thoughtcrime.securesms.databinding.ConversationListItemClearFilterEmptyBinding
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SearchUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.setRelativeDrawables
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.databinding.CallLogAdapterItemBinding
+import com.servalabs.chat.databinding.CallLogCreateCallLinkItemBinding
+import com.servalabs.chat.databinding.ConversationListItemClearFilterBinding
+import com.servalabs.chat.databinding.ConversationListItemClearFilterEmptyBinding
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.SearchUtil
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter
+import com.servalabs.chat.util.setRelativeDrawables
+import com.servalabs.chat.util.visible
 import java.util.Locale
 import org.signal.core.ui.R as CoreUiR
 

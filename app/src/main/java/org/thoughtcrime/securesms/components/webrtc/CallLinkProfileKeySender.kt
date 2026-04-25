@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ProfileKeySendJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.identity.IdentityRecordList
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ProfileKeySendJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * In-Memory Cache that keeps track of whom we've sent profile keys to. This is

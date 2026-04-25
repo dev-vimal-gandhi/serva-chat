@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import org.whispersystems.signalservice.api.storage.IAPSubscriptionId
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 import java.util.Currency

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.util.LongSparseArray;
 
@@ -10,18 +10,18 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.events.WebRtcViewModel.State;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.VideoState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.CallParticipantId;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.events.WebRtcViewModel.State;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.VideoState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceStateBuilder;
 import org.webrtc.PeerConnection;
 import org.webrtc.VideoTrack;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.ActivityManager;
 import android.app.ActivityManager.MemoryInfo;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 
 /**

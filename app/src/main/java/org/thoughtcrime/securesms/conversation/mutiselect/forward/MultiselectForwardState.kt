@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package com.servalabs.chat.conversation.mutiselect.forward
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.stories.Stories
 
 data class MultiselectForwardState(
   val stage: Stage = Stage.Selection,

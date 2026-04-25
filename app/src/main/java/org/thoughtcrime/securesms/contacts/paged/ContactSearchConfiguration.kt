@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.search.SearchFilter
+import com.servalabs.chat.contacts.HeaderAction
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.search.SearchFilter
 
 /**
  * A strongly typed descriptor of how a given list of contacts should be formatted

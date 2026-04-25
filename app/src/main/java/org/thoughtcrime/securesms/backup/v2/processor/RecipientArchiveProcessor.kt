@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import org.signal.archive.proto.Frame
 import org.signal.archive.proto.ReleaseNotes
@@ -11,26 +11,26 @@ import org.signal.archive.stream.BackupFrameEmitter
 import org.signal.core.models.ServiceId
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.backup.v2.ArchiveRecipient
-import org.thoughtcrime.securesms.backup.v2.ExportOddities
-import org.thoughtcrime.securesms.backup.v2.ExportSkips
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.database.getAllForBackup
-import org.thoughtcrime.securesms.backup.v2.database.getCallLinksForBackup
-import org.thoughtcrime.securesms.backup.v2.database.getContactsForBackup
-import org.thoughtcrime.securesms.backup.v2.database.getGroupsForBackup
-import org.thoughtcrime.securesms.backup.v2.database.restoreReleaseNotes
-import org.thoughtcrime.securesms.backup.v2.importer.CallLinkArchiveImporter
-import org.thoughtcrime.securesms.backup.v2.importer.ContactArchiveImporter
-import org.thoughtcrime.securesms.backup.v2.importer.DistributionListArchiveImporter
-import org.thoughtcrime.securesms.backup.v2.importer.GroupArchiveImporter
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.ArchiveRecipient
+import com.servalabs.chat.backup.v2.ExportOddities
+import com.servalabs.chat.backup.v2.ExportSkips
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.database.getAllForBackup
+import com.servalabs.chat.backup.v2.database.getCallLinksForBackup
+import com.servalabs.chat.backup.v2.database.getContactsForBackup
+import com.servalabs.chat.backup.v2.database.getGroupsForBackup
+import com.servalabs.chat.backup.v2.database.restoreReleaseNotes
+import com.servalabs.chat.backup.v2.importer.CallLinkArchiveImporter
+import com.servalabs.chat.backup.v2.importer.ContactArchiveImporter
+import com.servalabs.chat.backup.v2.importer.DistributionListArchiveImporter
+import com.servalabs.chat.backup.v2.importer.GroupArchiveImporter
+import com.servalabs.chat.backup.v2.util.toLocal
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Handles importing/exporting [ArchiveRecipient] frames for an archive.

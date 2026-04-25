@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 
 val LocalBackupCreationProgress.isIdle: Boolean
   get() = idle != null || succeeded != null || failed != null || canceled != null || (exporting == null && transferring == null)

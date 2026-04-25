@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package com.servalabs.chat.sms;
 
 import android.content.Context;
 import android.os.Looper;

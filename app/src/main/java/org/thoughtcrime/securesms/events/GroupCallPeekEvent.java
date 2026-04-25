@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package com.servalabs.chat.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 
 public final class GroupCallPeekEvent {
   private final RecipientId groupRecipientId;

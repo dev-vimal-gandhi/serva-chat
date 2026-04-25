@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.groups
+package com.servalabs.chat.conversation.v2.groups
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /** State of a group call used solely within rendering UX/UI in the conversation */
 data class ConversationGroupCallState(

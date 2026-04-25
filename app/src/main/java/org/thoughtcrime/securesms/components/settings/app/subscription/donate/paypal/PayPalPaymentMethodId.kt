@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package com.servalabs.chat.components.settings.app.subscription.donate.paypal
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

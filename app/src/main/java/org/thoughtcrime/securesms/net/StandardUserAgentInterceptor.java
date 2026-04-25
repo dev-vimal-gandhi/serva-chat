@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import android.os.Build;
 
-import im.molly.app.base.ApkInfo;
+import com.servalabs.chat.base.ApkInfo;
 
 /**
  * The user agent that should be used by default -- includes app name, version, etc.

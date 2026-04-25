@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
 import org.signal.core.util.roundedString
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LeastActiveLinkedDevice
-import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.devicelist.protos.DeviceName
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.LeastActiveLinkedDevice
+import com.servalabs.chat.registration.secondary.DeviceNameCipher
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import java.io.IOException
 import kotlin.time.Duration.Companion.days

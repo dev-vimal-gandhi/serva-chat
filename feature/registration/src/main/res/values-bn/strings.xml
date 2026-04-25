@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">আপনার গোপনীয়তা বজায় রাখুন।\n প্রতিটি বার্তায় নিজস্ব থাকুন।</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal একটি অলাভজনক প্রতিষ্ঠান\nশর্তাবলী এবং গোপনীয়তার নীতিমালা</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat একটি অলাভজনক প্রতিষ্ঠান\nশর্তাবলী এবং গোপনীয়তার নীতিমালা</string>
     <string name="RegistrationActivity_continue">চলতে থাকুন</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">পুনর্বহাল বা ট্রান্সফার করুন</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">অনুমতি দিন</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">আপনার পরিচিত ব্যক্তিদের মেসেজ করতে সাহায্য করার জন্য, Signal এই অনুমতিগুলোর জন্য অনুরোধ করবে। </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">আপনার পরিচিত ব্যক্তিদের মেসেজ করতে সাহায্য করার জন্য, Serva Chat এই অনুমতিগুলোর জন্য অনুরোধ করবে। </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">এখন না</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">আমার পুরানো ফোন আছে</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">দ্রুত শুরু করতে আপনার বর্তমান Signal অ্যাকাউন্ট থেকে একটি QR কোড স্ক্যান করুন</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">দ্রুত শুরু করতে আপনার বর্তমান Serva Chat অ্যাকাউন্ট থেকে একটি QR কোড স্ক্যান করুন</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">আমার পুরানো ফোনটি নেই</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">অথবা আপনি একই ডিভাইসে Signal পুনরায় ইনস্টল করছেন</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">অথবা আপনি একই ডিভাইসে Serva Chat পুনরায় ইনস্টল করছেন</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,7 +101,7 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">আপনার মেসেজের ইতিহাস ও অ্যাকাউন্টের ডেটা কীভাবে পুনর্বহাল করতে চান তা বেছে নিন।</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal ব্যাকআপ থেকে</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat ব্যাকআপ থেকে</string>
     <!-- Subtitle for the Signal Backups option card -->
     <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">ফ্রি বা পেমেন্টের ভিত্তিতে থাকা ব্যাকআপ প্ল্যান</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">কোনো ব্যাকআপ পাওয়া যায়নি</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">নির্বাচিত ফোল্ডারে কোনো Signal ব্যাকআপ পাওয়া যায়নি। অনুগ্রহ করে অন্য একটি ফোল্ডার দিয়ে চেষ্টা করুন।</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">নির্বাচিত ফোল্ডারে কোনো Serva Chat ব্যাকআপ পাওয়া যায়নি। অনুগ্রহ করে অন্য একটি ফোল্ডার দিয়ে চেষ্টা করুন।</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">অন্য একটি ফোল্ডার দিয়ে চেষ্টা করুন</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">আপনার অ্যাকাউন্ট লিংক করুন</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">এখনো Signal-এ নেই?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">এখনো Serva Chat-এ নেই?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">অ্যাকাউন্ট তৈরি করুন</string>
 </resources>

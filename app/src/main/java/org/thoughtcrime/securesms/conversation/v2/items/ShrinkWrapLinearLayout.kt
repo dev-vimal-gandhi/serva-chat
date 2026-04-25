@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.content.Context
 import android.util.AttributeSet

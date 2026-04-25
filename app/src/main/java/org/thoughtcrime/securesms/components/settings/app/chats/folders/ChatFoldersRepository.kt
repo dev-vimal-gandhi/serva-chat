@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package com.servalabs.chat.components.settings.app.chats.folders
 
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
 
 /**
  * Repository for chat folders that handles creation, deletion, listing, etc.,

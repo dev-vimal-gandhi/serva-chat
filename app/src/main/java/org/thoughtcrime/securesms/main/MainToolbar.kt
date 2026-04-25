@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -76,15 +76,15 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.TextFields
 import org.signal.core.ui.compose.Tooltips
 import org.signal.core.ui.compose.circularReveal
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.calls.log.CallLogFilter
-import org.thoughtcrime.securesms.components.compose.ActionModeTopBar
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageSmall
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.rememberRecipientField
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.calls.log.CallLogFilter
+import com.servalabs.chat.components.compose.ActionModeTopBar
+import com.servalabs.chat.components.settings.app.subscription.BadgeImageSmall
+import com.servalabs.chat.conversationlist.model.ConversationFilter
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.rememberRecipientField
 
 interface MainToolbarCallback {
   fun onNewGroupClick()

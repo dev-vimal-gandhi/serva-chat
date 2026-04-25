@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messageprocessingalarm;
+package com.servalabs.chat.messageprocessingalarm;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -14,12 +14,12 @@ import androidx.annotation.NonNull;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobTracker;
-import org.thoughtcrime.securesms.jobs.MessageFetchJob;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.JobTracker;
+import com.servalabs.chat.jobs.MessageFetchJob;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.util.AppForegroundObserver;
+import com.servalabs.chat.util.RemoteConfig;
 
 import java.util.Locale;
 import java.util.Optional;
@@ -32,7 +32,7 @@ public final class RoutineMessageFetchReceiver extends ExportedBroadcastReceiver
 
   private static final String TAG = Log.tag(RoutineMessageFetchReceiver.class);
 
-  public static final String BROADCAST_ACTION = "org.thoughtcrime.securesms.action.PROCESS_MESSAGES";
+  public static final String BROADCAST_ACTION = "com.servalabs.chat.action.PROCESS_MESSAGES";
 
   @Override
   @SuppressLint("StaticFieldLeak")

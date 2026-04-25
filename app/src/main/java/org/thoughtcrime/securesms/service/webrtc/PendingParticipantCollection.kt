@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 

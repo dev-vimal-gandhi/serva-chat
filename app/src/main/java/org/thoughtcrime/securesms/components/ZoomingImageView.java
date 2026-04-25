@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,14 +21,14 @@ import com.davemorrissey.labs.subscaleview.decoder.DecoderFactory;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentBitmapDecoder;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentRegionDecoder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.subsampling.AttachmentBitmapDecoder;
+import com.servalabs.chat.components.subsampling.AttachmentRegionDecoder;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.ActionRequestListener;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.util.ActionRequestListener;
+import com.servalabs.chat.util.BitmapUtil;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

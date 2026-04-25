@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -15,32 +15,32 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.core.ui.view.Stub
 import org.signal.core.util.ByteLimitInputFilter
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery.NoQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryResultsController
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryViewModel
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragment
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerViewModel
-import org.thoughtcrime.securesms.databinding.V2MediaAddMessageDialogFragmentBinding
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionState
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.MessageUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardAwareLinearLayout
+import com.servalabs.chat.components.KeyboardEntryDialogFragment
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.emoji.MediaKeyboard
+import com.servalabs.chat.components.mention.MentionAnnotation
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQuery
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQuery.NoQuery
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQueryChangedListener
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQueryResultsController
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQueryViewModel
+import com.servalabs.chat.conversation.ui.mentions.MentionsPickerFragment
+import com.servalabs.chat.conversation.ui.mentions.MentionsPickerViewModel
+import com.servalabs.chat.databinding.V2MediaAddMessageDialogFragmentBinding
+import com.servalabs.chat.keyboard.KeyboardPage
+import com.servalabs.chat.keyboard.KeyboardPagerViewModel
+import com.servalabs.chat.mediasend.v2.HudCommand
+import com.servalabs.chat.mediasend.v2.MediaSelectionState
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.MessageUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 
 class AddMessageDialogFragment : KeyboardEntryDialogFragment(R.layout.v2_media_add_message_dialog_fragment) {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.verify
+package com.servalabs.chat.components.verify
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -31,11 +31,11 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.dp
 import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.qr.QrCodeUtil
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.qr.QrCodeUtil
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 import java.nio.charset.Charset
 import java.util.Locale
 import org.signal.core.ui.R as CoreUiR

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.Manifest
 import android.content.Context
@@ -60,12 +60,12 @@ import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.MemoryFileDescriptor
 import org.signal.core.util.asListContains
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.video.VideoUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.video.VideoUtil
 import java.io.ByteArrayOutputStream
 import java.io.IOException
 

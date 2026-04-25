@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.photo
+package com.servalabs.chat.avatar.photo
 
 import android.app.Activity
 import android.content.Context
@@ -7,11 +7,11 @@ import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarBundler
+import com.servalabs.chat.components.FragmentWrapperActivity
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
 
 class PhotoEditorActivity : FragmentWrapperActivity() {
 

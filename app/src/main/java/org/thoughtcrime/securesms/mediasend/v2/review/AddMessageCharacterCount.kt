@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.stories.Stories
 import kotlin.math.max
 
 /**

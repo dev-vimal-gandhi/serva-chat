@@ -3,26 +3,26 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentRedemptionJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.hasGiftBadge
-import org.thoughtcrime.securesms.util.requireGiftBadge
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobs.protos.InAppPaymentRedemptionJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.hasGiftBadge
+import com.servalabs.chat.util.requireGiftBadge
 import org.whispersystems.signalservice.internal.ServiceResponse
 import java.io.IOException
 import kotlin.concurrent.withLock

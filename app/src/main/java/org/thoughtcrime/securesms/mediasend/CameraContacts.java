@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.List;
 

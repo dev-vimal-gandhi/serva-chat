@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import com.servalabs.chat.jobmanager.Job;
 
 /**
  * Useful for putting in a queue as a marker to know that previously enqueued jobs have been processed.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.os.Handler;
 import android.os.Looper;

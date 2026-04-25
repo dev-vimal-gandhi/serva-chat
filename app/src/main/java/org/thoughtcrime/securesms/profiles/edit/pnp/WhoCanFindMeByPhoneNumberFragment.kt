@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package com.servalabs.chat.profiles.edit.pnp
 
 import android.os.Bundle
 import androidx.fragment.app.setFragmentResult
@@ -10,14 +10,14 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.databinding.WhoCanFindMeByPhoneNumberFragmentBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.databinding.WhoCanFindMeByPhoneNumberFragmentBinding
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 import org.signal.core.ui.R as CoreUiR
 
 /**

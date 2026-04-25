@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import androidx.annotation.NonNull;
 
@@ -6,16 +6,16 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.PeekInfo;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile;
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.components.webrtc.EglBaseWrapper;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.notifications.profiles.NotificationProfile;
+import com.servalabs.chat.notifications.profiles.NotificationProfiles;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.util.RemoteConfig;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 import org.signal.core.models.ServiceId.ACI;
 

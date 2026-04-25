@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import org.signal.core.models.ServiceId
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderId
-import org.thoughtcrime.securesms.database.ChatFolderTables
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderId
+import com.servalabs.chat.database.ChatFolderTables
+import com.servalabs.chat.database.SignalDatabase
 import org.whispersystems.signalservice.api.storage.SignalChatFolderRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import org.whispersystems.signalservice.api.util.OptionalUtil.asOptional

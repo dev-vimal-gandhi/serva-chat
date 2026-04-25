@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.about
+package com.servalabs.chat.recipients.ui.about
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -15,10 +15,10 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.memberlabel.MemberLabel
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class AboutSheetViewModel(
   recipientId: RecipientId,

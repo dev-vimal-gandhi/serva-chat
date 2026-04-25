@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

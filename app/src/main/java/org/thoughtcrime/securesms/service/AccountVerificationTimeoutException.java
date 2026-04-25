@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 public class AccountVerificationTimeoutException extends Exception {
   public AccountVerificationTimeoutException() {

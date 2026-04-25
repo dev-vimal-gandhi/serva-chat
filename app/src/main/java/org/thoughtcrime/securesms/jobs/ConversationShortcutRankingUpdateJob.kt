@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.os.Build
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.transport.RetryLaterException
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.ConversationUtil.Direction
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.transport.RetryLaterException
+import com.servalabs.chat.util.ConversationUtil
+import com.servalabs.chat.util.ConversationUtil.Direction
+import com.servalabs.chat.util.TextSecurePreferences
 import kotlin.time.Duration.Companion.seconds
 
 /**

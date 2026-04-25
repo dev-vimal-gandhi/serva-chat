@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
@@ -8,9 +8,9 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
 import org.signal.core.util.Util;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.PushMediaConstraints;
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.mms.PushMediaConstraints;
+import com.servalabs.chat.notifications.DeviceSpecificNotificationConfig;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.Arrays;
 import java.util.HashMap;

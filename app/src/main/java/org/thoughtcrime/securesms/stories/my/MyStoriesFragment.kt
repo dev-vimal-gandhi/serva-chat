@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.my
+package com.servalabs.chat.stories.my
 
 import android.net.Uri
 import android.view.View
@@ -10,23 +10,23 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.dialogs.StoryContextMenu
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.stories.StoryTextPostModel
+import com.servalabs.chat.stories.StoryViewerArgs
+import com.servalabs.chat.stories.dialogs.StoryContextMenu
+import com.servalabs.chat.stories.dialogs.StoryDialogs
+import com.servalabs.chat.stories.viewer.StoryViewerActivity
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.visible
 
 class MyStoriesFragment : DSLSettingsFragment(
   layoutId = R.layout.stories_my_stories_fragment,

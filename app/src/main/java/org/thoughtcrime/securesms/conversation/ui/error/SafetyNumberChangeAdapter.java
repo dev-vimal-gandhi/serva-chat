@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package com.servalabs.chat.conversation.ui.error;
 
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
@@ -12,14 +12,14 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.FromTextView;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.adapter.AlwaysChangedDiffUtil;
 
 final class SafetyNumberChangeAdapter extends ListAdapter<ChangedRecipient, SafetyNumberChangeAdapter.ViewHolder> {
 

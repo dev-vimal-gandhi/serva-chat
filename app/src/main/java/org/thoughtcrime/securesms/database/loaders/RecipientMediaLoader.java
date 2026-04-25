@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package com.servalabs.chat.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,10 +6,10 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 /**
  * It is more efficient to use the {@link ThreadMediaLoader} if you know the thread id already.

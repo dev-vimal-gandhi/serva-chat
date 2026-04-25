@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.Manifest;
 import android.content.ActivityNotFoundException;
@@ -43,33 +43,33 @@ import org.signal.core.util.concurrent.ListenableFuture.Listener;
 import org.signal.core.util.concurrent.SettableFuture;
 import org.signal.core.util.logging.Log;
 import org.signal.core.ui.view.Stub;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AudioView;
-import org.thoughtcrime.securesms.components.DocumentView;
-import org.thoughtcrime.securesms.components.RemovableEditableMediaView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.components.location.SignalMapView;
-import org.thoughtcrime.securesms.components.location.SignalPlace;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.giph.ui.GiphyActivity;
-import org.thoughtcrime.securesms.maps.PlacePickerActivity;
-import org.thoughtcrime.securesms.mediapreview.MediaIntentFactory;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewV2Fragment;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AudioView;
+import com.servalabs.chat.components.DocumentView;
+import com.servalabs.chat.components.RemovableEditableMediaView;
+import com.servalabs.chat.components.ThumbnailView;
+import com.servalabs.chat.components.location.SignalMapView;
+import com.servalabs.chat.components.location.SignalPlace;
+import com.servalabs.chat.conversation.MessageSendType;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.giph.ui.GiphyActivity;
+import com.servalabs.chat.maps.PlacePickerActivity;
+import com.servalabs.chat.mediapreview.MediaIntentFactory;
+import com.servalabs.chat.mediapreview.MediaPreviewCache;
+import com.servalabs.chat.mediapreview.MediaPreviewV2Fragment;
+import com.servalabs.chat.mediasend.v2.MediaSelectionActivity;
 import org.signal.core.util.permissions.PermissionCompat;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.providers.DeprecatedPersistentBlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.providers.DeprecatedPersistentBlobProvider;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.sms.MessageSender;
+import com.servalabs.chat.util.BitmapUtil;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.concurrent.AssertedSuccessListener;
 
 import java.io.IOException;
 import java.util.Collections;

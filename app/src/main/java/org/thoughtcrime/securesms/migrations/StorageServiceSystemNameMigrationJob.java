@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.storage.StorageSyncHelper;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.storage.StorageSyncHelper;
 
 /**
  * Added for when we started syncing contact names in storage service.

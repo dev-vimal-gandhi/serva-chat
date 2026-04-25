@@ -5,14 +5,14 @@
 
 @file:JvmName("SendJobUtil")
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobLogger
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil
-import org.thoughtcrime.securesms.transport.RetryLaterException
-import org.thoughtcrime.securesms.util.RemoteConfig.serverErrorMaxBackoff
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JobLogger
+import com.servalabs.chat.jobmanager.impl.BackoffUtil
+import com.servalabs.chat.transport.RetryLaterException
+import com.servalabs.chat.util.RemoteConfig.serverErrorMaxBackoff
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.push.exceptions.ProofRequiredException
 import org.whispersystems.signalservice.api.push.exceptions.RateLimitException

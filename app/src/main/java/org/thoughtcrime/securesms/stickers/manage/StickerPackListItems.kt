@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers.manage
+package com.servalabs.chat.stickers.manage
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandHorizontally
@@ -39,13 +39,13 @@ import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.nullIfBlank
 import org.signal.glide.compose.GlideImage
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.compose.RoundCheckbox
-import org.thoughtcrime.securesms.components.transfercontrols.TransferProgressIndicator
-import org.thoughtcrime.securesms.components.transfercontrols.TransferProgressState
-import org.thoughtcrime.securesms.stickers.StickerPreviewDataFactory
-import org.thoughtcrime.securesms.stickers.manage.AvailableStickerPack.DownloadStatus
-import org.thoughtcrime.securesms.util.DeviceProperties
+import com.servalabs.chat.R
+import com.servalabs.chat.components.compose.RoundCheckbox
+import com.servalabs.chat.components.transfercontrols.TransferProgressIndicator
+import com.servalabs.chat.components.transfercontrols.TransferProgressState
+import com.servalabs.chat.stickers.StickerPreviewDataFactory
+import com.servalabs.chat.stickers.manage.AvailableStickerPack.DownloadStatus
+import com.servalabs.chat.util.DeviceProperties
 
 @Composable
 fun StickerPackSectionHeader(

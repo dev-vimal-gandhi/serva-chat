@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.keyvalue.SignalStore
 import java.util.Currency
 
 /**

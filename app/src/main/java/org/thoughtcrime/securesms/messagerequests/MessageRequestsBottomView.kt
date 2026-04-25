@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests
+package com.servalabs.chat.messagerequests
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,14 +7,14 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.text.HtmlCompat
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.messagerequests.MessageRequestBarColorTheme.Companion.resolveTheme
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.HtmlUtil
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.messagerequests.MessageRequestBarColorTheme.Companion.resolveTheme
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.Debouncer
+import com.servalabs.chat.util.HtmlUtil
+import com.servalabs.chat.util.views.LearnMoreTextView
+import com.servalabs.chat.util.visible
 
 /**
  * View shown in a conversation during a message request state or related state (e.g., blocked).

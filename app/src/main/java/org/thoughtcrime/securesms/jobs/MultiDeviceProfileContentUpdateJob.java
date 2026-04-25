@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.SealedSenderConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.NotPushRegisteredException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.NotPushRegisteredException;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.messages.multidevice.SignalServiceSyncMessage;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;

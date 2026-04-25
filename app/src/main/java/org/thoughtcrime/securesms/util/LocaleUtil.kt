@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import androidx.core.os.LocaleListCompat
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.dynamiclanguage.LanguageString
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.dynamiclanguage.LanguageString
 import java.util.Locale
 
 object LocaleUtil {

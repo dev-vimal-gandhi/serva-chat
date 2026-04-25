@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.emoji.EmojiCategory
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.emoji.EmojiCategory
+import com.servalabs.chat.keyboard.KeyboardPageCategoryIconMappingModel
 
 class RecentsMappingModel(override val selected: Boolean) : KeyboardPageCategoryIconMappingModel<RecentsMappingModel> {
   override val key: String = RecentEmojiPageModel.KEY

@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">让隐私与您形影不离。\n在每一条消息中展现真正的自己。</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal 是一个非营利组织\n条款与隐私政策</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat 是一个非营利组织\n条款与隐私政策</string>
     <string name="RegistrationActivity_continue">继续</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">恢复或转移</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">授予权限</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">为了帮助您给认识的人发送消息，Signal 需要下列权限。 </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">为了帮助您给认识的人发送消息，Serva Chat 需要下列权限。 </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">稍后再说</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">联系人</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">帮助您寻找认识的人。您的联系人信息已加密，Signal 服务无法看到您的联系人。</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">帮助您寻找认识的人。您的联系人信息已加密，Serva Chat 服务无法看到您的联系人。</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">电话通话</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">我可以用旧手机</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">从您当前的 Signal 账户扫描二维码以快速开始操作</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">从您当前的 Serva Chat 账户扫描二维码以快速开始操作</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">我无法用旧手机</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">您可以在同一个设备上重新安装 Signal</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">您可以在同一个设备上重新安装 Serva Chat</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,7 +101,7 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">请选择您想要如何恢复您的消息记录和账户数据。</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">从 Signal 备份</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">从 Serva Chat 备份</string>
     <!-- Subtitle for the Signal Backups option card -->
     <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">您的免费或付费备份套餐</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">未找到备份</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">所选文件夹中未找到任何 Signal 备份。请尝试查看其他文件夹。</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">所选文件夹中未找到任何 Serva Chat 备份。请尝试查看其他文件夹。</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">查看其他文件夹</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">链接您的账户</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">还没有 Signal 账户？</string>
+    <string name="WelcomeScreen__not_on_signal_yet">还没有 Serva Chat 账户？</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">创建账户</string>
 </resources>

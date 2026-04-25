@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Collection;
 import java.util.HashSet;

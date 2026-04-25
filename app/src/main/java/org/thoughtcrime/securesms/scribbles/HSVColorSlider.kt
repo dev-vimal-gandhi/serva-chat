@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package com.servalabs.chat.scribbles
 
 import android.animation.FloatEvaluator
 import android.graphics.Canvas
@@ -17,9 +17,9 @@ import androidx.annotation.Dimension
 import androidx.appcompat.widget.AppCompatSeekBar
 import androidx.core.graphics.ColorUtils
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.toHue
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.customizeOnDraw
+import com.servalabs.chat.scribbles.HSVColorSlider.toHue
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.customizeOnDraw
 
 /**
  * One stop shop to turn an AppCompatSeekBar into an HSV Color Slider.

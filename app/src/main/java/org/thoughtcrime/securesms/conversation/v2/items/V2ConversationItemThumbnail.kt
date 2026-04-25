@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.content.Context
 import android.graphics.Canvas
@@ -23,10 +23,10 @@ import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.transition.Transition
 import org.signal.core.util.dp
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils.isThumbnailAtBottomOfBubble
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.Slide
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.v2.items.V2ConversationItemUtils.isThumbnailAtBottomOfBubble
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.mms.Slide
 
 /**
  * ImageView subclass that adds support for a foreground drawable and

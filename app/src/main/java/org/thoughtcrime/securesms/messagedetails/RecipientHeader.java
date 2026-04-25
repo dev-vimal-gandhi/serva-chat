@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 enum RecipientHeader {
   PENDING(R.string.message_details_recipient_header__pending_send),

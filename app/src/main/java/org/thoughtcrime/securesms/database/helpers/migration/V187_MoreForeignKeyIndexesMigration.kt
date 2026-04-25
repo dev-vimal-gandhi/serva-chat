@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * I found some other tables that didn't have the proper indexes setup to correspond with their foreign keys.

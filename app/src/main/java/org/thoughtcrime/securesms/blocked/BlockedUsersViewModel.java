@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.blocked;
+package com.servalabs.chat.blocked;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.List;
 import java.util.Objects;

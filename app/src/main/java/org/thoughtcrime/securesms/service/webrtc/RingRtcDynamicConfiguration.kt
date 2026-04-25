@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import android.os.Build
 import org.signal.core.util.asListContains
 import org.signal.ringrtc.AudioConfig
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceConfig
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.webrtc.audio.AudioDeviceConfig
 
 /**
  * Utility class to determine the audio configuration that RingRTC should use.

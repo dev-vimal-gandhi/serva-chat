@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -35,10 +35,10 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.requests.CallLinkIncomingRequestSheet
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.toLink
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.requests.CallLinkIncomingRequestSheet
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.manage.UsernameRepository.toLink
 
 class UsernameLinkShareBottomSheet : ComposeBottomSheetDialogFragment() {
 

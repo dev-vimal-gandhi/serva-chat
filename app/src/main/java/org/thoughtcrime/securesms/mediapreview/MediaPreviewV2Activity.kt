@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package com.servalabs.chat.mediapreview
 
 import android.content.Context
 import android.os.Bundle
@@ -15,12 +15,12 @@ import com.google.android.material.shape.ShapeAppearanceModel
 import com.google.android.material.transition.platform.MaterialContainerTransform
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.util.DynamicMediaPreviewTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.voice.VoiceNoteMediaController
+import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner
+import com.servalabs.chat.util.DynamicMediaPreviewTheme
+import com.servalabs.chat.util.DynamicTheme
 
 class MediaPreviewV2Activity : PassphraseRequiredActivity(), VoiceNoteMediaControllerOwner {
 

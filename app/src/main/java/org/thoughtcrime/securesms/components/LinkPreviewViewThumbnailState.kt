@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.signal.core.ui.view.Stub
-import org.thoughtcrime.securesms.mms.SlidesClickedListener
+import com.servalabs.chat.mms.SlidesClickedListener
 
 @Parcelize
 data class LinkPreviewViewThumbnailState(

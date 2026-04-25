@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -21,9 +21,9 @@ import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CustomDefaultPreference.CustomDefaultPreferenceDialogFragmentCompat.CustomPreferenceValidator;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.CustomDefaultPreference.CustomDefaultPreferenceDialogFragmentCompat.CustomPreferenceValidator;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.net.URI;
 import java.net.URISyntaxException;

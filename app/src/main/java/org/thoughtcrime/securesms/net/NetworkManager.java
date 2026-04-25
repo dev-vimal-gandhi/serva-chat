@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import android.app.Application;
 import android.content.Context;
@@ -13,10 +13,10 @@ import androidx.webkit.WebViewFeature;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.NetworkAvailableEvent;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.events.NetworkAvailableEvent;
+import com.servalabs.chat.util.AppForegroundObserver;
 
 import java.util.Objects;
 

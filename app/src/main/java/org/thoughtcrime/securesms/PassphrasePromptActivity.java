@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -45,19 +45,19 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.biometric.BiometricDialogFragment;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.UnrecoverableKeyException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.biometric.BiometricDialogFragment;
+import com.servalabs.chat.crypto.InvalidPassphraseException;
+import com.servalabs.chat.crypto.UnrecoverableKeyException;
+import com.servalabs.chat.crypto.MasterSecret;
+import com.servalabs.chat.crypto.MasterSecretUtil;
+import com.servalabs.chat.logsubmit.SubmitDebugLogActivity;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.SupportEmailUtil;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 import java.util.Arrays;
 

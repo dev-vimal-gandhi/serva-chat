@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.emoji
+package com.servalabs.chat.emoji
 
 import okhttp3.Response
-import org.thoughtcrime.securesms.s3.S3
+import com.servalabs.chat.s3.S3
 import java.io.IOException
 
 private const val BASE_STATIC_BUCKET_URI = "${S3.STATIC_PATH}/android/emoji"

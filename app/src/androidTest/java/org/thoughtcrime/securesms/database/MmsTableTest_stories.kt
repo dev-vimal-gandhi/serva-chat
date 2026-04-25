@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertEquals
@@ -11,13 +11,13 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import java.util.UUID
 import java.util.concurrent.TimeUnit
 

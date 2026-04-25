@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package com.servalabs.chat.longmessage;
 
 import android.app.Application;
 
@@ -8,8 +8,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.Optional;
 

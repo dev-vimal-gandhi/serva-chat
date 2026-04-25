@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
 
 /**
  * Helpers for various aspects of the change number flow.

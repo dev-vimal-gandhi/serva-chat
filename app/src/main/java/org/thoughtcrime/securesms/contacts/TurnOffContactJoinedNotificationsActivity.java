@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,13 +9,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.notifications.MarkReadReceiver;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.List;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContent
@@ -64,20 +64,20 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.TriggerAlignedPopupState
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings
-import org.thoughtcrime.securesms.components.webrtc.WebRtcLocalRenderState
-import org.thoughtcrime.securesms.components.webrtc.controls.RaiseHandSnackbar
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.events.GroupCallRaiseHandEvent
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiStrings
+import com.servalabs.chat.components.webrtc.WebRtcLocalRenderState
+import com.servalabs.chat.components.webrtc.controls.RaiseHandSnackbar
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.events.GroupCallRaiseHandEvent
+import com.servalabs.chat.events.GroupCallReactionEvent
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.ringrtc.CameraState
+import com.servalabs.chat.service.webrtc.PendingParticipantCollection
 import kotlin.math.max
 import kotlin.math.round
 import kotlin.time.Duration.Companion.milliseconds

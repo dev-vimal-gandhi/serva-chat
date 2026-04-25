@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -18,21 +18,21 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.databinding.FragmentChangeNumberEnterCodeBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.ContactSupportBottomSheetFragment
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate
-import org.thoughtcrime.securesms.registration.fragments.SignalStrengthPhoneStateListener
-import org.thoughtcrime.securesms.registration.sms.ReceivedSmsEvent
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import com.servalabs.chat.databinding.FragmentChangeNumberEnterCodeBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.data.network.RegistrationResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.registration.fragments.ContactSupportBottomSheetFragment
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate
+import com.servalabs.chat.registration.fragments.SignalStrengthPhoneStateListener
+import com.servalabs.chat.registration.sms.ReceivedSmsEvent
+import com.servalabs.chat.util.concurrent.AssertedSuccessListener
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

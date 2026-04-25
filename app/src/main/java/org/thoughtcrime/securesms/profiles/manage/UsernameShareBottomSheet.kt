@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -13,14 +13,14 @@ import org.signal.core.util.DimensionUnit
 import org.signal.core.util.Util
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.libsignal.usernames.Username
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.FragmentResultContract
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.FragmentResultContract
 import org.signal.core.ui.R as CoreUiR
 
 /**

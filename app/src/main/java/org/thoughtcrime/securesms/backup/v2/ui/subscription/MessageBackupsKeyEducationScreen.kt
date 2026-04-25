@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -45,7 +45,7 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import org.signal.core.ui.R as CoreUiR
 
 enum class MessageBackupsKeyEducationScreenMode {

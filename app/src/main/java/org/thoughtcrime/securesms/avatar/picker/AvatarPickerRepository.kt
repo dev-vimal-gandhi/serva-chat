@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package com.servalabs.chat.avatar.picker
 
 import android.content.Context
 import android.net.Uri
@@ -9,18 +9,18 @@ import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarPickerStorage
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.NameUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarPickerStorage
+import com.servalabs.chat.avatar.AvatarRenderer
+import com.servalabs.chat.avatar.Avatars
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.AvatarHelper
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.NameUtil
 import org.whispersystems.signalservice.api.util.StreamDetails
 import java.io.IOException
 

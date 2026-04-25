@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.graphics.PointF
@@ -10,11 +10,11 @@ import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.animation.addListener
 import androidx.core.widget.addTextChangedListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.setIncognitoKeyboardEnabled
+import com.servalabs.chat.util.visible
 
 /**
  * Search Toolbar following the Signal Material3 design spec.

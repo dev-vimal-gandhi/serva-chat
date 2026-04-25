@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.megaphone.Megaphones;
+import com.servalabs.chat.megaphone.Megaphones;
 
 public class MegaphoneRecord {
 

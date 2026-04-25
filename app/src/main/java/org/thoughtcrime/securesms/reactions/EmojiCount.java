@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package com.servalabs.chat.reactions;
 
 import androidx.annotation.NonNull;
 

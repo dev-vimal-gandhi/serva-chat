@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.database.sqlite.SQLiteDatabaseCorruptException;
 import android.database.sqlite.SQLiteException;
@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.ExceptionUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.LogDatabase;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.database.LogDatabase;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 import java.io.IOException;
 

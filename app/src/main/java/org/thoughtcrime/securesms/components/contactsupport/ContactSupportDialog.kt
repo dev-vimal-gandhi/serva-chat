@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.contactsupport
+package com.servalabs.chat.components.contactsupport
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
@@ -13,9 +13,9 @@ import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SupportEmailUtil
 
 interface ContactSupportCallbacks {
   fun submitWithDebuglog()

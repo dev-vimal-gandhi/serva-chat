@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package com.servalabs.chat.components.settings.app.subscription.currency
 
 import java.util.Currency
 

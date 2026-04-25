@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.profiles;
+package com.servalabs.chat.profiles;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import com.servalabs.chat.mms.MediaConstraints;
 
 public class ProfileMediaConstraints extends MediaConstraints {
   @Override

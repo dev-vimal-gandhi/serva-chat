@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package com.servalabs.chat.groups.ui.managegroup.dialogs;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -11,11 +11,11 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.List;

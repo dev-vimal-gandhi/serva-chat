@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.core.SingleEmitter
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask
+import com.servalabs.chat.R
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.jobs.MultiDeviceDeleteSyncJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.task.ProgressDialogAsyncTask
 
 object DeleteDialog {
 

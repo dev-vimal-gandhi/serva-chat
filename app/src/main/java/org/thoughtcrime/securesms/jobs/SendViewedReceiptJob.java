@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 
 import android.app.Application;
@@ -8,23 +8,23 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.ListUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.SealedSenderAccessUtil;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.SealedSenderConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.NotPushRegisteredException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.crypto.SealedSenderAccessUtil;
+import com.servalabs.chat.database.MessageTable.MarkedMessageInfo;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.database.model.StoryType;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.NotPushRegisteredException;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.ContentHint;
@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import static org.thoughtcrime.securesms.jobs.SendReadReceiptJob.MAX_TIMESTAMPS;
+import static com.servalabs.chat.jobs.SendReadReceiptJob.MAX_TIMESTAMPS;
 
 public class SendViewedReceiptJob extends BaseJob {
 

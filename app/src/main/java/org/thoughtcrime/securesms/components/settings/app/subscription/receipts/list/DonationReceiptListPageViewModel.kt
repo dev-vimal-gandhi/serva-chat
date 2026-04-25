@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.util.livedata.Store
 
 class DonationReceiptListPageViewModel(type: InAppPaymentReceiptRecord.Type?, repository: DonationReceiptListPageRepository) : ViewModel() {
 

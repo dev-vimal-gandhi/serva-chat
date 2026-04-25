@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -27,9 +27,9 @@ import androidx.annotation.Nullable;
 import org.signal.blurhash.BlurHash;
 import org.signal.core.models.media.TransformProperties;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.util.MediaUtil;
 
 public class ImageSlide extends Slide {
 

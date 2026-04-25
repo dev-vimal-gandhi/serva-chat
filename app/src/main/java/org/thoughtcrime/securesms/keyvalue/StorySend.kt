@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.Recipient
 
 data class StorySend(
   val timestamp: Long,

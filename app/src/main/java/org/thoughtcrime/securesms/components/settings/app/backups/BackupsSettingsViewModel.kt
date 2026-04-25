@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups
+package com.servalabs.chat.components.settings.app.backups
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,13 +14,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.Environment
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.Environment
 import kotlin.time.Duration.Companion.milliseconds
 
 class BackupsSettingsViewModel : ViewModel() {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package com.servalabs.chat.components.settings.app.internal
 
 import android.widget.Toast
 import androidx.compose.foundation.clickable
@@ -15,8 +15,8 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
+import com.servalabs.chat.R
+import com.servalabs.chat.stories.dialogs.StoryDialogs
 
 /**
  * Internal tool for testing various story-related dialogs.

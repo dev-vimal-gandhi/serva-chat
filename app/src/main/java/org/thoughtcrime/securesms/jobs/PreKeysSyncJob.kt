@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import androidx.annotation.VisibleForTesting
 import org.signal.core.models.ServiceId
@@ -10,16 +10,16 @@ import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import org.signal.libsignal.protocol.state.PreKeyRecord
 import org.signal.libsignal.protocol.state.SignalProtocolStore
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
-import org.thoughtcrime.securesms.crypto.PreKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.protos.PreKeysSyncJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.isRetryableIOException
+import com.servalabs.chat.crypto.PreKeyUtil
+import com.servalabs.chat.crypto.storage.PreKeyMetadataStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobs.protos.PreKeysSyncJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.isRetryableIOException
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.account.PreKeyUpload

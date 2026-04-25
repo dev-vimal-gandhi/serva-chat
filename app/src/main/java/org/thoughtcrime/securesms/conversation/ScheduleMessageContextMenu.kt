@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.toLocalDateTime
+import com.servalabs.chat.util.toMillis
 import java.time.DayOfWeek
 import java.time.temporal.TemporalAdjusters
 

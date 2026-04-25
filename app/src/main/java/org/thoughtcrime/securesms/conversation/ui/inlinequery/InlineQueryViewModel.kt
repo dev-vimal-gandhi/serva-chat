@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package com.servalabs.chat.conversation.ui.inlinequery
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.adapter.mapping.AnyMappingModel
 
 /**
  * Activity (at least) scope view model for managing inline queries. The view model needs to be larger scope so it can

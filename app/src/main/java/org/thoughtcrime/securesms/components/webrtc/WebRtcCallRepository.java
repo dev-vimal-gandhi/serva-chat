@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.identity.IdentityRecordList;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.List;

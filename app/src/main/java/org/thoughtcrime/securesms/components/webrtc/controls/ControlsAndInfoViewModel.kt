@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package com.servalabs.chat.components.webrtc.controls
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -14,14 +14,14 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.UpdateCallLinkRepository
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsRepository
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
+import com.servalabs.chat.calls.links.CallLinks
+import com.servalabs.chat.calls.links.UpdateCallLinkRepository
+import com.servalabs.chat.calls.links.details.CallLinkDetailsRepository
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.UpdateCallLinkResult
 
 /**
  * Provides a view model communicating with the Controls and Info view, [CallInfoView].

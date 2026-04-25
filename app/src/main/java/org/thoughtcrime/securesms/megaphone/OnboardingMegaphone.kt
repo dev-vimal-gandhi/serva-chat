@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.megaphone
+package com.servalabs.chat.megaphone
 
 import android.content.Intent
 import androidx.annotation.ColorRes
@@ -50,13 +50,13 @@ import org.signal.core.ui.compose.IconButtons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.main.EmptyMegaphoneActionController
-import org.thoughtcrime.securesms.profiles.manage.EditProfileActivity
-import org.thoughtcrime.securesms.stories.settings.story.StoriesPrivacySettingsRepository
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.main.EmptyMegaphoneActionController
+import com.servalabs.chat.profiles.manage.EditProfileActivity
+import com.servalabs.chat.stories.settings.story.StoriesPrivacySettingsRepository
+import com.servalabs.chat.wallpaper.ChatWallpaperActivity
 import org.signal.core.ui.R as CoreUiR
 
 /**

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package com.servalabs.chat.mediasend.v2.capture
 
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 sealed interface MediaCaptureEvent {
   data class MediaCaptureRendered(val media: Media) : MediaCaptureEvent

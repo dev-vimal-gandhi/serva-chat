@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.logsubmit
+package com.servalabs.chat.logsubmit
 
 import android.content.Context
 import org.signal.core.util.getAllIndexDefinitions
 import org.signal.core.util.getAllTableDefinitions
 import org.signal.core.util.getAllTriggerDefinitions
 import org.signal.core.util.getForeignKeys
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
 
 /**
  * Renders data pertaining to sender key. While all private info is obfuscated, this is still only intended to be printed for internal users.

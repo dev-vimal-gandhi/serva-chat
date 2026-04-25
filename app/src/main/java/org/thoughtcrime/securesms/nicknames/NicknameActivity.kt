@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.nicknames
+package com.servalabs.chat.nicknames
 
 import android.content.Context
 import android.content.Intent
@@ -47,12 +47,12 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.viewModel
 import org.signal.core.ui.R as CoreUiR
 
 /**

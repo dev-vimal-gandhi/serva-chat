@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface

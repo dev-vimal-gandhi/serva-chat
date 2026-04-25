@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.graphics.PorterDuff
 import android.graphics.PorterDuffColorFilter
@@ -16,18 +16,18 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.materialswitch.MaterialSwitch
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.models.AsyncSwitch
-import org.thoughtcrime.securesms.components.settings.models.Button
-import org.thoughtcrime.securesms.components.settings.models.Space
-import org.thoughtcrime.securesms.components.settings.models.Text
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.models.AsyncSwitch
+import com.servalabs.chat.components.settings.models.Button
+import com.servalabs.chat.components.settings.models.Space
+import com.servalabs.chat.components.settings.models.Text
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.views.LearnMoreTextView
+import com.servalabs.chat.util.visible
 
 @Discouraged("The DSL API can be completely replaced by compose. See ComposeFragment or ComposeBottomSheetFragment for an alternative to this API")
 class DSLSettingsAdapter : MappingAdapter() {

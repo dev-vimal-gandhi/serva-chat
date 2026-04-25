@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.graphics.Bitmap;
 import android.media.MediaCodec;
@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
-import org.thoughtcrime.securesms.video.videoconverter.utils.MediaCodecCompat;
+import com.servalabs.chat.video.interfaces.MediaInput;
+import com.servalabs.chat.video.videoconverter.utils.MediaCodecCompat;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

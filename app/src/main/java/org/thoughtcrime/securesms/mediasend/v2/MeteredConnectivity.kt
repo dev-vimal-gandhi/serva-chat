@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,7 +7,7 @@ import android.content.IntentFilter
 import android.net.ConnectivityManager
 import androidx.core.net.ConnectivityManagerCompat
 import io.reactivex.rxjava3.core.Observable
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.util.ServiceUtil
 
 @Suppress("DEPRECATION")
 object MeteredConnectivity {

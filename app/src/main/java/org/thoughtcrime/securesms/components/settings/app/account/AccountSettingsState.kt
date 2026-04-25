@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package com.servalabs.chat.components.settings.app.account
 
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
+import com.servalabs.chat.lock.v2.PinKeyboardType
 
 data class AccountSettingsState(
   val isLinkedDevice: Boolean = false,

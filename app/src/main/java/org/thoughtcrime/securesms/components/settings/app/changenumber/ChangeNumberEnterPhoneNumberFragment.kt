@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -16,13 +16,13 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentChangeNumberEnterPhoneNumberBinding
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.util.ChangeNumberInputController
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentChangeNumberEnterPhoneNumberBinding
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.util.ChangeNumberInputController
+import com.servalabs.chat.util.Dialogs
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Screen for the user to enter their old and new phone numbers.

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import com.servalabs.chat.attachments.Attachment;
 
 public class Sticker {
 

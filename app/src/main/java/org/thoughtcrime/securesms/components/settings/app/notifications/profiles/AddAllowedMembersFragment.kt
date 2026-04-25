@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import android.os.Bundle
 import android.view.View
@@ -36,17 +36,17 @@ import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.AddAllowedMembersViewModel.NotificationProfileAndRecipients
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileId
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileSchedule
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiStrings
+import com.servalabs.chat.components.settings.app.notifications.profiles.AddAllowedMembersViewModel.NotificationProfileAndRecipients
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfileId
+import com.servalabs.chat.notifications.profiles.NotificationProfileSchedule
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.util.UUID
 
 /**

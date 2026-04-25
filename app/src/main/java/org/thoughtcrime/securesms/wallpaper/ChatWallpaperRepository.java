@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
@@ -6,13 +6,13 @@ import androidx.annotation.Nullable;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import com.servalabs.chat.conversation.colors.ChatColors;
+import com.servalabs.chat.conversation.colors.ChatColorsPalette;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.concurrent.SerialExecutor;
 
 import java.util.ArrayList;
 import java.util.List;

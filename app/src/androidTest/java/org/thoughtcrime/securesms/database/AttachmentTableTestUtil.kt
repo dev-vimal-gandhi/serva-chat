@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.signal.core.util.Base64
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.Cdn
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.Cdn
 import org.whispersystems.signalservice.api.attachment.AttachmentUploadResult
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import kotlin.random.Random

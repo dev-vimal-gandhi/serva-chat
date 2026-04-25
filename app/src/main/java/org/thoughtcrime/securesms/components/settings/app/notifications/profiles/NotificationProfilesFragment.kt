@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -37,14 +37,14 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models.NotificationProfileRow
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileId
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileSchedule
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiStrings
+import com.servalabs.chat.components.settings.app.notifications.profiles.models.NotificationProfileRow
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfileId
+import com.servalabs.chat.notifications.profiles.NotificationProfileSchedule
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.util.UUID
 
 /**

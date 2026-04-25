@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.expired
+package com.servalabs.chat.badges.self.expired
 
 import android.content.res.Configuration
 import android.net.Uri
@@ -38,16 +38,16 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImage112
-import org.thoughtcrime.securesms.components.settings.app.subscription.manage.ManageDonationsFragment
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.components.settings.app.subscription.BadgeImage112
+import com.servalabs.chat.components.settings.app.subscription.manage.ManageDonationsFragment
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.viewModel
 
 class MonthlyDonationCanceledBottomSheetDialogFragment : ComposeBottomSheetDialogFragment() {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.animation.LayoutTransition;
 import android.app.Activity;
@@ -24,14 +24,14 @@ import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.databinding.UsernameEditFragmentBinding;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.FragmentResultContract;
-import org.thoughtcrime.securesms.util.UsernameUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.R;
+import com.servalabs.chat.contactshare.SimpleTextWatcher;
+import com.servalabs.chat.databinding.UsernameEditFragmentBinding;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.FragmentResultContract;
+import com.servalabs.chat.util.UsernameUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 public class UsernameEditFragment extends LoggingFragment {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package com.servalabs.chat.groups.ui.managegroup.dialogs;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,10 +12,10 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.ui.BottomSheetUtil;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 public final class GroupsLearnMoreBottomSheetDialogFragment extends BottomSheetDialogFragment {
 

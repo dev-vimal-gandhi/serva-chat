@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package com.servalabs.chat.calls.links
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -38,14 +38,14 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.colors.AvatarColorPair
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.CallLinkPeekInfo
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
 import java.time.Instant
 import org.signal.core.ui.R as CoreUiR
 

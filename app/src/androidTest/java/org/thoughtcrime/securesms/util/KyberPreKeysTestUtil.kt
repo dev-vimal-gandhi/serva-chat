@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import org.junit.Assert.assertEquals
 import org.signal.core.models.ServiceId
@@ -18,8 +18,8 @@ import org.signal.libsignal.protocol.ecc.ECPublicKey
 import org.signal.libsignal.protocol.kem.KEMKeyPair
 import org.signal.libsignal.protocol.kem.KEMKeyType
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.thoughtcrime.securesms.database.KyberPreKeyTable
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.KyberPreKeyTable
+import com.servalabs.chat.database.SignalDatabase
 import java.security.SecureRandom
 
 object KyberPreKeysTestUtil {

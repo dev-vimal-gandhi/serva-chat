@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package com.servalabs.chat.stories.viewer.post
 
 import android.graphics.drawable.Drawable
 import android.net.Uri
@@ -13,8 +13,8 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import org.signal.blurhash.BlurHash
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.stories.viewer.page.StoryCache
-import org.thoughtcrime.securesms.stories.viewer.page.StoryDisplay
+import com.servalabs.chat.stories.viewer.page.StoryCache
+import com.servalabs.chat.stories.viewer.page.StoryDisplay
 
 /**
  * Responsible for managing the lifecycle around loading a BlurHash

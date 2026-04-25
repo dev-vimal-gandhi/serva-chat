@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import androidx.fragment.app.activityViewModels
-import org.thoughtcrime.securesms.registration.ui.captcha.CaptchaFragment
+import com.servalabs.chat.registration.ui.captcha.CaptchaFragment
 
 /**
  * Screen visible to the user when they are to solve a captcha. @see [CaptchaFragment]

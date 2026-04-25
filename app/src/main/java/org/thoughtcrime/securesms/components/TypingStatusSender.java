@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.annotation.SuppressLint;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.TypingSendJob;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.TypingSendJob;
 import org.signal.core.util.Util;
 
 import java.util.HashMap;

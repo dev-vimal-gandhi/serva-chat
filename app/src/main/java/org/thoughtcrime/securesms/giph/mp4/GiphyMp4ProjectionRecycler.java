@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 import android.util.SparseArray;
 import android.view.ViewGroup;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.util.Projection;
+import com.servalabs.chat.util.Projection;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import java.util.concurrent.TimeUnit
 import kotlin.math.ceil
 import kotlin.math.max

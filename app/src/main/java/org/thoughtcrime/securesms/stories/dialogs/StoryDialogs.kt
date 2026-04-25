@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package com.servalabs.chat.stories.dialogs
 
 import android.content.Context
 import android.view.View
@@ -6,7 +6,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 object StoryDialogs {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.new
+package com.servalabs.chat.calls.new
 
 import android.content.Context
 import android.content.Intent
@@ -37,17 +37,17 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.DropdownMenus
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.new.NewCallUiState.CallType
-import org.thoughtcrime.securesms.calls.new.NewCallUiState.UserMessage
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.recipients.ui.RecipientLookupFailureMessage
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerCallbacks
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerScaffold
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.new.NewCallUiState.CallType
+import com.servalabs.chat.calls.new.NewCallUiState.UserMessage
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.recipients.ui.RecipientLookupFailureMessage
+import com.servalabs.chat.recipients.ui.RecipientPicker
+import com.servalabs.chat.recipients.ui.RecipientPickerCallbacks
+import com.servalabs.chat.recipients.ui.RecipientPickerScaffold
+import com.servalabs.chat.recipients.ui.RecipientSelection
+import com.servalabs.chat.util.CommunicationActions
 
 /**
  * Allows the user to start a new call by selecting a recipient.

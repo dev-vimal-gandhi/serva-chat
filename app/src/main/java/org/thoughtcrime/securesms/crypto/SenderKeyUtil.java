@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import androidx.annotation.NonNull;
 
 import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 import org.whispersystems.signalservice.api.push.DistributionId;
 

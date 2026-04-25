@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.about
+package com.servalabs.chat.recipients.ui.about
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
@@ -49,21 +49,21 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.isNotNullOrBlank
-import org.thoughtcrime.securesms.AvatarPreviewActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.components.emoji.Emojifier
-import org.thoughtcrime.securesms.conversation.v2.UnverifiedProfileNameBottomSheet
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel
-import org.thoughtcrime.securesms.groups.ui.incommon.GroupsInCommonActivity
-import org.thoughtcrime.securesms.nicknames.ViewNoteSheet
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.my.SignalConnectionsBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.AvatarPreviewActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.components.emoji.Emojifier
+import com.servalabs.chat.conversation.v2.UnverifiedProfileNameBottomSheet
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.memberlabel.MemberLabel
+import com.servalabs.chat.groups.ui.incommon.GroupsInCommonActivity
+import com.servalabs.chat.nicknames.ViewNoteSheet
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.settings.my.SignalConnectionsBottomSheetDialogFragment
+import com.servalabs.chat.util.SignalE164Util
+import com.servalabs.chat.util.viewModel
 import org.signal.core.ui.R as CoreUiR
 
 /**

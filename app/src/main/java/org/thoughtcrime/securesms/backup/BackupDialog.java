@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 
 import android.content.ActivityNotFoundException;
@@ -26,14 +26,14 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.restore.restorelocalbackup.PassphraseAsYouTypeFormatter;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.restore.restorelocalbackup.PassphraseAsYouTypeFormatter;
+import com.servalabs.chat.service.LocalBackupListener;
+import com.servalabs.chat.util.BackupUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import com.servalabs.chat.util.text.AfterTextChanged;
 
 public class BackupDialog {
 

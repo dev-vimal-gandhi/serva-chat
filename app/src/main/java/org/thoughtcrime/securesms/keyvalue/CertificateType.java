@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 public enum CertificateType {
   ACI_AND_E164,

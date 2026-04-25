@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.ObsoleteEmoji;
+import com.servalabs.chat.components.emoji.parsing.EmojiParser;
+import com.servalabs.chat.emoji.EmojiSource;
+import com.servalabs.chat.emoji.ObsoleteEmoji;
 import org.signal.core.util.Util;
 
 import java.util.HashSet;

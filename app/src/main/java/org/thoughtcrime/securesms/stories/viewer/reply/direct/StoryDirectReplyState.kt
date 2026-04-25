@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.direct
+package com.servalabs.chat.stories.viewer.reply.direct
 
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.recipients.Recipient
 
 data class StoryDirectReplyState(
   val groupDirectReplyRecipient: Recipient? = null,

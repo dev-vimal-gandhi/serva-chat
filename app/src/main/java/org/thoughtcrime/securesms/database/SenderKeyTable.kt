@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -15,7 +15,7 @@ import org.signal.core.util.withinTransaction
 import org.signal.libsignal.protocol.InvalidMessageException
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

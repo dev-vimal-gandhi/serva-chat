@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -26,7 +26,7 @@ import org.signal.core.util.select
 import org.signal.core.util.toInt
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
+import com.servalabs.chat.backup.v2.ArchivedMediaObject
 
 /**
  * When we delete attachments locally, we can't immediately delete them from the archive CDN. This is because there is still a backup that exists that

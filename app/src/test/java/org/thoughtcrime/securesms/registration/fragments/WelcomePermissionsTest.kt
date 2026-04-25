@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.fragments
+package com.servalabs.chat.registration.fragments
 
 import android.Manifest
 import android.app.Application

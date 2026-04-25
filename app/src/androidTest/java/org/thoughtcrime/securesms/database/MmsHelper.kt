@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.recipients.Recipient
 import java.util.Optional
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package com.servalabs.chat.notifications.profiles
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -6,7 +6,7 @@ import assertk.assertions.isFalse
 import assertk.assertions.isTrue
 import org.junit.BeforeClass
 import org.junit.Test
-import org.thoughtcrime.securesms.util.toMillis
+import com.servalabs.chat.util.toMillis
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.ZoneOffset

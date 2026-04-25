@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.thoughtcrime.securesms.webrtc.locks;
+package com.servalabs.chat.webrtc.locks;
 
 import android.content.Context;
 import android.hardware.Sensor;

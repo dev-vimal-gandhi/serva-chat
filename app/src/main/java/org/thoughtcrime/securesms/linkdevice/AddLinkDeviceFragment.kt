@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -29,8 +29,8 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.permissions.Permissions
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.VibrateUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.VibrateUtil
 
 /**
  * Fragment that allows users to scan a QR code from their camera to link a device

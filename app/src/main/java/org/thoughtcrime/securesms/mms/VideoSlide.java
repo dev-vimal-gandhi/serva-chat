@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -24,12 +24,12 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackPolicy;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.giph.mp4.GiphyMp4PlaybackPolicy;
+import com.servalabs.chat.util.MediaUtil;
 
 public class VideoSlide extends Slide {
 

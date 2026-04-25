@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package com.servalabs.chat.conversation.mutiselect
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,7 +7,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Adjusts touch events when child is in Multiselect mode so that we can

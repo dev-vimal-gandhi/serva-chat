@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import android.content.Context;
 
@@ -11,12 +11,12 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.stickers.BlessedPacks;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import com.servalabs.chat.util.VersionTracker;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

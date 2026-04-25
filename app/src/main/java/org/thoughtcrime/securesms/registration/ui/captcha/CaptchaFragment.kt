@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.captcha
+package com.servalabs.chat.registration.ui.captcha
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -12,11 +12,11 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.logging.LoggingFragment
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationCaptchaBinding
-import org.thoughtcrime.securesms.registration.fragments.RegistrationConstants
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentRegistrationCaptchaBinding
+import com.servalabs.chat.registration.fragments.RegistrationConstants
 
 abstract class CaptchaFragment : LoggingFragment(R.layout.fragment_registration_captcha) {
 

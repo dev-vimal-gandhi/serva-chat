@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -27,15 +27,15 @@ import com.bumptech.glide.request.transition.Transition;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.providers.AvatarProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.avatar.fallback.FallbackAvatar;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.contacts.avatars.ContactPhoto;
+import com.servalabs.chat.contacts.avatars.ProfileContactPhoto;
+import com.servalabs.chat.conversation.colors.AvatarGradientColors;
+import com.servalabs.chat.providers.AvatarProvider;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.Objects;
 import java.util.concurrent.CountDownLatch;

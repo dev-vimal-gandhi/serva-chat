@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.glide;
+package com.servalabs.chat.glide;
 
 import androidx.annotation.NonNull;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -33,15 +33,15 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.audio.AudioWaveForms;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.audio.AudioWaveForms;
+import com.servalabs.chat.components.voice.VoiceNotePlaybackState;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.events.PartProgressEvent;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.AudioSlide;
+import com.servalabs.chat.mms.SlideClickListener;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package com.servalabs.chat.util.views;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 /**
  * It seems to be impossible to tint the overflow icon in an ActionMode independently from the

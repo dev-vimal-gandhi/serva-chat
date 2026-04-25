@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -25,9 +25,9 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.Hex.fromStringCondensed
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.RecipientId
 
 private enum class Dialog {
   NONE,

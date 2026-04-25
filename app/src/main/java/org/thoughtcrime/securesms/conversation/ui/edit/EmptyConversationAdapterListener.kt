@@ -3,30 +3,30 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.ui.edit
+package com.servalabs.chat.conversation.ui.edit
 
 import android.net.Uri
 import android.view.View
 import androidx.lifecycle.Observer
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
-import org.thoughtcrime.securesms.conversation.ConversationItem
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediapreview.MediaIntentFactory
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import com.servalabs.chat.components.voice.VoiceNotePlaybackState
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.conversation.ConversationAdapter
+import com.servalabs.chat.conversation.ConversationItem
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart
+import com.servalabs.chat.database.model.InMemoryMessageRecord
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupMigrationMembershipChange
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mediapreview.MediaIntentFactory
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stickers.StickerLocator
 
 /**
  * Empty object for when a callback can't be found.

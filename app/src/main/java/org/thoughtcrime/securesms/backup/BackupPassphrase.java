@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.crypto.KeyStoreHelper;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 /**
  * Allows the getting and setting of the backup passphrase, which is stored encrypted on API >= 23.

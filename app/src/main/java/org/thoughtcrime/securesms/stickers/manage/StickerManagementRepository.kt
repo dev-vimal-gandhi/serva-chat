@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers.manage
+package com.servalabs.chat.stickers.manage
 
 import androidx.annotation.Discouraged
 import kotlinx.coroutines.CoroutineScope
@@ -14,20 +14,20 @@ import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.requireNonNullString
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.StickerTable
-import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackKey
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.MultiDeviceStickerPackOperationJob
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.stickers.BlessedPacks
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.StickerTable
+import com.servalabs.chat.database.StickerTable.StickerPackRecordReader
+import com.servalabs.chat.database.model.StickerPackId
+import com.servalabs.chat.database.model.StickerPackKey
+import com.servalabs.chat.database.model.StickerPackRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobs.MultiDeviceStickerPackOperationJob
+import com.servalabs.chat.jobs.StickerPackDownloadJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.stickers.BlessedPacks
 
 /**
  * Handles the retrieval and modification of sticker pack data.

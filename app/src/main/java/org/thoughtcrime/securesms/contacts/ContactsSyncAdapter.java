@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import android.accounts.Account;
 import android.content.AbstractThreadedSyncAdapter;
@@ -12,15 +12,15 @@ import com.annimon.stream.Stream;
 import org.signal.contacts.SystemContactsRepository;
 import org.signal.core.util.SetUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.SignalE164Util;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.contacts.sync.ContactDiscovery;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.DirectoryRefreshJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.SignalE164Util;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.util.List;

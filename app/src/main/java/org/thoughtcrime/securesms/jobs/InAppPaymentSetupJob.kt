@@ -3,24 +3,24 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
 import org.signal.donations.PaymentSource
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.toDonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.toProto
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSetupJobData
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentError
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.components.settings.app.subscription.errors.toDonationError
+import com.servalabs.chat.components.settings.app.subscription.toProto
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.protos.InAppPaymentSetupJobData
 import org.whispersystems.signalservice.internal.push.exceptions.InAppPaymentProcessorError
 
 /**

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.RegisteredConstraint
-import org.thoughtcrime.securesms.migrations.E164FormattingMigrationJob
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.RegisteredConstraint
+import com.servalabs.chat.migrations.E164FormattingMigrationJob
 
 /**
  * A job that performs the same duties as [E164FormattingMigrationJob], but outside the scope of an app migration.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerListAdapter;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyboard.sticker.KeyboardStickerListAdapter;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.lang.ref.WeakReference;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
@@ -34,14 +34,14 @@ import org.signal.core.util.select
 import org.signal.core.util.toOptional
 import org.signal.core.util.update
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.IdentityStoreRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.IdentityUtil
+import com.servalabs.chat.database.SignalDatabase.Companion.recipients
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.database.model.IdentityStoreRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.IdentityUtil
 import java.lang.AssertionError
 import java.util.Optional
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import android.content.Intent
 import android.widget.Toast
@@ -14,18 +14,18 @@ import io.reactivex.rxjava3.subjects.CompletableSubject
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.sharing.MultiShareSender
-import org.thoughtcrime.securesms.sms.MessageSender
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mediasend.MediaSendActivityResult
+import com.servalabs.chat.mediasend.v2.MediaSelectionActivity
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sharing.MultiShareArgs
+import com.servalabs.chat.sharing.MultiShareSender
+import com.servalabs.chat.sms.MessageSender
 
 /**
  * Delegate for dealing with sending stories directly to a group.

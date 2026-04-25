@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.billing
+package com.servalabs.chat.billing
 
 import android.content.Intent
 import android.net.Uri
@@ -12,8 +12,8 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.GooglePlayBillingDependencies
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.GooglePlayBillingDependencies
 
 /**
  * Launches user to the Google Play backups management screen.

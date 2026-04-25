@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.content.Context
 import android.content.DialogInterface
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * This launches the bottom sheet on Android 11 and below devices for selecting which audio device to use during a call.

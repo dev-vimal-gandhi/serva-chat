@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -25,16 +25,16 @@ import org.signal.core.util.toInt
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.crypto.AttachmentSecret
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream
-import org.thoughtcrime.securesms.database.model.IncomingSticker
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.database.model.StickerRecord
-import org.thoughtcrime.securesms.stickers.BlessedPacks
-import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.crypto.AttachmentSecret
+import com.servalabs.chat.crypto.ModernDecryptingPartInputStream
+import com.servalabs.chat.crypto.ModernEncryptingPartOutputStream
+import com.servalabs.chat.database.model.IncomingSticker
+import com.servalabs.chat.database.model.StickerPackId
+import com.servalabs.chat.database.model.StickerPackRecord
+import com.servalabs.chat.database.model.StickerRecord
+import com.servalabs.chat.stickers.BlessedPacks
+import com.servalabs.chat.stickers.StickerPackInstallEvent
+import com.servalabs.chat.util.MediaUtil
 import java.io.Closeable
 import java.io.File
 import java.io.IOException

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -14,13 +14,13 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.storageservice.storage.protos.groups.Member
 import org.signal.storageservice.storage.protos.groups.local.DecryptedMember
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.GroupTestingUtils
+import com.servalabs.chat.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class NameCollisionTablesTest {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,10 +25,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.DynamicTheme;
 import org.signal.core.ui.util.ThemeUtil;
 
 import java.util.List;

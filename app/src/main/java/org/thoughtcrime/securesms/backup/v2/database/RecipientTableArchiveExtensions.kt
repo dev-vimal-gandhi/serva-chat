@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package com.servalabs.chat.backup.v2.database
 
 import android.content.ContentValues
 import org.signal.archive.proto.AccountData
@@ -14,15 +14,15 @@ import org.signal.core.util.nullIfBlank
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.libsignal.zkgroup.InvalidInputException
-import org.thoughtcrime.securesms.backup.v2.exporters.ContactArchiveExporter
-import org.thoughtcrime.securesms.backup.v2.exporters.GroupArchiveExporter
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.exporters.ContactArchiveExporter
+import com.servalabs.chat.backup.v2.exporters.GroupArchiveExporter
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.model.databaseprotos.RecipientExtras
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Fetches all individual contacts for backups and returns the result as an iterator.

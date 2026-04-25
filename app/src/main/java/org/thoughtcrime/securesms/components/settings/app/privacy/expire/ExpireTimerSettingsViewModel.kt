@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package com.servalabs.chat.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.livedata.ProcessState
+import com.servalabs.chat.util.livedata.Store
 
 class ExpireTimerSettingsViewModel(val config: Config, private val repository: ExpireTimerSettingsRepository) : ViewModel() {
 

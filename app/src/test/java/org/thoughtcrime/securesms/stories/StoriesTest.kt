@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import io.mockk.every
 import io.mockk.just
@@ -13,13 +13,13 @@ import io.reactivex.rxjava3.schedulers.TestScheduler
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.FakeMessageRecords
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobs.AttachmentDownloadJob
 
 class StoriesTest {
   private val testScheduler = TestScheduler()

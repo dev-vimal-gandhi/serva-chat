@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
 import androidx.annotation.WorkerThread
 import kotlinx.coroutines.Dispatchers
@@ -18,18 +18,18 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
 import org.signal.core.util.throttleLatest
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ArchiveCommitAttachmentDeletesJob
-import org.thoughtcrime.securesms.jobs.ArchiveThumbnailUploadJob
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.jobs.UploadAttachmentToArchiveJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.ArchiveUploadProgressState
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ArchiveCommitAttachmentDeletesJob
+import com.servalabs.chat.jobs.ArchiveThumbnailUploadJob
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.jobs.UploadAttachmentToArchiveJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
+import com.servalabs.chat.util.SignalLocalMetrics
 import org.whispersystems.signalservice.api.messages.AttachmentTransferProgress
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger

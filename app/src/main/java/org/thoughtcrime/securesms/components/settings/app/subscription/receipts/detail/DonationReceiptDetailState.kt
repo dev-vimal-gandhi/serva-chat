@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.detail
+package com.servalabs.chat.components.settings.app.subscription.receipts.detail
 
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
 
 data class DonationReceiptDetailState(
   val inAppPaymentReceiptRecord: InAppPaymentReceiptRecord? = null

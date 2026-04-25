@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:filename")
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -26,16 +26,16 @@ import org.signal.core.util.select
 import org.signal.core.util.toInt
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileId
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileSchedule
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.storage.StorageSyncModels
-import org.thoughtcrime.securesms.storage.StorageSyncModels.toLocal
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfileId
+import com.servalabs.chat.notifications.profiles.NotificationProfileSchedule
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.storage.StorageSyncModels
+import com.servalabs.chat.storage.StorageSyncModels.toLocal
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.storage.SignalNotificationProfileRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import java.time.DayOfWeek

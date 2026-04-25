@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
- * Introduces [org.thoughtcrime.securesms.database.KyberPreKeyTable].
+ * Introduces [com.servalabs.chat.database.KyberPreKeyTable].
  */
 @Suppress("ClassName")
 object V194_KyberPreKeyMigration : SignalDatabaseMigration {

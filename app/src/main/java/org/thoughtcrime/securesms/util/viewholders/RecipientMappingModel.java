@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.util.viewholders;
+package com.servalabs.chat.util.viewholders;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 import java.util.Objects;
 

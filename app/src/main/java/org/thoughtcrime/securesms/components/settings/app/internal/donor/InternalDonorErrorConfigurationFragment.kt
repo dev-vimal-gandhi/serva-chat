@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.donor
+package com.servalabs.chat.components.settings.app.internal.donor
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -26,8 +26,8 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
 
 /**
  * Internal tool for configuring donor error states for testing.

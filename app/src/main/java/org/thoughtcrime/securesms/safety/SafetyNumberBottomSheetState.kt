@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
-import org.thoughtcrime.securesms.database.IdentityTable
+import com.servalabs.chat.database.IdentityTable
 
 /**
  * Screen state for SafetyNumberBottomSheetFragment and SafetyNumberReviewConnectionsFragment

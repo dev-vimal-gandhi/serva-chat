@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji.search
+package com.servalabs.chat.keyboard.emoji.search
 
 import android.content.Context
 import android.os.Bundle
@@ -11,15 +11,15 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardAwareLinearLayout
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.components.emoji.EmojiPageView
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter
+import com.servalabs.chat.keyboard.emoji.KeyboardPageSearchView
+import com.servalabs.chat.util.ThemedFragment.themedInflate
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.fragments.requireListener
 
 class EmojiSearchFragment : Fragment(), EmojiPageViewGridAdapter.VariationSelectorListener {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.media.MediaCodec;
 import android.media.MediaFormat;
@@ -7,7 +7,7 @@ import android.media.MediaMuxer;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
+import com.servalabs.chat.video.interfaces.Muxer;
 
 import java.io.File;
 import java.io.FileDescriptor;

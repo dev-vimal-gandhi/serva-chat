@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
-import org.thoughtcrime.securesms.BuildConfig
+import com.servalabs.chat.BuildConfig
 import androidx.tracing.Trace as AndroidTrace
 
 object SignalTrace {

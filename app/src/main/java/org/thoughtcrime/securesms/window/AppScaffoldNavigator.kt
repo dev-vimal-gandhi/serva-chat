@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.window
+package com.servalabs.chat.window
 
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.currentWindowAdaptiveInfo
@@ -25,7 +25,7 @@ import androidx.window.core.layout.WindowSizeClass
 import org.signal.core.ui.horizontalPartitionDefaultSpacerSize
 import org.signal.core.ui.isSplitPane
 import org.signal.core.ui.listPaneDefaultPreferredWidth
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * AppScaffoldNavigator wraps a delegate navigator (such as the value returned by [rememberThreePaneScaffoldNavigatorDelegate]

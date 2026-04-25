@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import androidx.sqlite.db.SupportSQLiteDatabase
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.recipients.RecipientId
 import java.util.Optional
 import java.util.UUID
 

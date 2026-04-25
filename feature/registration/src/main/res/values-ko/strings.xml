@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">내 개인정보는 내 손에서만.\n안전하게 메시지를 보내세요.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal은 비영리단체입니다\n이용 약관 및 개인정보처리방침</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat은 비영리단체입니다\n이용 약관 및 개인정보처리방침</string>
     <string name="RegistrationActivity_continue">확인</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">복원 또는 이전</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">권한 허용</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">아는 사람에게 메시지를 보낼 수 있도록 Signal에서 이 권한을 요청합니다. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">아는 사람에게 메시지를 보낼 수 있도록 Serva Chat에서 이 권한을 요청합니다. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">나중에</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">연락처</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">아는 사람을 찾으세요. 연락처는 암호화되며 Signal 서비스에 표시되지 않습니다.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">아는 사람을 찾으세요. 연락처는 암호화되며 Serva Chat 서비스에 표시되지 않습니다.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">통화</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">이전 휴대폰을 가지고 있음</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">현재 Signal 계정에서 QR 코드를 스캔하여 빠르게 시작하세요</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">현재 Serva Chat 계정에서 QR 코드를 스캔하여 빠르게 시작하세요</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">이전 휴대폰이 없음</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">또는 동일한 기기에 Signal을 다시 설치하는 중입니다</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">또는 동일한 기기에 Serva Chat을 다시 설치하는 중입니다</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">메시지 기록과 계정 데이터를 복원할 방법을 선택하세요.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal 백업에서 복원</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat 백업에서 복원</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">무료 또는 유료 Signal 백업 플랜</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">무료 또는 유료 Serva Chat 백업 플랜</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">기기 백업 복원</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">No backup found</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">No Signal backup was found in the selected folder. Please try a different folder.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">No Serva Chat backup was found in the selected folder. Please try a different folder.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Try a different folder</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Link your account</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Not on Signal yet?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Not on Serva Chat yet?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Create account</string>
 </resources>

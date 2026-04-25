@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import org.signal.core.util.toByteArray
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
+import com.servalabs.chat.crypto.ProfileKeyUtil
 import java.util.UUID
 import kotlin.random.Random
 

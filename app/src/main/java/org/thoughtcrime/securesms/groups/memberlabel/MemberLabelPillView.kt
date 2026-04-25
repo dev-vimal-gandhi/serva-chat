@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.content.Context
 import android.util.AttributeSet

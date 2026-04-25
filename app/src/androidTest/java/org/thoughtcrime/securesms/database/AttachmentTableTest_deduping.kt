@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertArrayEquals
@@ -18,17 +18,17 @@ import org.signal.core.util.Util
 import org.signal.core.util.readFully
 import org.signal.core.util.stream.LimitedInputStream
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.MediaStream
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.Cdn
+import com.servalabs.chat.attachments.PointerAttachment
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.MediaStream
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.mms.QuoteModel
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.MediaUtil
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream
 import java.io.File
 import java.util.UUID

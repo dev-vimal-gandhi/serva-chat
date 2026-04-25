@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -21,10 +21,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.MockRandom
-import org.thoughtcrime.securesms.testutil.MockSignalStoreRule
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.testutil.MockRandom
+import com.servalabs.chat.testutil.MockSignalStoreRule
+import com.servalabs.chat.util.toLocalDateTime
 import java.time.Duration
 import java.time.ZoneOffset
 import java.time.ZonedDateTime

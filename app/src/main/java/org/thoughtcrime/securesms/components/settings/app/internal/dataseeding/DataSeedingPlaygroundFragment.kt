@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.dataseeding
+package com.servalabs.chat.components.settings.app.internal.dataseeding
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -54,7 +54,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.database.model.ThreadRecord
+import com.servalabs.chat.database.model.ThreadRecord
 
 class DataSeedingPlaygroundFragment : ComposeFragment() {
 

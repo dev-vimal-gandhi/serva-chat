@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.signal.core.models.storageservice.StorageKey
 import org.signal.core.util.logging.Log

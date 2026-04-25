@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -31,11 +31,11 @@ import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.InAppPaymentKeepAliveJob
-import org.thoughtcrime.securesms.util.parcelers.MillisecondDurationParceler
-import org.thoughtcrime.securesms.util.parcelers.NullableSubscriberIdParceler
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.InAppPaymentKeepAliveJob
+import com.servalabs.chat.util.parcelers.MillisecondDurationParceler
+import com.servalabs.chat.util.parcelers.NullableSubscriberIdParceler
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.hours

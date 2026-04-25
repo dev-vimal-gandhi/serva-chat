@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 public final class GroupAlreadyExistsException extends GroupChangeException {
 

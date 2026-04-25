@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -9,8 +9,8 @@ import android.content.IntentFilter;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import com.servalabs.chat.jobmanager.ConstraintObserver;
+import com.servalabs.chat.service.KeyCachingService;
 
 public class MasterSecretConstraintObserver implements ConstraintObserver {
 

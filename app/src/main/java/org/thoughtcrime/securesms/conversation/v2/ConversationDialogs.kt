@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.Context
 import android.content.DialogInterface
@@ -8,14 +8,14 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.concurrent.SimpleTask
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.verify.VerifyIdentityActivity
 
 /**
  * Centralized object for displaying dialogs to the user from the

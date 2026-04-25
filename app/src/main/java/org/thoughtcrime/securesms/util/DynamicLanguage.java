@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.content.res.Configuration;
 
-import org.thoughtcrime.securesms.util.dynamiclanguage.LanguageString;
+import com.servalabs.chat.util.dynamiclanguage.LanguageString;
 
 import java.util.Locale;
 
 /**
- * @deprecated Use a base activity that uses the {@link org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper}
+ * @deprecated Use a base activity that uses the {@link com.servalabs.chat.util.dynamiclanguage.DynamicLanguageContextWrapper}
  */
 @Deprecated
 public class DynamicLanguage {

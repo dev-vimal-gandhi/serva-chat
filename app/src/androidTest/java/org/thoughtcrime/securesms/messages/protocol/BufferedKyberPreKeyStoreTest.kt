@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.signal.core.models.ServiceId
 import org.signal.libsignal.protocol.ReusedBaseKeyException
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
-import org.thoughtcrime.securesms.util.KyberPreKeysTestUtil
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.testing.SignalDatabaseRule
+import com.servalabs.chat.util.KyberPreKeysTestUtil
 
 class BufferedKyberPreKeyStoreTest {
 

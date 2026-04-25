@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package com.servalabs.chat.stories.settings.story
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -10,16 +10,16 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSource
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSourceRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.stories.archive.StoryArchiveDuration
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.contacts.paged.ContactSearchPagedDataSource
+import com.servalabs.chat.contacts.paged.ContactSearchPagedDataSourceRepository
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.stories.archive.StoryArchiveDuration
+import com.servalabs.chat.util.rx.RxStore
 
 class StoriesPrivacySettingsViewModel(
   contactSearchPagedDataSourceRepository: ContactSearchPagedDataSourceRepository

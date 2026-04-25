@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import android.app.Activity
 import android.content.Context
@@ -8,13 +8,13 @@ import android.view.View
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DynamicConversationSettingsTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsActivity
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.DynamicConversationSettingsTheme
+import com.servalabs.chat.util.DynamicTheme
 
 open class ConversationSettingsActivity : DSLSettingsActivity(), ConversationSettingsFragment.TransitionCallback {
 

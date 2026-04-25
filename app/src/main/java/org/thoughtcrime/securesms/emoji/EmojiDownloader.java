@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji;
+package com.servalabs.chat.emoji;
 
 import android.content.Context;
 

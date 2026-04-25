@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.database.SignalDatabase.Companion.recipients
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.TextSecurePreferences
 
 /**
  * Added as a way to initialize the story viewed receipts setting.

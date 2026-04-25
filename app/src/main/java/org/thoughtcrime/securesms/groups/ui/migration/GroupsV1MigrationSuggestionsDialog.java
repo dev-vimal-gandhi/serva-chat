@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.migration;
+package com.servalabs.chat.groups.ui.migration;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -16,19 +16,19 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.MembershipNotSuitableForV2Exception;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.groups.GroupChangeBusyException;
+import com.servalabs.chat.groups.GroupChangeFailedException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupInsufficientRightsException;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.GroupNotAMemberException;
+import com.servalabs.chat.groups.MembershipNotSuitableForV2Exception;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.ArrayList;

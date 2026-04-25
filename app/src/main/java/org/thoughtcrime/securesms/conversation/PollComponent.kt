@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.SizeTransform
@@ -50,15 +50,15 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.compose.RoundCheckbox
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.polls.VoteState
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.VibrateUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.components.compose.RoundCheckbox
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.polls.VoteState
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.VibrateUtil
 
 /**
  * Allows us to utilize our composeView from Java code.

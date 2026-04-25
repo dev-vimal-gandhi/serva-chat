@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -43,23 +43,23 @@ import com.bumptech.glide.RequestManager;
 
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.BindableConversationItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.Colorizable;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerV1;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ProjectionList;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import com.servalabs.chat.BindableConversationItem;
+import com.servalabs.chat.R;
+import com.servalabs.chat.conversation.colors.Colorizable;
+import com.servalabs.chat.conversation.colors.ColorizerV1;
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.giph.mp4.GiphyMp4Playable;
+import com.servalabs.chat.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.CachedInflater;
+import com.servalabs.chat.util.DateUtils;
+import com.servalabs.chat.util.Projection;
+import com.servalabs.chat.util.ProjectionList;
+import com.servalabs.chat.util.StickyHeaderDecoration;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.Calendar;
 import java.util.HashSet;

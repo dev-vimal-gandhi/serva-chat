@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.content.Context;
 
@@ -9,8 +9,8 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.util.SingleLiveEvent;
 
 public final class EditProfileNameViewModel extends ViewModel {
 

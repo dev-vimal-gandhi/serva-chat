@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.groups.GroupId
 
 class GroupSettingsStateTest {
 

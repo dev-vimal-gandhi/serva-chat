@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package com.servalabs.chat.notifications.profiles
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.storage.StorageId
 
 data class NotificationProfile(

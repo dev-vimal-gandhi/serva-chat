@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 /**
  * Values for managing enable/disable state and corresponding alerts for Notification Profiles.

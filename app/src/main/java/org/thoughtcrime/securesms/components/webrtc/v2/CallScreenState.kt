@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import kotlinx.collections.immutable.PersistentList
 import kotlinx.collections.immutable.persistentListOf
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * This contains higher level information that would have traditionally been directly

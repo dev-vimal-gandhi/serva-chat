@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.os.Parcelable
 import androidx.lifecycle.SavedStateHandle
@@ -23,22 +23,22 @@ import kotlinx.parcelize.Parcelize
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersRepository
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterSource
-import org.thoughtcrime.securesms.conversationlist.model.Conversation
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFoldersRepository
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterRequest
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterSource
+import com.servalabs.chat.conversationlist.model.Conversation
+import com.servalabs.chat.conversationlist.model.ConversationFilter
+import com.servalabs.chat.conversationlist.model.ConversationSet
+import com.servalabs.chat.database.RxDatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.MarkReadReceiver
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.rx.RxStore
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 import java.util.concurrent.TimeUnit
 

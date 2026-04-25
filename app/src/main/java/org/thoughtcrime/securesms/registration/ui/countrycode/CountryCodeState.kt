@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.countrycode
+package com.servalabs.chat.registration.ui.countrycode
 
 /**
  * State managed by [CountryCodeViewModel]. Includes country list and allows for searching

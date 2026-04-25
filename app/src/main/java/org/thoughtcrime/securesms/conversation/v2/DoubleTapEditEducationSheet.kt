@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.button.MaterialButton
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.fragments.requireListener
 
 /**
  * Shows an education sheet to users explaining how double tapping a sent message within 24hrs will allow them to edit it

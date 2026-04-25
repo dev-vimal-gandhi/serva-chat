@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">شەخسىي مەخپىيەتلىكىڭىزنى ئۆزىڭىز بىلەن بىرگە ساقلاڭ.\nھەر بىر ئۇچۇردا ئۆزىڭىز بولۇڭ.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal پايدا ئالمايدىغان تەشكىلات \n شەرتلەر ۋە مەخپىيەتلىك سىياسىتى</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat پايدا ئالمايدىغان تەشكىلات \n شەرتلەر ۋە مەخپىيەتلىك سىياسىتى</string>
     <string name="RegistrationActivity_continue">داۋاملاشتۇر</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">ئەسلىگە كەلتۈرۈش ياكى يۆتكەش</string>
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">زاپاسلاش تېپىلمىدى</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">تاللانغان ھۆججەت قىسقۇچتىن ھېچقانداق Signal زاپىسى تېپىلمىدى. باشقا بىر ھۆججەت قىسقۇچ تاللاڭ.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">تاللانغان ھۆججەت قىسقۇچتىن ھېچقانداق Serva Chat زاپىسى تېپىلمىدى. باشقا بىر ھۆججەت قىسقۇچ تاللاڭ.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">باشقا بىر ھۆججەت قىسقۇچ تاللاش</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">ھېساباتىڭىزنى ئۇلاڭ</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">تېخىغىچە Signal دا يوقمۇ؟</string>
+    <string name="WelcomeScreen__not_on_signal_yet">تېخىغىچە Serva Chat دا يوقمۇ؟</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">ھېسابات قۇرۇش</string>
 </resources>

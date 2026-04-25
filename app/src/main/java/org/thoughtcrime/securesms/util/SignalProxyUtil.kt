@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log.tag
 import org.signal.core.util.logging.Log.w
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.push.AccountManagerFactory
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.push.AccountManagerFactory
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import java.io.IOException
 import java.util.concurrent.CountDownLatch

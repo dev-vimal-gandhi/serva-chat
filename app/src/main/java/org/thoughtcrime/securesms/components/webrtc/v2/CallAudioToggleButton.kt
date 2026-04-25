@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.os.Build
 import androidx.compose.foundation.clickable
@@ -37,12 +37,12 @@ import org.signal.core.ui.compose.IconButtons
 import org.signal.core.ui.compose.NightPreview
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.AudioStateUpdater
-import org.thoughtcrime.securesms.components.webrtc.ToggleButtonOutputState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioDevice
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioPicker31
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.AudioStateUpdater
+import com.servalabs.chat.components.webrtc.ToggleButtonOutputState
+import com.servalabs.chat.components.webrtc.WebRtcAudioDevice
+import com.servalabs.chat.components.webrtc.WebRtcAudioOutput
+import com.servalabs.chat.components.webrtc.WebRtcAudioPicker31
 import org.signal.core.ui.R as CoreUiR
 
 private const val SHOW_PICKER_THRESHOLD = 3

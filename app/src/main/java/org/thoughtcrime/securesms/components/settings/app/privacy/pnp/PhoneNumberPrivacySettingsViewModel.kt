@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package com.servalabs.chat.components.settings.app.privacy.pnp
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -8,16 +8,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ProfileUploadJob
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.jobs.RefreshOwnProfileJob
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
 import kotlin.time.Duration.Companion.seconds
 
 class PhoneNumberPrivacySettingsViewModel : ViewModel() {

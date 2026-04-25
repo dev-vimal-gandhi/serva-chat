@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.polls
+package com.servalabs.chat.polls
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Tracks general information of a poll vote including who they are and what poll they voted in. Primarily used in notifications.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.fonts
+package com.servalabs.chat.fonts
 
 import android.content.Context
 import android.graphics.Typeface
@@ -18,8 +18,8 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.withStyle
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Helper object for working with the SignalSymbols font

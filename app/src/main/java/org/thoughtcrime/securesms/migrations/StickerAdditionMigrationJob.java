@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,12 +6,12 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.jobs.StickerPackDownloadJob;
+import com.servalabs.chat.stickers.BlessedPacks;
 
 import java.util.Arrays;
 import java.util.List;

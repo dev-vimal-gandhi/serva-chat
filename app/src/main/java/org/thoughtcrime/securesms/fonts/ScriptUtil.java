@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts;
+package com.servalabs.chat.fonts;
 
 import java.util.HashMap;
 import java.util.Locale;

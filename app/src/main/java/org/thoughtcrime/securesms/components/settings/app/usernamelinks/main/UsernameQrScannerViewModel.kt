@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.net.Uri

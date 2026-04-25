@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.runtime.Composable
@@ -14,11 +14,11 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
-import org.thoughtcrime.securesms.MainNavigator
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameScreen
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsScreen
-import org.thoughtcrime.securesms.serialization.JsonSerializableNavType
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.MainNavigator
+import com.servalabs.chat.calls.links.EditCallLinkNameScreen
+import com.servalabs.chat.calls.links.details.CallLinkDetailsScreen
+import com.servalabs.chat.serialization.JsonSerializableNavType
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 import kotlin.reflect.typeOf
 
 fun NavGraphBuilder.callNavGraphBuilder(navHostController: NavHostController) {

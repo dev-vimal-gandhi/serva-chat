@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import android.content.Context;
 
@@ -15,8 +15,8 @@ import org.signal.libsignal.protocol.state.KyberPreKeyRecord;
 import org.signal.libsignal.protocol.state.PreKeyRecord;
 import org.signal.libsignal.protocol.state.SessionRecord;
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore;
 import org.whispersystems.signalservice.api.push.DistributionId;
 

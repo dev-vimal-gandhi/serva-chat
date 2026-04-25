@@ -2,7 +2,7 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -55,12 +55,12 @@ import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.billing.BillingResponseCode
 import org.signal.core.util.bytes
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.fonts.SignalSymbols.signalSymbolText
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.ByteUnit
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.fonts.SignalSymbols
+import com.servalabs.chat.fonts.SignalSymbols.signalSymbolText
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.ByteUnit
 import java.math.BigDecimal
 import java.util.Currency
 import kotlin.time.Duration.Companion.days

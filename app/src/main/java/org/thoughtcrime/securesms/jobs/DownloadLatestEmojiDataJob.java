@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,24 +10,24 @@ import com.annimon.stream.IntPair;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiData;
-import org.thoughtcrime.securesms.emoji.EmojiDownloader;
-import org.thoughtcrime.securesms.emoji.EmojiFiles;
-import org.thoughtcrime.securesms.emoji.EmojiImageRequest;
-import org.thoughtcrime.securesms.emoji.EmojiJsonRequest;
-import org.thoughtcrime.securesms.emoji.EmojiPageCache;
-import org.thoughtcrime.securesms.emoji.EmojiRemote;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.FileUtils;
-import org.thoughtcrime.securesms.util.ScreenDensity;
+import com.servalabs.chat.components.emoji.EmojiPageModel;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.emoji.EmojiData;
+import com.servalabs.chat.emoji.EmojiDownloader;
+import com.servalabs.chat.emoji.EmojiFiles;
+import com.servalabs.chat.emoji.EmojiImageRequest;
+import com.servalabs.chat.emoji.EmojiJsonRequest;
+import com.servalabs.chat.emoji.EmojiPageCache;
+import com.servalabs.chat.emoji.EmojiRemote;
+import com.servalabs.chat.emoji.EmojiSource;
+import com.servalabs.chat.emoji.JumboEmoji;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.AutoDownloadEmojiConstraint;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.FileUtils;
+import com.servalabs.chat.util.ScreenDensity;
 
 import java.io.File;
 import java.io.IOException;

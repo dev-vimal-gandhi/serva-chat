@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.transfercontrols
+package com.servalabs.chat.components.transfercontrols
 
 import android.content.Context
 import android.os.Build
@@ -20,18 +20,18 @@ import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.components.RecyclerViewParentTransitionController
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.databinding.TransferControlsViewBinding
-import org.thoughtcrime.securesms.events.PartProgressEvent
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.components.RecyclerViewParentTransitionController
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.databinding.TransferControlsViewBinding
+import com.servalabs.chat.events.PartProgressEvent
+import com.servalabs.chat.mms.Slide
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.ThrottledDebouncer
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 import java.util.UUID
 import kotlin.math.ceil
 import kotlin.math.roundToInt

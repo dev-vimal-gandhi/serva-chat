@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.releasechannel
+package com.servalabs.chat.releasechannel
 
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Cdn
+import com.servalabs.chat.attachments.PointerAttachment
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.MediaUtil
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId

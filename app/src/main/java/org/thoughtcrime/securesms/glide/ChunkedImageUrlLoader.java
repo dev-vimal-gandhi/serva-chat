@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package com.servalabs.chat.glide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,11 +8,11 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.net.ContentProxySafetyInterceptor;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.net.Networking;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
+import com.servalabs.chat.giph.model.ChunkedImageUrl;
+import com.servalabs.chat.net.ContentProxySafetyInterceptor;
+import com.servalabs.chat.net.ContentProxySelector;
+import com.servalabs.chat.net.Networking;
+import com.servalabs.chat.net.StandardUserAgentInterceptor;
 
 import java.io.InputStream;
 

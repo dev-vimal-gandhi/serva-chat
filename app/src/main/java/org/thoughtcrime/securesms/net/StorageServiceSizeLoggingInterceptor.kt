@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.net
+package com.servalabs.chat.net
 
 import okhttp3.Interceptor
 import okhttp3.Request
@@ -11,10 +11,10 @@ import okhttp3.Response
 import org.signal.core.util.bytes
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
-import org.thoughtcrime.securesms.database.model.LocalMetricsSplit
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.database.LocalMetricsDatabase
+import com.servalabs.chat.database.model.LocalMetricsEvent
+import com.servalabs.chat.database.model.LocalMetricsSplit
+import com.servalabs.chat.dependencies.AppDependencies
 import java.util.UUID
 import java.util.concurrent.Executor
 import java.util.concurrent.TimeUnit

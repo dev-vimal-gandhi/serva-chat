@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Represents an individual reaction to a message.

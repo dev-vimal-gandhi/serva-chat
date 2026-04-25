@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package com.servalabs.chat.linkpreview;
 
 import android.annotation.SuppressLint;
 import android.text.SpannableString;
@@ -13,8 +13,8 @@ import androidx.core.text.util.LinkifyCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.LinkUtil;
+import com.servalabs.chat.util.DateUtils;
+import com.servalabs.chat.util.LinkUtil;
 import org.signal.core.util.Util;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 

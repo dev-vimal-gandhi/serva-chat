@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -20,19 +20,19 @@ import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 
 import org.signal.core.util.logging.Log;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.contactshare.Contact.Email;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.ImageCompressionUtil;
-import org.thoughtcrime.securesms.util.SignalE164Util;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiStrings;
+import com.servalabs.chat.contactshare.Contact.Email;
+import com.servalabs.chat.contactshare.Contact.Phone;
+import com.servalabs.chat.contactshare.Contact.PostalAddress;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.BitmapDecodingException;
+import com.servalabs.chat.util.ImageCompressionUtil;
+import com.servalabs.chat.util.SignalE164Util;
+import com.servalabs.chat.util.SpanUtil;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.content.Context;
 
@@ -7,14 +7,14 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileContentUpdateJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ProfileUtil;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.MultiDeviceProfileContentUpdateJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ProfileUtil;
 import org.whispersystems.signalservice.api.util.StreamDetails;
 
 import java.io.ByteArrayInputStream;

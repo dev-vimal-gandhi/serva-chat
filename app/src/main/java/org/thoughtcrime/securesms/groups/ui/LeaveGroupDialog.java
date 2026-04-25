@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import android.widget.Toast;
 
@@ -11,17 +11,17 @@ import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.chooseadmin.ChooseNewAdminActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.groups.GroupChangeException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.ui.chooseadmin.ChooseNewAdminActivity;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import com.servalabs.chat.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.List;

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore
+package com.servalabs.chat.restore
 
 import android.content.Intent
 import android.net.Uri
-import org.thoughtcrime.securesms.restore.transferorrestore.BackupRestorationType
+import com.servalabs.chat.restore.transferorrestore.BackupRestorationType
 
 /**
  * Shared state holder for the restore flow.

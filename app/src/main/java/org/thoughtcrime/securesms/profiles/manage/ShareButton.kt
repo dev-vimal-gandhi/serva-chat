@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
-import org.thoughtcrime.securesms.databinding.ShareButtonBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.databinding.ShareButtonBinding
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 object ShareButton {
   fun register(adapter: MappingAdapter) {

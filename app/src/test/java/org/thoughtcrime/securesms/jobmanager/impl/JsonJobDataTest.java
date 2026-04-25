@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import org.junit.Test;
 import org.signal.core.util.StreamUtil;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.JsonJobData;
 
 import java.io.IOException;
 

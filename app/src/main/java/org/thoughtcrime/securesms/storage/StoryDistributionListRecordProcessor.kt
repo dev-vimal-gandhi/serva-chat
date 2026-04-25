@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import org.signal.core.util.StringUtil
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord
 import org.whispersystems.signalservice.api.storage.StorageId

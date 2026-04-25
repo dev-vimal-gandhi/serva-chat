@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package com.servalabs.chat.conversation.ui.inlinequery
 
 /**
  * Called when a query changes.

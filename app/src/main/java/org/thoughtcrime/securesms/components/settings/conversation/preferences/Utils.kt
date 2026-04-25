@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package com.servalabs.chat.components.settings.conversation.preferences
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 
 object Utils {

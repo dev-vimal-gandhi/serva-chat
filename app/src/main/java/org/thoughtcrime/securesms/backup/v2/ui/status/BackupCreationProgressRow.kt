@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.status
+package com.servalabs.chat.backup.v2.ui.status
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -25,10 +25,10 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.exportProgress
-import org.thoughtcrime.securesms.backup.transferProgress
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.exportProgress
+import com.servalabs.chat.backup.transferProgress
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 import org.signal.core.ui.R as CoreUiR
 
 @Composable

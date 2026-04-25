@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.json.JSONObject
 import org.signal.core.util.StringSerializer
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.stories.archive.StoryArchiveDuration
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.stories.archive.StoryArchiveDuration
+import com.servalabs.chat.util.RemoteConfig
 
 class StoryValues(store: KeyValueStore) : SignalStoreValues(store) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package com.servalabs.chat.conversation.mutiselect.forward
 
 import android.content.Context
 import android.net.Uri
@@ -11,18 +11,18 @@ import org.signal.core.models.media.Media
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.color.ViewColorSet
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.hasSharedContact
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.color.ViewColorSet
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.MessageStyler
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.sharing.MultiShareArgs
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.hasSharedContact
 import java.util.function.Consumer
 
 /**

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -19,11 +19,11 @@ import org.signal.core.util.getForeignKeys
 import org.signal.core.util.getIndexes
 import org.signal.core.util.readToList
 import org.signal.core.util.requireNonNullString
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.testing.JdbcSqliteDatabase
-import org.thoughtcrime.securesms.testing.TestSignalSQLiteDatabase
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SignalDatabaseRule
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.testing.JdbcSqliteDatabase
+import com.servalabs.chat.testing.TestSignalSQLiteDatabase
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.SignalDatabaseRule
 
 /**
  * A test that guarantees that a freshly-created database looks the same as one that went through the upgrade path.

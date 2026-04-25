@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Result of taking data from the QR scanner and trying to resolve it to a recipient.

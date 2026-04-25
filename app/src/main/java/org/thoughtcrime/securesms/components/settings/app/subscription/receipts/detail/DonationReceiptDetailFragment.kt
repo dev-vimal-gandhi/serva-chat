@@ -1,21 +1,20 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.detail
+package com.servalabs.chat.components.settings.app.subscription.receipts.detail
 
 import android.content.Intent
 import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.SignalProgressDialog
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.receipts.ReceiptImageRenderer
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.SplashImage
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.SignalProgressDialog
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.app.subscription.InAppDonations
+import com.servalabs.chat.components.settings.app.subscription.receipts.ReceiptImageRenderer
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 import java.util.Locale
 import org.signal.core.ui.R as CoreUiR
 
@@ -33,8 +32,6 @@ class DonationReceiptDetailFragment : DSLSettingsFragment(layoutId = R.layout.do
   )
 
   override fun bindAdapter(adapter: MappingAdapter) {
-    SplashImage.register(adapter)
-
     val sharePngButton: MaterialButton = requireView().findViewById(R.id.share_png)
     sharePngButton.isEnabled = false
 

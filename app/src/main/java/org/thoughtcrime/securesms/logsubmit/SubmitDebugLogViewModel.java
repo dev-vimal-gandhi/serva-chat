@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.net.Uri;
 
@@ -12,9 +12,9 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
 import org.signal.debuglogsviewer.DebugLogsViewer;
-import org.thoughtcrime.securesms.database.LogDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import com.servalabs.chat.database.LogDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.List;

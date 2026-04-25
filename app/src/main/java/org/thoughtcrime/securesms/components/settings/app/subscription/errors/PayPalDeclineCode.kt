@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 /**
  * From: https://developer.paypal.com/braintree/docs/reference/general/processor-responses/authorization-responses#decline-codes

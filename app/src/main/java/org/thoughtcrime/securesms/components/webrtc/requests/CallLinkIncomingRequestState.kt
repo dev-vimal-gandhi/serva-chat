@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.requests
+package com.servalabs.chat.components.webrtc.requests
 
 import androidx.compose.runtime.Stable
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 data class CallLinkIncomingRequestState(
   val recipient: Recipient = Recipient.UNKNOWN,

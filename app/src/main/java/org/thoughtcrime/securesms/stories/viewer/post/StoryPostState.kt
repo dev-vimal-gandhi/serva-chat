@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package com.servalabs.chat.stories.viewer.post
 
 import android.graphics.Typeface
 import android.net.Uri
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.linkpreview.LinkPreview
 import kotlin.time.Duration
 
 sealed class StoryPostState {

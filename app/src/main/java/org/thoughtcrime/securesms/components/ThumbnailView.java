@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -43,23 +43,23 @@ import org.signal.blurhash.BlurHash;
 import org.signal.core.ui.view.Stub;
 import org.signal.glide.decryptableuri.DecryptableUri;
 import org.signal.glide.load.SignalDownsampleStrategy;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.components.transfercontrols.TransferControlView;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.glide.targets.GlideBitmapListeningTarget;
-import org.thoughtcrime.securesms.glide.targets.GlideDrawableListeningTarget;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.stories.StoryTextPostModel;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.components.transfercontrols.TransferControlView;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.glide.targets.GlideBitmapListeningTarget;
+import com.servalabs.chat.glide.targets.GlideDrawableListeningTarget;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.ImageSlide;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.SlideClickListener;
+import com.servalabs.chat.mms.SlidesClickedListener;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.stories.StoryTextPostModel;
+import com.servalabs.chat.util.AttachmentUtil;
+import com.servalabs.chat.util.MediaUtil;
 import org.signal.core.util.Util;
 
 import java.util.Arrays;

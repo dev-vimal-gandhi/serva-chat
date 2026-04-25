@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Носете поверителността със себе си.\nБъдете себе си във всяко съобщение.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal е организация с нестопанска цел\nУсловия и Политика за поверителност</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat е организация с нестопанска цел\nУсловия и Политика за поверителност</string>
     <string name="RegistrationActivity_continue">Продължаване</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Възстановяване или трансфер</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Позволяване на разрешения</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">За да ви помага да изпращате съобщения до хората, които познавате, Signal ще поиска тези разрешения. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">За да ви помага да изпращате съобщения до хората, които познавате, Serva Chat ще поиска тези разрешения. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Не сега</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Контакти</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Намирайте хора, които познавате. Вашите контакти са криптирани и не се виждат от услугата Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Намирайте хора, които познавате. Вашите контакти са криптирани и не се виждат от услугата Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Телефонни повиквания</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Старият ми телефон е подръка</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">За бързо започване сканирайте QR код от текущия си акаунт в Signal</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">За бързо започване сканирайте QR код от текущия си акаунт в Serva Chat</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Старият ми телефон не е подръка</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Или инсталирате Signal отново на същото устройство</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Или инсталирате Serva Chat отново на същото устройство</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Изберете как искате да възстановите своята история на съобщенията и данните за акаунта.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">От Резервни копия на Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">От Резервни копия на Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Вашият безплатен или платен план за Резервни копия на Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Вашият безплатен или платен план за Резервни копия на Serva Chat</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Възстановяване на резервното копие на устройството</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Не е открито резервно копие</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">В избраната папка не е открито резервно копие на Signal. Моля, опитайте с друга папка.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">В избраната папка не е открито резервно копие на Serva Chat. Моля, опитайте с друга папка.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Опитайте с друга папка</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Свържете акаунта си</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Още нямате Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Още нямате Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Създаване на акаунт</string>
 </resources>

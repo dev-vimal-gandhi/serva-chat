@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package com.servalabs.chat.components.settings.app.subscription.donate.card
 
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
 import org.signal.core.ui.R as CoreUiR
 
 /**

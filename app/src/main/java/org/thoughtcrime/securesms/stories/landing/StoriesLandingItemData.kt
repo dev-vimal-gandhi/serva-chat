@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.landing
+package com.servalabs.chat.stories.landing
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Data required by each row of the Stories Landing Page for proper rendering.

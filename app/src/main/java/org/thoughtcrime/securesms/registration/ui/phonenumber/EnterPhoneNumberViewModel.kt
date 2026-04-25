@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package com.servalabs.chat.registration.ui.phonenumber
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -16,10 +16,10 @@ import kotlinx.coroutines.flow.update
 import org.signal.core.util.E164Util
 import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryUtils
-import org.thoughtcrime.securesms.registration.util.CountryPrefix
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.ui.countrycode.CountryUtils
+import com.servalabs.chat.registration.util.CountryPrefix
 
 /**
  * ViewModel for the phone number entry screen.

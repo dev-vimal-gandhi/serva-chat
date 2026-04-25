@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,11 +7,11 @@ import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.NoSessionException;
 import org.signal.libsignal.protocol.SignalProtocolAddress;
 import org.signal.libsignal.protocol.state.SessionRecord;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.database.SessionTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.crypto.ReentrantSessionLock;
+import com.servalabs.chat.database.SessionTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.whispersystems.signalservice.api.SignalServiceSessionStore;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 import org.signal.core.models.ServiceId;

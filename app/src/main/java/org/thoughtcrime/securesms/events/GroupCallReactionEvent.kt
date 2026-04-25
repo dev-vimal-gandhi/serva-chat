@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.events
+package com.servalabs.chat.events
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 import java.util.concurrent.TimeUnit
 
 /**

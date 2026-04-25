@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.messagerequests
+package com.servalabs.chat.messagerequests
 
 import android.content.Context
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class MessageRequestBarColorTheme(
   @AttrRes private val containerBackgroundColor: Int,

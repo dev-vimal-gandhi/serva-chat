@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.migration;
+package com.servalabs.chat.groups.ui.migration;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -7,8 +7,8 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.groups.GroupMigrationMembershipChange;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.List;
 

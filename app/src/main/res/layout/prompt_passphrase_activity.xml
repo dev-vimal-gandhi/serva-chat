@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+        <com.servalabs.chat.util.views.CircularProgressMaterialButton
             android:id="@+id/ok_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

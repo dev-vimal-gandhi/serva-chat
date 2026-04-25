@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import android.app.Application;
 import android.content.ContentValues;
@@ -12,17 +12,17 @@ import net.zetetic.database.sqlcipher.SQLiteOpenHelper;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.DatabaseSecret;
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
-import org.thoughtcrime.securesms.keyvalue.KeyValueDataSet;
-import org.thoughtcrime.securesms.keyvalue.KeyValuePersistentStorage;
+import com.servalabs.chat.crypto.DatabaseSecret;
+import com.servalabs.chat.crypto.DatabaseSecretProvider;
+import com.servalabs.chat.keyvalue.KeyValueDataSet;
+import com.servalabs.chat.keyvalue.KeyValuePersistentStorage;
 import org.signal.core.util.CursorUtil;
 
 import java.util.Collection;
 import java.util.Map;
 
 /**
- * Persists data for the {@link org.thoughtcrime.securesms.keyvalue.KeyValueStore}.
+ * Persists data for the {@link com.servalabs.chat.keyvalue.KeyValueStore}.
  *
  * This is it's own separate physical database, so it cannot do joins or queries with any other
  * tables.

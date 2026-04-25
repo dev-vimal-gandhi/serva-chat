@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,12 +8,12 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.CallParticipantId;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcEphemeralState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
 
 import java.util.Collections;
 import java.util.Optional;

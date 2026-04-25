@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import androidx.annotation.CheckResult
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.stories.Stories
 
 class ContactSearchRepository {
   @CheckResult

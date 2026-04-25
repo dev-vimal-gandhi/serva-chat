@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.content.Context
 import android.content.Intent
@@ -12,17 +12,17 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.AccountConsistencyWorkerJob
+import com.servalabs.chat.jobs.PreKeysSyncJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.logsubmit.SubmitDebugLogActivity
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.SignalE164Util
 
 /**
  * A captive activity that can determine if an interrupted/erred change number request

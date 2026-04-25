@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public enum WebRtcAudioOutput {
   HANDSET(R.string.WebRtcAudioOutputToggle__phone_earpiece, R.drawable.ic_handset_solid_28),

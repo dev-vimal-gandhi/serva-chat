@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.View.OnLongClickListener
 import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatImageButton
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * The send button you see in a conversation.

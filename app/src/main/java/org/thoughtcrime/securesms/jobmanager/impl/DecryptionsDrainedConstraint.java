@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Constraint;
 
 /**
  * A constraint that is met once we have pulled down and decrypted all messages from the websocket
- * during initial load. See {@link org.thoughtcrime.securesms.messages.IncomingMessageObserver}.
+ * during initial load. See {@link com.servalabs.chat.messages.IncomingMessageObserver}.
  */
 public final class DecryptionsDrainedConstraint implements Constraint {
 

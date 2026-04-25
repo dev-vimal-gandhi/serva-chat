@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package com.servalabs.chat.stories.viewer.reply.group
 
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.withAttachments
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.withAttachments
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
 
 class StoryGroupReplyDataSource(private val parentStoryId: Long) : PagedDataSource<MessageId, ReplyBody> {
   override fun size(): Int {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package com.servalabs.chat.components.emoji.parsing;
 
 
 public enum Fitzpatrick {

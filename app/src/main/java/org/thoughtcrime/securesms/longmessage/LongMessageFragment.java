@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package com.servalabs.chat.longmessage;
 
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -15,18 +15,18 @@ import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.ui.view.Stub;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ConversationItemFooter;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.Projection;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ConversationItemFooter;
+import com.servalabs.chat.components.FullScreenDialogFragment;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.conversation.ConversationItemDisplayMode;
+import com.servalabs.chat.conversation.colors.ColorizerView;
+import com.servalabs.chat.conversation.v2.items.V2ConversationItemUtils;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.LongClickMovementMethod;
+import com.servalabs.chat.util.Projection;
 import org.signal.core.ui.util.ThemeUtil;
 
 import java.util.Collections;

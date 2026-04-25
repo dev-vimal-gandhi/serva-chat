@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package com.servalabs.chat.mediasend.camerax;
 
 import androidx.annotation.NonNull;
 

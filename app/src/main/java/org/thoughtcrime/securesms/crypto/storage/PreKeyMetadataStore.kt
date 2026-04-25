@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage
+package com.servalabs.chat.crypto.storage
 
 /**
  * Allows storing various metadata around prekey state.

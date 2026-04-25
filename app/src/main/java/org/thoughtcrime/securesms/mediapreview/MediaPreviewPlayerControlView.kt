@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package com.servalabs.chat.mediapreview
 
 import android.animation.Animator
 import android.animation.Animator.AnimatorListener
@@ -20,9 +20,9 @@ import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.model.KeyPath
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.visible
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 

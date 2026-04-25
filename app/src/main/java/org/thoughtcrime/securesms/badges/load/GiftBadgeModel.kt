@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.badges.load
+package com.servalabs.chat.badges.load
 
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.DataSource
@@ -16,10 +16,10 @@ import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import okhttp3.OkHttpClient
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.glide.OkHttpStreamFetcher
+import com.servalabs.chat.components.settings.app.subscription.getBadge
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.glide.OkHttpStreamFetcher
 import java.io.InputStream
 import java.security.MessageDigest
 import java.util.Locale

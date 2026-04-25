@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import android.database.Cursor
@@ -7,8 +7,8 @@ import org.signal.core.util.Base64
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.storage.StorageSyncHelper
 
 /**
  * Performs a check and ensures that MyStory exists at the correct distribution list id and correct distribution id.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package com.servalabs.chat.sharing;
 
 public enum InterstitialContentType {
   MEDIA,

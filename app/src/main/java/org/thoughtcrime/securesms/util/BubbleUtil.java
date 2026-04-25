@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -19,16 +19,16 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.notifications.v2.NotificationFactory;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.notifications.NotificationIds;
+import com.servalabs.chat.notifications.v2.NotificationFactory;
+import com.servalabs.chat.notifications.v2.ConversationId;
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
-import static org.thoughtcrime.securesms.util.ConversationUtil.CONVERSATION_SUPPORT_VERSION;
+import static com.servalabs.chat.util.ConversationUtil.CONVERSATION_SUPPORT_VERSION;
 
 /**
  * Bubble-related utility methods.

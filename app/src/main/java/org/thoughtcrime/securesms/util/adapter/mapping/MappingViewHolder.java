@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package com.servalabs.chat.util.adapter.mapping;
 
 import android.content.Context;
 import android.view.View;

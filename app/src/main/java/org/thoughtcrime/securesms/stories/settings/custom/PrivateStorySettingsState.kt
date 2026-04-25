@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package com.servalabs.chat.stories.settings.custom
 
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
+import com.servalabs.chat.database.model.DistributionListRecord
 
 data class PrivateStorySettingsState(
   val privateStory: DistributionListRecord? = null,

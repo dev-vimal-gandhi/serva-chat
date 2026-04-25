@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.content.Intent
 import android.net.Uri
@@ -15,8 +15,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
 import java.util.concurrent.TimeUnit
 
 /**

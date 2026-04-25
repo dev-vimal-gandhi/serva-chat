@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import java.io.IOException;
 import java.net.Proxy;

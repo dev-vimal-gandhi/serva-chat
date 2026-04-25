@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,7 +6,7 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.tabs.TabLayout
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import java.util.Objects
 
 /**

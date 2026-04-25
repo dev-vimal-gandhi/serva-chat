@@ -9,11 +9,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import im.molly.unifiedpush.model.MollySocket
 import org.signal.core.util.Util.writeTextToClipboard
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.UnifiedPushRefreshJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.UnifiedPushValues
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.UnifiedPushRefreshJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.UnifiedPushValues
+import com.servalabs.chat.util.livedata.Store
 import org.unifiedpush.android.connector.UnifiedPush
 
 class UnifiedPushSettingsViewModel(private val application: Application) : ViewModel() {

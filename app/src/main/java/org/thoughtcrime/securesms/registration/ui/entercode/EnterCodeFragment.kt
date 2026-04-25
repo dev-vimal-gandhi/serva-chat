@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.entercode
+package com.servalabs.chat.registration.ui.entercode
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -23,26 +23,26 @@ import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.conversation.v2.registerForLifecycle
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationEnterCodeBinding
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCheckResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.ContactSupportBottomSheetFragment
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.fragments.SignalStrengthPhoneStateListener
-import org.thoughtcrime.securesms.registration.sms.ReceivedSmsEvent
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.conversation.v2.registerForLifecycle
+import com.servalabs.chat.databinding.FragmentRegistrationEnterCodeBinding
+import com.servalabs.chat.registration.data.network.Challenge
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.data.network.RegistrationResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionCheckResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionCreationResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.registration.fragments.ContactSupportBottomSheetFragment
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.registration.fragments.SignalStrengthPhoneStateListener
+import com.servalabs.chat.registration.sms.ReceivedSmsEvent
+import com.servalabs.chat.registration.ui.RegistrationCheckpoint
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.util.concurrent.AssertedSuccessListener
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

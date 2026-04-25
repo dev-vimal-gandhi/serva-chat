@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
+import com.servalabs.chat.jobs.MinimalJobSpec;
 
 import java.util.Arrays;
 import java.util.HashSet;

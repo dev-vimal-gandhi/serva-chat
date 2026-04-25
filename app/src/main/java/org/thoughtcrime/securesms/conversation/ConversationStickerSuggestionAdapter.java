@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.model.StickerRecord;
 import org.signal.glide.decryptableuri.DecryptableUri;
 
 import java.util.ArrayList;

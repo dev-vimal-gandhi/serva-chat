@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.subscription
+package com.servalabs.chat.subscription
 
 import org.whispersystems.signalservice.api.subscriptions.IdempotencyKey
 import java.io.Closeable

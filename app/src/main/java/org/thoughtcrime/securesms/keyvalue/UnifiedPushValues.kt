@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import im.molly.unifiedpush.model.MollySocketDevice
 import im.molly.unifiedpush.model.RegistrationStatus

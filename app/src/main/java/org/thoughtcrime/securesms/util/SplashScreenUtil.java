@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -7,8 +7,8 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SettingsValues;
 
 public final class SplashScreenUtil {
   private SplashScreenUtil() {}

@@ -2,15 +2,15 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.conversation.v2.computed
+package com.servalabs.chat.conversation.v2.computed
 
 import android.content.Context
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.v2.data.ConversationMessageElement
 
 /**
  * Collection of workers to recompute computed ConversationMessage fields.

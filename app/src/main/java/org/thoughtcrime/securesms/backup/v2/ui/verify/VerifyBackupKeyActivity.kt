@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2.ui.verify
+package com.servalabs.chat.backup.v2.ui.verify
 
 import android.content.Context
 import android.content.Intent
@@ -25,12 +25,12 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.EnterKeyScreen
-import org.thoughtcrime.securesms.components.compose.rememberBiometricsAuthentication
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.ui.subscription.EnterKeyScreen
+import com.servalabs.chat.components.compose.rememberBiometricsAuthentication
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.CommunicationActions
 import kotlin.random.Random
 import kotlin.random.nextInt
 

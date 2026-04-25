@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
@@ -30,10 +30,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.offset
 import org.signal.core.ui.compose.AllNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.components.webrtc.WebRtcLocalRenderState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.components.webrtc.WebRtcLocalRenderState
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Mutable holder for bar dimensions, used to pass measurement results from

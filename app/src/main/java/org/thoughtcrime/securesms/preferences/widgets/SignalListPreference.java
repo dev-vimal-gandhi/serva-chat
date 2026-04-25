@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package com.servalabs.chat.preferences.widgets;
 
 
 import android.content.Context;
@@ -9,7 +9,7 @@ import androidx.annotation.RequiresApi;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceViewHolder;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class SignalListPreference extends ListPreference {
 

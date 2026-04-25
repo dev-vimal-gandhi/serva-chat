@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice
+package com.servalabs.chat.registration.olddevice
 
-import org.thoughtcrime.securesms.registration.data.QuickRegistrationRepository
+import com.servalabs.chat.registration.data.QuickRegistrationRepository
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 
 data class QuickTransferOldDeviceState(

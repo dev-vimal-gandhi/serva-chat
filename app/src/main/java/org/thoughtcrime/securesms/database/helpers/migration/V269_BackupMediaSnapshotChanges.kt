@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * We made a change to stop storing mediaId/names in favor of computing them on-the-fly.

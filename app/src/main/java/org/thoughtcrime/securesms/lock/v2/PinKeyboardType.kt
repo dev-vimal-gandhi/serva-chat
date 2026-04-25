@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.lock.v2
+package com.servalabs.chat.lock.v2
 
 import android.text.InputType
 import android.text.method.PasswordTransformationMethod
 import android.widget.EditText
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * The available keyboard input types for Signal PIN entry.

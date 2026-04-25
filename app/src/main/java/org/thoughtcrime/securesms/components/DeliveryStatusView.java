@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,8 +17,8 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.widget.AppCompatImageView;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.ViewUtil;
 
 /**
  * View responsible for displaying the delivery status (NONE, PENDING, SENT, DELIVERED, READ) of a given outgoing message.

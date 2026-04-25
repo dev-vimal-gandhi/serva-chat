@@ -2,7 +2,7 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.registration.fcm
+package com.servalabs.chat.registration.fcm
 
 import android.app.Application
 import android.os.AsyncTask
@@ -20,7 +20,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.isAbsent
+import com.servalabs.chat.isAbsent
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import java.io.IOException
 import java.util.Optional

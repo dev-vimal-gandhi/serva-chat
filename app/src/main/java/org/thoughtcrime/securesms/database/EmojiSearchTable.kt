@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.text.TextUtils
@@ -9,7 +9,7 @@ import org.signal.core.util.requireInt
 import org.signal.core.util.requireNonNullString
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.EmojiSearchData
+import com.servalabs.chat.database.model.EmojiSearchData
 import kotlin.math.max
 
 /**

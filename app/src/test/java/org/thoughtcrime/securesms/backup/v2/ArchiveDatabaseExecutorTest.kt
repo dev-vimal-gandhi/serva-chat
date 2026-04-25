@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import android.app.Application
 import assertk.assertThat

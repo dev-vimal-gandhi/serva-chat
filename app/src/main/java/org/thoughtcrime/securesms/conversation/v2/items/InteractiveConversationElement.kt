@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.graphics.Canvas
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.Px
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.util.ProjectionList
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.util.ProjectionList
 
 /**
  * A conversation element that a user can either swipe or snapshot

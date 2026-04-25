@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -16,19 +16,19 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.storageservice.storage.protos.groups.AccessControl;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberOrder;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.ui.GroupMemberOrder;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.groups.v2.GroupLinkUrlAndStatus;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.Collections;
 import java.util.Comparator;

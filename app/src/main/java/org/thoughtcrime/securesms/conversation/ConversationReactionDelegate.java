@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.app.Activity;
 import android.graphics.PointF;
@@ -7,8 +7,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.ui.view.Stub;
 
 /**

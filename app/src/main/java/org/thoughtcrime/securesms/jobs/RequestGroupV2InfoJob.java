@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.DecryptionsDrainedConstraint;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.v2.processing.GroupsV2StateProcessor;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.DecryptionsDrainedConstraint;
 
 /**
  * Schedules a {@link RequestGroupV2InfoWorkerJob} to happen after message queues are drained.

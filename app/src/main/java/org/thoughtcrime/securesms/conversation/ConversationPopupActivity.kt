@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.os.Bundle
 import android.view.Gravity
 import android.view.WindowManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.v2.ConversationActivity
 
 /**
  * Flavor of [ConversationActivity] used for quick replies to notifications in pre-API 24 devices.

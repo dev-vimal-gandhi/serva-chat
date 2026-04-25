@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import android.database.Cursor
 import androidx.annotation.VisibleForTesting
@@ -26,18 +26,18 @@ import org.signal.core.util.requireString
 import org.signal.storageservice.storage.protos.groups.Member
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.CallTable.Direction
-import org.thoughtcrime.securesms.database.CallTable.Event
-import org.thoughtcrime.securesms.database.CallTable.Type
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupCallUpdateDetailsUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.CallTable.Direction
+import com.servalabs.chat.database.CallTable.Event
+import com.servalabs.chat.database.CallTable.Type
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupCallUpdateDetailsUtil
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import java.util.concurrent.Executor
 import kotlin.math.max

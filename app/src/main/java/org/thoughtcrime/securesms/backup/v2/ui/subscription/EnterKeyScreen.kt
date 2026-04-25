@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -42,11 +42,11 @@ import androidx.compose.ui.unit.sp
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.registration.ui.restore.BackupKeyVisualTransformation
-import org.thoughtcrime.securesms.registration.ui.restore.attachBackupKeyAutoFillHelper
-import org.thoughtcrime.securesms.registration.ui.restore.backupKeyAutoFillHelper
+import com.servalabs.chat.R
+import com.servalabs.chat.fonts.MonoTypeface
+import com.servalabs.chat.registration.ui.restore.BackupKeyVisualTransformation
+import com.servalabs.chat.registration.ui.restore.attachBackupKeyAutoFillHelper
+import com.servalabs.chat.registration.ui.restore.backupKeyAutoFillHelper
 
 /**
  * Screen to enter backup key with an option to view the backup key again

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package com.servalabs.chat.megaphone
 
 import android.app.Application
 import android.content.Context
@@ -8,18 +8,18 @@ import org.json.JSONArray
 import org.json.JSONException
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.RemoteMegaphoneTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord.ActionId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.VersionTracker
+import com.servalabs.chat.R
+import com.servalabs.chat.database.RemoteMegaphoneTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.RemoteMegaphoneRecord
+import com.servalabs.chat.database.model.RemoteMegaphoneRecord.ActionId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.LocaleRemoteConfig
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.VersionTracker
 import kotlin.math.min
 import kotlin.time.Duration.Companion.days
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.videos
+package com.servalabs.chat.mediasend.v2.videos
 
 import android.net.Uri
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.VideoEditorFragment
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.VideoEditorFragment
+import com.servalabs.chat.mediasend.v2.HudCommand
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
 
 private const val VIDEO_EDITOR_TAG = "video.editor.fragment"
 

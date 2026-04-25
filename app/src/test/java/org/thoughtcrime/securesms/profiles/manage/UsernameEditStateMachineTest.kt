@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo

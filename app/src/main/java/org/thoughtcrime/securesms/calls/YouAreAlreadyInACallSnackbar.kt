@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls
+package com.servalabs.chat.calls
 
 import android.view.View
 import androidx.compose.material3.SnackbarHostState
@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.google.android.material.snackbar.Snackbar
 import org.signal.core.ui.compose.Snackbars
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Snackbar which can be displayed whenever the user tries to join a call but is already in another.

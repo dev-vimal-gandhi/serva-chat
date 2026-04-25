@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import android.text.TextUtils
 import org.signal.core.models.backup.MediaName
@@ -11,11 +11,11 @@ import org.signal.core.util.Base64
 import org.signal.core.util.Base64.decodeBase64
 import org.signal.core.util.Base64.decodeBase64OrThrow
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.InvalidAttachmentException
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.attachments.InvalidAttachmentException
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import java.io.IOException

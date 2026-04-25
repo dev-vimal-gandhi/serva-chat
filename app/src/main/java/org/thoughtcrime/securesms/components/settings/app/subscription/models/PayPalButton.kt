@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.models
+package com.servalabs.chat.components.settings.app.subscription.models
 
-import org.thoughtcrime.securesms.databinding.PaypalButtonBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.databinding.PaypalButtonBinding
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 object PayPalButton {
   fun register(mappingAdapter: MappingAdapter) {

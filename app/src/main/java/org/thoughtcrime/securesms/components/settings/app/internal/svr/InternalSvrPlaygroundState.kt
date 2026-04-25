@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.svr
+package com.servalabs.chat.components.settings.app.internal.svr
 
 import kotlinx.collections.immutable.ImmutableList
 

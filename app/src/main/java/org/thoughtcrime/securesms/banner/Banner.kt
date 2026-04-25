@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner
+package com.servalabs.chat.banner
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -30,7 +30,7 @@ abstract class Banner<Model> {
 
   /**
    * Composable function to display the content emitted from [dataFlow].
-   * You likely want to use [org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner].
+   * You likely want to use [com.servalabs.chat.banner.ui.compose.DefaultBanner].
    */
   @Composable
   abstract fun DisplayBanner(model: Model, contentPadding: PaddingValues)

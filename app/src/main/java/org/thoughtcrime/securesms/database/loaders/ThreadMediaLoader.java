@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database.loaders;
+package com.servalabs.chat.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.SignalDatabase;
 
 public final class ThreadMediaLoader extends MediaLoader {
 

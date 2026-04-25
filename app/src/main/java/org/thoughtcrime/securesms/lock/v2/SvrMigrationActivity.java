@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package com.servalabs.chat.lock.v2;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -6,13 +6,13 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.PassphrasePromptActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.BaseActivity;
+import com.servalabs.chat.PassphrasePromptActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.DynamicRegistrationTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 @SuppressLint("BaseActivitySubclass")
 public class SvrMigrationActivity extends BaseActivity {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.testing.FragmentScenario
@@ -26,9 +26,9 @@ import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.testing.RxTestSchedulerRule
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.R
+import com.servalabs.chat.testing.RxTestSchedulerRule
+import com.servalabs.chat.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.util.Usernames
 import java.util.concurrent.TimeUnit
 

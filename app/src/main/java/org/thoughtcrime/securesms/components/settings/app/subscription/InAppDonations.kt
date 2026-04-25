@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import android.content.Context
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.LocaleRemoteConfig
+import com.servalabs.chat.util.RemoteConfig
 
 /**
  * Helper object to determine in-app donations availability.

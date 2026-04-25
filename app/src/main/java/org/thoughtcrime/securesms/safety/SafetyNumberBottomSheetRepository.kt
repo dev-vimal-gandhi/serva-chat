@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
 import io.reactivex.rxjava3.core.BackpressureStrategy
 import io.reactivex.rxjava3.core.Completable
@@ -7,15 +7,15 @@ import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.Stories
 import java.util.Optional
 
 /**

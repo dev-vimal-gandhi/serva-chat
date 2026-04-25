@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -30,13 +30,13 @@ import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.CallManager.RingUpdate
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.CallLinkUpdateSendJob
-import org.thoughtcrime.securesms.jobs.CallSyncEventJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.CallLinkUpdateSendJob
+import com.servalabs.chat.jobs.CallSyncEventJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 import org.whispersystems.signalservice.internal.push.SyncMessage.CallEvent
 import java.util.UUID
 import java.util.concurrent.TimeUnit

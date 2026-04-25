@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package com.servalabs.chat.mediasend.v2.capture
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -12,11 +12,11 @@ import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.models.media.Media
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.data.QuickRegistrationRepository
+import com.servalabs.chat.util.rx.RxStore
 import java.io.FileDescriptor
 import java.util.Optional
 import java.util.concurrent.TimeUnit

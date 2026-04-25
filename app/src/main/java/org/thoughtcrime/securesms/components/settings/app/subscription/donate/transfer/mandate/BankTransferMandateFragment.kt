@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.mandate
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.mandate
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -57,12 +57,12 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.StatusBarColorAnimator
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.StatusBarColorAnimator
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.viewModel
 
 /**
  * Displays Bank Transfer legal mandate users must agree to to move forward.

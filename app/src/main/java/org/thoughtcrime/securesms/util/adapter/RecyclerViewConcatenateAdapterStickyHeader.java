@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.adapter;
+package com.servalabs.chat.util.adapter;
 
 import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import com.servalabs.chat.components.RecyclerViewFastScroller;
+import com.servalabs.chat.util.StickyHeaderDecoration;
 
 import java.util.Optional;
 

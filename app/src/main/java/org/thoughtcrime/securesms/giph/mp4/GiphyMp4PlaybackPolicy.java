@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.DeviceProperties;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.DeviceProperties;
 
 import java.util.concurrent.TimeUnit;
 

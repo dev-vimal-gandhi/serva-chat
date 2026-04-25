@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import android.database.Cursor;
 import android.database.CursorWrapper;
@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.SignalE164Util;
+import com.servalabs.chat.contacts.paged.ContactSearchSortOrder;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.util.SignalE164Util;
 import org.signal.core.util.Util;
 
 import java.util.ArrayList;

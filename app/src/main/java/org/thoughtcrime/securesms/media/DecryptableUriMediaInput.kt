@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.media
+package com.servalabs.chat.media
 
 import android.content.Context
 import android.net.Uri
 import androidx.annotation.RequiresApi
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.attachments
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.PartUriParser
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.video.interfaces.MediaInput
-import org.thoughtcrime.securesms.video.videoconverter.mediadatasource.MediaDataSourceMediaInput
+import com.servalabs.chat.database.SignalDatabase.Companion.attachments
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.mms.PartUriParser
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.video.interfaces.MediaInput
+import com.servalabs.chat.video.videoconverter.mediadatasource.MediaDataSourceMediaInput
 import java.io.IOException
 
 /**

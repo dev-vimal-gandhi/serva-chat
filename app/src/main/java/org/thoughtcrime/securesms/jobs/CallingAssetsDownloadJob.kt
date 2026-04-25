@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.service.webrtc.CallingAssets
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.AutoDownloadEmojiConstraint
+import com.servalabs.chat.jobmanager.impl.BackoffUtil
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.service.webrtc.CallingAssets
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 

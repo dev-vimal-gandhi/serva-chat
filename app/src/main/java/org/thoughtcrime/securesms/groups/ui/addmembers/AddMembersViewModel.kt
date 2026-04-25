@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui.addmembers
+package com.servalabs.chat.groups.ui.addmembers
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,18 +14,18 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.ui.addmembers.AddMembersUiState.UserMessage
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientRepository
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.ui.addmembers.AddMembersUiState.UserMessage
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientRepository
+import com.servalabs.chat.recipients.ui.RecipientSelection
 import kotlin.collections.plus
 
 class AddMembersViewModel(

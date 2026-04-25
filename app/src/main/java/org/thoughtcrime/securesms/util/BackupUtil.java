@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 
 import android.Manifest;
@@ -17,14 +17,14 @@ import androidx.documentfile.provider.DocumentFile;
 import org.signal.core.util.Util;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
+import com.servalabs.chat.backup.BackupPassphrase;
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem;
 import org.signal.core.util.NoExternalStorageException;
 import org.signal.core.ui.util.StorageUtil;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.ui.permissions.Permissions;
 
 import java.io.File;

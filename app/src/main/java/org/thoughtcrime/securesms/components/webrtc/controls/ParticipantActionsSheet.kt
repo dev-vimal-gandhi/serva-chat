@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package com.servalabs.chat.components.webrtc.controls
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -34,11 +34,11 @@ import org.signal.core.ui.compose.Dividers
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.SignalE164Util
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

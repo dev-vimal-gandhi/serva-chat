@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.emoji.EmojiCategory;
+import com.servalabs.chat.emoji.EmojiCategory;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 sealed class ConversationSettingsEvent {
   class AddToAGroup(

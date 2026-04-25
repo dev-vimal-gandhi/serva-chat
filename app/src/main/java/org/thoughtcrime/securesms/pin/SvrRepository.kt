@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.pin
+package com.servalabs.chat.pin
 
 import android.app.backup.BackupManager
 import androidx.annotation.VisibleForTesting
@@ -14,21 +14,21 @@ import org.signal.core.models.AccountEntropyPool
 import org.signal.core.models.MasterKey
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.jobs.MultiDeviceKeysUpdateJob
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.ResetSvrGuessCountJob
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob
-import org.thoughtcrime.securesms.jobs.Svr2MirrorJob
-import org.thoughtcrime.securesms.jobs.Svr3MirrorJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.registration.ui.restore.StorageServiceRestore
-import org.thoughtcrime.securesms.registration.viewmodel.SvrAuthCredentialSet
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.JobTracker
+import com.servalabs.chat.jobs.MultiDeviceKeysUpdateJob
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.jobs.ResetSvrGuessCountJob
+import com.servalabs.chat.jobs.StorageForcePushJob
+import com.servalabs.chat.jobs.Svr2MirrorJob
+import com.servalabs.chat.jobs.Svr3MirrorJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.lock.v2.PinKeyboardType
+import com.servalabs.chat.megaphone.Megaphones
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.registration.ui.restore.StorageServiceRestore
+import com.servalabs.chat.registration.viewmodel.SvrAuthCredentialSet
 import org.whispersystems.signalservice.api.NetworkResultUtil
 import org.whispersystems.signalservice.api.SvrNoDataException
 import org.whispersystems.signalservice.api.svr.SecureValueRecovery

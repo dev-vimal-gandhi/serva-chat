@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.core.os.bundleOf
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState
 
 /**
  * Active call data to be returned from calls to isInCallQuery.

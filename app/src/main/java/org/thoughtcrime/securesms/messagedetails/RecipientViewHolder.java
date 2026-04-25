@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,17 +6,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.components.transfercontrols.TransferControlView;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.FromTextView;
+import com.servalabs.chat.components.transfercontrols.TransferControlView;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.util.DateUtils;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.List;
 import java.util.Locale;

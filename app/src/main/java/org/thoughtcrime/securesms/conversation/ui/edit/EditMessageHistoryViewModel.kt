@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.conversation.ui.edit
+package com.servalabs.chat.conversation.ui.edit
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.colors.GroupAuthorNameColorHelper
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * View model to show history of edits for a specific message.

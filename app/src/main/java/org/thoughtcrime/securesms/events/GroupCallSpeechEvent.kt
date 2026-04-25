@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.events
+package com.servalabs.chat.events
 
 import org.signal.ringrtc.GroupCall.SpeechEvent
 import kotlin.time.Duration

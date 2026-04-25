@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -11,25 +11,25 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
 import org.signal.ringrtc.PeekInfo;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink;
+import com.servalabs.chat.components.webrtc.CallParticipantsState;
+import com.servalabs.chat.components.webrtc.EglBaseWrapper;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.CallParticipantId;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceStateBuilder;
+import com.servalabs.chat.util.NetworkUtil;
+import com.servalabs.chat.util.RemoteConfig;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 import org.signal.core.models.ServiceId.ACI;
 
 import java.util.List;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 /**
  * Process actions while the user is in the pre-join lobby for the call.

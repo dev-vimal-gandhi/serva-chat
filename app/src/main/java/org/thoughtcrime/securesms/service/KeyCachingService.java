@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -33,18 +33,18 @@ import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.TransferStatus;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.DummyActivity;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.DummyActivity;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.crypto.MasterSecret;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.migrations.ApplicationMigrations;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.util.DynamicLanguage;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

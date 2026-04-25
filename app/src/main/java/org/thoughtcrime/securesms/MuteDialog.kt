@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.annotation.DrawableRes
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.components.settings.conversation.MuteUntilTimePickerBottomSheet
+import com.servalabs.chat.components.settings.conversation.MuteUntilTimePickerBottomSheet
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 

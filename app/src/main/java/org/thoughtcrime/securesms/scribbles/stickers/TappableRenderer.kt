@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.stickers
+package com.servalabs.chat.scribbles.stickers
 
 import org.signal.imageeditor.core.Renderer
 

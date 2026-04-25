@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
 
 /**
  * Activity that wraps a given fragment

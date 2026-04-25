@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.graphics.Typeface
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.fonts.Fonts
-import org.thoughtcrime.securesms.fonts.SupportedScript
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.util.FutureTaskListener
-import org.thoughtcrime.securesms.util.LocaleUtil
+import com.servalabs.chat.fonts.Fonts
+import com.servalabs.chat.fonts.SupportedScript
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.util.FutureTaskListener
+import com.servalabs.chat.util.LocaleUtil
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit

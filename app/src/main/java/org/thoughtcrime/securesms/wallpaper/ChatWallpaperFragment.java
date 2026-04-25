@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.content.res.ColorStateList;
 import android.graphics.PorterDuff;
@@ -25,14 +25,14 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.util.DisplayMetricsUtil;
-import org.thoughtcrime.securesms.util.Projection;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.conversation.colors.ColorizerView;
+import com.servalabs.chat.util.DisplayMetricsUtil;
+import com.servalabs.chat.util.Projection;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.navigation.SafeNavigation;
 
 import java.util.Collections;
 

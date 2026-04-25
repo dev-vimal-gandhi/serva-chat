@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchData
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 class ContactSelectionListAdapter(
   context: Context,
@@ -152,7 +152,7 @@ class ContactSelectionListAdapter(
     override fun bind(model: FindByUsernameModel) = Unit
   }
 
-  class ArbitraryRepository : org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository {
+  class ArbitraryRepository : com.servalabs.chat.contacts.paged.ArbitraryRepository {
 
     enum class ArbitraryRow(val code: String) {
       NEW_GROUP("new-group"),

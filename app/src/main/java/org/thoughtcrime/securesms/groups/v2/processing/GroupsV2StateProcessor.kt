@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.v2.processing
+package com.servalabs.chat.groups.v2.processing
 
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
@@ -18,30 +18,30 @@ import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChange
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupMutation
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException
-import org.thoughtcrime.securesms.groups.GroupProtoUtil
-import org.thoughtcrime.securesms.groups.v2.ProfileKeySet
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor.Companion.LATEST
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob
-import org.thoughtcrime.securesms.jobs.LeaveGroupV2Job
-import org.thoughtcrime.securesms.jobs.RequestGroupV2InfoJob
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.mms.MmsException
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.GroupsV2UpdateMessageConverter
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupMutation
+import com.servalabs.chat.groups.GroupNotAMemberException
+import com.servalabs.chat.groups.GroupProtoUtil
+import com.servalabs.chat.groups.v2.ProfileKeySet
+import com.servalabs.chat.groups.v2.processing.GroupsV2StateProcessor.Companion.LATEST
+import com.servalabs.chat.jobs.AvatarGroupsV2DownloadJob
+import com.servalabs.chat.jobs.DirectoryRefreshJob
+import com.servalabs.chat.jobs.LeaveGroupV2Job
+import com.servalabs.chat.jobs.RequestGroupV2InfoJob
+import com.servalabs.chat.jobs.RetrieveProfileJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.mms.MmsException
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.TextSecurePreferences
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import org.whispersystems.signalservice.api.groupsv2.GroupChangeReconstruct

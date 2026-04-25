@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice.transferaccount
+package com.servalabs.chat.registration.olddevice.transferaccount
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.Image
@@ -40,14 +40,14 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.fonts.SignalSymbols.SignalSymbol
-import org.thoughtcrime.securesms.registration.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.registration.olddevice.QuickTransferOldDeviceActivity
-import org.thoughtcrime.securesms.registration.olddevice.QuickTransferOldDeviceState
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SpanUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.fonts.SignalSymbols
+import com.servalabs.chat.fonts.SignalSymbols.SignalSymbol
+import com.servalabs.chat.registration.data.QuickRegistrationRepository
+import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceActivity
+import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceState
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SpanUtil
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

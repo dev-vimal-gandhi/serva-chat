@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import kotlinx.serialization.json.Json
 import org.signal.core.models.media.TransformProperties
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mms.SentMediaQuality
+import com.servalabs.chat.mms.SentMediaQuality
 import org.whispersystems.signalservice.internal.util.JsonUtil
 import java.io.IOException
 import java.util.Optional

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
 enum class FindByMode {
   PHONE_NUMBER,

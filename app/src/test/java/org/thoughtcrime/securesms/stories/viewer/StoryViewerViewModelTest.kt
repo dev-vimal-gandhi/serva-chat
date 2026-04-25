@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import android.app.Application
 import io.mockk.every
@@ -14,8 +14,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.StoryViewerArgs
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

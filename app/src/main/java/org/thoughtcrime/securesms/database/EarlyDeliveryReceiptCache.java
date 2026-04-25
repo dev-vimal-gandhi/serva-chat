@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.LRUCache;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package com.servalabs.chat.fonts
 
 /**
  * Attempt to guess the script based on the unicode characters used. The script

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package com.servalabs.chat.backup.v2.ui
 
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
@@ -13,9 +13,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.BackupDownloadNotifierState
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.BackupDownloadNotifierState
 
 /**
  * Delegate that controls whether and which backup alert sheet is displayed.

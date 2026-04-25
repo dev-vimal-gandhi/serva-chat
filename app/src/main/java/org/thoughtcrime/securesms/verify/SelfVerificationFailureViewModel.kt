@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository
+import com.servalabs.chat.logsubmit.SubmitDebugLogRepository
 
 class SelfVerificationFailureViewModel : ViewModel() {
 

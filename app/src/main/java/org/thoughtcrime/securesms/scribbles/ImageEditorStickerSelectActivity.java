@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package com.servalabs.chat.scribbles;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,20 +11,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerSearchDialogFragment;
-import org.thoughtcrime.securesms.scribbles.stickers.FeatureSticker;
-import org.thoughtcrime.securesms.scribbles.stickers.ScribbleStickersFragment;
-import org.thoughtcrime.securesms.stickers.StickerEventListener;
-import org.thoughtcrime.securesms.stickers.manage.StickerManagementScreen;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.MediaKeyboard;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.StickerRecord;
+import com.servalabs.chat.keyboard.KeyboardPage;
+import com.servalabs.chat.keyboard.sticker.StickerKeyboardPageFragment;
+import com.servalabs.chat.keyboard.sticker.StickerSearchDialogFragment;
+import com.servalabs.chat.scribbles.stickers.FeatureSticker;
+import com.servalabs.chat.scribbles.stickers.ScribbleStickersFragment;
+import com.servalabs.chat.stickers.StickerEventListener;
+import com.servalabs.chat.stickers.manage.StickerManagementScreen;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.ViewUtil;
 
 public final class ImageEditorStickerSelectActivity extends AppCompatActivity implements StickerEventListener, MediaKeyboard.MediaKeyboardListener, StickerKeyboardPageFragment.Callback, ScribbleStickersFragment.Callback {
 

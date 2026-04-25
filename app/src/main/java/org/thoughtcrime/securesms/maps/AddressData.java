@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package com.servalabs.chat.maps;
 
 import android.os.Parcel;
 import android.os.Parcelable;

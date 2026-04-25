@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -10,8 +10,8 @@ import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Test
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter.FOOTER_TYPE
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter.HEADER_TYPE
+import com.servalabs.chat.database.CursorRecyclerViewAdapter.FOOTER_TYPE
+import com.servalabs.chat.database.CursorRecyclerViewAdapter.HEADER_TYPE
 
 class CursorRecyclerViewAdapterTest {
   private val context: Context = mockk<Context>()

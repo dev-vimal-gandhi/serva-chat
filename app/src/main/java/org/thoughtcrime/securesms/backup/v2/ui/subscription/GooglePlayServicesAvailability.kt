@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -13,7 +13,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Represents the availability status of Google Play Services on the device.

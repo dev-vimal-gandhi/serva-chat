@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package com.servalabs.chat.components.settings.app.subscription.donate.paypal
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -14,18 +14,18 @@ import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PayPalPaymentSource
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.RequiredActionHandler
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.jobs.MultiDeviceSubscriptionSyncRequestJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import com.servalabs.chat.components.settings.app.subscription.RecurringInAppPaymentRepository
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import com.servalabs.chat.components.settings.app.subscription.donate.RequiredActionHandler
+import com.servalabs.chat.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.jobs.MultiDeviceSubscriptionSyncRequestJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.rx.RxStore
 import org.whispersystems.signalservice.api.util.Preconditions
 
 class PayPalPaymentInProgressViewModel : ViewModel() {

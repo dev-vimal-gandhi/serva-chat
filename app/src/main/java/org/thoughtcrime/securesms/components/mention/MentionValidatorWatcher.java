@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package com.servalabs.chat.components.mention;
 
 import android.text.Annotation;
 import android.text.Editable;

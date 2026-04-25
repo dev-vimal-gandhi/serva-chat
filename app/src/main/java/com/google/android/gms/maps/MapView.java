@@ -25,10 +25,10 @@ import org.osmdroid.views.CustomZoomButtonsDisplay;
 import org.osmdroid.views.overlay.Marker;
 
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.net.Networking;
-import org.thoughtcrime.securesms.osm.MapTileProvider;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
+import com.servalabs.chat.net.Networking;
+import com.servalabs.chat.osm.MapTileProvider;
 
 import java.net.Proxy;
 

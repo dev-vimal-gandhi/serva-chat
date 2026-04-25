@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.notifications.MarkReadReceiver
 
 object MainToolbarRepository {
   /**

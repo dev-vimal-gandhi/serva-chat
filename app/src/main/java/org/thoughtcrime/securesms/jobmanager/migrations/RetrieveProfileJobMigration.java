@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package com.servalabs.chat.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.JobMigration;
 
 public class RetrieveProfileJobMigration extends JobMigration {
 

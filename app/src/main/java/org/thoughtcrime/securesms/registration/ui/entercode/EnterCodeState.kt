@@ -3,6 +3,6 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.entercode
+package com.servalabs.chat.registration.ui.entercode
 
 data class EnterCodeState(val resetRequiredAfterFailure: Boolean = false, val showKeyboard: Boolean = false)

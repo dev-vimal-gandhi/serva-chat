@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -6,13 +6,13 @@ import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Result
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.jobs.AvatarGroupsV2DownloadJob
+import com.servalabs.chat.jobs.RetrieveProfileAvatarJob
+import com.servalabs.chat.messagerequests.MessageRequestRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * View model for interacting with a message request displayed in ConversationFragment V2

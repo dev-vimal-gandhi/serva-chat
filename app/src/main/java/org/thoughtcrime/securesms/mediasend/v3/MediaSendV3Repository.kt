@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v3
+package com.servalabs.chat.mediasend.v3
 
 import android.net.Uri
 import kotlinx.coroutines.Dispatchers
@@ -24,23 +24,23 @@ import org.signal.mediasend.MediaSendRepository
 import org.signal.mediasend.SendRequest
 import org.signal.mediasend.SendResult
 import org.signal.mediasend.StorySendRequirements
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionRepository
-import org.thoughtcrime.securesms.mediasend.v2.MediaValidator
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mediasend.MediaRepository
+import com.servalabs.chat.mediasend.v2.MediaSelectionRepository
+import com.servalabs.chat.mediasend.v2.MediaValidator
+import com.servalabs.chat.mediasend.v2.videos.VideoTrimData
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.scribbles.ImageEditorFragment
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.MediaUtil
 import java.util.concurrent.TimeUnit
 import kotlin.coroutines.resume
 import kotlin.time.Duration.Companion.seconds

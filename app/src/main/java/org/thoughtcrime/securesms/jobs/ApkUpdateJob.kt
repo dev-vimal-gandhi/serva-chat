@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.DownloadManager
 import android.content.Context
@@ -16,17 +16,17 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateDownloadManagerReceiver
-import org.thoughtcrime.securesms.events.ApkUpdateEvent
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.Networking
-import org.thoughtcrime.securesms.util.FileUtils
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.apkupdate.ApkUpdateDownloadManagerReceiver
+import com.servalabs.chat.events.ApkUpdateEvent
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.Networking
+import com.servalabs.chat.util.FileUtils
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.TextSecurePreferences
 import java.io.FileInputStream
 import java.io.IOException
 import java.security.MessageDigest

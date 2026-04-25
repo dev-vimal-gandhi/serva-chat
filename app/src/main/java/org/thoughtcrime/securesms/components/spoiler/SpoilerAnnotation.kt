@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package com.servalabs.chat.components.spoiler
 
 import android.graphics.Color
 import android.text.Annotation

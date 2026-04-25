@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.updates
+package com.servalabs.chat.components.settings.app.updates
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -19,17 +19,17 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import im.molly.app.base.ApkInfo
+import com.servalabs.chat.base.ApkInfo
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 
 /**

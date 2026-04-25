@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
+import static com.servalabs.chat.contactshare.Contact.Name;
 
 public class ContactShareEditAdapter extends RecyclerView.Adapter<ContactShareEditAdapter.ContactEditViewHolder> {
 

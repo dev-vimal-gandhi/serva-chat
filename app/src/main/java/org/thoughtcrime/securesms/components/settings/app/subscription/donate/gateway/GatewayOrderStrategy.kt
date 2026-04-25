@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package com.servalabs.chat.components.settings.app.subscription.donate.gateway
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.components.settings.app.subscription.InAppDonations
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.recipients.Recipient
 
 sealed interface GatewayOrderStrategy {
 

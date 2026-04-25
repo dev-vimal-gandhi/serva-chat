@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers.preview;
+package com.servalabs.chat.stickers.preview;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -20,22 +20,22 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment;
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
 import org.signal.glide.apng.ApngOptions;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.stickers.StickerManifest;
-import org.thoughtcrime.securesms.stickers.StickerManifest.Sticker;
-import org.thoughtcrime.securesms.stickers.StickerRemoteUri;
-import org.thoughtcrime.securesms.stickers.StickerRolloverTouchListener;
-import org.thoughtcrime.securesms.stickers.StickerUrl;
-import org.thoughtcrime.securesms.stickers.manage.StickerManagementRepository;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.sharing.MultiShareArgs;
+import com.servalabs.chat.stickers.StickerManifest;
+import com.servalabs.chat.stickers.StickerManifest.Sticker;
+import com.servalabs.chat.stickers.StickerRemoteUri;
+import com.servalabs.chat.stickers.StickerRolloverTouchListener;
+import com.servalabs.chat.stickers.StickerUrl;
+import com.servalabs.chat.stickers.manage.StickerManagementRepository;
+import com.servalabs.chat.util.DeviceProperties;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

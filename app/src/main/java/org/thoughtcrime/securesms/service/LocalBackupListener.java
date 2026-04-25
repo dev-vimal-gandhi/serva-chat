@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.jobs.LocalBackupJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.JavaTimeExtensionsKt;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

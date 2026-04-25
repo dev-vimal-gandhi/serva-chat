@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.defaultMinSize
@@ -22,7 +22,7 @@ import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Shown when a group is terminated while the user is actively viewing the conversation.

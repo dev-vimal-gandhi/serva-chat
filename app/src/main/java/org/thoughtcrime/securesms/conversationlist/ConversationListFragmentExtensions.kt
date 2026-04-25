@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus
 import org.signal.core.ui.getWindowSizeClass
 import org.signal.core.ui.isSplitPane
-import org.thoughtcrime.securesms.main.MainNavigationDetailLocation
+import com.servalabs.chat.main.MainNavigationDetailLocation
 
 /**
  * When the user searches for a conversation and then enters a message, we should clear

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.logging.Log
 import org.signal.core.util.readToSingleLong
 import org.signal.core.util.select
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * Previously, we weren't properly remapping call ringers when recipients were remapped. This repairs those scenarios the best we can.

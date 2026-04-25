@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,8 +29,8 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Bottom sheet dialog displayed when users click 'Link a device'

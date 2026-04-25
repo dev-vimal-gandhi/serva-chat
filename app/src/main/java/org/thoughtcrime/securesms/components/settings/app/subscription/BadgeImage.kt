@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -13,8 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.viewinterop.AndroidView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.models.Badge
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.badges.models.Badge
 
 enum class BadgeImageSize(val sizeCode: Int) {
   SMALL(0),

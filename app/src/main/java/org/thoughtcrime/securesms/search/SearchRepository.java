@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package com.servalabs.chat.search;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -15,27 +15,27 @@ import org.signal.core.util.CursorUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.database.BodyAdjustment;
-import org.thoughtcrime.securesms.database.BodyRangeUtil;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.MentionTable;
-import org.thoughtcrime.securesms.database.MentionUtil;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SearchTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.conversation.MessageStyler;
+import com.servalabs.chat.database.BodyAdjustment;
+import com.servalabs.chat.database.BodyRangeUtil;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.MentionTable;
+import com.servalabs.chat.database.MentionUtil;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SearchTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.database.model.Mention;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.ThreadRecord;
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import com.servalabs.chat.util.concurrent.SerialExecutor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -50,7 +50,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.Executor;
 
-import static org.thoughtcrime.securesms.database.SearchTable.SNIPPET_WRAP;
+import static com.servalabs.chat.database.SearchTable.SNIPPET_WRAP;
 
 /**
  * Manages data retrieval for search.

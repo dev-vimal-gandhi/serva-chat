@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.app.Application
 import assertk.assertThat
@@ -7,8 +7,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.recipients.RecipientId
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

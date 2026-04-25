@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard;
+package com.servalabs.chat.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 
 @SuppressWarnings("unused")

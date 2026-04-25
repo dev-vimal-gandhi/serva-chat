@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree
-import org.thoughtcrime.securesms.emoji.EmojiCategory
-import org.thoughtcrime.securesms.emoji.EmojiSource
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.components.emoji.parsing.EmojiTree
+import com.servalabs.chat.emoji.EmojiCategory
+import com.servalabs.chat.emoji.EmojiSource
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 fun EmojiPageModel.toMappingModels(): List<MappingModel<*>> {
   val emojiTree: EmojiTree = EmojiSource.latest.emojiTree

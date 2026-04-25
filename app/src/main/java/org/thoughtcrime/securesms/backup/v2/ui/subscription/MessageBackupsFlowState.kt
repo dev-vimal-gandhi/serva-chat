@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import androidx.compose.runtime.Immutable
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.util.billing.BillingResponseCode
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeySaveState
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeySaveState
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.keyvalue.SignalStore
 
 @Immutable
 data class MessageBackupsFlowState(

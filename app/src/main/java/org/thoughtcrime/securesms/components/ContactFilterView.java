@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,11 +19,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.core.widget.TextViewCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.EditTextExtensionsKt;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.ViewUtil;
 
 /**
  * A search input field for finding recipients.

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.osm
+package com.servalabs.chat.osm
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import org.osmdroid.tileprovider.modules.IFilesystemCache
 import org.osmdroid.tileprovider.tilesource.ITileSource
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.EncryptedStreamUtils
+import com.servalabs.chat.util.EncryptedStreamUtils
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream
 import java.io.ByteArrayInputStream
 import java.io.File

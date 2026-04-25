@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package com.servalabs.chat.conversation.ui.mentions;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder.EventListener;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.viewholders.RecipientViewHolder;
+import com.servalabs.chat.util.viewholders.RecipientViewHolder.EventListener;
 
 import java.util.List;
 

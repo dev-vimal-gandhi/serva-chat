@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.mediasend.v2.documents.MediaReviewDocumentPageFragment
-import org.thoughtcrime.securesms.mediasend.v2.gif.MediaReviewGifPageFragment
-import org.thoughtcrime.securesms.mediasend.v2.images.MediaReviewImagePageFragment
-import org.thoughtcrime.securesms.mediasend.v2.videos.MediaReviewVideoPageFragment
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.mediasend.v2.documents.MediaReviewDocumentPageFragment
+import com.servalabs.chat.mediasend.v2.gif.MediaReviewGifPageFragment
+import com.servalabs.chat.mediasend.v2.images.MediaReviewImagePageFragment
+import com.servalabs.chat.mediasend.v2.videos.MediaReviewVideoPageFragment
+import com.servalabs.chat.util.MediaUtil
 import java.util.LinkedList
 
 class MediaReviewFragmentPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {

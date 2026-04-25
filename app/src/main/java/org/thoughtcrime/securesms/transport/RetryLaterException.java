@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.transport;
+package com.servalabs.chat.transport;
 
 public class RetryLaterException extends Exception {
 

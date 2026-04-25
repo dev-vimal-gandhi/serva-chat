@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.recipients.Recipient
 import java.util.Optional
 
 class ConversationRecipientRepository(threadId: Long) : ViewModel() {

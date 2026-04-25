@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.keyvalue.KeepMessagesDuration;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
 
 final class LogSectionKeyPreferences implements LogSection {

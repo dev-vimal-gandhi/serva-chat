@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import android.content.Context
 import android.content.Intent
@@ -14,7 +14,7 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.getSerializableCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
+import com.servalabs.chat.components.FragmentWrapperActivity
 
 /**
  * Home base for all checkout flows.

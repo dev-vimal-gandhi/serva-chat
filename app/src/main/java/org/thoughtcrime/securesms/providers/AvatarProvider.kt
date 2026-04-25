@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.providers
+package com.servalabs.chat.providers
 
 import android.app.Application
 import android.content.ContentUris
@@ -17,23 +17,23 @@ import android.os.ParcelFileDescriptor
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.AndroidLogger
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.ApplicationContext
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SqlCipherLibraryLoader
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientCreator
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.AdaptiveBitmapMetrics
-import org.thoughtcrime.securesms.util.AvatarUtil
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.ApplicationContext
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.crypto.AttachmentSecretProvider
+import com.servalabs.chat.crypto.DatabaseSecretProvider
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.SqlCipherLibraryLoader
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.ApplicationDependencyProvider
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.AvatarHelper
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientCreator
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.util.AdaptiveBitmapMetrics
+import com.servalabs.chat.util.AvatarUtil
+import com.servalabs.chat.util.MediaUtil
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.preferences
+package com.servalabs.chat.preferences
 
 import androidx.compose.material3.SnackbarHostState
 import androidx.lifecycle.ViewModel
@@ -13,8 +13,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.pin.SvrRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.pin.SvrRepository
 
 class AdvancedPinSettingsViewModel : ViewModel() {
 

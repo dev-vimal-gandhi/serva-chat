@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * In order to support scheduled sending, we need to add another column to keep track of when to send the message. We also use this

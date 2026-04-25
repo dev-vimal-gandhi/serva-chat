@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore
+package com.servalabs.chat.restore
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,20 +25,20 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.RestoreDirections
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.isWantingManualRemoteRestore
-import org.thoughtcrime.securesms.keyvalue.isWantingNewLocalBackupRestore
-import org.thoughtcrime.securesms.registration.ui.restore.RemoteRestoreActivity
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupActivity
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.BaseActivity
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.RestoreDirections
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.isWantingManualRemoteRestore
+import com.servalabs.chat.keyvalue.isWantingNewLocalBackupRestore
+import com.servalabs.chat.registration.ui.restore.RemoteRestoreActivity
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupActivity
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Activity to hold the restore from backup flow.

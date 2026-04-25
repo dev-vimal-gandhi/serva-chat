@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package com.servalabs.chat.components.settings.conversation.preferences
 
 import android.content.ClipData
 import android.content.Context
@@ -6,14 +6,14 @@ import android.text.SpannableStringBuilder
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.fonts.SignalSymbols
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.ServiceUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 /**
  * Renders name, description, about, etc. for a given group or recipient.

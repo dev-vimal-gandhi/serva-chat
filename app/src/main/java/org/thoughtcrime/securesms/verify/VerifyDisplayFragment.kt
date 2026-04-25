@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -25,17 +25,17 @@ import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireParcelableCompat
 import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.verify.SafetyNumberQrView.Companion.getSegments
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.databinding.VerifyDisplayFragmentBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.verify.SafetyNumberQrView.Companion.getSegments
+import com.servalabs.chat.crypto.IdentityKeyParcelable
+import com.servalabs.chat.databinding.VerifyDisplayFragmentBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 import java.nio.charset.StandardCharsets
 import java.util.Locale
 import org.signal.core.ui.R as CoreUiR

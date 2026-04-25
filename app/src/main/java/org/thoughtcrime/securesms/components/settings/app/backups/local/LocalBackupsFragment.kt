@@ -2,7 +2,7 @@
  * Copyright 2026 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
 import android.content.Intent
 import android.net.Uri
@@ -35,13 +35,13 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Launchers
 import org.signal.core.ui.util.StorageUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyEducationScreen
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyEducationScreenMode
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyEducationScreen
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyEducationScreenMode
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
+import com.servalabs.chat.keyvalue.SignalStore
 import kotlin.time.Duration.Companion.milliseconds
 
 private val TAG = Log.tag(LocalBackupsFragment::class)

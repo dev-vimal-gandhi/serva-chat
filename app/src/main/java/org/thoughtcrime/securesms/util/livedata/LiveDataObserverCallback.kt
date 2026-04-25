@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util.livedata
+package com.servalabs.chat.util.livedata
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer

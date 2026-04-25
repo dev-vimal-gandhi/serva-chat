@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.mms.OutgoingMessage
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.mms.OutgoingMessage
 import org.whispersystems.signalservice.api.messages.SignalServicePreview
 import org.whispersystems.signalservice.api.messages.SignalServiceTextAttachment
 import java.io.IOException

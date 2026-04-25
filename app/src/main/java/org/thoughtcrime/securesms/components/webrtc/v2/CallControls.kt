@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -31,12 +31,12 @@ import org.signal.core.ui.compose.NightPreview
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.TriggerAlignedPopupState.Companion.popupTrigger
 import org.signal.core.ui.compose.TriggerAlignedPopupState.Companion.rememberTriggerAlignedPopupState
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.ToggleButtonOutputState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.CallParticipantsState
+import com.servalabs.chat.components.webrtc.ToggleButtonOutputState
+import com.servalabs.chat.components.webrtc.WebRtcAudioOutput
+import com.servalabs.chat.components.webrtc.WebRtcControls
+import com.servalabs.chat.util.RemoteConfig
 
 /**
  * Renders the button strip / start call button in the call screen

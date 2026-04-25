@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 import androidx.annotation.StringRes
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Methods to delineate donation vs backup payment error strings.

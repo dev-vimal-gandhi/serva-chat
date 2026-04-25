@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package com.servalabs.chat.groups.ui.managegroup.dialogs;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.core.util.Consumer;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.RecipientTable.NotificationSetting;
 
 public final class GroupMentionSettingDialog {
 

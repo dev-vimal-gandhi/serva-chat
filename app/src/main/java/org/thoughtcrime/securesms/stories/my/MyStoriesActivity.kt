@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.my
+package com.servalabs.chat.stories.my
 
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
+import com.servalabs.chat.components.FragmentWrapperActivity
 
 class MyStoriesActivity : FragmentWrapperActivity() {
   override fun getFragment(): Fragment {

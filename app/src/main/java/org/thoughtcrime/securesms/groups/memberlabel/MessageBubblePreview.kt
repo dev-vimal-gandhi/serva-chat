@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
@@ -36,14 +36,14 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.conversation.v2.items.SenderNameWithLabelView
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.conversation.v2.items.SenderNameWithLabelView
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.visible
 
 @Composable
 fun MessageBubblePreview(

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.database.Cursor
 import androidx.core.content.contentValuesOf
@@ -28,22 +28,22 @@ import org.signal.core.util.select
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.state.SessionRecord
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.SessionSwitchoverEvent
-import org.thoughtcrime.securesms.database.model.databaseprotos.ThreadMergeEvent
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.ReactionRecord
+import com.servalabs.chat.database.model.databaseprotos.SessionSwitchoverEvent
+import com.servalabs.chat.database.model.databaseprotos.ThreadMergeEvent
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import java.util.Optional
 import java.util.UUID
 

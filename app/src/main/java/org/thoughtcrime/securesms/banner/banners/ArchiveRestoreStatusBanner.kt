@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package com.servalabs.chat.banner.banners
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.filter
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState.RestoreStatus
-import org.thoughtcrime.securesms.backup.v2.ui.status.ArchiveRestoreStatusBanner
-import org.thoughtcrime.securesms.banner.Banner
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState.RestoreStatus
+import com.servalabs.chat.backup.v2.ui.status.ArchiveRestoreStatusBanner
+import com.servalabs.chat.banner.Banner
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class ArchiveRestoreStatusBanner(private val listener: RestoreProgressBannerListener) : Banner<ArchiveRestoreProgressState>() {

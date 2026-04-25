@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testutil
+package com.servalabs.chat.testutil
 
 import io.mockk.every
 import io.mockk.mockk

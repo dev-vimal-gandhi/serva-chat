@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package com.servalabs.chat.components.settings.app.subscription.manage
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -17,20 +17,20 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx3.asFlow
 import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.jobs.InAppPaymentKeepAliveJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.InternetConnectionObserver
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.RecurringInAppPaymentRepository
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.DonationErrorValue
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.database.model.databaseprotos.PendingOneTimeDonation
+import com.servalabs.chat.jobs.InAppPaymentKeepAliveJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.InternetConnectionObserver
+import com.servalabs.chat.util.livedata.Store
 import kotlin.time.Duration.Companion.milliseconds
 
 class ManageDonationsViewModel : ViewModel() {

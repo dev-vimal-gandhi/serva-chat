@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter;
+import com.servalabs.chat.R;
+import com.servalabs.chat.giph.model.GiphyImage;
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory;
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter;
 
 /**
  * Maintains and displays a list of GiphyImage objects. This Adapter always displays gifs

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package com.servalabs.chat.components.settings.app.chats
 
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 
 data class ChatsSettingsState(
   val generateLinkPreviews: Boolean,

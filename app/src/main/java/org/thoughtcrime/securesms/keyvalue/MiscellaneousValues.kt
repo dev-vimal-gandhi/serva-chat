@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
-import org.thoughtcrime.securesms.jobmanager.impl.ChangeNumberConstraintObserver
-import org.thoughtcrime.securesms.jobs.DeprecatedNotificationJob
-import org.thoughtcrime.securesms.keyvalue.protos.LeastActiveLinkedDevice
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.database.model.databaseprotos.PendingChangeNumberMetadata
+import com.servalabs.chat.jobmanager.impl.ChangeNumberConstraintObserver
+import com.servalabs.chat.jobs.DeprecatedNotificationJob
+import com.servalabs.chat.keyvalue.protos.LeastActiveLinkedDevice
 
 class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {
@@ -203,7 +203,7 @@ class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalSto
   var keyboardPortraitHeight by integerValue(KEYBOARD_PORTRAIT_HEIGHT, 0)
 
   /**
-   * The last time we ran an account consistency check via [org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob]
+   * The last time we ran an account consistency check via [com.servalabs.chat.jobs.AccountConsistencyWorkerJob]
    */
   var lastConsistencyCheckTime by longValue(LAST_CONSISTENCY_CHECK_TIME, 0)
 
@@ -311,7 +311,7 @@ class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalSto
 
   /**
    * The last successfully-downloaded calling assets version. Compared against
-   * [org.thoughtcrime.securesms.service.webrtc.CallingAssets.CURRENT_VERSION] to determine
+   * [com.servalabs.chat.service.webrtc.CallingAssets.CURRENT_VERSION] to determine
    * if new assets need to be fetched.
    */
   var callingAssetsVersion: Int by integerValue(CALLING_ASSETS_VERSION, 0)

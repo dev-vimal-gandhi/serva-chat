@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import com.servalabs.chat.jobmanager.ConstraintObserver;
 
 /**
  * Observes the charging state and low battery state of the device and notifies the JobManager system when appropriate.

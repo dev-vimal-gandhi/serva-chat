@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public final class GroupErrors {
   private GroupErrors() {

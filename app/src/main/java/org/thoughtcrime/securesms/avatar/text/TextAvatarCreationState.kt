@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.avatar.text
+package com.servalabs.chat.avatar.text
 
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarColorItem
-import org.thoughtcrime.securesms.avatar.Avatars
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarColorItem
+import com.servalabs.chat.avatar.Avatars
 
 data class TextAvatarCreationState(
   val currentAvatar: Avatar.Text

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.readToList
 import org.signal.core.util.requireLong
 import org.signal.core.util.select
-import org.thoughtcrime.securesms.database.ChatFolderTables
-import org.thoughtcrime.securesms.database.ChatFolderTables.ChatFolderTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.ChatFolderTables
+import com.servalabs.chat.database.ChatFolderTables.ChatFolderTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.storage.StorageSyncHelper
 
 /**
  * Marks all chat folders as needing to be synced for storage service.

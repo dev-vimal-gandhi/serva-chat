@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.sharing;
+package com.servalabs.chat.sharing;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Objects;
 import java.util.Optional;

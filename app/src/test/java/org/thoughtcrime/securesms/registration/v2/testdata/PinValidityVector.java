@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.testdata;
+package com.servalabs.chat.registration.testdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

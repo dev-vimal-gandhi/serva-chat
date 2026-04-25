@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.content.Context;
 
@@ -13,20 +13,20 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.badges.models.Badge;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.RefreshOwnProfileJob;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientForeverObserver;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 import org.whispersystems.signalservice.api.util.StreamDetails;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.menu
+package com.servalabs.chat.components.menu
 
 import androidx.annotation.DrawableRes
 

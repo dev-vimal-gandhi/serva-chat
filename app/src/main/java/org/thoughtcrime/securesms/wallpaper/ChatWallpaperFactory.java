@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper;
 
 /**
  * Converts persisted models of wallpaper into usable {@link ChatWallpaper} instances.

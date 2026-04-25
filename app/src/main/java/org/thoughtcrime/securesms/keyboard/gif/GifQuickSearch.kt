@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package com.servalabs.chat.keyboard.gif
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 data class GifQuickSearch(val gifQuickSearchOption: GifQuickSearchOption, val selected: Boolean) : MappingModel<GifQuickSearch> {
   override fun areItemsTheSame(newItem: GifQuickSearch): Boolean {

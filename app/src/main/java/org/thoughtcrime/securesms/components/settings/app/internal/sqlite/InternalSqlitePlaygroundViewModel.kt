@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.sqlite
+package com.servalabs.chat.components.settings.app.internal.sqlite
 
 import android.database.Cursor
 import androidx.compose.runtime.MutableState
@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.ExceptionUtil
 import org.signal.core.util.readToList
 import org.signal.core.util.roundedString
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase
 import kotlin.time.Duration.Companion.nanoseconds
 import kotlin.time.DurationUnit
 

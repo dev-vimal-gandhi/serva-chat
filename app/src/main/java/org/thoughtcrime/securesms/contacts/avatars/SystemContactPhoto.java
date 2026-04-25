@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package com.servalabs.chat.contacts.avatars;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.Conversions;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

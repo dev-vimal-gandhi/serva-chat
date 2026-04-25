@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.backup.v2.ui.verify
+package com.servalabs.chat.backup.v2.ui.verify
 
 import android.app.Activity.RESULT_OK
 import androidx.compose.runtime.Composable
 import org.signal.core.ui.compose.ComposeFragment
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Fragment to confirm the backup key just shown after users forget it.

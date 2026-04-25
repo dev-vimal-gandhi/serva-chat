@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import android.content.Context
 import okio.ByteString.Companion.EMPTY
@@ -16,37 +16,37 @@ import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toByteArray
 import org.signal.libsignal.zkgroup.backups.BackupLevel
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.database.restoreSelfFromBackup
-import org.thoughtcrime.securesms.backup.v2.database.restoreWallpaperAttachment
-import org.thoughtcrime.securesms.backup.v2.util.ChatStyleConverter
-import org.thoughtcrime.securesms.backup.v2.util.isValid
-import org.thoughtcrime.securesms.backup.v2.util.isValidUsername
-import org.thoughtcrime.securesms.backup.v2.util.parseChatWallpaper
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.backup.v2.util.toLocalAttachment
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.ProfileUtil
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.database.restoreSelfFromBackup
+import com.servalabs.chat.backup.v2.database.restoreWallpaperAttachment
+import com.servalabs.chat.backup.v2.util.ChatStyleConverter
+import com.servalabs.chat.backup.v2.util.isValid
+import com.servalabs.chat.backup.v2.util.isValidUsername
+import com.servalabs.chat.backup.v2.util.parseChatWallpaper
+import com.servalabs.chat.backup.v2.util.toLocal
+import com.servalabs.chat.backup.v2.util.toLocalAttachment
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.RetrieveProfileAvatarJob
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
+import com.servalabs.chat.keyvalue.SettingsValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.ProfileUtil
+import com.servalabs.chat.util.SecurePreferenceManager
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.webrtc.CallDataMode
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents
 import org.whispersystems.signalservice.api.storage.IAPSubscriptionId.AppleIAPOriginalTransactionId
 import org.whispersystems.signalservice.api.storage.IAPSubscriptionId.GooglePlayBillingPurchaseToken
@@ -466,19 +466,19 @@ object AccountDataArchiveProcessor {
     }
   }
 
-  private fun org.thoughtcrime.securesms.mms.SentMediaQuality.toRemoteSentMediaQuality(): AccountData.SentMediaQuality {
+  private fun com.servalabs.chat.mms.SentMediaQuality.toRemoteSentMediaQuality(): AccountData.SentMediaQuality {
     return when (this) {
-      org.thoughtcrime.securesms.mms.SentMediaQuality.STANDARD -> AccountData.SentMediaQuality.STANDARD
-      org.thoughtcrime.securesms.mms.SentMediaQuality.HIGH -> AccountData.SentMediaQuality.HIGH
+      com.servalabs.chat.mms.SentMediaQuality.STANDARD -> AccountData.SentMediaQuality.STANDARD
+      com.servalabs.chat.mms.SentMediaQuality.HIGH -> AccountData.SentMediaQuality.HIGH
     }
   }
 
-  private fun AccountData.SentMediaQuality?.toLocalSentMediaQuality(): org.thoughtcrime.securesms.mms.SentMediaQuality {
+  private fun AccountData.SentMediaQuality?.toLocalSentMediaQuality(): com.servalabs.chat.mms.SentMediaQuality {
     return when (this) {
-      AccountData.SentMediaQuality.HIGH -> org.thoughtcrime.securesms.mms.SentMediaQuality.HIGH
-      AccountData.SentMediaQuality.STANDARD -> org.thoughtcrime.securesms.mms.SentMediaQuality.STANDARD
-      AccountData.SentMediaQuality.UNKNOWN_QUALITY -> org.thoughtcrime.securesms.mms.SentMediaQuality.STANDARD
-      null -> org.thoughtcrime.securesms.mms.SentMediaQuality.STANDARD
+      AccountData.SentMediaQuality.HIGH -> com.servalabs.chat.mms.SentMediaQuality.HIGH
+      AccountData.SentMediaQuality.STANDARD -> com.servalabs.chat.mms.SentMediaQuality.STANDARD
+      AccountData.SentMediaQuality.UNKNOWN_QUALITY -> com.servalabs.chat.mms.SentMediaQuality.STANDARD
+      null -> com.servalabs.chat.mms.SentMediaQuality.STANDARD
     }
   }
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink;
+package com.servalabs.chat.recipients.ui.sharablegrouplink;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,17 +16,17 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.qr.GroupLinkShareQrDialogFragment;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
+import com.servalabs.chat.R;
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment;
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.LiveGroup;
+import com.servalabs.chat.recipients.ui.sharablegrouplink.qr.GroupLinkShareQrDialogFragment;
+import com.servalabs.chat.sharing.MultiShareArgs;
 import org.signal.core.ui.BottomSheetUtil;
 import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 import java.util.Collections;
 import java.util.Objects;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import android.content.Context
 import android.content.Intent
@@ -30,7 +30,7 @@ import org.signal.core.ui.compose.Launchers
 import org.signal.core.ui.contracts.OpenDocumentContract
 import org.signal.core.ui.navigation.BottomSheetSceneStrategy
 import org.signal.core.ui.navigation.LocalBottomSheetDismiss
-import org.thoughtcrime.securesms.registration.ui.restore.EnterBackupKeyViewModel
+import com.servalabs.chat.registration.ui.restore.EnterBackupKeyViewModel
 
 /**
  * Handles the restoration flow for V2 backups. Can also launch into V1 backup flow if needed.

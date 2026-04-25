@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models
+package com.servalabs.chat.components.settings.app.notifications.profiles.models
 
 import android.view.View
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.NO_TINT
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.components.settings.PreferenceViewHolder
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsIcon
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.NO_TINT
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.components.settings.PreferenceViewHolder
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 /**
  * Custom DSL preference for adding members to a profile.

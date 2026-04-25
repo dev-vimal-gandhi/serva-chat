@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package com.servalabs.chat.components.settings.conversation.preferences
 
 import android.text.SpannableStringBuilder
 import android.view.View
@@ -6,19 +6,19 @@ import android.widget.TextView
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelPillView
-import org.thoughtcrime.securesms.groups.memberlabel.StyledMemberLabel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.groups.memberlabel.MemberLabelPillView
+import com.servalabs.chat.groups.memberlabel.StyledMemberLabel
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 
 /**
  * Renders a Recipient as a row item with an icon, avatar, label/status, and admin state.

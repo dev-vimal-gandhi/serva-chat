@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.conversation.test
+package com.servalabs.chat.components.settings.app.internal.conversation.test
 
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.conversation.v2.data.ConversationElementKey
+import com.servalabs.chat.conversation.v2.data.ConversationMessageElement
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 import kotlin.math.min
 
 class InternalConversationTestDataSource(

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.selection
+package com.servalabs.chat.contacts.selection
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,9 @@ import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.RecipientId
 
 @Suppress("KotlinConstantConditions")
 data class ContactSelectionArguments(

@@ -2,9 +2,9 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.groups.GroupId
 
 /**
  * Message processing exception metadata.

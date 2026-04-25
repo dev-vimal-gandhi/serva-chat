@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.avatar
+package com.servalabs.chat.avatar
 
 import android.view.View
 import android.widget.ImageView
 import com.airbnb.lottie.SimpleColorFilter
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 typealias OnAvatarColorClickListener = (Avatars.ColorPair) -> Unit
 

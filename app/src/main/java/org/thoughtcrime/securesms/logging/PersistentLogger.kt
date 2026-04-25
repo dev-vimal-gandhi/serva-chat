@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.logging
+package com.servalabs.chat.logging
 
 import android.app.Application
 import android.os.Looper
-import im.molly.app.base.ApkInfo
+import com.servalabs.chat.base.ApkInfo
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.Scrubber
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.database.model.LogEntry
-import org.thoughtcrime.securesms.logging.PersistentLogger.LogRequest
-import org.thoughtcrime.securesms.logging.PersistentLogger.WriteThread
+import com.servalabs.chat.database.LogDatabase
+import com.servalabs.chat.database.model.LogEntry
+import com.servalabs.chat.logging.PersistentLogger.LogRequest
+import com.servalabs.chat.logging.PersistentLogger.WriteThread
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 import java.text.SimpleDateFormat

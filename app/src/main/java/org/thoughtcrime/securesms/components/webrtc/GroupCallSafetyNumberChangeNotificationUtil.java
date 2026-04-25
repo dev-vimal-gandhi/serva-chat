@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import android.Manifest;
 import android.app.Notification;
@@ -14,10 +14,10 @@ import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallIntent;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.webrtc.v2.CallIntent;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.recipients.Recipient;
 
 /**
  * Utility for showing and hiding safety number change notifications during a group call.

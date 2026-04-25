@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.view.View
 import androidx.core.content.ContextCompat
@@ -6,10 +6,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TooltipPopup
-import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.R
+import com.servalabs.chat.components.TooltipPopup
+import com.servalabs.chat.stickers.StickerPackInstallEvent
+import com.servalabs.chat.util.TextSecurePreferences
 
 /**
  * Any and all tooltips that the conversation can display, and a light amount of related presentation logic.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package com.servalabs.chat.banner.banners
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -11,16 +11,16 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
-import org.thoughtcrime.securesms.backup.v2.ui.status.ArchiveUploadStatusBannerView
-import org.thoughtcrime.securesms.backup.v2.ui.status.ArchiveUploadStatusBannerViewEvents
-import org.thoughtcrime.securesms.backup.v2.ui.status.ArchiveUploadStatusBannerViewState
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.ArchiveUploadProgressState
-import org.thoughtcrime.securesms.util.NetworkUtil
+import com.servalabs.chat.backup.ArchiveUploadProgress
+import com.servalabs.chat.backup.v2.ui.status.ArchiveUploadStatusBannerView
+import com.servalabs.chat.backup.v2.ui.status.ArchiveUploadStatusBannerViewEvents
+import com.servalabs.chat.backup.v2.ui.status.ArchiveUploadStatusBannerViewState
+import com.servalabs.chat.banner.Banner
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
+import com.servalabs.chat.util.NetworkUtil
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class ArchiveUploadStatusBanner(private val listener: UploadProgressBannerListener) : Banner<ArchiveUploadStatusBannerViewState>() {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package im.molly.app.base
+package com.servalabs.chat.base
 
 import android.app.Application
 import androidx.annotation.VisibleForTesting
@@ -12,7 +12,7 @@ import androidx.annotation.VisibleForTesting
  * Process-wide holder for the current [Application].
  *
  * Used for code that needs an [Application] before AppDependencies is initialized and for
- * unit tests that do not run with [org.thoughtcrime.securesms.ApplicationContext].
+ * unit tests that do not run with [com.servalabs.chat.ApplicationContext].
  */
 object ApplicationInstance {
 

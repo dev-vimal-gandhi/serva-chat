@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.RemoteConfig;
 
 import java.text.NumberFormat;
 

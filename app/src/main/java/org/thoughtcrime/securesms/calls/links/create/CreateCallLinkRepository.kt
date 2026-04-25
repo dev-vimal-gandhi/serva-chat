@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package com.servalabs.chat.calls.links.create
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.CallLinkUpdateSendJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CreateCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkManager
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.CallLinkUpdateSendJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CreateCallLinkResult
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkManager
+import com.servalabs.chat.storage.StorageSyncHelper
 import org.whispersystems.signalservice.internal.push.SyncMessage
 
 /**

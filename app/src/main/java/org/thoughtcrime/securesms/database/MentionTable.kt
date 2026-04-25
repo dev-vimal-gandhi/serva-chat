@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -13,8 +13,8 @@ import org.signal.core.util.requireLong
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.recipients.RecipientId
 
 class MentionTable(context: Context, databaseHelper: SignalDatabase) : DatabaseTable(context, databaseHelper), RecipientIdDatabaseReference, ThreadIdDatabaseReference {
 

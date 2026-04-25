@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Leva a túa privacidade contigo.\nMostra a túa personalidade cada mensaxe.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal é unha organización sen ánimo de lucro\nCondicións e Política de privacidade</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat é unha organización sen ánimo de lucro\nCondicións e Política de privacidade</string>
     <string name="RegistrationActivity_continue">Continuar</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Restaurar ou transferir</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Activar permisos</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para que poidas mandar mensaxes ás persoas que coñeces, Signal pedirache que actives estes permisos. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para que poidas mandar mensaxes ás persoas que coñeces, Serva Chat pedirache que actives estes permisos. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Agora non</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Contactos</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Atopa persoas que coñezas. Os teus contactos están encriptados e non son visibles para o servizo de Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Atopa persoas que coñezas. Os teus contactos están encriptados e non son visibles para o servizo de Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Chamadas de teléfono</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Teño o meu antigo teléfono</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Escanea o código QR dende a túa conta actual de Signal para unha configuración rápida</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Escanea o código QR dende a túa conta actual de Serva Chat para unha configuración rápida</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Non teño o meu antigo teléfono</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Ou estás a reinstalar Signal no mesmo dispositivo</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Ou estás a reinstalar Serva Chat no mesmo dispositivo</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Escolle como queres restaurar o teu historial de mensaxes e datos da conta.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Dende unha copia de seguranza de Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Dende unha copia de seguranza de Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">O teu plan gratuíto ou de pago de Copia de seguranza de Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">O teu plan gratuíto ou de pago de Copia de seguranza de Serva Chat</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Restaurar a copia de seguranza no dispositivo</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Vincular a conta</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Aínda non tes Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Aínda non tes Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Crear conta</string>
 </resources>

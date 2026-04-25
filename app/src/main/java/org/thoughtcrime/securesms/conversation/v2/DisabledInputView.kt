@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.Context
 import android.text.method.LinkMovementMethod
@@ -16,12 +16,12 @@ import android.widget.TextView
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.messagerequests.MessageRequestsBottomView
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.messagerequests.MessageRequestState
+import com.servalabs.chat.messagerequests.MessageRequestsBottomView
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.visible
 
 /**
  * A one-stop-view for all your conversation input disabled needs.

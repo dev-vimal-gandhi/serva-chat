@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package com.servalabs.chat.groups.ui.invitesandrequests.invite;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import com.servalabs.chat.groups.GroupChangeBusyException;
+import com.servalabs.chat.groups.GroupChangeFailedException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupInsufficientRightsException;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.GroupNotAMemberException;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.util.AsynchronousCallback;
 
 import java.io.IOException;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.backup
+package com.servalabs.chat.components.settings.app.internal.backup
 
 import android.net.Uri
 import androidx.compose.runtime.MutableState
@@ -37,26 +37,26 @@ import org.signal.core.util.readNBytesOrThrow
 import org.signal.core.util.roundedString
 import org.signal.core.util.stream.LimitedInputStream
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.backup.v2.ArchiveValidator
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.DebugBackupMetadata
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.RemoteRestoreResult
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.AttachmentTable.DebugAttachmentStats
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.jobs.LocalBackupJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.backup.ArchiveUploadProgress
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.backup.v2.ArchiveValidator
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.DebugBackupMetadata
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.RemoteRestoreResult
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.AttachmentTable.DebugAttachmentStats
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.jobs.LocalBackupJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.svr.SvrBApi
 import java.io.FileOutputStream

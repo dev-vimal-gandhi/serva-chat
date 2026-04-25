@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v3
+package com.servalabs.chat.mediasend.v3
 
 import android.os.Bundle
 import android.view.View
@@ -20,13 +20,13 @@ import org.signal.mediasend.MediaSendActivityContract
 import org.signal.mediasend.MediaSendState
 import org.signal.mediasend.MediaSendViewModel
 import org.signal.mediasend.SendResult
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.stories.Stories
 
 /**
  * View-backed wrapper around [MultiselectForwardFragment] that provides the [ViewGroup] container

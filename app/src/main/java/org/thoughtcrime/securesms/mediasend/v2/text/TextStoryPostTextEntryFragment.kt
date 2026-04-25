@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -27,18 +27,18 @@ import androidx.transition.TransitionManager
 import com.airbnb.lottie.SimpleColorFilter
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardEntryDialogFragment
+import com.servalabs.chat.mediasend.v2.MediaAnimations
+import com.servalabs.chat.scribbles.HSVColorSlider
+import com.servalabs.chat.scribbles.HSVColorSlider.getColor
+import com.servalabs.chat.scribbles.HSVColorSlider.setColor
+import com.servalabs.chat.scribbles.HSVColorSlider.setUpForColor
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.fragments.findListener
+import com.servalabs.chat.util.setIncognitoKeyboardEnabled
 import java.util.Locale
 
 /**

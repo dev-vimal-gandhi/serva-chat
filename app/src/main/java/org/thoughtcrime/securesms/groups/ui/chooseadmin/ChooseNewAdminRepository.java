@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package com.servalabs.chat.groups.ui.chooseadmin;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.groups.GroupChangeException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason;
+import com.servalabs.chat.groups.ui.GroupChangeResult;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,14 +10,14 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
+import com.servalabs.chat.badges.models.Badge;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.stickers.StickerLocator;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 import java.util.ArrayList;

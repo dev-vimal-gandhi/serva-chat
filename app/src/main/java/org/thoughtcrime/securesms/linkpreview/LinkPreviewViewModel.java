@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package com.servalabs.chat.linkpreview;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -12,11 +12,11 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.RequestController;
-import org.thoughtcrime.securesms.util.Debouncer;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.RequestController;
+import com.servalabs.chat.util.Debouncer;
 
 import java.util.Collections;
 import java.util.List;

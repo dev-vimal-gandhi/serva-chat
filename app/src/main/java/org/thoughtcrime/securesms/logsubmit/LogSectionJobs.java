@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 public class LogSectionJobs implements LogSection {
 

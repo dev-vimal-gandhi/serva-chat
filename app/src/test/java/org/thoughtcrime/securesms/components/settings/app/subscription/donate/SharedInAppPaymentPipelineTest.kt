@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import android.app.Application
 import assertk.assertThat
@@ -19,20 +19,20 @@ import org.signal.donations.InAppPaymentType
 import org.signal.donations.PayPalPaymentSource
 import org.signal.donations.SEPADebitPaymentSource
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsTestRule
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalRecurringSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeRecurringSetupJob
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.RxPluginsRule
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsTestRule
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.InAppPaymentPayPalOneTimeSetupJob
+import com.servalabs.chat.jobs.InAppPaymentPayPalRecurringSetupJob
+import com.servalabs.chat.jobs.InAppPaymentStripeOneTimeSetupJob
+import com.servalabs.chat.jobs.InAppPaymentStripeRecurringSetupJob
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.RxPluginsRule
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.milliseconds
 

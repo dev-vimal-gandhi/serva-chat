@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
+import com.servalabs.chat.service.webrtc.PendingParticipantCollection
 
 /**
  * Represents the current state of the pending participants card.

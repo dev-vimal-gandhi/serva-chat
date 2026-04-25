@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete
+package com.servalabs.chat.delete
 
 import android.os.Bundle
 import android.view.View
@@ -11,9 +11,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.compose.ComposeFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeSelectScreen
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeViewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.ui.countrycode.CountryCodeSelectScreen
+import com.servalabs.chat.registration.ui.countrycode.CountryCodeViewModel
 
 /**
  * Country code picker specific to deleting an account.

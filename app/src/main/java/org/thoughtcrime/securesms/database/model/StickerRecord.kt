@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import android.net.Uri
-import org.thoughtcrime.securesms.mms.PartAuthority
+import com.servalabs.chat.mms.PartAuthority
 
 /**
- * Represents a record for a sticker pack in the [org.thoughtcrime.securesms.database.StickerTable].
+ * Represents a record for a sticker pack in the [com.servalabs.chat.database.StickerTable].
  */
 data class StickerRecord(
   @JvmField val rowId: Long,

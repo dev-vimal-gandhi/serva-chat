@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package com.servalabs.chat.components.settings.app.internal
 
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.emoji.EmojiFiles
+import com.servalabs.chat.emoji.EmojiFiles
 
 data class InternalSettingsState(
   val seeMoreUserDetails: Boolean,

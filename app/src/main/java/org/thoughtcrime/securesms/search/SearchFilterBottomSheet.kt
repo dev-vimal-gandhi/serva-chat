@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search
+package com.servalabs.chat.search
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -30,10 +30,10 @@ import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 import kotlin.time.Duration.Companion.days
 

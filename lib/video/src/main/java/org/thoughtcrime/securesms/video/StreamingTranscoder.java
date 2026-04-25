@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package com.servalabs.chat.video;
 
 import android.media.MediaDataSource;
 import android.media.MediaExtractor;
@@ -13,12 +13,12 @@ import androidx.annotation.VisibleForTesting;
 import com.google.common.io.CountingOutputStream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.exceptions.VideoSizeException;
-import org.thoughtcrime.securesms.video.exceptions.VideoSourceException;
-import org.thoughtcrime.securesms.video.interfaces.TranscoderCancelationSignal;
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter;
-import org.thoughtcrime.securesms.video.videoconverter.exceptions.EncodingException;
-import org.thoughtcrime.securesms.video.videoconverter.mediadatasource.MediaDataSourceMediaInput;
+import com.servalabs.chat.video.exceptions.VideoSizeException;
+import com.servalabs.chat.video.exceptions.VideoSourceException;
+import com.servalabs.chat.video.interfaces.TranscoderCancelationSignal;
+import com.servalabs.chat.video.videoconverter.MediaConverter;
+import com.servalabs.chat.video.videoconverter.exceptions.EncodingException;
+import com.servalabs.chat.video.videoconverter.mediadatasource.MediaDataSourceMediaInput;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

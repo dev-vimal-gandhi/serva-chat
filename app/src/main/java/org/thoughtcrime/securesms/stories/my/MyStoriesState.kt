@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.my
+package com.servalabs.chat.stories.my
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.model.MessageRecord
 
 data class MyStoriesState(
   val distributionSets: List<DistributionSet> = emptyList()

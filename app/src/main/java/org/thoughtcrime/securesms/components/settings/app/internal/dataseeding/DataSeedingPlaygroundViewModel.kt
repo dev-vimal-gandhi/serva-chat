@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.dataseeding
+package com.servalabs.chat.components.settings.app.internal.dataseeding
 
 import android.app.Application
 import android.content.Context
@@ -21,14 +21,14 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.UriAttachment
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.ThreadRecord
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.util.MediaUtil
 
 class DataSeedingPlaygroundViewModel(application: Application) : AndroidViewModel(application) {
 

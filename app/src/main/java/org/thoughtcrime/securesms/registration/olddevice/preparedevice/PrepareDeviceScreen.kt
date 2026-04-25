@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice.preparedevice
+package com.servalabs.chat.registration.olddevice.preparedevice
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -31,9 +31,9 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.olddevice.QuickTransferOldDeviceState
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceState
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 import org.signal.core.ui.R as CoreUiR
 

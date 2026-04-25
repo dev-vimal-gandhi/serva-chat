@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package com.servalabs.chat.profiles.spoofing;
 
 import kotlin.Pair;
 
@@ -12,12 +12,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.LiveGroup;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

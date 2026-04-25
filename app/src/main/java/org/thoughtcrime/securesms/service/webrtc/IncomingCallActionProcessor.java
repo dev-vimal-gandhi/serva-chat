@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.net.Uri;
 import android.os.ResultReceiver;
@@ -11,33 +11,33 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.DoNotDisturbUtil;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CallState;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.CallSetupState;
-import org.thoughtcrime.securesms.service.webrtc.state.VideoState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import com.servalabs.chat.database.CallTable;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.notifications.DoNotDisturbUtil;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.ringrtc.CallState;
+import com.servalabs.chat.ringrtc.Camera;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.CallSetupState;
+import com.servalabs.chat.service.webrtc.state.VideoState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.util.AppForegroundObserver;
+import com.servalabs.chat.util.NetworkUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.webrtc.locks.LockManager;
 import org.webrtc.PeerConnection;
 
 import java.util.List;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
 
 /**
  * Responsible for setting up and managing the start of an incoming 1:1 call. Transitioned

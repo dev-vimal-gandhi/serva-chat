@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package com.servalabs.chat.preferences.widgets;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

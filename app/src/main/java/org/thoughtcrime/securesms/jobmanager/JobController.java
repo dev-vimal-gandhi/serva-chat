@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import android.app.Application;
 
@@ -11,13 +11,13 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
-import org.thoughtcrime.securesms.util.Debouncer;
+import com.servalabs.chat.jobmanager.persistence.ConstraintSpec;
+import com.servalabs.chat.jobmanager.persistence.DependencySpec;
+import com.servalabs.chat.jobmanager.persistence.FullSpec;
+import com.servalabs.chat.jobmanager.persistence.JobSpec;
+import com.servalabs.chat.jobmanager.persistence.JobStorage;
+import com.servalabs.chat.jobs.MinimalJobSpec;
+import com.servalabs.chat.util.Debouncer;
 
 import java.util.ArrayList;
 import java.util.Collection;

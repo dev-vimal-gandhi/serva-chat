@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -17,11 +17,11 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID
 

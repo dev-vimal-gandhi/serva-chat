@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.groups.BadGroupIdException
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.groups.BadGroupIdException
+import com.servalabs.chat.groups.GroupId
 import org.whispersystems.signalservice.api.storage.SignalGroupV1Record
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord
 import org.whispersystems.signalservice.api.storage.StorageId

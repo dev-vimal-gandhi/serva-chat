@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.conversation.springboard
+package com.servalabs.chat.components.settings.app.internal.conversation.springboard
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel

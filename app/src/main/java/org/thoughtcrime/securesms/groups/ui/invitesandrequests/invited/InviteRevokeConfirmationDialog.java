@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited;
+package com.servalabs.chat.groups.ui.invitesandrequests.invited;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.recipients.Recipient;
 
 final class InviteRevokeConfirmationDialog {
 

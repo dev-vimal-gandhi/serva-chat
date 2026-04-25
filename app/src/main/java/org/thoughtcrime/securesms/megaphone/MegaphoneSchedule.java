@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package com.servalabs.chat.megaphone;
 
 import androidx.annotation.WorkerThread;
 

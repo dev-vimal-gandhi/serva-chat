@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import org.signal.core.util.CoreUtilDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteDeprecation
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.RemoteDeprecation
 
 object CoreUtilDependenciesProvider : CoreUtilDependencies.Provider {
   override fun provideIsClientDeprecated(): Boolean {

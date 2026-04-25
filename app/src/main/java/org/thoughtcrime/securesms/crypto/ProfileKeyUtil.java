@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.InvalidInputException;
 import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.util.Base64;
 import org.signal.core.util.Util;
 

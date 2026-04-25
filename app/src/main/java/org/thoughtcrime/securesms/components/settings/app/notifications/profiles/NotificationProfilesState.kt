@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfiles
 
 data class NotificationProfilesState(
   val profiles: List<NotificationProfile>,

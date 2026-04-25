@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package com.servalabs.chat.components.settings.app.subscription.donate.stripe
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -26,16 +26,16 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragment
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.databinding.DonationWebviewFragmentBinding
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ProgressCardDialogFragment
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.databinding.DonationWebviewFragmentBinding
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.visible
 
 /**
  * Full-screen dialog for displaying Stripe 3DS confirmation.

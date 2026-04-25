@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.visible
 
 /**
  * Displays a volume bar along with an indicator specifiying whether or not

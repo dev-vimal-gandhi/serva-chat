@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.audio
+package com.servalabs.chat.audio
 
 import android.annotation.SuppressLint
 import android.bluetooth.BluetoothAdapter
@@ -16,16 +16,16 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.media.AudioManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.safeUnregisterReceiver
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioHandler
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.safeUnregisterReceiver
+import com.servalabs.chat.webrtc.audio.SignalAudioHandler
 import java.util.concurrent.TimeUnit
 
 /**
  * Manages the bluetooth lifecycle with a headset. This class doesn't make any
  * determination on if bluetooth should be used. It determines if a device is connected,
- * reports that to the [org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager], and then handles connecting/disconnecting
- * to the device if requested by [org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager].
+ * reports that to the [com.servalabs.chat.webrtc.audio.SignalAudioManager], and then handles connecting/disconnecting
+ * to the device if requested by [com.servalabs.chat.webrtc.audio.SignalAudioManager].
  */
 @SuppressLint("MissingPermission") // targetSdkVersion is still 30 (https://issuetracker.google.com/issues/201454155)
 class SignalBluetoothManager(

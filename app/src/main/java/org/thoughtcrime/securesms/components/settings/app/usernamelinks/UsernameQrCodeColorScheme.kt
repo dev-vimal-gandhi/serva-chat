@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package com.servalabs.chat.components.settings.app.usernamelinks
 
 import androidx.compose.ui.graphics.Color
 

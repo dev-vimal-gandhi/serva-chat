@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,7 +10,7 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class AsciiEmojiView extends View {
 

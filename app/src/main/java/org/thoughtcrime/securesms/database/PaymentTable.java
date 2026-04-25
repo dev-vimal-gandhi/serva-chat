@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 public final class PaymentTable {
 

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package com.servalabs.chat.stories.settings.group
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Minimum data needed to launch ConversationActivity for a given grou

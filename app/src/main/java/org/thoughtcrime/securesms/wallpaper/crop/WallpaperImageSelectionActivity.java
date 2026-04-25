@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package com.servalabs.chat.wallpaper.crop;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.mediasend.v2.gallery.MediaGalleryFragment;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 public final class WallpaperImageSelectionActivity extends AppCompatActivity
         implements MediaGalleryFragment.Callbacks

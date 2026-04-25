@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package com.servalabs.chat.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import com.servalabs.chat.color.MaterialColor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

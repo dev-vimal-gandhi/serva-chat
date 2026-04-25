@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchFragment
 
 interface EmojiKeyboardCallback :
   EmojiEventListener,

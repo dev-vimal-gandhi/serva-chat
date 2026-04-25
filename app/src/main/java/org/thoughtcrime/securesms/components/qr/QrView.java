@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.qr;
+package com.servalabs.chat.components.qr;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 
 import com.google.zxing.common.BitMatrix;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.SquareImageView;
-import org.thoughtcrime.securesms.qr.QrCodeUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.SquareImageView;
+import com.servalabs.chat.qr.QrCodeUtil;
 
 /**
  * Generates a bitmap asynchronously for the supplied {@link BitMatrix} data and displays it.

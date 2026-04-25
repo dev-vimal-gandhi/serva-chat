@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.migration;
+package com.servalabs.chat.groups.ui.migration;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,13 +14,13 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.GroupMigrationMembershipChange;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.ui.BottomSheetUtil;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 import java.util.List;
 

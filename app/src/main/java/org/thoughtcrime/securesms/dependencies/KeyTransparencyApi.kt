@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import org.signal.libsignal.keytrans.KeyTransparencyException
 import org.signal.libsignal.net.KeyTransparency.CheckMode
@@ -6,7 +6,7 @@ import org.signal.libsignal.net.RequestResult
 import org.signal.libsignal.net.getOrError
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.ServiceId
-import org.thoughtcrime.securesms.database.model.KeyTransparencyStore
+import com.servalabs.chat.database.model.KeyTransparencyStore
 import org.whispersystems.signalservice.api.websocket.SignalWebSocket
 
 /**

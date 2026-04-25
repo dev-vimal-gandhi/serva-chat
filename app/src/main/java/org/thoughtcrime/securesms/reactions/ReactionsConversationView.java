@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package com.servalabs.chat.reactions;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,13 +15,13 @@ import androidx.core.content.ContextCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiImageView;
+import com.servalabs.chat.components.emoji.EmojiUtil;
+import com.servalabs.chat.database.model.ReactionRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;

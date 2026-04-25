@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.transfercontrols
+package com.servalabs.chat.components.transfercontrols
 
 import android.view.View
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.mms.Slide
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.mms.Slide
 
 data class TransferControlViewState(
   val isVisible: Boolean = true,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package com.servalabs.chat.components.voice;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -34,18 +34,18 @@ import com.google.common.util.concurrent.ListenableFuture;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendViewedReceiptJob;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.MultiDeviceViewedUpdateJob;
+import com.servalabs.chat.jobs.SendViewedReceiptJob;
+import com.servalabs.chat.mms.PartUriParser;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.service.KeyCachingService;
 
 import java.util.Collections;
 import java.util.List;
@@ -57,8 +57,8 @@ import java.util.Objects;
 @OptIn(markerClass = UnstableApi.class)
 public class VoiceNotePlaybackService extends MediaSessionService {
 
-  public static final String ACTION_NEXT_PLAYBACK_SPEED = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService.action.next_playback_speed";
-  public static final String ACTION_SET_AUDIO_STREAM    = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService.action.set_audio_stream";
+  public static final String ACTION_NEXT_PLAYBACK_SPEED = "com.servalabs.chat.components.voice.VoiceNotePlaybackService.action.next_playback_speed";
+  public static final String ACTION_SET_AUDIO_STREAM    = "com.servalabs.chat.components.voice.VoiceNotePlaybackService.action.set_audio_stream";
 
   private static final String TAG                 = Log.tag(VoiceNotePlaybackService.class);
   private static final String SESSION_ID          = "VoiceNotePlayback";

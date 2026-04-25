@@ -2,7 +2,7 @@
  * Copyright 2026 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
 import android.Manifest
 import android.content.ActivityNotFoundException
@@ -15,14 +15,14 @@ import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.jobs.LocalBackupJob.enqueueArchive
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.service.LocalBackupListener
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.jobs.LocalBackupJob.enqueueArchive
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.service.LocalBackupListener
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.navigation.safeNavigate
 
 sealed interface LocalBackupsSettingsCallback {
   fun onNavigationClick()

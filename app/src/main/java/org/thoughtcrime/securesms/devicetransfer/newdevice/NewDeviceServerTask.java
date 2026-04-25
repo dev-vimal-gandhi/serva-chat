@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package com.servalabs.chat.devicetransfer.newdevice;
 
 import android.content.Context;
 
@@ -11,16 +11,16 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.ServerTask;
-import org.thoughtcrime.securesms.AppInitialization;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.backup.FullBackupImporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.impl.DataRestoreConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.AppInitialization;
+import com.servalabs.chat.backup.BackupEvent;
+import com.servalabs.chat.backup.BackupPassphrase;
+import com.servalabs.chat.backup.FullBackupImporter;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.impl.DataRestoreConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.util.RemoteConfig;
 
 import java.io.IOException;
 import java.io.InputStream;

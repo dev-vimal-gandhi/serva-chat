@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
@@ -55,10 +55,10 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.BackupsIconColors
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.ui.BackupsIconColors
+import com.servalabs.chat.fonts.MonoTypeface
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
 
 /**
  * Shared screen infrastructure for entering an [AccountEntropyPool].

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
 import android.content.Context
 import android.content.Intent
@@ -71,17 +71,17 @@ import org.signal.core.ui.compose.TextFields
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.E164Util
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameQrScannerActivity
-import org.thoughtcrime.securesms.invites.InviteActions
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberVisualTransformation
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeSelectScreen
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeState
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameQrScannerActivity
+import com.servalabs.chat.invites.InviteActions
+import com.servalabs.chat.phonenumbers.PhoneNumberVisualTransformation
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.ui.countrycode.CountryCodeSelectScreen
+import com.servalabs.chat.registration.ui.countrycode.CountryCodeState
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.viewModel
 import org.signal.core.ui.R as CoreUiR
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.identity;
+package com.servalabs.chat.components.identity;
 
 
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.content.DialogInterface;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.R;
+import com.servalabs.chat.crypto.ReentrantSessionLock;
+import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 

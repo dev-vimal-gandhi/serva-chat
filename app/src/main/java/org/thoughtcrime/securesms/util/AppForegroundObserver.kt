@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread

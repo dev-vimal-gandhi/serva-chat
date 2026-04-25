@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui
+package com.servalabs.chat.registration.ui
 
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import com.google.i18n.phonenumbers.Phonenumber
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.lock.v2.PinKeyboardType
+import com.servalabs.chat.registration.data.network.Challenge
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
 import org.whispersystems.signalservice.api.svr.Svr3Credentials
 import org.whispersystems.signalservice.internal.push.AuthCredentials
 import kotlin.time.Duration

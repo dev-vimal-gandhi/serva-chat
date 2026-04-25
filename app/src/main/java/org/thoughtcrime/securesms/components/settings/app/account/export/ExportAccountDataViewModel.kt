@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package com.servalabs.chat.components.settings.app.account.export
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package com.servalabs.chat.components.spoiler
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
@@ -11,8 +11,8 @@ import androidx.annotation.MainThread
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.Util
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.components.spoiler.SpoilerPaint.update
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.components.spoiler.SpoilerPaint.update
+import com.servalabs.chat.dependencies.AppDependencies
 import kotlin.random.Random
 
 /**

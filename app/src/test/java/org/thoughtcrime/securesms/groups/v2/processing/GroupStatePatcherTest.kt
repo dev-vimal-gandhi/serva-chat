@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing
+package com.servalabs.chat.groups.v2.processing
 
 import assertk.assertThat
 import assertk.assertions.containsOnly
@@ -16,7 +16,7 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChange
 import org.signal.storageservice.storage.protos.groups.local.DecryptedMember
 import org.signal.storageservice.storage.protos.groups.local.DecryptedString
-import org.thoughtcrime.securesms.testutil.LogRecorder
+import com.servalabs.chat.testutil.LogRecorder
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupChangeLog
 import java.util.UUID
 

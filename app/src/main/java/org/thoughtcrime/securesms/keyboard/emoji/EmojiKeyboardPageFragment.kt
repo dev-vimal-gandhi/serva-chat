@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
 import android.os.Bundle
 import android.view.KeyEvent
@@ -11,17 +11,17 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE
 import com.google.android.material.appbar.AppBarLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel
-import org.thoughtcrime.securesms.keyboard.KeyboardPageSelected
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.components.emoji.EmojiPageView
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
+import com.servalabs.chat.keyboard.KeyboardPageCategoryIconMappingModel
+import com.servalabs.chat.keyboard.KeyboardPageSelected
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ThemedFragment.themedInflate
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.fragments.requireListener
 import java.util.Optional
 
 private val DELETE_KEY_EVENT: KeyEvent = KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_DEL)

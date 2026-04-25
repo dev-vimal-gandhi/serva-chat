@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package com.servalabs.chat.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.groups.GroupChangeException
+import com.servalabs.chat.groups.GroupManager
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.storage.StorageSyncHelper
 import java.io.IOException
 
 private val TAG: String = Log.tag(ExpireTimerSettingsRepository::class.java)

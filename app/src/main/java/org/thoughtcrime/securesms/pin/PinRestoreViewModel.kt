@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin
+package com.servalabs.chat.pin
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,11 +7,11 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.lock.v2.SvrConstants
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
-import org.thoughtcrime.securesms.util.SingleLiveEvent
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.lock.v2.PinKeyboardType
+import com.servalabs.chat.lock.v2.SvrConstants
+import com.servalabs.chat.util.DefaultValueLiveData
+import com.servalabs.chat.util.SingleLiveEvent
 import org.whispersystems.signalservice.api.svr.SecureValueRecovery
 
 class PinRestoreViewModel : ViewModel() {

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.net.Uri;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.util.MediaUtil;
 
 public class GifSlide extends ImageSlide {
 

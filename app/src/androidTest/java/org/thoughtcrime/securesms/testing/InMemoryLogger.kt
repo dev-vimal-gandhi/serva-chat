@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors

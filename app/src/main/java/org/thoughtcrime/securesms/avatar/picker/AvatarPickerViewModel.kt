@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package com.servalabs.chat.avatar.picker
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,9 +7,9 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.util.livedata.Store
 
 sealed class AvatarPickerViewModel(private val repository: AvatarPickerRepository) : ViewModel() {
 

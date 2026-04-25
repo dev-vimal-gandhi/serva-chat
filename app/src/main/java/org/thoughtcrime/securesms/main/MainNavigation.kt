@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.annotation.RawRes
 import androidx.annotation.StringRes
@@ -59,7 +59,7 @@ import com.airbnb.lottie.compose.rememberLottieDynamicProperty
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.colorAttribute
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 private val LOTTIE_SIZE = 28.dp
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package com.servalabs.chat.conversationlist.chatfilter
 
 import androidx.collection.CircularArray
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util.storage
+package com.servalabs.chat.util.storage
 
 import android.content.Context
 import android.content.Intent

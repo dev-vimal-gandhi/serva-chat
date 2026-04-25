@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.Application
 import android.app.job.JobInfo
 import android.content.Context
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.util.NetworkUtil
+import com.servalabs.chat.jobmanager.Constraint
+import com.servalabs.chat.util.NetworkUtil
 
 /**
  * Constraint that, when added, means that a job cannot be performed unless the user has Wifi

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package com.servalabs.chat.stories.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -16,24 +16,24 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.Base64
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentSaver
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.landing.StoriesLandingItem
-import org.thoughtcrime.securesms.stories.viewer.page.StoryPost
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageState
-import org.thoughtcrime.securesms.util.BitmapUtil
-import org.thoughtcrime.securesms.util.DeleteDialog
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentSaver
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.stories.StoryTextPostModel
+import com.servalabs.chat.stories.landing.StoriesLandingItem
+import com.servalabs.chat.stories.viewer.page.StoryPost
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageState
+import com.servalabs.chat.util.BitmapUtil
+import com.servalabs.chat.util.DeleteDialog
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.SaveAttachmentUtil
 import java.io.ByteArrayInputStream
 import org.signal.core.ui.R as CoreUiR
 

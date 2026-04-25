@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import okio.ByteString
 import org.signal.archive.proto.GenericGroupUpdate
@@ -52,7 +52,7 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChang
 import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMember
 import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import org.whispersystems.signalservice.api.push.ServiceIds
 import java.util.LinkedList

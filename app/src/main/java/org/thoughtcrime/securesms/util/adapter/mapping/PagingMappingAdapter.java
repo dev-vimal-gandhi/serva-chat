@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package com.servalabs.chat.util.adapter.mapping;
 
 import android.view.View;
 import android.widget.FrameLayout;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 /**
  * A specialized {@link MappingAdapter} backed by a {@link PagingController}.

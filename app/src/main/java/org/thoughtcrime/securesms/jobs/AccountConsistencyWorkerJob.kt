@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ProfileUtil
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.ProfileUtil
 import org.whispersystems.signalservice.api.profiles.SignalServiceProfile
 import java.io.IOException
 import kotlin.time.Duration.Companion.days
 
 /**
- * The worker job for [org.thoughtcrime.securesms.migrations.AccountConsistencyMigrationJob].
+ * The worker job for [com.servalabs.chat.migrations.AccountConsistencyMigrationJob].
  */
 class AccountConsistencyWorkerJob private constructor(parameters: Parameters) : BaseJob(parameters) {
 

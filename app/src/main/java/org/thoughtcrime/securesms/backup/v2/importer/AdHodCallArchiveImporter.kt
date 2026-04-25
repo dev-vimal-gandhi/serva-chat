@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import org.signal.archive.proto.AdHocCall
 import org.signal.core.util.insertInto
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.SignalDatabase
 
 /**
  * Handles the importing of [AdHocCall] models into the local database.

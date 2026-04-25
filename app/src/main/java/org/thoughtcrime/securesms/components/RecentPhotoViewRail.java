@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 
 import android.content.ContentUris;
@@ -29,9 +29,9 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.signature.MediaStoreSignature;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.loaders.RecentPhotosLoader;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.CursorRecyclerViewAdapter;
+import com.servalabs.chat.database.loaders.RecentPhotosLoader;
 
 public class RecentPhotoViewRail extends FrameLayout implements LoaderManager.LoaderCallbacks<Cursor> {
 

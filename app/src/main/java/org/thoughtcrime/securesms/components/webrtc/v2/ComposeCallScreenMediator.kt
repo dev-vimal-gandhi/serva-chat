@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.graphics.Color
 import android.os.Build
@@ -34,24 +34,24 @@ import org.signal.core.ui.compose.rememberIsInPipMode
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantListUpdate
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.components.webrtc.controls.CallInfoView
-import org.thoughtcrime.securesms.components.webrtc.controls.ControlsAndInfoViewModel
-import org.thoughtcrime.securesms.components.webrtc.controls.RaiseHandSnackbar
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.links.EditCallLinkNameDialogFragment
+import com.servalabs.chat.components.webrtc.CallParticipantListUpdate
+import com.servalabs.chat.components.webrtc.CallParticipantsState
+import com.servalabs.chat.components.webrtc.WebRtcControls
+import com.servalabs.chat.components.webrtc.controls.CallInfoView
+import com.servalabs.chat.components.webrtc.controls.ControlsAndInfoViewModel
+import com.servalabs.chat.components.webrtc.controls.RaiseHandSnackbar
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.links.UpdateCallLinkResult
+import com.servalabs.chat.service.webrtc.state.WebRtcEphemeralState
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.WindowUtil
+import com.servalabs.chat.webrtc.CallParticipantsViewState
 import kotlin.time.Duration.Companion.seconds
 
 /**

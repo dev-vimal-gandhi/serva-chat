@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.net.KeyTransparency.CheckMode
 import org.signal.libsignal.net.RequestResult
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.model.KeyTransparencyStore
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.model.KeyTransparencyStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.recipients.Recipient
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess
 import java.time.Duration
 

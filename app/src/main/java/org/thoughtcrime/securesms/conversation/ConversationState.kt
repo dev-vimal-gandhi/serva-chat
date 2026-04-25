@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 /**
  * State holder for different values we are interested in for a given

@@ -3,23 +3,23 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package com.servalabs.chat.backup.v2.database
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.select
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.exporters.ChatItemArchiveExporter
-import org.thoughtcrime.securesms.backup.v2.importer.ChatItemArchiveImporter
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTable.Companion.DATE_RECEIVED
-import org.thoughtcrime.securesms.database.MessageTable.Companion.EXPIRES_IN
-import org.thoughtcrime.securesms.database.MessageTable.Companion.PARENT_STORY_ID
-import org.thoughtcrime.securesms.database.MessageTable.Companion.SCHEDULED_DATE
-import org.thoughtcrime.securesms.database.MessageTable.Companion.STORY_TYPE
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.exporters.ChatItemArchiveExporter
+import com.servalabs.chat.backup.v2.importer.ChatItemArchiveImporter
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageTable.Companion.DATE_RECEIVED
+import com.servalabs.chat.database.MessageTable.Companion.EXPIRES_IN
+import com.servalabs.chat.database.MessageTable.Companion.PARENT_STORY_ID
+import com.servalabs.chat.database.MessageTable.Companion.SCHEDULED_DATE
+import com.servalabs.chat.database.MessageTable.Companion.STORY_TYPE
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.RecipientId
 import kotlin.time.Duration.Companion.days
 
 private val TAG = "MessageTableArchiveExtensions"

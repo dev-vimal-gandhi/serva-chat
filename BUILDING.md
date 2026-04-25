@@ -73,14 +73,14 @@ git checkout $VERSION
 
 # Customize your build by exporting environment variables if needed
 export CI_APP_TITLE="Molly"
-export CI_PACKAGE_ID="im.molly.app"
+export CI_PACKAGE_ID="com.servalabs.chat"
 
 # Build the APK using Docker environment
 docker compose up --build
 
 # Optionally, save environment variables in a .env file for future builds
 echo "CI_APP_TITLE=Molly" >> .env
-echo "CI_PACKAGE_ID=im.molly.app" >> .env
+echo "CI_PACKAGE_ID=com.servalabs.chat" >> .env
 
 # Shut down the Docker environment after use
 docker compose down
@@ -94,7 +94,7 @@ The built APKs will be available in the `output/apk` directory. Make sure to [si
 |-----------------------|---------------|--------------------------------------------------|
 | `CI_APP_TITLE`        | Molly         | App title as shown in the UI                     |
 | `CI_APP_FILENAME`     | Molly         | Base filename for APKs and backups               |
-| `CI_PACKAGE_ID`       | im.molly.app  | Application ID (change as needed)                |
+| `CI_PACKAGE_ID`       | com.servalabs.chat  | Application ID (change as needed)                |
 | `CI_BUILD_VARIANTS`   | prod          | Regex pattern for building different flavors (must match one of the build flavors) |
 | `CI_FORCE_INTERNAL_USER_FLAG` | false | Enable internal testing extensions               |
 

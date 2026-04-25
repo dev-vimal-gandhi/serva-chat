@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.contacts.management
+package com.servalabs.chat.contacts.management
 
 import android.content.Context
 import androidx.annotation.CheckResult
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RotateProfileKeyJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.RotateProfileKeyJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientUtil
 
 class ContactsManagementRepository(context: Context) {
   private val context = context.applicationContext

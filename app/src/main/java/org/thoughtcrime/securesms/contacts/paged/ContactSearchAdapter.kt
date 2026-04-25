@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.content.Context
 import android.text.SpannableStringBuilder
@@ -14,30 +14,30 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.BreakIteratorCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.FromTextView
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller.FastScrollAdapter
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.fallback.FallbackAvatar
+import com.servalabs.chat.avatar.view.AvatarView
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.FromTextView
+import com.servalabs.chat.components.RecyclerViewFastScroller.FastScrollAdapter
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.contacts.LetterHeaderDecoration
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingModelList
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter
+import com.servalabs.chat.util.visible
 import org.signal.core.ui.R as CoreUiR
 
 /**

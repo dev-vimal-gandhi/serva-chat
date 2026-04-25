@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.ChangeNumberConstraint
-import org.thoughtcrime.securesms.messages.ExceptionMetadata
-import org.thoughtcrime.securesms.messages.MessageContentProcessor
-import org.thoughtcrime.securesms.messages.MessageState
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobmanager.impl.ChangeNumberConstraint
+import com.servalabs.chat.messages.ExceptionMetadata
+import com.servalabs.chat.messages.MessageContentProcessor
+import com.servalabs.chat.messages.MessageState
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Process messages that did not decrypt/validate successfully.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,8 +18,8 @@ import androidx.annotation.Px;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

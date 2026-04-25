@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.status
+package com.servalabs.chat.backup.v2.ui.status
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,11 +25,11 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.mebiBytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.RestoreState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState.RestoreStatus
-import org.thoughtcrime.securesms.backup.v2.ui.BackupsIconColors
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.RestoreState
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState.RestoreStatus
+import com.servalabs.chat.backup.v2.ui.BackupsIconColors
 import kotlin.math.roundToInt
 import org.signal.core.ui.R as CoreUiR
 

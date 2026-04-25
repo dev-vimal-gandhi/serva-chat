@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.Manifest
 import android.app.Notification
@@ -21,22 +21,22 @@ import org.signal.core.util.Stopwatch
 import org.signal.core.util.forEach
 import org.signal.core.util.logging.Log
 import org.signal.core.util.nullIfBlank
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.BackupMediaSnapshotTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.protos.ArchiveAttachmentReconciliationJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.wallpaper.WallpaperStorage
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.ArchivedMediaObject
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.BackupMediaSnapshotTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobs.protos.ArchiveAttachmentReconciliationJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.logsubmit.SubmitDebugLogActivity
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.wallpaper.WallpaperStorage
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.archive.ArchiveGetMediaItemsResponse
 import kotlin.time.Duration.Companion.days
@@ -360,7 +360,7 @@ class ArchiveAttachmentReconciliationJob private constructor(
   }
 
   /**
-   * Deletes attachments from the archive CDN, after verifying that they also can't be found anywhere in [org.thoughtcrime.securesms.database.AttachmentTable]
+   * Deletes attachments from the archive CDN, after verifying that they also can't be found anywhere in [com.servalabs.chat.database.AttachmentTable]
    * either. Checking the attachment table is very expensive and independent of query size, which is why we batch the lookups.
    *
    * Also fixes archive transfer state for attachments that ARE found locally but may have incorrect state

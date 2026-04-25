@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package com.servalabs.chat.components.settings.app.backups.remote
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -29,28 +29,28 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.mebiBytes
 import org.signal.core.util.throttleLatest
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState.RestoreStatus
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.BackupUpgradeAvailabilityChecker
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
-import org.thoughtcrime.securesms.components.settings.app.backups.BackupState
-import org.thoughtcrime.securesms.components.settings.app.backups.BackupStateObserver
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.attachmentUpdates
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.BackupMessagesConstraint
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.ArchiveUploadProgressState
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.backup.ArchiveUploadProgress
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState.RestoreStatus
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.ui.subscription.BackupUpgradeAvailabilityChecker
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsType
+import com.servalabs.chat.components.settings.app.backups.BackupState
+import com.servalabs.chat.components.settings.app.backups.BackupStateObserver
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.attachmentUpdates
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.BackupMessagesConstraint
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.TextSecurePreferences
 import org.whispersystems.signalservice.api.NetworkResult
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds

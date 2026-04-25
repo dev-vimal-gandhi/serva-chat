@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -12,16 +12,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.provider.DocumentsContractCompat;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.avatar.AvatarPickerStorage;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.avatar.AvatarPickerStorage;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.emoji.EmojiFiles;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.providers.DeprecatedPersistentBlobProvider;
-import org.thoughtcrime.securesms.providers.PartProvider;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.emoji.EmojiFiles;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.providers.DeprecatedPersistentBlobProvider;
+import com.servalabs.chat.providers.PartProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

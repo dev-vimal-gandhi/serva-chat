@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

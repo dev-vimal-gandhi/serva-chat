@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.groups.GroupId
 
 /**
  * Hosts [MemberLabelFragment], allowing navigation to the member label editor from any context.

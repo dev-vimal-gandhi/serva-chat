@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package com.servalabs.chat.mediapreview;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import androidx.lifecycle.ViewModelProvider;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ZoomingImageView;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ZoomingImageView;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.util.MediaUtil;
 
 public final class ImageMediaPreviewFragment extends MediaPreviewFragment {
   private MediaPreviewPlayerControlView bottomBarControlView;

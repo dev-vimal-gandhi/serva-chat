@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package com.servalabs.chat.mediasend.v2.gallery
 
 import android.content.Context
 import org.signal.core.models.media.Media
 import org.signal.core.models.media.MediaFolder
-import org.thoughtcrime.securesms.mediasend.MediaRepository
+import com.servalabs.chat.mediasend.MediaRepository
 
 class MediaGalleryRepository(context: Context, private val mediaRepository: MediaRepository) {
   private val context: Context = context.applicationContext

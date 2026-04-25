@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -24,29 +24,29 @@ import org.signal.core.util.requireString
 import org.signal.libsignal.zkgroup.InvalidInputException
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BadgeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
-import org.thoughtcrime.securesms.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.util.GroupUtil
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.IdentityTable.VerifiedStatus
+import com.servalabs.chat.database.RecipientTable.RegisteredState
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.database.model.databaseprotos.BadgeList
+import com.servalabs.chat.database.model.databaseprotos.ChatColor
+import com.servalabs.chat.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
+import com.servalabs.chat.database.model.databaseprotos.RecipientExtras
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.AvatarHelper
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.util.GroupUtil
+import com.servalabs.chat.wallpaper.ChatWallpaper
+import com.servalabs.chat.wallpaper.ChatWallpaperFactory
 import java.io.IOException
 
 object RecipientTableCursorUtil {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import android.database.Cursor;
 
@@ -6,13 +6,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.StickerTable;
-import org.thoughtcrime.securesms.database.StickerTable.StickerRecordReader;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
+import com.servalabs.chat.components.emoji.EmojiUtil;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.StickerTable;
+import com.servalabs.chat.database.StickerTable.StickerRecordReader;
+import com.servalabs.chat.database.model.StickerRecord;
+import com.servalabs.chat.emoji.EmojiSource;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public enum AttachmentKeyboardButton {
 

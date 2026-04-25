@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 public interface OnAudioOutputChangedListener {
   void audioOutputChanged(WebRtcAudioDevice device);

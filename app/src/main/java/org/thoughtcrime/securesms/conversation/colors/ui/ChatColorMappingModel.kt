@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package com.servalabs.chat.conversation.colors.ui
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 class ChatColorMappingModel(
   val chatColors: ChatColors,

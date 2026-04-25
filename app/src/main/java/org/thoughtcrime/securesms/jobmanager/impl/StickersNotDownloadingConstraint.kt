@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
-import org.thoughtcrime.securesms.jobs.StickerDownloadJob
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Constraint
+import com.servalabs.chat.jobmanager.ConstraintObserver
+import com.servalabs.chat.jobs.StickerDownloadJob
+import com.servalabs.chat.jobs.StickerPackDownloadJob
 
 /**
  * When met, no sticker download jobs should be in the job queue/running.

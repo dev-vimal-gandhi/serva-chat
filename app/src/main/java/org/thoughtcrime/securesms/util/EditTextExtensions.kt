@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.widget.EditText
 import androidx.appcompat.widget.SearchView
 
 /**
  * Since [android.view.inputmethod.EditorInfo.IME_FLAG_NO_PERSONALIZED_LEARNING] is only supported on API 26+ we hard-code it here
- * to avoid issues with older versions. This mirrors the approach taken by [org.thoughtcrime.securesms.components.ComposeText].
+ * to avoid issues with older versions. This mirrors the approach taken by [com.servalabs.chat.components.ComposeText].
  */
 private const val INCOGNITO_KEYBOARD = 16777216
 

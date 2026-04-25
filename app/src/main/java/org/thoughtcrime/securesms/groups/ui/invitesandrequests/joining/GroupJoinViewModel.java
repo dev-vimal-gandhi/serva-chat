@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
 import android.content.Context;
 
@@ -10,9 +10,9 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.util.AsynchronousCallback;
+import com.servalabs.chat.util.SingleLiveEvent;
 
 public class GroupJoinViewModel extends ViewModel {
 

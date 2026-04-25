@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 import org.signal.core.models.ServiceId
 import org.signal.core.util.CryptoUtil
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.groups.GroupId
 
 /**
  * Stolen from iOS. Utilizes a simple hash to map different characteristics to an avatar color index.

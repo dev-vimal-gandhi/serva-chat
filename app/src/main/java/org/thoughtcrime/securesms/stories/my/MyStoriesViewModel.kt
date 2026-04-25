@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.my
+package com.servalabs.chat.stories.my
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,8 +7,8 @@ import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.util.livedata.Store
 
 class MyStoriesViewModel(private val repository: MyStoriesRepository) : ViewModel() {
 

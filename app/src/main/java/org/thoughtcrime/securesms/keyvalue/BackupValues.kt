@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import kotlinx.coroutines.flow.Flow
@@ -8,17 +8,17 @@ import org.signal.core.models.backup.MediaRootBackupKey
 import org.signal.core.models.backup.MessageBackupKey
 import org.signal.core.util.LongSerializer
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.RestoreState
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.backups.BackupStateObserver
-import org.thoughtcrime.securesms.jobmanager.impl.BackupMessagesConstraintObserver
-import org.thoughtcrime.securesms.jobmanager.impl.DeletionNotAwaitingMediaDownloadConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.NoRemoteArchiveGarbageCollectionPendingConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.RestoreAttachmentConstraintObserver
-import org.thoughtcrime.securesms.keyvalue.protos.ArchiveUploadProgressState
-import org.thoughtcrime.securesms.keyvalue.protos.BackupDownloadNotifierState
-import org.thoughtcrime.securesms.util.Environment
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.RestoreState
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.settings.app.backups.BackupStateObserver
+import com.servalabs.chat.jobmanager.impl.BackupMessagesConstraintObserver
+import com.servalabs.chat.jobmanager.impl.DeletionNotAwaitingMediaDownloadConstraint
+import com.servalabs.chat.jobmanager.impl.NoRemoteArchiveGarbageCollectionPendingConstraint
+import com.servalabs.chat.jobmanager.impl.RestoreAttachmentConstraintObserver
+import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
+import com.servalabs.chat.keyvalue.protos.BackupDownloadNotifierState
+import com.servalabs.chat.util.Environment
 import org.whispersystems.signalservice.api.archive.ArchiveServiceCredential
 import org.whispersystems.signalservice.api.archive.GetArchiveCdnCredentialsResponse
 import org.whispersystems.signalservice.internal.util.JsonUtil

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups
+package com.servalabs.chat.components.settings.app.backups
 
 import android.content.Context
 import android.os.Bundle
@@ -49,16 +49,16 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
-import org.thoughtcrime.securesms.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsType
+import com.servalabs.chat.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.Locale

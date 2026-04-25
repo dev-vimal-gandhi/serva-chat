@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -18,8 +18,8 @@ import org.signal.core.util.requireNonNullString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.attachments.AttachmentMetadata
-import org.thoughtcrime.securesms.attachments.LocalBackupKey
+import com.servalabs.chat.attachments.AttachmentMetadata
+import com.servalabs.chat.attachments.LocalBackupKey
 
 /**
  * Metadata for various attachments. There is a many-to-one relationship with the Attachment table as this metadata

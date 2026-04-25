@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import io.mockk.every
 import io.mockk.just
@@ -18,16 +18,16 @@ import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSourceType
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription.ChargeFailure

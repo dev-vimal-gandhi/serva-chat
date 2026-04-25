@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 final class TranscodingException extends Exception {
 

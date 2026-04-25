@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package com.servalabs.chat.recipients;
 
 import android.content.Intent;
 import android.provider.ContactsContract;

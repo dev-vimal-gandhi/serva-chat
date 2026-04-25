@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms
+package com.servalabs.chat.sms
 
 import android.app.Application
 import io.mockk.every
@@ -10,23 +10,23 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.AttachmentCompressionJob
-import org.thoughtcrime.securesms.jobs.AttachmentCopyJob
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob
-import org.thoughtcrime.securesms.jobs.protos.AttachmentUploadJobData
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.UriAttachmentBuilder
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobs.AttachmentCompressionJob
+import com.servalabs.chat.jobs.AttachmentCopyJob
+import com.servalabs.chat.jobs.AttachmentUploadJob
+import com.servalabs.chat.jobs.protos.AttachmentUploadJobData
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.testutil.UriAttachmentBuilder
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.MediaUtil
 import java.util.concurrent.atomic.AtomicLong
 
 /**

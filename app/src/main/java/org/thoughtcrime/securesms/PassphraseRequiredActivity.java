@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -13,24 +13,24 @@ import androidx.core.content.ContextCompat;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.TransferStatus;
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberLockActivity;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity;
-import org.thoughtcrime.securesms.keyvalue.RestoreDecisionStateUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrationActivity;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.pin.PinRestoreActivity;
-import org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.restore.RestoreActivity;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.AppStartup;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.components.settings.app.changenumber.ChangeNumberLockActivity;
+import com.servalabs.chat.crypto.MasterSecretUtil;
+import com.servalabs.chat.devicetransfer.olddevice.OldDeviceTransferActivity;
+import com.servalabs.chat.keyvalue.RestoreDecisionStateUtil;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.lock.v2.CreateSvrPinActivity;
+import com.servalabs.chat.migrations.ApplicationMigrationActivity;
+import com.servalabs.chat.migrations.ApplicationMigrations;
+import com.servalabs.chat.pin.PinRestoreActivity;
+import com.servalabs.chat.profiles.edit.CreateProfileActivity;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.registration.ui.RegistrationActivity;
+import com.servalabs.chat.util.Environment;
+import com.servalabs.chat.restore.RestoreActivity;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.AppStartup;
+import com.servalabs.chat.util.Environment;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 public abstract class PassphraseRequiredActivity extends PassphraseActivity implements MasterSecretListener {
   private static final String TAG = Log.tag(PassphraseRequiredActivity.class);

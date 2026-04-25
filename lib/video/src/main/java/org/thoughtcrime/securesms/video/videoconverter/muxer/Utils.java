@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter.muxer;
+package com.servalabs.chat.video.videoconverter.muxer;
 
 import androidx.annotation.NonNull;
 

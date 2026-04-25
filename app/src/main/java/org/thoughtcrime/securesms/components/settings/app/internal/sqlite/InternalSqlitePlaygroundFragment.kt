@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.sqlite
+package com.servalabs.chat.components.settings.app.internal.sqlite
 
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.clickable
@@ -52,7 +52,7 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.Util
 import org.signal.libsignal.protocol.util.Hex
-import org.thoughtcrime.securesms.components.settings.app.internal.sqlite.InternalSqlitePlaygroundViewModel.QueryResult
+import com.servalabs.chat.components.settings.app.internal.sqlite.InternalSqlitePlaygroundViewModel.QueryResult
 
 class InternalSqlitePlaygroundFragment : ComposeFragment() {
 

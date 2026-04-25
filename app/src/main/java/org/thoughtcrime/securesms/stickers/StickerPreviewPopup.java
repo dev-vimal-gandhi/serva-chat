@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 
 /**

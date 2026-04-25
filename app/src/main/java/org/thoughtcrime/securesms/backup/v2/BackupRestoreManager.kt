@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RestoreAttachmentThumbnailJob
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.RestoreAttachmentThumbnailJob
 
 /**
  * Responsible for managing logic around restore prioritization

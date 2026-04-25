@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.details
+package com.servalabs.chat.calls.links.details
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -18,12 +18,12 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.UpdateCallLinkRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
+import com.servalabs.chat.calls.links.CallLinks
+import com.servalabs.chat.calls.links.UpdateCallLinkRepository
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.UpdateCallLinkResult
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 

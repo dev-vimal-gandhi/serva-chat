@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui
+package com.servalabs.chat.recipients.ui
 
 import android.content.Context
 import androidx.compose.runtime.Composable
@@ -11,10 +11,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.RecipientRepository
-import org.thoughtcrime.securesms.recipients.RecipientRepository.IdLookupResult
-import org.thoughtcrime.securesms.recipients.RecipientRepository.PhoneLookupResult
+import com.servalabs.chat.R
+import com.servalabs.chat.recipients.RecipientRepository
+import com.servalabs.chat.recipients.RecipientRepository.IdLookupResult
+import com.servalabs.chat.recipients.RecipientRepository.PhoneLookupResult
 
 /**
  * Handles displaying a message to the user when a recipient lookup fails.

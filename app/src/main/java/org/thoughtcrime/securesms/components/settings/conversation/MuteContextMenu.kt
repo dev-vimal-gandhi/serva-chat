@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
 import java.util.concurrent.TimeUnit
 
 object MuteContextMenu {

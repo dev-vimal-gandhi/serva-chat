@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
@@ -22,19 +22,19 @@ import org.signal.core.util.Result
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.RestoreV2Event
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.backup.v2.local.SnapshotFileSystem
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.LocalBackupRestoreMediaJob
-import org.thoughtcrime.securesms.keyvalue.Completed
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.ui.restore.StorageServiceRestore
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.RestoreV2Event
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.backup.v2.local.SnapshotFileSystem
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.LocalBackupRestoreMediaJob
+import com.servalabs.chat.keyvalue.Completed
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.ui.restore.StorageServiceRestore
+import com.servalabs.chat.registration.util.RegistrationUtil
 
 class RestoreLocalBackupActivityViewModel : ViewModel() {
 

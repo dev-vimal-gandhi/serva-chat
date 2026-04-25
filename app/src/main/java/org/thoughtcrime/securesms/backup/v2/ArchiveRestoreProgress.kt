@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -20,18 +20,18 @@ import org.signal.core.util.bytes
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.signal.core.util.throttleLatest
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.RestoreState
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.BatteryNotLowConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.DiskSpaceNotLowConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.WifiConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.safeUnregisterReceiver
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.RestoreState
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.BatteryNotLowConstraint
+import com.servalabs.chat.jobmanager.impl.DiskSpaceNotLowConstraint
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobmanager.impl.WifiConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.safeUnregisterReceiver
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong

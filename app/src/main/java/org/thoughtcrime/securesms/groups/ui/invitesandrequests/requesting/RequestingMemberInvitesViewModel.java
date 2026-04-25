@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting;
+package com.servalabs.chat.groups.ui.invitesandrequests.requesting;
 
 import android.content.Context;
 
@@ -9,15 +9,15 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.LiveGroup;
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason;
+import com.servalabs.chat.groups.ui.GroupErrors;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.v2.GroupLinkUrlAndStatus;
+import com.servalabs.chat.util.AsynchronousCallback;
+import com.servalabs.chat.util.SingleLiveEvent;
 
 import java.util.List;
 

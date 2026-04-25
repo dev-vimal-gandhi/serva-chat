@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.completed
+package com.servalabs.chat.components.settings.app.subscription.completed
 
 import android.content.DialogInterface
 import androidx.compose.foundation.background
@@ -39,12 +39,12 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImage112
-import org.thoughtcrime.securesms.database.model.databaseprotos.TerminalDonationQueue
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.components.settings.app.subscription.BadgeImage112
+import com.servalabs.chat.database.model.databaseprotos.TerminalDonationQueue
+import com.servalabs.chat.util.viewModel
 
 /**
  * Bottom Sheet displayed when the app notices that a long-running donation has

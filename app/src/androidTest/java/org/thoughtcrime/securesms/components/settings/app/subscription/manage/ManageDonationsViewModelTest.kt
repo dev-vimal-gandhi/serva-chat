@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package com.servalabs.chat.components.settings.app.subscription.manage
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -19,13 +19,13 @@ import org.junit.runner.RunWith
 import org.signal.core.util.deleteAll
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.BadgeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.BadgeList
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.testing.SignalActivityRule
 import java.math.BigDecimal
 import java.util.Currency
 import kotlin.time.Duration.Companion.seconds

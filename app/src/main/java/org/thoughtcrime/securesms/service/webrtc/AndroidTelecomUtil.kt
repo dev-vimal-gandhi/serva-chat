@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -9,12 +9,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.webrtc.AudioOutputOption
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.components.webrtc.AudioOutputOption
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 
 /**
  * Wrapper around Jetpack [CallsManager] to manage telecom integration. Maintains a global map of

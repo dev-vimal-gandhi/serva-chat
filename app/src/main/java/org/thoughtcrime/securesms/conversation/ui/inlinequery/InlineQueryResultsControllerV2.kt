@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package com.servalabs.chat.conversation.ui.inlinequery
 
 import android.view.View
 import android.view.ViewGroup
@@ -12,11 +12,11 @@ import org.signal.core.ui.isHeightCompact
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragmentV2
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ComposeText
+import com.servalabs.chat.conversation.ui.mentions.MentionsPickerFragmentV2
+import com.servalabs.chat.util.adapter.mapping.AnyMappingModel
+import com.servalabs.chat.util.doOnEachLayout
 
 /**
  * Controller for inline search results.

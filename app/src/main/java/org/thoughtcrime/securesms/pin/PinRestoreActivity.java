@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package com.servalabs.chat.pin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.lock.v2.CreateSvrPinActivity;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 public final class PinRestoreActivity extends AppCompatActivity {
 

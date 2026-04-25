@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.window
+package com.servalabs.chat.window
 
 import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.tween

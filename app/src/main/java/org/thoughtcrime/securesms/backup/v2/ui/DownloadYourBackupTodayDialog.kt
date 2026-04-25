@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package com.servalabs.chat.backup.v2.ui
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -15,8 +15,8 @@ import org.signal.core.ui.compose.ComposeDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.BackupRepository
 
 /**
  * Displays a "last chance" dialog to the user to begin a media restore.

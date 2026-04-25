@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import android.content.Context
 import androidx.lifecycle.LiveData
@@ -20,18 +20,18 @@ import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.fingerprint.Fingerprint
 import org.signal.libsignal.protocol.fingerprint.NumericFingerprintGenerator
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.LiveRecipient
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.IdentityUtil
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.crypto.ReentrantSessionLock
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.MultiDeviceVerifiedUpdateJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.LiveRecipient
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.IdentityUtil
 
 class VerifySafetyNumberViewModel(
   private val recipientId: RecipientId,

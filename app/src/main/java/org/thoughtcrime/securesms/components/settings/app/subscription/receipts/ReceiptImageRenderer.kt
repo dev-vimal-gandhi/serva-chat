@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts
+package com.servalabs.chat.components.settings.app.subscription.receipts
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -22,11 +22,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.DateUtils
 import java.io.ByteArrayOutputStream
 import java.util.Locale
 

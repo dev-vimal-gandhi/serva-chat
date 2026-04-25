@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,8 +27,8 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
 
 /**
  * User can select either a folder-based or single backup file for restoration during registration.

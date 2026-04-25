@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import org.signal.core.models.media.Media
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.SentMediaQuality
+import com.servalabs.chat.mediasend.v2.videos.VideoTrimData
+import com.servalabs.chat.mms.SentMediaQuality
 
 class VideoTrimTransform(private val data: VideoTrimData) : MediaTransform {
   @WorkerThread

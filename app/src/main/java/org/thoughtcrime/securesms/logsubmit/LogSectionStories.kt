@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit
+package com.servalabs.chat.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

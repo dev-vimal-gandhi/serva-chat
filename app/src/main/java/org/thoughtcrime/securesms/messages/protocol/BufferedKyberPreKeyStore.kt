@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.signal.core.models.ServiceId
 import org.signal.libsignal.protocol.InvalidKeyIdException
 import org.signal.libsignal.protocol.ReusedBaseKeyException
 import org.signal.libsignal.protocol.ecc.ECPublicKey
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
-import org.thoughtcrime.securesms.database.KyberPreKeyTable.KyberPreKey
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.KyberPreKeyTable.KyberPreKey
+import com.servalabs.chat.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceKyberPreKeyStore
 

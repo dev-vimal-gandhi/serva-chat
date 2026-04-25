@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -3,31 +3,31 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.data
+package com.servalabs.chat.conversation.v2.data
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.roundedString
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.withAttachments
-import org.thoughtcrime.securesms.database.model.withCall
-import org.thoughtcrime.securesms.database.model.withPayment
-import org.thoughtcrime.securesms.database.model.withPoll
-import org.thoughtcrime.securesms.database.model.withReactions
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelRepository
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.ReactionRecord
+import com.servalabs.chat.database.model.withAttachments
+import com.servalabs.chat.database.model.withCall
+import com.servalabs.chat.database.model.withPayment
+import com.servalabs.chat.database.model.withPoll
+import com.servalabs.chat.database.model.withReactions
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.memberlabel.MemberLabel
+import com.servalabs.chat.groups.memberlabel.MemberLabelRepository
+import com.servalabs.chat.payments.Payment
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import java.util.concurrent.Callable
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Future

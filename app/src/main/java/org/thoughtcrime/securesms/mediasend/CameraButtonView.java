@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,9 +19,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 public class CameraButtonView extends View {
 

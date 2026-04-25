@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -38,8 +38,8 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.TriggerAlignedPopup
 import org.signal.core.ui.compose.TriggerAlignedPopupState
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiImage
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiImage
 
 data class AdditionalActionsState(
   val triggerAlignedPopupState: TriggerAlignedPopupState,

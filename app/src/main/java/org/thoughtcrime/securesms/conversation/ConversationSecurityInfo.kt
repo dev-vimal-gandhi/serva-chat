@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 data class ConversationSecurityInfo(
   val recipientId: RecipientId = RecipientId.UNKNOWN,

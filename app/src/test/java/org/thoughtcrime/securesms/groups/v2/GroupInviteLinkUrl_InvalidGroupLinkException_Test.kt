@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2
+package com.servalabs.chat.groups.v2
 
 import assertk.assertFailure
 import assertk.assertThat
@@ -13,8 +13,8 @@ import org.signal.core.util.Base64.encodeUrlSafeWithoutPadding
 import org.signal.core.util.Util
 import org.signal.libsignal.zkgroup.InvalidInputException
 import org.signal.storageservice.storage.protos.groups.GroupInviteLink
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl.InvalidGroupLinkException
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl.UnknownGroupLinkVersionException
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl.InvalidGroupLinkException
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl.UnknownGroupLinkVersionException
 import java.io.IOException
 
 @Suppress("ClassName")

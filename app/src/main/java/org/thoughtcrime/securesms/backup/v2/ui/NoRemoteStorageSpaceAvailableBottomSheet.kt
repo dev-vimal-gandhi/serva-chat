@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package com.servalabs.chat.backup.v2.ui
 
 import android.content.DialogInterface
 import androidx.compose.foundation.layout.padding
@@ -22,10 +22,10 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialogFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.components.contactsupport.ContactSupportDialogFragment
+import com.servalabs.chat.util.CommunicationActions
 
 class NoRemoteStorageSpaceAvailableBottomSheet : ComposeBottomSheetDialogFragment() {
   @Composable

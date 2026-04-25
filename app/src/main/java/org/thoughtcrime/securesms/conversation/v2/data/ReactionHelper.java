@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.v2.data;
+package com.servalabs.chat.conversation.v2.data;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.ReactionRecord;
 import org.signal.core.util.Util;
 
 import java.util.Collection;

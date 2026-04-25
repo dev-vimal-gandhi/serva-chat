@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package com.servalabs.chat.lock.v2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,15 +22,15 @@ import androidx.appcompat.widget.Toolbar;
 import com.google.android.material.button.MaterialButton;
 
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.pin.PinOptOutDialog;
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.pin.PinOptOutDialog;
+import com.servalabs.chat.registration.util.RegistrationUtil;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.text.AfterTextChanged;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.util.views.LearnMoreTextView;
 
 public abstract class BaseSvrPinFragment<ViewModel extends BaseSvrPinViewModel> extends LoggingFragment {
 

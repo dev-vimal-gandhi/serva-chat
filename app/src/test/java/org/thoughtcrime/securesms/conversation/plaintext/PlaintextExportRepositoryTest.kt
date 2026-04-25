@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.plaintext
+package com.servalabs.chat.conversation.plaintext
 
 import android.app.Application
 import io.mockk.every
@@ -19,21 +19,21 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.conversation.plaintext.PlaintextExportRepository.PendingAttachment
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.conversation.plaintext.PlaintextExportRepository.PendingAttachment
+import com.servalabs.chat.database.FakeMessageRecords
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.model.Quote
+import com.servalabs.chat.mms.QuoteModel
+import com.servalabs.chat.mms.SlideDeck
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.util.MediaUtil
 import java.io.BufferedWriter
 import java.io.StringWriter
 import java.text.SimpleDateFormat
@@ -59,7 +59,7 @@ class PlaintextExportRepositoryTest {
 
     every { mockRecipient.getDisplayName(any()) } returns "Alice"
 
-    val mockLiveRecipient = mockk<org.thoughtcrime.securesms.recipients.LiveRecipient>(relaxed = true)
+    val mockLiveRecipient = mockk<com.servalabs.chat.recipients.LiveRecipient>(relaxed = true)
     every { mockLiveRecipient.get() } returns mockRecipient
     every { mockRecipient.live() } returns mockLiveRecipient
 
@@ -746,8 +746,8 @@ class PlaintextExportRepositoryTest {
   // ==================== Helpers ====================
 
   private fun renderMessage(
-    message: org.thoughtcrime.securesms.database.model.MmsMessageRecord,
-    attachments: List<org.thoughtcrime.securesms.attachments.DatabaseAttachment> = emptyList(),
+    message: com.servalabs.chat.database.model.MmsMessageRecord,
+    attachments: List<com.servalabs.chat.attachments.DatabaseAttachment> = emptyList(),
     pendingAttachments: MutableList<PendingAttachment> = mutableListOf(),
     poll: PollRecord? = null
   ): String {

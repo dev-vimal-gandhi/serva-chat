@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.isScheduled
+import com.servalabs.chat.conversation.ConversationItemDisplayMode
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.Projection
+import com.servalabs.chat.util.isScheduled
 import kotlin.math.abs
 import kotlin.time.Duration.Companion.minutes
 

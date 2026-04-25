@@ -3,23 +3,23 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSource
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeInAppPaymentRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.toPaymentSource
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSetupJobData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.components.settings.app.subscription.OneTimeInAppPaymentRepository
+import com.servalabs.chat.components.settings.app.subscription.StripeRepository
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationErrorSource
+import com.servalabs.chat.components.settings.app.subscription.toPaymentSource
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.protos.InAppPaymentSetupJobData
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  *  Handles one-time Stripe transactions.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.model
+package com.servalabs.chat.conversationlist.model
 
 class ConversationSet @JvmOverloads constructor(
   private val conversations: Set<Conversation> = emptySet()

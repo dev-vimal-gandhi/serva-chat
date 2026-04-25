@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import androidx.annotation.NonNull;
 
@@ -7,8 +7,8 @@ import org.signal.libsignal.protocol.InvalidKeyIdException;
 import org.signal.libsignal.protocol.state.PreKeyRecord;
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
 import org.signal.libsignal.protocol.state.SignedPreKeyStore;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import com.servalabs.chat.crypto.ReentrantSessionLock;
+import com.servalabs.chat.database.SignalDatabase;
 import org.whispersystems.signalservice.api.SignalServicePreKeyStore;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 import org.signal.core.models.ServiceId;

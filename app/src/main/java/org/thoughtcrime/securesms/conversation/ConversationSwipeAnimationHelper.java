@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.animation.ValueAnimator;
 import android.content.res.Resources;
@@ -8,7 +8,7 @@ import android.view.animation.Interpolator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement;
+import com.servalabs.chat.conversation.v2.items.InteractiveConversationElement;
 import org.signal.core.util.Util;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package com.servalabs.chat.stories.viewer.reply.group
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.recipients.Recipient
 
 sealed class ReplyBody(val messageRecord: MessageRecord) {
 

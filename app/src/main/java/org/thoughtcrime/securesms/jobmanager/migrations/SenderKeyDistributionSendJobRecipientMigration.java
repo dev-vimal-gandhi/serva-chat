@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package com.servalabs.chat.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.jobs.FailingJob;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.JobMigration;
+import com.servalabs.chat.jobs.FailingJob;
 
 import java.util.Optional;
 

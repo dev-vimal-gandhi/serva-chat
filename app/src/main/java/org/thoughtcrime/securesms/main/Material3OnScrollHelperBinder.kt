@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.RecyclerView

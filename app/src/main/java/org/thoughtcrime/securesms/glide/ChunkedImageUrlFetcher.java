@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package com.servalabs.chat.glide;
 
 
 import androidx.annotation.NonNull;
@@ -8,9 +8,9 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.net.ChunkedDataFetcher;
-import org.thoughtcrime.securesms.net.RequestController;
+import com.servalabs.chat.giph.model.ChunkedImageUrl;
+import com.servalabs.chat.net.ChunkedDataFetcher;
+import com.servalabs.chat.net.RequestController;
 
 import java.io.InputStream;
 

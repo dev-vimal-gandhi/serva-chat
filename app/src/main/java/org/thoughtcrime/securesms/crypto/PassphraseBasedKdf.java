@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import androidx.annotation.NonNull;
 
@@ -10,7 +10,7 @@ import org.signal.argon2.Argon2Exception;
 import org.signal.argon2.MemoryCost;
 import org.signal.argon2.Type;
 import org.signal.argon2.Version;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

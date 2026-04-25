@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.TimeUnit;

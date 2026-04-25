@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.labs
+package com.servalabs.chat.components.settings.app.labs
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -29,7 +29,7 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class LabsSettingsFragment : ComposeFragment() {
 

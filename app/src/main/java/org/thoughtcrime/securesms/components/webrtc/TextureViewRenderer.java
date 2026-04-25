@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,7 +15,7 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 import org.webrtc.EglBase;
 import org.webrtc.EglRenderer;
 import org.webrtc.GlRectDrawer;

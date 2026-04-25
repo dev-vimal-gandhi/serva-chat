@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 /**
  * Namespaced collection of supported bubble colors and name colors.

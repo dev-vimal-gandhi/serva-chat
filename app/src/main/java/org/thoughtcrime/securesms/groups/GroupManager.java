@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import android.content.Context;
 
@@ -14,14 +14,14 @@ import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
 import org.signal.storageservice.storage.protos.groups.ExternalGroupCredential;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkPassword;
-import org.thoughtcrime.securesms.groups.v2.processing.GroupUpdateResult;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.groups.v2.GroupLinkPassword;
+import com.servalabs.chat.groups.v2.processing.GroupUpdateResult;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.whispersystems.signalservice.api.groupsv2.GroupLinkNotActiveException;
 
 import java.io.IOException;

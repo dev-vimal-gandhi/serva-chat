@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.keyboard
+package com.servalabs.chat.conversation.v2.keyboard
 
 import android.os.Bundle
 import android.view.View
@@ -20,13 +20,13 @@ import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.permissions.PermissionCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboard
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboardButton
-import org.thoughtcrime.securesms.conversation.ManageContextMenu
-import org.thoughtcrime.securesms.conversation.v2.ConversationViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.AttachmentKeyboard
+import com.servalabs.chat.conversation.AttachmentKeyboardButton
+import com.servalabs.chat.conversation.ManageContextMenu
+import com.servalabs.chat.conversation.v2.ConversationViewModel
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.RemoteConfig
 import java.util.function.Predicate
 
 /**

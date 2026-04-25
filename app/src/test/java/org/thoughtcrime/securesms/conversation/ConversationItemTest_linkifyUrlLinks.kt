@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.app.Application
 import android.text.SpannableStringBuilder
@@ -8,8 +8,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.ParameterizedRobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils
-import org.thoughtcrime.securesms.util.UrlClickHandler
+import com.servalabs.chat.conversation.v2.items.V2ConversationItemUtils
+import com.servalabs.chat.util.UrlClickHandler
 
 @Suppress("ClassName")
 @RunWith(ParameterizedRobolectricTestRunner::class)

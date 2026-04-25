@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -10,16 +10,16 @@ import androidx.core.app.ActivityCompat
 import androidx.lifecycle.enableSavedStateHandles
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.Log.tag
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.jobs.ConversationShortcutUpdateJob
-import org.thoughtcrime.securesms.util.ConfigurationUtil
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.voice.VoiceNoteMediaController
+import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.jobs.ConversationShortcutUpdateJob
+import com.servalabs.chat.util.ConfigurationUtil
+import com.servalabs.chat.util.Debouncer
+import com.servalabs.chat.util.DynamicNoActionBarTheme
 import java.util.concurrent.TimeUnit
 
 /**

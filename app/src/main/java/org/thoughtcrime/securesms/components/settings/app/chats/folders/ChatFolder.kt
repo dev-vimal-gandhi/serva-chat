@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package com.servalabs.chat.components.settings.app.chats.folders
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Information needed when creating/updating a chat folder. Used in [ChatFoldersSettingsState]

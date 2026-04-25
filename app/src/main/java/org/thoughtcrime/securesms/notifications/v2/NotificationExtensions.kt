@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import android.app.NotificationManager
 import android.content.Context
@@ -12,15 +12,15 @@ import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.BitmapUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.fallback.FallbackAvatar
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable
+import com.servalabs.chat.contacts.avatars.ContactPhoto
+import com.servalabs.chat.contacts.avatars.ProfileContactPhoto
+import com.servalabs.chat.conversation.colors.AvatarGradientColors
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.BitmapUtil
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException

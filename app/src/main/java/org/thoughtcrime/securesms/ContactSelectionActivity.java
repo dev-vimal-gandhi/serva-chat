@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -26,15 +26,15 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.ContactFilterView;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.paged.ChatType;
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.components.ContactFilterView;
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode;
+import com.servalabs.chat.contacts.paged.ChatType;
+import com.servalabs.chat.contacts.selection.ContactSelectionArguments;
+import com.servalabs.chat.contacts.sync.ContactDiscovery;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

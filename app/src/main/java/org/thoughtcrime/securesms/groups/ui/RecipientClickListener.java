@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 
 public interface RecipientClickListener {
   void onClick(@NonNull Recipient recipient);

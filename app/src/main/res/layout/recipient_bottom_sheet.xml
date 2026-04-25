@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/bottom_sheet_handle" />
 
-        <org.thoughtcrime.securesms.avatar.view.AvatarView
+        <com.servalabs.chat.avatar.view.AvatarView
             android:id="@+id/rbs_recipient_avatar"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -88,7 +88,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/rbs_full_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             app:layout_constraintTop_toBottomOf="@id/rbs_recipient_avatar"
             tools:text="Gwen Stacy" />
 
-        <org.thoughtcrime.securesms.groups.memberlabel.MemberLabelPillView
+        <com.servalabs.chat.groups.memberlabel.MemberLabelPillView
             android:id="@+id/rbs_member_label"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
             app:layout_constraintWidth_default="wrap"
             tools:visibility="visible" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <com.servalabs.chat.components.emoji.EmojiTextView
             android:id="@+id/rbs_about"
             style="@style/Signal.Text.BodyLarge"
             android:layout_width="match_parent"

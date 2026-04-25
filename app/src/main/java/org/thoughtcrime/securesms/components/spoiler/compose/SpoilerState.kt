@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler.compose
+package com.servalabs.chat.components.spoiler.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable

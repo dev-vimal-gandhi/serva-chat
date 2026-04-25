@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation.transitions;
+package com.servalabs.chat.animation.transitions;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;

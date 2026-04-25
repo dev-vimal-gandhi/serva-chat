@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,10 +11,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.events.GroupCallReactionEvent
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * RecyclerView adapter for the reactions feed. This takes in a list of [GroupCallReactionEvent] and renders them onto the screen.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import android.content.Context
 import android.widget.Toast
@@ -15,11 +15,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import org.signal.core.ui.compose.Dialogs
 import org.signal.qr.QrScannerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.linkdevice.LinkDeviceRepository.LinkDeviceResult
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.qr.QrScanScreens
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.linkdevice.LinkDeviceRepository.LinkDeviceResult
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.qr.QrScanScreens
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.util.concurrent.TimeUnit
 
 /**

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package com.servalabs.chat.components.settings.conversation.permissions
 
 import androidx.lifecycle.MutableLiveData
 import io.mockk.every
@@ -12,11 +12,11 @@ import io.mockk.verify
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.util.livedata.LiveDataRule
-import org.thoughtcrime.securesms.util.livedata.LiveDataTestUtil
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.LiveGroup
+import com.servalabs.chat.util.livedata.LiveDataRule
+import com.servalabs.chat.util.livedata.LiveDataTestUtil
 
 class PermissionsSettingsViewModelTest {
   @get:Rule

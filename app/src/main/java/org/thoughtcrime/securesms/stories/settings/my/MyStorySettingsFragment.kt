@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package com.servalabs.chat.stories.settings.my
 
 import android.os.Bundle
 import android.view.View
@@ -8,16 +8,16 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.stories.settings.connections.ViewAllSignalConnectionsFragment
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.stories.settings.connections.ViewAllSignalConnectionsFragment
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class MyStorySettingsFragment : DSLSettingsFragment(
   titleId = R.string.MyStorySettingsFragment__my_story

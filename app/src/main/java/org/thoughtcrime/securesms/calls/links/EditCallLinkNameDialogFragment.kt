@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package com.servalabs.chat.calls.links
 
 import android.app.Dialog
 import android.os.Bundle
@@ -45,9 +45,9 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.isSplitPane
 import org.signal.core.util.BreakIteratorCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsViewModel
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.links.details.CallLinkDetailsViewModel
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 
 class EditCallLinkNameDialogFragment : ComposeDialogFragment() {
 

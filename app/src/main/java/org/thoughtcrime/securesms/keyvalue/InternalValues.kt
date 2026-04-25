@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.signal.archive.proto.BackupDebugInfo
 import org.signal.ringrtc.CallManager.DataMode
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.util.Environment.Calling.defaultSfuUrl
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.util.Environment.Calling.defaultSfuUrl
+import com.servalabs.chat.util.RemoteConfig
 
 class InternalValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {
@@ -59,7 +59,7 @@ class InternalValues internal constructor(store: KeyValueStore) : SignalStoreVal
   var gv2IgnoreP2PChanges by booleanValue(GV2_IGNORE_P2P_CHANGES, false).defaultForExternalUsers()
 
   /**
-   * Show detailed recipient info in the [org.thoughtcrime.securesms.components.settings.conversation.InternalConversationSettingsFragment].
+   * Show detailed recipient info in the [com.servalabs.chat.components.settings.conversation.InternalConversationSettingsFragment].
    */
   var recipientDetails by booleanValue(RECIPIENT_DETAILS, true).falseForExternalUsers()
 

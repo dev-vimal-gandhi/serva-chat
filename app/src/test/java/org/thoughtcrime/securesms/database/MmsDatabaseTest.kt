@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.app.Application
 import org.junit.Assert.assertEquals
@@ -9,9 +9,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.testutil.SignalDatabaseRule
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.testutil.SignalDatabaseRule
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

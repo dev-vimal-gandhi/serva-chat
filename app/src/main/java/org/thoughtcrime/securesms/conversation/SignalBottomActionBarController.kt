@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.view.View
 import android.view.ViewTreeObserver
@@ -7,8 +7,8 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.concurrent.ListenableFuture.Listener
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.components.menu.SignalBottomActionBar
+import com.servalabs.chat.util.ViewUtil
 import java.util.concurrent.ExecutionException
 
 class SignalBottomActionBarController(

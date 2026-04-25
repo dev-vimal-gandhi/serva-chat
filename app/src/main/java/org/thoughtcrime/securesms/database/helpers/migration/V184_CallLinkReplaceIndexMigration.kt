@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * [V183_CallLinkTableMigration] accidentally setup a unique constraint incorrectly and missed an index. This fixes it.

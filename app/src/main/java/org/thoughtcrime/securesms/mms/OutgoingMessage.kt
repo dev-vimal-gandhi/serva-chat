@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.polls.Poll
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.GroupV2UpdateMessageUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.database.documents.IdentityKeyMismatch
+import com.servalabs.chat.database.documents.NetworkFailure
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.polls.Poll
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.sms.GroupV2UpdateMessageUtil
 import kotlin.time.Duration.Companion.seconds
 
 /**

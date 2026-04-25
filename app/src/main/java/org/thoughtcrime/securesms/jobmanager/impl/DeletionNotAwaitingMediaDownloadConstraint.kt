@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.jobmanager.Constraint
+import com.servalabs.chat.jobmanager.ConstraintObserver
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * When we are awaiting media download, we want to suppress the running of the

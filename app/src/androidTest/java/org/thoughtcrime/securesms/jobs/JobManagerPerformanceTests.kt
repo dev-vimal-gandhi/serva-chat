@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.Application
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -12,13 +12,13 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.EventTimer
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.JobDatabase.Companion.getInstance
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JobMigrator
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.database.JobDatabase.Companion.getInstance
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobmanager.JobMigrator
+import com.servalabs.chat.jobmanager.JobTracker
+import com.servalabs.chat.util.TextSecurePreferences
 import java.util.concurrent.CountDownLatch
 import kotlin.random.Random
 

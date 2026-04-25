@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.Util;
 
 import java.util.Collections;

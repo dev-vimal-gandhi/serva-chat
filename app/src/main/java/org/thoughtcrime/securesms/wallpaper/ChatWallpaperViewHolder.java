@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -13,11 +13,11 @@ import androidx.media3.ui.AspectRatioFrameLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DisplayMetricsUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.Factory;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.DisplayMetricsUtil;
+import com.servalabs.chat.util.adapter.mapping.Factory;
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory;
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder;
 
 @OptIn(markerClass = UnstableApi.class)
 class ChatWallpaperViewHolder extends MappingViewHolder<ChatWallpaperSelectionMappingModel> {

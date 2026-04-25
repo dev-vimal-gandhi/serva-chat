@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 /**
- * Details related to the current avatar profile image file that would be returned via [org.thoughtcrime.securesms.profiles.AvatarHelper.getAvatarFile]
- * at the time this [org.thoughtcrime.securesms.recipients.Recipient] was loaded/refreshed from the database.
+ * Details related to the current avatar profile image file that would be returned via [com.servalabs.chat.profiles.AvatarHelper.getAvatarFile]
+ * at the time this [com.servalabs.chat.recipients.Recipient] was loaded/refreshed from the database.
  */
 data class ProfileAvatarFileDetails(
   val hashId: Long,

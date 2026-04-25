@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package com.servalabs.chat.sharing;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -16,40 +16,40 @@ import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.UriAttachment;
+import com.servalabs.chat.contacts.paged.ContactSearchKey;
+import com.servalabs.chat.contactshare.Contact;
+import com.servalabs.chat.conversation.MessageSendType;
+import com.servalabs.chat.conversation.colors.ChatColors;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.keyvalue.StorySend;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.Mention;
+import com.servalabs.chat.database.model.StoryType;
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.keyvalue.StorySend;
+import com.servalabs.chat.linkpreview.LinkPreview;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryBackgroundColors;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.MessageSender.SendType;
-import org.thoughtcrime.securesms.stories.Stories;
+import com.servalabs.chat.mediasend.v2.text.TextStoryBackgroundColors;
+import com.servalabs.chat.mms.ImageSlide;
+import com.servalabs.chat.mms.OutgoingMessage;
+import com.servalabs.chat.mms.SentMediaQuality;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.SlideDeck;
+import com.servalabs.chat.mms.SlideFactory;
+import com.servalabs.chat.mms.StickerSlide;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.sms.MessageSender;
+import com.servalabs.chat.sms.MessageSender.SendType;
+import com.servalabs.chat.stories.Stories;
 import org.signal.core.util.Base64;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.MessageUtil;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.MessageUtil;
 import org.signal.core.util.Util;
 
 import java.util.ArrayList;
@@ -66,7 +66,7 @@ import java.util.stream.Collectors;
 import okio.Utf8;
 
 /**
- * MultiShareSender encapsulates send logic (stolen from {@link org.thoughtcrime.securesms.conversation.ConversationActivity}
+ * MultiShareSender encapsulates send logic (stolen from {@link com.servalabs.chat.conversation.ConversationActivity}
  * and provides a means to:
  * <p>
  * 1. Send messages based off a {@link MultiShareArgs} object and

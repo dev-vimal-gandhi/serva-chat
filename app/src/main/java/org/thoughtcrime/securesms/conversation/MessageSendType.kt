@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.content.Context
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * The kinds of messages you can send, e.g. a plain Signal message, an SMS message, etc.

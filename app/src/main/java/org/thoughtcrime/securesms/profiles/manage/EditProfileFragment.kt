@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
 import android.content.DialogInterface
 import android.graphics.drawable.Drawable
@@ -26,26 +26,26 @@ import org.signal.core.models.media.Media
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.AvatarPreviewActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatars.getForegroundColor
-import org.thoughtcrime.securesms.avatar.Avatars.getTextSizeForLength
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.databinding.EditProfileFragmentBinding
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.profiles.manage.EditProfileViewModel.AvatarState
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.UsernameDeleteResult
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity
-import org.thoughtcrime.securesms.util.NameUtil.getAbbreviation
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import com.servalabs.chat.AvatarPreviewActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.Avatars.getForegroundColor
+import com.servalabs.chat.avatar.Avatars.getTextSizeForLength
+import com.servalabs.chat.avatar.picker.AvatarPickerFragment
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.databinding.EditProfileFragmentBinding
+import com.servalabs.chat.keyvalue.AccountValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.profiles.manage.EditProfileViewModel.AvatarState
+import com.servalabs.chat.profiles.manage.UsernameRepository.UsernameDeleteResult
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.ui.RegistrationActivity
+import com.servalabs.chat.util.NameUtil.getAbbreviation
+import com.servalabs.chat.util.PlayStoreUtil
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.views.SimpleProgressDialog
 import java.util.Arrays
 import java.util.Optional
 import org.signal.core.ui.R as CoreUiR

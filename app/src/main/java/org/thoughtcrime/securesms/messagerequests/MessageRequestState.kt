@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests
+package com.servalabs.chat.messagerequests
 
 /**
  * Data necessary to render message request view.

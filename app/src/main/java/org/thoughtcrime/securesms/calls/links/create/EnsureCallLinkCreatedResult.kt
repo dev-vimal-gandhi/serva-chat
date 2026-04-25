@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package com.servalabs.chat.calls.links.create
 
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.links.CreateCallLinkResult
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.links.CreateCallLinkResult
 
 sealed interface EnsureCallLinkCreatedResult {
   data class Success(val recipient: Recipient) : EnsureCallLinkCreatedResult

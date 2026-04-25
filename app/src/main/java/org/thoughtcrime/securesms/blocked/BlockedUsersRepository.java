@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package com.servalabs.chat.blocked;
 
 import android.content.Context;
 
@@ -7,13 +7,13 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.RecipientRecord;
+import com.servalabs.chat.groups.GroupChangeBusyException;
+import com.servalabs.chat.groups.GroupChangeFailedException;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.recipients.RecipientUtil;
 
 import java.io.IOException;
 import java.util.List;

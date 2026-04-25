@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package com.servalabs.chat.backup.v2.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -33,9 +33,9 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.R
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.keyvalue.SignalStore
 import org.signal.core.ui.R as CoreUiR
 
 /**

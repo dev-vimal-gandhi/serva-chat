@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import androidx.annotation.NonNull;
 

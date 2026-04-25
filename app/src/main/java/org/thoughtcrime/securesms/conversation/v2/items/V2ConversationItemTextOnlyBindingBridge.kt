@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.view.View
 import android.view.ViewGroup
@@ -11,15 +11,15 @@ import android.widget.ImageView
 import android.widget.Space
 import android.widget.TextView
 import com.google.android.material.imageview.ShapeableImageView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AlertView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.DeliveryStatusView
-import org.thoughtcrime.securesms.components.ExpirationTimerView
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.databinding.V2ConversationItemTextOnlyIncomingBinding
-import org.thoughtcrime.securesms.databinding.V2ConversationItemTextOnlyOutgoingBinding
-import org.thoughtcrime.securesms.reactions.ReactionsConversationView
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.components.AlertView
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.DeliveryStatusView
+import com.servalabs.chat.components.ExpirationTimerView
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.databinding.V2ConversationItemTextOnlyIncomingBinding
+import com.servalabs.chat.databinding.V2ConversationItemTextOnlyOutgoingBinding
+import com.servalabs.chat.reactions.ReactionsConversationView
 
 /**
  * Pass-through interface for bridging incoming and outgoing text-only message views.

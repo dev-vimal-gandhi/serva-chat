@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.persistence
+package com.servalabs.chat.jobmanager.persistence
 
 data class JobSpec(
   val id: String,

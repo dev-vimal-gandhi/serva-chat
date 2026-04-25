@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package com.servalabs.chat.service.webrtc.state
 
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.events.GroupCallReactionEvent
 
 /**
  * The state of the call system which contains data which changes frequently.

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.net.Networking;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.net.Networking;
+import com.servalabs.chat.transport.RetryLaterException;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

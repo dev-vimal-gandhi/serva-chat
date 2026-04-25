@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState
 
 /**
  * Process actions to go from lobby to a joined call link.

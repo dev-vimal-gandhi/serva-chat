@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 public class UnrecoverableKeyException extends Exception {
   public UnrecoverableKeyException() {

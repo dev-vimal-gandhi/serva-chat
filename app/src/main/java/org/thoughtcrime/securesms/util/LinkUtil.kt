@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import com.servalabs.chat.stickers.StickerUrl
 import java.net.URI
 import java.net.URISyntaxException
 import java.util.Objects

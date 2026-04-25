@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.os.SystemClock;
 
@@ -6,7 +6,7 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
+import com.servalabs.chat.attachments.AttachmentId;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package com.servalabs.chat.components.settings.conversation.sounds
 
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.RecipientTable.NotificationSetting
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 data class SoundsAndNotificationsSettingsState2(
   val recipientId: RecipientId = Recipient.UNKNOWN.id,

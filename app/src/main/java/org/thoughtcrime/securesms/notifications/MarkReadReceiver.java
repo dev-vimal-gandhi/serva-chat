@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -12,18 +12,18 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.MessageTable.ExpirationInfo;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.MessageTable.SyncMessageId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.CallLogEventSendJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.database.CallTable;
+import com.servalabs.chat.database.MessageTable.ExpirationInfo;
+import com.servalabs.chat.database.MessageTable.MarkedMessageInfo;
+import com.servalabs.chat.database.MessageTable.SyncMessageId;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.CallLogEventSendJob;
+import com.servalabs.chat.jobs.MultiDeviceReadUpdateJob;
+import com.servalabs.chat.jobs.SendReadReceiptJob;
+import com.servalabs.chat.notifications.v2.ConversationId;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -33,7 +33,7 @@ import java.util.Map;
 public class MarkReadReceiver extends ExportedBroadcastReceiver {
 
   private static final String TAG                   = Log.tag(MarkReadReceiver.class);
-  public static final  String CLEAR_ACTION          = "org.thoughtcrime.securesms.notifications.CLEAR";
+  public static final  String CLEAR_ACTION          = "com.servalabs.chat.notifications.CLEAR";
   public static final  String THREADS_EXTRA         = "threads";
   public static final  String NOTIFICATION_ID_EXTRA = "notification_id";
 

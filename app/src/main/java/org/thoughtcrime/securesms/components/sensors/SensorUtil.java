@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.sensors;
+package com.servalabs.chat.components.sensors;
 
 public final class SensorUtil {
 

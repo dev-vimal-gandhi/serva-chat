@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import org.signal.core.util.logging.Log.tag
 import org.signal.libsignal.keytrans.Store
 import org.signal.libsignal.protocol.ServiceId
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
 import java.util.Optional
 
 /**

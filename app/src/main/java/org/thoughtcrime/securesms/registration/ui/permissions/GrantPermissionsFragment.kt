@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.permissions
+package com.servalabs.chat.registration.ui.permissions
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -19,12 +19,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.registration.fragments.WelcomePermissions
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.welcome.WelcomeUserSelection
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.BackupUtil
+import com.servalabs.chat.registration.fragments.WelcomePermissions
+import com.servalabs.chat.registration.ui.RegistrationCheckpoint
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.welcome.WelcomeUserSelection
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.util.BackupUtil
 
 /**
  * Screen in account registration that provides rationales for the suggested runtime permissions.

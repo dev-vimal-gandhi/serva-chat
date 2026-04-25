@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.model
+package com.servalabs.chat.conversationlist.model
 
 /**
  * Describes what conversations should display in the

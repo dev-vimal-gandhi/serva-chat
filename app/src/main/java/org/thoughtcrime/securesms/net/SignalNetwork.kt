@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.net
+package com.servalabs.chat.net
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.KeyTransparencyApi
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.KeyTransparencyApi
 import org.whispersystems.signalservice.api.account.AccountApi
 import org.whispersystems.signalservice.api.archive.ArchiveApi
 import org.whispersystems.signalservice.api.attachment.AttachmentApi
@@ -26,7 +26,7 @@ import org.whispersystems.signalservice.api.svr.SvrBApi
 import org.whispersystems.signalservice.api.username.UsernameApi
 
 /**
- * A convenient way to access network operations, similar to [org.thoughtcrime.securesms.database.SignalDatabase] and [org.thoughtcrime.securesms.keyvalue.SignalStore].
+ * A convenient way to access network operations, similar to [com.servalabs.chat.database.SignalDatabase] and [com.servalabs.chat.keyvalue.SignalStore].
  */
 object SignalNetwork {
   @JvmStatic

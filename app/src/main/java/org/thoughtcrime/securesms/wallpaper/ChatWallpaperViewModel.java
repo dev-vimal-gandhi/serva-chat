@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,16 +10,16 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.conversation.colors.ChatColors;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientForeverObserver;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

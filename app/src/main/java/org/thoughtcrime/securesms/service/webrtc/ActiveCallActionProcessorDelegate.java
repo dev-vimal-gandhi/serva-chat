@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -10,22 +10,22 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager.CallEndReason;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.CallState;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.audio.OutgoingRinger;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.ringrtc.CallState;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.webrtc.audio.OutgoingRinger;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 /**
  * Encapsulates the shared logic to manage an active 1:1 call. An active call is any call that is being setup

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -18,9 +18,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.google.android.material.button.MaterialButton;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.InputAwareLayout;
+import com.servalabs.chat.R;
+import com.servalabs.chat.animation.AnimationCompleteListener;
+import com.servalabs.chat.components.InputAwareLayout;
 import org.signal.core.models.media.Media;
 import org.signal.core.ui.util.StorageUtil;
 import org.signal.core.ui.util.ThemeUtil;

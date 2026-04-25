@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package com.servalabs.chat.stories.viewer.info
 
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.messagedetails.MessageDetails
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.messagedetails.MessageDetails
 
 /**
  * Contains the needed information to render the story info sheet.

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package com.servalabs.chat.components.settings.app.account.export
 
 import android.net.Uri
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.node.ObjectNode
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.JsonUtils
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.JsonUtils
 import org.whispersystems.signalservice.api.NetworkResult
 
 class ExportAccountDataRepository {

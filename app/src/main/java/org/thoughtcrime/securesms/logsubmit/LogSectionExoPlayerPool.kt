@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.logsubmit
+package com.servalabs.chat.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.video.exo.ExoPlayerPool
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.video.exo.ExoPlayerPool
 
 /**
  * Prints off the current exoplayer pool stats, including ownership info.

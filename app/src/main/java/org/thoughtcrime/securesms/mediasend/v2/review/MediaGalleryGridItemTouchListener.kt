@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
 import android.content.Context
 import android.content.res.Resources

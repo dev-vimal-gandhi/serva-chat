@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package com.servalabs.chat.gcm;
 
 import android.app.Service;
 import android.content.Intent;

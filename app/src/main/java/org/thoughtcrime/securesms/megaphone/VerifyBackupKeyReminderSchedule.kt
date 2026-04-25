@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.megaphone
+package com.servalabs.chat.megaphone
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 import kotlin.time.Duration.Companion.days
 
 /**

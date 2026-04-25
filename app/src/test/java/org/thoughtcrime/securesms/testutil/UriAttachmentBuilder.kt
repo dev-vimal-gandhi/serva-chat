@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.testutil
+package com.servalabs.chat.testutil
 
 import android.net.Uri
 import org.signal.blurhash.BlurHash
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import com.servalabs.chat.attachments.UriAttachment
+import com.servalabs.chat.audio.AudioHash
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.stickers.StickerLocator
 
 object UriAttachmentBuilder {
   fun build(

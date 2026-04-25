@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package com.servalabs.chat.sharing.v2
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -9,9 +9,9 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.sharing.InterstitialContentType
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.sharing.InterstitialContentType
+import com.servalabs.chat.util.rx.RxStore
 
 class ShareViewModel(
   unresolvedShareData: UnresolvedShareData,

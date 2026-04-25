@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 class ChatWallpaperSelectionMappingModel implements MappingModel<ChatWallpaperSelectionMappingModel> {
 

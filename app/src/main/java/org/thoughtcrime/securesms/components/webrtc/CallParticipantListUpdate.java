@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
@@ -7,8 +7,8 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.SetUtil;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.events.CallParticipantId;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,7 +16,7 @@ import java.util.Set;
 
 /**
  * Represents the delta between two lists of CallParticipant objects. This is used along with
- * {@link org.thoughtcrime.securesms.components.webrtc.v2.CallParticipantUpdatePopupKt} to display in-call notifications to the user
+ * {@link com.servalabs.chat.components.webrtc.v2.CallParticipantUpdatePopupKt} to display in-call notifications to the user
  * whenever remote participants leave or reconnect to the call.
  */
 public final class CallParticipantListUpdate {

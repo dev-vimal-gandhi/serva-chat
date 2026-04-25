@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import org.signal.core.ui.CoreUiDependencies
-import org.thoughtcrime.securesms.ScreenLockController
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.ScreenLockController
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.TextSecurePreferences
 
 object CoreUiDependenciesProvider : CoreUiDependencies.Provider {
   override fun provideBackupBaseDirName(): String {

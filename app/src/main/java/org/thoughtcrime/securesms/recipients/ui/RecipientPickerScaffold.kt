@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui
+package com.servalabs.chat.recipients.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -34,10 +34,10 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.detailPaneMaxContentWidth
 import org.signal.core.ui.isSplitPane
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.compose.ScreenTitlePane
-import org.thoughtcrime.securesms.window.AppScaffold
-import org.thoughtcrime.securesms.window.rememberAppScaffoldNavigator
+import com.servalabs.chat.R
+import com.servalabs.chat.components.compose.ScreenTitlePane
+import com.servalabs.chat.window.AppScaffold
+import com.servalabs.chat.window.rememberAppScaffoldNavigator
 
 /**
  * Provides the common adaptive layout structure for recipient picker screens.

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LifecycleOwner;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import com.servalabs.chat.conversationlist.model.ConversationSet;
+import com.servalabs.chat.database.model.ThreadRecord;
 
 import java.util.Locale;
 import java.util.Set;

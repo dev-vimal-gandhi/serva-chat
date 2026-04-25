@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -11,17 +11,17 @@ import android.widget.Toast
 import androidx.core.app.ShareCompat
 import androidx.core.os.bundleOf
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity
-import org.thoughtcrime.securesms.components.webrtc.controls.CallInfoView
-import org.thoughtcrime.securesms.components.webrtc.controls.ControlsAndInfoViewModel
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity
+import com.servalabs.chat.BaseActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.links.CallLinks
+import com.servalabs.chat.calls.links.EditCallLinkNameDialogFragment
+import com.servalabs.chat.components.settings.conversation.ConversationSettingsActivity
+import com.servalabs.chat.components.webrtc.controls.CallInfoView
+import com.servalabs.chat.components.webrtc.controls.ControlsAndInfoViewModel
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.verify.VerifyIdentityActivity
 
 /**
  * Callbacks for the CallInfoView, shared between CallActivity and ControlsAndInfoController.

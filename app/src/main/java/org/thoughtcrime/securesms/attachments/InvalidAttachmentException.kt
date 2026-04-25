@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 /**
  * Thrown by jobs unable to rehydrate enough attachment information to download it.

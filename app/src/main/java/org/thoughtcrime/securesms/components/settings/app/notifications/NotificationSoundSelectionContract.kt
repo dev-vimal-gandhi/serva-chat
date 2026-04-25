@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package com.servalabs.chat.components.settings.app.notifications
 
 import android.content.Context
 import android.content.Intent
@@ -12,7 +12,7 @@ import android.net.Uri
 import android.provider.Settings
 import androidx.activity.result.contract.ActivityResultContract
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Activity result contract for launching the system ringtone picker to select notification sounds.

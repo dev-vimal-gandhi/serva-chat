@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models
+package com.servalabs.chat.components.settings.app.notifications.profiles.models
 
 import android.view.View
 import androidx.compose.foundation.Image
@@ -31,20 +31,20 @@ import com.google.android.material.materialswitch.MaterialSwitch
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.components.settings.PreferenceViewHolder
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileId
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileSchedule
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.components.settings.DSLSettingsIcon
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.components.settings.PreferenceViewHolder
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfileId
+import com.servalabs.chat.notifications.profiles.NotificationProfileSchedule
+import com.servalabs.chat.notifications.profiles.NotificationProfiles
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.visible
 import java.util.UUID
 
 /**

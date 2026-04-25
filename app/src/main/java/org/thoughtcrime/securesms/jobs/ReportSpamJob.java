@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.Base64;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable.ReportSpamData;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.MessageTable.ReportSpamData;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.SignalNetwork;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 import org.signal.core.models.ServiceId;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;

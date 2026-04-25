@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import android.os.PowerManager
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.util.WakeLockUtil
+import com.servalabs.chat.util.WakeLockUtil
 import kotlin.time.Duration.Companion.minutes
 
 /**

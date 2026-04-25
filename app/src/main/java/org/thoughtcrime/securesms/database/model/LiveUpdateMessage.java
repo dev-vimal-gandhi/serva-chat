@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -13,14 +13,14 @@ import androidx.lifecycle.Transformations;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.fonts.SignalSymbols;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Weight;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import com.servalabs.chat.fonts.SignalSymbols;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.fonts.SignalSymbols.Weight;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.SpanUtil;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.function.Function;

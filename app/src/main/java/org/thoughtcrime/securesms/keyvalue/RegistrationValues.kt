@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import androidx.annotation.CheckResult
 import androidx.annotation.VisibleForTesting
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.model.databaseprotos.LocalRegistrationMetadata
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.database.model.databaseprotos.LocalRegistrationMetadata
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.dependencies.AppDependencies
 
 class RegistrationValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

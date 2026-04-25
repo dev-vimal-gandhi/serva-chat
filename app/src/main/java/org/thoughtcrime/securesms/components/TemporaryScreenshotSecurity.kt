@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.util.TextSecurePreferences
 
 /**
  * Applies temporary screenshot security for the given component lifecycle.

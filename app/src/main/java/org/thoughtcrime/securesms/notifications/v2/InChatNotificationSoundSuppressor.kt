@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import org.signal.core.util.logging.Log
 

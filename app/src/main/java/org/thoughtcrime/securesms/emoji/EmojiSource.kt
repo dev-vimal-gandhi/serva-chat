@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.emoji
+package com.servalabs.chat.emoji
 
 import android.net.Uri
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.StaticEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ScreenDensity
+import com.servalabs.chat.components.emoji.Emoji
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.components.emoji.StaticEmojiPageModel
+import com.servalabs.chat.components.emoji.parsing.EmojiDrawInfo
+import com.servalabs.chat.components.emoji.parsing.EmojiTree
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ScreenDensity
 import java.io.InputStream
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.atomic.AtomicReference

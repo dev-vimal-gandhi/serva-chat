@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package com.servalabs.chat.maps;
 
 import android.content.Context;
 import android.location.Location;
@@ -14,7 +14,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.Locale;
 

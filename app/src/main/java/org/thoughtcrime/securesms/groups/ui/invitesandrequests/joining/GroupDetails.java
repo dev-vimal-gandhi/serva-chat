@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

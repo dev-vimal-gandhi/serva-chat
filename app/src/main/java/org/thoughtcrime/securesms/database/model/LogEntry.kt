@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 data class LogEntry(
   val createdAt: Long,

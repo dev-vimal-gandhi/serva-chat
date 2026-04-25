@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package com.servalabs.chat.components.settings.app.backups.remote
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,11 +16,11 @@ import kotlinx.coroutines.withContext
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.StagedBackupKeyRotations
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RestoreOptimizedMediaJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.StagedBackupKeyRotations
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.RestoreOptimizedMediaJob
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.NetworkResult
 
 class BackupKeyDisplayViewModel : ViewModel(), BackupKeyCredentialManagerHandler {

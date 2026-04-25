@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import org.signal.core.models.media.Media
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.MediaUtil
 
 object MediaValidator {
 

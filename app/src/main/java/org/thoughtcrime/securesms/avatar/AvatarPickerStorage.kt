@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.avatar
+package com.servalabs.chat.avatar
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.storage.FileStorage
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.storage.FileStorage
 import java.io.InputStream
 
 object AvatarPickerStorage {

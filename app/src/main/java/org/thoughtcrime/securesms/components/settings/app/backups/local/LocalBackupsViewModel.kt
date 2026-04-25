@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
 import android.content.Context
 import android.net.Uri
@@ -16,19 +16,19 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.ui.util.StorageUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.BackupPassphrase
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeySaveState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.LocalBackupJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.formatHours
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.BackupPassphrase
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeySaveState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.LocalBackupJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.formatHours
 import java.time.LocalTime
 import java.util.Locale
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.profiles.username
+package com.servalabs.chat.profiles.username
 
 import android.os.Bundle
 import androidx.compose.foundation.Image
@@ -32,8 +32,8 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.profiles.manage.EditProfileActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.profiles.manage.EditProfileActivity
 import org.signal.core.ui.R as CoreUiR
 
 /**

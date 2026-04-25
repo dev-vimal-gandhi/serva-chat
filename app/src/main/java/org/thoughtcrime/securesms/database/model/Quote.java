@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.text.SpannableString;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.mms.QuoteModel;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.components.mention.MentionAnnotation;
+import com.servalabs.chat.mms.QuoteModel;
+import com.servalabs.chat.mms.SlideDeck;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.Util;
 
 import java.util.List;

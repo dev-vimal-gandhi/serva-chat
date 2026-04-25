@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,22 +15,22 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.models.ServiceId;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerV2;
-import org.thoughtcrime.securesms.conversation.colors.NameColor;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel;
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelRepository;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.R;
+import com.servalabs.chat.conversation.colors.ColorizerV2;
+import com.servalabs.chat.conversation.colors.NameColor;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.memberlabel.MemberLabel;
+import com.servalabs.chat.groups.memberlabel.MemberLabelRepository;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.ui.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import com.servalabs.chat.util.CommunicationActions;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;

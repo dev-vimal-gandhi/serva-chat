@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -16,22 +16,22 @@ import androidx.core.app.RemoteInput
 import androidx.core.content.LocusIdCompat
 import androidx.core.graphics.drawable.IconCompat
 import org.signal.core.util.PendingIntentFlags.mutable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.ReplyMethod
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.AvatarUtil
-import org.thoughtcrime.securesms.util.BubbleUtil
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.ReplyMethod
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientUtil
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.util.AvatarUtil
+import com.servalabs.chat.util.BubbleUtil
+import com.servalabs.chat.util.ConversationUtil
+import com.servalabs.chat.util.TextSecurePreferences
 import java.util.Optional
 import androidx.core.app.Person as PersonCompat
 

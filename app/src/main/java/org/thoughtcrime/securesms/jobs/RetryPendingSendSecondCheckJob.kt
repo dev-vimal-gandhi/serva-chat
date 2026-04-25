@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.SecondRoundFixupSendJobData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.protos.SecondRoundFixupSendJobData
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.sms.MessageSender
 import kotlin.time.Duration.Companion.days
 
 /**

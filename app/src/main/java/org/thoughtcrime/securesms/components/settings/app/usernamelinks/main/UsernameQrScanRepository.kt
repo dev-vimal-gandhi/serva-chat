@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.net.Uri
@@ -14,8 +14,8 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.toOptional
 import org.signal.qr.QrProcessor
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * A collection of functions to help with scanning QR codes for usernames.

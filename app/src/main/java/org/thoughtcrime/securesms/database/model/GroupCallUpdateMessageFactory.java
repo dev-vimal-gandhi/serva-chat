@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -6,12 +6,12 @@ import android.text.SpannableString;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DateUtils;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.model.databaseprotos.GroupCallUpdateDetails;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DateUtils;
 import org.signal.core.models.ServiceId;
 import org.signal.core.models.ServiceId.ACI;
 

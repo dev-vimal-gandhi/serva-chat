@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -8,9 +8,9 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.Optional;
 

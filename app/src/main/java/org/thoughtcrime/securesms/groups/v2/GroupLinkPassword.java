@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package com.servalabs.chat.groups.v2;
 
 import androidx.annotation.NonNull;
 

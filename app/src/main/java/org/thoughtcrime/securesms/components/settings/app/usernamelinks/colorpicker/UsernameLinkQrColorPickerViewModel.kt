@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.colorpicker
+package com.servalabs.chat.components.settings.app.usernamelinks.colorpicker
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -10,14 +10,14 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.toLink
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.manage.UsernameRepository.toLink
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
 
 class UsernameLinkQrColorPickerViewModel : ViewModel() {
 

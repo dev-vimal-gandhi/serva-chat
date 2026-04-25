@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package com.servalabs.chat.components.settings.app.notifications
 
 import android.content.SharedPreferences
 import android.net.Uri
@@ -14,15 +14,15 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.ApplicationContext
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.NotificationDeliveryMethod
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.SlowNotificationHeuristics
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.ApplicationContext
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SettingsValues.NotificationDeliveryMethod
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.DeviceSpecificNotificationConfig
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.SlowNotificationHeuristics
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference
+import com.servalabs.chat.util.TextSecurePreferences
 
 class NotificationsSettingsViewModel(private val sharedPreferences: SharedPreferences) : ViewModel() {
 

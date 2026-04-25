@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.GroupReceiptTable
+import com.servalabs.chat.database.MessageTable
 
 /**
  * Queries used by backup exporter to estimate total counts for various complicated tables.

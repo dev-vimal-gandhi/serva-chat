@@ -2,12 +2,12 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.media
+package com.servalabs.chat.media
 
 import android.content.Context
 import android.media.MediaExtractor
 import android.net.Uri
-import org.thoughtcrime.securesms.video.interfaces.MediaInput
+import com.servalabs.chat.video.interfaces.MediaInput
 import java.io.IOException
 
 /**

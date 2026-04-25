@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.Base64;
 import org.signal.core.util.logging.Log;
 import org.signal.archive.proto.GroupCall;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.model.databaseprotos.GroupCallUpdateDetails;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.models.ServiceId;
 
 import java.io.IOException;

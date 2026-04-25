@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.DecryptionsDrainedConstraint
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobmanager.impl.DecryptionsDrainedConstraint
 
 /**
  * During group state processing we sometimes detect situations where we should auto-leave. For example,

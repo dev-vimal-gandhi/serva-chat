@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.JsonJobData;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

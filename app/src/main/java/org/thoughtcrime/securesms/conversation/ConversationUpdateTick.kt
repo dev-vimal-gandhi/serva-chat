@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.os.Handler
 import android.os.Looper

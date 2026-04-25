@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.sms;
+package com.servalabs.chat.sms;
 
 import androidx.annotation.NonNull;
 
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChange;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
+import com.servalabs.chat.mms.MessageGroupContext;
 import org.signal.core.models.ServiceId;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupExtensions;
 

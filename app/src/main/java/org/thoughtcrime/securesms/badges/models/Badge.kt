@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.models
+package com.servalabs.chat.badges.models
 
 import android.animation.ObjectAnimator
 import android.net.Uri
@@ -15,12 +15,12 @@ import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 import org.signal.core.models.UriSerializer
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.load.BadgeSpriteTransformation
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.load.BadgeSpriteTransformation
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 import java.security.MessageDigest
 
 typealias OnBadgeClicked = (Badge, Boolean, Boolean) -> Unit

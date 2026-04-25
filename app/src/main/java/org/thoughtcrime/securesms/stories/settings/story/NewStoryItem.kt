@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package com.servalabs.chat.stories.settings.story
 
-import org.thoughtcrime.securesms.databinding.NewStoryItemBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.databinding.NewStoryItemBinding
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 /**
  * Entry point for new story creation.

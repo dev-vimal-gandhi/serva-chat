@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package com.servalabs.chat.components.settings.app.privacy.expire
 
 import android.app.Activity
 import android.content.Intent
@@ -36,13 +36,13 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.GroupErrors
-import org.thoughtcrime.securesms.util.ExpirationUtil
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.distinctUntilChanged
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.groups.ui.GroupErrors
+import com.servalabs.chat.util.ExpirationUtil
+import com.servalabs.chat.util.livedata.ProcessState
+import com.servalabs.chat.util.livedata.distinctUntilChanged
+import com.servalabs.chat.util.navigation.safeNavigate
 import kotlin.time.Duration.Companion.seconds
 
 /**

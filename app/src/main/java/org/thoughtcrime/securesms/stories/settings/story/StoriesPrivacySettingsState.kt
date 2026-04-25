@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package com.servalabs.chat.stories.settings.story
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.stories.archive.StoryArchiveDuration
+import com.servalabs.chat.contacts.paged.ContactSearchData
+import com.servalabs.chat.stories.archive.StoryArchiveDuration
 
 data class StoriesPrivacySettingsState(
   val areStoriesEnabled: Boolean,

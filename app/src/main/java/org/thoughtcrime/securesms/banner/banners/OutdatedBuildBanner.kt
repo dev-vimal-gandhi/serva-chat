@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package com.servalabs.chat.banner.banners
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -16,13 +16,13 @@ import kotlinx.coroutines.flow.flowOf
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.ui.compose.Action
-import org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner
-import org.thoughtcrime.securesms.banner.ui.compose.Importance
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.PlayStoreUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.banner.Banner
+import com.servalabs.chat.banner.ui.compose.Action
+import com.servalabs.chat.banner.ui.compose.DefaultBanner
+import com.servalabs.chat.banner.ui.compose.Importance
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.PlayStoreUtil
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

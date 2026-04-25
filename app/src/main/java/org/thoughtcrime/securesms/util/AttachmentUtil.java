@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 
 import android.content.Context;
@@ -10,15 +10,15 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.jobmanager.impl.NotInCallConstraint;
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.database.NoSuchMessageException;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.jobmanager.impl.NotInCallConstraint;
+import com.servalabs.chat.jobs.MultiDeviceDeleteSyncJob;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.Set;

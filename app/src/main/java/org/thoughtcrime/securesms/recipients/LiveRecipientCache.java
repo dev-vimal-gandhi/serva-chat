@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package com.servalabs.chat.recipients;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,16 +11,16 @@ import androidx.annotation.VisibleForTesting;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.RecipientTable.MissingRecipientException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.RecipientTable.MissingRecipientException;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.ThreadRecord;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.util.CursorUtil;
 import org.signal.core.util.LRUCache;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import com.servalabs.chat.util.concurrent.FilteredExecutor;
 import org.signal.core.models.ServiceId.ACI;
 
 import java.util.ArrayList;

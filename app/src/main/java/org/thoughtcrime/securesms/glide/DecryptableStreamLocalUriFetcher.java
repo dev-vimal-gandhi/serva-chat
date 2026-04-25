@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.glide;
+package com.servalabs.chat.glide;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -15,12 +15,12 @@ import com.bumptech.glide.load.data.StreamLocalUriFetcher;
 
 import org.signal.core.util.logging.Log;
 import org.signal.glide.common.io.GlideStreamConfig;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.BitmapDecodingException;
+import com.servalabs.chat.util.BitmapUtil;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

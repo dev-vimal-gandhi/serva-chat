@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import androidx.core.content.ContextCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarRenderer
+import com.servalabs.chat.avatar.Avatars
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.AvatarHelper
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.transport.RetryLaterException
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 

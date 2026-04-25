@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedVisibility
@@ -46,9 +46,9 @@ import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.AllNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.WebRtcLocalRenderState
-import org.thoughtcrime.securesms.events.CallParticipant
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.WebRtcLocalRenderState
+import com.servalabs.chat.events.CallParticipant
 
 /**
  * Small moveable local video renderer that displays the user's video in a draggable and expandable view.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -10,11 +10,11 @@ import android.view.Window
 import android.view.inspector.WindowInspector
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.biometric.BiometricDialogFragment
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.biometric.BiometricDialogFragment
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.migrations.ApplicationMigrations
+import com.servalabs.chat.util.ServiceUtil
 
 private val TAG = Log.tag(ScreenLockController.javaClass)
 

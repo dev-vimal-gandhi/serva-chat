@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.groups.v2;
+package com.servalabs.chat.groups.v2;
 
-import static org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil.MONERO_TX_PATTERN;
+import static com.servalabs.chat.linkpreview.LinkPreviewUtil.MONERO_TX_PATTERN;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -19,10 +19,10 @@ import androidx.core.text.util.LinkifyCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.util.LinkUtil;
-import org.thoughtcrime.securesms.util.LongClickCopySpan;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.util.LinkUtil;
+import com.servalabs.chat.util.LongClickCopySpan;
 
 public final class GroupDescriptionUtil {
 

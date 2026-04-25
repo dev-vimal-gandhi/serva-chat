@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package com.servalabs.chat.groups.ui.chooseadmin;
 
 import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
@@ -9,12 +9,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.LiveGroup;
+import com.servalabs.chat.groups.ui.GroupChangeResult;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.Collections;

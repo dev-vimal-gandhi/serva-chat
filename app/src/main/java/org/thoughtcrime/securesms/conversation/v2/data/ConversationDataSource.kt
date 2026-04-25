@@ -3,28 +3,28 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.data
+package com.servalabs.chat.conversation.v2.data
 
 import android.content.Context
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toInt
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.BackupRestoreManager
-import org.thoughtcrime.securesms.conversation.ConversationData
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord.RemovedContactHidden
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord.UniversalExpireTimerUpdate
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.BackupRestoreManager
+import com.servalabs.chat.conversation.ConversationData
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.ConversationMessage.ConversationMessageFactory
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InMemoryMessageRecord.RemovedContactHidden
+import com.servalabs.chat.database.model.InMemoryMessageRecord.UniversalExpireTimerUpdate
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.messagerequests.MessageRequestRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 private typealias ConversationElement = MappingModel<*>
 

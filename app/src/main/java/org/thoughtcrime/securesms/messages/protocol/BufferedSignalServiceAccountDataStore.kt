@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.signal.core.models.ServiceId
 import org.signal.core.util.withinTransaction
@@ -13,8 +13,8 @@ import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import org.signal.libsignal.protocol.state.PreKeyRecord
 import org.signal.libsignal.protocol.state.SessionRecord
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID

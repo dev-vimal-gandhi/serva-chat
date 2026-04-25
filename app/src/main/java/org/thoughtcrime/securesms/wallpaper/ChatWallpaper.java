@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.content.Context;
 import android.os.Parcelable;
@@ -7,9 +7,9 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsMapper;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
+import com.servalabs.chat.conversation.colors.ChatColors;
+import com.servalabs.chat.conversation.colors.ChatColorsMapper;
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.os.SystemClock
 import org.signal.core.util.LRUCache
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
-import org.thoughtcrime.securesms.database.model.LocalMetricsSplit
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.database.LocalMetricsDatabase
+import com.servalabs.chat.database.model.LocalMetricsEvent
+import com.servalabs.chat.database.model.LocalMetricsSplit
+import com.servalabs.chat.dependencies.AppDependencies
 import java.util.concurrent.Executor
 import java.util.concurrent.TimeUnit
 

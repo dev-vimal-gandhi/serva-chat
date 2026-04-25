@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.app.Application
 import android.text.Spannable
@@ -21,8 +21,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList.BodyRange
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList.BodyRange.Style
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList.BodyRange
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList.BodyRange.Style
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

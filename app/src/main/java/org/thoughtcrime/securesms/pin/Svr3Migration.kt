@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.pin
+package com.servalabs.chat.pin
 
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.util.RemoteConfig
 
 object Svr3Migration {
 

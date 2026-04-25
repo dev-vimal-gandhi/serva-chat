@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.giph.mp4
+package com.servalabs.chat.giph.mp4
 
 import android.graphics.Canvas
 import android.graphics.Rect
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.conversation.ConversationHeaderView
+import com.servalabs.chat.conversation.ConversationHeaderView
 import kotlin.math.min
 
 /**

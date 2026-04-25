@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 public class MediaSendConstants {
   public static final int MAX_PUSH = 32;

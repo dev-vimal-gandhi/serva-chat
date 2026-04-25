@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package com.servalabs.chat.stories.settings.story
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.stories.Stories
 
 class StoriesPrivacySettingsRepository {
   fun markGroupsAsStories(groups: List<RecipientId>): Completable {

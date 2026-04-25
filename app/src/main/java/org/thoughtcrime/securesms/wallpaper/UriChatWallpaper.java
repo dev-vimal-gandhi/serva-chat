@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,7 +19,7 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper;
 import org.signal.glide.decryptableuri.DecryptableUri;
 
 import java.util.Objects;

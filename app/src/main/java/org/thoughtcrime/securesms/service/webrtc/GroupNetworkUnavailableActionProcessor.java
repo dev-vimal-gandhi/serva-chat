@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -11,12 +11,12 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.components.webrtc.EglBaseWrapper;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.util.RemoteConfig;
 
 /**
  * Processor which is utilized when the network becomes unavailable during a group call. In general,

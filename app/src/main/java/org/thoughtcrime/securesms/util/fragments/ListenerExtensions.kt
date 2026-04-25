@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.fragments
+package com.servalabs.chat.util.fragments
 
 import androidx.fragment.app.Fragment
 

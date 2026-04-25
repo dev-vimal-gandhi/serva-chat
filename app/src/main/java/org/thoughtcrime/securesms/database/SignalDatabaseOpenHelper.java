@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 

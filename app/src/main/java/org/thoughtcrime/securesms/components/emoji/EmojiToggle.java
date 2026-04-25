@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageButton;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyboard.KeyboardPage;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 public class EmojiToggle extends AppCompatImageButton implements MediaKeyboard.MediaKeyboardListener {
 

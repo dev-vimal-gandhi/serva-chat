@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.polls.Poll
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.database.MessageType
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.polls.Poll
+import com.servalabs.chat.recipients.RecipientId
 
 class IncomingMessage(
   val type: MessageType,

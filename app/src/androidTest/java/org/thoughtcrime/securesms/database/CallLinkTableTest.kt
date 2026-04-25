@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Rule
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class CallLinkTableTest {

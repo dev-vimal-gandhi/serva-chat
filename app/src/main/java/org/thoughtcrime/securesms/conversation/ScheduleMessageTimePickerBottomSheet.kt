@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.os.Bundle
 import android.text.format.DateFormat
@@ -14,16 +14,16 @@ import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.ScheduleMessageTimePickerBottomSheetBinding
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.atMidnight
-import org.thoughtcrime.securesms.util.atUTC
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.ScheduleMessageTimePickerBottomSheetBinding
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.atMidnight
+import com.servalabs.chat.util.atUTC
+import com.servalabs.chat.util.formatHours
+import com.servalabs.chat.util.fragments.findListener
+import com.servalabs.chat.util.toLocalDateTime
+import com.servalabs.chat.util.toMillis
 import java.time.LocalDateTime
 import java.time.LocalTime
 import java.time.ZoneId

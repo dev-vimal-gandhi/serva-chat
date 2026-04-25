@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview.caption
+package com.servalabs.chat.mediapreview.caption
 
 import android.content.Context
 import android.graphics.Typeface
@@ -9,8 +9,8 @@ import android.text.style.StyleSpan
 import android.util.AttributeSet
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiTextView
 
 class ExpandingCaptionView @JvmOverloads constructor(
   context: Context,

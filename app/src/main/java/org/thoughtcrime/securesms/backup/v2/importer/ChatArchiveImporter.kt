@@ -3,25 +3,25 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import androidx.core.content.contentValuesOf
 import org.signal.archive.proto.Chat
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.insertInto
 import org.signal.core.util.toInt
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.database.restoreWallpaperAttachment
-import org.thoughtcrime.securesms.backup.v2.util.parseChatWallpaper
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.backup.v2.util.toLocalAttachment
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.wallpaper.UriChatWallpaper
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.database.restoreWallpaperAttachment
+import com.servalabs.chat.backup.v2.util.parseChatWallpaper
+import com.servalabs.chat.backup.v2.util.toLocal
+import com.servalabs.chat.backup.v2.util.toLocalAttachment
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.wallpaper.UriChatWallpaper
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import android.content.ContentValues
 import androidx.core.content.contentValuesOf
@@ -35,46 +35,46 @@ import org.signal.core.util.orNull
 import org.signal.core.util.requireLong
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.util.toLocalAttachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.ReactionTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchSet
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.documents.NetworkFailureSet
-import org.thoughtcrime.securesms.database.model.GroupCallUpdateDetailsUtil
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.database.model.databaseprotos.PinnedMessage
-import org.thoughtcrime.securesms.database.model.databaseprotos.PollTerminate
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails
-import org.thoughtcrime.securesms.database.model.databaseprotos.SessionSwitchoverEvent
-import org.thoughtcrime.securesms.database.model.databaseprotos.ThreadMergeEvent
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MessageUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.PointerAttachment
+import com.servalabs.chat.attachments.TombstoneAttachment
+import com.servalabs.chat.backup.v2.ImportSkips
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.util.toLocalAttachment
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.GroupReceiptTable
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.ReactionTable
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase.Companion.recipients
+import com.servalabs.chat.database.documents.IdentityKeyMismatch
+import com.servalabs.chat.database.documents.IdentityKeyMismatchSet
+import com.servalabs.chat.database.documents.NetworkFailure
+import com.servalabs.chat.database.documents.NetworkFailureSet
+import com.servalabs.chat.database.model.GroupCallUpdateDetailsUtil
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras
+import com.servalabs.chat.database.model.databaseprotos.PinnedMessage
+import com.servalabs.chat.database.model.databaseprotos.PollTerminate
+import com.servalabs.chat.database.model.databaseprotos.ProfileChangeDetails
+import com.servalabs.chat.database.model.databaseprotos.SessionSwitchoverEvent
+import com.servalabs.chat.database.model.databaseprotos.ThreadMergeEvent
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mms.QuoteModel
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.MessageUtil
 import org.whispersystems.signalservice.internal.push.DataMessage
 import java.math.BigInteger
 import java.sql.SQLException
@@ -1102,8 +1102,8 @@ class ChatItemArchiveImporter(
     )
   }
 
-  private fun LinkPreview.toLocalLinkPreview(): org.thoughtcrime.securesms.linkpreview.LinkPreview {
-    return org.thoughtcrime.securesms.linkpreview.LinkPreview(
+  private fun LinkPreview.toLocalLinkPreview(): com.servalabs.chat.linkpreview.LinkPreview {
+    return com.servalabs.chat.linkpreview.LinkPreview(
       this.url,
       this.title ?: "",
       this.description ?: "",

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package com.servalabs.chat.pin;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.CommunicationActions;
 
 public class PinRestoreLockedFragment extends LoggingFragment {
 

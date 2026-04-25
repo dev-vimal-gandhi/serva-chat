@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.app.Application
 import android.graphics.drawable.Drawable
@@ -23,8 +23,8 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.Shadows.shadowOf
 import org.robolectric.annotation.Config
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.visible
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -20,19 +20,19 @@ import org.signal.core.util.Base64
 import org.signal.core.util.concurrent.safeBlockingGet
 import org.signal.core.util.readParcelableCompat
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ParcelUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.fonts.TextToScript
+import com.servalabs.chat.fonts.TypefaceCache
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.ParcelUtil
 import java.io.IOException
 import java.security.MessageDigest
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import android.net.Uri
 import io.mockk.every
@@ -11,23 +11,23 @@ import io.mockk.mockkStatic
 import io.mockk.slot
 import io.mockk.unmockkStatic
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.UriAttachmentBuilder
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.jobs.ThreadUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.UriAttachment
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.UriAttachmentBuilder
+import com.servalabs.chat.database.model.GroupsV2UpdateMessageConverter
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.jobs.ThreadUpdateJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.GroupTestingUtils
+import com.servalabs.chat.testing.MessageContentFuzzer
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.MediaUtil
 import java.util.UUID
 import kotlin.random.Random
 

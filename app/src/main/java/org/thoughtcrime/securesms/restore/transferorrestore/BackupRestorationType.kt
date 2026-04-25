@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.transferorrestore
+package com.servalabs.chat.restore.transferorrestore
 
 /**
  *  What kind of backup restore the user wishes to perform.

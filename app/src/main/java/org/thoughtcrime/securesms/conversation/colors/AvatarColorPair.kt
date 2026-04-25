@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import org.signal.core.ui.util.ThemeUtil
 import com.google.android.material.R as MaterialR
-import org.thoughtcrime.securesms.avatar.Avatars
+import com.servalabs.chat.avatar.Avatars
 
 class AvatarColorPair private constructor(
   @ColorInt val foregroundColor: Int,

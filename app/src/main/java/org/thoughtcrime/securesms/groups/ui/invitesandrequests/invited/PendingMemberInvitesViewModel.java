@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited;
+package com.servalabs.chat.groups.ui.invitesandrequests.invited;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -9,10 +9,10 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.util.DefaultValueLiveData;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.ArrayList;

@@ -3,32 +3,32 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.AttachmentUploadUtil
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.backup.v2.ArchiveDatabaseExecutor
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.UploadedThumbnailInfo
-import org.thoughtcrime.securesms.backup.v2.hadIntegrityCheckPerformed
-import org.thoughtcrime.securesms.backup.v2.requireThumbnailMediaName
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.BackupMessagesConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.NoRemoteArchiveGarbageCollectionPendingConstraint
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobs.protos.ArchiveThumbnailUploadJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.util.ImageCompressionUtil
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.AttachmentUploadUtil
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.backup.v2.ArchiveDatabaseExecutor
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.UploadedThumbnailInfo
+import com.servalabs.chat.backup.v2.hadIntegrityCheckPerformed
+import com.servalabs.chat.backup.v2.requireThumbnailMediaName
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.BackupMessagesConstraint
+import com.servalabs.chat.jobmanager.impl.NoRemoteArchiveGarbageCollectionPendingConstraint
+import com.servalabs.chat.jobmanager.persistence.JobSpec
+import com.servalabs.chat.jobs.protos.ArchiveThumbnailUploadJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.util.ImageCompressionUtil
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.attachment.AttachmentUploadResult
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment

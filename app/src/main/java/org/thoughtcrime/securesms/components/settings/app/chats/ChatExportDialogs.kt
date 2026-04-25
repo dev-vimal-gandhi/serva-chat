@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.chats
+package com.servalabs.chat.components.settings.app.chats
 
 import android.net.Uri
 import androidx.compose.runtime.Composable
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Launchers
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Dialogs displayed while processing a user's decrypted chat export.

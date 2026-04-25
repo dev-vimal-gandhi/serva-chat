@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.PointerAttachment;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.PointerAttachment;
 import org.whispersystems.signalservice.api.InvalidMessageStructureException;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer;
 import org.whispersystems.signalservice.api.messages.shared.SharedContact;
@@ -17,11 +17,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
-import static org.thoughtcrime.securesms.contactshare.Contact.Email;
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
-import static org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import static org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
+import static com.servalabs.chat.contactshare.Contact.Avatar;
+import static com.servalabs.chat.contactshare.Contact.Email;
+import static com.servalabs.chat.contactshare.Contact.Name;
+import static com.servalabs.chat.contactshare.Contact.Phone;
+import static com.servalabs.chat.contactshare.Contact.PostalAddress;
 
 public class ContactModelMapper {
 

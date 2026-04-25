@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -18,9 +18,9 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.visible
 
 class StoryFirstTimeNavigationView @JvmOverloads constructor(
   context: Context,

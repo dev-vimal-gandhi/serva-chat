@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package com.servalabs.chat.components.settings.app.account
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.TextSecurePreferences
 
 class AccountSettingsViewModel : ViewModel() {
   private val store: MutableStateFlow<AccountSettingsState> = MutableStateFlow(getCurrentState())

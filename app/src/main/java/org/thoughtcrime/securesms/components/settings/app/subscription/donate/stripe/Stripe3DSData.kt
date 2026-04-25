@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package com.servalabs.chat.components.settings.app.subscription.donate.stripe
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
@@ -10,12 +10,12 @@ import kotlinx.parcelize.Parcelize
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.ExternalLaunchTransactionState
-import org.thoughtcrime.securesms.database.model.databaseprotos.FiatValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.model.databaseprotos.ExternalLaunchTransactionState
+import com.servalabs.chat.database.model.databaseprotos.FiatValue
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.recipients.Recipient
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package com.servalabs.chat.scribbles
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -19,16 +19,16 @@ import androidx.core.animation.doOnEnd
 import androidx.core.content.ContextCompat
 import com.airbnb.lottie.SimpleColorFilter
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TooltipPopup
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.TooltipPopup
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mediasend.v2.MediaAnimations
+import com.servalabs.chat.scribbles.HSVColorSlider.getColor
+import com.servalabs.chat.scribbles.HSVColorSlider.setColor
+import com.servalabs.chat.scribbles.HSVColorSlider.setUpForColor
+import com.servalabs.chat.util.Debouncer
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 
 class ImageEditorHudV2 @JvmOverloads constructor(
   context: Context,

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package com.servalabs.chat.components.settings.app.subscription.donate.gateway
 
 import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.getAvailablePaymentMethods
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.payments.currency.CurrencyUtil
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.getAvailablePaymentMethods
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.payments.currency.CurrencyUtil
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration
 import java.util.Locale
 

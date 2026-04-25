@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.content.DialogInterface
 import androidx.compose.foundation.Image
@@ -33,7 +33,7 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Informs the user that their member label will be displayed in place of their About text in this group.

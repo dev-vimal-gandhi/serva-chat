@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package com.servalabs.chat.profiles;
 
 
 import android.content.Context;
@@ -8,16 +8,16 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ByteUnit;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.crypto.AttachmentSecret;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.crypto.ModernDecryptingPartInputStream;
+import com.servalabs.chat.crypto.ModernEncryptingPartOutputStream;
+import com.servalabs.chat.database.model.ProfileAvatarFileDetails;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.ByteUnit;
+import com.servalabs.chat.util.MediaUtil;
 import org.whispersystems.signalservice.api.util.StreamDetails;
 
 import java.io.File;

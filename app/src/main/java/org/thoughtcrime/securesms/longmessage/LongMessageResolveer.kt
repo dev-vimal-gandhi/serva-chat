@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.longmessage
+package com.servalabs.chat.longmessage
 
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.recipients.Recipient
 import java.io.IOException
 
 const val TAG = "LongMessageResolver"

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui.incommon
+package com.servalabs.chat.groups.ui.incommon
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -11,9 +11,9 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
-import org.thoughtcrime.securesms.groups.GroupsInCommonRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.GroupsInCommonRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class GroupsInCommonViewModel(
   context: Context,

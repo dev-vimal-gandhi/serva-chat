@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -20,15 +20,15 @@ import com.annimon.stream.Stream;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.database.RecipientTable;
+import com.servalabs.chat.R;
+import com.servalabs.chat.contactshare.Contact;
+import com.servalabs.chat.contactshare.ContactUtil;
+import com.servalabs.chat.database.RecipientTable;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientForeverObserver;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collections;

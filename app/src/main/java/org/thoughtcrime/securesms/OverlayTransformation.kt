@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

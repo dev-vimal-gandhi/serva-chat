@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.layout.Box
@@ -25,12 +25,12 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.showSnackbar
 import org.signal.core.ui.isSplitPane
-import org.thoughtcrime.securesms.components.snackbars.SnackbarHostKey
-import org.thoughtcrime.securesms.components.snackbars.rememberSnackbarState
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.MegaphoneActionController
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.window.NavigationType
+import com.servalabs.chat.components.snackbars.SnackbarHostKey
+import com.servalabs.chat.components.snackbars.rememberSnackbarState
+import com.servalabs.chat.megaphone.Megaphone
+import com.servalabs.chat.megaphone.MegaphoneActionController
+import com.servalabs.chat.megaphone.Megaphones
+import com.servalabs.chat.window.NavigationType
 
 interface MainBottomChromeCallback : MainFloatingActionButtonsCallback {
   fun onMegaphoneVisible(megaphone: Megaphone)

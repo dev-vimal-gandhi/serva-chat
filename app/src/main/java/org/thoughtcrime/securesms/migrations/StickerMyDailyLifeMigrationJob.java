@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobs.StickerPackDownloadJob;
+import com.servalabs.chat.stickers.BlessedPacks;
 
 /**
  * Installs Piece of Cake blessed pack.

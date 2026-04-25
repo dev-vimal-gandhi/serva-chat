@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package com.servalabs.chat.testutil
 
 import androidx.test.core.app.ApplicationProvider
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.testing.JdbcSqliteDatabase
-import org.thoughtcrime.securesms.testing.TestSignalSQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.testing.JdbcSqliteDatabase
+import com.servalabs.chat.testing.TestSignalSQLiteDatabase
 
 class SignalDatabaseMigrationRule(private val upgradedVersion: Int = 286) : ExternalResource() {
 

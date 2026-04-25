@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import androidx.annotation.NonNull;
 
@@ -7,9 +7,9 @@ import org.signal.libsignal.zkgroup.InvalidInputException;
 import org.signal.libsignal.zkgroup.auth.AuthCredentialWithPniResponse;
 import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
 import org.signal.libsignal.zkgroup.internal.ByteArray;
-import org.thoughtcrime.securesms.database.model.databaseprotos.TemporalAuthCredentialResponse;
-import org.thoughtcrime.securesms.database.model.databaseprotos.TemporalAuthCredentialResponses;
-import org.thoughtcrime.securesms.groups.GroupsV2Authorization;
+import com.servalabs.chat.database.model.databaseprotos.TemporalAuthCredentialResponse;
+import com.servalabs.chat.database.model.databaseprotos.TemporalAuthCredentialResponses;
+import com.servalabs.chat.groups.GroupsV2Authorization;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api;
 
 import java.io.IOException;

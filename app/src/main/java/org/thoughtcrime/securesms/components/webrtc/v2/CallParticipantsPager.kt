@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.displayCutoutPadding
@@ -21,11 +21,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
 import org.signal.core.ui.compose.AllNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 @Composable
 fun CallParticipantsPager(

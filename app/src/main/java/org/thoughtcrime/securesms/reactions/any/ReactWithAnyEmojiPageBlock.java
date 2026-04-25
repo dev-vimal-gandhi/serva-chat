@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.reactions.any;
+package com.servalabs.chat.reactions.any;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
+import com.servalabs.chat.components.emoji.EmojiPageModel;
 
 import java.util.Objects;
 

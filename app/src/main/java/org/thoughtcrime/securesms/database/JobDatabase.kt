@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -24,13 +24,13 @@ import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.updateAll
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec
+import com.servalabs.chat.crypto.DatabaseSecret
+import com.servalabs.chat.crypto.DatabaseSecretProvider
+import com.servalabs.chat.jobmanager.persistence.ConstraintSpec
+import com.servalabs.chat.jobmanager.persistence.DependencySpec
+import com.servalabs.chat.jobmanager.persistence.FullSpec
+import com.servalabs.chat.jobmanager.persistence.JobSpec
+import com.servalabs.chat.jobs.MinimalJobSpec
 import java.util.function.Predicate
 
 class JobDatabase(

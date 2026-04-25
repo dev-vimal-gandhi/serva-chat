@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package com.servalabs.chat.util.dynamiclanguage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

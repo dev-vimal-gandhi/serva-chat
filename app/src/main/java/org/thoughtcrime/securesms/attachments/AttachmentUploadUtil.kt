@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -11,8 +11,8 @@ import org.signal.blurhash.BlurHashEncoder
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
 import org.signal.core.util.mebiBytes
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.util.MediaUtil
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherStreamUtil
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment.ProgressListener

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.annotation.SuppressLint;
 import android.media.MediaCodec;
@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
-import org.thoughtcrime.securesms.video.videoconverter.utils.Preconditions;
-import org.thoughtcrime.securesms.video.videoconverter.utils.VideoConstants;
+import com.servalabs.chat.video.interfaces.MediaInput;
+import com.servalabs.chat.video.interfaces.Muxer;
+import com.servalabs.chat.video.videoconverter.utils.Preconditions;
+import com.servalabs.chat.video.videoconverter.utils.VideoConstants;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

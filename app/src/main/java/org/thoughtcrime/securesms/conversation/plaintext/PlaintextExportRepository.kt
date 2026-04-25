@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.plaintext
+package com.servalabs.chat.conversation.plaintext
 
 import android.content.Context
 import android.net.Uri
@@ -15,16 +15,16 @@ import org.signal.core.util.ParallelEventTimer
 import org.signal.core.util.androidx.DocumentFileUtil.outputStream
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.MentionUtil
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.MentionUtil
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.Quote
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.MediaUtil
 import java.io.BufferedWriter
 import java.io.IOException
 import java.text.SimpleDateFormat

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
@@ -13,22 +13,22 @@ import org.signal.core.util.Base64
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.SealedSenderConstraint
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData.AttachmentDelete
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData.ThreadDelete
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.pad
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint
+import com.servalabs.chat.jobs.protos.DeleteSyncJobData
+import com.servalabs.chat.jobs.protos.DeleteSyncJobData.AttachmentDelete
+import com.servalabs.chat.jobs.protos.DeleteSyncJobData.ThreadDelete
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.messages.SignalServiceProtoUtil.pad
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException
 import org.whispersystems.signalservice.internal.push.AddressableMessage
 import org.whispersystems.signalservice.internal.push.Content

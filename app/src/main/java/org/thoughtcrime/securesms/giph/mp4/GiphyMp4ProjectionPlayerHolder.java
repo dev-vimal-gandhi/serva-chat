@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -22,10 +22,10 @@ import androidx.media3.ui.AspectRatioFrameLayout;
 
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.video.exo.ExoPlayerKt;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.Projection;
+import com.servalabs.chat.video.exo.ExoPlayerKt;
 
 import java.util.ArrayList;
 import java.util.List;

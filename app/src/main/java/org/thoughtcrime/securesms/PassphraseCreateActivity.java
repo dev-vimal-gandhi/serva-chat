@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.os.Bundle;
 
 import android.view.View;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.crypto.MasterSecret;
+import com.servalabs.chat.crypto.MasterSecretUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 /**
  * Activity for creating a user's local encryption passphrase.

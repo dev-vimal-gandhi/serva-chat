@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.content.Context
 import android.database.Cursor
@@ -6,22 +6,22 @@ import androidx.annotation.WorkerThread
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactRepository
-import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupsInCommonRepository
-import org.thoughtcrime.securesms.groups.GroupsInCommonSummary
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.ContactRepository
+import com.servalabs.chat.contacts.paged.collections.ContactSearchIterator
+import com.servalabs.chat.database.DistributionListTables
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.groups.GroupsInCommonRepository
+import com.servalabs.chat.groups.GroupsInCommonSummary
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.StorySend
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Database boundary interface which allows us to safely unit test the data source without

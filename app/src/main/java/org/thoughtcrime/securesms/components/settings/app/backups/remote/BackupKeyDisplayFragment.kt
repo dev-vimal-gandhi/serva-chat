@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package com.servalabs.chat.components.settings.app.backups.remote
 
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
@@ -23,12 +23,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
-import org.thoughtcrime.securesms.compose.Nav
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyVerifyScreen
+import com.servalabs.chat.compose.Nav
+import com.servalabs.chat.util.viewModel
 
 /**
  * Fragment which only displays the backup key to the user.

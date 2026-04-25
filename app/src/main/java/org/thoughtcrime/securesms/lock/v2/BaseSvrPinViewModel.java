@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package com.servalabs.chat.lock.v2;
 
 import androidx.annotation.MainThread;
 import androidx.lifecycle.LiveData;

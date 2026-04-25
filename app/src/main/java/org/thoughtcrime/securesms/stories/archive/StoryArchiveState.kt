@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import android.net.Uri
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.model.StoryType
+import com.servalabs.chat.database.model.StoryType
 
 data class StoryArchiveState(
   val stories: List<ArchivedStoryItem?> = emptyList(),

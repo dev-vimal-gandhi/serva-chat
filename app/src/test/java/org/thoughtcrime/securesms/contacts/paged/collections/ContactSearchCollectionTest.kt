@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package com.servalabs.chat.contacts.paged.collections
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchData
 
 class ContactSearchCollectionTest {
 

@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.logsubmit
+package com.servalabs.chat.logsubmit
 
 import android.content.Context
 import com.google.android.gms.common.GoogleApiAvailability
 import kotlinx.coroutines.runBlocking
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.GooglePlayServicesAvailability
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.ArchiveUploadProgressState
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.ui.subscription.GooglePlayServicesAvailability
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.ArchiveUploadProgressState
+import com.servalabs.chat.payments.FiatMoneyUtil
 import org.whispersystems.signalservice.api.storage.IAPSubscriptionId
 
 class LogSectionRemoteBackups : LogSection {

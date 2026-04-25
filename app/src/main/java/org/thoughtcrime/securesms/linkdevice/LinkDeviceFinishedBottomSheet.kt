@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.defaultMinSize
@@ -22,7 +22,7 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Bottom sheet dialog prompting users to name their newly linked device

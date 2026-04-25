@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package com.servalabs.chat.components.settings.app.privacy.expire
 
-import org.thoughtcrime.securesms.util.livedata.ProcessState
+import com.servalabs.chat.util.livedata.ProcessState
 
 data class ExpireTimerSettingsState(
   val initialTimer: Int = 0,

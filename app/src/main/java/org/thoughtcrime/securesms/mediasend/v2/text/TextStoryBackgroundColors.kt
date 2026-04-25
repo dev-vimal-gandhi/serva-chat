@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColors
 
 object TextStoryBackgroundColors {
 

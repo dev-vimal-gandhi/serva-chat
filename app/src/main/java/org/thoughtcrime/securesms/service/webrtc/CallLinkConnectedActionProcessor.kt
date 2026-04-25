@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import org.signal.core.models.ServiceId
 import org.signal.core.util.logging.Log
@@ -11,15 +11,15 @@ import org.signal.ringrtc.CallException
 import org.signal.ringrtc.CallManager
 import org.signal.ringrtc.GroupCall
 import org.signal.ringrtc.PeekInfo
-import org.thoughtcrime.securesms.components.webrtc.CallLinkProfileKeySender
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
+import com.servalabs.chat.components.webrtc.CallLinkProfileKeySender
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState
 
 /**
  * Process actions for when the call link has at least once been connected and joined.

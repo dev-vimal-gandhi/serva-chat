@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -9,16 +9,16 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import com.google.android.material.snackbar.Snackbar
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel
-import org.thoughtcrime.securesms.stories.StoryLinkPreviewView
-import org.thoughtcrime.securesms.util.LinkUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardEntryDialogFragment
+import com.servalabs.chat.linkpreview.LinkPreviewRepository
+import com.servalabs.chat.linkpreview.LinkPreviewViewModel
+import com.servalabs.chat.stories.StoryLinkPreviewView
+import com.servalabs.chat.util.LinkUtil
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.setIncognitoKeyboardEnabled
+import com.servalabs.chat.util.visible
 
 class TextStoryPostLinkEntryFragment(private val shouldPreset: Boolean = false) : KeyboardEntryDialogFragment(
   contentLayoutId = R.layout.stories_text_post_link_entry_fragment

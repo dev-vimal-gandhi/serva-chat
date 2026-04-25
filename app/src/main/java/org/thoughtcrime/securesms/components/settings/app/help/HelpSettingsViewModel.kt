@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.help
+package com.servalabs.chat.components.settings.app.help
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
@@ -6,8 +6,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.TextSecurePreferences
 
 class HelpSettingsViewModel : ViewModel() {
 

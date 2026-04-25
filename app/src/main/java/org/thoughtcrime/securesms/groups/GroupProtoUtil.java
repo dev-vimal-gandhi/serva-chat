@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,12 +11,12 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChang
 import org.signal.storageservice.storage.protos.groups.local.DecryptedMember;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMember;
 import org.signal.archive.proto.GroupChangeChatUpdate;
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter;
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.GroupsV2UpdateMessageConverter;
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context;
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.models.ServiceId;
 import org.signal.core.models.ServiceId.ACI;
 import org.whispersystems.signalservice.internal.push.GroupContextV2;

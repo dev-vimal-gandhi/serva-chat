@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview
+package com.servalabs.chat.mediaoverview
 
 import android.view.View
 import android.view.ViewGroup
@@ -10,12 +10,12 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.SignalDatabase
 import org.signal.core.ui.R as CoreUiR
 
 /**

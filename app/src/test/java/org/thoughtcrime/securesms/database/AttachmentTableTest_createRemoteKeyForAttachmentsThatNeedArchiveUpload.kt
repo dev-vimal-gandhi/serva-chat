@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.app.Application
 import android.content.ContentValues
@@ -21,10 +21,10 @@ import org.robolectric.annotation.Config
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SignalDatabaseRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.SignalDatabaseRule
+import com.servalabs.chat.testutil.SystemOutLogger
 import java.util.UUID
 
 @Suppress("ClassName")

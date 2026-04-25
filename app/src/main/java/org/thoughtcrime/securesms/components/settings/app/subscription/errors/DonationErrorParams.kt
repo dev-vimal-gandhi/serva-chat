@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -6,11 +6,11 @@ import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeDeclineCode
 import org.signal.donations.StripeFailureCode
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toInAppPaymentType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toInAppPaymentType
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 
 class DonationErrorParams<V> private constructor(
   @StringRes val title: Int,

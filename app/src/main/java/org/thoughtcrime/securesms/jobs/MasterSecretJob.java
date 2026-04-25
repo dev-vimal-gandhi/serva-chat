@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.MasterSecretConstraint;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.MasterSecretConstraint;
 
 abstract class MasterSecretJob extends Job {
   MasterSecretJob(@NonNull Parameters parameters) {

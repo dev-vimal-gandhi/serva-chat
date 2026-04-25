@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -12,9 +12,9 @@ import org.junit.Test
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.libsignal.protocol.ReusedBaseKeyException
-import org.thoughtcrime.securesms.util.KyberPreKeysTestUtil.generateECPublicKey
-import org.thoughtcrime.securesms.util.KyberPreKeysTestUtil.getStaleTime
-import org.thoughtcrime.securesms.util.KyberPreKeysTestUtil.insertTestRecord
+import com.servalabs.chat.util.KyberPreKeysTestUtil.generateECPublicKey
+import com.servalabs.chat.util.KyberPreKeysTestUtil.getStaleTime
+import com.servalabs.chat.util.KyberPreKeysTestUtil.insertTestRecord
 import java.util.UUID
 
 class KyberPreKeyTableTest {

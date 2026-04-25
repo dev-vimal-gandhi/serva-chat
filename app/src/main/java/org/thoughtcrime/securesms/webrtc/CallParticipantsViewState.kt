@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.webrtc
+package com.servalabs.chat.webrtc
 
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
+import com.servalabs.chat.components.webrtc.CallParticipantsState
+import com.servalabs.chat.service.webrtc.state.WebRtcEphemeralState
 
 class CallParticipantsViewState(
   callParticipantsState: CallParticipantsState,

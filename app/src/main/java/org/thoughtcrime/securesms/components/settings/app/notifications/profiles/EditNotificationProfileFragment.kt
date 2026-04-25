@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import android.os.Bundle
 import android.text.Editable
@@ -17,17 +17,17 @@ import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.EditTextUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileViewModel.SaveNotificationProfileResult
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.models.NotificationProfileNamePreset
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.text.AfterTextChanged
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.app.notifications.profiles.EditNotificationProfileViewModel.SaveNotificationProfileResult
+import com.servalabs.chat.components.settings.app.notifications.profiles.models.NotificationProfileNamePreset
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.text.AfterTextChanged
+import com.servalabs.chat.util.views.CircularProgressMaterialButton
 
 /**
  * Dual use Edit/Create notification profile fragment. Use to create in the create profile flow,

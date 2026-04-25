@@ -75,4 +75,4 @@ class BaseActivityDetector : Detector(), SourceCodeScanner {
   }
 }
 
-private const val BASE_ACTIVITY_CLASS_NAME = "org.thoughtcrime.securesms.BaseActivity"
+private const val BASE_ACTIVITY_CLASS_NAME = "com.servalabs.chat.BaseActivity"

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

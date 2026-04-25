@@ -16,7 +16,7 @@
  * This file has been modified by Signal.
  */
 
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.GLES11Ext;

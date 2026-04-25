@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package com.servalabs.chat.components.mention;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,12 +11,12 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.drawable.DrawableCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.List;
 

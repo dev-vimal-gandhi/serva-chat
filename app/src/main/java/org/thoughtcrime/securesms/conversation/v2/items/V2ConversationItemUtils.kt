@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.content.Context
 import android.text.Spannable
@@ -11,12 +11,12 @@ import android.text.Spanned
 import android.text.style.URLSpan
 import android.text.util.Linkify
 import androidx.core.text.util.LinkifyCompat
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil.MONERO_TX_PATTERN
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.InterceptableLongClickCopyLinkSpan
-import org.thoughtcrime.securesms.util.LinkUtil
-import org.thoughtcrime.securesms.util.UrlClickHandler
-import org.thoughtcrime.securesms.util.hasOnlyThumbnail
+import com.servalabs.chat.linkpreview.LinkPreviewUtil.MONERO_TX_PATTERN
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.util.InterceptableLongClickCopyLinkSpan
+import com.servalabs.chat.util.LinkUtil
+import com.servalabs.chat.util.UrlClickHandler
+import com.servalabs.chat.util.hasOnlyThumbnail
 
 /**
  * Utilities for presenting the body of a conversation message.

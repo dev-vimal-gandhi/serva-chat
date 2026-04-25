@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package com.servalabs.chat.util.dynamiclanguage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.os.LocaleListCompat;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import com.servalabs.chat.BuildConfig;
 
 import java.util.Arrays;
 import java.util.Locale;

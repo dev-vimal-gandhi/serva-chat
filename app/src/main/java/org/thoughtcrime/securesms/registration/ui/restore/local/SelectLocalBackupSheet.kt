@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -31,7 +31,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 @Composable
 fun SelectLocalBackupSheetContent(

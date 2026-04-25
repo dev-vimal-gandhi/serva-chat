@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package com.servalabs.chat.conversationlist;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -30,12 +30,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.ui.view.Stub;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.snackbars.SnackbarState;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.main.MainNavigationListLocation;
-import org.thoughtcrime.securesms.main.MainSnackbarHostKey;
-import org.thoughtcrime.securesms.util.ConversationUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.snackbars.SnackbarState;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.main.MainNavigationListLocation;
+import com.servalabs.chat.main.MainSnackbarHostKey;
+import com.servalabs.chat.util.ConversationUtil;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Completable;

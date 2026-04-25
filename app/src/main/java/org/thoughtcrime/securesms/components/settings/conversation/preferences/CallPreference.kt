@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package com.servalabs.chat.components.settings.conversation.preferences
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.databinding.ConversationSettingsCallPreferenceItemBinding
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.R
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.databinding.ConversationSettingsCallPreferenceItemBinding
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 /**
  * Renders a single call preference row when displaying call info.

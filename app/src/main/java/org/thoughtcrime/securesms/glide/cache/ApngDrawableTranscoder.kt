@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide.cache
+package com.servalabs.chat.glide.cache
 
 import android.graphics.drawable.Drawable
 import com.bumptech.glide.load.Options

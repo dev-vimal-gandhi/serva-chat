@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package com.servalabs.chat.webrtc;
 
 import org.signal.core.util.logging.Log;
 

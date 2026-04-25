@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package com.servalabs.chat.webrtc;
 
 /**
  * Represents the user's desired data mode for calls.

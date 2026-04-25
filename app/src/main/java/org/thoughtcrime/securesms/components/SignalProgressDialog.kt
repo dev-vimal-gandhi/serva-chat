@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.content.DialogInterface
@@ -12,8 +12,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.progressindicator.CircularProgressIndicator
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Wraps a normal progress dialog for showing blocking in-progress UI.

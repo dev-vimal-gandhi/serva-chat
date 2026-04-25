@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package com.servalabs.chat.components.settings.app.chats.folders
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -9,11 +9,11 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.swap
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ChatType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Maintains the state of the [ChatFoldersFragment] and [CreateFoldersFragment]

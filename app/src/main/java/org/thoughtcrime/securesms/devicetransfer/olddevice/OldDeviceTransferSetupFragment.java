@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package com.servalabs.chat.devicetransfer.olddevice;
 
 import android.app.PendingIntent;
 import android.content.Intent;
@@ -12,15 +12,15 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.devicetransfer.DeviceTransferSetupFragment;
-import org.thoughtcrime.securesms.devicetransfer.SetupStep;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.devicetransfer.DeviceTransferSetupFragment;
+import com.servalabs.chat.devicetransfer.SetupStep;
+import com.servalabs.chat.jobs.LocalBackupJob;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.notifications.NotificationIds;
+import com.servalabs.chat.util.navigation.SafeNavigation;
 
 /**
  * Most responsibility is in {@link DeviceTransferSetupFragment} and delegates here

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.countrycode
+package com.servalabs.chat.registration.ui.countrycode
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -56,7 +56,7 @@ import org.signal.core.ui.compose.LargeFontPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Screen that allows someone to search and select a country code from a supported list of countries.

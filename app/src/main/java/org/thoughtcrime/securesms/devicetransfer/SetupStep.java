@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package com.servalabs.chat.devicetransfer;
 
 /**
  * The various steps involved in setting up a transfer connection. Each step has a

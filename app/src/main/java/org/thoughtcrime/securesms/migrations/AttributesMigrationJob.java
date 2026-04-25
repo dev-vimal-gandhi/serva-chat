@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobs.RefreshAttributesJob;
+import com.servalabs.chat.jobs.RefreshOwnProfileJob;
 
 /**
  * Schedules a re-upload of the users attributes followed by a download of their profile.

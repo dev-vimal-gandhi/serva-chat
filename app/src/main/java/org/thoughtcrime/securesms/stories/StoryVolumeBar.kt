@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.content.Context
 import android.graphics.Canvas
@@ -13,8 +13,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.graphics.withClip
 import androidx.media.AudioManagerCompat
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.ServiceUtil
 
 /**
  * Displays a vertical volume bar.

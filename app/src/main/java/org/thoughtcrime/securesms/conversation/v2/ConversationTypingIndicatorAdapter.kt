@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
 import org.signal.core.util.toInt
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ConversationTypingView
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ConversationTypingView
+import com.servalabs.chat.recipients.Recipient
 
 class ConversationTypingIndicatorAdapter(
   private val requestManager: RequestManager

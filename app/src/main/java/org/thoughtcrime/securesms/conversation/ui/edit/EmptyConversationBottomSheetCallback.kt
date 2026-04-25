@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.ui.edit
+package com.servalabs.chat.conversation.ui.edit
 
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
-import org.thoughtcrime.securesms.conversation.ConversationBottomSheetCallback
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import com.servalabs.chat.conversation.ConversationAdapter
+import com.servalabs.chat.conversation.ConversationBottomSheetCallback
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.model.MessageRecord
 
 object EmptyConversationBottomSheetCallback : ConversationBottomSheetCallback {
   override fun getConversationAdapterListener(): ConversationAdapter.ItemClickListener = EmptyConversationAdapterListener

@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
-import org.thoughtcrime.securesms.database.CallTable
+import com.servalabs.chat.database.CallTable
 
 /**
  * These represent situations where we will skip exporting a data frame due to the data being invalid.

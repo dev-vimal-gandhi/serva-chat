@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar
+package com.servalabs.chat.avatar
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -18,13 +18,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.viewinterop.AndroidView
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.rememberRecipientField
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.model.ProfileAvatarFileDetails
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.rememberRecipientField
 
 @Composable
 fun AvatarImage(

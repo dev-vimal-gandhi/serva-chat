@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package com.servalabs.chat.database.documents;
 
 import android.text.TextUtils;
 
@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Objects;
 

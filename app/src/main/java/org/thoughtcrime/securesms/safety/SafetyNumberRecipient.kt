@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Represents a Recipient who had a safety number change. Also includes information used in

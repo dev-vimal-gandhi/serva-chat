@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,15 +8,15 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.ringrtc.Camera;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceStateBuilder;
+import com.servalabs.chat.util.NetworkUtil;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static com.servalabs.chat.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
 
 /**
  * Process actions to go from lobby to a joined call.

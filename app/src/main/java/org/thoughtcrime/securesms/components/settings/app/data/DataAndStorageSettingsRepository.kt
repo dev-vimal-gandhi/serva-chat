@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package com.servalabs.chat.components.settings.app.data
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
 
 class DataAndStorageSettingsRepository {
 

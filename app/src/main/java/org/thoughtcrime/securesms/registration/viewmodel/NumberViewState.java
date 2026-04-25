@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.viewmodel;
+package com.servalabs.chat.registration.viewmodel;
 
 import android.os.Parcel;
 import android.os.Parcelable;

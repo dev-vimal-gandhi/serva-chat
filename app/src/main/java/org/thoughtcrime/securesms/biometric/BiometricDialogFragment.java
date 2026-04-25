@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.biometric;
+package com.servalabs.chat.biometric;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -26,7 +26,7 @@ import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class BiometricDialogFragment extends DialogFragment {
 

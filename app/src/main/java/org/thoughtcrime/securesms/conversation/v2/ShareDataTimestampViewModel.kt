@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
-import org.thoughtcrime.securesms.conversation.ConversationArgs
-import org.thoughtcrime.securesms.util.delegate
+import com.servalabs.chat.conversation.ConversationArgs
+import com.servalabs.chat.util.delegate
 
 /**
  * Hold the last share timestamp in an activity scoped view model for sharing between

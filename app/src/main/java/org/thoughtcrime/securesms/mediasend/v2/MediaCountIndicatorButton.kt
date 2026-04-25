@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class MediaCountIndicatorButton @JvmOverloads constructor(
   context: Context,

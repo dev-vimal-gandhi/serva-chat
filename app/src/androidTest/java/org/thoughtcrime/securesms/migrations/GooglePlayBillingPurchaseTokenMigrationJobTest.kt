@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -14,12 +14,12 @@ import org.signal.core.util.billing.BillingPurchaseResult
 import org.signal.core.util.billing.BillingPurchaseState
 import org.signal.core.util.billing.BillingResponseCode
 import org.signal.core.util.deleteAll
-import org.thoughtcrime.securesms.database.InAppPaymentSubscriberTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.InAppPaymentSubscriberTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.storage.IAPSubscriptionId
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 

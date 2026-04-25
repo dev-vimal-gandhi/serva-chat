@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -9,19 +9,19 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.libsignal.protocol.message.CiphertextMessage
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.GroupTestingUtils.asMember
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.GroupTestingUtils
+import com.servalabs.chat.testing.GroupTestingUtils.asMember
+import com.servalabs.chat.testing.MessageContentFuzzer
+import com.servalabs.chat.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.internal.push.DataMessage
 

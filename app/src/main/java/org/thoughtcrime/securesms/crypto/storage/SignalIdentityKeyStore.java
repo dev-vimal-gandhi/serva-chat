@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import androidx.annotation.NonNull;
 
@@ -6,11 +6,11 @@ import org.signal.libsignal.protocol.IdentityKey;
 import org.signal.libsignal.protocol.IdentityKeyPair;
 import org.signal.libsignal.protocol.SignalProtocolAddress;
 import org.signal.libsignal.protocol.state.IdentityKeyStore;
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus;
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.IdentityTable.VerifiedStatus;
+import com.servalabs.chat.database.identity.IdentityRecordList;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.models.ServiceId;
 
 import java.util.List;

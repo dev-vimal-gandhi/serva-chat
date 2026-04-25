@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Animatable
@@ -53,7 +53,7 @@ import androidx.compose.ui.unit.dp
 import androidx.window.core.layout.WindowSizeClass
 import org.signal.core.ui.compose.AllNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink
 import org.webrtc.VideoFrame
 import org.webrtc.VideoSink
 import kotlin.math.min

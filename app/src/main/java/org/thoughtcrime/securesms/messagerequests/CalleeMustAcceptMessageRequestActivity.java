@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package com.servalabs.chat.messagerequests;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,10 +16,10 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.concurrent.TimeUnit;
 

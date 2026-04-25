@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package com.servalabs.chat.stories.settings.my
 
 data class MyStorySettingsState(
   val myStoryPrivacyState: MyStoryPrivacyState = MyStoryPrivacyState(),

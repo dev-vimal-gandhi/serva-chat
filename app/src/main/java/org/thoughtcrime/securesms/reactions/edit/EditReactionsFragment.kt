@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.edit
+package com.servalabs.chat.reactions.edit
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
 import org.signal.core.ui.logging.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.transitions.AlphaTransition
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.animation.transitions.AlphaTransition
+import com.servalabs.chat.components.emoji.EmojiImageView
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.util.ViewUtil
 
 private val SELECTED_SIZE = ViewUtil.dpToPx(36)
 private val UNSELECTED_SIZE = ViewUtil.dpToPx(26)

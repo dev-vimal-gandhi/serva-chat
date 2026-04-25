@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.content.Context
 import androidx.annotation.OptIn

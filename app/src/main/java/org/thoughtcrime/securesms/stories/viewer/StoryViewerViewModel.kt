@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -13,12 +13,12 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.stories.StoryViewerArgs
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.rx.RxStore
 import java.util.concurrent.TimeUnit
 import kotlin.math.max
 import kotlin.time.Duration

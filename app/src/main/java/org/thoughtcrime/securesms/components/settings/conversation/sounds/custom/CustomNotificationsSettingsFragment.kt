@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds.custom
+package com.servalabs.chat.components.settings.conversation.sounds.custom
 
 import android.app.Activity
 import android.content.Context
@@ -13,16 +13,16 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.RingtoneUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.util.ConversationUtil
+import com.servalabs.chat.util.RingtoneUtil
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 private val TAG = Log.tag(CustomNotificationsSettingsFragment::class.java)
 

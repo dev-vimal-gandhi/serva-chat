@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.content.Context
 import androidx.annotation.Discouraged
@@ -6,19 +6,19 @@ import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes
 import com.annimon.stream.OptionalLong
 import kotlinx.collections.immutable.toImmutableList
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls.FoldableState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.HAND_LOWERED
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.events.GroupCallRaiseHandEvent
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.service.webrtc.collections.ParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.WebRtcControls.FoldableState
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipant.Companion.HAND_LOWERED
+import com.servalabs.chat.events.CallParticipant.Companion.createLocal
+import com.servalabs.chat.events.GroupCallRaiseHandEvent
+import com.servalabs.chat.events.GroupCallReactionEvent
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.groups.ui.GroupMemberEntry
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.ringrtc.CameraState
+import com.servalabs.chat.service.webrtc.collections.ParticipantCollection
+import com.servalabs.chat.service.webrtc.state.WebRtcEphemeralState
 import java.util.concurrent.TimeUnit
 
 /**

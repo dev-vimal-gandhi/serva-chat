@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertEquals
@@ -10,9 +10,9 @@ import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.SignalActivityRule
 import java.util.UUID
 
 @RunWith(AndroidJUnit4::class)

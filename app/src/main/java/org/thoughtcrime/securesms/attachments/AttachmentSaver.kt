@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.Manifest
 import android.widget.CheckBox
@@ -20,15 +20,15 @@ import org.signal.core.ui.view.awaitResult
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragment
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragmentArgs
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil.SaveAttachment
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil.SaveAttachmentsResult
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ProgressCardDialogFragment
+import com.servalabs.chat.components.ProgressCardDialogFragmentArgs
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.SaveAttachmentUtil
+import com.servalabs.chat.util.SaveAttachmentUtil.SaveAttachment
+import com.servalabs.chat.util.SaveAttachmentUtil.SaveAttachmentsResult
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 

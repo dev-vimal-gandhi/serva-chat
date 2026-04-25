@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package com.servalabs.chat.megaphone
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Bottom sheet dialog to prompt user to enable schedule alarms permission for triggering backups.

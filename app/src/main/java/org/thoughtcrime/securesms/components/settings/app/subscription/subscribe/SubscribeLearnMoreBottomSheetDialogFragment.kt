@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.subscribe
+package com.servalabs.chat.components.settings.app.subscription.subscribe
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class SubscribeLearnMoreBottomSheetDialogFragment : FixedRoundedCornerBottomSheetDialogFragment() {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package com.servalabs.chat.webrtc;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -8,16 +8,16 @@ import android.text.TextUtils;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallIntent;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.components.webrtc.v2.CallIntent;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.recipients.Recipient;
 
 public class VoiceCallShare extends PassphraseRequiredActivity {
   
   private static final String TAG = Log.tag(VoiceCallShare.class);
 
-  private static final String VIDEO_CALL_MIME_TYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall";
+  private static final String VIDEO_CALL_MIME_TYPE = "vnd.android.cursor.item/vnd.com.servalabs.chat.videocall";
   
   @Override
   protected void onCreate(Bundle savedInstanceState, boolean ready) {

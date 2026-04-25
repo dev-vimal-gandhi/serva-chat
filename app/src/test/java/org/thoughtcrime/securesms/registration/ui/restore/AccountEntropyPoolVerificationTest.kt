@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -12,7 +12,7 @@ import assertk.assertions.isTrue
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
-import org.thoughtcrime.securesms.registration.ui.restore.AccountEntropyPoolVerification.AEPValidationError
+import com.servalabs.chat.registration.ui.restore.AccountEntropyPoolVerification.AEPValidationError
 
 @RunWith(Parameterized::class)
 class AccountEntropyPoolVerificationTest(

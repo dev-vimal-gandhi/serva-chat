@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,10 +8,10 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.MediaUtil.SlideType
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.MediaUtil.SlideType
 
 @SuppressLint("RecipientIdDatabaseReferenceUsage", "ThreadIdDatabaseReferenceUsage") // Not a real table, just a view
 class MediaTable internal constructor(context: Context?, databaseHelper: SignalDatabase?) : DatabaseTable(context, databaseHelper) {

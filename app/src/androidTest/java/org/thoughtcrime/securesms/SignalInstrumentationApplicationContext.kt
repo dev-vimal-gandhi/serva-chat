@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.AndroidLogger
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger
-import org.thoughtcrime.securesms.logging.PersistentLogger
-import org.thoughtcrime.securesms.testing.InMemoryLogger
+import com.servalabs.chat.crypto.MasterSecretUtil
+import com.servalabs.chat.database.LogDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.ApplicationDependencyProvider
+import com.servalabs.chat.dependencies.InstrumentationApplicationDependencyProvider
+import com.servalabs.chat.logging.CustomSignalProtocolLogger
+import com.servalabs.chat.logging.PersistentLogger
+import com.servalabs.chat.testing.InMemoryLogger
 
 /**
  * Application context for running instrumentation tests (aka androidTests).

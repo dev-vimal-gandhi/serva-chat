@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.avatar.picker
+package com.servalabs.chat.avatar.picker
 
-import org.thoughtcrime.securesms.avatar.Avatar
+import com.servalabs.chat.avatar.Avatar
 
 data class AvatarPickerState(
   val currentAvatar: Avatar? = null,

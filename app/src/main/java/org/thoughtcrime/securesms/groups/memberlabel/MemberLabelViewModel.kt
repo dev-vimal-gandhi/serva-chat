@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,14 +15,14 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.StringUtil
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.isNotNullOrBlank
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelUiState.SaveState
-import org.thoughtcrime.securesms.groups.ui.GroupMemberOrder
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupInsufficientRightsException
+import com.servalabs.chat.groups.memberlabel.MemberLabelUiState.SaveState
+import com.servalabs.chat.groups.ui.GroupMemberOrder
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.NetworkResult
 
 private val MEMBER_ORDER: Comparator<GroupMemberWithLabel> = GroupMemberOrder.comparator(

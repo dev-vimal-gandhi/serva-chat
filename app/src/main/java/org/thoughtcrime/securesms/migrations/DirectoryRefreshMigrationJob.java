@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.contacts.sync.ContactDiscovery;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 import java.io.IOException;
 

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.state.SignalProtocolStore;
-import org.thoughtcrime.securesms.crypto.PreKeyUtil;
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.crypto.PreKeyUtil;
+import com.servalabs.chat.crypto.storage.PreKeyMetadataStore;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 /**
  * Deprecated. Only exists for previously-enqueued jobs. 

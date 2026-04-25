@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.select
+package com.servalabs.chat.stories.settings.select
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -9,10 +9,10 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.livedata.Store
 
 class BaseStoryRecipientSelectionViewModel(
   private val distributionListId: DistributionListId?,

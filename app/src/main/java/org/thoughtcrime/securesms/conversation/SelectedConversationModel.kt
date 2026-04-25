@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.graphics.Bitmap
 import android.net.Uri
 import android.view.View
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement
+import com.servalabs.chat.conversation.v2.items.InteractiveConversationElement
 
 /**
  * Contains information on a single selected conversation item. This is used when transitioning

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable

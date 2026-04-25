@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
 import android.content.Context
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Quality levels to send media at.

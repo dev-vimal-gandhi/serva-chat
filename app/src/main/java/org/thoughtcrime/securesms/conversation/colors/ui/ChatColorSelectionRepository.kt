@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package com.servalabs.chat.conversation.colors.ui
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.wallpaper.ChatWallpaper
 
 sealed class ChatColorSelectionRepository(context: Context) {
 

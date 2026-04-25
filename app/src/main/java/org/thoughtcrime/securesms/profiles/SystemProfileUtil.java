@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package com.servalabs.chat.profiles;
 
 
 import android.accounts.Account;
@@ -17,9 +17,9 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SettableFuture;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import com.servalabs.chat.mms.MediaConstraints;
+import com.servalabs.chat.util.BitmapDecodingException;
+import com.servalabs.chat.util.BitmapUtil;
 
 public class SystemProfileUtil {
 

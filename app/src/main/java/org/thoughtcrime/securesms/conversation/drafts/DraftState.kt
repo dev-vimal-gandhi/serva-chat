@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.drafts
+package com.servalabs.chat.conversation.drafts
 
-import org.thoughtcrime.securesms.database.DraftTable
-import org.thoughtcrime.securesms.database.DraftTable.Drafts
+import com.servalabs.chat.database.DraftTable
+import com.servalabs.chat.database.DraftTable.Drafts
 
 /**
  * State object responsible for holding Voice Note draft state. The intention is to allow

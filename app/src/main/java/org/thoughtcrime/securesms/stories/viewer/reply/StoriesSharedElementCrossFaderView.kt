@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply
+package com.servalabs.chat.stories.viewer.reply
 
 import android.animation.FloatEvaluator
 import android.content.Context
@@ -15,10 +15,10 @@ import com.google.android.material.card.MaterialCardView
 import org.signal.blurhash.BlurHash
 import org.signal.core.util.DimensionUnit
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.transitions.CrossfaderTransition
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
+import com.servalabs.chat.R
+import com.servalabs.chat.animation.transitions.CrossfaderTransition
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.stories.StoryTextPostModel
 import kotlin.reflect.KProperty
 
 class StoriesSharedElementCrossFaderView @JvmOverloads constructor(

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import com.servalabs.chat.jobmanager.persistence.JobSpec;
 
 public interface JobUpdater {
   /**

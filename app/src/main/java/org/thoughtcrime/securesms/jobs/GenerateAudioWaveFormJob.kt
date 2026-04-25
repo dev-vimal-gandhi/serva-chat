@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.concurrent.safeBlockingGet
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.audio.AudioWaveForms
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.audio.AudioWaveForms
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.util.MediaUtil
 import kotlin.time.Duration.Companion.days
 
 /**

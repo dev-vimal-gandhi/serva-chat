@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.graphics.Color
 import android.os.Parcelable
@@ -12,8 +12,8 @@ import android.view.View.OnLongClickListener
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.signal.core.ui.view.Stub
-import org.thoughtcrime.securesms.mms.SlideClickListener
-import org.thoughtcrime.securesms.mms.SlidesClickedListener
+import com.servalabs.chat.mms.SlideClickListener
+import com.servalabs.chat.mms.SlidesClickedListener
 
 /**
  * Parcelable state object for [ConversationItemThumbnail]

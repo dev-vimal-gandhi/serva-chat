@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -13,9 +13,9 @@ import org.signal.core.util.SqlUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.jobs.RebuildMessageSearchIndexJob
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.ApplicationDependencyProvider
+import com.servalabs.chat.jobs.RebuildMessageSearchIndexJob
 
 /**
  * Contains all databases necessary for full-text search (FTS).
@@ -130,7 +130,7 @@ class SearchTable(context: Context, databaseHelper: SignalDatabase) : DatabaseTa
     }
   }
 
-  fun queryMessages(query: String, filter: org.thoughtcrime.securesms.search.SearchFilter): Cursor? {
+  fun queryMessages(query: String, filter: com.servalabs.chat.search.SearchFilter): Cursor? {
     if (filter.isEmpty) {
       return queryMessages(query)
     }

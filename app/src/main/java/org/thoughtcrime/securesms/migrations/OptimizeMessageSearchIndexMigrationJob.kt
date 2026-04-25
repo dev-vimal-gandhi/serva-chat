@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.OptimizeMessageSearchIndexJob
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.OptimizeMessageSearchIndexJob
 
 /**
  * Kicks off a job to optimize the message search index.

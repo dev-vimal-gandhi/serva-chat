@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import assertk.assertThat
 import assertk.assertions.isEmpty
@@ -11,12 +11,12 @@ import io.mockk.mockkStatic
 import io.mockk.spyk
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.database.CallTable.Direction
-import org.thoughtcrime.securesms.database.CallTable.Event
-import org.thoughtcrime.securesms.database.CallTable.Type
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager
+import com.servalabs.chat.database.CallTable.Direction
+import com.servalabs.chat.database.CallTable.Event
+import com.servalabs.chat.database.CallTable.Type
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.SignalCallManager
 import kotlin.time.Duration.Companion.days
 
 class CallEventCacheTest {

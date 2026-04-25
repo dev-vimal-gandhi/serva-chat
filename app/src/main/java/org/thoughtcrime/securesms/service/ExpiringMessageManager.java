@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.List;

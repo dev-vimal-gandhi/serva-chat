@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package com.servalabs.chat.video.exo;
 
 
 import android.net.Uri;
@@ -13,12 +13,12 @@ import androidx.media3.datasource.TransferListener;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.backup.v2.DatabaseAttachmentArchiveUtil;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.PartUriParser;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.backup.v2.DatabaseAttachmentArchiveUtil;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.PartUriParser;
 import org.signal.core.util.Base64;
 import org.signal.core.models.backup.MediaName;
 import org.signal.core.models.backup.MediaRootBackupKey;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.Util;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class LongClickCopySpan extends URLSpan {
 

@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.groupMasterKey
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.hasGroupContext
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.messages.SignalServiceProtoUtil.groupMasterKey
+import com.servalabs.chat.messages.SignalServiceProtoUtil.hasGroupContext
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.internal.push.DataMessage
 import java.util.Optional
 
@@ -83,7 +83,7 @@ abstract class BatchCache {
 
 /**
  * This is intended to be used when processing messages outside of [IncomingMessageObserver] where
- * no batching is possible, mostly when the [org.thoughtcrime.securesms.jobs.PushProcessMessageJob] runs.
+ * no batching is possible, mostly when the [com.servalabs.chat.jobs.PushProcessMessageJob] runs.
  */
 class OneTimeBatchCache : BatchCache() {
   override val batchThreadUpdates: Boolean = false
@@ -102,7 +102,7 @@ class OneTimeBatchCache : BatchCache() {
 }
 
 /**
- * This is intended to be used in [IncomingMessageObserver] to batch jobs (e.g., [org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob])
+ * This is intended to be used in [IncomingMessageObserver] to batch jobs (e.g., [com.servalabs.chat.jobs.SendDeliveryReceiptJob])
  * and dedupe and batch calls to [SignalDatabase.threads.updateForMessageInsert].
  *
  * Why Jobs? There's a lot of locking and database management when adding a job. Delaying that work from the processing loop

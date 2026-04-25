@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
+import com.servalabs.chat.jobmanager.ConstraintObserver
 
 /**
  * An observer for the [ChangeNumberConstraint]. This class expects to be told when a change happens,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import android.net.ConnectivityManager
 import android.net.LinkProperties

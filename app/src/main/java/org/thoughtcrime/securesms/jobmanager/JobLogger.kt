@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager
+package com.servalabs.chat.jobmanager
 
 /**
  * Provides utilities to create consistent logging for jobs.

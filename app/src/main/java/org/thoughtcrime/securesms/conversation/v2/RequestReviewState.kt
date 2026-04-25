@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Indicates if we should present an additional review warning banner

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.Job;
 
 /**
  * Check for abandoned attachments and delete them.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import com.servalabs.chat.R;
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig;
+import com.servalabs.chat.mms.MediaConstraints;
 
 import java.io.FileDescriptor;
 import java.util.Optional;

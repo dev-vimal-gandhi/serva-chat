@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package com.servalabs.chat.backup.v2.database
 
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.exporters.ChatArchiveExporter
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.exporters.ChatArchiveExporter
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
 
 fun ThreadTable.getThreadsForBackup(db: SignalDatabase, exportState: ExportState, includeImageWallpapers: Boolean): ChatArchiveExporter {
   val notReleaseNoteClause = exportState.releaseNoteRecipientId?.let {

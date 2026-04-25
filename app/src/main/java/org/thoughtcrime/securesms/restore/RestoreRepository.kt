@@ -3,26 +3,26 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore
+package com.servalabs.chat.restore
 
 import android.content.Context
 import android.net.Uri
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.AppInitialization
-import org.thoughtcrime.securesms.backup.BackupPassphrase
-import org.thoughtcrime.securesms.backup.FullBackupImporter
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.DataRestoreConstraint
-import org.thoughtcrime.securesms.jobs.E164FormattingJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.service.LocalBackupListener
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.BackupUtil.BackupInfo
+import com.servalabs.chat.AppInitialization
+import com.servalabs.chat.backup.BackupPassphrase
+import com.servalabs.chat.backup.FullBackupImporter
+import com.servalabs.chat.crypto.AttachmentSecretProvider
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.DataRestoreConstraint
+import com.servalabs.chat.jobs.E164FormattingJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.service.LocalBackupListener
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.BackupUtil.BackupInfo
 import java.io.IOException
 
 /**

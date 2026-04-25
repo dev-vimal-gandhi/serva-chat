@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.search
+package com.servalabs.chat.components.settings.app.internal.search
 
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.RecipientId
 
 data class InternalSearchResult(
   val name: String,

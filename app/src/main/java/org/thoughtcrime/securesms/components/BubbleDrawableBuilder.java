@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class BubbleDrawableBuilder {
   private int color;

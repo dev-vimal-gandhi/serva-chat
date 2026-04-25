@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import assertk.assertThat
 import assertk.assertions.isTrue
@@ -12,8 +12,8 @@ import org.junit.Rule
 import org.junit.Test
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsTestRule
-import org.thoughtcrime.securesms.testutil.MockSignalStoreRule
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsTestRule
+import com.servalabs.chat.testutil.MockSignalStoreRule
 
 class InAppPaymentOneTimeContextJobTest {
 

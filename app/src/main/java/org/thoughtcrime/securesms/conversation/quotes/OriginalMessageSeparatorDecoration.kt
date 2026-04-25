@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package com.servalabs.chat.conversation.quotes
 
 import android.content.Context
 import android.graphics.Canvas
@@ -12,8 +12,8 @@ import androidx.core.view.children
 import androidx.core.view.marginLeft
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Serves as the separator between the original message and other messages. Used in [MessageQuotesBottomSheet] and [EditMessageHistoryDialog]

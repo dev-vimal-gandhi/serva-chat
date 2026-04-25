@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import java.util.Locale

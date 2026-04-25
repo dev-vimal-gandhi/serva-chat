@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.content.Context;
 
@@ -6,13 +6,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.CollapsedState;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.CollapsedState;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.ExpirationUtil;
 
 import java.util.Collections;
 import java.util.function.Consumer;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 /**
  * Generic interface for the adapters to support updating the

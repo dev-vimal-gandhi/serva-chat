@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.qr
+package com.servalabs.chat.qr
 
 import android.content.Context
 import androidx.compose.foundation.layout.Arrangement
@@ -28,7 +28,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.compose.ui.viewinterop.NoOpUpdate
 import org.signal.core.ui.compose.Buttons
 import org.signal.qr.QrScannerView
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 object QrScanScreens {
   /**

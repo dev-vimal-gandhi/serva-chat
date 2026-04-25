@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.content.Context
 import android.os.Bundle
@@ -11,11 +11,11 @@ import android.widget.TextView
 import com.bumptech.glide.Glide
 import org.signal.blurhash.BlurHash
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.visible
 
 /**
  * Displays loading / error slate in Story viewer.

@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.models.ServiceId
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.database.KeyValueDatabase
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.KeyValueDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * We moved to a strongly typed PNI but did not update all places where a PNI may pre-exist in

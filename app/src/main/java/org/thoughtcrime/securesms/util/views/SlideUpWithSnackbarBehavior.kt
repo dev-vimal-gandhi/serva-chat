@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views
+package com.servalabs.chat.util.views
 
 import android.annotation.SuppressLint
 import android.content.Context

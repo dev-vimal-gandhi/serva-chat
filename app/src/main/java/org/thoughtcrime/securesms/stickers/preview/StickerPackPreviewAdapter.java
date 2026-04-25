@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers.preview;
+package com.servalabs.chat.stickers.preview;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.glide.apng.ApngOptions;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.stickers.StickerManifest;
-import org.thoughtcrime.securesms.stickers.StickerRemoteUri;
+import com.servalabs.chat.stickers.StickerManifest;
+import com.servalabs.chat.stickers.StickerRemoteUri;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package com.servalabs.chat.devicetransfer.olddevice;
 
 import android.os.Bundle;
 
@@ -6,10 +6,10 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 /**
  * Shell of an activity to hold the old device navigation graph. See the various

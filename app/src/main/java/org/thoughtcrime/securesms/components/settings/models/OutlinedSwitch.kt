@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.models
+package com.servalabs.chat.components.settings.models
 
 import android.view.View
 import android.widget.TextView
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 object OutlinedSwitch {
   fun register(mappingAdapter: MappingAdapter) {

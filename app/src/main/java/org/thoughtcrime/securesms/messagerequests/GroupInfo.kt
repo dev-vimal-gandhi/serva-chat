@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.messagerequests
+package com.servalabs.chat.messagerequests
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Group info needed to show message request state UX.

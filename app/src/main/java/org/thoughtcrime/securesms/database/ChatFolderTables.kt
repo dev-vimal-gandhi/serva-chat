@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -25,13 +25,13 @@ import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderId
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.database.ThreadTable.Companion.ID
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.storage.StorageSyncModels
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderId
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.database.ThreadTable.Companion.ID
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.storage.StorageSyncModels
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.storage.SignalChatFolderRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import org.whispersystems.signalservice.internal.storage.protos.ChatFolderRecord as RemoteChatFolderRecord

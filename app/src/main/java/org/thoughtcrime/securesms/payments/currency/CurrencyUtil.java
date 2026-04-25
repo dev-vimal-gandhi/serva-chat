@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.currency;
+package com.servalabs.chat.payments.currency;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

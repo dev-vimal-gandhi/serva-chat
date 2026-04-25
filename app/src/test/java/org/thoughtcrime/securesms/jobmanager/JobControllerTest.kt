@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager
+package com.servalabs.chat.jobmanager
 
 import android.app.Application
 import assertk.assertThat
@@ -13,10 +13,10 @@ import io.mockk.verify
 import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage
-import org.thoughtcrime.securesms.util.Debouncer
+import com.servalabs.chat.jobmanager.persistence.DependencySpec
+import com.servalabs.chat.jobmanager.persistence.JobSpec
+import com.servalabs.chat.jobmanager.persistence.JobStorage
+import com.servalabs.chat.util.Debouncer
 import kotlin.time.Duration.Companion.seconds
 
 @Ignore("When running tests in bulk, this causes the JVM to OOM, I think because we're creating lots of threads that don't get cleaned up, and I haven't figured out a nice way to fix it yet.")

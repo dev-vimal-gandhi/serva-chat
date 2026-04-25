@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.sharing.v2
+package com.servalabs.chat.sharing.v2
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.sharing.MultiShareArgs
 
 sealed class ShareEvent {
 

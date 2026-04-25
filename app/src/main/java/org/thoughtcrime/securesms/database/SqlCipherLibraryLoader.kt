@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 /**
  * A simple wrapper to load SQLCipher libs exactly once. The exact entry point of database access is non-deterministic because content providers run before

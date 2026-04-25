@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.DataRestoreConstraint
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.DataRestoreConstraint
+import com.servalabs.chat.transport.RetryLaterException
 import java.lang.Exception
 import kotlin.time.Duration.Companion.seconds
 

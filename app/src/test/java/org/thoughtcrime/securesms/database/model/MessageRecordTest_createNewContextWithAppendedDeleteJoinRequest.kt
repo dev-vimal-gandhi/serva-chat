@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import io.mockk.every
 import io.mockk.mockk
@@ -7,8 +7,8 @@ import okio.ByteString.Companion.toByteString
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.signal.core.models.ServiceId.ACI
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.groups.v2.ChangeBuilder
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
+import com.servalabs.chat.groups.v2.ChangeBuilder
 import org.whispersystems.signalservice.internal.push.GroupContextV2
 import java.util.UUID
 import kotlin.random.Random

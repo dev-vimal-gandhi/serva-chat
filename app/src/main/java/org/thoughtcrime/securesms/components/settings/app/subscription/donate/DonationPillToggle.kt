@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import com.google.android.material.button.MaterialButton
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.DonationPillToggleBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.R
+import com.servalabs.chat.databinding.DonationPillToggleBinding
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 object DonationPillToggle {
 

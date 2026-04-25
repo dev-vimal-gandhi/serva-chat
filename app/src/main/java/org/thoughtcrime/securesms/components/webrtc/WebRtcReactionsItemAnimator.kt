@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.animation.Animator
 import android.animation.ValueAnimator
@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.logging.Log
 
 /**
- * Reactions item animator based on [org.thoughtcrime.securesms.conversation.mutiselect.ConversationItemAnimator]
+ * Reactions item animator based on [com.servalabs.chat.conversation.mutiselect.ConversationItemAnimator]
  */
 class WebRtcReactionsItemAnimator : RecyclerView.ItemAnimator() {
 

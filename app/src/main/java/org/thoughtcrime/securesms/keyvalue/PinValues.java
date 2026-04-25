@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.lock.SignalPinReminders;
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.lock.SignalPinReminders;
+import com.servalabs.chat.lock.v2.PinKeyboardType;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.Arrays;
 import java.util.List;

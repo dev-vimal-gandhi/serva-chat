@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup
+package com.servalabs.chat.restore.restorelocalbackup
 
 import android.net.Uri
-import org.thoughtcrime.securesms.restore.RestoreRepository
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.BackupUtil.BackupInfo
+import com.servalabs.chat.restore.RestoreRepository
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.BackupUtil.BackupInfo
 
 /**
  * State holder for a backup restore.

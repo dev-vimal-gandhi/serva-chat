@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,10 +12,10 @@ import androidx.annotation.Nullable;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import com.servalabs.chat.R;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.SlideClickListener;
+import com.servalabs.chat.mms.SlidesClickedListener;
 
 public class BorderlessImageView extends FrameLayout {
 

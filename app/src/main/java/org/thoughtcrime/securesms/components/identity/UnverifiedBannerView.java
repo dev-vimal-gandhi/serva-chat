@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.identity;
+package com.servalabs.chat.components.identity;
 
 
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.model.IdentityRecord;
 
 import java.util.List;
 

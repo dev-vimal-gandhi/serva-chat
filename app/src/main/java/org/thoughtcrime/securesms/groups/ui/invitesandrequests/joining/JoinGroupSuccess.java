@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 
 final class JoinGroupSuccess {
   private final Recipient groupRecipient;

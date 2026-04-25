@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import assertk.assertThat
 import assertk.assertions.isFalse
@@ -12,7 +12,7 @@ import io.mockk.every
 import io.mockk.mockkObject
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 
 class SignalE164UtilTest {
 

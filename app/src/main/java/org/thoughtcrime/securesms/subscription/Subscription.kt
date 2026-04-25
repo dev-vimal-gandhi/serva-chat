@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.subscription
+package com.servalabs.chat.subscription
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -7,18 +7,18 @@ import android.view.View
 import androidx.core.animation.doOnEnd
 import androidx.lifecycle.DefaultLifecycleObserver
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.databinding.SubscriptionPreferenceBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.databinding.SubscriptionPreferenceBinding
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 import java.util.Currency
 import java.util.Locale
 

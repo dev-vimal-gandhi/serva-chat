@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public final class PlayStoreUtil {
 

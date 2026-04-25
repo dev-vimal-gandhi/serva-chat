@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.metadata.certificate.SenderCertificate
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
-import org.thoughtcrime.securesms.jobs.RotateCertificateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Constraint
+import com.servalabs.chat.jobmanager.ConstraintObserver
+import com.servalabs.chat.jobs.RotateCertificateJob
+import com.servalabs.chat.keyvalue.SignalStore
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicBoolean
 

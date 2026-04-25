@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color;
+package com.servalabs.chat.color;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -7,7 +7,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.ui.util.ThemeUtil;
 
 import java.util.HashMap;

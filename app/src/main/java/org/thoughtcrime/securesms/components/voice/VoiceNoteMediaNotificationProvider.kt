@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.app.PendingIntent
 import android.content.Context
@@ -27,14 +27,14 @@ import com.google.common.collect.ImmutableList
 import org.signal.core.util.PendingIntentFlags.cancelCurrent
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.AvatarUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.AvatarUtil
 import java.util.Arrays
 import androidx.media3.session.R as Media3SessionR
 import androidx.media3.ui.R as Media3UiR

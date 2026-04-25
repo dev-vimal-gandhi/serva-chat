@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobs.MultiDeviceDeleteSyncJob
 
 class StoryArchiveRepository {
 

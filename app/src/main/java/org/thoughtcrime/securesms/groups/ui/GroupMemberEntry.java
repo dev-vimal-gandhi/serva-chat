@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
-import org.thoughtcrime.securesms.conversation.colors.NameColor;
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import com.servalabs.chat.conversation.colors.NameColor;
+import com.servalabs.chat.groups.memberlabel.MemberLabel;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.DefaultValueLiveData;
 
 import java.util.Collection;
 import java.util.Objects;

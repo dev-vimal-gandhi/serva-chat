@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package com.servalabs.chat.stories.viewer.reply.group
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
@@ -7,14 +7,14 @@ import org.signal.paging.ObservablePagedData
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.PagingController
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.GroupAuthorNameColorHelper
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.NoSuchMessageException
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.RecipientId
 
 class StoryGroupReplyRepository {
 

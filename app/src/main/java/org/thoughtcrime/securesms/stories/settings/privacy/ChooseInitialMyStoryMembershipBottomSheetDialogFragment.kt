@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package com.servalabs.chat.stories.settings.privacy
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,14 +12,14 @@ import com.google.android.material.radiobutton.MaterialRadioButton
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.connections.ViewAllSignalConnectionsFragment
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.settings.connections.ViewAllSignalConnectionsFragment
+import com.servalabs.chat.stories.settings.select.BaseStoryRecipientSelectionFragment
+import com.servalabs.chat.util.fragments.findListener
+import com.servalabs.chat.util.visible
 
 /**
  * Choose the initial settings for My Story when first sending to My Story.

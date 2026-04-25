@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.compose
+package com.servalabs.chat.compose
 
 import android.app.Activity
 import android.graphics.Bitmap

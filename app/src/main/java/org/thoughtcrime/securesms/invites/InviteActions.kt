@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.invites
+package com.servalabs.chat.invites
 
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
 import androidx.annotation.MainThread
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.util.CommunicationActions
 
 /**
  * Handles 'invite to signal' actions.

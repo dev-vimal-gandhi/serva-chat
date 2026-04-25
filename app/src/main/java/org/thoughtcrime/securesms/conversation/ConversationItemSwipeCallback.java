@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement;
-import org.thoughtcrime.securesms.util.AccessibilityUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.conversation.v2.items.InteractiveConversationElement;
+import com.servalabs.chat.util.AccessibilityUtil;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.util.Objects;
 

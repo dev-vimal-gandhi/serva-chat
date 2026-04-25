@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 /**
  * Number of active contacts for a given section, handed to the expand config.

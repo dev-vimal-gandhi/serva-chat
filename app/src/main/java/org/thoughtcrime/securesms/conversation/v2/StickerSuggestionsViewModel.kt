@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.processors.BehaviorProcessor
-import org.thoughtcrime.securesms.database.model.StickerRecord
-import org.thoughtcrime.securesms.stickers.StickerSearchRepository
+import com.servalabs.chat.database.model.StickerRecord
+import com.servalabs.chat.stickers.StickerSearchRepository
 
 class StickerSuggestionsViewModel(
   private val stickerSearchRepository: StickerSearchRepository = StickerSearchRepository()

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.Base64;
 import org.signal.core.util.LRUCache;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import com.servalabs.chat.service.KeyCachingService;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

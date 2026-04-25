@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.Intent;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import com.servalabs.chat.crypto.MasterSecret;
+import com.servalabs.chat.service.KeyCachingService;
 
 
 /**

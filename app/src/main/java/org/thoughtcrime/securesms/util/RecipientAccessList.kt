@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import org.signal.core.models.ServiceId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 
 /**

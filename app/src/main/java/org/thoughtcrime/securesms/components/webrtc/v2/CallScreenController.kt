@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.os.Build
 import androidx.compose.foundation.pager.PagerState
@@ -26,8 +26,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.components.webrtc.ToggleButtonOutputState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioDevice
+import com.servalabs.chat.components.webrtc.ToggleButtonOutputState
+import com.servalabs.chat.components.webrtc.WebRtcAudioDevice
 
 /**
  * Collects and manages state objects for manipulating the call screen UI programatically.

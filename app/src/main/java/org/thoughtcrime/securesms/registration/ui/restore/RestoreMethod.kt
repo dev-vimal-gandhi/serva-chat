@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Restore methods for various spots in restore flow.

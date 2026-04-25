@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.backup
+package com.servalabs.chat.components.settings.app.internal.backup
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -71,24 +71,24 @@ import org.signal.core.util.Base64
 import org.signal.core.util.Hex
 import org.signal.core.util.Util
 import org.signal.core.util.getLength
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.backup.isIdle
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlert
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlertBottomSheet
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupCreationProgressRow
-import org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.DialogState
-import org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.ScreenState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ArchiveAttachmentBackfillJob
-import org.thoughtcrime.securesms.jobs.ArchiveAttachmentReconciliationJob
-import org.thoughtcrime.securesms.jobs.ArchiveThumbnailBackfillJob
-import org.thoughtcrime.securesms.jobs.BackupRestoreMediaJob
-import org.thoughtcrime.securesms.jobs.LocalBackupJob
-import org.thoughtcrime.securesms.keyvalue.BackupValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupActivity
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.backup.isIdle
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.ui.BackupAlert
+import com.servalabs.chat.backup.v2.ui.BackupAlertBottomSheet
+import com.servalabs.chat.backup.v2.ui.status.BackupCreationProgressRow
+import com.servalabs.chat.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.DialogState
+import com.servalabs.chat.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.ScreenState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ArchiveAttachmentBackfillJob
+import com.servalabs.chat.jobs.ArchiveAttachmentReconciliationJob
+import com.servalabs.chat.jobs.ArchiveThumbnailBackfillJob
+import com.servalabs.chat.jobs.BackupRestoreMediaJob
+import com.servalabs.chat.jobs.LocalBackupJob
+import com.servalabs.chat.keyvalue.BackupValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupActivity
 
 class InternalBackupPlaygroundFragment : ComposeFragment() {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import org.signal.donations.IDEALPaymentSource
 import org.signal.donations.PayPalPaymentSource
@@ -12,7 +12,7 @@ import org.signal.donations.PaymentSourceType
 import org.signal.donations.SEPADebitPaymentSource
 import org.signal.donations.StripeApi
 import org.signal.donations.TokenPaymentSource
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSourceData
+import com.servalabs.chat.jobs.protos.InAppPaymentSourceData
 
 fun PaymentSourceType.toInAppPaymentSourceDataCode(): InAppPaymentSourceData.Code {
   return when (this) {

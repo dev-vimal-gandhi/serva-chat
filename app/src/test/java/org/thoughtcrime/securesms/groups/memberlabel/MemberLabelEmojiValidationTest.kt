@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.app.Application
 import io.mockk.every
@@ -15,8 +15,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.emoji.EmojiSource
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
+import com.servalabs.chat.emoji.EmojiSource
+import com.servalabs.chat.testutil.MockAppDependenciesRule
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

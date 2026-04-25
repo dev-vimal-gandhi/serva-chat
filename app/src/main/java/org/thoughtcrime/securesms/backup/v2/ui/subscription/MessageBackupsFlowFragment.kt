@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import android.app.Activity
 import android.os.Bundle
@@ -34,18 +34,18 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.util.Util
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.getSerializableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
-import org.thoughtcrime.securesms.compose.Nav
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.storage.AndroidCredentialRepository
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
+import com.servalabs.chat.compose.Nav
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.PlayStoreUtil
+import com.servalabs.chat.util.storage.AndroidCredentialRepository
+import com.servalabs.chat.util.viewModel
 
 /**
  * Handles the selection, payment, and changing of a user's backup tier.

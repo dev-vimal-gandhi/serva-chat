@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.Manifest
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import org.signal.core.ui.permissions.Permissions
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class MediaSelectionNavigator(
   private val toCamera: Int = -1,

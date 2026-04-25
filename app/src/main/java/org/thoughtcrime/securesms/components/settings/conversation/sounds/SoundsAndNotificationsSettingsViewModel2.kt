@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package com.servalabs.chat.components.settings.conversation.sounds
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -13,12 +13,12 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.RecipientTable.NotificationSetting
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientForeverObserver
+import com.servalabs.chat.recipients.RecipientId
 
 class SoundsAndNotificationsSettingsViewModel2(
   private val recipientId: RecipientId

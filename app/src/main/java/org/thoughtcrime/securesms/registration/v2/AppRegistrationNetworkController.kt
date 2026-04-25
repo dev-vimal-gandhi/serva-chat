@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.v2
+package com.servalabs.chat.registration.v2
 
 import android.content.Context
 import kotlinx.coroutines.Dispatchers
@@ -45,16 +45,16 @@ import org.signal.registration.NetworkController.ThirdPartyServiceErrorResponse
 import org.signal.registration.NetworkController.UpdateSessionError
 import org.signal.registration.NetworkController.VerificationCodeTransport
 import org.signal.registration.proto.RegistrationProvisionMessage
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.gcm.FcmUtil
-import org.thoughtcrime.securesms.jobs.ResetSvrGuessCountJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.pin.SvrRepository
-import org.thoughtcrime.securesms.pin.SvrWrongPinException
-import org.thoughtcrime.securesms.registration.fcm.PushChallengeRequest
-import org.thoughtcrime.securesms.registration.viewmodel.SvrAuthCredentialSet
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.gcm.FcmUtil
+import com.servalabs.chat.jobs.ResetSvrGuessCountJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.pin.SvrRepository
+import com.servalabs.chat.pin.SvrWrongPinException
+import com.servalabs.chat.registration.fcm.PushChallengeRequest
+import com.servalabs.chat.registration.viewmodel.SvrAuthCredentialSet
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SvrNoDataException
 import org.whispersystems.signalservice.api.provisioning.ProvisioningSocket

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import android.os.Bundle
 import android.view.View
@@ -7,15 +7,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.TextPreference
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.TextPreference
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.util.StickyHeaderDecoration
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 import org.signal.core.ui.R as CoreUiR
 
 class DonationReceiptListPageFragment : Fragment(R.layout.donation_receipt_list_page_fragment) {

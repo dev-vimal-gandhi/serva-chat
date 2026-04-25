@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException

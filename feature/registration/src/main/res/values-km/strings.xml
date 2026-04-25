@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">ឯកជនភាពស្ថិតនៅជាមួយអ្នក។\nសូមមានភាពជាខ្លួនឯងនៅក្នុងគ្រប់សារទាំងអស់។</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal គឺជាអង្គការមិនស្វែងរកប្រាក់ចំណេញ \n លក្ខខណ្ឌ និងគោលការណ៍ឯកជនភាព</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat គឺជាអង្គការមិនស្វែងរកប្រាក់ចំណេញ \n លក្ខខណ្ឌ និងគោលការណ៍ឯកជនភាព</string>
     <string name="RegistrationActivity_continue">បន្ត</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">ស្តារ ឬផ្ទេរ</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">បើកការអនុញ្ញាត</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ដើម្បីជួយអ្នកក្នុងការផ្ញើសារទៅកាន់មនុស្សដែលអ្នកស្គាល់ Signal នឹងស្នើសុំការអនុញ្ញាតទាំងនេះ។ </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ដើម្បីជួយអ្នកក្នុងការផ្ញើសារទៅកាន់មនុស្សដែលអ្នកស្គាល់ Serva Chat នឹងស្នើសុំការអនុញ្ញាតទាំងនេះ។ </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">ឥឡូវកុំទាន់</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">ទំនាក់ទំនង</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">ស្វែងរកមនុស្សដែលអ្នកស្គាល់។ ទំនាក់ទំនងរបស់អ្នកត្រូវបានអ៊ីនគ្រីប និងមិនអាចមើលឃើញដោយសេវាកម្ម Signal បានទេ។</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">ស្វែងរកមនុស្សដែលអ្នកស្គាល់។ ទំនាក់ទំនងរបស់អ្នកត្រូវបានអ៊ីនគ្រីប និងមិនអាចមើលឃើញដោយសេវាកម្ម Serva Chat បានទេ។</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ការហៅទូរសព្ទ</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">ខ្ញុំមានទូរសព្ទចាស់របស់ខ្ញុំ</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">ស្គែនកូដ QR ពីគណនី Signal បច្ចុប្បន្នរបស់អ្នកដើម្បីចាប់ផ្តើមបានលឿន</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">ស្គែនកូដ QR ពីគណនី Serva Chat បច្ចុប្បន្នរបស់អ្នកដើម្បីចាប់ផ្តើមបានលឿន</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">ខ្ញុំមិនមានទូរសព្ទចាស់ទេ</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">ឬអ្នកកំពុងដំឡើង Signal ឡើងវិញនៅលើឧបករណ៍តែមួយ</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">ឬអ្នកកំពុងដំឡើង Serva Chat ឡើងវិញនៅលើឧបករណ៍តែមួយ</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">ជ្រើសរើសរបៀបដែលអ្នកចង់ស្តារប្រវត្តិសារ និងទិន្នន័យគណនីរបស់អ្នក។</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">ពីការបម្រុងទុក Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">ពីការបម្រុងទុក Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">គម្រោងបម្រុងទុក Signal ឥតគិតថ្លៃ ឬបង់ប្រាក់របស់អ្នក</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">គម្រោងបម្រុងទុក Serva Chat ឥតគិតថ្លៃ ឬបង់ប្រាក់របស់អ្នក</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">ស្ដារការបម្រុងទុកនៅលើឧបករណ៍</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">រកមិនឃើញការបម្រុងទុកទេ</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">រកមិនឃើញការបម្រុងទុក Signal នៅក្នុងថតឯកសារដែលបានជ្រើសរើសទេ។ សូមសាកល្បងថតឯកសារផ្សេង។</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">រកមិនឃើញការបម្រុងទុក Serva Chat នៅក្នុងថតឯកសារដែលបានជ្រើសរើសទេ។ សូមសាកល្បងថតឯកសារផ្សេង។</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">សាកល្បងថតឯកសារផ្សេង</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">ភ្ជាប់គណនីរបស់អ្នក</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">មិនទាន់នៅលើ Signal ទេ?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">មិនទាន់នៅលើ Serva Chat ទេ?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">បង្កើតគណនី</string>
 </resources>

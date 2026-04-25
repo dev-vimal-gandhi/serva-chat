@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.content.pm.PackageManager
 import android.media.audiofx.AcousticEchoCanceler
@@ -13,9 +13,9 @@ import androidx.annotation.VisibleForTesting
 import com.fasterxml.jackson.annotation.JsonProperty
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.AudioConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.RemoteConfig
 import java.io.IOException
 
 /**

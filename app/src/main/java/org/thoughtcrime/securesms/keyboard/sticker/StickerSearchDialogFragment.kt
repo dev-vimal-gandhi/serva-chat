@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package com.servalabs.chat.keyboard.sticker
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,13 +11,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView
-import org.thoughtcrime.securesms.stickers.StickerEventListener
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.InsetItemDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import com.servalabs.chat.R
+import com.servalabs.chat.keyboard.emoji.KeyboardPageSearchView
+import com.servalabs.chat.stickers.StickerEventListener
+import com.servalabs.chat.util.DeviceProperties
+import com.servalabs.chat.util.InsetItemDecoration
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.fragments.findListener
 import kotlin.math.max
 
 /**

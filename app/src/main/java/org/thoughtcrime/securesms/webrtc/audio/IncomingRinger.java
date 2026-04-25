@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package com.servalabs.chat.webrtc.audio;
 
 
 import android.app.NotificationManager;
@@ -16,8 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.RingtoneUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.util.RingtoneUtil;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.io.IOException;
 

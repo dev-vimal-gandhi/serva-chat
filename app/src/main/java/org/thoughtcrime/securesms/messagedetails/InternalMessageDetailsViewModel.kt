@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messagedetails
+package com.servalabs.chat.messagedetails
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -12,8 +12,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.internal.util.JsonUtil
 
 class InternalMessageDetailsViewModel(val messageId: Long) : ViewModel() {

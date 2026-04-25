@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.storage
+package com.servalabs.chat.components.settings.app.storage
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
@@ -15,19 +15,19 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.BackupUpgradeAvailabilityChecker
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.media
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.OptimizeMediaJob
-import org.thoughtcrime.securesms.jobs.RestoreOptimizedMediaJob
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.ui.subscription.BackupUpgradeAvailabilityChecker
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase.Companion.media
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.OptimizeMediaJob
+import com.servalabs.chat.jobs.RestoreOptimizedMediaJob
+import com.servalabs.chat.keyvalue.KeepMessagesDuration
+import com.servalabs.chat.keyvalue.SignalStore
 
 class ManageStorageSettingsViewModel : ViewModel() {
 

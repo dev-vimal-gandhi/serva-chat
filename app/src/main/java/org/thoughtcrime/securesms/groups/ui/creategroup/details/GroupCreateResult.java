@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup.details;
+package com.servalabs.chat.groups.ui.creategroup.details;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 import androidx.core.util.Consumer;
 
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,16 +9,16 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.ContactRepository;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.R;
+import com.servalabs.chat.contacts.ContactRepository;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.database.model.ThreadRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collections;

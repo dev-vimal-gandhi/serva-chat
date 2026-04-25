@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -12,12 +12,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.attachments.UriAttachment;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.util.JsonUtils;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;

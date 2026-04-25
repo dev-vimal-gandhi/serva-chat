@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings;
+package com.servalabs.chat.components.settings;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder;
 
 import java.util.Objects;
 

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.megaphone;
+package com.servalabs.chat.megaphone;
 
 import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

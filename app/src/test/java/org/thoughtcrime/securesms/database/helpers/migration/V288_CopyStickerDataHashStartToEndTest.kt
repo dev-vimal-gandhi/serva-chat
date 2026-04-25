@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import android.content.ContentValues
@@ -15,7 +15,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.testutil.SignalDatabaseMigrationRule
+import com.servalabs.chat.testutil.SignalDatabaseMigrationRule
 
 @Suppress("ClassName")
 @RunWith(RobolectricTestRunner::class)

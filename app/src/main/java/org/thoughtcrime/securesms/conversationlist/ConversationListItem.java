@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package com.servalabs.chat.conversationlist;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -51,44 +51,44 @@ import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BindableConversationListItem;
-import org.thoughtcrime.securesms.OverlayTransformation;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.Unbindable;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AlertView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.DeliveryStatusView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.components.TypingIndicatorView;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.LiveUpdateMessage;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.UpdateDescription;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.glide.targets.GlideLiveDataTarget;
+import com.servalabs.chat.BindableConversationListItem;
+import com.servalabs.chat.OverlayTransformation;
+import com.servalabs.chat.R;
+import com.servalabs.chat.Unbindable;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.components.AlertView;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.DeliveryStatusView;
+import com.servalabs.chat.components.FromTextView;
+import com.servalabs.chat.components.TypingIndicatorView;
+import com.servalabs.chat.components.emoji.EmojiStrings;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.contacts.paged.ContactSearchData;
+import com.servalabs.chat.conversation.MessageStyler;
+import com.servalabs.chat.conversationlist.model.ConversationSet;
+import com.servalabs.chat.database.MessageTypes;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.LiveUpdateMessage;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.ThreadRecord;
+import com.servalabs.chat.database.model.UpdateDescription;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.glide.targets.GlideLiveDataTarget;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.search.MessageResult;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.SearchUtil;
-import org.thoughtcrime.securesms.util.SignalE164Util;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.search.MessageResult;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DateUtils;
+import com.servalabs.chat.util.ExpirationUtil;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.SearchUtil;
+import com.servalabs.chat.util.SignalE164Util;
+import com.servalabs.chat.util.SpanUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Locale;
@@ -101,7 +101,7 @@ import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 import kotlin.Pair;
 
-import static org.thoughtcrime.securesms.database.model.LiveUpdateMessage.recipientToStringAsync;
+import static com.servalabs.chat.database.model.LiveUpdateMessage.recipientToStringAsync;
 
 public final class ConversationListItem extends ConstraintLayout implements BindableConversationListItem, Unbindable {
   @SuppressWarnings("unused")

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package com.servalabs.chat.components.spoiler
 
 import android.animation.TimeAnimator
 import android.graphics.Canvas
@@ -12,9 +12,9 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
-import org.thoughtcrime.securesms.util.AccessibilityUtil
-import org.thoughtcrime.securesms.util.getLifecycle
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
+import com.servalabs.chat.util.AccessibilityUtil
+import com.servalabs.chat.util.getLifecycle
 
 /**
  * Performs initial calculation on how to render spoilers and then delegates to actually drawing the spoiler sparkles.

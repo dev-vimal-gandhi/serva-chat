@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice
+package com.servalabs.chat.registration.olddevice
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -13,11 +13,11 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.registration.olddevice.QuickTransferOldDeviceState
-import org.thoughtcrime.securesms.registration.olddevice.preparedevice.PrepareDeviceScreenEvents
-import org.thoughtcrime.securesms.registration.olddevice.transferaccount.TransferScreenEvents
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.QuickRegistrationRepository
+import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceState
+import com.servalabs.chat.registration.olddevice.preparedevice.PrepareDeviceScreenEvents
+import com.servalabs.chat.registration.olddevice.transferaccount.TransferScreenEvents
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 import java.util.UUID
 import kotlin.time.Duration.Companion.milliseconds

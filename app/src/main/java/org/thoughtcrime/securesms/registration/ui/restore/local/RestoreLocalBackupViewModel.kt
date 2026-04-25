@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import android.content.Context
 import android.net.Uri
@@ -17,13 +17,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.backup.v2.local.SnapshotFileSystem
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.ui.restore.StorageServiceRestore
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.backup.v2.local.SnapshotFileSystem
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.ui.restore.StorageServiceRestore
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 
 class RestoreLocalBackupViewModel : ViewModel() {

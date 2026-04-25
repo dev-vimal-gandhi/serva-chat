@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package com.servalabs.chat.sharing.interstitial;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter;
+import com.servalabs.chat.util.viewholders.RecipientViewHolder;
 
 class ShareInterstitialSelectionAdapter extends MappingAdapter {
   ShareInterstitialSelectionAdapter() {

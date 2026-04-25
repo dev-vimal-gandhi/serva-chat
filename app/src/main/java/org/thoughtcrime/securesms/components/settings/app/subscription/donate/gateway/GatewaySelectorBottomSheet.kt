@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package com.servalabs.chat.components.settings.app.subscription.donate.gateway
 
 import android.content.Context
 import androidx.core.os.bundleOf
@@ -11,24 +11,24 @@ import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.BadgeDisplay112
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.NO_TINT
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.models.PayPalButton
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.IndeterminateLoadingCircle
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.payments.currency.CurrencyUtil
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.badges.models.BadgeDisplay112
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsIcon
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.NO_TINT
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.components.settings.app.subscription.models.PayPalButton
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.components.settings.models.IndeterminateLoadingCircle
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.payments.currency.CurrencyUtil
+import com.servalabs.chat.util.viewModel
 import org.signal.core.ui.R as CoreUiR
 
 /**

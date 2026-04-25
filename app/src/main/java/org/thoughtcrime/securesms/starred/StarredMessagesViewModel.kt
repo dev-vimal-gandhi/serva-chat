@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.starred
+package com.servalabs.chat.starred
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -9,12 +9,12 @@ import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.rx3.asFlow
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.RxDatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
 
 class StarredMessagesViewModel(
   private val threadId: Long?

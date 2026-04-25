@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import android.Manifest
 import android.app.Notification
@@ -39,29 +39,29 @@ import org.signal.libsignal.protocol.message.CiphertextMessage
 import org.signal.libsignal.protocol.message.DecryptionErrorMessage
 import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.crypto.SealedSenderAccessUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.BadGroupIdException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AutomaticSessionResetJob
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.jobs.SendRetryReceiptJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.hasGroupContext
-import org.thoughtcrime.securesms.messages.protocol.BufferedProtocolStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.SignalTrace
-import org.thoughtcrime.securesms.util.asChain
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.crypto.ReentrantSessionLock
+import com.servalabs.chat.crypto.SealedSenderAccessUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.BadGroupIdException
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobs.AutomaticSessionResetJob
+import com.servalabs.chat.jobs.PreKeysSyncJob
+import com.servalabs.chat.jobs.SendRetryReceiptJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.logsubmit.SubmitDebugLogActivity
+import com.servalabs.chat.messages.SignalServiceProtoUtil.hasGroupContext
+import com.servalabs.chat.messages.protocol.BufferedProtocolStore
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.SignalTrace
+import com.servalabs.chat.util.asChain
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
@@ -93,7 +93,7 @@ object MessageDecryptor {
    * Decrypts an envelope and provides a [Result]. This method has side effects, but all of them are limited to [SignalDatabase].
    * That means that this operation should be atomic when performed within a transaction.
    * To keep that property, there may be [Result.followUpOperations] you have to perform after your transaction is committed.
-   * These can vary from enqueueing jobs to inserting items into the [org.thoughtcrime.securesms.database.PendingRetryReceiptCache].
+   * These can vary from enqueueing jobs to inserting items into the [com.servalabs.chat.database.PendingRetryReceiptCache].
    */
   fun decrypt(
     context: Context,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 import android.content.Context
 import io.reactivex.rxjava3.core.Observable
@@ -9,8 +9,8 @@ import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeDeclineCode
 import org.signal.donations.StripeError
 import org.signal.donations.StripeFailureCode
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.model.databaseprotos.DonationErrorValue
 
 /**
  * @deprecated Replaced with InAppDonationData.Error

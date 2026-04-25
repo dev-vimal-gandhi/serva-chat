@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ParentStoryId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.ParentStoryId
 
 /**
  * Represents a "thread" that a notification can belong to.

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.os.Bundle
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.groups.GroupsInCommonSummary
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.search.MessageResult
+import com.servalabs.chat.contacts.HeaderAction
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.ThreadRecord
+import com.servalabs.chat.groups.GroupsInCommonSummary
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.search.MessageResult
 
 /**
  * Represents the data backed by a ContactSearchKey

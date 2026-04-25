@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.manual
+package com.servalabs.chat.components.settings.app.notifications.manual
 
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.notifications.manual.models.NotificationProfileSelection
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.components.settings.app.notifications.manual.models.NotificationProfileSelection
+import com.servalabs.chat.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.notifications.profiles.NotificationProfiles
 
 /**
  * BottomSheetDialogFragment that allows a user to select a notification profile to manually enable/disable.

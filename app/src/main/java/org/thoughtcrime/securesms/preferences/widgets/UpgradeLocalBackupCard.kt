@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.preferences.widgets
+package com.servalabs.chat.preferences.widgets
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Row
@@ -26,8 +26,8 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DynamicTheme
 
 object UpgradeLocalBackupCard {
 

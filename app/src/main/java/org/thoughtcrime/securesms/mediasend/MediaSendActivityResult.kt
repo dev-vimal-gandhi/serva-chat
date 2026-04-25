@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.content.Intent
 import android.os.Parcel
@@ -8,13 +8,13 @@ import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
 import org.signal.core.models.media.Media
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender.PreUploadResult
-import org.thoughtcrime.securesms.util.ParcelUtil
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender.PreUploadResult
+import com.servalabs.chat.util.ParcelUtil
 
 /**
  * A class that lets us nicely format data that we'll send back to [ConversationActivity].

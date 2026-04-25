@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.ideal
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.ideal
 
 import android.os.Bundle
 import android.view.View
@@ -48,21 +48,21 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TemporaryScreenshotSecurity
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsViewModel.Field
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.components.TemporaryScreenshotSecurity
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.ideal.IdealTransferDetailsViewModel.Field
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.viewModel
 
 /**
  * Fragment for inputting necessary bank transfer information for iDEAL donation

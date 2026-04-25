@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.NotPushRegisteredException
-import org.thoughtcrime.securesms.service.BackupMediaRestoreService
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.NotPushRegisteredException
+import com.servalabs.chat.service.BackupMediaRestoreService
 import kotlin.time.Duration.Companion.days
 
 /**

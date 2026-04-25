@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.Context
 import androidx.compose.foundation.layout.Box
@@ -30,15 +30,15 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.NightPreview
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageSmall
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantListUpdate
-import org.thoughtcrime.securesms.components.webrtc.v2.CallParticipantUpdatePopupController.DisplayState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.settings.app.subscription.BadgeImageSmall
+import com.servalabs.chat.components.webrtc.CallParticipantListUpdate
+import com.servalabs.chat.components.webrtc.v2.CallParticipantUpdatePopupController.DisplayState
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
 import org.signal.core.ui.R as CoreUiR

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 import android.Manifest;
 import android.app.Notification;
@@ -15,10 +15,10 @@ import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.notifications.NotificationCancellationHelper;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.notifications.NotificationCancellationHelper;
+import com.servalabs.chat.notifications.NotificationChannels;
 
 import java.io.IOException;
 

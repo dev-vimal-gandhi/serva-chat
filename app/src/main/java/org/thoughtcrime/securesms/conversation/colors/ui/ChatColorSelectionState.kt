@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package com.servalabs.chat.conversation.colors.ui
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.util.adapter.mapping.MappingModelList
+import com.servalabs.chat.wallpaper.ChatWallpaper
 
 data class ChatColorSelectionState(
   val wallpaper: ChatWallpaper? = null,

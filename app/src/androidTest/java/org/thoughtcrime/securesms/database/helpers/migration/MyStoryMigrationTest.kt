@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -10,13 +10,13 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.SqlUtil
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
+import com.servalabs.chat.database.DistributionListTables
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.testing.SignalDatabaseRule
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID
-import org.thoughtcrime.securesms.database.SQLiteDatabase as SignalSQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase as SignalSQLiteDatabase
 
 @RunWith(AndroidJUnit4::class)
 class MyStoryMigrationTest {

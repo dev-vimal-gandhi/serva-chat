@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.os.Bundle
 import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.recipients.RecipientId
 
 sealed class MediaSelectionDestination {
 

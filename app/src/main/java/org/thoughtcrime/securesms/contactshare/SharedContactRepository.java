@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,15 +13,15 @@ import org.signal.contacts.SystemContactsRepository;
 import org.signal.contacts.SystemContactsRepository.NameDetails;
 import org.signal.contacts.SystemContactsRepository.PhoneDetails;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contactshare.Contact.Email;
-import org.thoughtcrime.securesms.contactshare.Contact.Name;
-import org.thoughtcrime.securesms.contactshare.Contact.Phone;
-import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.SignalE164Util;
+import com.servalabs.chat.contacts.avatars.ContactPhoto;
+import com.servalabs.chat.contactshare.Contact.Email;
+import com.servalabs.chat.contactshare.Contact.Name;
+import com.servalabs.chat.contactshare.Contact.Phone;
+import com.servalabs.chat.contactshare.Contact.PostalAddress;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.SignalE164Util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
 import ezvcard.Ezvcard;
 import ezvcard.VCard;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
+import static com.servalabs.chat.contactshare.Contact.Avatar;
 
 public class SharedContactRepository {
 

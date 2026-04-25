@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalConfirmationResult
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.components.settings.app.subscription.donate.paypal.PayPalConfirmationResult
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.services.DonationsService
 import org.whispersystems.signalservice.api.subscriptions.PayPalConfirmPaymentIntentResponse
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentIntentResponse

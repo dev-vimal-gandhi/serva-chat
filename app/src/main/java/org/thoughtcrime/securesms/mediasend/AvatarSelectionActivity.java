@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,15 +17,15 @@ import androidx.fragment.app.FragmentTransaction;
 
 import org.signal.core.models.media.Media;
 import org.signal.imageeditor.core.model.EditorModel;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.mediasend.v2.gallery.MediaGalleryFragment;
+import com.servalabs.chat.mms.MediaConstraints;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.scribbles.ImageEditorFragment;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.FileDescriptor;
 import java.util.Collections;

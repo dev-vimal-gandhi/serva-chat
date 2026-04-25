@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.groups.v2
+package com.servalabs.chat.groups.v2
 
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.recipients.Recipient
 
 sealed class GroupBlockJoinRequestResult {
   object Success : GroupBlockJoinRequestResult()

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.app.Application
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.conversation.v2.data.AttachmentHelper
-import org.thoughtcrime.securesms.conversation.v2.data.ReactionHelper
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.conversation.ConversationMessage.ConversationMessageFactory
+import com.servalabs.chat.conversation.v2.data.AttachmentHelper
+import com.servalabs.chat.conversation.v2.data.ReactionHelper
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
 
 /**
  * Repository when getting the pinned messages shown in the pinned message bottom sheet

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package com.servalabs.chat.util.views;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -17,8 +17,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.widget.AppCompatTextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.CommunicationActions;
 import org.signal.core.ui.util.ThemeUtil;
 
 /**

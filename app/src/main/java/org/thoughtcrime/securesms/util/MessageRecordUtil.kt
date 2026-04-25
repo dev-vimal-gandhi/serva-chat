@@ -1,19 +1,19 @@
 @file:JvmName("MessageRecordUtil")
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.content.Context
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.TextSlide
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import com.servalabs.chat.R
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.Quote
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.mms.QuoteModel
+import com.servalabs.chat.mms.TextSlide
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.stickers.StickerUrl
 
 const val MAX_BODY_DISPLAY_LENGTH = 1000
 

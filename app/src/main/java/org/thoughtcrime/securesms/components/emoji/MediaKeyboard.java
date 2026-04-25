@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,12 +16,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerFragment;
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment;
-import org.thoughtcrime.securesms.util.ThemedFragment;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.InputAwareLayout.InputView;
+import com.servalabs.chat.keyboard.KeyboardPage;
+import com.servalabs.chat.keyboard.KeyboardPagerFragment;
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchFragment;
+import com.servalabs.chat.util.ThemedFragment;
 
 public class MediaKeyboard extends FrameLayout implements InputView {
 

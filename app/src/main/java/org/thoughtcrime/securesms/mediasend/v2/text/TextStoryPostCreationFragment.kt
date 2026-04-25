@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.content.pm.ActivityInfo
 import android.os.Bundle
@@ -18,23 +18,23 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.databinding.StoriesTextPostCreationFragmentBinding
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewState
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModelV2
-import org.thoughtcrime.securesms.mediasend.CameraDisplay
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.stories.StoriesMultiselectForwardActivity
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendResult
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.activityViewModel
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.databinding.StoriesTextPostCreationFragmentBinding
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.linkpreview.LinkPreviewState
+import com.servalabs.chat.linkpreview.LinkPreviewViewModelV2
+import com.servalabs.chat.mediasend.CameraDisplay
+import com.servalabs.chat.mediasend.v2.HudCommand
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.mediasend.v2.stories.StoriesMultiselectForwardActivity
+import com.servalabs.chat.mediasend.v2.text.send.TextStoryPostSendRepository
+import com.servalabs.chat.mediasend.v2.text.send.TextStoryPostSendResult
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.activityViewModel
+import com.servalabs.chat.util.visible
 import java.util.Optional
 
 class TextStoryPostCreationFragment : Fragment(R.layout.stories_text_post_creation_fragment), TextStoryPostTextEntryFragment.Callback, SafetyNumberBottomSheet.Callbacks {

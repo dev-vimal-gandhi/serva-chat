@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -10,8 +10,8 @@ import android.telephony.TelephonyManager;
 import androidx.annotation.NonNull;
 
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.Networking;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.Networking;
 import org.webrtc.PeerConnection;
 
 public final class NetworkUtil {

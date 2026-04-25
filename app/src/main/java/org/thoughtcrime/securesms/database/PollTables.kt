@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -25,16 +25,16 @@ import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.polls.Poll
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.polls.PollVote
-import org.thoughtcrime.securesms.polls.VoteState
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.polls.Poll
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.polls.PollVote
+import com.servalabs.chat.polls.VoteState
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Database table for polls

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
 
 /**
  * Represents the UI state of the [UsernameLinkSettingsFragment].

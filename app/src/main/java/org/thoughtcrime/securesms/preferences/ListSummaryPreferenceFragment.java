@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.preferences;
+package com.servalabs.chat.preferences;
 
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.Arrays;
 

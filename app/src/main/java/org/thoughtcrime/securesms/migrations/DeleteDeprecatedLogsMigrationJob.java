@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import com.servalabs.chat.jobmanager.Job;
 
 import java.io.File;
 

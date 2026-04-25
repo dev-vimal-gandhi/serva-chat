@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package com.servalabs.chat.mediaoverview;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
@@ -9,7 +9,7 @@ import androidx.lifecycle.SavedStateViewModelFactory;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.MediaTable.Sorting;
+import com.servalabs.chat.database.MediaTable.Sorting;
 
 public class MediaOverviewViewModel extends ViewModel {
 

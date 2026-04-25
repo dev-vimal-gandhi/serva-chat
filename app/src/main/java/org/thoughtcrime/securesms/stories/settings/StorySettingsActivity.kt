@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings
+package com.servalabs.chat.stories.settings
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.os.bundleOf
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsActivity
 
 class StorySettingsActivity : DSLSettingsActivity() {
   companion object {

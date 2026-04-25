@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.loaders;
+package com.servalabs.chat.database.loaders;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.util.AbstractCursorLoader;
+import com.servalabs.chat.util.AbstractCursorLoader;
 
 public abstract class MediaLoader extends AbstractCursorLoader {
 

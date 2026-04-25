@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import okio.ByteString
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecimalValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.FiatValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.database.model.databaseprotos.DecimalValue
+import com.servalabs.chat.database.model.databaseprotos.FiatValue
+import com.servalabs.chat.database.model.databaseprotos.PendingOneTimeDonation
 import java.math.BigDecimal
 import java.math.BigInteger
 import java.math.MathContext

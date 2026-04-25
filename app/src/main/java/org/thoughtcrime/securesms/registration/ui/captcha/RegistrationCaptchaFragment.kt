@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.captcha
+package com.servalabs.chat.registration.ui.captcha
 
 import androidx.fragment.app.activityViewModels
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.RegistrationViewModel
 
 /**
  * Screen that displays a captcha as part of the registration flow.

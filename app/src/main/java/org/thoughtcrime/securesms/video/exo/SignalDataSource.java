@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package com.servalabs.chat.video.exo;
 
 import android.content.Context;
 import android.net.Uri;
@@ -16,8 +16,8 @@ import androidx.media3.datasource.DefaultDataSource;
 import androidx.media3.datasource.DefaultDataSourceFactory;
 import androidx.media3.datasource.TransferListener;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.providers.BlobProvider;
 
 import java.io.IOException;
 import java.util.Collections;

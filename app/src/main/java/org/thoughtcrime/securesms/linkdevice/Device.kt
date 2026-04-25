@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 /**
  * Class that represents a linked device

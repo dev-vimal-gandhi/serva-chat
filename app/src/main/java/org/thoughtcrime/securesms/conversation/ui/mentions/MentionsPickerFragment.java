@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package com.servalabs.chat.conversation.ui.mentions;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -16,10 +16,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.VibrateUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.R;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.VibrateUtil;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 import java.util.Collections;
 import java.util.List;

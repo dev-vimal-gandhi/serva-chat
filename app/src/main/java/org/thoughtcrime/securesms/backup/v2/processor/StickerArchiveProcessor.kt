@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import okio.ByteString.Companion.toByteString
 import org.signal.archive.proto.Frame
@@ -12,12 +12,12 @@ import org.signal.archive.stream.BackupFrameEmitter
 import org.signal.core.util.Hex
 import org.signal.core.util.insertInto
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.ExportSkips
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.StickerTable
-import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
+import com.servalabs.chat.backup.v2.ExportSkips
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.StickerTable
+import com.servalabs.chat.database.StickerTable.StickerPackRecordReader
+import com.servalabs.chat.database.model.StickerPackRecord
 import java.io.IOException
 
 private val TAG = Log.tag(StickerArchiveProcessor::class)

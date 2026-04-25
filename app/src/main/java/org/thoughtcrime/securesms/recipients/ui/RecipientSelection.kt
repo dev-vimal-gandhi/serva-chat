@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui
+package com.servalabs.chat.recipients.ui
 
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.RecipientId
 
 sealed interface RecipientSelection {
   sealed interface HasId : RecipientSelection {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package com.servalabs.chat.audio;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
-import org.thoughtcrime.securesms.util.ParcelUtil;
+import com.servalabs.chat.database.model.databaseprotos.AudioWaveFormData;
+import com.servalabs.chat.util.ParcelUtil;
 import org.signal.core.util.Base64;
 
 import java.io.IOException;

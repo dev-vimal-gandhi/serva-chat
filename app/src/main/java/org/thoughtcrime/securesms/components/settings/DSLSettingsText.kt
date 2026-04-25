@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.content.Context
 import android.text.SpannableStringBuilder
 import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
-import org.thoughtcrime.securesms.util.SpanUtil
+import com.servalabs.chat.util.SpanUtil
 import org.signal.core.ui.R as CoreUiR
 
 sealed class DSLSettingsText {

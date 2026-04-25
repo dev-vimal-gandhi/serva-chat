@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.net.Uri
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -15,16 +15,16 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.models.media.TransformProperties
 import org.signal.core.util.StreamUtil
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.UriAttachmentBuilder
-import org.thoughtcrime.securesms.database.transformPropertiesForSentMediaQuality
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.UriAttachment
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.UriAttachmentBuilder
+import com.servalabs.chat.database.transformPropertiesForSentMediaQuality
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.MediaUtil
 import java.util.Optional
 import java.util.concurrent.CountDownLatch
 

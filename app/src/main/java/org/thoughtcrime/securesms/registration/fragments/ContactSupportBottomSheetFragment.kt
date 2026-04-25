@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.fragments
+package com.servalabs.chat.registration.fragments
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,9 +22,9 @@ import androidx.compose.ui.unit.sp
 import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SupportEmailUtil
 
 /**
  * Helpful bottom sheet dialog displayed during registration when the user enters the wrong verification code too many times.

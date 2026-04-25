@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
 
 /**
  * Rebuilds the full-text search index for the messages table.

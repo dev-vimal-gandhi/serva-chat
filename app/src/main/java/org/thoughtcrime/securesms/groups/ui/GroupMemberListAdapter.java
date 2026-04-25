@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,14 +15,14 @@ import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.colors.NameColor;
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel;
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelPillView;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.conversation.colors.NameColor;
+import com.servalabs.chat.groups.memberlabel.MemberLabel;
+import com.servalabs.chat.groups.memberlabel.MemberLabelPillView;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.util.Util;
 
 import java.util.ArrayList;

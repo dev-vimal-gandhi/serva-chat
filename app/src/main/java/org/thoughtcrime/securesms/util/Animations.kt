@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.view.animation.Animation
 import android.view.animation.Interpolator

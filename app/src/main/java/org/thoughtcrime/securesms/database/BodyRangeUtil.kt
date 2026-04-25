@@ -1,8 +1,8 @@
 @file:JvmName("BodyRangeUtil")
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
 
 /**
  * Given a list of body adjustment from removing mention names from a message and replacing

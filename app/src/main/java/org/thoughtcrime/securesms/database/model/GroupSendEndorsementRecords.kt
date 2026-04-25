@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsement
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Contains the individual group send endorsements for a specific group

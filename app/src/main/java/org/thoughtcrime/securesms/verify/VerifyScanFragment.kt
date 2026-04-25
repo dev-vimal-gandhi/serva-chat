@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,11 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.qr.QrScannerView
 import org.signal.qr.kitkat.ScanListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ShapeScrim
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ShapeScrim
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.fragments.findListener
 
 /**
  * QR Scanner for identity verification

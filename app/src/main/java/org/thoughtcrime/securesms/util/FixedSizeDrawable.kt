@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable

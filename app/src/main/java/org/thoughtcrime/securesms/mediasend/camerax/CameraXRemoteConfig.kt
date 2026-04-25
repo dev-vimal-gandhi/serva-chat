@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.camerax
+package com.servalabs.chat.mediasend.camerax
 
 import android.os.Build
 import org.signal.core.util.asListContains
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.util.RemoteConfig
 
 /**
  * Some phones don't work well with CameraX. This class uses a remote config to decide

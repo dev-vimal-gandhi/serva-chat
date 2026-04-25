@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class TextColorStyle(@DrawableRes val icon: Int) {
   /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -32,29 +32,29 @@ import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
 import org.signal.core.util.overrideActivityTransitionCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil
-import org.thoughtcrime.securesms.mediasend.CameraDisplay
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaReviewFragment
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryPostCreationViewModel
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.FullscreenHelper
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.keyboard.emoji.EmojiKeyboardPageFragment
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchFragment
+import com.servalabs.chat.linkpreview.LinkPreviewUtil
+import com.servalabs.chat.mediasend.CameraDisplay
+import com.servalabs.chat.mediasend.MediaSendActivityResult
+import com.servalabs.chat.mediasend.v2.review.MediaReviewFragment
+import com.servalabs.chat.mediasend.v2.text.TextStoryPostCreationViewModel
+import com.servalabs.chat.mediasend.v2.text.send.TextStoryPostSendRepository
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.Debouncer
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.FullscreenHelper
+import com.servalabs.chat.util.WindowUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 
 class MediaSelectionActivity :
   PassphraseRequiredActivity(),

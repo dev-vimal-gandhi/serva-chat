@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package com.servalabs.chat.conversation.colors.ui.custom
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

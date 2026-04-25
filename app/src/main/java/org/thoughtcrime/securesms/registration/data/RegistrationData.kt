@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.data
+package com.servalabs.chat.registration.data
 
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
 

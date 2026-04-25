@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package com.servalabs.chat.conversation.ui.error;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.IdentityTable;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.recipients.Recipient;
 
 /**
  * Wrapper class for helping show a list of recipients that had recent safety number changes.

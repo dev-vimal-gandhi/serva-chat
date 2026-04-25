@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.jobs.JobManagerFactories;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Constraint;
+import com.servalabs.chat.jobs.JobManagerFactories;
 import org.signal.core.util.Util;
 
 import java.util.Map;

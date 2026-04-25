@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package com.servalabs.chat.scribbles;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

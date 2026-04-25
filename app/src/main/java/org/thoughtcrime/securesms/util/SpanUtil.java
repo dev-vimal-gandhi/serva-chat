@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -37,7 +37,7 @@ import androidx.annotation.StyleRes;
 
 import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public final class SpanUtil {
 

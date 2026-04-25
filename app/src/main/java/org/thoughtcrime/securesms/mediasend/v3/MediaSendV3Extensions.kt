@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v3
+package com.servalabs.chat.mediasend.v3
 
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContract
@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import org.signal.mediasend.MediaSendActivityContract
 import org.signal.mediasend.StorySendRequirements
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.stories.Stories
 
 private fun contract(): ActivityResultContract<MediaSendActivityContract.Args, MediaSendActivityContract.Result?> = MediaSendActivityContract(MediaSendV3Activity::class.java)
 

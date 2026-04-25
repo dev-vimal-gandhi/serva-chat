@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import io.reactivex.rxjava3.core.BackpressureStrategy
 import io.reactivex.rxjava3.core.Emitter
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.AppDependencies
 import java.util.concurrent.TimeUnit
 
 /**

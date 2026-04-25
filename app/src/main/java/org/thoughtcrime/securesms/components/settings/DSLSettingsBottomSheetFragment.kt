@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.content.Context
 import android.os.Build
@@ -12,8 +12,8 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.WindowUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.util.WindowUtil
 
 abstract class DSLSettingsBottomSheetFragment(
   @LayoutRes private val layoutId: Int = R.layout.dsl_settings_bottom_sheet,

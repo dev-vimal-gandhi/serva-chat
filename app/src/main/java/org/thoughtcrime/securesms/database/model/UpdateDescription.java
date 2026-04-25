@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
 import org.signal.core.models.ServiceId;
 
 import java.util.Collection;

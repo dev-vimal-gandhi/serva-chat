@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 /**
  * Updates profile sharing flag to true if conversation is pre-message request enable time.

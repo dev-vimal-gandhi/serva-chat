@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -12,11 +12,11 @@ import org.signal.core.util.readToSingleObject
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireNonNullString
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.database.KeyValueDatabase
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
+import com.servalabs.chat.database.KeyValueDatabase
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.SecurePreferenceManager
 
 /**
  * This is a combination of the edit message and message recipient migrations (would have been V185 and v186), but as they

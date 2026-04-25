@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import android.os.Bundle
 import androidx.compose.foundation.layout.Column
@@ -26,7 +26,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.util.getSerializableCompat
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Bottom sheet info explaining the results of automatic key verification

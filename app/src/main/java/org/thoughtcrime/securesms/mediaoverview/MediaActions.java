@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package com.servalabs.chat.mediaoverview;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,15 +8,15 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentSaver;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.AttachmentSaver;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.jobs.MultiDeviceDeleteSyncJob;
+import com.servalabs.chat.util.AttachmentUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import com.servalabs.chat.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.HashSet;

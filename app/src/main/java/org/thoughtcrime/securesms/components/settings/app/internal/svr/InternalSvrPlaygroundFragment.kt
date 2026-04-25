@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.svr
+package com.servalabs.chat.components.settings.app.internal.svr
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

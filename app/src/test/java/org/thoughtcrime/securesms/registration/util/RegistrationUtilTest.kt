@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.util
+package com.servalabs.chat.registration.util
 
 import android.app.Application
 import assertk.assertThat
@@ -26,17 +26,17 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log.initialize
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.Skipped
-import org.thoughtcrime.securesms.keyvalue.Start
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.LogRecorder
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.MockSignalStoreRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.Skipped
+import com.servalabs.chat.keyvalue.Start
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.testutil.LogRecorder
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.MockSignalStoreRule
+import com.servalabs.chat.util.RemoteConfig
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class, manifest = Config.NONE)

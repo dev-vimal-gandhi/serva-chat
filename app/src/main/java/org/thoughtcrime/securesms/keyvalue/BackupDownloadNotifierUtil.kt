@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.BackupValues.Companion.TAG
-import org.thoughtcrime.securesms.keyvalue.protos.BackupDownloadNotifierState
+import com.servalabs.chat.keyvalue.BackupValues.Companion.TAG
+import com.servalabs.chat.keyvalue.protos.BackupDownloadNotifierState
 import kotlin.math.max
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days

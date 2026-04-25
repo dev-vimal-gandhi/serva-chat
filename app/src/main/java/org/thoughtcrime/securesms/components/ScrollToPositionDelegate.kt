@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.view.View
 import androidx.annotation.AnyThread
@@ -13,7 +13,7 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.doAfterNextLayout
+import com.servalabs.chat.util.doAfterNextLayout
 import kotlin.math.abs
 import kotlin.math.max
 

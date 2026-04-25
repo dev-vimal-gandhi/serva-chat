@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package com.servalabs.chat.giph.ui;
 
 
 import android.content.Context;
@@ -20,7 +20,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class GiphyActivityToolbar extends Toolbar {
 

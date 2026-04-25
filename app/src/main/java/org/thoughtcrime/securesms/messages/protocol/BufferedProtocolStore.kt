@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.signal.core.models.ServiceId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * The entry point for creating and retrieving buffered protocol stores.

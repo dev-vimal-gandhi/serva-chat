@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package com.servalabs.chat.conversation.mutiselect.forward
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -10,9 +10,9 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.fragments.findListener
+import com.servalabs.chat.R
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.fragments.findListener
 
 class MultiselectForwardBottomSheet : FixedRoundedCornerBottomSheetDialogFragment(), MultiselectForwardFragment.Callback {
 

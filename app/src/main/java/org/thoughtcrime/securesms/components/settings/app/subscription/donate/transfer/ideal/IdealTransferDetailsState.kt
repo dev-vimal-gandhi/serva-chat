@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.ideal
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.ideal
 
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.BankDetailsValidator
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.BankDetailsValidator
+import com.servalabs.chat.database.InAppPaymentTable
 
 data class IdealTransferDetailsState(
   val inAppPayment: InAppPaymentTable.InAppPayment? = null,

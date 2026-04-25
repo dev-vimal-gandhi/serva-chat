@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.content.Context;
 import android.content.Intent;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.notifications.v2.ConversationId;
 
 import java.util.ArrayList;
 
 public class DeleteNotificationReceiver extends ExportedBroadcastReceiver {
 
-  public static String DELETE_NOTIFICATION_ACTION = "org.thoughtcrime.securesms.DELETE_NOTIFICATION";
+  public static String DELETE_NOTIFICATION_ACTION = "com.servalabs.chat.DELETE_NOTIFICATION";
 
   public static final String EXTRA_IDS     = "message_ids";
   public static final String EXTRA_MMS     = "is_mms";

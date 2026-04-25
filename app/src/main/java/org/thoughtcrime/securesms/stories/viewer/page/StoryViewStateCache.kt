@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 import android.os.Parcel
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.util.ParcelUtil
+import com.servalabs.chat.util.ParcelUtil
 
 /**
  * Activity-bounds ViewModel which tracks the viewed state for stories.

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.delete
+package com.servalabs.chat.delete
 
 import android.content.Context
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Dialog which shows one of two states:

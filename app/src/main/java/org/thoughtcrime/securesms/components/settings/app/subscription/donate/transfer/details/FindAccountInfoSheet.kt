@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.details
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -20,7 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.BottomSheets
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Displays a modal bottom sheet that explains where to find the information necessary to perform

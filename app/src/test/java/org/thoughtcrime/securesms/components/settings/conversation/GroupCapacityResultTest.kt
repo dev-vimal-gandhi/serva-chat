@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.RecipientId
 
 private const val SELECTION_WARNING = 151
 private const val SELECTION_LIMIT = 1001

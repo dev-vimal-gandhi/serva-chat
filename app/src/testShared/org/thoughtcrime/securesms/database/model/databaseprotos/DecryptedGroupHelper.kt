@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model.databaseprotos
+package com.servalabs.chat.database.model.databaseprotos
 
 import okio.ByteString.Companion.toByteString
 import org.signal.core.models.ServiceId

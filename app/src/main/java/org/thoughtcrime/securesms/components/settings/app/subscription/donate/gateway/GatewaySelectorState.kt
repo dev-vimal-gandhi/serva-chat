@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package com.servalabs.chat.components.settings.app.subscription.donate.gateway
 
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import com.servalabs.chat.database.InAppPaymentTable
 
 sealed interface GatewaySelectorState {
   data object Loading : GatewaySelectorState

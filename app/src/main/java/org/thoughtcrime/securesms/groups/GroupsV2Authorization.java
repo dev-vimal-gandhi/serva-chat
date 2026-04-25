@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 
@@ -11,7 +11,7 @@ import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation
 import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialResponse;
 import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams;
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api;
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2AuthorizationString;
 import org.whispersystems.signalservice.api.groupsv2.NoCredentialForRedemptionTimeException;

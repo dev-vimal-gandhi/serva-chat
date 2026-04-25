@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package com.servalabs.chat.components.settings.app.data
 
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.webrtc.CallDataMode
 
 data class DataAndStorageSettingsState(
   val totalStorageUse: Long,

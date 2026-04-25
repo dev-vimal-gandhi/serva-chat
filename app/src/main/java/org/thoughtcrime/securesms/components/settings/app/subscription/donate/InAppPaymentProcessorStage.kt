@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 enum class InAppPaymentProcessorStage {
   INIT,

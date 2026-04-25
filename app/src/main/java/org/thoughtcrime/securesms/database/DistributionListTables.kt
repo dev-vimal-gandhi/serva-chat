@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -18,14 +18,14 @@ import org.signal.core.util.requireObject
 import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyData
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageRecordUpdate
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListPrivacyData
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageRecordUpdate
+import com.servalabs.chat.storage.StorageSyncHelper
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord
 import org.whispersystems.signalservice.api.storage.recipientServiceAddresses

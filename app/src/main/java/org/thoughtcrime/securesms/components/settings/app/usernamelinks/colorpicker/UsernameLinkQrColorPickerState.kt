@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.colorpicker
+package com.servalabs.chat.components.settings.app.usernamelinks.colorpicker
 
 import kotlinx.collections.immutable.ImmutableList
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
 
 data class UsernameLinkQrColorPickerState(
   val username: String,

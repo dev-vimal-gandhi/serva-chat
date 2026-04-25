@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.os.Parcelable
 import com.fasterxml.jackson.annotation.JsonProperty

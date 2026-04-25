@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import android.os.Bundle
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.NavHostFragment
 import org.signal.core.util.getSerializableCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class CheckoutNavHostFragment : NavHostFragment() {
 

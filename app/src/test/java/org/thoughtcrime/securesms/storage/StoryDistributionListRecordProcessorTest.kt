@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import okio.ByteString
 import org.junit.Assert.assertFalse
@@ -7,7 +7,7 @@ import org.junit.BeforeClass
 import org.junit.Test
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.EmptyLogger
+import com.servalabs.chat.testutil.EmptyLogger
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord
 import org.whispersystems.signalservice.api.storage.StorageId

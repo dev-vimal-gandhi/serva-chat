@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.billing.upgrade
+package com.servalabs.chat.billing.upgrade
 
 import android.os.Bundle
 import android.view.View
@@ -26,15 +26,15 @@ import kotlinx.coroutines.rx3.asFlowable
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.util.concurrent.SignalDispatchers
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsFlowViewModel
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsStage
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsFlowViewModel
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsStage
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsType
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.viewModel
 
 /**
  * BottomSheet that encapsulates the common logic for updating someone to paid tier.

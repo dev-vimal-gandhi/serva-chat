@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.help
+package com.servalabs.chat.components.settings.app.help
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -26,7 +26,7 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import java.io.InputStream
 
 class LicenseFragment : ComposeFragment() {

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stickers
+package com.servalabs.chat.stickers
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.StickerPackDownloadJob
 import org.whispersystems.signalservice.internal.util.JsonUtil
 
 /**

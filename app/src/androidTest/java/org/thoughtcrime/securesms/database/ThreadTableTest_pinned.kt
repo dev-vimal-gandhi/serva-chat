@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import io.mockk.every
 import io.mockk.mockkStatic
@@ -9,11 +9,11 @@ import org.junit.Rule
 import org.junit.Test
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.conversationlist.model.ConversationFilter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.testing.SignalDatabaseRule
+import com.servalabs.chat.util.RemoteConfig
 import java.util.UUID
 
 @Suppress("ClassName")

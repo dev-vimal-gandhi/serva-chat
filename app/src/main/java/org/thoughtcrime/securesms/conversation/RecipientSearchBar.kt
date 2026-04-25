@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardActions
@@ -34,13 +34,13 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.IconButtons.IconButton
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker.KeyboardType
+import com.servalabs.chat.R
+import com.servalabs.chat.recipients.ui.RecipientPicker.KeyboardType
 
 /**
  * A search input field for finding recipients.
  *
- * Replaces [org.thoughtcrime.securesms.components.ContactFilterView].
+ * Replaces [com.servalabs.chat.components.ContactFilterView].
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.transfercontrols
+package com.servalabs.chat.components.transfercontrols
 
 import android.content.Context
 import android.content.res.Resources
@@ -19,7 +19,7 @@ import androidx.annotation.Discouraged
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.withTranslation
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import kotlin.math.roundToInt
 import org.signal.core.ui.R as CoreUiR
 

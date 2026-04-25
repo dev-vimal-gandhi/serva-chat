@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -20,14 +20,14 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.models.media.Media;
 import org.signal.core.models.media.MediaFolder;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.util.MediaUtil;
 import org.signal.core.util.SqlUtil;
 import org.signal.core.util.Stopwatch;
 import org.signal.core.ui.util.StorageUtil;

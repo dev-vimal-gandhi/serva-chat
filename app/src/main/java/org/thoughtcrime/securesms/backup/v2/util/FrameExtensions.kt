@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.util
+package com.servalabs.chat.backup.v2.util
 
 import okio.ByteString
 import org.signal.archive.proto.AccountData
@@ -12,7 +12,7 @@ import org.signal.archive.proto.ChatItem
 import org.signal.archive.proto.FilePointer
 import org.signal.archive.proto.Frame
 import org.signal.core.models.backup.MediaName
-import org.thoughtcrime.securesms.attachments.Cdn
+import com.servalabs.chat.attachments.Cdn
 
 fun Frame.getAllReferencedArchiveAttachmentInfos(): Set<ArchiveAttachmentInfo> {
   val infos: MutableSet<ArchiveAttachmentInfo> = mutableSetOf()

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package com.servalabs.chat.contactshare;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,21 +22,21 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.calls.YouAreAlreadyInACallSnackbar;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.DirectoryRefreshJob;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.DynamicLanguage;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.WindowUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;

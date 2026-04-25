@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
 import android.content.Context
 import android.util.Log

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Replacement sealed class for WebRtcCallViewModel.Event

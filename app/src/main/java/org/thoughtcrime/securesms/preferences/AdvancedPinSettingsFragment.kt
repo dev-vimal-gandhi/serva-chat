@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.preferences
+package com.servalabs.chat.preferences
 
 import android.content.Intent
 import android.os.Bundle
@@ -34,11 +34,11 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.showSnackbar
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeyDisplayFragment
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity
-import org.thoughtcrime.securesms.pin.PinOptOutDialog
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeyDisplayFragment
+import com.servalabs.chat.lock.v2.CreateSvrPinActivity
+import com.servalabs.chat.pin.PinOptOutDialog
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Fragment which allows user to enable or disable their PIN

@@ -5,9 +5,9 @@
 
 @file:JvmName("RestoreDecisionStateUtil")
 
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
 
 /** Are we still awaiting a final decision about restore. */
 val RestoreDecisionState.isDecisionPending: Boolean

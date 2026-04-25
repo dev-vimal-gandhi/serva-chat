@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package com.servalabs.chat.util.views;
 
 import android.content.Context;
 import android.os.Parcel;

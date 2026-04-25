@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.new
+package com.servalabs.chat.calls.new
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,16 +15,16 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.calls.new.NewCallUiState.CallType
-import org.thoughtcrime.securesms.calls.new.NewCallUiState.UserMessage
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientRepository
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
+import com.servalabs.chat.calls.new.NewCallUiState.CallType
+import com.servalabs.chat.calls.new.NewCallUiState.UserMessage
+import com.servalabs.chat.contacts.sync.ContactDiscovery
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientRepository
+import com.servalabs.chat.recipients.ui.RecipientSelection
 import org.whispersystems.signalservice.api.NetworkResult
 
 class NewCallViewModel : ViewModel() {

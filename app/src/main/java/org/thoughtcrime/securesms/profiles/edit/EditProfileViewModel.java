@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package com.servalabs.chat.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,15 +11,15 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.BidiUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.profiles.edit.EditProfileRepository.UploadResult;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.profiles.edit.EditProfileRepository.UploadResult;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.Arrays;
 import java.util.Objects;

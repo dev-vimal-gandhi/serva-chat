@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -10,10 +10,10 @@ import org.signal.core.util.forEach
 import org.signal.core.util.logging.Log
 import org.signal.core.util.select
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.ReactionRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Store reactions on messages.

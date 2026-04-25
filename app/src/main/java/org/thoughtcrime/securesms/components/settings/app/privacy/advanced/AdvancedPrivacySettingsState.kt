@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.advanced
+package com.servalabs.chat.components.settings.app.privacy.advanced
 
 data class AdvancedPrivacySettingsState(
   val isPushEnabled: Boolean,

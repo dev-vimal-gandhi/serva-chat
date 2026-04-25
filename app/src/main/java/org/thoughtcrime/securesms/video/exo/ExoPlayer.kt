@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo
+package com.servalabs.chat.video.exo
 
 import androidx.media3.common.C
 import androidx.media3.common.Player

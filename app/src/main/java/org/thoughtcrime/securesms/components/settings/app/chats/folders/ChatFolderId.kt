@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package com.servalabs.chat.components.settings.app.chats.folders
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

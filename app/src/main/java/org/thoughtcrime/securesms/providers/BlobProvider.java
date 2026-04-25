@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package com.servalabs.chat.providers;
 
 import android.app.Application;
 import android.content.Context;
@@ -16,18 +16,18 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.DraftTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.IOFunction;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.components.voice.VoiceNoteDraft;
+import com.servalabs.chat.crypto.AttachmentSecret;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.crypto.ModernDecryptingPartInputStream;
+import com.servalabs.chat.crypto.ModernEncryptingPartOutputStream;
+import com.servalabs.chat.database.DraftTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.util.IOFunction;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.video.ByteArrayMediaDataSource;
-import org.thoughtcrime.securesms.video.EncryptedMediaDataSource;
+import com.servalabs.chat.video.ByteArrayMediaDataSource;
+import com.servalabs.chat.video.EncryptedMediaDataSource;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

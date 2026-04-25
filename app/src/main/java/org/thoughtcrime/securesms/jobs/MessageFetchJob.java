@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,14 +7,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.messages.WebSocketDrainer;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.messages.WebSocketDrainer;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.service.GenericForegroundService;
+import com.servalabs.chat.util.AppForegroundObserver;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageArgs
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageFragment
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageArgs
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageFragment
 
 class StoryViewerPagerAdapter(
   fragment: Fragment,

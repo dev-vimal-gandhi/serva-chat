@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package com.servalabs.chat.preferences;
 
 
 import android.annotation.SuppressLint;
@@ -18,8 +18,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
-import org.thoughtcrime.securesms.util.SecurePreferenceManager;
+import com.servalabs.chat.components.CustomDefaultPreference;
+import com.servalabs.chat.util.SecurePreferenceManager;
 
 import java.util.Objects;
 

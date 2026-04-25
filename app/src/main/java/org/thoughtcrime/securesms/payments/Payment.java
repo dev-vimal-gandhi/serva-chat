@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package com.servalabs.chat.payments;
 
 /**
  * Represents one payment as displayed to the user.

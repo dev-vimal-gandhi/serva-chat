@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package com.servalabs.chat.components.settings.app.chats.folders
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,16 +10,16 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.button.MaterialButton
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ContactFilterView
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.ContactSelectionListFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ContactFilterView
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.contacts.paged.ChatType
+import com.servalabs.chat.contacts.selection.ContactSelectionArguments
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.ViewUtil
 import java.util.Optional
 import java.util.function.Consumer
 

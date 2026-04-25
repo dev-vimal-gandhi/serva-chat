@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.BackfillCollapsedMessageJob
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.BackfillCollapsedMessageJob
 
 /**
  * Schedules the [BackfillCollapsedMessageJob] to run.

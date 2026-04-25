@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui.addtogroup
+package com.servalabs.chat.groups.ui.addtogroup
 
 import android.content.Context
 import android.content.Intent
@@ -32,18 +32,18 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.ui.GroupErrors
-import org.thoughtcrime.securesms.groups.ui.addtogroup.AddToGroupsUiState.UserMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerCallbacks
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerScaffold
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.ui.GroupErrors
+import com.servalabs.chat.groups.ui.addtogroup.AddToGroupsUiState.UserMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.RecipientPicker
+import com.servalabs.chat.recipients.ui.RecipientPickerCallbacks
+import com.servalabs.chat.recipients.ui.RecipientPickerScaffold
+import com.servalabs.chat.recipients.ui.RecipientSelection
 
 /**
  * Allows the user to add a recipient to a group.

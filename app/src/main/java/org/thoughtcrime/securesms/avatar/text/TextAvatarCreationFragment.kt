@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.text
+package com.servalabs.chat.avatar.text
 
 import android.os.Bundle
 import android.view.View
@@ -17,18 +17,18 @@ import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import com.google.android.material.tabs.TabLayout
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.AvatarColorItem
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerItem
-import org.thoughtcrime.securesms.components.BoldSelectionTabItem
-import org.thoughtcrime.securesms.components.ControllableTabLayout
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarBundler
+import com.servalabs.chat.avatar.AvatarColorItem
+import com.servalabs.chat.avatar.Avatars
+import com.servalabs.chat.avatar.picker.AvatarPickerItem
+import com.servalabs.chat.components.BoldSelectionTabItem
+import com.servalabs.chat.components.ControllableTabLayout
+import com.servalabs.chat.components.KeyboardAwareLinearLayout
+import com.servalabs.chat.components.recyclerview.GridDividerDecoration
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 /**
  * Fragment to create an avatar based off of a Vector or Text (via a pager)
@@ -147,6 +147,6 @@ class TextAvatarCreationFragment : Fragment(R.layout.text_avatar_creation_fragme
   }
 
   companion object {
-    const val REQUEST_KEY_TEXT = "org.thoughtcrime.securesms.avatar.text.TEXT"
+    const val REQUEST_KEY_TEXT = "com.servalabs.chat.avatar.text.TEXT"
   }
 }

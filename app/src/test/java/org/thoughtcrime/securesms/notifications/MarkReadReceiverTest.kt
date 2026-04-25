@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications
+package com.servalabs.chat.notifications
 
 import android.app.Application
 import io.mockk.every
@@ -13,20 +13,20 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.MessageTable.ExpirationInfo
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo
-import org.thoughtcrime.securesms.database.MessageTable.SyncMessageId
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.database.MessageTable.ExpirationInfo
+import com.servalabs.chat.database.MessageTable.MarkedMessageInfo
+import com.servalabs.chat.database.MessageTable.SyncMessageId
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobs.MultiDeviceReadUpdateJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.util.TextSecurePreferences
 import java.util.LinkedList
 
 @RunWith(RobolectricTestRunner::class)

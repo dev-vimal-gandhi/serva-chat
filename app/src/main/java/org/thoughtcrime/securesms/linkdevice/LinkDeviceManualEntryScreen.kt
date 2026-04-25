@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import android.content.Context
 import android.net.Uri
@@ -32,8 +32,8 @@ import androidx.compose.ui.unit.sp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.linkdevice.LinkDeviceRepository.LinkDeviceResult
+import com.servalabs.chat.R
+import com.servalabs.chat.linkdevice.LinkDeviceRepository.LinkDeviceResult
 
 @Composable
 fun LinkDeviceManualEntryScreen(

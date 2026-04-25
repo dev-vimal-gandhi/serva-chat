@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.util.InternetConnectionObserver
+import com.servalabs.chat.util.InternetConnectionObserver
 
 class DonationReceiptListViewModel(private val repository: DonationReceiptListRepository) : ViewModel() {
 

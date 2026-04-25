@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package com.servalabs.chat.stories.viewer.post
 
 import android.graphics.Typeface
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.database.withAttachments
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.database.withAttachments
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.fonts.TextToScript
+import com.servalabs.chat.fonts.TypefaceCache
 
 class StoryTextPostRepository {
   fun getRecord(recordId: Long): Single<MmsMessageRecord> {

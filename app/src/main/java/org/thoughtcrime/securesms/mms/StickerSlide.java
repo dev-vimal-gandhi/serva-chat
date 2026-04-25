@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -8,9 +8,9 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.stickers.StickerLocator;
 
 import java.util.Objects;
 

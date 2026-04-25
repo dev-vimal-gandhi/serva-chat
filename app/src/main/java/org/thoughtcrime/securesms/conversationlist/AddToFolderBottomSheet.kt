@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -39,9 +39,9 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
 
 /**
  * Bottom sheet shown when choosing to add a chat to a folder

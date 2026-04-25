@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package com.servalabs.chat.components.settings.app.subscription.currency
 
 import androidx.fragment.app.viewModels
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.configure
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.configure
 import java.util.Locale
 
 /**

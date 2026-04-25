@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,11 +13,11 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.CursorUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SignalDatabase;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.util.concurrent.TimeUnit;
 

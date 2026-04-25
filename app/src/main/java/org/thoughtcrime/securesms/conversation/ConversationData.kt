@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import org.signal.core.models.ServiceId
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Represents metadata about a conversation.

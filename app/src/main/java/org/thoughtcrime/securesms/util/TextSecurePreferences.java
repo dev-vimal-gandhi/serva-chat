@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.Manifest;
 import android.app.PendingIntent;
@@ -18,23 +18,23 @@ import androidx.core.content.ContextCompat;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateRefreshListener;
-import org.thoughtcrime.securesms.backup.proto.SharedPreference;
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
-import org.thoughtcrime.securesms.net.ProxyType;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.preferences.widgets.PassphraseLockTriggerPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
+import com.servalabs.chat.apkupdate.ApkUpdateRefreshListener;
+import com.servalabs.chat.backup.proto.SharedPreference;
+import com.servalabs.chat.crypto.ProfileKeyUtil;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SettingsValues;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.lock.RegistrationLockReminders;
+import com.servalabs.chat.net.ProxyType;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.notifications.NotificationIds;
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference;
+import com.servalabs.chat.preferences.widgets.PassphraseLockTriggerPreference;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.registration.ui.RegistrationActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -602,7 +602,7 @@ public class TextSecurePreferences {
   }
 
   /**
-   * @deprecated Use {@link SettingsValues#getMessageFontSize()} via {@link org.thoughtcrime.securesms.keyvalue.SignalStore} instead.
+   * @deprecated Use {@link SettingsValues#getMessageFontSize()} via {@link com.servalabs.chat.keyvalue.SignalStore} instead.
    */
   @Deprecated
   public static int getMessageBodyTextSize(Context context) {

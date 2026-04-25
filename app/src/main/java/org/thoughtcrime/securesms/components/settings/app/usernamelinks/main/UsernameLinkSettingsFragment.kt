@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class, ExperimentalPermissionsApi::class)
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.Manifest
 import android.app.Activity
@@ -70,14 +70,14 @@ import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.CommunicationActions
 import java.io.ByteArrayOutputStream
 import java.util.UUID
 

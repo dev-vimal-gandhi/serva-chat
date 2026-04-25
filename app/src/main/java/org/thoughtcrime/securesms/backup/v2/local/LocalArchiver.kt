@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.local
+package com.servalabs.chat.backup.v2.local
 
 import android.content.ContentResolver
 import android.webkit.MimeTypeMap
@@ -23,13 +23,13 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.readFully
 import org.signal.core.util.toJson
 import org.signal.libsignal.crypto.Aes256Ctr32
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherOutputStream
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherStreamUtil
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream

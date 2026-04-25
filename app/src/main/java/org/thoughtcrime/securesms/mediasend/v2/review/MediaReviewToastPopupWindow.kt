@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import kotlin.time.Duration.Companion.seconds
 
 /**

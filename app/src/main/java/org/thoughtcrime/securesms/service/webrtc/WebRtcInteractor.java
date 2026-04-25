@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,17 +9,17 @@ import androidx.annotation.Nullable;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CameraEventListener;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import com.servalabs.chat.database.CallTable;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.ringrtc.CameraEventListener;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.util.AppForegroundObserver;
+import com.servalabs.chat.webrtc.audio.AudioManagerCommand;
+import com.servalabs.chat.webrtc.audio.SignalAudioManager;
+import com.servalabs.chat.webrtc.locks.LockManager;
 import org.whispersystems.signalservice.api.messages.calls.SignalServiceCallMessage;
 
 import java.util.Collection;

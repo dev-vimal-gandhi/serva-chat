@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.Base64
 import org.signal.core.util.readToList
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.storage.StorageSyncHelper
 
 /**
  * Adds columns to notification profiles to support storage service, drops names unique constraint, sets all profiles with a storage service id.

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import androidx.annotation.WorkerThread
 import androidx.core.util.Consumer
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.seconds
 

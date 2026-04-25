@@ -15,26 +15,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.ThreadTable.Extra;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.MessageTypes;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.ThreadTable.Extra;
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 import java.util.Objects;
 
 /**
- * Represents an entry in the {@link org.thoughtcrime.securesms.database.ThreadTable}.
+ * Represents an entry in the {@link com.servalabs.chat.database.ThreadTable}.
  */
 public final class ThreadRecord {
 

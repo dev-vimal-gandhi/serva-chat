@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events
+package com.servalabs.chat.events
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Allow system to identify a call participant by their device demux id and their

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio
+package com.servalabs.chat.audio
 
 import android.content.Context
 import android.media.AudioAttributes
@@ -7,7 +7,7 @@ import android.media.AudioManager
 import android.media.AudioManager.OnAudioFocusChangeListener
 import android.os.Build
 import androidx.annotation.RequiresApi
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.util.ServiceUtil
 
 abstract class AudioRecorderFocusManager(val context: Context) {
   protected val audioManager: AudioManager = ServiceUtil.getAudioManager(context)

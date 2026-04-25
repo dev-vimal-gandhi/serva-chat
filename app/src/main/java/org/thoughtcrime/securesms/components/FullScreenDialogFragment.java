@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.WindowUtil;
 
 /**
  * Base dialog fragment for rendering as a full screen dialog with animation

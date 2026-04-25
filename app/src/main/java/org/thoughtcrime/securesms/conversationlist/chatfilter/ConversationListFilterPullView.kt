@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package com.servalabs.chat.conversationlist.chatfilter
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -17,12 +17,12 @@ import com.google.android.material.R as MaterialR
 import com.google.android.material.animation.ArgbEvaluatorCompat
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener
-import org.thoughtcrime.securesms.databinding.ConversationListFilterPullViewBinding
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.util.doAfterNextLayout
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import com.servalabs.chat.R
+import com.servalabs.chat.animation.AnimationCompleteListener
+import com.servalabs.chat.databinding.ConversationListFilterPullViewBinding
+import com.servalabs.chat.util.VibrateUtil
+import com.servalabs.chat.util.doAfterNextLayout
+import com.servalabs.chat.util.doOnEachLayout
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.time.Duration

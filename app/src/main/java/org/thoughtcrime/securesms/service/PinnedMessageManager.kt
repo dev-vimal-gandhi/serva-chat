@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Application
 import android.content.Context
 import android.content.Intent
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.GroupUtil
-import org.thoughtcrime.securesms.util.NetworkUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.GroupUtil
+import com.servalabs.chat.util.NetworkUtil
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage
 
 /**

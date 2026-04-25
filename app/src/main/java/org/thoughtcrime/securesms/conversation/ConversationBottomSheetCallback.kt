@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import com.servalabs.chat.database.model.MessageRecord
 
 /**
  * Callback interface for bottom sheets that show conversation data in a conversation and

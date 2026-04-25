@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.spans;
+package com.servalabs.chat.util.spans;
 
 
 import android.text.TextPaint;

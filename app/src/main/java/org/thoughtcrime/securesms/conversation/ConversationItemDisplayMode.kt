@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 sealed class ConversationItemDisplayMode(val messageMode: MessageMode = MessageMode.STANDARD) {
   /** Normal rendering, used for normal bubbles in the conversation view */

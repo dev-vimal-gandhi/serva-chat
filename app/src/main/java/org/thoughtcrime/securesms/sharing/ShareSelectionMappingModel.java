@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sharing;
+package com.servalabs.chat.sharing;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.R;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 public class ShareSelectionMappingModel implements MappingModel<ShareSelectionMappingModel> {
 

@@ -116,4 +116,4 @@ include(":feature:media-send")
 // Testing/Lint modules
 include(":lintchecks")
 
-rootProject.name = "Molly"
+rootProject.name = "Serva Chat"

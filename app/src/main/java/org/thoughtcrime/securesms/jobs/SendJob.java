@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.TextSecureExpiredException;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.TextSecureExpiredException;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.contactshare.Contact;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.OutgoingMessage;
 import org.signal.core.util.Util;
 
 import java.util.LinkedList;

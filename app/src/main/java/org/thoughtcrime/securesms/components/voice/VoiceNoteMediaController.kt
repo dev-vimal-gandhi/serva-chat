@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.content.ComponentName
 import android.net.Uri
@@ -31,10 +31,10 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.DefaultValueLiveData
+import com.servalabs.chat.util.livedata.LiveDataUtil
 import java.util.Optional
 
 /**

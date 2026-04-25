@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.exporters
+package com.servalabs.chat.backup.v2.exporters
 
 import android.database.Cursor
 import okio.ByteString.Companion.toByteString
@@ -19,16 +19,16 @@ import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
 import org.signal.core.util.toByteArray
-import org.thoughtcrime.securesms.backup.v2.ArchiveRecipient
-import org.thoughtcrime.securesms.backup.v2.util.clampToValidBackupRange
-import org.thoughtcrime.securesms.backup.v2.util.isValidUsername
-import org.thoughtcrime.securesms.backup.v2.util.toRemote
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RecipientTableCursorUtil
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.backup.v2.ArchiveRecipient
+import com.servalabs.chat.backup.v2.util.clampToValidBackupRange
+import com.servalabs.chat.backup.v2.util.isValidUsername
+import com.servalabs.chat.backup.v2.util.toRemote
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.RecipientTableCursorUtil
+import com.servalabs.chat.recipients.Recipient
 import java.io.Closeable
 
 /**

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package com.servalabs.chat.jobmanager.migrations
 
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.jobmanager.JobMigration.JobData
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobs.SendReadReceiptJob
+import com.servalabs.chat.recipients.RecipientId
 
 class SendReadReceiptsJobMigrationTest {
   private val mockDatabase = mockk<MessageTable>()

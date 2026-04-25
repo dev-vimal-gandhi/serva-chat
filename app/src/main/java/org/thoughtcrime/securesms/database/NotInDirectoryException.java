@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 public class NotInDirectoryException extends Throwable {
 }

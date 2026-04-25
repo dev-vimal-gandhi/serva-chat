@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.reregisterwithpin
+package com.servalabs.chat.registration.ui.reregisterwithpin
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData

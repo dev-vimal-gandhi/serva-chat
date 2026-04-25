@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.AccountConsistencyWorkerJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Migration to help cleanup some inconsistent state for ourself in the identity table.

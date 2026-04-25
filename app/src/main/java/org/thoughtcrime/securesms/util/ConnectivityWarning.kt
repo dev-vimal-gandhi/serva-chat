@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.SignalStore
 import java.io.IOException
 import kotlin.time.Duration.Companion.hours
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -23,15 +23,15 @@ import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.ringrtc.CallLinkRootKey
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.calls.log.CallLogRow
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.calls.log.CallLogRow
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.AvatarColorHash
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
 import org.whispersystems.signalservice.api.storage.StorageId
 import java.time.Instant
 import java.time.temporal.ChronoUnit

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.os.Bundle
 import android.view.View
@@ -61,16 +61,16 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.requireParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.emoji.Emojifier
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelUiState.SaveState
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.emoji.Emojifier
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.memberlabel.MemberLabelUiState.SaveState
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.viewModel
 
 /**
  * Screen for editing a user's group-specific label and emoji.

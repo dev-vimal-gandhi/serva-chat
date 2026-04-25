@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package com.servalabs.chat.longmessage;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,11 +8,11 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import com.servalabs.chat.conversation.ConversationMessage;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.MmsMessageRecord;
 
 import java.util.Optional;
 

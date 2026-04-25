@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.app.Application
 import android.database.Cursor
@@ -20,14 +20,14 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.conversationlist.ConversationListDataSource.UnarchivedConversationListDataSource
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.conversationlist.model.ConversationReader
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.conversationlist.ConversationListDataSource.UnarchivedConversationListDataSource
+import com.servalabs.chat.conversationlist.model.ConversationFilter
+import com.servalabs.chat.conversationlist.model.ConversationReader
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.util.RemoteConfig
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

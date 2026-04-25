@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -10,10 +10,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.conversation.NewConversationActivity;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.conversation.ConversationIntents;
+import com.servalabs.chat.conversation.NewConversationActivity;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.recipients.Recipient;
 
 public class SystemContactsEntrypointActivity extends PassphraseRequiredActivity {
 

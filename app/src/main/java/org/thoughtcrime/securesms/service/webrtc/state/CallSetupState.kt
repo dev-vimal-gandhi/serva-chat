@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package com.servalabs.chat.service.webrtc.state
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 import org.webrtc.PeerConnection
 
 /**

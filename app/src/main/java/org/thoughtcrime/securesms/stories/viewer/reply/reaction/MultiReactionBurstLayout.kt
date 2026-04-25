@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stories.viewer.reply.reaction
+package com.servalabs.chat.stories.viewer.reply.reaction
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.view.children
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.events.GroupCallReactionEvent
 import kotlin.time.Duration.Companion.seconds
 
 class MultiReactionBurstLayout @JvmOverloads constructor(

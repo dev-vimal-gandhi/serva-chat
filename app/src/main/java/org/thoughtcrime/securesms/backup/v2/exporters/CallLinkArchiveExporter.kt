@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package com.servalabs.chat.backup.v2.database
 
 import android.database.Cursor
 import okio.ByteString.Companion.toByteString
 import org.signal.archive.proto.CallLink
 import org.signal.core.util.nullIfEmpty
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRecipient
-import org.thoughtcrime.securesms.backup.v2.util.clampToValidBackupRange
-import org.thoughtcrime.securesms.database.CallLinkTable
+import com.servalabs.chat.backup.v2.ArchiveRecipient
+import com.servalabs.chat.backup.v2.util.clampToValidBackupRange
+import com.servalabs.chat.database.CallLinkTable
 import java.io.Closeable
 
 /**

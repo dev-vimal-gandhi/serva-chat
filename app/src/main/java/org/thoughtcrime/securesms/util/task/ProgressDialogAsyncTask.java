@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.task;
+package com.servalabs.chat.util.task;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
 import androidx.annotation.CallSuper;
 
-import org.thoughtcrime.securesms.components.SignalProgressDialog;
+import com.servalabs.chat.components.SignalProgressDialog;
 
 import java.lang.ref.WeakReference;
 

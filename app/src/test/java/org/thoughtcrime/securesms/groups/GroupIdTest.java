@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import org.junit.Test;
 import org.signal.core.util.Hex;
@@ -16,7 +16,7 @@ import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
-import static org.thoughtcrime.securesms.testutil.SecureRandomTestUtil.mockRandom;
+import static com.servalabs.chat.testutil.SecureRandomTestUtil.mockRandom;
 import static org.whispersystems.signalservice.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
 
 public final class GroupIdTest {

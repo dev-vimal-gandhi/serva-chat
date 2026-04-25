@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.content.DialogInterface
 import androidx.compose.foundation.layout.Column
@@ -33,8 +33,8 @@ import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.R
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 
 /**
  * A bottom sheet that allows the user to select what device they want to route audio to. Intended to be used with Android 31+ APIs.

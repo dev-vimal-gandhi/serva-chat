@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util.parcelers
+package com.servalabs.chat.util.parcelers
 
 import android.os.Parcel
 import kotlinx.parcelize.Parceler

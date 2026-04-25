@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log

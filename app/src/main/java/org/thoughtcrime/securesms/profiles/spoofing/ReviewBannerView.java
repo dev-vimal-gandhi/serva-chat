@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package com.servalabs.chat.profiles.spoofing;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,10 +8,10 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.databinding.ReviewBannerViewBinding;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.avatar.fallback.FallbackAvatar;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.databinding.ReviewBannerViewBinding;
+import com.servalabs.chat.recipients.Recipient;
 
 /**
  * Banner displayed within a conversation when a review is suggested.

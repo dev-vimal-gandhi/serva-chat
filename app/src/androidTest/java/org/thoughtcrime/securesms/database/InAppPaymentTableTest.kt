@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -14,8 +14,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.deleteAll
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class InAppPaymentTableTest {

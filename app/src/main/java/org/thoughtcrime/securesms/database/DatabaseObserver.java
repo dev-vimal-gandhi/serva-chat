@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.jetbrains.annotations.NotNull;
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId;
+import com.servalabs.chat.util.concurrent.SerialExecutor;
 
 import java.util.Collection;
 import java.util.HashMap;

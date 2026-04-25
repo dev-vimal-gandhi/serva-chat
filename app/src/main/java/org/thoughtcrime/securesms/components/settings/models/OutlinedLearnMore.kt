@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.models
+package com.servalabs.chat.components.settings.models
 
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.databinding.DslOutlinedLearnMoreBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.databinding.DslOutlinedLearnMoreBinding
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 /**
  * Show a informational text message in an outlined bubble.

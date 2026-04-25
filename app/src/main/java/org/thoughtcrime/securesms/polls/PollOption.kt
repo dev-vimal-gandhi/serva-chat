@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.polls
+package com.servalabs.chat.polls
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

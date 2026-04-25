@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -24,7 +24,7 @@ import com.google.android.material.shape.ShapeAppearanceModel;
 import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 /**
  * Class for creating simple tooltips to show throughout the app. Utilizes a popup window so you

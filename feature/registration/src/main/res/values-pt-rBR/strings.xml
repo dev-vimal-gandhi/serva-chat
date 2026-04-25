@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Leve a privacidade com você.\nSeja você em cada mensagem.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">O Signal é uma organização sem fins lucrativos\n Termos e Política de Privacidade</string>
+    <string name="RegistrationActivity_terms_and_privacy">O Serva Chat é uma organização sem fins lucrativos\n Termos e Política de Privacidade</string>
     <string name="RegistrationActivity_continue">Continuar</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Restaurar ou transferir</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Autorizar</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para ajudar a enviar mensagens para pessoas que você conhece, o Signal solicitará essas permissões. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para ajudar a enviar mensagens para pessoas que você conhece, o Serva Chat solicitará essas permissões. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Agora não</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Contatos</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Encontre pessoas que você conhece. Seus contatos são criptografados de ponta a ponta e não estão visíveis para o serviço do Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Encontre pessoas que você conhece. Seus contatos são criptografados de ponta a ponta e não estão visíveis para o serviço do Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Ligações</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Eu tenho meu telefone antigo</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Escaneie um QR code da sua conta atual do Signal para começar rapidamente</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Escaneie um QR code da sua conta atual do Serva Chat para começar rapidamente</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Não tenho meu telefone antigo</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Ou se você está reinstalando o Signal no mesmo dispositivo</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Ou se você está reinstalando o Serva Chat no mesmo dispositivo</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Escolha como você gostaria de restaurar o histórico de mensagens e os dados da conta.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Dos backups do Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Dos backups do Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Seu plano de backup do Signal grátis ou pago</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Seu plano de backup do Serva Chat grátis ou pago</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Restaurar backup no dispositivo</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">No backup found</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">No Signal backup was found in the selected folder. Please try a different folder.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">No Serva Chat backup was found in the selected folder. Please try a different folder.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Try a different folder</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Link your account</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Not on Signal yet?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Not on Serva Chat yet?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Create account</string>
 </resources>

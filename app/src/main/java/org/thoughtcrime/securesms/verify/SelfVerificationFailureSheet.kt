@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package com.servalabs.chat.verify
 
 import android.content.DialogInterface
 import android.widget.Toast
@@ -41,10 +41,10 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SupportEmailUtil
 
 /**
  * Sheet to prompt for debug logs when self key transparency fails

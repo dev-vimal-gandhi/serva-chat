@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.storage
+package com.servalabs.chat.components.settings.app.storage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -64,15 +64,15 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.billing.upgrade.UpgradeToEnableOptimizedStorageSheet
-import org.thoughtcrime.securesms.billing.upgrade.UpgradeToPaidTierBottomSheet
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity
-import org.thoughtcrime.securesms.preferences.widgets.StorageGraphView
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.billing.upgrade.UpgradeToEnableOptimizedStorageSheet
+import com.servalabs.chat.billing.upgrade.UpgradeToPaidTierBottomSheet
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.keyvalue.KeepMessagesDuration
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mediaoverview.MediaOverviewActivity
+import com.servalabs.chat.preferences.widgets.StorageGraphView
+import com.servalabs.chat.util.viewModel
 import java.text.NumberFormat
 
 /**

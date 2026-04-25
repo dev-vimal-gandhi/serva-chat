@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.DeliveryStatusView;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.DeliveryStatusView;
 
 final class RecipientHeaderViewHolder extends RecyclerView.ViewHolder {
   private final TextView           header;

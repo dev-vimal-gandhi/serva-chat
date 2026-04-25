@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -13,13 +13,13 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientExporter
+import com.servalabs.chat.R
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.contactshare.ContactUtil
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.DirectoryRefreshJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientExporter
 
 /**
  * Wraps up the "Add shared contact to contact list" into a contract. The flow here is a little

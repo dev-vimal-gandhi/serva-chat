@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -13,29 +13,29 @@ import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.CollapsedState;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTable.Status;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge;
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.polls.PollRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.contactshare.Contact;
+import com.servalabs.chat.database.CallTable;
+import com.servalabs.chat.database.CollapsedState;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.MessageTable.Status;
+import com.servalabs.chat.database.MessageTypes;
+import com.servalabs.chat.database.documents.IdentityKeyMismatch;
+import com.servalabs.chat.database.documents.NetworkFailure;
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge;
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.linkpreview.LinkPreview;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.SlideDeck;
+import com.servalabs.chat.payments.Payment;
+import com.servalabs.chat.polls.PollRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.HashMap;
 import java.util.LinkedList;

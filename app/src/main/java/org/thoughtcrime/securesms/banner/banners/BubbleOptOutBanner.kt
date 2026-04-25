@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package com.servalabs.chat.banner.banners
 
 import android.os.Build
 import androidx.compose.foundation.layout.PaddingValues
@@ -14,11 +14,11 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.ui.compose.Action
-import org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.R
+import com.servalabs.chat.banner.Banner
+import com.servalabs.chat.banner.ui.compose.Action
+import com.servalabs.chat.banner.ui.compose.DefaultBanner
+import com.servalabs.chat.keyvalue.SignalStore
 
 class BubbleOptOutBanner(private val inBubble: Boolean, private val actionListener: (Boolean) -> Unit) : Banner<Unit>() {
 

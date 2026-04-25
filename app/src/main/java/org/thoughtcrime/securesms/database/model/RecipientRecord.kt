@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import android.net.Uri
 import org.signal.core.models.ServiceId
@@ -6,22 +6,22 @@ import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting
-import org.thoughtcrime.securesms.database.RecipientTable.PhoneNumberSharingState
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState
-import org.thoughtcrime.securesms.database.RecipientTable.SealedSenderAccessMode
-import org.thoughtcrime.securesms.database.RecipientTable.VibrateState
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.IdentityTable.VerifiedStatus
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.RecipientTable.NotificationSetting
+import com.servalabs.chat.database.RecipientTable.PhoneNumberSharingState
+import com.servalabs.chat.database.RecipientTable.RegisteredState
+import com.servalabs.chat.database.RecipientTable.SealedSenderAccessMode
+import com.servalabs.chat.database.RecipientTable.VibrateState
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.wallpaper.ChatWallpaper
 
 /**
  * Database model for [RecipientTable].

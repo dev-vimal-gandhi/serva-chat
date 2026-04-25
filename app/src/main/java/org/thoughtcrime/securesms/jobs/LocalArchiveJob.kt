@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.net.Uri
 import kotlinx.coroutines.CoroutineScope
@@ -8,21 +8,21 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.BackupFileIOError
-import org.thoughtcrime.securesms.backup.FullBackupExporter.BackupCanceledException
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.backup.v2.local.SnapshotFileSystem
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.service.GenericForegroundService
-import org.thoughtcrime.securesms.service.NotificationController
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.BackupFileIOError
+import com.servalabs.chat.backup.FullBackupExporter.BackupCanceledException
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.backup.v2.local.SnapshotFileSystem
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.service.GenericForegroundService
+import com.servalabs.chat.service.NotificationController
 import java.io.IOException
 
 /**

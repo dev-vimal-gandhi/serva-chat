@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -25,18 +25,18 @@ import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.SessionSwitchoverEvent
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer.DeleteForMeSync
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.IdentityUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.SessionSwitchoverEvent
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.MessageContentFuzzer.DeleteForMeSync
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.IdentityUtil
 import org.whispersystems.signalservice.api.attachment.AttachmentUploadResult
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import java.util.UUID

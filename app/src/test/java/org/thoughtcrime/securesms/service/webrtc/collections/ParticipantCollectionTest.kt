@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc.collections
+package com.servalabs.chat.service.webrtc.collections
 
 import assertk.Assert
 import assertk.assertThat
@@ -6,12 +6,12 @@ import assertk.assertions.each
 import assertk.assertions.isEmpty
 import assertk.assertions.isEqualTo
 import org.junit.Test
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createRemote
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipant.Companion.createRemote
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class ParticipantCollectionTest {
   private val testSubject = ParticipantCollection(3)

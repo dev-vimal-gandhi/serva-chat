@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.emoji.EmojiCategory
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.emoji.EmojiCategory
+import com.servalabs.chat.util.DefaultValueLiveData
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.adapter.mapping.MappingModelList
+import com.servalabs.chat.util.livedata.LiveDataUtil
 
 class EmojiKeyboardPageViewModel(private val repository: EmojiKeyboardPageRepository) : ViewModel() {
 

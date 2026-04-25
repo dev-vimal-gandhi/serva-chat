@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.appcompat.widget.AppCompatImageView;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class AlertView extends AppCompatImageView {
 

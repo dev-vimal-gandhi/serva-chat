@@ -18,13 +18,13 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package com.servalabs.chat.components.emoji.parsing;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
+import com.servalabs.chat.emoji.JumboEmoji;
 
 import java.util.Iterator;
 import java.util.LinkedList;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.wallpaper
+package com.servalabs.chat.wallpaper
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.recipients.Recipient
 
 sealed class WallpaperPreviewPortrait {
   class ContactPhoto(private val recipient: Recipient) : WallpaperPreviewPortrait() {

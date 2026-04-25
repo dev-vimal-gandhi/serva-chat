@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testutil;
+package com.servalabs.chat.testutil;
 
 import com.annimon.stream.Stream;
 import com.google.common.collect.Sets;

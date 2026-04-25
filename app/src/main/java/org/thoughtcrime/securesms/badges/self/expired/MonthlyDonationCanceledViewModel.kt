@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.badges.self.expired
+package com.servalabs.chat.badges.self.expired
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.State
@@ -16,12 +16,12 @@ import kotlinx.coroutines.withContext
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.StripeDeclineCode
 import org.signal.donations.StripeFailureCode
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toActiveSubscriptionChargeFailure
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.mapToErrorStringResource
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toActiveSubscriptionChargeFailure
+import com.servalabs.chat.components.settings.app.subscription.errors.mapToErrorStringResource
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription.ChargeFailure
 
 class MonthlyDonationCanceledViewModel(

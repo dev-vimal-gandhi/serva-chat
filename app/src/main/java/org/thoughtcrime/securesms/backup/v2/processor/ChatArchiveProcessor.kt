@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import org.signal.archive.proto.Chat
 import org.signal.archive.proto.Frame
 import org.signal.archive.stream.BackupFrameEmitter
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.database.getThreadsForBackup
-import org.thoughtcrime.securesms.backup.v2.importer.ChatArchiveImporter
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportSkips
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.backup.v2.database.getThreadsForBackup
+import com.servalabs.chat.backup.v2.importer.ChatArchiveImporter
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Handles importing/exporting [Chat] frames for an archive.

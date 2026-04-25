@@ -109,7 +109,7 @@ private fun Project.registerTranslationsTask(baseStringsFile: File): TaskProvide
       fun replaceSignalRefs(elem: Element): Boolean {
         val oldContent = elem.textContent
         elem.textContent = elem.textContent
-          .replace("signal.org", "molly.im")
+          .replace("signal.org", "servalabs.com")
           .replace("Signal", "Molly")
         return oldContent != elem.textContent
       }

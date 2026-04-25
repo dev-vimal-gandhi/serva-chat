@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,9 +13,9 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.core.models.media.Media;
 import org.signal.imageeditor.core.model.EditorModel;
-import org.thoughtcrime.securesms.fonts.FontTypefaceProvider;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.fonts.FontTypefaceProvider;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package com.servalabs.chat.megaphone;
 
 final class ForeverSchedule implements MegaphoneSchedule {
 

@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import android.content.ContentValues
@@ -17,21 +17,21 @@ import org.signal.core.util.Stopwatch
 import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.color.MaterialColor
-import org.thoughtcrime.securesms.contacts.avatars.ContactColorsLegacy
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsMapper
-import org.thoughtcrime.securesms.database.KeyValueDatabase
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.database.model.databaseprotos.ReactionList
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.FileUtils
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
-import org.thoughtcrime.securesms.util.Triple
+import com.servalabs.chat.color.MaterialColor
+import com.servalabs.chat.contacts.avatars.ContactColorsLegacy
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColorsMapper
+import com.servalabs.chat.database.KeyValueDatabase
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.database.model.databaseprotos.ReactionList
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.FileUtils
+import com.servalabs.chat.util.SecurePreferenceManager
+import com.servalabs.chat.util.Triple
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.io.File
 import java.io.IOException

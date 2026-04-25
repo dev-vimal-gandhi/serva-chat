@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import android.view.View
 import android.widget.ImageView
@@ -63,15 +63,15 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.settings.StorySettingsActivity
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalBottomActionBar
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.StoryTextPostModel
+import com.servalabs.chat.stories.StoryViewerArgs
+import com.servalabs.chat.stories.settings.StorySettingsActivity
+import com.servalabs.chat.stories.viewer.StoryViewerActivity
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date

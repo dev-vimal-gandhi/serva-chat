@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.content.Context;
 
@@ -10,13 +10,13 @@ import org.signal.libsignal.protocol.ecc.ECPublicKey;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
 import org.signal.ringrtc.PeekInfo;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.net.Networking;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCompat;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.net.Networking;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.webrtc.audio.AudioManagerCompat;
+import com.servalabs.chat.webrtc.audio.SignalAudioManager;
+import com.servalabs.chat.webrtc.locks.LockManager;
 import org.webrtc.PeerConnection;
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;

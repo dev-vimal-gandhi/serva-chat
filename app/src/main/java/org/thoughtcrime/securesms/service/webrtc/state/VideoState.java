@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc.state;
+package com.servalabs.chat.service.webrtc.state;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.ringrtc.Camera;
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink;
+import com.servalabs.chat.components.webrtc.EglBaseWrapper;
+import com.servalabs.chat.ringrtc.Camera;
 
 import java.util.Objects;
 

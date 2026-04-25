@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.contactsupport
+package com.servalabs.chat.components.contactsupport
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository
+import com.servalabs.chat.logsubmit.SubmitDebugLogRepository
 
 /**
  * Intended to be used to drive [ContactSupportDialog].

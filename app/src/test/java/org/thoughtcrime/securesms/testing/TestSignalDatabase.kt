@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import android.app.Application
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.sqlite.db.SupportSQLiteOpenHelper
-import org.thoughtcrime.securesms.crypto.AttachmentSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.crypto.AttachmentSecret
+import com.servalabs.chat.crypto.DatabaseSecret
+import com.servalabs.chat.database.SignalDatabase
 import java.security.SecureRandom
 import net.zetetic.database.sqlcipher.SQLiteDatabase as SQLCipherSQLiteDatabase
 
@@ -68,11 +68,11 @@ class TestSignalDatabase(
   override val rawWritableDatabase: net.zetetic.database.sqlcipher.SQLiteDatabase
     get() = throw UnsupportedOperationException()
 
-  override val signalReadableDatabase: org.thoughtcrime.securesms.database.SQLiteDatabase by lazy {
+  override val signalReadableDatabase: com.servalabs.chat.database.SQLiteDatabase by lazy {
     TestSignalSQLiteDatabase(supportReadableDatabase)
   }
 
-  override val signalWritableDatabase: org.thoughtcrime.securesms.database.SQLiteDatabase by lazy {
+  override val signalWritableDatabase: com.servalabs.chat.database.SQLiteDatabase by lazy {
     TestSignalSQLiteDatabase(supportWritableDatabase)
   }
 

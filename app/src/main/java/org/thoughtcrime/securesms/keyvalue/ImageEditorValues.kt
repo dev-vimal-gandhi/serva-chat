@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 class ImageEditorValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

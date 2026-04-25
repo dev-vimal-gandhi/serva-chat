@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.os.Handler
 import android.os.Looper

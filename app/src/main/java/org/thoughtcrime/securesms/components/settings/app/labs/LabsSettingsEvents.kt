@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.labs
+package com.servalabs.chat.components.settings.app.labs
 
 sealed interface LabsSettingsEvents {
   data class ToggleIndividualChatPlaintextExport(val enabled: Boolean) : LabsSettingsEvents

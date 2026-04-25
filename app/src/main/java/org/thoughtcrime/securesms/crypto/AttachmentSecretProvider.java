@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.security.SecureRandom;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.annotation.SuppressLint
 import android.content.ContentResolver
@@ -23,9 +23,9 @@ import org.signal.core.ui.util.StorageUtil
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.logI
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.PartAuthority
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mms.PartAuthority
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

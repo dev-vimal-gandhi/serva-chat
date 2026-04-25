@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.app.Application
 import android.content.Context
@@ -24,9 +24,9 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.SystemOutLogger
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 

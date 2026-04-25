@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.os.Parcel
 import android.os.Parcelable

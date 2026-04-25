@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package com.servalabs.chat.conversation.ui.inlinequery
 
 import android.view.View
 import android.view.ViewGroup
@@ -8,9 +8,9 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import com.servalabs.chat.components.ComposeText
+import com.servalabs.chat.util.adapter.mapping.AnyMappingModel
+import com.servalabs.chat.util.doOnEachLayout
 
 /**
  * Controller for inline search results.

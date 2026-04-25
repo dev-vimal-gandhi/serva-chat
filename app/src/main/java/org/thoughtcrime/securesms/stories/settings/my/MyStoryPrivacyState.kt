@@ -1,5 +1,5 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package com.servalabs.chat.stories.settings.my
 
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
 
 data class MyStoryPrivacyState(val privacyMode: DistributionListPrivacyMode? = null, val connectionCount: Int = 0)

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.data.network
+package com.servalabs.chat.registration.data.network
 
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.svr.Svr3Credentials

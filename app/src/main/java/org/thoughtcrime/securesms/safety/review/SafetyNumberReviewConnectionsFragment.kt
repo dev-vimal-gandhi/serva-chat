@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety.review
+package com.servalabs.chat.safety.review
 
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -7,22 +7,22 @@ import androidx.fragment.app.viewModels
 import org.signal.core.ui.util.ThemeUtil
 import com.google.android.material.R as MaterialR
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetState
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetViewModel
-import org.thoughtcrime.securesms.safety.SafetyNumberBucket
-import org.thoughtcrime.securesms.safety.SafetyNumberBucketRowItem
-import org.thoughtcrime.securesms.safety.SafetyNumberRecipientRowItem
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.crypto.IdentityKeyParcelable
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.safety.SafetyNumberBottomSheetState
+import com.servalabs.chat.safety.SafetyNumberBottomSheetViewModel
+import com.servalabs.chat.safety.SafetyNumberBucket
+import com.servalabs.chat.safety.SafetyNumberBucketRowItem
+import com.servalabs.chat.safety.SafetyNumberRecipientRowItem
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.verify.VerifyIdentityFragment
 import org.signal.core.ui.R as CoreUiR
 
 /**

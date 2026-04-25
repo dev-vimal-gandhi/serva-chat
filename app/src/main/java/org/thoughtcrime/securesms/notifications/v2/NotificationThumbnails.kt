@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import android.content.Context
 import android.net.Uri
@@ -7,15 +7,15 @@ import org.signal.core.util.asListContains
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.BitmapDecodingException
-import org.thoughtcrime.securesms.util.ImageCompressionUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.kb
-import org.thoughtcrime.securesms.util.mb
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mms.Slide
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.BitmapDecodingException
+import com.servalabs.chat.util.ImageCompressionUtil
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.kb
+import com.servalabs.chat.util.mb
 
 /**
  * Creates and caches attachment thumbnails solely for use by Notifications.

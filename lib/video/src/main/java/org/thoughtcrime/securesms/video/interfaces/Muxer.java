@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.interfaces;
+package com.servalabs.chat.video.interfaces;
 
 import android.media.MediaCodec;
 import android.media.MediaFormat;

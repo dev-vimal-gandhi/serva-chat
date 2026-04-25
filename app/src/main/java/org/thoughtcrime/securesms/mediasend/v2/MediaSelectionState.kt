@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.net.Uri
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.video.TranscodingPreset
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mediasend.v2.videos.VideoTrimData
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.video.TranscodingPreset
 import kotlin.time.Duration.Companion.seconds
 
 data class MediaSelectionState(

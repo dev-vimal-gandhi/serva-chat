@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.text.SpannableString
 import android.view.Menu
@@ -15,10 +15,10 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.messagerequests.MessageRequestState
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Delegate object for managing the conversation options menu

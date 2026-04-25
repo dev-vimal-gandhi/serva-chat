@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package com.servalabs.chat.conversation.quotes
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -7,12 +7,12 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.GroupAuthorNameColorHelper
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.colors.GroupAuthorNameColorHelper
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class MessageQuotesViewModel(
   application: Application,

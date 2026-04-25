@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package com.servalabs.chat.keyboard.gif
 
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class GifQuickSearchOption(private val rank: Int, val image: Int, val query: String, @StringRes val categoryLabel: Int) {
   TRENDING(0, R.drawable.ic_gif_trending_24, "", R.string.GifQuickSearchOption__trending),

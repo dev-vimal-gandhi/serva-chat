@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package com.servalabs.chat.conversationlist.chatfilter
 
 import android.animation.FloatEvaluator
 import android.animation.ValueAnimator

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.util.RemoteConfig.ConfigChange;
-import org.thoughtcrime.securesms.util.RemoteConfig.UpdateResult;
+import com.servalabs.chat.util.RemoteConfig.ConfigChange;
+import com.servalabs.chat.util.RemoteConfig.UpdateResult;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,8 +11,8 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.mapOf;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.setOf;
+import static com.servalabs.chat.testutil.TestHelpers.mapOf;
+import static com.servalabs.chat.testutil.TestHelpers.setOf;
 
 public class RemoteConfigTest {
 

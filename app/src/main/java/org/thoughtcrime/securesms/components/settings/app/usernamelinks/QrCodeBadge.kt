@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package com.servalabs.chat.components.settings.app.usernamelinks
 
 import android.content.res.Configuration
 import androidx.compose.animation.animateColorAsState
@@ -39,7 +39,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Renders a QR code and username as a badge.

@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.CameraState;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.ringrtc.CameraState;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.events.CallParticipant;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.webrtc.audio.SignalAudioManager;
 
 import java.util.Set;
 

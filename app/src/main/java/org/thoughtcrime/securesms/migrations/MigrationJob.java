@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JobLogger;
+import com.servalabs.chat.jobmanager.impl.BackoffUtil;
+import com.servalabs.chat.util.RemoteConfig;
 
 /**
  * A base class for jobs that are intended to be used in {@link ApplicationMigrations}. Some

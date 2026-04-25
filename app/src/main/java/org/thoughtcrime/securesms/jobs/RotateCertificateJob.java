@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.SealedSenderConstraint;
-import org.thoughtcrime.securesms.keyvalue.CertificateType;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.util.ExceptionHelper;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint;
+import com.servalabs.chat.keyvalue.CertificateType;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.SignalNetwork;
+import com.servalabs.chat.util.ExceptionHelper;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 
 import java.io.IOException;

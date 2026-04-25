@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -13,8 +13,8 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.events.NetworkAvailableEvent;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import com.servalabs.chat.events.NetworkAvailableEvent;
+import com.servalabs.chat.jobmanager.ConstraintObserver;
 
 public class NetworkConstraintObserver implements ConstraintObserver {
 

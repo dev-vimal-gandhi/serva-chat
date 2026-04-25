@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.jobmanager.impl.BackoffUtil;
+import com.servalabs.chat.util.RemoteConfig;
 
 import java.lang.annotation.Retention;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package com.servalabs.chat.util.views;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,13 +12,13 @@ import androidx.lifecycle.Lifecycle;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * @deprecated  Replaced by {@link org.thoughtcrime.securesms.components.SignalProgressDialog}
+ * @deprecated  Replaced by {@link com.servalabs.chat.components.SignalProgressDialog}
  */
 @Deprecated
 public final class SimpleProgressDialog {

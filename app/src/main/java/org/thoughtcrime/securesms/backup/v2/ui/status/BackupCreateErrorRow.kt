@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.status
+package com.servalabs.chat.backup.v2.ui.status
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -34,9 +34,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.BackupValues
-import org.thoughtcrime.securesms.util.DateUtils
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.BackupValues
+import com.servalabs.chat.util.DateUtils
 import java.util.Locale
 import kotlin.time.Duration.Companion.days
 import org.signal.core.ui.R as CoreUiR

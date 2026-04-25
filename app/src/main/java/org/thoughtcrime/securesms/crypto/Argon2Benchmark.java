@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import android.os.SystemClock;
 

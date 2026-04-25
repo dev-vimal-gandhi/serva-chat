@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package com.servalabs.chat.conversation.mutiselect
 
 import android.view.View
 import android.view.ViewGroup
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.Colorizable
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.colors.Colorizable
+import com.servalabs.chat.giph.mp4.GiphyMp4Playable
 
 /**
  * Describes a ConversationElement that can be included in multiselect mode.

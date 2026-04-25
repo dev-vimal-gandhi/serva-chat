@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import org.signal.core.util.roundedString
 import java.util.concurrent.TimeUnit

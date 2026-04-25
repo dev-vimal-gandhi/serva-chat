@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide.cache;
+package com.servalabs.chat.glide.cache;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

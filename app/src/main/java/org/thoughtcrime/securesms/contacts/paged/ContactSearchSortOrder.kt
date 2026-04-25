@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 /**
  * Different options for sort order of contact search items.

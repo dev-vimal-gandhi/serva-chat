@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications
+package com.servalabs.chat.notifications
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -13,8 +13,8 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig.ShowCondition
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.DeviceSpecificNotificationConfig.ShowCondition
 import java.util.concurrent.TimeUnit
 
 /**

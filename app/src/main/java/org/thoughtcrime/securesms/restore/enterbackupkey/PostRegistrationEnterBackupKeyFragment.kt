@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.enterbackupkey
+package com.servalabs.chat.restore.enterbackupkey
 
 import android.os.Bundle
 import android.view.View
@@ -24,10 +24,10 @@ import org.signal.core.models.AccountEntropyPool
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.ui.restore.EnterBackupKeyScreen
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.ui.restore.EnterBackupKeyScreen
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Collect user's [AccountEntropyPool] string for use in a post-registration manual remote backup restore flow.

@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Neem privacy met je mee.\nWees jezelf in elk bericht.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal is een non-profitorganisatie\nVoorwaarden en privacybeleid</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat is een non-profitorganisatie\nVoorwaarden en privacybeleid</string>
     <string name="RegistrationActivity_continue">Doorgaan</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Herstellen of overzetten</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Toestemming geven</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Om je te helpen berichten te sturen naar mensen die je kent, vraagt Signal deze machtigingen. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Om je te helpen berichten te sturen naar mensen die je kent, vraagt Serva Chat deze machtigingen. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Niet nu</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Contacten</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Vind mensen die je kent. Je contacten zijn versleuteld en niet zichtbaar voor de Signal-dienst.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Vind mensen die je kent. Je contacten zijn versleuteld en niet zichtbaar voor de Serva Chat-dienst.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefoonoproepen</string>
     <!-- Phone calls permission row description -->
@@ -93,7 +93,7 @@
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Ik heb mijn oude telefoon niet</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Of je installeert Signal opnieuw op hetzelfde apparaat</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Of je installeert Serva Chat opnieuw op hetzelfde apparaat</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Kies hoe je je chatgeschiedenis en accountgegevens wilt herstellen.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Vanuit Signal back-ups</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Vanuit Serva Chat back-ups</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Je gratis of betaalde Signal back-upabonnement</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Je gratis of betaalde Serva Chat back-upabonnement</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Lokale back-up herstellen</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Je account koppelen</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Nog niet op Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Nog niet op Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Account aanmaken</string>
 </resources>

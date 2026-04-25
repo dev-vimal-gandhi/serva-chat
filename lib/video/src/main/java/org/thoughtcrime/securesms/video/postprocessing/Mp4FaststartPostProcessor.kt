@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.postprocessing
+package com.servalabs.chat.video.postprocessing
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.readLength

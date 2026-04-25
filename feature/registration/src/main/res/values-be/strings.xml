@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Канфідэнцыйнасць заўсёды з вамі.\nАдчувайце сябе свабодна ў кожным паведамленні.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal — некамерцыйная арганізацыя\nУмовы і палiтыка канфедынцыйнасцi</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat — некамерцыйная арганізацыя\nУмовы і палiтыка канфедынцыйнасцi</string>
     <string name="RegistrationActivity_continue">Працягнуць</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Аднавіць або перанесці</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Уключыць дазволы</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Каб вы маглі адпраўляць паведамленні тым, каго ведаеце, Signal будзе запытваць гэтыя дазволы. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Каб вы маглі адпраўляць паведамленні тым, каго ведаеце, Serva Chat будзе запытваць гэтыя дазволы. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Не зараз</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Кантакты</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Знаходзьце людзей, якіх вы ведаеце. Вашы кантакты зашыфраваны і не бачныя сэрвісу Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Знаходзьце людзей, якіх вы ведаеце. Вашы кантакты зашыфраваны і не бачныя сэрвісу Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Тэлефонныя званкі</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Я маю стары тэлефон</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Праскануйце QR-код на вашым бягучым уліковым запісу Signal, каб пачаць працэс</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Праскануйце QR-код на вашым бягучым уліковым запісу Serva Chat, каб пачаць працэс</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Я не маю старога тэлефона</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Або вы ўсталёўваеце нанова Signal на гэтай жа прыладзе</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Або вы ўсталёўваеце нанова Serva Chat на гэтай жа прыладзе</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Выберыце спосаб аднаўлення гісторыі паведамленняў і даных уліковага запісу.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">З рэзервовых копій Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">З рэзервовых копій Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ваш бясплатны або платны тарыфны план Signal Backup</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ваш бясплатны або платны тарыфны план Serva Chat Backup</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Аднавіце рэзервовую копію на прыладзе</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Рэзервовая копія не знойдзена</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Рэзервовая копія Signal не знойдзена ў выбранай папцы. Выберыце іншую папку.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Рэзервовая копія Serva Chat не знойдзена ў выбранай папцы. Выберыце іншую папку.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Выбраць іншую папку</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Прывязаць свой уліковы запіс</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Яшчэ не карыстаецеся Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Яшчэ не карыстаецеся Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Стварыць уліковы запіс</string>
 </resources>

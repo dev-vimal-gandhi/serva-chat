@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package com.servalabs.chat.registration.ui.phonenumber
 
 /**
  * Enter phone number mode to determine if verification is needed or just e164 input is necessary.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,14 +10,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.jobs.AttachmentUploadJob;
+import com.servalabs.chat.util.BitmapDecodingException;
+import com.servalabs.chat.util.BitmapUtil;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.MediaUtil;
 import org.signal.core.util.MemoryFileDescriptor;
-import org.thoughtcrime.securesms.video.TranscodingPreset;
+import com.servalabs.chat.video.TranscodingPreset;
 
 import java.io.IOException;
 import java.io.InputStream;

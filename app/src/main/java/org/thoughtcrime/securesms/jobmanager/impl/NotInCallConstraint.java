@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
+import com.servalabs.chat.events.WebRtcViewModel;
+import com.servalabs.chat.jobmanager.Constraint;
 
 /**
  * Constraint met when the user is not in an active, connected call.

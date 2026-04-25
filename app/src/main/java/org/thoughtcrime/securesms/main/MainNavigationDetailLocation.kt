@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import android.os.Parcelable
 import androidx.compose.runtime.saveable.SaverScope
@@ -12,11 +12,11 @@ import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
 import kotlinx.serialization.json.Json
-import org.thoughtcrime.securesms.calls.log.CallLogRow
-import org.thoughtcrime.securesms.conversation.ConversationArgs
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.calls.log.CallLogRow
+import com.servalabs.chat.conversation.ConversationArgs
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 
 /**
  * Describes which content to display in the detail view.

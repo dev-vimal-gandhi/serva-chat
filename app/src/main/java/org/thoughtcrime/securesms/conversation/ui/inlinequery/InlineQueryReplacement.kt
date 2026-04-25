@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package com.servalabs.chat.conversation.ui.inlinequery
 
 import android.content.Context
 import android.text.SpannableStringBuilder
 import android.text.Spanned
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.database.MentionUtil
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.components.mention.MentionAnnotation
+import com.servalabs.chat.database.MentionUtil
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Encapsulate how to replace a query with a user selected result.

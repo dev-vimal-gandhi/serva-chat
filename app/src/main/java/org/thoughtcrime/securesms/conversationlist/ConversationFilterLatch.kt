@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 /**
  * Small state machine that describes moving and triggering actions

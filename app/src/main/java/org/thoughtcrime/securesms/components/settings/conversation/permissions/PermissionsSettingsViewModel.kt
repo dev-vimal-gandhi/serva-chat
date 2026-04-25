@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package com.servalabs.chat.components.settings.conversation.permissions
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.util.SingleLiveEvent
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.LiveGroup
+import com.servalabs.chat.util.SingleLiveEvent
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.livedata.Store
 
 class PermissionsSettingsViewModel(
   private val groupId: GroupId,

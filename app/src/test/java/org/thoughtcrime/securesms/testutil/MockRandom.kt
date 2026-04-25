@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package com.servalabs.chat.testutil
 
 import java.util.LinkedList
 import java.util.Random

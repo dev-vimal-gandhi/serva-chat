@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.net.Uri
 import org.signal.core.util.logging.Log
@@ -14,22 +14,22 @@ import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.CONTENT_TYPE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_FILE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_HASH_END
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_HASH_START
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_RANDOM
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_SIZE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.ID
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.QUOTE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.QUOTE_PENDING_TRANSCODE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.TABLE_NAME
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.mms.PartAuthority
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.AttachmentTable.Companion.CONTENT_TYPE
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_FILE
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_HASH_END
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_HASH_START
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_RANDOM
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_SIZE
+import com.servalabs.chat.database.AttachmentTable.Companion.ID
+import com.servalabs.chat.database.AttachmentTable.Companion.QUOTE
+import com.servalabs.chat.database.AttachmentTable.Companion.QUOTE_PENDING_TRANSCODE
+import com.servalabs.chat.database.AttachmentTable.Companion.TABLE_NAME
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.mms.PartAuthority
 
 /**
  * This job processes quote attachments to generate thumbnails where possible.

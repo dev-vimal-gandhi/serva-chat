@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.logsubmit
+package com.servalabs.chat.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Prints out chat folders settings

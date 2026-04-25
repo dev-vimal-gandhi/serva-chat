@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package com.servalabs.chat.wallpaper.crop;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,18 +27,18 @@ import org.signal.imageeditor.core.ImageEditorView;
 import org.signal.imageeditor.core.model.EditorElement;
 import org.signal.imageeditor.core.model.EditorModel;
 import org.signal.imageeditor.core.renderers.FaceBlurRenderer;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ProgressCard;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ProgressCard;
+import com.servalabs.chat.conversation.colors.ColorizerView;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.imageeditor.core.renderers.UriGlideRenderer;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperPreviewActivity;
+import com.servalabs.chat.util.AsynchronousCallback;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.Projection;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.wallpaper.ChatWallpaper;
+import com.servalabs.chat.wallpaper.ChatWallpaperPreviewActivity;
 
 import java.util.Collections;
 import java.util.Locale;

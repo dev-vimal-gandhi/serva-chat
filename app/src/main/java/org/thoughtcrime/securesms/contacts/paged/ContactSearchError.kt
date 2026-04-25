@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 enum class ContactSearchError {
   CONTACT_NOT_SELECTABLE,

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.deeplinks;
+package com.servalabs.chat.deeplinks;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.PassphraseRequiredActivity;
 
 public class DeepLinkEntryActivity extends PassphraseRequiredActivity {
   @Override

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras
 
 /**
  * Utility functions to track the different collapsing types and what type a message is

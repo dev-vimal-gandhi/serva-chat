@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.countrycode
+package com.servalabs.chat.registration.ui.countrycode
 
 import android.os.Bundle
 import android.view.View
@@ -18,7 +18,7 @@ import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Country picker fragment used in registration V3

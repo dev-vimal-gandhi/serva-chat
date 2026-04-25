@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package com.servalabs.chat.components.settings.app.backups.remote
 
 import org.signal.core.util.ByteSize
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.backups.BackupState
-import org.thoughtcrime.securesms.keyvalue.BackupValues
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.settings.app.backups.BackupState
+import com.servalabs.chat.keyvalue.BackupValues
 
 /**
  * @param includeDebuglog The state for whether or not we should include a debuglog in the backup. If `null`, hide the setting.

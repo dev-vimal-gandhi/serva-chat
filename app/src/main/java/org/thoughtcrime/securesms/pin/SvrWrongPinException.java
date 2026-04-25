@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package com.servalabs.chat.pin;
 
 public final class SvrWrongPinException extends Exception {
 

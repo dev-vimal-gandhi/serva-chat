@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package com.servalabs.chat.payments;
 
 import org.junit.Ignore;
 import org.junit.Test;

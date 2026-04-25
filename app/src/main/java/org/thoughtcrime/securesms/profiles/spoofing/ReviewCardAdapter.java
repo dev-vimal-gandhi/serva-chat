@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package com.servalabs.chat.profiles.spoofing;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -8,8 +8,8 @@ import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 import androidx.recyclerview.widget.ListAdapter;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.adapter.AlwaysChangedDiffUtil;
 
 import java.util.Objects;
 

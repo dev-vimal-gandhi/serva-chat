@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock;
+package com.servalabs.chat.lock;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,13 +25,13 @@ import androidx.core.app.DialogCompat;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity;
-import org.thoughtcrime.securesms.lock.v2.SvrConstants;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.contactshare.SimpleTextWatcher;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.lock.v2.CreateSvrPinActivity;
+import com.servalabs.chat.lock.v2.SvrConstants;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.ViewUtil;
 import org.whispersystems.signalservice.api.kbs.PinHashUtil;
 
 import java.util.Objects;

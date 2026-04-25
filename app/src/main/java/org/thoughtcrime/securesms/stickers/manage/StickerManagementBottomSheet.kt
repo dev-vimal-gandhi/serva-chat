@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers.manage
+package com.servalabs.chat.stickers.manage
 
 import android.app.Dialog
 import android.os.Bundle
@@ -30,15 +30,15 @@ import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.copied.androidx.compose.DragAndDropEvent
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackKey
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.stickers.StickerUrl
-import org.thoughtcrime.securesms.stickers.preview.StickerPackPreviewActivity
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.database.model.StickerPackId
+import com.servalabs.chat.database.model.StickerPackKey
+import com.servalabs.chat.sharing.MultiShareArgs
+import com.servalabs.chat.stickers.StickerUrl
+import com.servalabs.chat.stickers.preview.StickerPackPreviewActivity
+import com.servalabs.chat.util.viewModel
 
 /**
  * Bottom sheet implementation of [StickerManagementScreen].

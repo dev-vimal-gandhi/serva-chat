@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -14,9 +14,9 @@ import androidx.core.content.ContextCompat;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 
 import android.Manifest;
@@ -11,23 +11,23 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.backup.BackupFileIOError;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.backup.BackupVerifier;
-import org.thoughtcrime.securesms.backup.FullBackupExporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import com.servalabs.chat.R;
+import com.servalabs.chat.backup.BackupEvent;
+import com.servalabs.chat.backup.BackupFileIOError;
+import com.servalabs.chat.backup.BackupPassphrase;
+import com.servalabs.chat.backup.BackupVerifier;
+import com.servalabs.chat.backup.FullBackupExporter;
+import com.servalabs.chat.crypto.AttachmentSecretProvider;
 import org.signal.core.util.NoExternalStorageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.notifications.NotificationChannels;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.service.NotificationController;
-import org.thoughtcrime.securesms.util.BackupUtil;
+import com.servalabs.chat.service.GenericForegroundService;
+import com.servalabs.chat.service.NotificationController;
+import com.servalabs.chat.util.BackupUtil;
 import org.signal.core.ui.util.StorageUtil;
 
 import java.io.File;

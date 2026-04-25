@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 import android.view.ViewGroup
-import org.thoughtcrime.securesms.util.ProjectionList
+import com.servalabs.chat.util.ProjectionList
 
 /**
  * Denotes that a class can be colorized. The class is responsible for

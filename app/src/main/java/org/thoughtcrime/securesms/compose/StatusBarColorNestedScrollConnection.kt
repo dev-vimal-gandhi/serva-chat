@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.compose
+package com.servalabs.chat.compose
 
 import android.animation.ValueAnimator
 import android.app.Activity
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.Velocity
 import com.google.android.material.R as MaterialR
 import com.google.android.material.animation.ArgbEvaluatorCompat
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.util.WindowUtil
+import com.servalabs.chat.util.WindowUtil
 import kotlin.math.abs
 
 /**

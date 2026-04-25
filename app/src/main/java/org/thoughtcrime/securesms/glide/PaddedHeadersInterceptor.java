@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package com.servalabs.chat.glide;
 
 import androidx.annotation.NonNull;
 

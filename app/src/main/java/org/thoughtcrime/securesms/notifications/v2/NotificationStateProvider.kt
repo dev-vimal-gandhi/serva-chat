@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.polls.PollVote
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.isStoryReaction
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.NoSuchMessageException
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.ReactionRecord
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.polls.PollVote
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.isStoryReaction
 
 /**
  * Queries the message databases to determine messages that should be in notifications.

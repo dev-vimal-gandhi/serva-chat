@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package com.servalabs.chat.pin;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -21,26 +21,26 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.keyvalue.RestoreDecisionStateUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.SvrConstants;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate;
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil;
-import org.thoughtcrime.securesms.restore.RestoreActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.ProfileUploadJob;
+import com.servalabs.chat.keyvalue.RestoreDecisionStateUtil;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.lock.v2.SvrConstants;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.profiles.edit.CreateProfileActivity;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate;
+import com.servalabs.chat.registration.util.RegistrationUtil;
+import com.servalabs.chat.restore.RestoreActivity;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.SupportEmailUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.navigation.SafeNavigation;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 public class PinRestoreEntryFragment extends LoggingFragment {
   private static final String TAG = Log.tag(PinRestoreActivity.class);

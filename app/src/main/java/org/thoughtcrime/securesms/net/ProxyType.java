@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public enum ProxyType {
   NONE  ("none",  R.string.arrays__none),

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.nicknames
+package com.servalabs.chat.nicknames
 
 import androidx.annotation.MainThread
 import androidx.compose.runtime.MutableState
@@ -17,10 +17,10 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.isNotNullOrBlank
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class NicknameViewModel(
   private val recipientId: RecipientId

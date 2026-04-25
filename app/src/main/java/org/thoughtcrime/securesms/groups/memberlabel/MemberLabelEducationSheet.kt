@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -37,9 +37,9 @@ import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.util.requireParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.util.viewModel
 
 /**
  * Explains what member labels are and provides options to edit the current user's label.

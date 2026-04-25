@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.text;
+package com.servalabs.chat.util.text;
 
 import android.text.Editable;
 import android.text.TextWatcher;

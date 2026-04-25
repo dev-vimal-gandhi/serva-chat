@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 /**
  * LinkifyCompat.addLinks() will strip pre-existing URLSpans. This acts as a way to

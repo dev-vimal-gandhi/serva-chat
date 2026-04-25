@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.data
+package com.servalabs.chat.registration.data
 
 data class RegisterAsLinkedDeviceResponse(
   val deviceId: Int,

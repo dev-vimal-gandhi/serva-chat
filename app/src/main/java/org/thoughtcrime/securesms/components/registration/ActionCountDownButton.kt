@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration
+package com.servalabs.chat.components.registration
 
 import android.content.Context
 import android.util.AttributeSet

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import android.annotation.SuppressLint
 import android.os.Parcelable
@@ -17,8 +17,8 @@ import org.signal.core.util.DatabaseId
 import org.signal.core.util.LongSerializer
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.groups.GroupId
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import java.util.regex.Pattern
 

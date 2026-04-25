@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide.targets;
+package com.servalabs.chat.glide.targets;
 
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;

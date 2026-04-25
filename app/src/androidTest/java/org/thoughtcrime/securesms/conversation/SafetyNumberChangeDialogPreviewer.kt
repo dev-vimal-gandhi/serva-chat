@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -6,17 +6,17 @@ import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.v2.ConversationActivity
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.testing.SignalActivityRule
 
 /**
  * Android test to help show SNC dialog quickly with custom data to make sure it displays properly.

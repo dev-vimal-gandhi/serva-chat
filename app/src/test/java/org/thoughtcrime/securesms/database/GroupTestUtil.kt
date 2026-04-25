@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import okio.ByteString.Companion.toByteString
 import org.signal.core.models.ServiceId
@@ -14,9 +14,9 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedRequesting
 import org.signal.storageservice.storage.protos.groups.local.DecryptedString
 import org.signal.storageservice.storage.protos.groups.local.DecryptedTimer
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupChangeLog
 import org.whispersystems.signalservice.api.groupsv2.GroupHistoryPage
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations

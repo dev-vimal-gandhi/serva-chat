@@ -39,9 +39,9 @@ import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.permissions.PermissionCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.QrImageSelectionActivity
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.main.QrImageSelectionActivity
+import com.servalabs.chat.util.DynamicTheme
 
 /**
  * Prompts the user to scan a MollySocket QR code. Uses the activity result to communicate the recipient that was found, or null if no valid deeplink were scanned.

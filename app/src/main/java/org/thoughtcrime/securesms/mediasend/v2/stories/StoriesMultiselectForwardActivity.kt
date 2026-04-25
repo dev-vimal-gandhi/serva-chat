@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package com.servalabs.chat.mediasend.v2.stories
 
 import android.content.Context
 import android.content.Intent
@@ -13,14 +13,14 @@ import com.bumptech.glide.Glide
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardActivity
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.contacts.paged.ContactSearchState
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardActivity
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.visible
 
 class StoriesMultiselectForwardActivity : MultiselectForwardActivity() {
 

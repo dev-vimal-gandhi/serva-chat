@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync;
+package com.servalabs.chat.contacts.sync;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -20,16 +20,16 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.ByteSize;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.events.PartProgressEvent;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.MessageRecordUtil;
 import org.signal.core.util.Util;
 
 public class ViewOnceMessageView extends LinearLayout {

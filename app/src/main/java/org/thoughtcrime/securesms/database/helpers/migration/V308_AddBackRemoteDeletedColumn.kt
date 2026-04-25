@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * Because of an OOM in [V302_AddDeletedByColumn] and V307, we could not drop the remote_deleted column for everyone.

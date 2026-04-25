@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package com.servalabs.chat.audio;
 
 import android.content.Context;
 import android.media.MediaCodec;
@@ -11,8 +11,8 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
+import com.servalabs.chat.media.DecryptableUriMediaInput;
+import com.servalabs.chat.video.interfaces.MediaInput;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

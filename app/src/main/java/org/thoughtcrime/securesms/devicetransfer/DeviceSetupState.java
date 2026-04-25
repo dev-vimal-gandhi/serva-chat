@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package com.servalabs.chat.devicetransfer;
 
 import androidx.annotation.NonNull;
 
-import static org.thoughtcrime.securesms.devicetransfer.SetupStep.VERIFY;
+import static com.servalabs.chat.devicetransfer.SetupStep.VERIFY;
 
 /**
  * State representation of the current {@link SetupStep} in the setup flow and

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.content.Context
 import android.os.Build
@@ -15,9 +15,9 @@ import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.logging.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.util.Material3OnScrollHelper
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 /**
  * The DSL API can be completely replaced by compose.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package com.servalabs.chat.scribbles
 
 import android.animation.Animator
 import android.content.Context
@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
 import org.signal.core.util.logging.Log.tag
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.createDefaultCubicBezierInterpolator
+import com.servalabs.chat.R
+import com.servalabs.chat.util.createDefaultCubicBezierInterpolator
 
 /**
  * The play button overlay for controlling playback in the video editor.

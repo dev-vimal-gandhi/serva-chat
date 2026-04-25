@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
+import com.servalabs.chat.PassphraseRequiredActivity
 
 class StoryArchiveActivity : PassphraseRequiredActivity() {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import com.servalabs.chat.attachments.Attachment;
 import org.signal.core.ui.util.StorageUtil;
 
 public class DocumentSlide extends Slide {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import androidx.annotation.WorkerThread
 import kotlinx.coroutines.Dispatchers
@@ -21,21 +21,21 @@ import org.signal.libsignal.protocol.state.SignalProtocolStore
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.protocol.util.Medium
-import org.thoughtcrime.securesms.crypto.PreKeyUtil
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.keyvalue.CertificateType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.pin.SvrRepository
-import org.thoughtcrime.securesms.pin.SvrWrongPinException
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.viewmodel.SvrAuthCredentialSet
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.crypto.PreKeyUtil
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.PendingChangeNumberMetadata
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.BackoffUtil
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.keyvalue.CertificateType
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.pin.SvrRepository
+import com.servalabs.chat.pin.SvrWrongPinException
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.viewmodel.SvrAuthCredentialSet
+import com.servalabs.chat.storage.StorageSyncHelper
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.SignalServiceMessageSender
@@ -60,7 +60,7 @@ import kotlin.time.Duration.Companion.seconds
 /**
  * Repository to perform data operations during change number.
  *
- * @see [org.thoughtcrime.securesms.registration.data.RegistrationRepository]
+ * @see [com.servalabs.chat.registration.data.RegistrationRepository]
  */
 class ChangeNumberRepository(
   private val accountManager: SignalServiceAccountManager = AppDependencies.signalServiceAccountManager,

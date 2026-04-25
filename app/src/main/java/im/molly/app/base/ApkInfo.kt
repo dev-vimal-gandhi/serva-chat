@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package im.molly.app.base
+package com.servalabs.chat.base
 
 import android.annotation.SuppressLint
-import org.thoughtcrime.securesms.BuildConfig
+import com.servalabs.chat.BuildConfig
 
 @SuppressLint("VersionNameUsage")
 object ApkInfo {

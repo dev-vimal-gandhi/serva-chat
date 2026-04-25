@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.compose
+package com.servalabs.chat.components.compose
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme

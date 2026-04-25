@@ -2,11 +2,11 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.video
+package com.servalabs.chat.video
 
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter.VideoCodec
-import org.thoughtcrime.securesms.video.videoconverter.utils.VideoConstants
+import com.servalabs.chat.video.videoconverter.MediaConverter
+import com.servalabs.chat.video.videoconverter.MediaConverter.VideoCodec
+import com.servalabs.chat.video.videoconverter.utils.VideoConstants
 
 /**
  * A data class to hold various video transcoding parameters, such as bitrate.

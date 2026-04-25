@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.fonts
+package com.servalabs.chat.fonts
 
 import android.graphics.Typeface
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
 
 /**
  * Describes which font the user wishes to render content in.

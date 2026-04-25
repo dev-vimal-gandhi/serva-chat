@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package com.servalabs.chat.ratelimit;
 
 public final class RecaptchaRequiredEvent {
 }

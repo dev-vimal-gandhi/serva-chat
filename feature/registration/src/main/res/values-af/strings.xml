@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Neem privaatheid saam met jou.\nWees jouself in elke boodskap.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal is \'n niewinsgewende organisasie\nBepalings &amp; Privaatheidsbeleid</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat is \'n niewinsgewende organisasie\nBepalings &amp; Privaatheidsbeleid</string>
     <string name="RegistrationActivity_continue">Gaan voort</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Herwin of dra oor</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Laat toestemmings toe</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Om jou te help om boodskappe te stuur aan mense wat jy ken, sal Signal hierdie toestemmings versoek. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Om jou te help om boodskappe te stuur aan mense wat jy ken, sal Serva Chat hierdie toestemmings versoek. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Nie nou nie</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kontakte</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Vind mense wat jy ken. Jou kontakte is geënkripteer en is nie vir die Signal-diens sigbaar nie.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Vind mense wat jy ken. Jou kontakte is geënkripteer en is nie vir die Serva Chat-diens sigbaar nie.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefoonoproepe</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Ek het my ou telefoon</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Skandeer \'n QR-kode in vanaf jou huidige Signal-rekening om vinnig te begin</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Skandeer \'n QR-kode in vanaf jou huidige Serva Chat-rekening om vinnig te begin</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Ek het nie my ou telefoon nie</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Of jy is besig om Signal op dieselfde toestel te herinstalleer</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Of jy is besig om Serva Chat op dieselfde toestel te herinstalleer</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Kies hoe jy jou boodskapgeskiedenis en rekeningdata wil herstel.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Vanaf Signal-rugsteun</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Vanaf Serva Chat-rugsteun</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Jou gratis of betaalde Signal-rugsteunplan</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Jou gratis of betaalde Serva Chat-rugsteunplan</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Herwin rugsteun op toestel</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Geen rugsteun gevind nie</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Geen Signal-rugsteun is in die geselekteerde vouer gevind nie. Probeer asseblief \'n ander vouer.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Geen Serva Chat-rugsteun is in die geselekteerde vouer gevind nie. Probeer asseblief \'n ander vouer.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Probeer \'n ander vouer</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Koppel jou rekening</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Nog nie op Signal nie?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Nog nie op Serva Chat nie?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Skep rekening</string>
 </resources>

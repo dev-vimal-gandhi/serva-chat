@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.quotes
+package com.servalabs.chat.components.quotes
 
 import android.content.Context
 import androidx.annotation.AttrRes
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class QuoteViewColorTheme(
   @AttrRes private val backgroundColorRes: Int,

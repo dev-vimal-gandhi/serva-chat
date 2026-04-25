@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal
+package com.servalabs.chat.components.settings.app.internal
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -30,11 +30,11 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.components.settings.app.internal.donor.DonationErrorValueCodeSelector
-import org.thoughtcrime.securesms.components.settings.app.internal.donor.DonationErrorValueTypeSelector
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.components.settings.app.internal.donor.DonationErrorValueCodeSelector
+import com.servalabs.chat.components.settings.app.internal.donor.DonationErrorValueTypeSelector
+import com.servalabs.chat.database.model.databaseprotos.DonationErrorValue
+import com.servalabs.chat.database.model.databaseprotos.PendingOneTimeDonation
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Allows configuration of a PendingOneTimeDonation object to display different

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package com.servalabs.chat.groups.ui.chooseadmin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,19 +14,19 @@ import androidx.lifecycle.ViewModelProvider;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.BadGroupIdException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.ui.GroupChangeResult;
+import com.servalabs.chat.groups.ui.GroupErrors;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

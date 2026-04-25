@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.manual.models
+package com.servalabs.chat.components.settings.app.notifications.manual.models
 
 import android.view.View
 import android.widget.TextView
 import androidx.constraintlayout.widget.Group
 import com.airbnb.lottie.SimpleColorFilter
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiImageView
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.formatHours
+import com.servalabs.chat.util.visible
 import java.time.LocalDateTime
 import java.time.LocalTime
 

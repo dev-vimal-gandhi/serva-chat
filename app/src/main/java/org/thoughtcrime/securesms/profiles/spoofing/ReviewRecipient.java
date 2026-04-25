@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package com.servalabs.chat.profiles.spoofing;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.databaseprotos.ProfileChangeDetails;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 public class ReviewRecipient {
   private final Recipient            recipient;

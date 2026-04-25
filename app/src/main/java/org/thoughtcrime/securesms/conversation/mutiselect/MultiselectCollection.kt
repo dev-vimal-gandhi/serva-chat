@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package com.servalabs.chat.conversation.mutiselect
 
 sealed class MultiselectCollection {
 

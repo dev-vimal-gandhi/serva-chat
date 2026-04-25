@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package com.servalabs.chat.components.settings
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -10,7 +10,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.Px
 import androidx.core.content.ContextCompat
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 const val NO_TINT = -1
 

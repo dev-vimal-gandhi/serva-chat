@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.app.ActivityManager;
 import android.app.IntentService;
@@ -13,13 +13,13 @@ import androidx.core.app.NotificationManagerCompat;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.gcm.FcmFetchManager;
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.gcm.FcmFetchManager;
+import com.servalabs.chat.jobs.ForegroundServiceUtil;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.WakeLockUtil;
 
 import java.util.ArrayList;
 import java.util.List;

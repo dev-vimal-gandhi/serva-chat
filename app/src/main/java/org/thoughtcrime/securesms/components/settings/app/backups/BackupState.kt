@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups
+package com.servalabs.chat.components.settings.app.backups
 
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsType
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
 

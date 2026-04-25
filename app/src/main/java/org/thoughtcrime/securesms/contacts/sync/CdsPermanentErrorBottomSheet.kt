@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync
+package com.servalabs.chat.contacts.sync
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -11,9 +11,9 @@ import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.CdsPermanentErrorBottomSheetBinding
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.databinding.CdsPermanentErrorBottomSheetBinding
+import com.servalabs.chat.util.CommunicationActions
 
 /**
  * Bottom sheet shown when CDS is in a permanent error state, preventing us from doing a sync.

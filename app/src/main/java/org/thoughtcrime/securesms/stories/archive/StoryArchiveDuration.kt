@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import kotlin.time.Duration.Companion.days
 
 enum class StoryArchiveDuration(val durationMs: Long, @StringRes val labelRes: Int) {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,18 +10,18 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.VideoSlide
-import org.thoughtcrime.securesms.scribbles.VideoEditorPlayButtonLayout
-import org.thoughtcrime.securesms.util.Throttler
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.video.VideoPlayer
-import org.thoughtcrime.securesms.video.VideoPlayer.PlayerCallback
-import org.thoughtcrime.securesms.video.videoconverter.VideoThumbnailsRangeSelectorView
-import org.thoughtcrime.securesms.video.videoconverter.VideoThumbnailsRangeSelectorView.PositionDragListener
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.mediasend.v2.videos.VideoTrimData
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.mms.VideoSlide
+import com.servalabs.chat.scribbles.VideoEditorPlayButtonLayout
+import com.servalabs.chat.util.Throttler
+import com.servalabs.chat.util.visible
+import com.servalabs.chat.video.VideoPlayer
+import com.servalabs.chat.video.VideoPlayer.PlayerCallback
+import com.servalabs.chat.video.videoconverter.VideoThumbnailsRangeSelectorView
+import com.servalabs.chat.video.videoconverter.VideoThumbnailsRangeSelectorView.PositionDragListener
 import java.io.IOException
 import kotlin.time.Duration.Companion.microseconds
 import kotlin.time.Duration.Companion.milliseconds

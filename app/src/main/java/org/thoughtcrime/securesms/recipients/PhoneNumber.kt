@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.util.SignalE164Util
 
 @JvmInline
 value class PhoneNumber(val value: String) {

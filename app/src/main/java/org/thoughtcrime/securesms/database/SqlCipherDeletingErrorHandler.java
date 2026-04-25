@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
@@ -9,7 +9,7 @@ import net.zetetic.database.DatabaseErrorHandler;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 import org.signal.core.util.CursorUtil;
 
 /**

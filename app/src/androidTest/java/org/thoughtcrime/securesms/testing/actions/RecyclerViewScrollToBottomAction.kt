@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testing.actions
+package com.servalabs.chat.testing.actions
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

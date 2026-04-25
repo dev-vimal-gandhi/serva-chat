@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
 import org.greenrobot.eventbus.EventBus
 import org.signal.core.util.logging.Log
 import org.signal.core.util.stream.NullOutputStream
-import org.thoughtcrime.securesms.backup.proto.Attachment
-import org.thoughtcrime.securesms.backup.proto.Avatar
-import org.thoughtcrime.securesms.backup.proto.BackupFrame
-import org.thoughtcrime.securesms.backup.proto.Sticker
+import com.servalabs.chat.backup.proto.Attachment
+import com.servalabs.chat.backup.proto.Avatar
+import com.servalabs.chat.backup.proto.BackupFrame
+import com.servalabs.chat.backup.proto.Sticker
 import java.io.IOException
 import java.io.InputStream
 

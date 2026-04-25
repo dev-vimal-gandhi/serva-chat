@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.content.Context
 import android.media.AudioDeviceCallback
@@ -8,7 +8,7 @@ import android.media.AudioRecordingConfiguration
 import android.media.MediaRecorder
 import androidx.annotation.RequiresApi
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * API 31 introduces new audio manager methods to handle audio routing, including to Bluetooth devices.

@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Vzemite svojo zasebnost v lastne roke!\nDa boste v sporočilih lahko to kar ste.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal je neprofitna organizacija\nPogoji in politika zasebnosti</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat je neprofitna organizacija\nPogoji in politika zasebnosti</string>
     <string name="RegistrationActivity_continue">Nadaljuj</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Obnovi ali prenesi</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Odobri dovoljenja</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Za pomoč pri pošiljanju sporočil ljudem, ki jih poznate, bo Signal zahteval ta dovoljenja. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Za pomoč pri pošiljanju sporočil ljudem, ki jih poznate, bo Serva Chat zahteval ta dovoljenja. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Ne zdaj</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Stiki</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Poiščite ljudi, ki jih poznate. Vaši stiki so šifrirani in niso vidni storitvi Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Poiščite ljudi, ki jih poznate. Vaši stiki so šifrirani in niso vidni storitvi Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefonski klici</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Imam svoj stari telefon</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Skenirajte kodo QR iz svojega trenutnega računa Signal in hitro začnite</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Skenirajte kodo QR iz svojega trenutnega računa Serva Chat in hitro začnite</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Nimam starega telefona</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Ali pa ponovno nameščate Signal v isto napravo</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Ali pa ponovno nameščate Serva Chat v isto napravo</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Izberite, kako bi želeli obnoviti vašo zgodovino sporočil in podatke računa.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Iz Varnostnih kopij Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Iz Varnostnih kopij Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Vaš brezplačni ali plačljivi načrt varnostnega kopiranja Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Vaš brezplačni ali plačljivi načrt varnostnega kopiranja Serva Chat</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Obnovitev varnostne kopije v napravi</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Varnostna kopija ni bila najdena</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Varnostna kopija Signal ni bila najdena v izbrani mapi. Izberite drugo mapo.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Varnostna kopija Serva Chat ni bila najdena v izbrani mapi. Izberite drugo mapo.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Izberi drugo mapo</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Poveži račun</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Še nimate Signala?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Še nimate Serva Chata?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Ustvari račun</string>
 </resources>

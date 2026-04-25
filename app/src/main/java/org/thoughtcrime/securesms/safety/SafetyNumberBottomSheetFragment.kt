@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
 import android.content.DialogInterface
 import android.view.View
@@ -10,23 +10,22 @@ import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.SplashImage
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeRepository
-import org.thoughtcrime.securesms.conversation.ui.error.TrustAndVerifyResult
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.review.SafetyNumberReviewConnectionsFragment
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.conversation.ui.error.SafetyNumberChangeRepository
+import com.servalabs.chat.conversation.ui.error.TrustAndVerifyResult
+import com.servalabs.chat.crypto.IdentityKeyParcelable
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.safety.review.SafetyNumberReviewConnectionsFragment
+import com.servalabs.chat.util.fragments.findListener
+import com.servalabs.chat.util.visible
+import com.servalabs.chat.verify.VerifyIdentityFragment
 import org.signal.core.ui.R as CoreUiR
 
 /**
@@ -81,7 +80,6 @@ class SafetyNumberBottomSheetFragment : DSLSettingsBottomSheetFragment(layoutId 
       }
     }
 
-    SplashImage.register(adapter)
     SafetyNumberRecipientRowItem.register(adapter)
     lifecycleDisposable.bindTo(viewLifecycleOwner)
 
@@ -107,13 +105,6 @@ class SafetyNumberBottomSheetFragment : DSLSettingsBottomSheetFragment(layoutId 
 
   private fun getConfiguration(state: SafetyNumberBottomSheetState): DSLConfiguration {
     return configure {
-      customPref(
-        SplashImage.Model(
-          R.drawable.ic_safety_number_24,
-          MaterialR.attr.colorOnSurface
-        )
-      )
-
       textPref(
         title = DSLSettingsText.from(
           when {

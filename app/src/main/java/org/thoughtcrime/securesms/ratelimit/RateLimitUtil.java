@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package com.servalabs.chat.ratelimit;
 
 import android.content.Context;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.IndividualSendJob;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.PushGroupSendJob;
+import com.servalabs.chat.jobs.IndividualSendJob;
 
 import java.util.Set;
 

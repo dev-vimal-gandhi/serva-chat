@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.enqueueBlocking
-import org.thoughtcrime.securesms.jobmanager.runJobBlocking
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.jobs.ReclaimUsernameAndLinkJob
-import org.thoughtcrime.securesms.jobs.StorageAccountRestoreJob
-import org.thoughtcrime.securesms.jobs.StorageSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.enqueueBlocking
+import com.servalabs.chat.jobmanager.runJobBlocking
+import com.servalabs.chat.jobs.ProfileUploadJob
+import com.servalabs.chat.jobs.ReclaimUsernameAndLinkJob
+import com.servalabs.chat.jobs.StorageAccountRestoreJob
+import com.servalabs.chat.jobs.StorageSyncJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.util.RegistrationUtil
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds
 

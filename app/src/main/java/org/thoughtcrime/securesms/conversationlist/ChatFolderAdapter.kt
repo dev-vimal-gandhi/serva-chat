@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,13 +7,13 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import org.signal.core.ui.util.ThemeUtil
 import com.google.android.material.R as MaterialR
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderContextMenu
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderContextMenu
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 
 /**
  * RecyclerView adapter for the chat folders displayed on conversation list

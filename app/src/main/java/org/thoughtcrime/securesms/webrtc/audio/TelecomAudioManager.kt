@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.content.Context
 import androidx.annotation.RequiresApi
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.AndroidTelecomUtil
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.AndroidTelecomUtil
 
 /**
  * Lightweight [SignalAudioManager] used when Jetpack Core Telecom is managing the call.
@@ -21,8 +21,8 @@ import org.thoughtcrime.securesms.service.webrtc.AndroidTelecomUtil
  * - Mic mute state
  * - Forwarding user device selection to Core Telecom via [AndroidTelecomUtil]
  *
- * Device availability and active device updates flow from [org.thoughtcrime.securesms.service.webrtc.TelecomCallController] directly
- * to [org.thoughtcrime.securesms.service.webrtc.SignalCallManager.onAudioDeviceChanged], bypassing this class entirely.
+ * Device availability and active device updates flow from [com.servalabs.chat.service.webrtc.TelecomCallController] directly
+ * to [com.servalabs.chat.service.webrtc.SignalCallManager.onAudioDeviceChanged], bypassing this class entirely.
  */
 @RequiresApi(34)
 class TelecomAudioManager(context: Context, eventListener: EventListener?) : SignalAudioManager(context, eventListener) {

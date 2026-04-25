@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package com.servalabs.chat.database.loaders;
 
 
 import android.Manifest;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.audio
+package com.servalabs.chat.audio
 
 import android.content.Context
 import android.media.AudioDeviceInfo
@@ -14,8 +14,8 @@ import androidx.annotation.RequiresApi
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioHandler
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.webrtc.audio.SignalAudioHandler
 
 internal const val TAG = "BluetoothVoiceNoteUtil"
 

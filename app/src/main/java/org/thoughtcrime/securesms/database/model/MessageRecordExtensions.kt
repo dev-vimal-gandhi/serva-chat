@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.polls.PollRecord
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.payments.Payment
+import com.servalabs.chat.polls.PollRecord
 
 fun MessageRecord.withReactions(reactions: List<ReactionRecord>): MessageRecord {
   return if (this is MmsMessageRecord) {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.graphics.Bitmap
 import android.graphics.Typeface
@@ -19,15 +19,15 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendRepository
-import org.thoughtcrime.securesms.mediasend.v2.text.send.TextStoryPostSendResult
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.fonts.TextToScript
+import com.servalabs.chat.fonts.TypefaceCache
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mediasend.v2.text.send.TextStoryPostSendRepository
+import com.servalabs.chat.mediasend.v2.text.send.TextStoryPostSendResult
+import com.servalabs.chat.util.rx.RxStore
 
 class TextStoryPostCreationViewModel(private val repository: TextStoryPostSendRepository, private val identityChangesSince: Long = System.currentTimeMillis()) : ViewModel() {
 

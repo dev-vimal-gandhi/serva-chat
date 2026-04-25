@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 sealed interface FindByResult {
   data class Success(val recipientId: RecipientId) : FindByResult

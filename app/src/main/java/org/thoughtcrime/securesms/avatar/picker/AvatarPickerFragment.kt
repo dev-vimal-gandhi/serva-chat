@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package com.servalabs.chat.avatar.picker
 
 import android.Manifest
 import android.app.Activity
@@ -20,21 +20,21 @@ import org.signal.core.models.media.Media
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.photo.PhotoEditorActivity
-import org.thoughtcrime.securesms.avatar.photo.PhotoEditorFragment
-import org.thoughtcrime.securesms.avatar.text.TextAvatarCreationFragment
-import org.thoughtcrime.securesms.avatar.vector.VectorAvatarCreationFragment
-import org.thoughtcrime.securesms.components.ButtonStripItemView
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.mediasend.AvatarSelectionActivity
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.AvatarBundler
+import com.servalabs.chat.avatar.photo.PhotoEditorActivity
+import com.servalabs.chat.avatar.photo.PhotoEditorFragment
+import com.servalabs.chat.avatar.text.TextAvatarCreationFragment
+import com.servalabs.chat.avatar.vector.VectorAvatarCreationFragment
+import com.servalabs.chat.components.ButtonStripItemView
+import com.servalabs.chat.components.recyclerview.GridDividerDecoration
+import com.servalabs.chat.mediasend.AvatarSelectionActivity
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 import org.signal.core.ui.R as CoreUiR
 
 /**
@@ -43,9 +43,9 @@ import org.signal.core.ui.R as CoreUiR
 class AvatarPickerFragment : Fragment(R.layout.avatar_picker_fragment) {
 
   companion object {
-    const val REQUEST_KEY_SELECT_AVATAR = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR"
-    const val SELECT_AVATAR_MEDIA = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR_MEDIA"
-    const val SELECT_AVATAR_CLEAR = "org.thoughtcrime.securesms.avatar.picker.SELECT_AVATAR_CLEAR"
+    const val REQUEST_KEY_SELECT_AVATAR = "com.servalabs.chat.avatar.picker.SELECT_AVATAR"
+    const val SELECT_AVATAR_MEDIA = "com.servalabs.chat.avatar.picker.SELECT_AVATAR_MEDIA"
+    const val SELECT_AVATAR_CLEAR = "com.servalabs.chat.avatar.picker.SELECT_AVATAR_CLEAR"
 
     private const val REQUEST_CODE_SELECT_IMAGE = 1
   }

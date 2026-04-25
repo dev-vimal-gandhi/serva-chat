@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color
+package com.servalabs.chat.color
 
 import android.content.Context
 import android.os.Parcelable

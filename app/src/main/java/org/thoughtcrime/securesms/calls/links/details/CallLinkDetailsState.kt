@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.details
+package com.servalabs.chat.calls.links.details
 
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.service.webrtc.CallLinkPeekInfo
 
 data class CallLinkDetailsState(
   val displayRevocationDialog: Boolean = false,

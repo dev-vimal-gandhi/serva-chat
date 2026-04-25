@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio
+package com.servalabs.chat.audio
 
 import android.content.Context
 import android.net.Uri
@@ -8,11 +8,11 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.SingleSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.AudioWaveFormData
 import java.io.IOException
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.read

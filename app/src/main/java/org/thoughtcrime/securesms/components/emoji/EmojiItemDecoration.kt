@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji
+package com.servalabs.chat.components.emoji
 
 import android.graphics.Canvas
 import android.graphics.Rect
@@ -6,9 +6,9 @@ import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiModel
-import org.thoughtcrime.securesms.util.InsetItemDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.EmojiModel
+import com.servalabs.chat.util.InsetItemDecoration
+import com.servalabs.chat.util.ViewUtil
 
 private val EDGE_LENGTH: Int = ViewUtil.dpToPx(6)
 private val HORIZONTAL_INSET: Int = ViewUtil.dpToPx(6)

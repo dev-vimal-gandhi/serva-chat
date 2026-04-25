@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.Manifest;
 import android.content.ComponentName;
@@ -17,17 +17,17 @@ import com.google.common.collect.Sets;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobs.ConversationShortcutUpdateJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.app.appearance.appicon.util.AppIconUtility;
+import com.servalabs.chat.conversation.ConversationIntents;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.jobs.ConversationShortcutUpdateJob;
+import com.servalabs.chat.notifications.NotificationChannels;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -44,7 +44,7 @@ public final class ConversationUtil {
 
   public static final int CONVERSATION_SUPPORT_VERSION = 30;
 
-  private static final String CATEGORY_SHARE_TARGET = "org.thoughtcrime.securesms.sharing.CATEGORY_SHARE_TARGET";
+  private static final String CATEGORY_SHARE_TARGET = "com.servalabs.chat.sharing.CATEGORY_SHARE_TARGET";
 
   private static final String CAPABILITY_SEND_MESSAGE    = "actions.intent.SEND_MESSAGE";
   private static final String CAPABILITY_RECEIVE_MESSAGE = "actions.intent.RECEIVE_MESSAGE";

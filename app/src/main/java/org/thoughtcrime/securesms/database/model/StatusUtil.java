@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTypes;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.MessageTypes;
 
 final class StatusUtil {
   private StatusUtil() {}

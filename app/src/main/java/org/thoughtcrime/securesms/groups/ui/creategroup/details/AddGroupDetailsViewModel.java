@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup.details;
+package com.servalabs.chat.groups.ui.creategroup.details;
 
 import android.text.TextUtils;
 
@@ -13,14 +13,14 @@ import androidx.lifecycle.ViewModelProvider;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.Collection;
 import java.util.Collections;

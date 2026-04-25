@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mediaoverview;
+package com.servalabs.chat.mediaoverview;
 
 import android.content.Context;
 import android.content.Intent;
@@ -36,17 +36,17 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
-import org.thoughtcrime.securesms.components.BoldSelectionTabItem;
-import org.thoughtcrime.securesms.components.ControllableTabLayout;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.MediaTable.Sorting;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.loaders.MediaLoader;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AnimatingToggle;
+import com.servalabs.chat.components.BoldSelectionTabItem;
+import com.servalabs.chat.components.ControllableTabLayout;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.MediaTable.Sorting;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.loaders.MediaLoader;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.ArrayList;

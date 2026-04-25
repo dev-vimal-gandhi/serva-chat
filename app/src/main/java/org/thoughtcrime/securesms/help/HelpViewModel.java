@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.help;
+package com.servalabs.chat.help;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.logsubmit.SubmitDebugLogRepository;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.Optional;
 

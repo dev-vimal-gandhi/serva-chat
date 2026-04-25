@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -22,9 +22,9 @@ import com.google.android.material.shape.RoundedCornerTreatment;
 import com.google.android.material.shape.ShapeAppearanceModel;
 import com.google.android.material.shape.Shapeable;
 
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.contacts.avatars.ContactPhoto;
+import com.servalabs.chat.recipients.Recipient;
 
 public final class ContactChip extends Chip {
 

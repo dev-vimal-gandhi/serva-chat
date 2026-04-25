@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package com.servalabs.chat.components.settings.app.notifications
 
 import android.content.Context
 import android.content.Intent
 import android.provider.Settings
 import androidx.activity.result.contract.ActivityResultContract
-import org.thoughtcrime.securesms.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationChannels
 
 /**
  * Activity result contract for launching the system notification channel settings screen

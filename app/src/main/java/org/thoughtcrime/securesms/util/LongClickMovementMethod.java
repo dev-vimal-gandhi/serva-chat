@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.lang.ref.WeakReference;
 

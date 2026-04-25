@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.fonts
+package com.servalabs.chat.fonts
 
 import android.graphics.Typeface
 import androidx.compose.runtime.Composable

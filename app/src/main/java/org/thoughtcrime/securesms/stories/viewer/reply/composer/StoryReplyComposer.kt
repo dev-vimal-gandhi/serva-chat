@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.composer
+package com.servalabs.chat.stories.viewer.reply.composer
 
 import android.content.Context
 import android.graphics.Rect
@@ -18,26 +18,26 @@ import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
 import org.signal.core.util.ByteLimitInputFilter
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.components.InputAwareLayout
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiToggle
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.emoji.EmojiSource
-import org.thoughtcrime.securesms.keyboard.emoji.toMappingModels
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.MessageUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ComposeText
+import com.servalabs.chat.components.InputAwareLayout
+import com.servalabs.chat.components.emoji.Emoji
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.components.emoji.EmojiPageView
+import com.servalabs.chat.components.emoji.EmojiToggle
+import com.servalabs.chat.components.emoji.MediaKeyboard
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.emoji.EmojiSource
+import com.servalabs.chat.keyboard.emoji.toMappingModels
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.MessageUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 class StoryReplyComposer @JvmOverloads constructor(
   context: Context,

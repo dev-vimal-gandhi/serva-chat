@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.details
+package com.servalabs.chat.calls.links.details
 
 import android.content.Context
 import android.content.Intent
@@ -15,12 +15,12 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentActivity
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.main.MainNavigationDetailLocation
-import org.thoughtcrime.securesms.main.MainNavigationListLocation
-import org.thoughtcrime.securesms.main.MainNavigationRouter
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.calls.links.EditCallLinkNameDialogFragment
+import com.servalabs.chat.main.MainNavigationDetailLocation
+import com.servalabs.chat.main.MainNavigationListLocation
+import com.servalabs.chat.main.MainNavigationRouter
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.util.viewModel
 
 class CallLinkDetailsActivity : FragmentActivity() {
 

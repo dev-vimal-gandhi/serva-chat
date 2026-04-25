@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.payments.Entropy
+import com.servalabs.chat.payments.Entropy
 
 class PaymentsValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

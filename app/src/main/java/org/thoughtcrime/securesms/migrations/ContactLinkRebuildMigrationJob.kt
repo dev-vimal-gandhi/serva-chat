@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import android.Manifest
 import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
 import org.signal.contacts.SystemContactsRepository
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.SyncSystemContactLinksJob
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.SyncSystemContactLinksJob
 
 /**
  * This migration job is responsible for rebuilding the contact links for all contacts in the system. Contact links

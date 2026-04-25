@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter;
+package com.servalabs.chat.util.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.reactions.edit
+package com.servalabs.chat.reactions.edit
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.WindowUtil
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.WindowUtil
 
 class EditReactionsActivity : PassphraseRequiredActivity() {
 

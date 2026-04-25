@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -16,14 +16,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.biometric.BiometricDialogFragment;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.AppStartup;
-import org.thoughtcrime.securesms.util.ConfigurationUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper;
+import com.servalabs.chat.biometric.BiometricDialogFragment;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.AppStartup;
+import com.servalabs.chat.util.ConfigurationUtil;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.WindowUtil;
+import com.servalabs.chat.util.dynamiclanguage.DynamicLanguageContextWrapper;
 
 import java.util.List;
 import java.util.Objects;

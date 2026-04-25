@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,11 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ThumbnailView;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ThumbnailView;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.adapter.StableIdGenerator;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.adapter.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

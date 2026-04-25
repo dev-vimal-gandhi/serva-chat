@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testutil;
+package com.servalabs.chat.testutil;
 
 import org.signal.core.util.logging.Log;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package com.servalabs.chat.components.settings.app.subscription.donate.paypal
 
 import android.app.Dialog
 import android.graphics.Color
@@ -21,19 +21,19 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.databinding.DonationInProgressFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.databinding.DonationInProgressFragmentBinding
+import com.servalabs.chat.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentIntentResponse
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentMethodResponse
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package com.servalabs.chat.stories.settings.custom
 
 import android.view.View
 import android.widget.TextView
@@ -17,15 +17,15 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.database.model.DistributionListPartialRecord
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.database.model.DistributionListPartialRecord
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 object PrivateStoryItem {
 

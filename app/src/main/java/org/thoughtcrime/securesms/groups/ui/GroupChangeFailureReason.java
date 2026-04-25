@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.groups.ui;
+package com.servalabs.chat.groups.ui;
 
 import android.annotation.SuppressLint;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.MembershipNotSuitableForV2Exception;
+import com.servalabs.chat.groups.GroupChangeBusyException;
+import com.servalabs.chat.groups.GroupInsufficientRightsException;
+import com.servalabs.chat.groups.GroupNotAMemberException;
+import com.servalabs.chat.groups.MembershipNotSuitableForV2Exception;
 import org.whispersystems.signalservice.internal.push.exceptions.GroupTerminatedException;
 
 import java.io.IOException;

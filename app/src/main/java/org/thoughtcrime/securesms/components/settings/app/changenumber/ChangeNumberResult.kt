@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
-import org.thoughtcrime.securesms.pin.SvrWrongPinException
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
+import com.servalabs.chat.pin.SvrWrongPinException
+import com.servalabs.chat.registration.data.network.RegistrationResult
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SvrNoDataException
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException

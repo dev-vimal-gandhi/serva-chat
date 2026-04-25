@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package com.servalabs.chat.profiles.edit;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -27,32 +27,32 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.Avatars;
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment;
-import org.thoughtcrime.securesms.databinding.CreateProfileFragmentBinding;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.R;
+import com.servalabs.chat.avatar.Avatars;
+import com.servalabs.chat.avatar.picker.AvatarPickerFragment;
+import com.servalabs.chat.databinding.CreateProfileFragmentBinding;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment;
-import org.thoughtcrime.securesms.profiles.manage.EditProfileNameFragment;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import com.servalabs.chat.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment;
+import com.servalabs.chat.profiles.manage.EditProfileNameFragment;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.navigation.SafeNavigation;
+import com.servalabs.chat.util.text.AfterTextChanged;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.EXCLUDE_SYSTEM;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.GROUP_ID;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.IS_DESCRIPTION_FOCUSED;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.NEXT_BUTTON_TEXT;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.NEXT_INTENT;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.SHOW_TOOLBAR;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.EXCLUDE_SYSTEM;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.GROUP_ID;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.IS_DESCRIPTION_FOCUSED;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.NEXT_BUTTON_TEXT;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.NEXT_INTENT;
+import static com.servalabs.chat.profiles.edit.CreateProfileActivity.SHOW_TOOLBAR;
 
 /**
  * Used for profile creation during registration.

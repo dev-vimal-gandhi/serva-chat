@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.content.Context
 import android.text.TextUtils
@@ -11,7 +11,7 @@ import okio.ByteString.Companion.toByteString
 import org.signal.core.util.Base64
 import org.signal.core.util.Util
 import org.signal.core.util.toByteArray
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.util.MediaUtil
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import org.whispersystems.signalservice.internal.push.AttachmentPointer
 import java.io.IOException

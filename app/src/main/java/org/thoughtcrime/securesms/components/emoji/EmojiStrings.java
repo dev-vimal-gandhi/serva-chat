@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 public final class EmojiStrings {
   public static final String BUST_IN_SILHOUETTE = "\uD83D\uDC64";

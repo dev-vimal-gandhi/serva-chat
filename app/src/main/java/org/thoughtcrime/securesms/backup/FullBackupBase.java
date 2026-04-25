@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 
 import androidx.annotation.NonNull;

@@ -18,17 +18,17 @@ We update Molly every two weeks to include the latest Signal features and fixes.
 
 ## Download
 
-You can download the app from GitHub's [Releases](https://github.com/mollyim/mollyim-android/releases/latest) page or install it from the [Molly F-Droid Repo](https://molly.im/fdroid/):
+You can download the app from GitHub's [Releases](https://github.com/mollyim/mollyim-android/releases/latest) page or install it from the [Molly F-Droid Repo](https://servalabs.com/fdroid/):
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
     alt="Get it on F-Droid"
-    height="80">](https://molly.im/fdroid/)
+    height="80">](https://servalabs.com/fdroid/)
 
 There are two versions available: **Molly** or **Molly-FOSS**. Learn the differences [below](#free-and-open-source) and download the right one for you.
 
 You can also get **Molly-FOSS** from [Accrescent](https://accrescent.app/):
 
-<a href="https://accrescent.app/app/im.molly.app">
+<a href="https://accrescent.app/app/com.servalabs.chat">
    <img alt="Get it on Accrescent"
       src="https://accrescent.app/badges/get-it-on.png"
       height="80">

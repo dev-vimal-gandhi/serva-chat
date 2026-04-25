@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -12,18 +12,18 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.PendingIntentFlags.immutable
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.service.GenericForegroundService
-import org.thoughtcrime.securesms.service.NotificationController
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.service.GenericForegroundService
+import com.servalabs.chat.service.NotificationController
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.Date

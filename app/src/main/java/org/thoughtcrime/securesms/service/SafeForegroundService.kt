@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Notification
 import android.app.Service
@@ -16,8 +16,8 @@ import androidx.annotation.CheckResult
 import androidx.annotation.RequiresApi
 import androidx.core.app.ServiceCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.jobs.UnableToStartException
+import com.servalabs.chat.jobs.ForegroundServiceUtil
+import com.servalabs.chat.jobs.UnableToStartException
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 

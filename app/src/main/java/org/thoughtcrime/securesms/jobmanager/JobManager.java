@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import android.app.Application;
 
@@ -10,14 +10,14 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.impl.DefaultExecutorFactory;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.jobmanager.impl.DefaultExecutorFactory;
+import com.servalabs.chat.jobmanager.persistence.JobSpec;
+import com.servalabs.chat.jobmanager.persistence.JobStorage;
+import com.servalabs.chat.jobs.MinimalJobSpec;
+import com.servalabs.chat.util.Debouncer;
+import com.servalabs.chat.util.TextSecurePreferences;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import com.servalabs.chat.util.concurrent.FilteredExecutor;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -62,7 +62,7 @@ public class JobManager implements ConstraintObserver.Notifier {
     this.application   = application;
     this.configuration = configuration;
     this.executor      = new FilteredExecutor(configuration.getExecutorFactory().newSingleThreadExecutor("signal-JobManager"), () -> {
-      return ThreadUtil.isMainThread() || Thread.currentThread().getName().equals("Instr: org.thoughtcrime.securesms.testing.SignalTestRunner");
+      return ThreadUtil.isMainThread() || Thread.currentThread().getName().equals("Instr: com.servalabs.chat.testing.SignalTestRunner");
     });
     this.jobTracker    = configuration.getJobTracker();
     this.jobController = new JobController(application,

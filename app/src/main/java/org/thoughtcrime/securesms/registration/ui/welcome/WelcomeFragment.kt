@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.welcome
+package com.servalabs.chat.registration.ui.welcome
 
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -20,21 +20,21 @@ import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.getSerializableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationWelcomeV3Binding
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.fragments.WelcomePermissions
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.permissions.GrantPermissionsFragment
-import org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberMode
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentRegistrationWelcomeV3Binding
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.registration.fragments.WelcomePermissions
+import com.servalabs.chat.registration.ui.RegistrationCheckpoint
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.permissions.GrantPermissionsFragment
+import com.servalabs.chat.registration.ui.phonenumber.EnterPhoneNumberMode
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 
 /**
  * First screen that is displayed on the very first app launch.

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.MultiDeviceKeysUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.MultiDeviceKeysUpdateJob
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Migration to sync keys with linked devices.

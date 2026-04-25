@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package com.servalabs.chat.jobmanager.migrations
 
 import okio.ByteString.Companion.toByteString
 import org.signal.core.models.ServiceId
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.JobMigration
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.FailingJob
-import org.thoughtcrime.securesms.jobs.PushProcessMessageErrorJob
-import org.thoughtcrime.securesms.messages.MessageState
+import com.servalabs.chat.jobmanager.JobMigration
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobs.FailingJob
+import com.servalabs.chat.jobs.PushProcessMessageErrorJob
+import com.servalabs.chat.messages.MessageState
 import org.whispersystems.signalservice.api.crypto.protos.CompleteMessage
 import org.whispersystems.signalservice.api.crypto.protos.EnvelopeMetadata
 import org.whispersystems.signalservice.internal.push.Envelope

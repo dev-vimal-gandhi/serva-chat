@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -12,20 +12,20 @@ import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.core.util.Hex
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.database.MessageTable.InsertResult
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.addMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.addRequestingMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.deleteRequestingMember
-import org.thoughtcrime.securesms.database.model.databaseprotos.groupChange
-import org.thoughtcrime.securesms.database.model.databaseprotos.groupContext
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.isAbsent
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.MessageTable.InsertResult
+import com.servalabs.chat.database.model.GroupsV2UpdateMessageConverter
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context
+import com.servalabs.chat.database.model.databaseprotos.GV2UpdateDescription
+import com.servalabs.chat.database.model.databaseprotos.addMember
+import com.servalabs.chat.database.model.databaseprotos.addRequestingMember
+import com.servalabs.chat.database.model.databaseprotos.deleteRequestingMember
+import com.servalabs.chat.database.model.databaseprotos.groupChange
+import com.servalabs.chat.database.model.databaseprotos.groupContext
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.isAbsent
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.recipients.RecipientId
 import java.util.UUID
 
 @Suppress("ClassName", "TestFunctionName")

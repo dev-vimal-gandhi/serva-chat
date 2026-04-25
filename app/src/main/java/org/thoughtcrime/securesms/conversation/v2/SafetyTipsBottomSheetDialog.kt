@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.res.Configuration
 import androidx.annotation.DrawableRes
@@ -51,7 +51,7 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.compose.theme.colorAttribute
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Shows tips about typical spam and fraud messages.

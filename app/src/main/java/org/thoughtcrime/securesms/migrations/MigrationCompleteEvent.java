@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 public class MigrationCompleteEvent {
 

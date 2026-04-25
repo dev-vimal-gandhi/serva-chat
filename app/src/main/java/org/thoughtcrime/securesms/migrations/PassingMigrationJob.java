@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
+import com.servalabs.chat.jobmanager.Job;
 
 /**
  * A migration job that always passes. Not useful on it's own, but you can register it's factory for jobs that

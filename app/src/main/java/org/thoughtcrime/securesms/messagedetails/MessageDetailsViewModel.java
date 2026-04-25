@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -6,9 +6,9 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Objects;
 

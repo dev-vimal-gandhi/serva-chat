@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -15,14 +15,14 @@ import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiNoResultsModel;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.EmojiHeader;
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.EmojiNoResultsModel;
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 import java.util.List;
 import java.util.Optional;

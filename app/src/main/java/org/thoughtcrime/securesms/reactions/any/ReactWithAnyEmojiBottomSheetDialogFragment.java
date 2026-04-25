@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package com.servalabs.chat.reactions.any;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -26,20 +26,20 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
-import org.thoughtcrime.securesms.reactions.ReactionsRepository;
-import org.thoughtcrime.securesms.reactions.edit.EditReactionsActivity;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.components.emoji.EmojiEventListener;
+import com.servalabs.chat.components.emoji.EmojiPageView;
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.keyboard.KeyboardPageCategoryIconMappingModel;
+import com.servalabs.chat.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
+import com.servalabs.chat.keyboard.emoji.KeyboardPageSearchView;
+import com.servalabs.chat.reactions.ReactionsRepository;
+import com.servalabs.chat.reactions.edit.EditReactionsActivity;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 import java.util.Optional;
 

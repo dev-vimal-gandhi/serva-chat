@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 import androidx.annotation.NonNull;
 
@@ -7,8 +7,8 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.kdf.HKDF;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.backup.proto.BackupFrame;
-import org.thoughtcrime.securesms.backup.proto.Header;
+import com.servalabs.chat.backup.proto.BackupFrame;
+import com.servalabs.chat.backup.proto.Header;
 
 import java.io.IOException;
 import java.io.InputStream;

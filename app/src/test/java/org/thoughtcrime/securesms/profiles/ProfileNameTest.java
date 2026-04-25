@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package com.servalabs.chat.profiles;
 
 import android.app.Application;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.link
+package com.servalabs.chat.registration.ui.link
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -17,8 +17,8 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.IdentityKeyPair
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
+import com.servalabs.chat.dependencies.AppDependencies
 import org.whispersystems.signalservice.api.provisioning.ProvisioningSocket
 import org.whispersystems.signalservice.internal.crypto.SecondaryProvisioningCipher
 import org.whispersystems.signalservice.internal.push.ProvisionMessage

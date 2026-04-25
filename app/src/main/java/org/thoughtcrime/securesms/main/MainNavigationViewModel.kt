@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldRole
@@ -32,19 +32,19 @@ import kotlinx.coroutines.reactive.asFlow
 import kotlinx.coroutines.rx3.asObservable
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.calls.log.CallLogRow
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.components.snackbars.SnackbarStateConsumerRegistry
-import org.thoughtcrime.securesms.conversation.ConversationArgs
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.delegate
-import org.thoughtcrime.securesms.window.AppScaffoldNavigator
+import com.servalabs.chat.calls.log.CallLogRow
+import com.servalabs.chat.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import com.servalabs.chat.components.snackbars.SnackbarStateConsumerRegistry
+import com.servalabs.chat.conversation.ConversationArgs
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.megaphone.Megaphone
+import com.servalabs.chat.megaphone.Megaphones
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.delegate
+import com.servalabs.chat.window.AppScaffoldNavigator
 import java.util.Optional
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)

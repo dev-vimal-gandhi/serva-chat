@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package com.servalabs.chat.mediasend.v2
 
 import android.view.animation.Interpolator
-import org.thoughtcrime.securesms.util.createDefaultCubicBezierInterpolator
+import com.servalabs.chat.util.createDefaultCubicBezierInterpolator
 
 object MediaAnimations {
   /**

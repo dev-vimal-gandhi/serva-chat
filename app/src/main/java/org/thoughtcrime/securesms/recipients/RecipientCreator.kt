@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.UriChatWallpaper
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.RecipientTable.RegisteredState
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.wallpaper.ChatWallpaper
+import com.servalabs.chat.wallpaper.UriChatWallpaper
 import java.util.LinkedList
 import java.util.Optional
 

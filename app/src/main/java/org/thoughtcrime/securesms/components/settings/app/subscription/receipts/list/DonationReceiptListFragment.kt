@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.BoldSelectionTabItem
-import org.thoughtcrime.securesms.components.ControllableTabLayout
+import com.servalabs.chat.R
+import com.servalabs.chat.components.BoldSelectionTabItem
+import com.servalabs.chat.components.ControllableTabLayout
 
 class DonationReceiptListFragment : Fragment(R.layout.donation_receipt_list_fragment) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,16 +28,16 @@ import com.bumptech.glide.request.transition.Transition;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicMediaPreviewTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
+import com.servalabs.chat.avatar.fallback.FallbackAvatar;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.contacts.avatars.ContactPhoto;
+import com.servalabs.chat.contacts.avatars.ProfileContactPhoto;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DynamicMediaPreviewTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.FullscreenHelper;
 
 /**
  * Activity for displaying avatars full screen.

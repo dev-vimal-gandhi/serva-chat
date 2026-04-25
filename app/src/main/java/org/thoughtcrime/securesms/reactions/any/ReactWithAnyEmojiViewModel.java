@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package com.servalabs.chat.reactions.any;
 
 import android.text.TextUtils;
 
@@ -7,19 +7,19 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter;
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiCategory;
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiCategoryMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.RecentsMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchRepository;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.reactions.ReactionsRepository;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import com.servalabs.chat.components.emoji.EmojiPageModel;
+import com.servalabs.chat.components.emoji.EmojiPageViewGridAdapter;
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.emoji.EmojiCategory;
+import com.servalabs.chat.keyboard.emoji.EmojiCategoryMappingModel;
+import com.servalabs.chat.keyboard.emoji.RecentsMappingModel;
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchRepository;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.reactions.ReactionsRepository;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.adapter.mapping.MappingModelList;
 
 import java.util.List;
 import java.util.stream.Collectors;

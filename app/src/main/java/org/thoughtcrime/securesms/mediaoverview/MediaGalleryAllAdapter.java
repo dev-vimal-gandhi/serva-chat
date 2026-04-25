@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mediaoverview;
+package com.servalabs.chat.mediaoverview;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -42,27 +42,27 @@ import com.bumptech.glide.RequestManager;
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
 import org.signal.core.util.ByteSize;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.components.AudioView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.MediaTable.MediaRecord;
-import org.thoughtcrime.securesms.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.components.AudioView;
+import com.servalabs.chat.components.ThumbnailView;
+import com.servalabs.chat.components.voice.VoiceNotePlaybackState;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.database.MediaTable.MediaRecord;
+import com.servalabs.chat.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mediapreview.MediaPreviewCache;
+import com.servalabs.chat.mms.AudioSlide;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
 
-import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.jobs.AttachmentDownloadJob;
+import com.servalabs.chat.util.DateUtils;
+import com.servalabs.chat.util.MediaUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.livedata.LiveDataPair;
+import com.servalabs.chat.util.livedata.LiveDataPair;
 
 import java.util.Collection;
 import java.util.HashMap;

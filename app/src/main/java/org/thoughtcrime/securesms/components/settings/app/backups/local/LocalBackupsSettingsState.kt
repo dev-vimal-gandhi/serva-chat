@@ -2,9 +2,9 @@
  * Copyright 2026 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 
 /**
  * Immutable state for the on-device backups settings screen.

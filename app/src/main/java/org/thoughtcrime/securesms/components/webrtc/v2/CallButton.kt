@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -27,7 +27,7 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.IconButtons
 import org.signal.core.ui.compose.NightPreview
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import org.signal.core.ui.R as CoreUiR
 
 private val defaultCallButtonIconSize: Dp = 24.dp

@@ -1,29 +1,29 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.signal.blurhash.BlurHash
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.Cdn
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.audio.AudioHash
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.database.documents.IdentityKeyMismatch
+import com.servalabs.chat.database.documents.NetworkFailure
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.Quote
+import com.servalabs.chat.database.model.ReactionRecord
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.GiftBadge
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mms.SlideDeck
+import com.servalabs.chat.payments.Payment
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.util.MediaUtil
 
 /**
  * Builds MessageRecords and related components for direct usage in unit testing. Does not modify the database.

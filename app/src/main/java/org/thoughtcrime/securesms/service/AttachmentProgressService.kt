@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -20,10 +20,10 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
 import org.signal.core.util.throttleLatest
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
 import java.util.concurrent.CopyOnWriteArraySet
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

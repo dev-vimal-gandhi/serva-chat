@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 
 import android.content.Context;
@@ -17,11 +17,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.MediaTable;
+import com.servalabs.chat.mediapreview.MediaPreviewCache;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.util.ArrayList;
 import java.util.List;

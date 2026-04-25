@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.local
+package com.servalabs.chat.backup.v2.local
 
 import android.content.Context
 import android.net.Uri

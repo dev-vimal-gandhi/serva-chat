@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.model.databaseprotos.ChatColor
 import java.io.IOException
 
 class ChatColorsValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {

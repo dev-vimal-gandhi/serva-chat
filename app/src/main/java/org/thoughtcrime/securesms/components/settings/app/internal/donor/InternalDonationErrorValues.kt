@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.donor
+package com.servalabs.chat.components.settings.app.internal.donor
 
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -19,9 +19,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import org.signal.donations.StripeDeclineCode
 import org.signal.donations.StripeFailureCode
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.PayPalDeclineCode
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
+import com.servalabs.chat.components.settings.app.subscription.errors.PayPalDeclineCode
+import com.servalabs.chat.database.model.databaseprotos.DonationErrorValue
+import com.servalabs.chat.database.model.databaseprotos.PendingOneTimeDonation
 
 /**
  * Displays a dropdown widget for selecting an error type.

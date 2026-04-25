@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package com.servalabs.chat.conversation.ui.mentions;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,13 +10,13 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerRepository.MentionQuery;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.conversation.ui.mentions.MentionsPickerRepository.MentionQuery;
+import com.servalabs.chat.recipients.LiveRecipient;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

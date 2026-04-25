@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v3
+package com.servalabs.chat.mediasend.v3
 
 import android.content.Context
 import androidx.annotation.WorkerThread
@@ -11,13 +11,13 @@ import org.signal.core.models.media.Media
 import org.signal.mediasend.MediaRecipientId
 import org.signal.mediasend.preupload.PreUploadRepository
 import org.signal.mediasend.preupload.PreUploadResult
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mediasend.MediaUploadRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.mediasend.MediaUploadRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender
 
 object MediaSendV3PreUploadRepository : PreUploadRepository {
 

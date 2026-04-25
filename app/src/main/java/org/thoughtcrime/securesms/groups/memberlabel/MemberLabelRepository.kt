@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import android.content.Context
 import androidx.annotation.WorkerThread
@@ -11,18 +11,18 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.signal.core.models.ServiceId
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.conversation.colors.ColorizerV2
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.UiHintValues
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.colors.ColorizerV2
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupManager
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.UiHintValues
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.NetworkResult
 
 /**

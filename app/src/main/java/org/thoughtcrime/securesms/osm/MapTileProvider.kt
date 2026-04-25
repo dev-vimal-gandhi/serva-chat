@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.osm
+package com.servalabs.chat.osm
 
 import android.content.Context
 import org.osmdroid.tileprovider.MapTileProviderArray

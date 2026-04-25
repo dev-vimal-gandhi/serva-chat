@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import android.content.Context
 import android.content.Intent
@@ -15,10 +15,10 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.CheckoutFlowActivity.Result
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.components.FragmentWrapperActivity
+import com.servalabs.chat.components.settings.app.subscription.donate.CheckoutFlowActivity.Result
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction
 
 /**
  * Self-contained activity for message backups checkout, which utilizes Google Play Billing

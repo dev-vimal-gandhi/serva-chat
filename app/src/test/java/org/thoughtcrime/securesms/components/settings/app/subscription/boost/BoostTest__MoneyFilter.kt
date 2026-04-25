@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.boost
+package com.servalabs.chat.components.settings.app.subscription.boost
 
 import android.app.Application
 import android.text.SpannableStringBuilder

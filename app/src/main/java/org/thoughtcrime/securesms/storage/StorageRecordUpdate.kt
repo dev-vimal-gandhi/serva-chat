@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import org.whispersystems.signalservice.api.storage.SignalRecord
 

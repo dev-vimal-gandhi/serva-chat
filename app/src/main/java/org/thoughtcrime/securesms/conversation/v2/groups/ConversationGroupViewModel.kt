@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package com.servalabs.chat.conversation.v2.groups
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -13,19 +13,19 @@ import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.Result
 import org.signal.core.util.concurrent.subscribeWithSubject
-import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.v2.GroupBlockJoinRequestResult
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository
-import org.thoughtcrime.securesms.jobs.ForceUpdateGroupV2Job
-import org.thoughtcrime.securesms.jobs.GroupV2UpdateSelfProfileKeyJob
-import org.thoughtcrime.securesms.jobs.RequestGroupV2InfoJob
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.conversation.v2.ConversationRecipientRepository
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.groups.v2.GroupBlockJoinRequestResult
+import com.servalabs.chat.groups.v2.GroupManagementRepository
+import com.servalabs.chat.jobs.ForceUpdateGroupV2Job
+import com.servalabs.chat.jobs.GroupV2UpdateSelfProfileKeyJob
+import com.servalabs.chat.jobs.RequestGroupV2InfoJob
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Manages group state and actions for conversations.

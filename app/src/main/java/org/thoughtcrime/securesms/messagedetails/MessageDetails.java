@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.ComparatorCompat;
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.conversation.ConversationMessage;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.Collection;
 import java.util.Comparator;

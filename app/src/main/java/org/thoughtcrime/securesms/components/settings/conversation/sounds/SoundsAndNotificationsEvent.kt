@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package com.servalabs.chat.components.settings.conversation.sounds
 
-import org.thoughtcrime.securesms.database.RecipientTable.NotificationSetting
+import com.servalabs.chat.database.RecipientTable.NotificationSetting
 
 /**
  * Represents all user-driven actions that can occur on the Sounds & Notifications settings screen.
@@ -51,7 +51,7 @@ sealed interface SoundsAndNotificationsEvent {
 
   /**
    * Signals that the user tapped the "Custom Notifications" row and wishes to navigate to the
-   * [custom notifications settings screen][org.thoughtcrime.securesms.components.settings.conversation.sounds.custom.CustomNotificationsSettingsFragment].
+   * [custom notifications settings screen][com.servalabs.chat.components.settings.conversation.sounds.custom.CustomNotificationsSettingsFragment].
    */
   data object NavigateToCustomNotifications : SoundsAndNotificationsEvent
 }

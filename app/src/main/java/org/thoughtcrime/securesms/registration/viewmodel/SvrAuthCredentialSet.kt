@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.viewmodel
+package com.servalabs.chat.registration.viewmodel
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel

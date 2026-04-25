@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package com.servalabs.chat.conversationlist.chatfilter
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
+import com.servalabs.chat.conversationlist.model.ConversationFilter
 
 @Parcelize
 data class ConversationFilterRequest(

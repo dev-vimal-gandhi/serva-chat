@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package com.servalabs.chat.devicetransfer.newdevice;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.restore.RestoreActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.restore.RestoreActivity;
 
 /**
  * Shown after the new device successfully completes receiving a backup from the old device.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -9,10 +9,10 @@ import org.signal.core.util.readToList
 import org.signal.core.util.requireLong
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.ID
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.NEW_ID
-import org.thoughtcrime.securesms.database.RemappedRecordTables.SharedColumns.OLD_ID
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.RemappedRecordTables.SharedColumns.ID
+import com.servalabs.chat.database.RemappedRecordTables.SharedColumns.NEW_ID
+import com.servalabs.chat.database.RemappedRecordTables.SharedColumns.OLD_ID
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * The backing datastore for [RemappedRecords]. See that class for more details.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedVisibility
@@ -15,10 +15,10 @@ import androidx.fragment.app.DialogFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.isHeightCompact
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.MegaphoneActionController
-import org.thoughtcrime.securesms.megaphone.MegaphoneComponent
-import org.thoughtcrime.securesms.megaphone.Megaphones
+import com.servalabs.chat.megaphone.Megaphone
+import com.servalabs.chat.megaphone.MegaphoneActionController
+import com.servalabs.chat.megaphone.MegaphoneComponent
+import com.servalabs.chat.megaphone.Megaphones
 
 data class MainMegaphoneState(
   val megaphone: Megaphone = Megaphone.NONE,

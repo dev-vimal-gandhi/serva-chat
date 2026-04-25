@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.search
+package com.servalabs.chat.search
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Represents a search result for a message.

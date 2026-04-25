@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.RotateCertificateJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.RotateCertificateJob;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

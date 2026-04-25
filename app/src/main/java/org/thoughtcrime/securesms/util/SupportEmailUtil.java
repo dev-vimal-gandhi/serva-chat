@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,12 +10,12 @@ import androidx.annotation.StringRes;
 
 import org.signal.core.util.ResourceUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
 
 import java.util.Locale;
 
-import im.molly.app.base.ApkInfo;
+import com.servalabs.chat.base.ApkInfo;
 
 public final class SupportEmailUtil {
 

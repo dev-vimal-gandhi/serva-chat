@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.exporters
+package com.servalabs.chat.backup.v2.exporters
 
 import android.database.Cursor
 import org.signal.archive.proto.Chat
@@ -13,15 +13,15 @@ import org.signal.core.util.requireBoolean
 import org.signal.core.util.requireInt
 import org.signal.core.util.requireIntOrNull
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.util.ChatStyleConverter
-import org.thoughtcrime.securesms.backup.v2.util.isValid
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.util.ChatStyleConverter
+import com.servalabs.chat.backup.v2.util.isValid
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.database.model.databaseprotos.ChatColor
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper
 import java.io.Closeable
 import kotlin.time.Duration.Companion.seconds
 

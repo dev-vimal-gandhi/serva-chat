@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package com.servalabs.chat.testutil
 
 import androidx.test.core.app.ApplicationProvider
 import io.mockk.every
 import io.mockk.mockkObject
 import io.mockk.unmockkObject
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SearchTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.testing.JdbcSqliteDatabase
-import org.thoughtcrime.securesms.testing.TestSignalDatabase
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.SearchTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.testing.JdbcSqliteDatabase
+import com.servalabs.chat.testing.TestSignalDatabase
 
 class SignalDatabaseRule : ExternalResource() {
 

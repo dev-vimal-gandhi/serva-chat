@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import assertk.assertThat
 import assertk.assertions.contains
@@ -19,14 +19,14 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.backup.DeletionState
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobs.protos.BackupDeleteJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.backup.DeletionState
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobs.protos.BackupDeleteJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 

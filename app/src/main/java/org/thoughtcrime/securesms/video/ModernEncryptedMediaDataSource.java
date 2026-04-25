@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.video;
+package com.servalabs.chat.video;
 
 import android.media.MediaDataSource;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.video.videoconverter.mediadatasource.InputStreamMediaDataSource;
+import com.servalabs.chat.crypto.AttachmentSecret;
+import com.servalabs.chat.crypto.ModernDecryptingPartInputStream;
+import com.servalabs.chat.video.videoconverter.mediadatasource.InputStreamMediaDataSource;
 
 import java.io.File;
 import java.io.IOException;

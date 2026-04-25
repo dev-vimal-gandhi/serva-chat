@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.qr;
+package com.servalabs.chat.qr;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

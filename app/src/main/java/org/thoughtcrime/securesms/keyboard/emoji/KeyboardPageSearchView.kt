@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
 import android.animation.Animator
 import android.content.Context
@@ -16,11 +16,11 @@ import androidx.core.widget.ImageViewCompat
 import androidx.core.widget.doAfterTextChanged
 import org.signal.core.ui.util.ThemeUtil
 import com.google.android.material.R as MaterialR
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener
-import org.thoughtcrime.securesms.animation.ResizeAnimation
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.animation.AnimationCompleteListener
+import com.servalabs.chat.animation.ResizeAnimation
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 import org.signal.core.ui.R as CoreUiR
 
 private const val REVEAL_DURATION = 250L

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -33,18 +33,18 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.PushServiceEvent;
-import org.thoughtcrime.securesms.gcm.FcmUtil;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.events.PushServiceEvent;
+import com.servalabs.chat.gcm.FcmUtil;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.SignalNetwork;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.notifications.NotificationIds;
+import com.servalabs.chat.transport.RetryLaterException;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
 

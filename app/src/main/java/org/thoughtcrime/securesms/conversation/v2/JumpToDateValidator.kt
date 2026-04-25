@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import com.google.android.material.datepicker.CalendarConstraints.DateValidator
 import kotlinx.parcelize.IgnoredOnParcel
@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.LRUCache
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase
 import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime

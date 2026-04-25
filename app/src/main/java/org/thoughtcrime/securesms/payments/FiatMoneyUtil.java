@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments;
+package com.servalabs.chat.payments;
 import android.content.res.Resources;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.DateUtils;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.DateUtils;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

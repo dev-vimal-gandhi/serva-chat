@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import android.content.ContentValues
 import org.signal.archive.proto.Group
@@ -21,19 +21,19 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMem
 import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember
 import org.signal.storageservice.storage.protos.groups.local.DecryptedTimer
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.backup.v2.ArchiveGroup
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.backup.v2.ArchiveGroup
+import com.servalabs.chat.backup.v2.util.toLocal
+import com.servalabs.chat.conversation.colors.AvatarColorHash
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.RecipientExtras
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.v2.processing.GroupsV2StateProcessor
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations
 
 /**

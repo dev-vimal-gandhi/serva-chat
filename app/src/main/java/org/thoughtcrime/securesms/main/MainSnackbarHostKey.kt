@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
-import org.thoughtcrime.securesms.components.snackbars.SnackbarHostKey
+import com.servalabs.chat.components.snackbars.SnackbarHostKey
 
 sealed interface MainSnackbarHostKey : SnackbarHostKey {
   data object Chat : MainSnackbarHostKey

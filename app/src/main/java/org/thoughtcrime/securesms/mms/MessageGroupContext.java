@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,13 +10,13 @@ import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChange;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedMember;
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context;
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras;
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.databaseprotos.DecryptedGroupV2Context;
+import com.servalabs.chat.database.model.databaseprotos.MessageExtras;
+import com.servalabs.chat.messages.SignalServiceProtoUtil;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.Base64;
-import org.thoughtcrime.securesms.util.SignalE164Util;
+import com.servalabs.chat.util.SignalE164Util;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil;
 import org.signal.core.models.ServiceId;
 import org.signal.core.models.ServiceId.ACI;

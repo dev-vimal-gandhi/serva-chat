@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.util.RemoteConfig
 
 class LabsValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {

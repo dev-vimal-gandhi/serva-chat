@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.os.Parcel
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.util.MediaUtil
 
 /**
  * A basically-empty [Attachment] that is solely used for inserting an attachment into the [AttachmentTable].

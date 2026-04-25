@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing
+package com.servalabs.chat.groups.v2.processing
 
 import assertk.assertThat
 import assertk.assertions.containsExactly

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers
+package com.servalabs.chat.stickers
 
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.database.model.StickerRecord
-import org.thoughtcrime.securesms.stickers.manage.AvailableStickerPack
-import org.thoughtcrime.securesms.stickers.manage.InstalledStickerPack
+import com.servalabs.chat.database.model.StickerPackRecord
+import com.servalabs.chat.database.model.StickerRecord
+import com.servalabs.chat.stickers.manage.AvailableStickerPack
+import com.servalabs.chat.stickers.manage.InstalledStickerPack
 import java.util.UUID
 
 /**

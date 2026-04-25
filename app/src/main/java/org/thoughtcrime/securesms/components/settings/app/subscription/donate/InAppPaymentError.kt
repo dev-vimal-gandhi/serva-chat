@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 
 /**
  * Wraps an InAppPaymentData.Error in a throwable.

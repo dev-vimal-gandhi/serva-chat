@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package com.servalabs.chat.profiles.edit;
 
 import android.content.Context;
 
@@ -9,16 +9,16 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.groups.GroupChangeException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.io.IOException;

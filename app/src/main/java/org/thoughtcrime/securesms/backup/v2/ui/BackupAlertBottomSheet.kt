@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package com.servalabs.chat.backup.v2.ui
 
 import android.content.DialogInterface
 import android.os.Parcelable
@@ -42,15 +42,15 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.billing.launchManageBackupsSubscription
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialogFragment
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.keyvalue.protos.BackupDownloadNotifierState
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.PlayStoreUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.billing.launchManageBackupsSubscription
+import com.servalabs.chat.components.contactsupport.ContactSupportDialogFragment
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.keyvalue.protos.BackupDownloadNotifierState
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.PlayStoreUtil
 
 /**
  * Notifies the user of an issue with their backup.

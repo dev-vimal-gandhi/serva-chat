@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 import android.text.TextUtils;
 
@@ -16,10 +16,10 @@ import org.signal.paging.LivePagedData;
 import org.signal.paging.PagedData;
 import org.signal.paging.PagingConfig;
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import com.servalabs.chat.giph.model.GiphyImage;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.adapter.mapping.MappingModelList;
 
 import java.util.Objects;
 

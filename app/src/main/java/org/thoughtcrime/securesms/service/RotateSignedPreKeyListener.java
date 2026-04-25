@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.jobs.PreKeysSyncJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 public class RotateSignedPreKeyListener extends PersistentAlarmManagerListener {
 

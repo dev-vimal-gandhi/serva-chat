@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.graphics.Canvas
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.util.visible
 
 /**
  * Responsible for drawing the conversation bubble when a user long-presses it and the reaction

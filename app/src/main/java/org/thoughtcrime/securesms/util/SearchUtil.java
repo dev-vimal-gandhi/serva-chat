@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.text.Annotation;
 import android.text.Spannable;
@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation;
 
 import java.security.InvalidParameterException;
 import java.util.Collections;

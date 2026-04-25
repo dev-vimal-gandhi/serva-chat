@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import android.content.SharedPreferences;
 
@@ -6,13 +6,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.SecurePreferenceManager;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.SecurePreferenceManager;
 
-import static org.thoughtcrime.securesms.keyvalue.SettingsValues.THREAD_TRIM_ENABLED;
-import static org.thoughtcrime.securesms.keyvalue.SettingsValues.THREAD_TRIM_LENGTH;
+import static com.servalabs.chat.keyvalue.SettingsValues.THREAD_TRIM_ENABLED;
+import static com.servalabs.chat.keyvalue.SettingsValues.THREAD_TRIM_LENGTH;
 
 public class TrimByLengthSettingsMigrationJob extends MigrationJob {
 

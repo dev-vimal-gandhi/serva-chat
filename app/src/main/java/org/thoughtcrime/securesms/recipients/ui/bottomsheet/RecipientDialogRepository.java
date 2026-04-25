@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.bottomsheet;
+package com.servalabs.chat.recipients.ui.bottomsheet;
 
 import android.content.Context;
 
@@ -10,19 +10,19 @@ import org.signal.core.models.ServiceId;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeErrorCallback;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.contacts.sync.ContactDiscovery;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.groups.GroupChangeException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.ui.GroupChangeErrorCallback;
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.io.IOException;
 import java.util.ArrayList;

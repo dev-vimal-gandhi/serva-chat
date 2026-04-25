@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.l10n
+package com.servalabs.chat.l10n
 
 import assertk.assertThat
 import assertk.assertions.isEmpty

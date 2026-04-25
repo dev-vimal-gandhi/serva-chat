@@ -8,8 +8,8 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.notifications.NotificationChannels
+import com.servalabs.chat.R
+import com.servalabs.chat.notifications.NotificationChannels
 
 class UnifiedPushNotificationBuilder(val context: Context) {
 

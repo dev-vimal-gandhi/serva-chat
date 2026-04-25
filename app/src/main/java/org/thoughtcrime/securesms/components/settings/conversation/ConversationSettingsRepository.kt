@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import android.content.Context
 import android.database.Cursor
@@ -11,28 +11,28 @@ import kotlinx.coroutines.rx3.asObservable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupProtoUtil
-import org.thoughtcrime.securesms.groups.GroupsInCommonRepository
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.contacts.sync.ContactDiscovery
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupProtoUtil
+import com.servalabs.chat.groups.GroupsInCommonRepository
+import com.servalabs.chat.groups.LiveGroup
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.groups.ui.GroupChangeResult
+import com.servalabs.chat.groups.v2.GroupAddMembersResult
+import com.servalabs.chat.groups.v2.GroupManagementRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientUtil
+import com.servalabs.chat.util.RemoteConfig
 import java.io.IOException
 
 private val TAG = Log.tag(ConversationSettingsRepository::class.java)

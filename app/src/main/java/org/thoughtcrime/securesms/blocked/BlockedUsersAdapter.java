@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package com.servalabs.chat.blocked;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.Objects;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -13,8 +13,8 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.testing.SignalActivityRule
 
 @Suppress("ClassName")
 @RunWith(AndroidJUnit4::class)

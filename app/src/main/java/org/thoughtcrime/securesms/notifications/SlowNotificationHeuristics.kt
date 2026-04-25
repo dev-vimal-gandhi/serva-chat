@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications
+package com.servalabs.chat.notifications
 
 import android.text.TextUtils
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig
-import org.thoughtcrime.securesms.util.PowerManagerCompat
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
+import com.servalabs.chat.database.LocalMetricsDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.DeviceProperties
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.LocaleRemoteConfig
+import com.servalabs.chat.util.PowerManagerCompat
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.SignalLocalMetrics
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours

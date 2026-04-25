@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.Manifest
 import android.widget.Toast
@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.permissions.PermissionDeniedBottomSheet.Companion.showPermissionFragment
 import org.signal.core.ui.permissions.Permissions
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Shared dialog controller for requesting different permissions specific to calling.

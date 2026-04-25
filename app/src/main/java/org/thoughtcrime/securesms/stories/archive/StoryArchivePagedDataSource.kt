@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.withAttachments
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.withAttachments
+import com.servalabs.chat.keyvalue.SignalStore
 
 class StoryArchivePagedDataSource(
   private val sortNewest: Boolean

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import org.junit.Assert.assertFalse
 import org.junit.Test

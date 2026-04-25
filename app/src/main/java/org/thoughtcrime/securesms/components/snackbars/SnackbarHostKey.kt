@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.snackbars
+package com.servalabs.chat.components.snackbars
 
 /**
  * Marker interface for identifying snackbar host locations.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 import android.content.Context
 import android.net.Uri
@@ -10,24 +10,24 @@ import org.signal.core.util.Base64
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.database.withAttachments
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob
-import org.thoughtcrime.securesms.jobs.SendViewedReceiptJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.GroupReceiptTable
+import com.servalabs.chat.database.NoSuchMessageException
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.database.withAttachments
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.MultiDeviceViewedUpdateJob
+import com.servalabs.chat.jobs.SendViewedReceiptJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.stories.Stories
 
 /**
  * Open for testing.

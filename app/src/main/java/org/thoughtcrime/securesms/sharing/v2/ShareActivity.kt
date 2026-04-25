@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package com.servalabs.chat.sharing.v2
 
 import android.app.Activity
 import android.content.Context
@@ -24,25 +24,25 @@ import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.SignalProgressDialog
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFullScreenDialogFragment
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity.Companion.share
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.MultiShareDialogs
-import org.thoughtcrime.securesms.sharing.MultiShareSender
-import org.thoughtcrime.securesms.sharing.MultiShareSender.MultiShareSendResultCollection
-import org.thoughtcrime.securesms.sharing.interstitial.ShareInterstitialActivity
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.SignalProgressDialog
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFullScreenDialogFragment
+import com.servalabs.chat.mediasend.v2.MediaSelectionActivity.Companion.share
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sharing.MultiShareDialogs
+import com.servalabs.chat.sharing.MultiShareSender
+import com.servalabs.chat.sharing.MultiShareSender.MultiShareSendResultCollection
+import com.servalabs.chat.sharing.interstitial.ShareInterstitialActivity
+import com.servalabs.chat.util.ConversationUtil
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.visible
 import java.util.concurrent.TimeUnit
 import org.signal.core.ui.R as CoreUiR
 

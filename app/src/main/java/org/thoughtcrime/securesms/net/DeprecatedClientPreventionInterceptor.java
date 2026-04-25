@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 import java.io.IOException;
 

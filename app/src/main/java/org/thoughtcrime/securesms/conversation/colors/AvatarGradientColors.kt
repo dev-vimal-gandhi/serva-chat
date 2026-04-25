@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 import android.graphics.drawable.GradientDrawable
 import androidx.annotation.ColorInt
 import org.signal.core.util.CryptoUtil
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 import kotlin.jvm.optionals.getOrNull
 
 /**

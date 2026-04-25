@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -26,14 +26,14 @@ import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiUtil;
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.adapter.AlwaysChangedDiffUtil;
+import com.servalabs.chat.util.text.AfterTextChanged;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 
 import java.util.Arrays;

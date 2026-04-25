@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import android.database.Cursor
@@ -7,7 +7,7 @@ import androidx.core.content.contentValuesOf
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
 import java.math.BigDecimal
 import java.util.Currency
 

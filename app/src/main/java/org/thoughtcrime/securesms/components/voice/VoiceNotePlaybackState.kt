@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.net.Uri
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Domain-level state object representing the state of the currently playing voice note.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 /**
- * Bottom navigation bar shown in the {@link org.thoughtcrime.securesms.conversation.ConversationActivity}
+ * Bottom navigation bar shown in the {@link com.servalabs.chat.conversation.ConversationActivity}
  * when the user is searching within a conversation. Shows details about the results and allows the
  * user to move between them.
  */

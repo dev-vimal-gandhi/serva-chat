@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.content.Context
 import android.util.AttributeSet
@@ -12,14 +12,14 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.Group
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.card.MaterialCardView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.webrtc.v2.PendingParticipantsListener
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.components.webrtc.v2.PendingParticipantsListener
+import com.servalabs.chat.fonts.SignalSymbols
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.PendingParticipantCollection
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 
 /**
  * Card which displays pending participants state.

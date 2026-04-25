@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -11,9 +11,9 @@ import org.signal.core.util.forEach
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireNonNullBlob
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 
 /**
  * Ensure consistent [InAppPaymentTable.State] and [InAppPaymentData.Error] state across the database.

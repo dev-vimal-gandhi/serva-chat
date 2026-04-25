@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import androidx.lifecycle.AbstractSavedStateViewModelFactory
 import androidx.lifecycle.LiveData
@@ -19,13 +19,13 @@ import org.signal.paging.LivePagedData
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.PagingController
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.search.SearchFilter
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterRequest
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.search.SearchFilter
+import com.servalabs.chat.search.SearchRepository
+import com.servalabs.chat.util.livedata.Store
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

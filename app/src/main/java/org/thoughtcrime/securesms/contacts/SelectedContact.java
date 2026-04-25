@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.contacts.paged.ChatType;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.contacts.paged.ChatType;
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration;
+import com.servalabs.chat.contacts.paged.ContactSearchKey;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 
 /**
  * Model for a contact and the various ways it could be represented. Used in situations where we

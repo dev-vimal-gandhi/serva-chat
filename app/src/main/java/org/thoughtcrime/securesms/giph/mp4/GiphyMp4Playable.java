@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 import android.view.ViewGroup;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import androidx.media3.common.MediaItem;
 
-import org.thoughtcrime.securesms.util.Projection;
+import com.servalabs.chat.util.Projection;
 
 public interface GiphyMp4Playable {
   /**

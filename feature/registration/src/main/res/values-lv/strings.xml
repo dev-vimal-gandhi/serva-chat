@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Ņem privātumu savās rokās.\nKatrā rakstītajā ziņā esi tu pats!</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal ir bezpeļņas organizācija\nNoteikumi un privātuma politika</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat ir bezpeļņas organizācija\nNoteikumi un privātuma politika</string>
     <string name="RegistrationActivity_continue">Turpināt</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Atjaunot vai pārsūtīt</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Sniegt atļaujas</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Lai jūs varētu nosūtīt ziņas cilvēkiem, kurus pazīstat, Signal pieprasīs šīs atļaujas. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Lai jūs varētu nosūtīt ziņas cilvēkiem, kurus pazīstat, Serva Chat pieprasīs šīs atļaujas. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Ne tagad</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kontakti</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Atrodiet pazīstamus cilvēkus. Jūsu kontakti ir šifrēti un nav redzami pakalpojumam Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Atrodiet pazīstamus cilvēkus. Jūsu kontakti ir šifrēti un nav redzami pakalpojumam Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Tālruņa zvani</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Man ir iepriekšējais tālrunis</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Lai ātri sāktu darbu, skenējiet QR kodu no pašreizējā Signal konta</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Lai ātri sāktu darbu, skenējiet QR kodu no pašreizējā Serva Chat konta</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Man nav iepriekšējā tālruņa</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Vai arī jūs atkārtoti instalējat Signal tajā pašā ierīcē</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Vai arī jūs atkārtoti instalējat Serva Chat tajā pašā ierīcē</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Izvēlieties veidu, kā atjaunot ziņu vēsturi un konta datus.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">No Signal rezerves kopijām</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">No Serva Chat rezerves kopijām</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Jūsu bezmaksas vai maksas Signal rezerves kopiju plāns</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Jūsu bezmaksas vai maksas Serva Chat rezerves kopiju plāns</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Ierīces rezerves kopijas atjaunošana</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Rezerves kopija nav atrasta</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Atlasītajā mapē nav nevienas Signal rezerves kopijas. Lūdzu, mēģiniet izvēlēties citu mapi.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Atlasītajā mapē nav nevienas Serva Chat rezerves kopijas. Lūdzu, mēģiniet izvēlēties citu mapi.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Mēģināt citu mapi</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Sasaistiet savu kontu</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Vēl nelietojat Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Vēl nelietojat Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Izveidot kontu</string>
 </resources>

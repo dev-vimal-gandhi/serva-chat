@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.serialization
+package com.servalabs.chat.serialization
 
 import android.net.Uri
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package com.servalabs.chat.database.model;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -25,7 +25,7 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMem
 import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMemberRemoval;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember;
 import org.signal.storageservice.storage.protos.groups.local.EnabledState;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.archive.proto.GenericGroupUpdate;
 import org.signal.archive.proto.GroupAdminStatusUpdate;
 import org.signal.archive.proto.GroupAnnouncementOnlyChangeUpdate;
@@ -63,12 +63,12 @@ import org.signal.archive.proto.GroupV2MigrationSelfInvitedUpdate;
 import org.signal.archive.proto.GroupV2MigrationUpdate;
 import org.signal.archive.proto.SelfInvitedOtherUserToGroupUpdate;
 import org.signal.archive.proto.SelfInvitedToGroupUpdate;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.groups.GV2AccessLevelUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import com.servalabs.chat.fonts.SignalSymbols.Glyph;
+import com.servalabs.chat.groups.GV2AccessLevelUtil;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.ExpirationUtil;
+import com.servalabs.chat.util.SpanUtil;
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil;
 import org.whispersystems.signalservice.api.push.ServiceIds;
 

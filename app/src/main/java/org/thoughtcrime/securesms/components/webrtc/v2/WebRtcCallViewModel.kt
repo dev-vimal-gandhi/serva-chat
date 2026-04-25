@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.os.Handler
 import android.os.Looper
@@ -27,29 +27,29 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx3.asFlow
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantListUpdate
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.InCallStatus
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
-import org.thoughtcrime.securesms.components.webrtc.WebRtcCallRepository
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.components.webrtc.WebRtcLocalRenderState
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.events.GroupCallSpeechEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.LiveRecipient
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
-import org.thoughtcrime.securesms.util.NetworkUtil
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.components.webrtc.CallParticipantListUpdate
+import com.servalabs.chat.components.webrtc.CallParticipantsState
+import com.servalabs.chat.components.webrtc.InCallStatus
+import com.servalabs.chat.components.webrtc.WebRtcAudioOutput
+import com.servalabs.chat.components.webrtc.WebRtcCallRepository
+import com.servalabs.chat.components.webrtc.WebRtcControls
+import com.servalabs.chat.components.webrtc.WebRtcLocalRenderState
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.events.CallParticipantId
+import com.servalabs.chat.events.GroupCallSpeechEvent
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.groups.ui.GroupMemberEntry
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.LiveRecipient
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.PendingParticipantCollection
+import com.servalabs.chat.service.webrtc.state.WebRtcEphemeralState
+import com.servalabs.chat.util.NetworkUtil
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 import java.util.Collections
 
 @OptIn(ExperimentalCoroutinesApi::class)

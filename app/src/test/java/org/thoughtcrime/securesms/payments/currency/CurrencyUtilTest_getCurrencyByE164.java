@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.currency;
+package com.servalabs.chat.payments.currency;
 
 import org.junit.Test;
 

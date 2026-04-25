@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import assertk.assertThat
 import assertk.assertions.isFalse

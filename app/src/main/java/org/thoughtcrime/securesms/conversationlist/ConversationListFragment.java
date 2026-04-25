@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package com.servalabs.chat.conversationlist;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -73,93 +73,93 @@ import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.MainFragment;
-import org.thoughtcrime.securesms.MainNavigator;
-import org.thoughtcrime.securesms.MuteDialog;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.ArchiveUploadProgress;
-import org.thoughtcrime.securesms.backup.RestoreState;
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress;
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgressState;
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlert;
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlertBottomSheet;
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlertDelegate;
-import org.thoughtcrime.securesms.banner.Banner;
-import org.thoughtcrime.securesms.banner.BannerManager;
-import org.thoughtcrime.securesms.banner.banners.ArchiveUploadStatusBanner;
-import org.thoughtcrime.securesms.banner.banners.CdsPermanentErrorBanner;
-import org.thoughtcrime.securesms.banner.banners.CdsTemporaryErrorBanner;
-import org.thoughtcrime.securesms.banner.banners.DeprecatedBuildBanner;
-import org.thoughtcrime.securesms.banner.banners.DeprecatedSdkBanner;
-import org.thoughtcrime.securesms.banner.banners.DozeBanner;
-import org.thoughtcrime.securesms.banner.banners.ArchiveRestoreStatusBanner;
-import org.thoughtcrime.securesms.banner.banners.OutdatedBuildBanner;
-import org.thoughtcrime.securesms.banner.banners.ServiceOutageBanner;
-import org.thoughtcrime.securesms.banner.banners.UnauthorizedBanner;
-import org.thoughtcrime.securesms.banner.banners.UsernameOutOfSyncBanner;
-import org.thoughtcrime.securesms.components.SignalProgressDialog;
-import org.thoughtcrime.securesms.components.compose.DeleteSyncEducationDialog;
-import org.thoughtcrime.securesms.components.menu.ActionItem;
-import org.thoughtcrime.securesms.components.menu.SignalBottomActionBar;
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord;
-import org.thoughtcrime.securesms.components.snackbars.SnackbarState;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlayerView;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState;
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments;
-import org.thoughtcrime.securesms.conversation.ConversationUpdateTick;
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest;
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterSource;
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationListFilterPullView;
-import org.thoughtcrime.securesms.conversationlist.chatfilter.FilterLerp;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.SelectionLimits;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
-import org.thoughtcrime.securesms.keyvalue.AccountValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.main.MainNavigationListLocation;
-import org.thoughtcrime.securesms.main.MainNavigationViewModel;
-import org.thoughtcrime.securesms.main.MainSnackbarHostKey;
-import org.thoughtcrime.securesms.main.MainToolbarMode;
-import org.thoughtcrime.securesms.main.MainToolbarViewModel;
-import org.thoughtcrime.securesms.main.Material3OnScrollHelperBinder;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
-import org.thoughtcrime.securesms.profiles.manage.UsernameEditFragment;
-import org.thoughtcrime.securesms.ratelimit.RecaptchaProofBottomSheetFragment;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.search.MessageResult;
-import org.thoughtcrime.securesms.search.SearchFilter;
-import org.thoughtcrime.securesms.search.SearchFilterBottomSheet;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.AppStartup;
+import com.servalabs.chat.MainFragment;
+import com.servalabs.chat.MainNavigator;
+import com.servalabs.chat.MuteDialog;
+import com.servalabs.chat.R;
+import com.servalabs.chat.backup.ArchiveUploadProgress;
+import com.servalabs.chat.backup.RestoreState;
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress;
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgressState;
+import com.servalabs.chat.backup.v2.ui.BackupAlert;
+import com.servalabs.chat.backup.v2.ui.BackupAlertBottomSheet;
+import com.servalabs.chat.backup.v2.ui.BackupAlertDelegate;
+import com.servalabs.chat.banner.Banner;
+import com.servalabs.chat.banner.BannerManager;
+import com.servalabs.chat.banner.banners.ArchiveUploadStatusBanner;
+import com.servalabs.chat.banner.banners.CdsPermanentErrorBanner;
+import com.servalabs.chat.banner.banners.CdsTemporaryErrorBanner;
+import com.servalabs.chat.banner.banners.DeprecatedBuildBanner;
+import com.servalabs.chat.banner.banners.DeprecatedSdkBanner;
+import com.servalabs.chat.banner.banners.DozeBanner;
+import com.servalabs.chat.banner.banners.ArchiveRestoreStatusBanner;
+import com.servalabs.chat.banner.banners.OutdatedBuildBanner;
+import com.servalabs.chat.banner.banners.ServiceOutageBanner;
+import com.servalabs.chat.banner.banners.UnauthorizedBanner;
+import com.servalabs.chat.banner.banners.UsernameOutOfSyncBanner;
+import com.servalabs.chat.components.SignalProgressDialog;
+import com.servalabs.chat.components.compose.DeleteSyncEducationDialog;
+import com.servalabs.chat.components.menu.ActionItem;
+import com.servalabs.chat.components.menu.SignalBottomActionBar;
+import com.servalabs.chat.components.menu.SignalContextMenu;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord;
+import com.servalabs.chat.components.snackbars.SnackbarState;
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation;
+import com.servalabs.chat.components.voice.VoiceNoteMediaControllerOwner;
+import com.servalabs.chat.components.voice.VoiceNotePlayerView;
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode;
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter;
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration;
+import com.servalabs.chat.contacts.paged.ContactSearchData;
+import com.servalabs.chat.contacts.paged.ContactSearchKey;
+import com.servalabs.chat.contacts.paged.ContactSearchMediator;
+import com.servalabs.chat.contacts.paged.ContactSearchState;
+import com.servalabs.chat.contacts.selection.ContactSelectionArguments;
+import com.servalabs.chat.conversation.ConversationUpdateTick;
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterRequest;
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterSource;
+import com.servalabs.chat.conversationlist.chatfilter.ConversationListFilterPullView;
+import com.servalabs.chat.conversationlist.chatfilter.FilterLerp;
+import com.servalabs.chat.conversationlist.model.Conversation;
+import com.servalabs.chat.conversationlist.model.ConversationFilter;
+import com.servalabs.chat.database.MessageTable.MarkedMessageInfo;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.ThreadRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.groups.SelectionLimits;
+import com.servalabs.chat.jobs.RefreshOwnProfileJob;
+import com.servalabs.chat.keyvalue.AccountValues;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.main.MainNavigationListLocation;
+import com.servalabs.chat.main.MainNavigationViewModel;
+import com.servalabs.chat.main.MainSnackbarHostKey;
+import com.servalabs.chat.main.MainToolbarMode;
+import com.servalabs.chat.main.MainToolbarViewModel;
+import com.servalabs.chat.main.Material3OnScrollHelperBinder;
+import com.servalabs.chat.notifications.MarkReadReceiver;
+import com.servalabs.chat.profiles.manage.UsernameEditFragment;
+import com.servalabs.chat.ratelimit.RecaptchaProofBottomSheetFragment;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.search.MessageResult;
+import com.servalabs.chat.search.SearchFilter;
+import com.servalabs.chat.search.SearchFilterBottomSheet;
+import com.servalabs.chat.sms.MessageSender;
+import com.servalabs.chat.util.AppForegroundObserver;
+import com.servalabs.chat.util.AppStartup;
 import org.signal.core.ui.BottomSheetUtil;
 import org.signal.core.ui.view.Stub;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.SignalLocalMetrics;
-import org.thoughtcrime.securesms.util.SnapToTopDataObserver;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter;
-import org.thoughtcrime.securesms.verify.SelfVerificationFailureSheet;
+import com.servalabs.chat.util.CachedInflater;
+import com.servalabs.chat.util.ConversationUtil;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.SignalLocalMetrics;
+import com.servalabs.chat.util.SnapToTopDataObserver;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter;
+import com.servalabs.chat.verify.SelfVerificationFailureSheet;
 import org.signal.core.ui.WindowSizeClassExtensionsKt;
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState;
 
@@ -273,7 +273,7 @@ public class ConversationListFragment extends MainFragment implements Conversati
           RecipientId selectedAuthor = authorStr != null ? RecipientId.from(Long.parseLong(authorStr)) : null;
           if (result.getResultCode() == Activity.RESULT_OK && result.getData() != null) {
             List<RecipientId> recipients = result.getData().getParcelableArrayListExtra(
-                org.thoughtcrime.securesms.search.SingleContactSelectionActivity.KEY_SELECTED_RECIPIENT
+                com.servalabs.chat.search.SingleContactSelectionActivity.KEY_SELECTED_RECIPIENT
             );
             if (recipients != null && !recipients.isEmpty()) {
               selectedAuthor = recipients.get(0);
@@ -739,7 +739,7 @@ public class ConversationListFragment extends MainFragment implements Conversati
               break;
 
             case SearchFilterBottomSheet.ACTION_SELECT_AUTHOR:
-              searchFilterContactPickerLauncher.launch(new Intent(requireContext(), org.thoughtcrime.securesms.search.SingleContactSelectionActivity.class)
+              searchFilterContactPickerLauncher.launch(new Intent(requireContext(), com.servalabs.chat.search.SingleContactSelectionActivity.class)
                   .putExtra(ContactSelectionArguments.DISPLAY_MODE, ContactSelectionDisplayMode.FLAG_PUSH | ContactSelectionDisplayMode.FLAG_ACTIVE_GROUPS)
                   .putExtra(EXTRA_FILTER_START_DATE, result.getLong(SearchFilterBottomSheet.RESULT_START_DATE, -1))
                   .putExtra(EXTRA_FILTER_END_DATE, result.getLong(SearchFilterBottomSheet.RESULT_END_DATE, -1))

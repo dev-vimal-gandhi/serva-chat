@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.zkgroup.GenericServerPublicParams
@@ -13,14 +13,14 @@ import org.signal.libsignal.zkgroup.VerificationFailedException
 import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams
 import org.signal.ringrtc.CallException
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.callLinks
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.ringrtc.RemotePeer
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
-import org.thoughtcrime.securesms.util.NetworkUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.database.SignalDatabase.Companion.callLinks
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.ringrtc.RemotePeer
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState
+import com.servalabs.chat.util.NetworkUtil
+import com.servalabs.chat.util.RemoteConfig
 import java.io.IOException
 
 /**

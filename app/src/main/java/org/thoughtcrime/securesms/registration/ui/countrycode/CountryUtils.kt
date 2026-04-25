@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.countrycode
+package com.servalabs.chat.registration.ui.countrycode
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import org.signal.core.util.E164Util

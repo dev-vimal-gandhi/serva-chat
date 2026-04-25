@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.welcome
+package com.servalabs.chat.registration.ui.welcome
 
 /**
  * User options available to start registration flow.

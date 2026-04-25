@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,11 +10,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.PendingRetryReceiptCache;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.PendingRetryReceiptModel;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.PendingRetryReceiptCache;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.PendingRetryReceiptModel;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.concurrent.TimeUnit;
 

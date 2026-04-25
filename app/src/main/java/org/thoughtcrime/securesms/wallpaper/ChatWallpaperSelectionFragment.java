@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.wallpaper.crop.WallpaperImageSelectionActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.wallpaper.crop.WallpaperImageSelectionActivity;
 
 public class ChatWallpaperSelectionFragment extends Fragment {
 

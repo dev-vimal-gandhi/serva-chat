@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import org.junit.Test;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
+import com.servalabs.chat.mms.SentMediaQuality;
 
 import static org.junit.Assert.assertEquals;
-import static org.thoughtcrime.securesms.database.TransformPropertiesUtilKt.parseTransformProperties;
-import static org.thoughtcrime.securesms.database.TransformPropertiesUtilKt.serialize;
+import static com.servalabs.chat.database.TransformPropertiesUtilKt.parseTransformProperties;
+import static com.servalabs.chat.database.TransformPropertiesUtilKt.serialize;
 
 public class AttachmentDatabaseTransformPropertiesTest {
 

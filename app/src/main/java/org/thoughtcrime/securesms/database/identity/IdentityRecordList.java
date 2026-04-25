@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.identity;
+package com.servalabs.chat.database.identity;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.IdentityTable.VerifiedStatus;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.util.ArrayList;
 import java.util.Collection;

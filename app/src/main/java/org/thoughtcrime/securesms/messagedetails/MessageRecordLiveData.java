@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import androidx.annotation.WorkerThread;
 import androidx.lifecycle.LiveData;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.NoSuchMessageException;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 final class MessageRecordLiveData extends LiveData<MessageRecord> {
 

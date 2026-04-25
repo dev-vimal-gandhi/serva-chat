@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import androidx.core.content.contentValuesOf
 import okio.ByteString.Companion.toByteString
@@ -15,15 +15,15 @@ import org.signal.core.util.SqlUtil
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.insertInto
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.database.ChatFolderTables.ChatFolderMembershipTable
-import org.thoughtcrime.securesms.database.ChatFolderTables.ChatFolderTable
-import org.thoughtcrime.securesms.database.ChatFolderTables.MembershipType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportSkips
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
+import com.servalabs.chat.database.ChatFolderTables.ChatFolderMembershipTable
+import com.servalabs.chat.database.ChatFolderTables.ChatFolderTable
+import com.servalabs.chat.database.ChatFolderTables.MembershipType
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.storage.StorageSyncHelper
 import org.signal.archive.proto.ChatFolder as ChatFolderProto
 
 /**

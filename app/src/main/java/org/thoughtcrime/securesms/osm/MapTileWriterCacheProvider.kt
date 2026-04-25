@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.osm
+package com.servalabs.chat.osm
 
 import android.graphics.drawable.Drawable
 import org.osmdroid.tileprovider.constants.OpenStreetMapTileProviderConstants

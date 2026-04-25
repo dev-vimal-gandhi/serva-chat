@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.app.Activity.RESULT_OK
 import android.content.Context
@@ -43,23 +43,23 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.DropdownMenus
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.BlockUnblockDialog
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.conversation.NewConversationUiState.UserMessage
-import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.RecipientLookupFailureMessage
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerCallbacks
-import org.thoughtcrime.securesms.recipients.ui.RecipientPickerScaffold
-import org.thoughtcrime.securesms.recipients.ui.RecipientSelection
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByActivity
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByMode
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+import com.servalabs.chat.BlockUnblockDialog
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.conversation.NewConversationUiState.UserMessage
+import com.servalabs.chat.groups.ui.creategroup.CreateGroupActivity
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.RecipientLookupFailureMessage
+import com.servalabs.chat.recipients.ui.RecipientPicker
+import com.servalabs.chat.recipients.ui.RecipientPickerCallbacks
+import com.servalabs.chat.recipients.ui.RecipientPickerScaffold
+import com.servalabs.chat.recipients.ui.RecipientSelection
+import com.servalabs.chat.recipients.ui.findby.FindByActivity
+import com.servalabs.chat.recipients.ui.findby.FindByMode
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.DynamicNoActionBarTheme
 
 /**
  * Allows the user to start a new conversation by selecting a recipient.

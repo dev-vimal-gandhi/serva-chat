@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package com.servalabs.chat.stories.settings.story
 
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -9,28 +9,28 @@ import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.DialogFragmentDisplayManager
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragment
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSourceRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.v2.stories.ChooseGroupStoryBottomSheet
-import org.thoughtcrime.securesms.mediasend.v2.stories.ChooseStoryTypeBottomSheet
-import org.thoughtcrime.securesms.stories.GroupStoryEducationSheet
-import org.thoughtcrime.securesms.stories.archive.StoryArchiveDuration
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.stories.settings.create.CreateStoryFlowDialogFragment
-import org.thoughtcrime.securesms.stories.settings.create.CreateStoryWithViewersFragment
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.DialogFragmentDisplayManager
+import com.servalabs.chat.components.ProgressCardDialogFragment
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.contacts.paged.ContactSearchPagedDataSourceRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mediasend.v2.stories.ChooseGroupStoryBottomSheet
+import com.servalabs.chat.mediasend.v2.stories.ChooseStoryTypeBottomSheet
+import com.servalabs.chat.stories.GroupStoryEducationSheet
+import com.servalabs.chat.stories.archive.StoryArchiveDuration
+import com.servalabs.chat.stories.dialogs.StoryDialogs
+import com.servalabs.chat.stories.settings.create.CreateStoryFlowDialogFragment
+import com.servalabs.chat.stories.settings.create.CreateStoryWithViewersFragment
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter
+import com.servalabs.chat.util.navigation.safeNavigate
 import org.signal.core.ui.R as CoreUiR
 
 /**

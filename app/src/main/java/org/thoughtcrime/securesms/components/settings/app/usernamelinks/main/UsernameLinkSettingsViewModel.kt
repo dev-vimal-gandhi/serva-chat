@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -35,16 +35,16 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.drawQr
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.toLink
-import org.thoughtcrime.securesms.util.NetworkUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.drawQr
+import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.profiles.manage.UsernameRepository.toLink
+import com.servalabs.chat.util.NetworkUtil
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents
 import java.util.Optional
 import java.util.UUID

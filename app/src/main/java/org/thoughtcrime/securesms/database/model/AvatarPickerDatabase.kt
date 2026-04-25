@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import android.content.ContentValues
 import android.content.Context
 import android.net.Uri
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.SqlUtil
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.database.DatabaseTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.CustomAvatar
-import org.thoughtcrime.securesms.groups.GroupId
+import com.servalabs.chat.avatar.Avatar
+import com.servalabs.chat.avatar.Avatars
+import com.servalabs.chat.database.DatabaseTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.CustomAvatar
+import com.servalabs.chat.groups.GroupId
 
 /**
  * Database which manages the record keeping for custom created avatars.

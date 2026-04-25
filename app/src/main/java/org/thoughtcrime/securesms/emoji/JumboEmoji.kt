@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package com.servalabs.chat.emoji
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -9,12 +9,12 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
-import org.thoughtcrime.securesms.emoji.protos.JumbomojiPack
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ListenableFutureTask
-import org.thoughtcrime.securesms.util.SoftHashMap
+import com.servalabs.chat.components.emoji.parsing.EmojiDrawInfo
+import com.servalabs.chat.emoji.protos.JumbomojiPack
+import com.servalabs.chat.jobmanager.impl.AutoDownloadEmojiConstraint
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ListenableFutureTask
+import com.servalabs.chat.util.SoftHashMap
 import java.io.IOException
 import java.util.UUID
 import java.util.concurrent.ExecutionException

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package com.servalabs.chat.conversation.colors.ui
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 class CustomColorMappingModel : MappingModel<CustomColorMappingModel> {
   override fun areItemsTheSame(newItem: CustomColorMappingModel): Boolean {

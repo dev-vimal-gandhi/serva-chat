@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2
+package com.servalabs.chat.groups.v2
 
 import assertk.assertThat
 import assertk.assertions.containsOnly
@@ -6,8 +6,8 @@ import assertk.assertions.isEmpty
 import org.junit.Test
 import org.signal.core.models.ServiceId
 import org.signal.core.util.logging.Log.initialize
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.testutil.LogRecorder
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.testutil.LogRecorder
 import java.util.UUID
 
 class ProfileKeySetTest {

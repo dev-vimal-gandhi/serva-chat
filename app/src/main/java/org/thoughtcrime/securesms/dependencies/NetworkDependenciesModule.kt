@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import android.app.Application
 import io.reactivex.rxjava3.disposables.CompositeDisposable
@@ -15,16 +15,16 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.resettableLazy
 import org.signal.libsignal.net.Network
 import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.crypto.storage.SignalServiceDataStoreImpl
-import org.thoughtcrime.securesms.groups.GroupsV2Authorization
-import org.thoughtcrime.securesms.groups.GroupsV2AuthorizationMemoryValueCache
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messages.IncomingMessageObserver
-import org.thoughtcrime.securesms.net.Networking
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
-import org.thoughtcrime.securesms.push.SignalServiceTrustStore
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.crypto.storage.SignalServiceDataStoreImpl
+import com.servalabs.chat.groups.GroupsV2Authorization
+import com.servalabs.chat.groups.GroupsV2AuthorizationMemoryValueCache
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.messages.IncomingMessageObserver
+import com.servalabs.chat.net.Networking
+import com.servalabs.chat.net.StandardUserAgentInterceptor
+import com.servalabs.chat.push.SignalServiceNetworkAccess
+import com.servalabs.chat.push.SignalServiceTrustStore
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver
 import org.whispersystems.signalservice.api.SignalServiceMessageSender

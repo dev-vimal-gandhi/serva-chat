@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
@@ -9,16 +9,16 @@ import org.signal.core.util.isNotEmpty
 import org.signal.core.util.logging.Log
 import org.signal.core.util.nullIfBlank
 import org.signal.core.util.nullIfEmpty
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob.Companion.enqueue
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient.Companion.trustedPush
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncModels.localToRemoteRecord
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.jobs.RetrieveProfileJob.Companion.enqueue
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient.Companion.trustedPush
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncModels.localToRemoteRecord
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.storage.SignalContactRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import org.whispersystems.signalservice.api.storage.signalAci

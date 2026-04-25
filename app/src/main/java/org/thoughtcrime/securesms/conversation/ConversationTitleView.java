@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -17,15 +17,15 @@ import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.view.AvatarView;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.database.model.StoryViewState;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.avatar.view.AvatarView;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.database.model.StoryViewState;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
+import com.servalabs.chat.util.ExpirationUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 public class ConversationTitleView extends ConstraintLayout {
 

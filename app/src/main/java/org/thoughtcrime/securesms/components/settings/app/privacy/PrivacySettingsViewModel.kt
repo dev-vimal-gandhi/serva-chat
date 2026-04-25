@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy
+package com.servalabs.chat.components.settings.app.privacy
 
 import android.app.Application
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.ScreenLockController
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.ScreenLockController
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.livedata.Store
 
 class PrivacySettingsViewModel(
   private val sharedPreferences: SharedPreferences,

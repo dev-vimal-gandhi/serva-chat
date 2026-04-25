@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.util.MediaUtil;
 import org.signal.core.util.Util;
 
 import java.util.LinkedList;

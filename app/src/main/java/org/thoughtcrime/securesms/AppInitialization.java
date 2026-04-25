@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.DeleteAbandonedAttachmentsJob;
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob;
-import org.thoughtcrime.securesms.jobs.QuoteThumbnailBackfillJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.migrations.QuoteThumbnailBackfillMigrationJob;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.jobs.DeleteAbandonedAttachmentsJob;
+import com.servalabs.chat.jobs.EmojiSearchIndexDownloadJob;
+import com.servalabs.chat.jobs.QuoteThumbnailBackfillJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.migrations.ApplicationMigrations;
+import com.servalabs.chat.migrations.QuoteThumbnailBackfillMigrationJob;
+import com.servalabs.chat.stickers.BlessedPacks;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 /**
  * Rule of thumb: if there's something you want to do on the first app launch that involves

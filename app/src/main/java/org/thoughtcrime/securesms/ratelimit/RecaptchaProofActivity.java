@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package com.servalabs.chat.ratelimit;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,15 +16,15 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ExceptionHelper;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.net.SignalNetwork;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.ExceptionHelper;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import com.servalabs.chat.util.views.SimpleProgressDialog;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 
 import java.io.IOException;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.details
+package com.servalabs.chat.calls.links.details
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -41,20 +41,20 @@ import org.signal.core.ui.isSplitPane
 import org.signal.core.util.Util
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.SignalCallRow
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.main.MainNavigationDetailLocation
-import org.thoughtcrime.securesms.main.MainNavigationRouter
-import org.thoughtcrime.securesms.main.MainNavigationViewModel
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.sharing.v2.ShareActivity
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.YouAreAlreadyInACallSnackbar.YouAreAlreadyInACallSnackbar
+import com.servalabs.chat.calls.links.CallLinks
+import com.servalabs.chat.calls.links.SignalCallRow
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.main.MainNavigationDetailLocation
+import com.servalabs.chat.main.MainNavigationRouter
+import com.servalabs.chat.main.MainNavigationViewModel
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.sharing.v2.ShareActivity
+import com.servalabs.chat.util.CommunicationActions
 import java.time.Instant
 
 @Composable

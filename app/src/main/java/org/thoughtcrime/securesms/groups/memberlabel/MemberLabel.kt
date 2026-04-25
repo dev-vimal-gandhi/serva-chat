@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import androidx.annotation.ColorInt
 import org.signal.core.util.BidiUtil
 import org.signal.core.util.BreakIteratorCompat
 import org.signal.core.util.StringUtil
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * A member's custom label within a group.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance.navbar
+package com.servalabs.chat.components.settings.app.appearance.navbar
 
 import android.app.Dialog
 import android.graphics.Color
@@ -9,10 +9,10 @@ import androidx.annotation.DrawableRes
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.ChooseNavigationBarStyleFragmentBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.ChooseNavigationBarStyleFragmentBinding
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Allows the user to choose between a compact and full-sized navigation bar.

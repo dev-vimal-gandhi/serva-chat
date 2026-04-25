@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import android.app.Application
 import android.graphics.Color
@@ -15,15 +15,15 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils.createRecipient
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.ChatColorsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.WallpaperValues
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.crypto.AttachmentSecretProvider
+import com.servalabs.chat.database.RecipientDatabaseTestUtils.createRecipient
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.ChatColorsValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.WallpaperValues
+import com.servalabs.chat.wallpaper.ChatWallpaper
 
 @Suppress("ClassName")
 @RunWith(RobolectricTestRunner::class)

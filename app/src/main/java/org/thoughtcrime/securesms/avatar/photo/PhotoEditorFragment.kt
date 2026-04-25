@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.photo
+package com.servalabs.chat.avatar.photo
 
 import android.os.Bundle
 import android.view.View
@@ -7,12 +7,12 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.setFragmentResult
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarBundler
-import org.thoughtcrime.securesms.avatar.AvatarPickerStorage
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarBundler
+import com.servalabs.chat.avatar.AvatarPickerStorage
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.scribbles.ImageEditorFragment
 
 class PhotoEditorFragment : Fragment(R.layout.avatar_photo_editor_fragment), ImageEditorFragment.Controller {
 
@@ -69,7 +69,7 @@ class PhotoEditorFragment : Fragment(R.layout.avatar_photo_editor_fragment), Ima
   }
 
   companion object {
-    const val REQUEST_KEY_EDIT = "org.thoughtcrime.securesms.avatar.photo.EDIT"
+    const val REQUEST_KEY_EDIT = "com.servalabs.chat.avatar.photo.EDIT"
 
     private const val IMAGE_EDITOR = "image_editor"
   }

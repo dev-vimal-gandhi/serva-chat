@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
@@ -44,15 +44,15 @@ import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
 import org.signal.core.models.media.Media;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig;
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations;
-import org.thoughtcrime.securesms.mediasend.v2.MediaCountIndicatorButton;
+import com.servalabs.chat.R;
+import com.servalabs.chat.animation.AnimationCompleteListener;
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig;
+import com.servalabs.chat.mediasend.v2.MediaAnimations;
+import com.servalabs.chat.mediasend.v2.MediaCountIndicatorButton;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ServiceUtil;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.io.ByteArrayOutputStream;
 

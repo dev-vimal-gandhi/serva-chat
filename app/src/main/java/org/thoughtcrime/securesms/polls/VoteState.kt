@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.polls
+package com.servalabs.chat.polls
 
 /**
  * Tracks general state information when a user votes in a poll. Vote states are specific to an option in a poll

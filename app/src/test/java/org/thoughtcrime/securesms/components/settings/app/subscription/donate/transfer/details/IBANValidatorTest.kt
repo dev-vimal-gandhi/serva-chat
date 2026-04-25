@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.details
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

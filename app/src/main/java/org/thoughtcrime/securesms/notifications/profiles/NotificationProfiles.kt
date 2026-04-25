@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package com.servalabs.chat.notifications.profiles
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.NotificationProfileValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toLocalTime
-import org.thoughtcrime.securesms.util.toMillis
-import org.thoughtcrime.securesms.util.toOffset
+import com.servalabs.chat.R
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.NotificationProfileValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.formatHours
+import com.servalabs.chat.util.toLocalDateTime
+import com.servalabs.chat.util.toLocalTime
+import com.servalabs.chat.util.toMillis
+import com.servalabs.chat.util.toOffset
 import java.time.LocalDateTime
 import java.time.ZoneId
 

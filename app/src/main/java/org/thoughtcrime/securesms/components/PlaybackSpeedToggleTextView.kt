@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.animation.DecelerateInterpolator
 import androidx.appcompat.widget.AppCompatTextView
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 class PlaybackSpeedToggleTextView @JvmOverloads constructor(
   context: Context,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package com.servalabs.chat.groups.ui.invitesandrequests.invite;
 
 enum EnableInviteLinkError {
   BUSY,

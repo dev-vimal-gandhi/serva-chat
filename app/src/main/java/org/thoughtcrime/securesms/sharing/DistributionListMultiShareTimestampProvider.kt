@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing
+package com.servalabs.chat.sharing
 
 import androidx.annotation.Discouraged
 import kotlin.time.Duration

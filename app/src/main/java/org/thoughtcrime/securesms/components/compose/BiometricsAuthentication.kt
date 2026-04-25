@@ -2,7 +2,7 @@
  * Copyright 2026 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.compose
+package com.servalabs.chat.components.compose
 
 import android.content.Context
 import android.view.View
@@ -25,9 +25,9 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.findFragment
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication
-import org.thoughtcrime.securesms.BiometricDeviceLockContract
-import org.thoughtcrime.securesms.DevicePinAuthEducationSheet
+import com.servalabs.chat.BiometricDeviceAuthentication
+import com.servalabs.chat.BiometricDeviceLockContract
+import com.servalabs.chat.DevicePinAuthEducationSheet
 
 @Stable
 class BiometricsAuthentication internal constructor(

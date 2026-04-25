@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package com.servalabs.chat.conversation.ui.error;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,10 +26,10 @@ import com.annimon.stream.Stream;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.verify.VerifyIdentityActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.verify.VerifyIdentityActivity;
 
 import java.util.Collection;
 import java.util.List;

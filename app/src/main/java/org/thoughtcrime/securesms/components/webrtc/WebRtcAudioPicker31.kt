@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import android.content.Context
 import android.content.DialogInterface
@@ -14,11 +14,11 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.fragment.app.FragmentActivity
 import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.service.webrtc.AndroidTelecomUtil
-import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceMapping
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.service.webrtc.AndroidTelecomUtil
+import com.servalabs.chat.webrtc.audio.AudioDeviceMapping
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 import org.signal.core.ui.R as CoreUiR
 
 /**

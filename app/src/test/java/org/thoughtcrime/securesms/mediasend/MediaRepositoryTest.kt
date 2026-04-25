@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.app.Application
 import android.content.Context
@@ -15,8 +15,8 @@ import org.robolectric.annotation.Config
 import org.signal.core.models.media.Media
 import org.signal.core.models.media.TransformProperties
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.testutil.EmptyLogger
+import com.servalabs.chat.util.MediaUtil
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

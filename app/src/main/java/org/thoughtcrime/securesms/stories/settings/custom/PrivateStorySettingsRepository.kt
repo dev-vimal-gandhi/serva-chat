@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package com.servalabs.chat.stories.settings.custom
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.stories.Stories
 
 class PrivateStorySettingsRepository {
   fun getRecord(distributionListId: DistributionListId): Single<DistributionListRecord> {

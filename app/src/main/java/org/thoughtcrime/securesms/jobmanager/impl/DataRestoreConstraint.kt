@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
-import org.thoughtcrime.securesms.jobmanager.Constraint
+import com.servalabs.chat.jobmanager.Constraint
 
 /**
  * Constraint that, when added, means that a job cannot be performed while a backup restore or device transfer

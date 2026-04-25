@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -35,15 +35,15 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.CircularProgressWrapper
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.ui.restore.AccountEntropyPoolVerification
-import org.thoughtcrime.securesms.registration.ui.restore.BackupKeyVisualTransformation
-import org.thoughtcrime.securesms.registration.ui.restore.RegistrationErrorDialogs
-import org.thoughtcrime.securesms.registration.ui.restore.attachBackupKeyAutoFillHelper
-import org.thoughtcrime.securesms.registration.ui.restore.backupKeyAutoFillHelper
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.R
+import com.servalabs.chat.fonts.MonoTypeface
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.ui.restore.AccountEntropyPoolVerification
+import com.servalabs.chat.registration.ui.restore.BackupKeyVisualTransformation
+import com.servalabs.chat.registration.ui.restore.RegistrationErrorDialogs
+import com.servalabs.chat.registration.ui.restore.attachBackupKeyAutoFillHelper
+import com.servalabs.chat.registration.ui.restore.backupKeyAutoFillHelper
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
 
 @Composable
 fun EnterLocalBackupKeyScreen(

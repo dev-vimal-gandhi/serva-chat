@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import android.content.Context;
 
@@ -11,19 +11,19 @@ import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.IdentityKey;
 import org.signal.libsignal.protocol.SignalProtocolAddress;
 import org.signal.libsignal.protocol.state.IdentityKeyStore;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore.SaveResult;
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.database.model.IdentityStoreRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.IdentityUtil;
+import com.servalabs.chat.crypto.ReentrantSessionLock;
+import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore.SaveResult;
+import com.servalabs.chat.database.IdentityTable;
+import com.servalabs.chat.database.IdentityTable.VerifiedStatus;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.identity.IdentityRecordList;
+import com.servalabs.chat.database.model.IdentityRecord;
+import com.servalabs.chat.database.model.IdentityStoreRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.IdentityUtil;
 import org.signal.core.util.LRUCache;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 import org.signal.core.models.ServiceId;

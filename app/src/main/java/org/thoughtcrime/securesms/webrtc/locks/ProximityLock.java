@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package com.servalabs.chat.webrtc.locks;
 
 import android.os.PowerManager;
 

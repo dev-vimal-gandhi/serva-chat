@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 /**
  * A function which takes 3 inputs and returns 1 output.

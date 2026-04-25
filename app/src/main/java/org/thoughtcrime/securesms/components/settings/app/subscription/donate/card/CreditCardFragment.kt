@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package com.servalabs.chat.components.settings.app.subscription.donate.card
 
 import android.content.Context
 import android.os.Bundle
@@ -21,21 +21,21 @@ import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TemporaryScreenshotSecurity
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.databinding.CreditCardFragmentBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.components.TemporaryScreenshotSecurity
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.databinding.CreditCardFragmentBinding
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.viewModel
 
 class CreditCardFragment : Fragment(R.layout.credit_card_fragment), InAppPaymentCheckoutDelegate.ErrorHandlerCallback {
 

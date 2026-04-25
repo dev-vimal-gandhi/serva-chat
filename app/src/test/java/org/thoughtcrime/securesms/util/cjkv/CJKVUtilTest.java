@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.cjkv;
+package com.servalabs.chat.util.cjkv;
 
 import android.app.Application;
 

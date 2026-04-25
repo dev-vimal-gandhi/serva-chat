@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.exporters
+package com.servalabs.chat.backup.v2.exporters
 
 import android.database.Cursor
 import okio.ByteString.Companion.toByteString
@@ -23,13 +23,13 @@ import org.signal.storageservice.storage.protos.groups.local.DecryptedMember
 import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMember
 import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.backup.v2.ArchiveGroup
-import org.thoughtcrime.securesms.backup.v2.ArchiveRecipient
-import org.thoughtcrime.securesms.backup.v2.util.toRemote
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RecipientTableCursorUtil
+import com.servalabs.chat.backup.v2.ArchiveGroup
+import com.servalabs.chat.backup.v2.ArchiveRecipient
+import com.servalabs.chat.backup.v2.util.toRemote
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.RecipientTableCursorUtil
 import java.io.Closeable
 
 /**

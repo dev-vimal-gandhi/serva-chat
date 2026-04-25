@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package com.servalabs.chat.contacts.avatars;
 
 
 import android.content.Context;

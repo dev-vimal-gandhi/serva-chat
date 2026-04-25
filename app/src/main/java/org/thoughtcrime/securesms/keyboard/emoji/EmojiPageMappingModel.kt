@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 class EmojiPageMappingModel(val key: String, val emojiPageModel: EmojiPageModel) : MappingModel<EmojiPageMappingModel> {
   override fun areItemsTheSame(newItem: EmojiPageMappingModel): Boolean {

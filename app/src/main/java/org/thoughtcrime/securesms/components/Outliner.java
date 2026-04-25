@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -7,7 +7,7 @@ import android.graphics.RectF;
 
 import androidx.annotation.ColorInt;
 
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 public class Outliner {
 

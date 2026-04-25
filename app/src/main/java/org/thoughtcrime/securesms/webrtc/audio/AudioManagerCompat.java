@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package com.servalabs.chat.webrtc.audio;
 
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
@@ -19,7 +19,7 @@ import androidx.annotation.RequiresApi;
 
 import org.jetbrains.annotations.Nullable;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.util.ServiceUtil;
 
 import java.util.List;
 

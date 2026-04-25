@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.net;
+package com.servalabs.chat.net;
 
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
+import com.servalabs.chat.BuildConfig;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

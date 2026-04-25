@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.Context
 import android.transition.ChangeBounds
@@ -19,20 +19,20 @@ import androidx.core.transition.addListener
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.view.Stub
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.BannerManager
-import org.thoughtcrime.securesms.components.identity.UnverifiedBannerView
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlayerView
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewBannerView
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.IdentityUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.banner.Banner
+import com.servalabs.chat.banner.BannerManager
+import com.servalabs.chat.components.identity.UnverifiedBannerView
+import com.servalabs.chat.components.voice.VoiceNotePlayerView
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.identity.IdentityRecordList
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.spoofing.ReviewBannerView
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.IdentityUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 
 /**
  * Responsible for showing the various "banner" views at the top of a conversation

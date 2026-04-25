@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.content.Context
 import android.graphics.Typeface
@@ -13,21 +13,21 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.view.doOnNextLayout
 import androidx.core.view.isVisible
 import org.signal.core.util.concurrent.ListenableFuture
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ClippedCardView
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewState
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryBackgroundColors
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryPostCreationState
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryScale
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryTextWatcher
-import org.thoughtcrime.securesms.util.LongClickMovementMethod
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ClippedCardView
+import com.servalabs.chat.conversation.MessageStyler
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.linkpreview.LinkPreviewState
+import com.servalabs.chat.mediasend.v2.text.TextStoryBackgroundColors
+import com.servalabs.chat.mediasend.v2.text.TextStoryPostCreationState
+import com.servalabs.chat.mediasend.v2.text.TextStoryScale
+import com.servalabs.chat.mediasend.v2.text.TextStoryTextWatcher
+import com.servalabs.chat.util.LongClickMovementMethod
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 class StoryTextPostView @JvmOverloads constructor(

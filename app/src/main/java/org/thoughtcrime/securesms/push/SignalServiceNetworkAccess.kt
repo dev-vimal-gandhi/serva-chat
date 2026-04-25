@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.push
+package com.servalabs.chat.push
 
 import android.content.Context
 import com.google.i18n.phonenumbers.PhoneNumberUtil
@@ -8,15 +8,15 @@ import okhttp3.Interceptor
 import okhttp3.TlsVersion
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.DeprecatedClientPreventionInterceptor
-import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor
-import org.thoughtcrime.securesms.net.Networking
-import org.thoughtcrime.securesms.net.RemoteDeprecationDetectorInterceptor
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor
-import org.thoughtcrime.securesms.net.StorageServiceSizeLoggingInterceptor
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.keyvalue.SettingsValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.DeprecatedClientPreventionInterceptor
+import com.servalabs.chat.net.DeviceTransferBlockingInterceptor
+import com.servalabs.chat.net.Networking
+import com.servalabs.chat.net.RemoteDeprecationDetectorInterceptor
+import com.servalabs.chat.net.StandardUserAgentInterceptor
+import com.servalabs.chat.net.StorageServiceSizeLoggingInterceptor
 import org.whispersystems.signalservice.api.push.TrustStore
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl
 import org.whispersystems.signalservice.internal.configuration.SignalCdsiUrl

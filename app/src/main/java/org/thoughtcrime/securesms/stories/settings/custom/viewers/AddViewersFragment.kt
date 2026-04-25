@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.settings.custom.viewers
+package com.servalabs.chat.stories.settings.custom.viewers
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.stories.settings.select.BaseStoryRecipientSelectionFragment
 
 /**
  * Allows user to manage users that can view a story for a given distribution list.

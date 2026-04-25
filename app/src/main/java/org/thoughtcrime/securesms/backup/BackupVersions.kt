@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
 object BackupVersions {
   const val CURRENT_VERSION = 1

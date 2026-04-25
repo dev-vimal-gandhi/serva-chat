@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -19,18 +19,18 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.models.ServiceId
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationData
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.SessionMetadataResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState
-import org.thoughtcrime.securesms.registration.viewmodel.SvrAuthCredentialSet
-import org.thoughtcrime.securesms.util.dualsim.MccMncProducer
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationData
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.data.network.Challenge
+import com.servalabs.chat.registration.data.network.RegistrationSessionCreationResult
+import com.servalabs.chat.registration.data.network.SessionMetadataResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.viewmodel.NumberViewState
+import com.servalabs.chat.registration.viewmodel.SvrAuthCredentialSet
+import com.servalabs.chat.util.dualsim.MccMncProducer
 import java.io.IOException
 
 /**

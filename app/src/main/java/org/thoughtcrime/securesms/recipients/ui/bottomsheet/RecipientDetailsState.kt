@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.recipients.ui.bottomsheet
+package com.servalabs.chat.recipients.ui.bottomsheet
 
-import org.thoughtcrime.securesms.groups.memberlabel.StyledMemberLabel
+import com.servalabs.chat.groups.memberlabel.StyledMemberLabel
 
 data class RecipientDetailsState(
   val memberLabel: StyledMemberLabel?,

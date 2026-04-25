@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.video;
+package com.servalabs.chat.video;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -51,10 +51,10 @@ import androidx.media3.ui.PlayerView;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.incrementalmac.InvalidMacException;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewPlayerControlView;
-import org.thoughtcrime.securesms.mms.VideoSlide;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.mediapreview.MediaPreviewPlayerControlView;
+import com.servalabs.chat.mms.VideoSlide;
 
 import java.io.IOException;
 import java.util.Objects;

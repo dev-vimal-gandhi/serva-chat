@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.app.Activity;
 
@@ -7,12 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;
-import org.thoughtcrime.securesms.main.MainNavigationDetailLocation;
-import org.thoughtcrime.securesms.main.MainNavigationViewModel;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.components.settings.app.AppSettingsActivity;
+import com.servalabs.chat.conversation.ConversationIntents;
+import com.servalabs.chat.groups.ui.creategroup.CreateGroupActivity;
+import com.servalabs.chat.main.MainNavigationDetailLocation;
+import com.servalabs.chat.main.MainNavigationViewModel;
+import com.servalabs.chat.recipients.RecipientId;
 
 import io.reactivex.rxjava3.disposables.Disposable;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import android.app.Application;
 import android.os.PowerManager;
@@ -6,8 +6,8 @@ import android.os.PowerManager;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import com.servalabs.chat.jobs.MinimalJobSpec;
+import com.servalabs.chat.util.WakeLockUtil;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

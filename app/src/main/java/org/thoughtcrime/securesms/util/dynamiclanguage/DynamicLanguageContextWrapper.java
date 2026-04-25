@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package com.servalabs.chat.util.dynamiclanguage;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -7,7 +7,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.core.os.LocaleListCompat;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.Locale;
 

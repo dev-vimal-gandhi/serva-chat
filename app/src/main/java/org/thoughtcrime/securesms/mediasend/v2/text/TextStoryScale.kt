@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 object TextStoryScale {
   fun convertToScale(textScale: Int): Float {

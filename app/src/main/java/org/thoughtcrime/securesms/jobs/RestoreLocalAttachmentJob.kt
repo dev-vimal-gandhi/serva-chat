@@ -2,7 +2,7 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.net.Uri
 import org.signal.core.models.backup.MediaName
@@ -12,16 +12,16 @@ import org.signal.core.util.androidx.DocumentFileInfo
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.InvalidMacException
 import org.signal.libsignal.protocol.InvalidMessageException
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.AttachmentTable.LocalRestorableAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.RestoreLocalAttachmentJobData
-import org.thoughtcrime.securesms.mms.MmsException
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.AttachmentTable.LocalRestorableAttachment
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.protos.RestoreLocalAttachmentJobData
+import com.servalabs.chat.mms.MmsException
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream.IntegrityCheck
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream.StreamSupplier

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited;
+package com.servalabs.chat.groups.ui.invitesandrequests.invited;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.AdminActionsListener;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.ui.AdminActionsListener;
+import com.servalabs.chat.groups.ui.GroupMemberEntry;
+import com.servalabs.chat.groups.ui.GroupMemberListView;
+import com.servalabs.chat.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
 import org.signal.core.ui.BottomSheetUtil;
 
 import java.util.Objects;

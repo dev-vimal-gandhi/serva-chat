@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Tag privatlivet med dig. \nSkriv hvad du ønsker i enhver besked</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal er en nonprofitorganisation\nVilkår og privatlivspolitik</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat er en nonprofitorganisation\nVilkår og privatlivspolitik</string>
     <string name="RegistrationActivity_continue">Fortsæt</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Gendan eller overfør</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Giv tilladelser</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">For at hjælpe dig med at sende beskeder til folk, du kender, vil Signal bede om disse tilladelser. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">For at hjælpe dig med at sende beskeder til folk, du kender, vil Serva Chat bede om disse tilladelser. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Ikke nu</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kontakter</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Find personer, du kender. Dine kontakter er krypterede og ikke synlige for Signal-tjenesten.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Find personer, du kender. Dine kontakter er krypterede og ikke synlige for Serva Chat-tjenesten.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefonopkald</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Jeg har min gamle telefon</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Scan en QR-kode fra din nuværende Signal-konto for at komme hurtigt i gang</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Scan en QR-kode fra din nuværende Serva Chat-konto for at komme hurtigt i gang</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Jeg har ikke min gamle telefon</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Eller hvis du geninstallerer Signal på samme enhed</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Eller hvis du geninstallerer Serva Chat på samme enhed</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Vælg, hvordan du vil gendanne din beskedhistorik og dine kontodata.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Fra Signal-sikkerhedskopier</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Fra Serva Chat-sikkerhedskopier</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Dit gratis eller betalte abonnement på Signal-sikkerhedskopier</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Dit gratis eller betalte abonnement på Serva Chat-sikkerhedskopier</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Gendan en sikkerhedskopi på enheden</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Ingen sikkerhedskopi fundet</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Ingen Signal-sikkerhedskopi fundet i den valgte mappe. Prøv med en anden mappe.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Ingen Serva Chat-sikkerhedskopi fundet i den valgte mappe. Prøv med en anden mappe.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Prøv en anden mappes</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Tilknyt din konto</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Er du ikke på Signal endnu?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Er du ikke på Serva Chat endnu?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Opret konto</string>
 </resources>

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -11,7 +11,7 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireNonNullBlob
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * For all of time, we used the revision of -1 to indicate a placeholder group (i.e., pending invite approval). With

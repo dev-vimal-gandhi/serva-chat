@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.ForegroundServiceStartNotAllowedException
 import android.app.PendingIntent
@@ -14,11 +14,11 @@ import androidx.core.app.ServiceCompat
 import androidx.core.content.IntentCompat
 import org.signal.core.util.PendingIntentFlags.mutable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.jobs.UnableToStartException
-import org.thoughtcrime.securesms.notifications.NotificationChannels
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.jobs.ForegroundServiceUtil
+import com.servalabs.chat.jobs.UnableToStartException
+import com.servalabs.chat.notifications.NotificationChannels
 import org.whispersystems.signalservice.api.util.Preconditions
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.locks.ReentrantLock

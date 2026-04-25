@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar.fallback
+package com.servalabs.chat.avatar.fallback
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.Px
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.util.NameUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.util.NameUtil
 
 /**
  * Specifies what kind of avatar should be generated for a given recipient.

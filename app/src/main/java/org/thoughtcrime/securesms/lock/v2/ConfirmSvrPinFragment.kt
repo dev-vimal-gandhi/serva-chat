@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package com.servalabs.chat.lock.v2
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -6,13 +6,13 @@ import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.lock.v2.ConfirmSvrPinViewModel.SaveAnimation
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SpanUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.lock.v2.ConfirmSvrPinViewModel.SaveAnimation
+import com.servalabs.chat.megaphone.Megaphones
+import com.servalabs.chat.registration.util.RegistrationUtil
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.SpanUtil
 
 internal class ConfirmSvrPinFragment : BaseSvrPinFragment<ConfirmSvrPinViewModel>() {
 

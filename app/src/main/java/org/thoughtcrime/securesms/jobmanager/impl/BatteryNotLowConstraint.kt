@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
 import androidx.annotation.RequiresApi
-import org.thoughtcrime.securesms.jobmanager.Constraint
+import com.servalabs.chat.jobmanager.Constraint
 
 /**
  * Job constraint for determining whether or not the device battery is not low.

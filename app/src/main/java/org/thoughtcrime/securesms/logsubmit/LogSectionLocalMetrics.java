@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase;
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase.EventMetrics;
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase.SplitMetrics;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.LocalMetricsDatabase;
+import com.servalabs.chat.database.LocalMetricsDatabase.EventMetrics;
+import com.servalabs.chat.database.LocalMetricsDatabase.SplitMetrics;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.List;
 

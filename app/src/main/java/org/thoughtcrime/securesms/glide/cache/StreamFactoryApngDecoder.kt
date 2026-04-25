@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.glide.cache
+package com.servalabs.chat.glide.cache
 
 import com.bumptech.glide.Glide
 import com.bumptech.glide.Registry

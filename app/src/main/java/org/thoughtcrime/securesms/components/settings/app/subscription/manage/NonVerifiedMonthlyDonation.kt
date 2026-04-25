@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package com.servalabs.chat.components.settings.app.subscription.manage
 
 import org.signal.core.util.money.FiatMoney
 

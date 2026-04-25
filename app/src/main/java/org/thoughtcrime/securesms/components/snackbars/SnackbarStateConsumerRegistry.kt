@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.snackbars
+package com.servalabs.chat.components.snackbars
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -17,7 +17,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModel
-import org.thoughtcrime.securesms.main.MainSnackbarHostKey
+import com.servalabs.chat.main.MainSnackbarHostKey
 import java.io.Closeable
 
 /**

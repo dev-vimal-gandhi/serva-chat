@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app
+package com.servalabs.chat.components.settings.app
 
 import android.os.Bundle
 import android.view.View
@@ -54,29 +54,29 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.BannerManager
-import org.thoughtcrime.securesms.banner.banners.DeprecatedBuildBanner
-import org.thoughtcrime.securesms.banner.banners.UnauthorizedBanner
-import org.thoughtcrime.securesms.banner.ui.compose.Action
-import org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner
-import org.thoughtcrime.securesms.banner.ui.compose.Importance
-import org.thoughtcrime.securesms.components.emoji.Emojifier
-import org.thoughtcrime.securesms.components.settings.app.routes.AppSettingsRoute
-import org.thoughtcrime.securesms.components.settings.app.routes.AppSettingsRouter
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageMedium
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.completed.InAppPaymentsBottomSheetDelegate
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.banner.Banner
+import com.servalabs.chat.banner.BannerManager
+import com.servalabs.chat.banner.banners.DeprecatedBuildBanner
+import com.servalabs.chat.banner.banners.UnauthorizedBanner
+import com.servalabs.chat.banner.ui.compose.Action
+import com.servalabs.chat.banner.ui.compose.DefaultBanner
+import com.servalabs.chat.banner.ui.compose.Importance
+import com.servalabs.chat.components.emoji.Emojifier
+import com.servalabs.chat.components.settings.app.routes.AppSettingsRoute
+import com.servalabs.chat.components.settings.app.routes.AppSettingsRouter
+import com.servalabs.chat.components.settings.app.subscription.BadgeImageMedium
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.completed.InAppPaymentsBottomSheetDelegate
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SignalE164Util
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class AppSettingsFragment : ComposeFragment(), Callbacks {
 
@@ -308,18 +308,18 @@ private fun AppSettingsContent(
           )
         }
 
-        item {
-          val context = LocalContext.current
-          val donateUrl = stringResource(R.string.donate_url)
+        // item {
+        //   val context = LocalContext.current
+        //   val donateUrl = stringResource(R.string.donate_url)
 
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__donate_to_signal),
-            icon = painterResource(R.drawable.symbol_heart_24),
-            onClick = {
-              CommunicationActions.openBrowserLink(context, donateUrl)
-            },
-          )
-        }
+        //   Rows.TextRow(
+        //     text = stringResource(R.string.preferences__donate_to_signal),
+        //     icon = painterResource(R.drawable.symbol_heart_24),
+        //     onClick = {
+        //       CommunicationActions.openBrowserLink(context, donateUrl)
+        //     },
+        //   )
+        // }
 
         item {
           Dividers.Default()
@@ -412,31 +412,31 @@ private fun AppSettingsContent(
           )
         }
 
-        if (state.showAppUpdates) {
-          item {
-            Rows.TextRow(
-              text = "App updates",
-              icon = painterResource(R.drawable.symbol_calendar_24),
-              onClick = {
-                callbacks.navigate(AppSettingsRoute.AppUpdates)
-              }
-            )
-          }
-        }
+        // if (state.showAppUpdates) {
+        //   item {
+        //     Rows.TextRow(
+        //       text = "App updates",
+        //       icon = painterResource(R.drawable.symbol_calendar_24),
+        //       onClick = {
+        //         callbacks.navigate(AppSettingsRoute.AppUpdates)
+        //       }
+        //     )
+        //   }
+        // }
 
-        item {
-          Dividers.Default()
-        }
+        // item {
+        //   Dividers.Default()
+        // }
 
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__help),
-            icon = painterResource(R.drawable.symbol_help_24),
-            onClick = {
-              callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
-            }
-          )
-        }
+        // item {
+        //   Rows.TextRow(
+        //     text = stringResource(R.string.preferences__help),
+        //     icon = painterResource(R.drawable.symbol_help_24),
+        //     onClick = {
+        //       callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
+        //     }
+        //   )
+        // }
 
         if (state.showInternalPreferences) {
           item {

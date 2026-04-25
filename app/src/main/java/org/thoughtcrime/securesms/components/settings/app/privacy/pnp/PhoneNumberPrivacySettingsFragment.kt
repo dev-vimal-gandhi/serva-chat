@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package com.servalabs.chat.components.settings.app.privacy.pnp
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -33,8 +33,8 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.showSnackbar
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.StatusBarColorNestedScrollConnection
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.StatusBarColorNestedScrollConnection
 import org.signal.core.ui.R as CoreUiR
 
 class PhoneNumberPrivacySettingsFragment : ComposeFragment() {

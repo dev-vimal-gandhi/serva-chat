@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package com.servalabs.chat.video;
 
 import android.media.MediaDataSource;
 

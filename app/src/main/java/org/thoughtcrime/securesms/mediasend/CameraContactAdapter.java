@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,12 +13,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.SectionedRecyclerViewAdapter;
-import org.thoughtcrime.securesms.util.adapter.StableIdGenerator;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.FromTextView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.adapter.SectionedRecyclerViewAdapter;
+import com.servalabs.chat.util.adapter.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.Collection;

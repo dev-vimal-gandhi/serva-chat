@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.keyvalue.SignalStore;
 
 public class LogSectionPin implements LogSection {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package com.servalabs.chat.conversation.mutiselect.forward
 
 import android.content.Context
 import android.content.Intent
@@ -12,10 +12,10 @@ import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.getParcelableArrayListExtraCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment.Companion.RESULT_SELECTION
+import com.servalabs.chat.R
+import com.servalabs.chat.components.FragmentWrapperActivity
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment.Companion.RESULT_SELECTION
 
 open class MultiselectForwardActivity : FragmentWrapperActivity(), MultiselectForwardFragment.Callback, SearchConfigurationProvider {
 

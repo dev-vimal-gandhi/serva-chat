@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
@@ -12,11 +12,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.thoughtcrime.securesms.components.recyclerview.NoTouchingRecyclerView
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsAlphaItemDecoration
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsItemAnimator
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsRecyclerAdapter
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
+import com.servalabs.chat.components.recyclerview.NoTouchingRecyclerView
+import com.servalabs.chat.components.webrtc.WebRtcReactionsAlphaItemDecoration
+import com.servalabs.chat.components.webrtc.WebRtcReactionsItemAnimator
+import com.servalabs.chat.components.webrtc.WebRtcReactionsRecyclerAdapter
+import com.servalabs.chat.events.GroupCallReactionEvent
 
 /**
  * Displays a list of reactions sent during a group call.

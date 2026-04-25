@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package com.servalabs.chat.linkpreview;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package com.servalabs.chat.megaphone;
 
 import android.app.Application;
 
@@ -12,9 +12,9 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.MegaphoneDatabase;
-import org.thoughtcrime.securesms.database.model.MegaphoneRecord;
-import org.thoughtcrime.securesms.megaphone.Megaphones.Event;
+import com.servalabs.chat.database.MegaphoneDatabase;
+import com.servalabs.chat.database.model.MegaphoneRecord;
+import com.servalabs.chat.megaphone.Megaphones.Event;
 
 import java.util.HashMap;
 import java.util.List;

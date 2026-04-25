@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package com.servalabs.chat.delete;
 
 import android.text.TextUtils;
 
@@ -15,9 +15,9 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.DefaultValueLiveData;
+import com.servalabs.chat.util.SingleLiveEvent;
 
 import java.util.List;
 

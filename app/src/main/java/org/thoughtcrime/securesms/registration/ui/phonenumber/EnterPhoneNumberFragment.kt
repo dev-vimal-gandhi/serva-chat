@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package com.servalabs.chat.registration.ui.phonenumber
 
 import android.content.Context
 import android.content.DialogInterface
@@ -42,36 +42,36 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationEnterPhoneNumberBinding
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCheckResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationState
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeFragment
-import org.thoughtcrime.securesms.registration.ui.toE164
-import org.thoughtcrime.securesms.registration.util.CountryPrefix
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.SupportEmailUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.livedata.LiveDataObserverCallback
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentRegistrationEnterPhoneNumberBinding
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.data.network.Challenge
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.data.network.RegistrationResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionCheckResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionCreationResult
+import com.servalabs.chat.registration.data.network.RegistrationSessionResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.registration.ui.RegistrationCheckpoint
+import com.servalabs.chat.registration.ui.RegistrationState
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.ui.countrycode.CountryCodeFragment
+import com.servalabs.chat.registration.ui.toE164
+import com.servalabs.chat.registration.util.CountryPrefix
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.Dialogs
+import com.servalabs.chat.util.SignalE164Util
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.SupportEmailUtil
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.livedata.LiveDataObserverCallback
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

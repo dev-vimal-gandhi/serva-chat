@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import io.reactivex.rxjava3.core.Single
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBoostBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getSubscriptionLevels
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.components.settings.app.subscription.getBoostBadges
+import com.servalabs.chat.components.settings.app.subscription.getGiftBadges
+import com.servalabs.chat.components.settings.app.subscription.getSubscriptionLevels
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.dependencies.AppDependencies
 import java.util.Locale
 
 class DonationReceiptListRepository {

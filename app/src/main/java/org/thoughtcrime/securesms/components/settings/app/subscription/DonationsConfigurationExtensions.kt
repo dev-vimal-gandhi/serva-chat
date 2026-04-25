@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package com.servalabs.chat.components.settings.app.subscription
 
 import org.signal.core.util.money.FiatMoney
 import org.signal.core.util.money.PlatformCurrencyUtil
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.badges.models.Badge
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration.BOOST_LEVEL
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration.GIFT_LEVEL

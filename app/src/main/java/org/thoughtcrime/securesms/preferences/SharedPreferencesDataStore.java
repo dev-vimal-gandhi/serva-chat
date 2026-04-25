@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package com.servalabs.chat.preferences;
 
 import android.content.SharedPreferences;
 

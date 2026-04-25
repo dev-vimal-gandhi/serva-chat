@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -11,13 +11,13 @@ import org.signal.core.util.ByteSize
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.RestoreState
-import org.thoughtcrime.securesms.backup.v2.ArchiveRestoreProgress
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.service.BackupMediaRestoreService.Companion.hasTimedOut
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.RestoreState
+import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.service.BackupMediaRestoreService.Companion.hasTimedOut
 import java.util.concurrent.CopyOnWriteArraySet
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

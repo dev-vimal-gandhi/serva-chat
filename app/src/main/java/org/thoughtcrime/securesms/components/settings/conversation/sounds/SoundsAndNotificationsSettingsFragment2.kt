@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package com.servalabs.chat.components.settings.conversation.sounds
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -11,10 +11,10 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.Navigation
 import org.signal.core.ui.compose.ComposeFragment
-import org.thoughtcrime.securesms.MuteDialog
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.Utils.formatMutedUntil
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.MuteDialog
+import com.servalabs.chat.components.settings.conversation.preferences.Utils.formatMutedUntil
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class SoundsAndNotificationsSettingsFragment2 : ComposeFragment() {
 

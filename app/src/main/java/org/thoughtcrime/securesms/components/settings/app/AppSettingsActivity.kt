@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app
+package com.servalabs.chat.components.settings.app
 
 import android.content.Context
 import android.content.Intent
@@ -7,21 +7,21 @@ import androidx.navigation.NavDirections
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.routes.AppSettingsRoute
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameEditMode
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.CachedInflater
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsActivity
+import com.servalabs.chat.components.settings.app.routes.AppSettingsRoute
+import com.servalabs.chat.help.HelpFragment
+import com.servalabs.chat.keyvalue.SettingsValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.profiles.manage.UsernameEditMode
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.util.CachedInflater
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.Environment
+import com.servalabs.chat.util.SignalE164Util
+import com.servalabs.chat.util.navigation.safeNavigate
 
 private const val START_ROUTE = "app.settings.args.START_ROUTE"
 private const val NOTIFICATION_CATEGORY = "android.intent.category.NOTIFICATION_PREFERENCES"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package com.servalabs.chat.ringrtc;
 
 import android.os.Parcel;
 import android.os.Parcelable;

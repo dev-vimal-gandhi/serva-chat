@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.memberlabel
+package com.servalabs.chat.groups.memberlabel
 
 import io.mockk.coEvery
 import io.mockk.coVerify
@@ -19,13 +19,13 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelUiState.SaveState
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.CoroutineDispatcherRule
+import com.servalabs.chat.conversation.colors.NameColor
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupInsufficientRightsException
+import com.servalabs.chat.groups.memberlabel.MemberLabelUiState.SaveState
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.CoroutineDispatcherRule
 import org.whispersystems.signalservice.api.NetworkResult
 import java.io.IOException
 

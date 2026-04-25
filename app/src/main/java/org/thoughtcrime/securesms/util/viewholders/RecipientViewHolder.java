@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.viewholders;
+package com.servalabs.chat.util.viewholders;
 
 import android.view.View;
 import android.widget.TextView;
@@ -7,13 +7,13 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.mapping.Factory;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import com.servalabs.chat.R;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.adapter.mapping.Factory;
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory;
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder;
 
 public class RecipientViewHolder<T extends RecipientMappingModel<T>> extends MappingViewHolder<T> {
 

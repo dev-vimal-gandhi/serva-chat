@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui
+package com.servalabs.chat.registration.ui
 
 import android.content.Context
 import android.content.Intent
@@ -11,12 +11,12 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.navigation.ActivityNavigator
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.util.RegistrationUtil
+import com.servalabs.chat.util.DynamicNoActionBarTheme
 
 /**
  * Activity to hold the entire registration process.

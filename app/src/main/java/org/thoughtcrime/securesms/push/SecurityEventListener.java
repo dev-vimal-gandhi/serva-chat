@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.push;
+package com.servalabs.chat.push;
 
 import android.content.Context;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.SecurityEvent;
+import com.servalabs.chat.crypto.SecurityEvent;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

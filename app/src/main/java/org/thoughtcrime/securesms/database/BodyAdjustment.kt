@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 /**
  * Store data about an operation that changes the contents of a body.

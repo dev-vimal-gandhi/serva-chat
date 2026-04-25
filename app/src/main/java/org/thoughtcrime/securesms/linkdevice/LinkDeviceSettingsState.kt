@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.linkdevice
+package com.servalabs.chat.linkdevice
 
 import android.net.Uri
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.linkdevice.LinkDeviceRepository.LinkDeviceResult
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.linkdevice.LinkDeviceRepository.LinkDeviceResult
 
 /**
  * Information about linked devices. Used in [LinkDeviceViewModel].

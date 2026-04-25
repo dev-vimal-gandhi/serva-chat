@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.archive
+package com.servalabs.chat.stories.archive
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -13,8 +13,8 @@ import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.PagingController
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.dependencies.AppDependencies
 
 class StoryArchiveViewModel : ViewModel() {
 

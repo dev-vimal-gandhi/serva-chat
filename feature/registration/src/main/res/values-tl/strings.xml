@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Dalhin ang privacy kahit saan.\nMaging ikaw sa bawat mensahe.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Ang Signal ay isang nonprofit\nTerms &amp; Privacy Policy</string>
+    <string name="RegistrationActivity_terms_and_privacy">Ang Serva Chat ay isang nonprofit\nTerms &amp; Privacy Policy</string>
     <string name="RegistrationActivity_continue">Magpatuloy</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">I-restore o ilipat</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Magbigay ng pahintulot</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para matulungan kang i-message ang mga taong kilala mo, hihingi ng pahinuntulot ang Signal. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Para matulungan kang i-message ang mga taong kilala mo, hihingi ng pahinuntulot ang Serva Chat. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Hindi na muna</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Contacts</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Hanapin ang mga taong kilala mo. Encrypted ang contacts mo at hindi ito makikita ng Signal service.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Hanapin ang mga taong kilala mo. Encrypted ang contacts mo at hindi ito makikita ng Serva Chat service.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Phone calls</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Nasa akin ang lumang phone ko</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">I-scan ang QR code mula sa current Signal account mo para makapagsimula agad</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">I-scan ang QR code mula sa current Serva Chat account mo para makapagsimula agad</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Wala sa akin ang lumang phone ko</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">O nag-iinstall ka ulit ng Signal sa parehong device</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">O nag-iinstall ka ulit ng Serva Chat sa parehong device</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Piliin kung paano mo gustong i-restore ang message history at account data mo.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Mula sa Signal Backups</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Mula sa Serva Chat Backups</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ang free o paid na Signal Backup plan mo</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ang free o paid na Serva Chat Backup plan mo</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">I-restore ang on-device backup</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Walang mahanap na backup</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Walang makitang Signal backup sa napiling folder. Pumili ng ibang folder.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Walang makitang Serva Chat backup sa napiling folder. Pumili ng ibang folder.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Pumili ng ibang folder</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">I-link ang account mo</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Wala ka pa ba sa Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Wala ka pa ba sa Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Gumawa ng account</string>
 </resources>

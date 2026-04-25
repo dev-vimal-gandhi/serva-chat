@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
@@ -12,7 +12,7 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.readToList
 import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * Somehow we have a bug where pinned orders aren't always unique. Could be from some old bug, not clear.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.badges.load;
+package com.servalabs.chat.badges.load;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,9 +14,9 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.glide.OkHttpStreamFetcher;
+import com.servalabs.chat.badges.models.Badge;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.glide.OkHttpStreamFetcher;
 
 import java.io.InputStream;
 

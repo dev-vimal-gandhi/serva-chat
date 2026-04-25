@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.material3.Text
@@ -15,8 +15,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
 
 /**
  * Screen showing various restore methods available during quick and manual re-registration.

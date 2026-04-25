@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.app.Application
 import assertk.assertThat
@@ -17,14 +17,14 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsTestRule
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.MockSignalStoreRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsTestRule
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.MockSignalStoreRule
+import com.servalabs.chat.testutil.SystemOutLogger
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription.ChargeFailure
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 import org.whispersystems.signalservice.internal.EmptyResponse
@@ -58,7 +58,7 @@ class InAppPaymentKeepAliveJobTest {
       currency = java.util.Currency.getInstance("USD"),
       type = InAppPaymentSubscriberRecord.Type.DONATION,
       requiresCancel = false,
-      paymentMethodType = org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData.PaymentMethodType.CARD,
+      paymentMethodType = com.servalabs.chat.database.model.databaseprotos.InAppPaymentData.PaymentMethodType.CARD,
       iapSubscriptionId = null
     )
     every { InAppPaymentsRepository.getSubscriber(InAppPaymentSubscriberRecord.Type.DONATION) } returns subscriber

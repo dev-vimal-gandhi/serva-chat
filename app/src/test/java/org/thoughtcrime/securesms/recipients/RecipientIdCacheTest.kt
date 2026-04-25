@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import io.mockk.every
 import io.mockk.mockk
@@ -7,7 +7,7 @@ import org.junit.Assert.assertNull
 import org.junit.Test
 import org.signal.core.models.ServiceId
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.LogRecorder
+import com.servalabs.chat.testutil.LogRecorder
 import java.util.Optional
 import java.util.UUID
 

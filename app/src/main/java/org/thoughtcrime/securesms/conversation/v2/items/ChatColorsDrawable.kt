@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter
@@ -19,10 +19,10 @@ import androidx.core.graphics.withClip
 import androidx.core.graphics.withTranslation
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.v2.items.ChatColorsDrawable.ChatColorsItemDecoration
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.Projection.Corners
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.v2.items.ChatColorsDrawable.ChatColorsItemDecoration
+import com.servalabs.chat.util.Projection
+import com.servalabs.chat.util.Projection.Corners
 
 /**
  * Drawable that renders the given chat colors at a specified coordinate offset.

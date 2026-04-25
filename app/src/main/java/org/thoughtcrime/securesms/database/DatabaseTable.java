@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.HashSet;
 import java.util.Set;

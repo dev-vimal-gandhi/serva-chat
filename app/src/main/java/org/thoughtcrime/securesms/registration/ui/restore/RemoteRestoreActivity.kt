@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -68,26 +68,26 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.RestoreV2Event
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsTypeFeature
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsTypeFeatureRow
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportCallbacks
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialog
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportViewModel
-import org.thoughtcrime.securesms.components.contactsupport.SendSupportEmailEffect
-import org.thoughtcrime.securesms.conversation.v2.registerForLifecycle
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreenTitleSubtitle
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.BaseActivity
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.backup.v2.RestoreV2Event
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsTypeFeature
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsTypeFeatureRow
+import com.servalabs.chat.components.contactsupport.ContactSupportCallbacks
+import com.servalabs.chat.components.contactsupport.ContactSupportDialog
+import com.servalabs.chat.components.contactsupport.ContactSupportViewModel
+import com.servalabs.chat.components.contactsupport.SendSupportEmailEffect
+import com.servalabs.chat.conversation.v2.registerForLifecycle
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.registration.ui.shared.RegistrationScreenTitleSubtitle
+import com.servalabs.chat.registration.util.RegistrationUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.PlayStoreUtil
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.viewModel
 import java.util.Locale
 import kotlin.time.Duration
 

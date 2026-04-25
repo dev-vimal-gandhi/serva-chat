@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package com.servalabs.chat.mediasend.v2.gallery
 
 import android.os.Bundle
 import android.view.View
@@ -12,11 +12,11 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.models.media.Media
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForCamera
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaSelectionItemTouchHelper
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.v2.MediaSelectionNavigator
+import com.servalabs.chat.mediasend.v2.MediaSelectionNavigator.Companion.requestPermissionsForCamera
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.mediasend.v2.review.MediaSelectionItemTouchHelper
 import org.signal.core.ui.R as CoreUiR
 
 private const val MEDIA_GALLERY_TAG = "MEDIA_GALLERY"

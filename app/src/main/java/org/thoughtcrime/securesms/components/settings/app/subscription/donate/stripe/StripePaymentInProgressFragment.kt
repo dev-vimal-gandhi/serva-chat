@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package com.servalabs.chat.components.settings.app.subscription.donate.stripe
 
 import android.app.Dialog
 import android.graphics.Color
@@ -23,21 +23,21 @@ import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.databinding.DonationInProgressFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
+import com.servalabs.chat.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.databinding.DonationInProgressFragmentBinding
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class StripePaymentInProgressFragment : DialogFragment(R.layout.donation_in_progress_fragment) {
 

@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients
+package com.servalabs.chat.recipients
 
 import androidx.annotation.WorkerThread
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.contacts.sync.ContactDiscovery
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.phonenumbers.NumberUtil
+import com.servalabs.chat.util.SignalE164Util
 import java.io.IOException
 import kotlin.time.Duration.Companion.seconds
 

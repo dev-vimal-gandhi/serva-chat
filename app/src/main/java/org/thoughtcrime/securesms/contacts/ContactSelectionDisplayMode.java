@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package com.servalabs.chat.contacts;
 
 import androidx.annotation.NonNull;
 

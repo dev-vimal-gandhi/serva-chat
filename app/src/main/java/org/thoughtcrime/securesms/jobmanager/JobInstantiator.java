@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

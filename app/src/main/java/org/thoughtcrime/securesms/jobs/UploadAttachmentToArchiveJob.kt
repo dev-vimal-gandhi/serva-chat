@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import org.signal.core.models.backup.MediaName
 import org.signal.core.util.Base64
@@ -14,25 +14,25 @@ import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
 import org.signal.core.util.readLength
 import org.signal.protos.resumableuploads.ResumableUpload
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.AttachmentUploadUtil
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
-import org.thoughtcrime.securesms.backup.v2.ArchiveDatabaseExecutor
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.BackupMessagesConstraint
-import org.thoughtcrime.securesms.jobs.protos.UploadAttachmentToArchiveJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.service.AttachmentProgressService
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.AttachmentUploadUtil
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.backup.ArchiveUploadProgress
+import com.servalabs.chat.backup.v2.ArchiveDatabaseExecutor
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.BackupMessagesConstraint
+import com.servalabs.chat.jobs.protos.UploadAttachmentToArchiveJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.service.AttachmentProgressService
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.archive.ArchiveMediaUploadFormStatusCodes
 import org.whispersystems.signalservice.api.attachment.AttachmentUploadResult

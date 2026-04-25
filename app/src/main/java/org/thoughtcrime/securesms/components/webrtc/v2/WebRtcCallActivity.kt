@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -50,42 +50,42 @@ import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.isInMultiWindowModeCompat
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.sensors.Orientation
-import org.thoughtcrime.securesms.components.webrtc.CallLinkProfileKeySender
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.GroupCallSafetyNumberChangeNotificationUtil
-import org.thoughtcrime.securesms.components.webrtc.InCallStatus
-import org.thoughtcrime.securesms.components.webrtc.PendingParticipantsBottomSheet
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioDevice
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.components.webrtc.requests.CallLinkIncomingRequestSheet
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.CalleeMustAcceptMessageRequestActivity
-import org.thoughtcrime.securesms.ratelimit.RecaptchaProofBottomSheetFragment
-import org.thoughtcrime.securesms.ratelimit.RecaptchaRequiredEvent
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheet
-import org.thoughtcrime.securesms.service.webrtc.CallLinkDisconnectReason
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.EllapsedTimeFormatter
-import org.thoughtcrime.securesms.util.FullscreenHelper
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager.ChosenAudioDeviceIdentifier
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.sensors.Orientation
+import com.servalabs.chat.components.webrtc.CallLinkProfileKeySender
+import com.servalabs.chat.components.webrtc.CallParticipantsState
+import com.servalabs.chat.components.webrtc.GroupCallSafetyNumberChangeNotificationUtil
+import com.servalabs.chat.components.webrtc.InCallStatus
+import com.servalabs.chat.components.webrtc.PendingParticipantsBottomSheet
+import com.servalabs.chat.components.webrtc.WebRtcAudioDevice
+import com.servalabs.chat.components.webrtc.WebRtcAudioOutput
+import com.servalabs.chat.components.webrtc.WebRtcControls
+import com.servalabs.chat.components.webrtc.requests.CallLinkIncomingRequestSheet
+import com.servalabs.chat.conversation.ui.error.SafetyNumberChangeDialog
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.WebRtcViewModel
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.messagerequests.CalleeMustAcceptMessageRequestActivity
+import com.servalabs.chat.ratelimit.RecaptchaProofBottomSheetFragment
+import com.servalabs.chat.ratelimit.RecaptchaRequiredEvent
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.safety.SafetyNumberBottomSheet
+import com.servalabs.chat.service.webrtc.CallLinkDisconnectReason
+import com.servalabs.chat.service.webrtc.SignalCallManager
+import com.servalabs.chat.sms.MessageSender
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.EllapsedTimeFormatter
+import com.servalabs.chat.util.FullscreenHelper
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.ThrottledDebouncer
+import com.servalabs.chat.util.VibrateUtil
+import com.servalabs.chat.webrtc.CallParticipantsViewState
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.webrtc.audio.SignalAudioManager.ChosenAudioDeviceIdentifier
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage
 import kotlin.time.Duration.Companion.seconds
 
@@ -646,7 +646,7 @@ class WebRtcCallActivity : PassphraseRequiredActivity(), SafetyNumberChangeDialo
     }
   }
 
-  private suspend fun observeVideoSinkAspectRatio(videoSink: org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink?) {
+  private suspend fun observeVideoSinkAspectRatio(videoSink: com.servalabs.chat.components.webrtc.BroadcastVideoSink?) {
     if (videoSink == null) return
 
     kotlinx.coroutines.suspendCancellableCoroutine<Nothing> { continuation ->

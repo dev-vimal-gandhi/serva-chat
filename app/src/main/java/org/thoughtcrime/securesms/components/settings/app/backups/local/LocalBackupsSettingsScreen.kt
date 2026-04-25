@@ -2,7 +2,7 @@
  * Copyright 2026 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.settings.app.backups.local
+package com.servalabs.chat.components.settings.app.backups.local
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -35,12 +35,12 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.Snackbars
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.isIdle
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupCreationProgressRow
-import org.thoughtcrime.securesms.components.compose.rememberBiometricsAuthentication
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.util.BackupUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.isIdle
+import com.servalabs.chat.backup.v2.ui.status.BackupCreationProgressRow
+import com.servalabs.chat.components.compose.rememberBiometricsAuthentication
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.util.BackupUtil
 import org.signal.core.ui.R as CoreUiR
 import org.signal.core.ui.compose.DayNightPreviews as DayNightPreview
 

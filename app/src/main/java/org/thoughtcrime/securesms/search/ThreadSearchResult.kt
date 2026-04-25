@@ -1,5 +1,5 @@
-package org.thoughtcrime.securesms.search
+package com.servalabs.chat.search
 
-import org.thoughtcrime.securesms.database.model.ThreadRecord
+import com.servalabs.chat.database.model.ThreadRecord
 
 data class ThreadSearchResult(val results: List<ThreadRecord>, val query: String)

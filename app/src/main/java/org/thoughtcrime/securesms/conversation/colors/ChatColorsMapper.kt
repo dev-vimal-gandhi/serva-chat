@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.colors
+package com.servalabs.chat.conversation.colors
 
 import com.google.common.collect.BiMap
 import com.google.common.collect.ImmutableBiMap
 import com.google.common.collect.ImmutableMap
-import org.thoughtcrime.securesms.color.MaterialColor
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.GradientChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.SingleColorChatWallpaper
+import com.servalabs.chat.color.MaterialColor
+import com.servalabs.chat.wallpaper.ChatWallpaper
+import com.servalabs.chat.wallpaper.GradientChatWallpaper
+import com.servalabs.chat.wallpaper.SingleColorChatWallpaper
 
 /**
  * Contains mappings to get the relevant chat colors for either a legacy MaterialColor or a built-in wallpaper.

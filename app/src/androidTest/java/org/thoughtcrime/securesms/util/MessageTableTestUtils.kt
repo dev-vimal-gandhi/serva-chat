@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import com.servalabs.chat.database.MessageTable
+import com.servalabs.chat.database.MessageTypes
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageRecord
 
 /**
  * Helper methods for interacting with [MessageTable] in tests.

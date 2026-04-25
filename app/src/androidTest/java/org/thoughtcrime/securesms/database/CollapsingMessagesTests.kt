@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.core.content.contentValuesOf
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -12,11 +12,11 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.models.ServiceId.ACI
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testing.SignalDatabaseRule
+import com.servalabs.chat.util.RemoteConfig
 import java.util.UUID
 import kotlin.time.Duration.Companion.days
 

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.search.SearchFilter
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterRequest
+import com.servalabs.chat.search.SearchFilter
 
 /**
  * Simple search state for contacts.

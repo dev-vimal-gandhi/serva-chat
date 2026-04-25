@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import com.squareup.wire.ProtoAdapter
 import kotlinx.coroutines.flow.Flow

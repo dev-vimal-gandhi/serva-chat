@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.jobs.BackupMessagesJob
+import com.servalabs.chat.keyvalue.SignalStore
 import java.time.ZonedDateTime
 import java.util.Random
 import kotlin.time.Duration.Companion.days

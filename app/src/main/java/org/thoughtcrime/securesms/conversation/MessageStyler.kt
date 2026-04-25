@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.graphics.Typeface
 import android.text.Annotation
@@ -8,10 +8,10 @@ import android.text.style.CharacterStyle
 import android.text.style.StrikethroughSpan
 import android.text.style.StyleSpan
 import android.text.style.TypefaceSpan
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList.BodyRange
-import org.thoughtcrime.securesms.util.PlaceholderURLSpan
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList.BodyRange
+import com.servalabs.chat.util.PlaceholderURLSpan
 import java.lang.Integer.max
 import java.lang.Integer.min
 

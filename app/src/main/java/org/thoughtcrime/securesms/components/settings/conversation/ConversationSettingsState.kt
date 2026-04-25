@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.components.settings.conversation.preferences.ButtonStripPreference
+import com.servalabs.chat.components.settings.conversation.preferences.CallPreference
+import com.servalabs.chat.components.settings.conversation.preferences.LegacyGroupPreference
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.memberlabel.MemberLabel
+import com.servalabs.chat.groups.ui.GroupMemberEntry
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 data class ConversationSettingsState(
   val threadId: Long = -1,

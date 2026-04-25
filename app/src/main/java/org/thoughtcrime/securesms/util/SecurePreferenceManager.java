@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout;
-import org.thoughtcrime.securesms.crypto.EncryptedPreferences;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.components.KeyboardAwareLinearLayout;
+import com.servalabs.chat.crypto.EncryptedPreferences;
 
 public class SecurePreferenceManager {
 

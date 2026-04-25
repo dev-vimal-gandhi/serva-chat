@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package com.servalabs.chat.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
@@ -16,13 +16,13 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.data.network.Challenge
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Screen to show while the change number is in-progress.

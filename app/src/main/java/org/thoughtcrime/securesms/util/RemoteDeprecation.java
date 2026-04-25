@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,7 +13,7 @@ import org.signal.core.util.logging.Log;
 import java.io.IOException;
 import java.util.Objects;
 
-import im.molly.app.base.ApkInfo;
+import com.servalabs.chat.base.ApkInfo;
 
 public final class RemoteDeprecation {
 

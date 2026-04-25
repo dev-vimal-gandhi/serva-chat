@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 import android.content.Context
 import android.content.DialogInterface
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.help.HelpFragment
+import com.servalabs.chat.util.CommunicationActions
 
 /**
  * Donation Error Dialogs.

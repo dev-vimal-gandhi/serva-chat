@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 
@@ -11,22 +11,22 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.AttachmentTable;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.database.AttachmentTable;
 import org.signal.core.models.media.Media;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.MessageSender.PreUploadResult;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.mms.GifSlide;
+import com.servalabs.chat.mms.ImageSlide;
+import com.servalabs.chat.mms.TextSlide;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.sms.MessageSender;
+import com.servalabs.chat.sms.MessageSender.PreUploadResult;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,13 +11,13 @@ import androidx.annotation.StringRes;
 import androidx.lifecycle.LiveData;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.webrtc.CallDataMode;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.mms.SentMediaQuality;
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference;
+import com.servalabs.chat.util.SingleLiveEvent;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.webrtc.CallDataMode;
 
 import java.util.Arrays;
 import java.util.List;

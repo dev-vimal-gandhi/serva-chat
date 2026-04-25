@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package com.servalabs.chat.components.webrtc.controls
 
 import androidx.compose.runtime.Immutable
-import org.thoughtcrime.securesms.database.CallLinkTable
+import com.servalabs.chat.database.CallLinkTable
 
 @Immutable
 data class ControlAndInfoState(

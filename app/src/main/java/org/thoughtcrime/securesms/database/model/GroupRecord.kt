@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import androidx.annotation.WorkerThread
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.storageservice.storage.protos.groups.AccessControl
 import org.signal.storageservice.storage.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.Optional

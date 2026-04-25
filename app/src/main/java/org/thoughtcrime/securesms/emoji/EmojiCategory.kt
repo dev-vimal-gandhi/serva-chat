@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.emoji
+package com.servalabs.chat.emoji
 
 import androidx.annotation.AttrRes
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * All the different Emoji categories the app is aware of in the order we want to display them.

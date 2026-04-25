@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
 import android.content.Context;
 
@@ -10,13 +10,13 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.VerificationFailedException;
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.MembershipNotSuitableForV2Exception;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import com.servalabs.chat.groups.GroupChangeBusyException;
+import com.servalabs.chat.groups.GroupChangeFailedException;
+import com.servalabs.chat.groups.GroupManager;
+import com.servalabs.chat.groups.MembershipNotSuitableForV2Exception;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.jobs.AvatarGroupsV2DownloadJob;
+import com.servalabs.chat.util.AsynchronousCallback;
 import org.whispersystems.signalservice.api.groupsv2.GroupLinkNotActiveException;
 import org.whispersystems.signalservice.internal.push.exceptions.GroupPatchNotAcceptedException;
 import org.whispersystems.signalservice.internal.push.exceptions.GroupTerminatedException;

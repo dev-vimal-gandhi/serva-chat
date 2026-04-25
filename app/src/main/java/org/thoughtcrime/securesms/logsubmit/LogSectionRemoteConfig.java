@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.util.RemoteConfig;
 import org.signal.core.util.Util;
 
 import java.util.Map;

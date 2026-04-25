@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup
+package com.servalabs.chat.restore.restorelocalbackup
 
 import android.content.Context
 import android.net.Uri
@@ -15,15 +15,15 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.BackupEvent
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ReclaimUsernameAndLinkJob
-import org.thoughtcrime.securesms.keyvalue.Completed
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.restore.RestoreRepository
+import com.servalabs.chat.backup.BackupEvent
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ReclaimUsernameAndLinkJob
+import com.servalabs.chat.keyvalue.Completed
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.util.RegistrationUtil
+import com.servalabs.chat.restore.RestoreRepository
 
 /**
  * ViewModel for [RestoreLocalBackupFragment]

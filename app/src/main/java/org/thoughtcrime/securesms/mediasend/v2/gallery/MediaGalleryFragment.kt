@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package com.servalabs.chat.mediasend.v2.gallery
 
 import android.Manifest
 import android.os.Bundle
@@ -21,20 +21,20 @@ import org.signal.core.ui.permissions.Permissions
 import org.signal.core.ui.util.StorageUtil
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.permissions.PermissionCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.conversation.ManageContextMenu
-import org.thoughtcrime.securesms.databinding.V2MediaGalleryFragmentBinding
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaGalleryGridItemTouchListener
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.SystemWindowInsetsSetter
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.recyclerview.GridDividerDecoration
+import com.servalabs.chat.conversation.ManageContextMenu
+import com.servalabs.chat.databinding.V2MediaGalleryFragmentBinding
+import com.servalabs.chat.mediasend.MediaRepository
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.mediasend.v2.review.MediaGalleryGridItemTouchListener
+import com.servalabs.chat.util.Material3OnScrollHelper
+import com.servalabs.chat.util.SystemWindowInsetsSetter
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.fragments.requireListener
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.visible
 import org.signal.core.ui.R as CoreUiR
 
 /**

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import android.content.Context
 import com.google.android.gms.common.GoogleApiAvailability
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.AppDependencies
 
 /**
  * Delegate object for checking whether backup upgrade prompts should be shown to the user.

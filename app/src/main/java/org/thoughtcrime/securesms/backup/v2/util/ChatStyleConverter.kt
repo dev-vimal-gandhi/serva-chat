@@ -3,26 +3,26 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.util
+package com.servalabs.chat.backup.v2.util
 
 import org.signal.archive.proto.ChatStyle
 import org.signal.archive.proto.FilePointer
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.BackupMode
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.PartUriParser
-import org.thoughtcrime.securesms.util.UriUtil
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory
-import org.thoughtcrime.securesms.wallpaper.GradientChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.SingleColorChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.UriChatWallpaper
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.backup.v2.BackupMode
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ChatColorsPalette
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.mms.PartUriParser
+import com.servalabs.chat.util.UriUtil
+import com.servalabs.chat.wallpaper.ChatWallpaper
+import com.servalabs.chat.wallpaper.ChatWallpaperFactory
+import com.servalabs.chat.wallpaper.GradientChatWallpaper
+import com.servalabs.chat.wallpaper.SingleColorChatWallpaper
+import com.servalabs.chat.wallpaper.UriChatWallpaper
 
 private val TAG = Log.tag(ChatStyleConverter::class)
 

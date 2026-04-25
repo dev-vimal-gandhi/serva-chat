@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package com.servalabs.chat.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Consumer;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.profiles.ProfileName;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.profiles.ProfileName;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import android.content.Context;
 
@@ -9,24 +9,24 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.components.transfercontrols.TransferControlView;
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.GroupReceiptTable;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.components.transfercontrols.TransferControlView;
+import com.servalabs.chat.conversation.ConversationMessage.ConversationMessageFactory;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.database.GroupReceiptTable;
+import com.servalabs.chat.database.GroupTable;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.NoSuchMessageException;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.documents.IdentityKeyMismatch;
+import com.servalabs.chat.database.documents.NetworkFailure;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.whispersystems.signalservice.api.push.DistributionId;
 
 import java.util.LinkedList;

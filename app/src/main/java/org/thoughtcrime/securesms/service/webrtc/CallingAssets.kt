@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import android.content.Context
 import okio.IOException
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.s3.S3
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.s3.S3
 import java.io.File
 import java.net.URI
 import java.security.MessageDigest

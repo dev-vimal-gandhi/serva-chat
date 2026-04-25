@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 
@@ -23,8 +23,8 @@ import androidx.annotation.NonNull;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.ui.compose.SignalIcons;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.registration.ui.RegistrationActivity;
 
 import java.util.Objects;
 

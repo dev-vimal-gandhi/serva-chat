@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.events
+package com.servalabs.chat.events
 
 import com.annimon.stream.OptionalLong
 import org.signal.ringrtc.CallManager.CallEndReason
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.CallLinkDisconnectReason
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink
+import com.servalabs.chat.events.CallParticipant.Companion.createLocal
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.CallLinkDisconnectReason
+import com.servalabs.chat.service.webrtc.PendingParticipantCollection
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 class WebRtcViewModel(state: WebRtcServiceState) {

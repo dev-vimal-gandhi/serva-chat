@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package com.servalabs.chat.reactions;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.util.AvatarUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.badges.BadgeImageView;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.util.AvatarUtil;
 
 import java.util.Collections;
 import java.util.List;

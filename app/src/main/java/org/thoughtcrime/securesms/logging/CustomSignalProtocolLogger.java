@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logging;
+package com.servalabs.chat.logging;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.logging.SignalProtocolLogger;

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNull
 import org.junit.Test
-import org.thoughtcrime.securesms.util.UsernameUtil.checkDiscriminator
-import org.thoughtcrime.securesms.util.UsernameUtil.checkNickname
+import com.servalabs.chat.util.UsernameUtil.checkDiscriminator
+import com.servalabs.chat.util.UsernameUtil.checkNickname
 
 class UsernameUtilTest {
   @Test

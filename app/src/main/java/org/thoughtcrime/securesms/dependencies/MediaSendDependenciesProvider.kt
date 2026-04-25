@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import org.signal.mediasend.MediaSendDependencies
 import org.signal.mediasend.MediaSendRepository
 import org.signal.mediasend.preupload.PreUploadRepository
-import org.thoughtcrime.securesms.mediasend.v3.MediaSendV3PreUploadRepository
-import org.thoughtcrime.securesms.mediasend.v3.MediaSendV3Repository
+import com.servalabs.chat.mediasend.v3.MediaSendV3PreUploadRepository
+import com.servalabs.chat.mediasend.v3.MediaSendV3Repository
 
 object MediaSendDependenciesProvider : MediaSendDependencies.Provider {
   override fun provideMediaSendRepository(): MediaSendRepository = MediaSendV3Repository

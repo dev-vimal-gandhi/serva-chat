@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc.state;
+package com.servalabs.chat.service.webrtc.state;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.ringrtc.CallId;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.WebRtcActionProcessor;
+import com.servalabs.chat.ringrtc.RemotePeer;
+import com.servalabs.chat.service.webrtc.WebRtcActionProcessor;
 
 import java.util.HashMap;
 import java.util.Map;

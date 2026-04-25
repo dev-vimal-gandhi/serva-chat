@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package com.servalabs.chat.components.settings.app.notifications
 
 import android.content.ActivityNotFoundException
 import android.media.Ringtone
@@ -61,21 +61,21 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.PromptBatterySaverDialogFragment
-import org.thoughtcrime.securesms.components.settings.app.routes.AppSettingsRoute
-import org.thoughtcrime.securesms.components.settings.app.routes.AppSettingsRouter
-import org.thoughtcrime.securesms.components.settings.models.Banner
-import org.thoughtcrime.securesms.conversation.v2.registerForLifecycle
-import org.thoughtcrime.securesms.events.PushServiceEvent
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.NotificationDeliveryMethod
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.TurnOnNotificationsBottomSheet
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.RingtoneUtil
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.components.PromptBatterySaverDialogFragment
+import com.servalabs.chat.components.settings.app.routes.AppSettingsRoute
+import com.servalabs.chat.components.settings.app.routes.AppSettingsRouter
+import com.servalabs.chat.components.settings.models.Banner
+import com.servalabs.chat.conversation.v2.registerForLifecycle
+import com.servalabs.chat.events.PushServiceEvent
+import com.servalabs.chat.keyvalue.SettingsValues.NotificationDeliveryMethod
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.TurnOnNotificationsBottomSheet
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.RingtoneUtil
+import com.servalabs.chat.util.SecurePreferenceManager
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.viewModel
 
 class NotificationsSettingsFragment : ComposeFragment() {
 

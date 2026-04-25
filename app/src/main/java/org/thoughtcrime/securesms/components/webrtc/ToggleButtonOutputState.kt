@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package com.servalabs.chat.components.webrtc
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -6,7 +6,7 @@ import androidx.compose.runtime.setValue
 import kotlin.math.min
 
 /**
- * This holds UI state for [org.thoughtcrime.securesms.components.webrtc.v2.CallAudioToggleButton]
+ * This holds UI state for [com.servalabs.chat.components.webrtc.v2.CallAudioToggleButton]
  */
 class ToggleButtonOutputState {
   private val availableOutputs: LinkedHashSet<WebRtcAudioOutput> = linkedSetOf(WebRtcAudioOutput.SPEAKER)

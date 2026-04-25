@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice.preparedevice
+package com.servalabs.chat.registration.olddevice.preparedevice
 
 /**
  * State for the PrepareDevice screen shown during quick restore flow.

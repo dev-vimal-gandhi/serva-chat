@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -9,14 +9,14 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.SimpleEmojiTextView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.SimpleEmojiTextView;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ContextUtil;
+import com.servalabs.chat.util.DrawableUtil;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.SpanUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 public class FromTextView extends SimpleEmojiTextView {
 

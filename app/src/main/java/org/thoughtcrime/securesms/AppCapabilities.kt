@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package com.servalabs.chat
 
 import org.whispersystems.signalservice.api.account.AccountAttributes
 

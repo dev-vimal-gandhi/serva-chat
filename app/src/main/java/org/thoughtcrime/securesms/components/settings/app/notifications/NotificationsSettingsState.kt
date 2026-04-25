@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package com.servalabs.chat.components.settings.app.notifications
 
 import android.net.Uri
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.NotificationDeliveryMethod
+import com.servalabs.chat.keyvalue.SettingsValues.NotificationDeliveryMethod
 
 data class NotificationsSettingsState(
   val messageNotificationsState: MessageNotificationsState,

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package com.servalabs.chat.crypto.storage;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.whispersystems.signalservice.api.SignalServiceDataStore;
 import org.signal.core.models.ServiceId;
 

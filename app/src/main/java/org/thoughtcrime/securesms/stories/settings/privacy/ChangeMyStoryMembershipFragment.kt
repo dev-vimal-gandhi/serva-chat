@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package com.servalabs.chat.stories.settings.privacy
 
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.stories.settings.select.BaseStoryRecipientSelectionFragment
 
 abstract class ChangeMyStoryMembershipFragment : BaseStoryRecipientSelectionFragment() {
   override val actionButtonLabel: Int = R.string.HideStoryFromFragment__done

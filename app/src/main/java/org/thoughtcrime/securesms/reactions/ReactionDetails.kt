@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.reactions
+package com.servalabs.chat.reactions
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * A UI model for a reaction in the [ReactionsBottomSheetDialogFragment]

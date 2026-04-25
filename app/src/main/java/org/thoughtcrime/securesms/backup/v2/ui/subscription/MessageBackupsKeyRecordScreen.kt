@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import android.content.Context
 import androidx.activity.compose.BackHandler
@@ -58,14 +58,14 @@ import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeySaveState
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.storage.AndroidCredentialRepository
-import org.thoughtcrime.securesms.util.storage.CredentialManagerError
-import org.thoughtcrime.securesms.util.storage.CredentialManagerResult
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeySaveState
+import com.servalabs.chat.fonts.MonoTypeface
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.storage.AndroidCredentialRepository
+import com.servalabs.chat.util.storage.CredentialManagerError
+import com.servalabs.chat.util.storage.CredentialManagerResult
 import org.signal.core.ui.R as CoreUiR
 
 private const val CLIPBOARD_TIMEOUT_SECONDS = 60

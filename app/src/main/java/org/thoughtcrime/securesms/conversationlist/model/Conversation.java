@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package com.servalabs.chat.conversationlist.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import com.servalabs.chat.database.model.ThreadRecord;
 
 public class Conversation {
   private final ThreadRecord threadRecord;

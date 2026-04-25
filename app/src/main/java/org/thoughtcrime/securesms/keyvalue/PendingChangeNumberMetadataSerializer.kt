@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import org.signal.core.util.ByteSerializer
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
+import com.servalabs.chat.database.model.databaseprotos.PendingChangeNumberMetadata
 
 /**
  * Serialize [PendingChangeNumberMetadata]

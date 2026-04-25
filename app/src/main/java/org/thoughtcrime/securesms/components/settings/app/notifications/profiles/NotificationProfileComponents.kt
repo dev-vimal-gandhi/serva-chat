@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -32,14 +32,14 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.emoji.Emojifier
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageMedium
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.rememberRecipientField
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.emoji.Emojifier
+import com.servalabs.chat.components.settings.app.subscription.BadgeImageMedium
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.rememberRecipientField
 
 @Composable
 fun NotificationProfileAddMembers(

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.account
+package com.servalabs.chat.components.settings.app.account
 
 import android.app.Application
 import androidx.compose.ui.test.assertHasClickAction
@@ -22,7 +22,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
+import com.servalabs.chat.lock.v2.PinKeyboardType
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

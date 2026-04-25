@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.database.model.databaseprotos.GroupCallUpdateDetails
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.webrtc.CallLinkPeekInfo
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 
 /**
  * A row to be displayed in the call log

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.util.MediaUtil;
 
 /**
  * Slide used for attachments with contentType {@link MediaUtil#VIEW_ONCE}.

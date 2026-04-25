@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package com.servalabs.chat.audio;
 
 import android.media.MediaRecorder;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.help;
+package com.servalabs.chat.help;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -26,13 +26,13 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.ResourceUtil;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiImageView;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.SupportEmailUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.util.text.AfterTextChanged;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package com.servalabs.chat.wallpaper;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Parcel;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper;
 
 import java.util.Objects;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package com.servalabs.chat.components.settings.app.usernamelinks
 
 sealed class QrCodeState {
   /** QR code data exists and is available. */

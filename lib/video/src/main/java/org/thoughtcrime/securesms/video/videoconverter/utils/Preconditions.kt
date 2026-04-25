@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter.utils
+package com.servalabs.chat.video.videoconverter.utils
 
 object Preconditions {
   @JvmStatic

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.donor
+package com.servalabs.chat.components.settings.app.internal.donor
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,14 +10,14 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBoostBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getSubscriptionLevels
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
+import com.servalabs.chat.components.settings.app.subscription.getBoostBadges
+import com.servalabs.chat.components.settings.app.subscription.getGiftBadges
+import com.servalabs.chat.components.settings.app.subscription.getSubscriptionLevels
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import java.util.Locale
 import kotlin.concurrent.withLock

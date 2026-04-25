@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package com.servalabs.chat.components.settings.app.chats
 
 import android.net.Uri
 import androidx.compose.foundation.layout.padding
@@ -24,13 +24,13 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.Texts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.isIdle
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupCreationProgressRow
-import org.thoughtcrime.securesms.components.compose.rememberBiometricsAuthentication
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.isIdle
+import com.servalabs.chat.backup.v2.ui.status.BackupCreationProgressRow
+import com.servalabs.chat.components.compose.rememberBiometricsAuthentication
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Displays a list of chats settings options to the user, including

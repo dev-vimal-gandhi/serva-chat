@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import android.content.Context
-import im.molly.app.base.ApkInfo
+import com.servalabs.chat.base.ApkInfo
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
@@ -15,14 +15,14 @@ import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.ecc.ECPrivateKey
 import org.signal.libsignal.protocol.util.Medium
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.RegisteredConstraint
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.crypto.storage.PreKeyMetadataStore
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.RegisteredConstraint
+import com.servalabs.chat.jobs.PreKeysSyncJob
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.SecurePreferenceManager
 import org.whispersystems.signalservice.api.push.ServiceIds
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents

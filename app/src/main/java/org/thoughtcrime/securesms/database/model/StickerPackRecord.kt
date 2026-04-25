@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 import android.net.Uri
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import com.servalabs.chat.stickers.StickerUrl
 import java.util.Optional
 
 /**
- * Represents a record for a sticker pack in the [org.thoughtcrime.securesms.database.StickerTable].
+ * Represents a record for a sticker pack in the [com.servalabs.chat.database.StickerTable].
  */
 data class StickerPackRecord(
   @JvmField val packId: String,

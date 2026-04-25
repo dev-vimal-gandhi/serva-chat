@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.Manifest
 import android.app.Activity
@@ -19,19 +19,19 @@ import androidx.fragment.app.Fragment
 import org.signal.core.models.media.Media
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.location.SignalPlace
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactShareEditActivity
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivityResultContracts.Callbacks
-import org.thoughtcrime.securesms.giph.ui.GiphyActivity
-import org.thoughtcrime.securesms.maps.PlacePickerActivity
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.components.location.SignalPlace
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.contactshare.ContactShareEditActivity
+import com.servalabs.chat.conversation.MessageSendType
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.v2.ConversationActivityResultContracts.Callbacks
+import com.servalabs.chat.giph.ui.GiphyActivity
+import com.servalabs.chat.maps.PlacePickerActivity
+import com.servalabs.chat.mediasend.MediaSendActivityResult
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.mediasend.v2.MediaSelectionActivity
+import com.servalabs.chat.recipients.RecipientId
 import org.signal.core.ui.R as CoreUiR
 
 /**

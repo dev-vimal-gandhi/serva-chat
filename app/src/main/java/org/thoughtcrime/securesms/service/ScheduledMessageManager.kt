@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.app.Application
 import android.app.PendingIntent
@@ -7,13 +7,13 @@ import android.content.Intent
 import androidx.annotation.WorkerThread
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.IndividualSendJob
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.IndividualSendJob
+import com.servalabs.chat.jobs.PushGroupSendJob
+import com.servalabs.chat.recipients.RecipientId
 import kotlin.time.Duration.Companion.seconds
 
 /**

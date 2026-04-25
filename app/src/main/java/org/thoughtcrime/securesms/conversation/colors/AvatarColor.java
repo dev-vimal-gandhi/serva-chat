@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors;
+package com.servalabs.chat.conversation.colors;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;

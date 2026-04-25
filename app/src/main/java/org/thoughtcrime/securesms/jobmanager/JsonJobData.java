@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package com.servalabs.chat.jobmanager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.Base64;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

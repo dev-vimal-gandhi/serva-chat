@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
-import org.thoughtcrime.securesms.service.TimedEventManager;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.service.TimedEventManager;
 
 /**
  * Manages clearing removable message content after they're opened.

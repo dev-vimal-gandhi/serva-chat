@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package com.servalabs.chat.profiles.edit.pnp
 
 import io.reactivex.rxjava3.core.Completable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ProfileUploadJob
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.storage.StorageSyncHelper
 
 /**
  * Manages the current phone-number listing state.

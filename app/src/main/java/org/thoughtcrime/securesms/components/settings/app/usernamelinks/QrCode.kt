@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks
+package com.servalabs.chat.components.settings.app.usernamelinks
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.size
@@ -21,7 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import kotlin.math.ceil
 import kotlin.math.floor
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.app.Application
 import android.content.pm.PackageManager
@@ -28,10 +28,10 @@ import org.robolectric.annotation.Config
 import org.robolectric.util.ReflectionHelpers
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.AudioConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.SystemOutLogger
+import com.servalabs.chat.util.RemoteConfig
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

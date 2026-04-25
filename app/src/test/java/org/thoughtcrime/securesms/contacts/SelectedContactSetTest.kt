@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts
+package com.servalabs.chat.contacts
 
 import assertk.assertThat
 import assertk.assertions.containsExactly
@@ -6,7 +6,7 @@ import assertk.assertions.isEqualTo
 import assertk.assertions.isFalse
 import assertk.assertions.isTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 class SelectedContactSetTest {
   private val selectedContactSet = SelectedContactSet()

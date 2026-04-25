@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Gizliliğinizi koruyun.\nHer iletide kendiniz olun.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal kâr amacı gütmeyen bir kuruluştur\nŞartlar ve Gizlilik Politikası</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat kâr amacı gütmeyen bir kuruluştur\nŞartlar ve Gizlilik Politikası</string>
     <string name="RegistrationActivity_continue">Devam et</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Geri yükle veya aktar</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">İzinleri etkinleştir</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Signal, tanıdığın kişilere mesaj gönderebilmen için bu izinleri talep edecek. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Serva Chat, tanıdığın kişilere mesaj gönderebilmen için bu izinleri talep edecek. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Şimdi değil</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kişiler</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Tanıdığın kişileri bul. Kişilerin şifrelendi ve Signal hizmetinde görünmüyor.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Tanıdığın kişileri bul. Kişilerin şifrelendi ve Serva Chat hizmetinde görünmüyor.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefon çağrıları</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Eski telefonum var</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Hızla başlamak için mevcut Signal hesabından bir kare kod tara</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Hızla başlamak için mevcut Serva Chat hesabından bir kare kod tara</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Eski telefonum yanımda değil</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Ya da Signal\'ı aynı cihaza yeniden yüklüyorsun</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Ya da Serva Chat\'ı aynı cihaza yeniden yüklüyorsun</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Mesaj geçmişini ve hesap verilerini nasıl geri yüklemek istediğini seç.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal Yedeklemelerinden</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat Yedeklemelerinden</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ücretsiz veya ücretli Signal Yedekleme planın</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ücretsiz veya ücretli Serva Chat Yedekleme planın</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Cihazda yedeklemeyi geri yükle</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Yedekleme bulunamadı</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Seçilen klasörde Signal yedeklemesi bulunamadı. Lütfen farklı bir klasör dene.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Seçilen klasörde Serva Chat yedeklemesi bulunamadı. Lütfen farklı bir klasör dene.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Farklı bir klasör dene</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Hesabını bağla</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Halen Signal\'da değil misin?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Halen Serva Chat\'da değil misin?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Hesap oluştur</string>
 </resources>

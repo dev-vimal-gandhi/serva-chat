@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.net.Uri
 import android.os.Parcel
 import androidx.core.os.ParcelCompat
 import org.signal.blurhash.BlurHash
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.ParcelUtil
+import com.servalabs.chat.audio.AudioHash
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.util.ParcelUtil
 import java.util.UUID
 
 class DatabaseAttachment : Attachment {

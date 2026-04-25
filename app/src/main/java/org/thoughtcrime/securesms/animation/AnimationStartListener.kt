@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation
+package com.servalabs.chat.animation
 
 import android.animation.Animator
 

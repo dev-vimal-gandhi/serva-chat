@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.clicklisteners
+package com.servalabs.chat.conversation.clicklisteners
 
 import android.view.View
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.mms.SlidesClickedListener
-import org.thoughtcrime.securesms.sms.MessageSender
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.mms.Slide
+import com.servalabs.chat.mms.SlidesClickedListener
+import com.servalabs.chat.sms.MessageSender
 
 class ResendClickListener(private val messageRecord: MessageRecord) : SlidesClickedListener {
   override fun onClick(v: View?, slides: MutableList<Slide>?) {

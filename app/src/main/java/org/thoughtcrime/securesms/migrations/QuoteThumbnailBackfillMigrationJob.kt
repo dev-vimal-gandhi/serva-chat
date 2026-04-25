@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.DATA_FILE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.QUOTE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.QUOTE_PENDING_TRANSCODE
-import org.thoughtcrime.securesms.database.AttachmentTable.Companion.TABLE_NAME
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.QuoteThumbnailBackfillJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.AttachmentTable.Companion.DATA_FILE
+import com.servalabs.chat.database.AttachmentTable.Companion.QUOTE
+import com.servalabs.chat.database.AttachmentTable.Companion.QUOTE_PENDING_TRANSCODE
+import com.servalabs.chat.database.AttachmentTable.Companion.TABLE_NAME
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.QuoteThumbnailBackfillJob
+import com.servalabs.chat.keyvalue.SignalStore
 import java.lang.Exception
 
 /**

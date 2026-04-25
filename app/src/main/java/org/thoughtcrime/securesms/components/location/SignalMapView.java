@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.location;
+package com.servalabs.chat.components.location;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,9 +19,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SettableFuture;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.concurrent.ExecutionException;
 

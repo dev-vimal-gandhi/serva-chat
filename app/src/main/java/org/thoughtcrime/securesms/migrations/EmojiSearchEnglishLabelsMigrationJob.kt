@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.EmojiSearchIndexDownloadJob
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Schedules job to download both the localized and English emoji search indices, ensuring that emoji search data is available in the user's preferred

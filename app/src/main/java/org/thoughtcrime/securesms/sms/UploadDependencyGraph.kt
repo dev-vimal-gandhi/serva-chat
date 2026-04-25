@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.sms
+package com.servalabs.chat.sms
 
 import androidx.annotation.WorkerThread
 import org.signal.core.models.media.TransformProperties
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AttachmentCompressionJob
-import org.thoughtcrime.securesms.jobs.AttachmentCopyJob
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob
-import org.thoughtcrime.securesms.mms.OutgoingMessage
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.attachments.UriAttachment
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.JobManager
+import com.servalabs.chat.jobs.AttachmentCompressionJob
+import com.servalabs.chat.jobs.AttachmentCopyJob
+import com.servalabs.chat.jobs.AttachmentUploadJob
+import com.servalabs.chat.mms.OutgoingMessage
 
 /**
  * Helper alias for working with JobIds.

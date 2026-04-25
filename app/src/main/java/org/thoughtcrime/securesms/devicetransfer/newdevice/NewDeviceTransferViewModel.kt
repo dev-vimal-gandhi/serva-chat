@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.devicetransfer.newdevice
+package com.servalabs.chat.devicetransfer.newdevice
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -11,13 +11,13 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ReclaimUsernameAndLinkJob
-import org.thoughtcrime.securesms.keyvalue.Completed
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
+import com.servalabs.chat.database.model.databaseprotos.RestoreDecisionState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ReclaimUsernameAndLinkJob
+import com.servalabs.chat.keyvalue.Completed
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.util.RegistrationUtil
 
 class NewDeviceTransferViewModel : ViewModel() {
   fun onRestoreComplete(context: Context, onComplete: () -> Unit) {

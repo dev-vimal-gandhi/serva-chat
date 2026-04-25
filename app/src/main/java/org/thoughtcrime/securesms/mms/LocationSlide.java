@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.components.location.SignalPlace;
+import com.servalabs.chat.components.location.SignalPlace;
 
 import java.util.Optional;
 

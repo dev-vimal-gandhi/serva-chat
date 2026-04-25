@@ -16,7 +16,7 @@
  * This file has been modified by Signal.
  */
 
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.media.MediaCodecInfo;
 import android.media.MediaCodecList;
@@ -30,11 +30,11 @@ import androidx.annotation.StringDef;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
-import org.thoughtcrime.securesms.video.videoconverter.exceptions.EncodingException;
-import org.thoughtcrime.securesms.video.videoconverter.muxer.StreamingMuxer;
-import org.thoughtcrime.securesms.video.videoconverter.utils.MediaCodecCompat;
+import com.servalabs.chat.video.interfaces.MediaInput;
+import com.servalabs.chat.video.interfaces.Muxer;
+import com.servalabs.chat.video.videoconverter.exceptions.EncodingException;
+import com.servalabs.chat.video.videoconverter.muxer.StreamingMuxer;
+import com.servalabs.chat.video.videoconverter.utils.MediaCodecCompat;
 
 import java.io.File;
 import java.io.FileDescriptor;

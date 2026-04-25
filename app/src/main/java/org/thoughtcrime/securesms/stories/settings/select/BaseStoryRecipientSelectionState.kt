@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.settings.select
+package com.servalabs.chat.stories.settings.select
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.recipients.RecipientId
 
 data class BaseStoryRecipientSelectionState(
   val distributionListId: DistributionListId?,

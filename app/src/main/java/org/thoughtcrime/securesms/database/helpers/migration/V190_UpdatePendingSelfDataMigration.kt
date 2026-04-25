@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.models.ServiceId
@@ -8,13 +8,13 @@ import org.signal.core.util.readToSingleObject
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.database.KeyValueDatabase
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
+import com.servalabs.chat.database.KeyValueDatabase
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.JsonUtils
+import com.servalabs.chat.util.SecurePreferenceManager
 import java.io.IOException
 
 /**

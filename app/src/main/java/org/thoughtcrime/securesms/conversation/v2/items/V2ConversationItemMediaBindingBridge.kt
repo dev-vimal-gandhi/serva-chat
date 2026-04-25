@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.widget.Space
 import org.signal.core.ui.view.Stub
-import org.thoughtcrime.securesms.components.QuoteView
-import org.thoughtcrime.securesms.databinding.V2ConversationItemMediaIncomingBinding
-import org.thoughtcrime.securesms.databinding.V2ConversationItemMediaOutgoingBinding
+import com.servalabs.chat.components.QuoteView
+import com.servalabs.chat.databinding.V2ConversationItemMediaIncomingBinding
+import com.servalabs.chat.databinding.V2ConversationItemMediaOutgoingBinding
 
 /**
  * Pass-through interface for bridging incoming and outgoing media message views.

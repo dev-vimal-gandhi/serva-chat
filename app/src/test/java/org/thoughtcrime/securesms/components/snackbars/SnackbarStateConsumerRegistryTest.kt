@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.snackbars
+package com.servalabs.chat.components.snackbars
 
 import androidx.core.util.Consumer
 import androidx.lifecycle.Lifecycle

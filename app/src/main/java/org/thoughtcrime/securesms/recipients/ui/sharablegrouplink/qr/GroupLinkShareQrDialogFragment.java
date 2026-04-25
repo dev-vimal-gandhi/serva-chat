@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.qr;
+package com.servalabs.chat.recipients.ui.sharablegrouplink.qr;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,11 +19,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.qr.QrView;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.qr.QrCodeUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.qr.QrView;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.qr.QrCodeUtil;
 import org.signal.core.ui.BottomSheetUtil;
 
 import java.io.ByteArrayOutputStream;

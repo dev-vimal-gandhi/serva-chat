@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.landing
+package com.servalabs.chat.stories.landing
 
 import android.graphics.Color
 import android.graphics.drawable.Drawable
@@ -16,21 +16,21 @@ import com.bumptech.glide.request.target.Target
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.logging.Log
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.dialogs.StoryContextMenu
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.view.AvatarView
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.StoryTextPostModel
+import com.servalabs.chat.stories.dialogs.StoryContextMenu
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers.preview;
+package com.servalabs.chat.stickers.preview;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,13 +11,13 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.StickerTable;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.StickerTable;
+import com.servalabs.chat.database.model.StickerPackRecord;
+import com.servalabs.chat.database.model.StickerRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
 import org.signal.core.util.Hex;
-import org.thoughtcrime.securesms.stickers.StickerManifest;
+import com.servalabs.chat.stickers.StickerManifest;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.messages.SignalServiceStickerManifest;
 

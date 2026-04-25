@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.content.Context
 import android.content.pm.PackageManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob
-import org.thoughtcrime.securesms.jobs.RetrieveRemoteAnnouncementsJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.jobs.RemoteConfigRefreshJob
+import com.servalabs.chat.jobs.RetrieveRemoteAnnouncementsJob
+import com.servalabs.chat.keyvalue.SignalStore
 import java.time.Duration
 
 object VersionTracker {

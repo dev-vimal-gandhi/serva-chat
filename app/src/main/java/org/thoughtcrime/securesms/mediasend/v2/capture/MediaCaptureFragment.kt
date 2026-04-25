@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package com.servalabs.chat.mediasend.v2.capture
 
 import android.os.Bundle
 import android.view.View
@@ -13,17 +13,17 @@ import org.signal.core.models.media.Media
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.mediasend.CameraFragment
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionNavigator
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.registration.olddevice.QuickTransferOldDeviceActivity
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.mediasend.CameraFragment
+import com.servalabs.chat.mediasend.v2.HudCommand
+import com.servalabs.chat.mediasend.v2.MediaSelectionNavigator
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.mms.MediaConstraints
+import com.servalabs.chat.registration.olddevice.QuickTransferOldDeviceActivity
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.io.FileDescriptor
 import java.util.Optional
 import java.util.concurrent.TimeUnit

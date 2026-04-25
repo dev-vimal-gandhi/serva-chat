@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * This exists as a temporary shim to improve the callsites where we'll be setting the expiration timer.

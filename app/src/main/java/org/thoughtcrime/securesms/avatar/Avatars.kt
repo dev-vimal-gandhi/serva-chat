@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.avatar
+package com.servalabs.chat.avatar
 
 import android.content.Context
 import android.graphics.Paint
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.annotation.Px
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.colors.AvatarColor
 import kotlin.math.abs
 import kotlin.math.min
 

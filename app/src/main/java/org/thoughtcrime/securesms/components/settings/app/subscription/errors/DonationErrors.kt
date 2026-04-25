@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package com.servalabs.chat.components.settings.app.subscription.errors
 
 import androidx.annotation.StringRes
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.StripeDeclineCode
 import org.signal.donations.StripeFailureCode
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 @StringRes
 fun StripeFailureCode.mapToErrorStringResource(inAppPaymentType: InAppPaymentType): Int {

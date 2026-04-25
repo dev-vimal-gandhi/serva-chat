@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package com.servalabs.chat.delete;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -28,13 +28,13 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.i18n.phonenumbers.AsYouTypeFormatter;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LabeledEditText;
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.LabeledEditText;
+import com.servalabs.chat.registration.ui.countrycode.Country;
+import com.servalabs.chat.util.SpanUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.navigation.SafeNavigation;
+import com.servalabs.chat.util.text.AfterTextChanged;
 
 import java.util.Optional;
 

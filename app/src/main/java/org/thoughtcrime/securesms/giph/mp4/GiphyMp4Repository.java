@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package com.servalabs.chat.giph.mp4;
 
 import android.net.Uri;
 
@@ -7,11 +7,11 @@ import androidx.annotation.WorkerThread;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.giph.model.GiphyImage;
+import com.servalabs.chat.net.ContentProxySelector;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.concurrent.Executor;

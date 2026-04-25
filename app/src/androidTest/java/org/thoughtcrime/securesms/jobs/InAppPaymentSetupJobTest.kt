@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.net.Uri
 import assertk.assertThat
@@ -9,13 +9,13 @@ import org.junit.Test
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSetupJobData
-import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSourceData
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.protos.InAppPaymentSetupJobData
+import com.servalabs.chat.jobs.protos.InAppPaymentSourceData
+import com.servalabs.chat.testing.SignalDatabaseRule
 
 /**
  * Core test logic for [InAppPaymentSetupJob]

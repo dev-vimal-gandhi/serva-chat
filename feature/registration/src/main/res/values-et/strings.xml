@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Võta privaatsus endaga kaasa.\nJää iga sõnumiga iseendaks.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal on mittetulundusühing\nTingimused ja privaatsuseeskirjad</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat on mittetulundusühing\nTingimused ja privaatsuseeskirjad</string>
     <string name="RegistrationActivity_continue">Jätka</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Taasta või edasta</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Õiguste lubamine</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Selleks, et sul oleks lihtsam tuttavatele sõnumeid saata, küsib Signal järgmisi nõusolekuid. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Selleks, et sul oleks lihtsam tuttavatele sõnumeid saata, küsib Serva Chat järgmisi nõusolekuid. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Mitte praegu</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kontaktid</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Leia tuttavaid. Sinu kontaktid on krüptitud ega ole Signali teenusele nähtavad.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Leia tuttavaid. Sinu kontaktid on krüptitud ega ole Serva Chati teenusele nähtavad.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefonikõned</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Mul on mu vana telefon alles</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Kiiresti alustamiseks skanni oma praeguse Signali konto alt QR-kood</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Kiiresti alustamiseks skanni oma praeguse Serva Chati konto alt QR-kood</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Mul ei ole mu vana telefoni</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Või paigaldad Signalit uuesti samasse seadmesse</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Või paigaldad Serva Chatit uuesti samasse seadmesse</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Vali, kuidas soovid oma sõnumiajalugu ja kontoandmeid taastada.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signali varukoopiatest</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chati varukoopiatest</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Sinu tasuta või tasuline Signali varundamisplaan</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Sinu tasuta või tasuline Serva Chati varundamisplaan</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Seadmesisese varukoopia taastamine</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Varukoopiat ei leitud</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Valitud kaustast ei leitud ühtegi Signali varukoopiat. Palun proovi mõnda teist kausta.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Valitud kaustast ei leitud ühtegi Serva Chati varukoopiat. Palun proovi mõnda teist kausta.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Proovi mõnda teist kausta</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Seo oma konto</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Ei ole veel Signalis?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Ei ole veel Serva Chatis?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Loo konto</string>
 </resources>

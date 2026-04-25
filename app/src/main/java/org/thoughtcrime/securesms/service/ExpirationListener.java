@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package com.servalabs.chat.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -6,8 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.ServiceUtil;
 
 public class ExpirationListener extends ExportedBroadcastReceiver {
 

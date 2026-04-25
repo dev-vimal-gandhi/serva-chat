@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.models
+package com.servalabs.chat.components.settings.models
 
 import android.view.View
 import android.widget.ViewSwitcher
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.components.settings.PreferenceViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.components.settings.PreferenceViewHolder
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 
 /**
  * Switch that will perform a long-running async operation (normally network) that requires a

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
@@ -11,11 +11,11 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Stream;
 import com.annimon.stream.function.Function;
 
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.Mention;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
 import org.signal.core.models.ServiceId;
 
 import java.util.ArrayList;

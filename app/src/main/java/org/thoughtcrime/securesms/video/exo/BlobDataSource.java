@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package com.servalabs.chat.video.exo;
 
 
 import android.content.Context;
@@ -14,7 +14,7 @@ import androidx.media3.datasource.DataSource;
 import androidx.media3.datasource.DataSpec;
 import androidx.media3.datasource.TransferListener;
 
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import com.servalabs.chat.providers.BlobProvider;
 
 import java.io.EOFException;
 import java.io.IOException;

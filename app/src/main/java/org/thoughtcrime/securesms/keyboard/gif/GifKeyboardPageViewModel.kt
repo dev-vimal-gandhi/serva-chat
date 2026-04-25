@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package com.servalabs.chat.keyboard.gif
 
 import androidx.lifecycle.ViewModel
 

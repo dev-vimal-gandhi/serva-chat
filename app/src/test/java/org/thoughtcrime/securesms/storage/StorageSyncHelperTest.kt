@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import io.mockk.every
 import io.mockk.mockkObject
@@ -13,10 +13,10 @@ import org.junit.Before
 import org.junit.Test
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.ACI.Companion.parseOrThrow
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.findIdDifference
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.profileKeyChanged
-import org.thoughtcrime.securesms.testutil.TestHelpers
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.storage.StorageSyncHelper.findIdDifference
+import com.servalabs.chat.storage.StorageSyncHelper.profileKeyChanged
+import com.servalabs.chat.testutil.TestHelpers
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.storage.SignalContactRecord
 import org.whispersystems.signalservice.api.storage.SignalRecord
 import org.whispersystems.signalservice.api.storage.StorageId

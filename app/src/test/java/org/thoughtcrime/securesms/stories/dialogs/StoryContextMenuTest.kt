@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package com.servalabs.chat.stories.dialogs
 
 import android.app.Application
 import android.content.Context
@@ -18,15 +18,15 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.Base64
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.ImageSlide
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.database.FakeMessageRecords
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mms.ImageSlide
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.mms.SlideDeck
+import com.servalabs.chat.util.MediaUtil
 import java.util.Optional
 
 @RunWith(RobolectricTestRunner::class)

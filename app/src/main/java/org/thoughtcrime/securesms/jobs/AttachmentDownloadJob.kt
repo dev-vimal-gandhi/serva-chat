@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import androidx.annotation.MainThread
 import okio.Source
@@ -14,29 +14,29 @@ import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.InvalidMacException
 import org.signal.libsignal.protocol.InvalidMessageException
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.InvalidAttachmentException
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.PartProgressEvent
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.Job.Parameters
-import org.thoughtcrime.securesms.jobmanager.JobLogger.format
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.NotInCallConstraint
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.MmsException
-import org.thoughtcrime.securesms.notifications.v2.ConversationId.Companion.forConversation
-import org.thoughtcrime.securesms.s3.S3
-import org.thoughtcrime.securesms.transport.RetryLaterException
-import org.thoughtcrime.securesms.util.AttachmentUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.Cdn
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.attachments.InvalidAttachmentException
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.PartProgressEvent
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.Job.Parameters
+import com.servalabs.chat.jobmanager.JobLogger.format
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobmanager.impl.NotInCallConstraint
+import com.servalabs.chat.jobmanager.persistence.JobSpec
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.MmsException
+import com.servalabs.chat.notifications.v2.ConversationId.Companion.forConversation
+import com.servalabs.chat.s3.S3
+import com.servalabs.chat.transport.RetryLaterException
+import com.servalabs.chat.util.AttachmentUtil
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream.IntegrityCheck
 import org.whispersystems.signalservice.api.messages.AttachmentTransferProgress
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment

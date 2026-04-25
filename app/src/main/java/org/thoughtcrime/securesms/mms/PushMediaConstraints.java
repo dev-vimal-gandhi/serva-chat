@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 import android.content.Context;
 
@@ -7,12 +7,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.video.TranscodingPreset;
-import org.thoughtcrime.securesms.video.videoconverter.utils.DeviceCapabilities;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.LocaleRemoteConfig;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.video.TranscodingPreset;
+import com.servalabs.chat.video.videoconverter.utils.DeviceCapabilities;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherStreamUtil;
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream;
 

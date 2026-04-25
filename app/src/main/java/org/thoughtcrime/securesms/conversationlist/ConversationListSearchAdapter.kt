@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package com.servalabs.chat.conversationlist
 
 import android.content.Context
 import android.view.View
@@ -6,17 +6,17 @@ import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.lifecycle.LifecycleOwner
 import com.bumptech.glide.RequestManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ArbitraryRepository
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchData
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversationlist.model.ConversationSet
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

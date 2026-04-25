@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.hardware.Sensor
 import android.hardware.SensorEvent
@@ -15,9 +15,9 @@ import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionCommand
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCompat
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.ServiceUtil
+import com.servalabs.chat.webrtc.audio.AudioManagerCompat
 import java.util.concurrent.TimeUnit
 
 private val TAG = Log.tag(VoiceNoteProximityWakeLockManager::class.java)

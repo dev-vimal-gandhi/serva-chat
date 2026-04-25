@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,18 +20,18 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.groups.ui.managegroup.dialogs.GroupDescriptionDialog;
-import org.thoughtcrime.securesms.groups.v2.GroupDescriptionUtil;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.AvatarImageView;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.conversation.ConversationIntents;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.groups.ui.managegroup.dialogs.GroupDescriptionDialog;
+import com.servalabs.chat.groups.v2.GroupDescriptionUtil;
+import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
 import org.signal.core.ui.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
+import com.servalabs.chat.util.LongClickMovementMethod;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 public final class GroupJoinBottomSheetDialogFragment extends BottomSheetDialogFragment {
 

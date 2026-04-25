@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.net.Uri
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.util.toOptional
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientCreator
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.database.model.ProfileAvatarFileDetails
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientCreator
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.wallpaper.ChatWallpaper
 import java.util.UUID
 import kotlin.random.Random
 

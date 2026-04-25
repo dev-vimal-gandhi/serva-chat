@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.ThrottledDebouncer
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.Executors
 import kotlin.time.Duration.Companion.seconds

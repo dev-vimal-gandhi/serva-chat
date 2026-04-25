@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package com.servalabs.chat.stories.settings.create
 
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.settings.select.BaseStoryRecipientSelectionFragment
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Allows user to select who will see the story they are creating

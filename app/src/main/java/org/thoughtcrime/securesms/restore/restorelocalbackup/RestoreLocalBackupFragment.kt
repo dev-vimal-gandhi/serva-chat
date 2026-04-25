@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup
+package com.servalabs.chat.restore.restorelocalbackup
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -30,22 +30,22 @@ import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.BackupEvent
-import org.thoughtcrime.securesms.backup.BackupPassphrase
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRestoreLocalBackupBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.restore.RestoreRepository
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.service.LocalBackupListener
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.ViewModelFactory
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.BackupEvent
+import com.servalabs.chat.backup.BackupPassphrase
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentRestoreLocalBackupBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.restore.RestoreActivity
+import com.servalabs.chat.restore.RestoreRepository
+import com.servalabs.chat.restore.RestoreViewModel
+import com.servalabs.chat.service.LocalBackupListener
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.ViewModelFactory
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

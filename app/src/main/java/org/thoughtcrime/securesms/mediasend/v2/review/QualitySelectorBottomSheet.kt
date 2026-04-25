@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v2.review
+package com.servalabs.chat.mediasend.v2.review
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Arrangement
@@ -30,9 +30,9 @@ import androidx.fragment.app.viewModels
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mms.SentMediaQuality
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.v2.MediaSelectionViewModel
+import com.servalabs.chat.mms.SentMediaQuality
 
 /**
  * Bottom sheet dialog to select the media quality (Standard vs. High) when sending media.

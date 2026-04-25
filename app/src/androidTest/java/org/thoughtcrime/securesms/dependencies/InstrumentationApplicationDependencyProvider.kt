@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.dependencies
+package com.servalabs.chat.dependencies
 
 import android.app.Application
 import io.mockk.mockk
 import io.mockk.spyk
 import org.signal.core.util.billing.BillingApi
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
-import org.thoughtcrime.securesms.recipients.LiveRecipientCache
+import com.servalabs.chat.push.SignalServiceNetworkAccess
+import com.servalabs.chat.recipients.LiveRecipientCache
 import org.whispersystems.signalservice.api.SignalServiceDataStore
 import org.whispersystems.signalservice.api.SignalServiceMessageSender
 import org.whispersystems.signalservice.api.account.AccountApi

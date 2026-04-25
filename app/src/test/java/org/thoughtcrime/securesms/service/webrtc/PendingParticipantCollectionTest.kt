@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import android.app.Application
 import org.junit.Assert.assertEquals
@@ -11,8 +11,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.RecipientDatabaseTestUtils
+import com.servalabs.chat.recipients.Recipient
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 

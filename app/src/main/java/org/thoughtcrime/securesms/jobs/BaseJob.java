@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.jobs;
+package com.servalabs.chat.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.jobmanager.JobManager.Chain;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.jobmanager.JobLogger;
+import com.servalabs.chat.jobmanager.JobManager.Chain;
+import com.servalabs.chat.jobmanager.impl.BackoffUtil;
+import com.servalabs.chat.util.RemoteConfig;
 
 public abstract class BaseJob extends MasterSecretJob {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.content.Context;
 
@@ -8,21 +8,21 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.ThreadTable;
+import com.servalabs.chat.database.model.GroupRecord;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.MultiDeviceViewedUpdateJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.mms.TextSlide;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientUtil;
+import com.servalabs.chat.util.MessageRecordUtil;
 import org.signal.core.models.ServiceId;
 
 import java.io.IOException;

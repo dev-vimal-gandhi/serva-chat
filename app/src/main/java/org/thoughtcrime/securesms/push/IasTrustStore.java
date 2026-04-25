@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.push;
+package com.servalabs.chat.push;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.InputStream;

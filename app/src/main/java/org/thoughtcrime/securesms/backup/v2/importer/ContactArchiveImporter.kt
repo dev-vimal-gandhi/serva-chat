@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import androidx.core.content.contentValuesOf
 import org.signal.archive.proto.Contact
@@ -14,17 +14,17 @@ import org.signal.core.util.insertInto
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.backup.v2.ImportSkips
+import com.servalabs.chat.backup.v2.util.toLocal
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.RecipientExtras
+import com.servalabs.chat.profiles.ProfileName
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.SignalE164Util
 
 /**
  * Handles the importing of [Contact] models into the local database.

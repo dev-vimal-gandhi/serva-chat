@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -30,20 +30,20 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.debuglogsviewer.DebugLogsViewer;
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ConversationSearchBottomBar;
-import org.thoughtcrime.securesms.components.ProgressCard;
-import org.thoughtcrime.securesms.components.SearchView;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.LongClickCopySpan;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
+import com.servalabs.chat.BaseActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ConversationSearchBottomBar;
+import com.servalabs.chat.components.ProgressCard;
+import com.servalabs.chat.components.SearchView;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.BackupUtil;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.LongClickCopySpan;
+import com.servalabs.chat.util.LongClickMovementMethod;
+import com.servalabs.chat.util.SupportEmailUtil;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package com.servalabs.chat.mediapreview
 
 import android.graphics.drawable.Drawable
 

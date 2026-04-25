@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.os.Bundle
 import androidx.core.view.WindowCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.v2.ConversationActivity
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Activity which encapsulates a conversation for a Bubble window.

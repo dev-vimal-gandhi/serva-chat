@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.graphics.Color
 import android.graphics.PorterDuff
@@ -29,39 +29,39 @@ import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.StringUtil
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.conversation.BodyBubbleLayoutTransition
-import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselectable
-import org.thoughtcrime.securesms.conversation.v2.computed.FormattedDate
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.InterceptableLongClickCopyLinkSpan
-import org.thoughtcrime.securesms.util.LongClickMovementMethod
-import org.thoughtcrime.securesms.util.MAX_BODY_DISPLAY_LENGTH
-import org.thoughtcrime.securesms.util.PlaceholderURLSpan
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.ProjectionList
-import org.thoughtcrime.securesms.util.SearchUtil
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.hasExtraText
-import org.thoughtcrime.securesms.util.hasNoBubble
-import org.thoughtcrime.securesms.util.isScheduled
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.mention.MentionAnnotation
+import com.servalabs.chat.conversation.BodyBubbleLayoutTransition
+import com.servalabs.chat.conversation.ConversationAdapterBridge
+import com.servalabs.chat.conversation.ConversationItemDisplayMode
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.mutiselect.Multiselect
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart
+import com.servalabs.chat.conversation.mutiselect.Multiselectable
+import com.servalabs.chat.conversation.v2.computed.FormattedDate
+import com.servalabs.chat.conversation.v2.data.ConversationMessageElement
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.InterceptableLongClickCopyLinkSpan
+import com.servalabs.chat.util.LongClickMovementMethod
+import com.servalabs.chat.util.MAX_BODY_DISPLAY_LENGTH
+import com.servalabs.chat.util.PlaceholderURLSpan
+import com.servalabs.chat.util.Projection
+import com.servalabs.chat.util.ProjectionList
+import com.servalabs.chat.util.SearchUtil
+import com.servalabs.chat.util.SignalLocalMetrics
+import com.servalabs.chat.util.VibrateUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.hasExtraText
+import com.servalabs.chat.util.hasNoBubble
+import com.servalabs.chat.util.isScheduled
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

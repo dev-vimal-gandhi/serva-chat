@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.providers;
+package com.servalabs.chat.providers;
 
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -39,14 +39,14 @@ import org.signal.core.util.StreamUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.mms.PartUriParser;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.MemoryFileUtil;
 import org.signal.core.util.Util;
 
 import java.io.FileNotFoundException;

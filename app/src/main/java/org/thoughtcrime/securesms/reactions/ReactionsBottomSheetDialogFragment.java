@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package com.servalabs.chat.reactions;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,12 +20,12 @@ import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiImageView;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.util.FullscreenHelper;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 import java.util.Objects;
 

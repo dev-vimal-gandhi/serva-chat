@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.local
+package com.servalabs.chat.restore.local
 
 import android.content.Context
 import android.net.Uri
@@ -25,17 +25,17 @@ import kotlinx.coroutines.withContext
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.ui.restore.EnterBackupKeyViewModel
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupActivity
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupCallback
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupNavDisplay
-import org.thoughtcrime.securesms.registration.ui.restore.local.RestoreLocalBackupViewModel
-import org.thoughtcrime.securesms.registration.ui.restore.local.SelectableBackup
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.ui.restore.EnterBackupKeyViewModel
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupActivity
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupCallback
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupNavDisplay
+import com.servalabs.chat.registration.ui.restore.local.RestoreLocalBackupViewModel
+import com.servalabs.chat.registration.ui.restore.local.SelectableBackup
+import com.servalabs.chat.restore.RestoreViewModel
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Post Registration restore fragment for V2 backups.

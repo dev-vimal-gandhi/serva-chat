@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -28,23 +28,23 @@ import com.bumptech.glide.load.resource.gif.GifDrawable;
 
 import org.signal.core.util.ContentTypeUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import com.servalabs.chat.attachments.Attachment;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.database.SignalDatabase;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.mms.AudioSlide;
+import com.servalabs.chat.mms.AudioSlide;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.mms.DocumentSlide;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.MmsSlide;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.mms.ViewOnceSlide;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import com.servalabs.chat.mms.DocumentSlide;
+import com.servalabs.chat.mms.GifSlide;
+import com.servalabs.chat.mms.ImageSlide;
+import com.servalabs.chat.mms.MmsSlide;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.StickerSlide;
+import com.servalabs.chat.mms.TextSlide;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.mms.ViewOnceSlide;
+import com.servalabs.chat.providers.BlobProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

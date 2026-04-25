@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package com.servalabs.chat.sharing.interstitial;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel;
+import com.servalabs.chat.R;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.viewholders.RecipientMappingModel;
 
 class ShareInterstitialMappingModel extends RecipientMappingModel<ShareInterstitialMappingModel> {
 

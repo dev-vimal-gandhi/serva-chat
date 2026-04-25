@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import android.annotation.SuppressLint
 import android.content.Context
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
+import com.servalabs.chat.util.SecurePreferenceManager
 
 /**
  * There are some values that you can't, for whatever reason, store in the normal encrypted [KeyValueStore].

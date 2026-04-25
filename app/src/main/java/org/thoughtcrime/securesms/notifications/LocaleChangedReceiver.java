@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DateUtils;
+import com.servalabs.chat.jobs.EmojiSearchIndexDownloadJob;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.DateUtils;
 
 public class LocaleChangedReceiver extends BroadcastReceiver {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package com.servalabs.chat.components.settings.app.subscription.donate.stripe
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -14,7 +14,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Encapsulates the logic for navigating a user to a deeplink from within a webview or parsing out the fallback

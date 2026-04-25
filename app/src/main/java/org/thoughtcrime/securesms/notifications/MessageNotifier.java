@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.notifications.v2.ConversationId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
 
 import java.util.Optional;
 

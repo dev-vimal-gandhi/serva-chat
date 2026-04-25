@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import com.servalabs.chat.BuildConfig;
 
 import java.util.ArrayList;
 import java.util.Collections;

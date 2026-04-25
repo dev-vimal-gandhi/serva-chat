@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.colorpicker
+package com.servalabs.chat.components.settings.app.usernamelinks.colorpicker
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
@@ -46,9 +46,9 @@ import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeBadge
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeBadge
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
 
 /**
  * Gives the user the ability to change the color of their shareable username QR code with a live preview.

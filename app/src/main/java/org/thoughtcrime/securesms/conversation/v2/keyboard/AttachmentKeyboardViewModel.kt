@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.keyboard
+package com.servalabs.chat.conversation.v2.keyboard
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.mediasend.MediaRepository
+import com.servalabs.chat.mediasend.MediaRepository
 
 class AttachmentKeyboardViewModel(
   private val mediaRepository: MediaRepository = MediaRepository()

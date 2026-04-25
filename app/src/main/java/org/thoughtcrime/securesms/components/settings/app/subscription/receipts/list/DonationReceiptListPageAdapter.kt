@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package com.servalabs.chat.components.settings.app.subscription.receipts.list
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
+import com.servalabs.chat.database.model.InAppPaymentReceiptRecord
 
 class DonationReceiptListPageAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
   override fun getItemCount(): Int = 4

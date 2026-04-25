@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.link
+package com.servalabs.chat.registration.ui.link
 
 import android.os.Bundle
 import android.view.View
@@ -63,10 +63,10 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCode
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCode
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
 
 /**
  * Crude show QR code on link device to allow linking from primary device.

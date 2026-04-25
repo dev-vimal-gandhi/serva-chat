@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package com.servalabs.chat.calls.links.create
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -18,13 +18,13 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.ringrtc.CallLinkState.Restrictions
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.UpdateCallLinkRepository
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
+import com.servalabs.chat.calls.links.CallLinks
+import com.servalabs.chat.calls.links.UpdateCallLinkRepository
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.service.webrtc.links.UpdateCallLinkResult
 import java.time.Instant
 
 class CreateCallLinkViewModel(

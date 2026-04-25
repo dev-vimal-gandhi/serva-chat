@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.view.View
 import android.widget.Space
 import org.signal.core.ui.view.Stub
 import org.signal.core.util.BidiUtil
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.padding
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.padding
+import com.servalabs.chat.util.visible
 import kotlin.math.max
 
 /**

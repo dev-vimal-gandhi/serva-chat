@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -27,18 +27,18 @@ import org.signal.core.ui.util.ThemeUtil;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.databinding.ConversationHeaderViewBinding;
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.conversation.colors.AvatarGradientColors;
+import com.servalabs.chat.conversation.v2.data.AvatarDownloadStateCache;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.databinding.ConversationHeaderViewBinding;
+import com.servalabs.chat.jobs.AvatarGroupsV2DownloadJob;
+import com.servalabs.chat.jobs.RetrieveProfileAvatarJob;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.LongClickMovementMethod;
+import com.servalabs.chat.util.SpanUtil;
+import com.servalabs.chat.util.ViewUtil;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 public class ConversationHeaderView extends ConstraintLayout {

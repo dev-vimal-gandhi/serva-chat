@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync
+package com.servalabs.chat.contacts.sync
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -11,10 +11,10 @@ import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.CdsTemporaryErrorBottomSheetBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.databinding.CdsTemporaryErrorBottomSheetBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.CommunicationActions
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

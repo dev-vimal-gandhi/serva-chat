@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import org.signal.archive.proto.CallLink
 import org.signal.core.util.isEmpty
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkRootKey
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.backup.v2.ArchiveCallLink
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
+import com.servalabs.chat.backup.v2.ArchiveCallLink
+import com.servalabs.chat.database.CallLinkTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.service.webrtc.links.SignalCallLinkState
 import java.time.Instant
 
 /**

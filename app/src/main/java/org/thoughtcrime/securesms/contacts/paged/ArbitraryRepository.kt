@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 interface ArbitraryRepository {
   /**

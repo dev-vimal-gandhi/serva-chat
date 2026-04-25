@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import android.os.Bundle
 import android.view.View
@@ -42,12 +42,12 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.registration.proto.RegistrationProvisionMessage
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.shared.RegistrationScreen
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.shared.RegistrationScreen
+import com.servalabs.chat.util.navigation.safeNavigate
+import com.servalabs.chat.util.viewModel
 import kotlin.getValue
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.disappearingmessages;
+package com.servalabs.chat.recipients.ui.disappearingmessages;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity;
-import org.thoughtcrime.securesms.components.settings.app.privacy.expire.ExpireTimerSettingsFragmentArgs;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.settings.DSLSettingsActivity;
+import com.servalabs.chat.components.settings.app.privacy.expire.ExpireTimerSettingsFragmentArgs;
+import com.servalabs.chat.recipients.RecipientId;
 
 /**
  * For select a expire timer for a recipient (individual or group).

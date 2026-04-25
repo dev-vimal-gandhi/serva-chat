@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import android.content.Context;
 
@@ -6,13 +6,13 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendViewedReceiptJob;
+import com.servalabs.chat.database.MessageTable;
+import com.servalabs.chat.database.NoSuchMessageException;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.MultiDeviceViewedUpdateJob;
+import com.servalabs.chat.jobs.SendViewedReceiptJob;
 
 import java.util.Collections;
 import java.util.Optional;

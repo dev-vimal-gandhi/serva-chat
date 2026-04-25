@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package com.servalabs.chat;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -12,8 +12,8 @@ import androidx.lifecycle.Lifecycle;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.recipients.Recipient;
 
 /**
  * This should be used whenever we want to prompt the user to block/unblock a recipient.

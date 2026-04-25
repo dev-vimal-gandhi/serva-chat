@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.model;
+package com.servalabs.chat.giph.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

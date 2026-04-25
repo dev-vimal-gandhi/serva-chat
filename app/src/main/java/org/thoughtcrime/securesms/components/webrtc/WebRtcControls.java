@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package com.servalabs.chat.components.webrtc;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import com.servalabs.chat.R;
+import com.servalabs.chat.webrtc.audio.SignalAudioManager;
 
 import java.util.Set;
 

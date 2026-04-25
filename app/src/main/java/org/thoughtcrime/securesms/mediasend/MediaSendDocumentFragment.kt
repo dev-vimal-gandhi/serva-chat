@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.database.Cursor
 import android.net.Uri
@@ -12,9 +12,9 @@ import org.signal.core.models.media.Media
 import org.signal.core.util.bytes
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.util.MediaUtil
 import java.io.IOException
 import java.util.Optional
 import org.signal.core.ui.R as CoreUiR

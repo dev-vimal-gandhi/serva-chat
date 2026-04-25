@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.search
+package com.servalabs.chat.search
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 data class SearchFilter(
   val startDate: Long? = null,

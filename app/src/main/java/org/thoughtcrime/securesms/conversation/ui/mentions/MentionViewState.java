@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package com.servalabs.chat.conversation.ui.mentions;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.viewholders.RecipientMappingModel;
 
 public final class MentionViewState extends RecipientMappingModel<MentionViewState> {
 

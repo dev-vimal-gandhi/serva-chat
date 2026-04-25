@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package com.servalabs.chat.recipients;
 
 import android.content.Context;
 
@@ -10,10 +10,10 @@ import androidx.lifecycle.Observer;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import com.servalabs.chat.database.RecipientTable;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.RecipientRecord;
+import com.servalabs.chat.util.livedata.LiveDataUtil;
 
 import java.util.Objects;
 import java.util.Set;

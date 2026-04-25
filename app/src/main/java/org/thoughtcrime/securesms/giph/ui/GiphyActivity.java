@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package com.servalabs.chat.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -12,24 +12,24 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Fragment;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4SaveResult;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ViewModel;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.conversation.MessageSendType;
+import com.servalabs.chat.giph.mp4.GiphyMp4Fragment;
+import com.servalabs.chat.giph.mp4.GiphyMp4SaveResult;
+import com.servalabs.chat.giph.mp4.GiphyMp4ViewModel;
+import com.servalabs.chat.keyboard.emoji.KeyboardPageSearchView;
 import org.signal.core.models.media.Media;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import com.servalabs.chat.mediasend.v2.MediaSelectionActivity;
+import com.servalabs.chat.mms.SlideFactory;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.RemoteConfig;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.views.SimpleProgressDialog;
 
 import java.util.Collections;
 import java.util.Objects;

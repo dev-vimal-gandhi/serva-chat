@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package com.servalabs.chat.recipients;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;

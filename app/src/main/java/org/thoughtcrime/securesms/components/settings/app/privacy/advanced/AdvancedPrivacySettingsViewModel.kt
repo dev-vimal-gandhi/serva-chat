@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.advanced
+package com.servalabs.chat.components.settings.app.privacy.advanced
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
@@ -12,17 +12,17 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.SignalDispatchers
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobs.RefreshAttributesJob
+import com.servalabs.chat.jobs.RefreshOwnProfileJob
+import com.servalabs.chat.keyvalue.SettingsValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.SignalE164Util
+import com.servalabs.chat.util.TextSecurePreferences
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 
 class AdvancedPrivacySettingsViewModel(

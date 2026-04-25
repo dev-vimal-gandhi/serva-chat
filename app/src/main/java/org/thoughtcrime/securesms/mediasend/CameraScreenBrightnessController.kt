@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package com.servalabs.chat.mediasend
 
 import android.view.Window
 import androidx.lifecycle.DefaultLifecycleObserver

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer;
+package com.servalabs.chat.devicetransfer;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -33,12 +33,12 @@ import org.signal.devicetransfer.DeviceToDeviceTransferService;
 import org.signal.devicetransfer.TransferStatus;
 import org.signal.devicetransfer.WifiDirect;
 import org.signal.core.ui.logging.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.logsubmit.SubmitDebugLogActivity;
 import org.signal.core.ui.permissions.Permissions;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.SpanUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

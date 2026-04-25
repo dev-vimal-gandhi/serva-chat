@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.LRUCache;
-import org.thoughtcrime.securesms.database.model.ServiceMessageId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.ServiceMessageId;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Collection;
 import java.util.HashSet;

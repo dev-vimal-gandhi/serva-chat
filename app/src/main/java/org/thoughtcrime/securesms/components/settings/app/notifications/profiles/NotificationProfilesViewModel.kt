@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package com.servalabs.chat.components.settings.app.notifications.profiles
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

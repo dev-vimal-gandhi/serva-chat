@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import com.servalabs.chat.BuildConfig;
 
 import java.io.File;
 

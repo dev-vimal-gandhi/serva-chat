@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview.mediarail
+package com.servalabs.chat.mediapreview.mediarail
 
 import android.graphics.drawable.Drawable
 import android.view.View
@@ -9,12 +9,12 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.target.Target
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ThumbnailView
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ThumbnailView
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 import java.util.concurrent.atomic.AtomicInteger
 
 /**

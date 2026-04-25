@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">ਪਰਦੇਦਾਰੀ ਹਮੇਸ਼ਾ ਆਪਣੇ ਨਾਲ ਰੱਖੋ।\nਹਰੇਕ ਸੁਨੇਹਾ ਬਿਨਾਂ ਕਿਸੇ ਬੇਝਿਜਕ ਦੇ ਲਿਖੋ।</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal ਇੱਕ ਗੈਰ-ਲਾਭਕਾਰੀ ਸੰਸਥਾ ਹੈ\nਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat ਇੱਕ ਗੈਰ-ਲਾਭਕਾਰੀ ਸੰਸਥਾ ਹੈ\nਸ਼ਰਤਾਂ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
     <string name="RegistrationActivity_continue">ਜਾਰੀ ਰੱਖੋ</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">ਰੀਸਟੋਰ ਜਾਂ ਟ੍ਰਾਂਸਫਰ ਕਰੋ</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">ਇਜਾਜ਼ਤਾਂ ਦੀ ਮਨਜ਼ੂਰੀ ਦਿਓ</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ਤੁਹਾਡੀ ਜਾਣ-ਪਛਾਣ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ, Signal ਤੁਹਾਡੇ ਕੋਲੋਂ ਇਹ ਇਜਾਜ਼ਤਾਂ ਮੰਗੇਗਾ। </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ਤੁਹਾਡੀ ਜਾਣ-ਪਛਾਣ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ, Serva Chat ਤੁਹਾਡੇ ਕੋਲੋਂ ਇਹ ਇਜਾਜ਼ਤਾਂ ਮੰਗੇਗਾ। </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">ਹਾਲੇ ਨਹੀਂ</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">ਸੰਪਰਕ</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">ਉਹਨਾਂ ਲੋਕਾਂ ਨੂੰ ਲੱਭੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ। ਤੁਹਾਡੇ ਸੰਪਰਕ ਇਨਕ੍ਰਿਪਟਡ ਹਨ ਅਤੇ Signal ਸੇਵਾ ਨੂੰ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦੇ ਹਨ।</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">ਉਹਨਾਂ ਲੋਕਾਂ ਨੂੰ ਲੱਭੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ। ਤੁਹਾਡੇ ਸੰਪਰਕ ਇਨਕ੍ਰਿਪਟਡ ਹਨ ਅਤੇ Serva Chat ਸੇਵਾ ਨੂੰ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦੇ ਹਨ।</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ਫ਼ੋਨ ਕਾਲਾਂ</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">ਮੇਰੇ ਕੋਲ ਮੇਰਾ ਪੁਰਾਣਾ ਫ਼ੋਨ ਹੈ</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">ਫਟਾਫਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਆਪਣੇ ਮੌਜੂਦਾ Signal ਖਾਤੇ ਤੋਂ QR ਕੋਡ ਸਕੈਨ ਕਰੋ</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">ਫਟਾਫਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਆਪਣੇ ਮੌਜੂਦਾ Serva Chat ਖਾਤੇ ਤੋਂ QR ਕੋਡ ਸਕੈਨ ਕਰੋ</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">ਮੇਰੇ ਕੋਲ ਮੇਰਾ ਪੁਰਾਣਾ ਫ਼ੋਨ ਨਹੀਂ ਹੈ</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">ਜਾਂ ਤੁਸੀਂ ਉਸੇ ਡਿਵਾਈਸ \'ਤੇ Signal ਨੂੰ ਮੁੜ ਇੰਸਟਾਲ ਕਰ ਰਹੇ ਹੋ</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">ਜਾਂ ਤੁਸੀਂ ਉਸੇ ਡਿਵਾਈਸ \'ਤੇ Serva Chat ਨੂੰ ਮੁੜ ਇੰਸਟਾਲ ਕਰ ਰਹੇ ਹੋ</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">ਚੁਣੋ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਪੁਰਾਣੇ ਸੁਨੇਹੇ ਅਤੇ ਖਾਤੇ ਦੇ ਡਾਟਾ ਨੂੰ ਕਿਵੇਂ ਰੀਸਟੋਰ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal ਬੈਕਅੱਪ ਤੋਂ</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat ਬੈਕਅੱਪ ਤੋਂ</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">ਤੁਹਾਡਾ ਮੁਫ਼ਤ ਜਾਂ ਭੁਗਤਾਨਸ਼ੁਦਾ Signal ਬੈਕਅੱਪ ਪਲਾਨ</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">ਤੁਹਾਡਾ ਮੁਫ਼ਤ ਜਾਂ ਭੁਗਤਾਨਸ਼ੁਦਾ Serva Chat ਬੈਕਅੱਪ ਪਲਾਨ</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">ਡਿਵਾਈਸ-ਉੱਤੇ ਮੌਜੂਦ ਬੈਕਅੱਪ ਨੂੰ ਰੀਸਟੋਰ ਕਰੋ</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">ਕੋਈ ਵੀ ਬੈਕਅੱਪ ਨਹੀਂ ਲੱਭਿਆ</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">ਚੁਣੇ ਗਏ ਫੋਲਡਰ ਵਿੱਚ ਕੋਈ ਵੀ Signal ਬੈਕਅੱਪ ਨਹੀਂ ਲੱਭਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਹੋਰ ਫੋਲਡਰ ਚੁਣੋ।</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">ਚੁਣੇ ਗਏ ਫੋਲਡਰ ਵਿੱਚ ਕੋਈ ਵੀ Serva Chat ਬੈਕਅੱਪ ਨਹੀਂ ਲੱਭਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਹੋਰ ਫੋਲਡਰ ਚੁਣੋ।</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">ਕੋਈ ਹੋਰ ਫੋਲਡਰ ਚੁਣੋ</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">ਆਪਣਾ ਖਾਤਾ ਲਿੰਕ ਕਰੋ</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">ਹਾਲੇ Signal ਉੱਤੇ ਨਹੀਂ ਹੋ?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">ਹਾਲੇ Serva Chat ਉੱਤੇ ਨਹੀਂ ਹੋ?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">ਖਾਤਾ ਬਣਾਓ</string>
 </resources>

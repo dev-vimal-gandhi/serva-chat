@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import android.app.Application
 import android.content.Context
 import androidx.test.runner.AndroidJUnitRunner
-import org.thoughtcrime.securesms.SignalInstrumentationApplicationContext
+import com.servalabs.chat.SignalInstrumentationApplicationContext
 
 /**
  * Custom runner that replaces application with [SignalInstrumentationApplicationContext].

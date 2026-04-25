@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package com.servalabs.chat.keyboard.emoji
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.emoji.EmojiSource.Companion.latest
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.components.emoji.EmojiPageModel
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel
+import com.servalabs.chat.emoji.EmojiSource.Companion.latest
+import com.servalabs.chat.util.TextSecurePreferences
 import java.util.function.Consumer
 
 class EmojiKeyboardPageRepository(private val context: Context) {

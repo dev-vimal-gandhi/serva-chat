@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -51,15 +51,15 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportCallbacks
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialog
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportViewModel
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.registration.ui.restore.RemoteRestoreWakeLock
-import org.thoughtcrime.securesms.restore.RestoreActivity
+import com.servalabs.chat.BaseActivity
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.contactsupport.ContactSupportCallbacks
+import com.servalabs.chat.components.contactsupport.ContactSupportDialog
+import com.servalabs.chat.components.contactsupport.ContactSupportViewModel
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.registration.ui.restore.RemoteRestoreWakeLock
+import com.servalabs.chat.restore.RestoreActivity
 import kotlin.math.max
 
 /**

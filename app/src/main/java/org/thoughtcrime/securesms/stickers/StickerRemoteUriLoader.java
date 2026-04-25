@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import androidx.annotation.NonNull;
 
@@ -7,7 +7,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.InputStream;

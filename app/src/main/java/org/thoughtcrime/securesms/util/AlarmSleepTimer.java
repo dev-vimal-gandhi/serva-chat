@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -70,7 +70,7 @@ public class AlarmSleepTimer implements SleepTimer {
   }
 
   private class AlarmReceiver extends BroadcastReceiver {
-    private static final String WAKE_UP_THREAD_ACTION = "org.thoughtcrime.securesms.util.AlarmSleepTimer.AlarmReceiver.WAKE_UP_THREAD";
+    private static final String WAKE_UP_THREAD_ACTION = "com.servalabs.chat.util.AlarmSleepTimer.AlarmReceiver.WAKE_UP_THREAD";
 
     private void setAlarm(long millis, String action) {
       final Intent intent = new Intent(action);

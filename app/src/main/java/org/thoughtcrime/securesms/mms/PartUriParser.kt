@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
 import android.content.ContentUris
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.AttachmentId
+import com.servalabs.chat.attachments.AttachmentId
 
 /**
  * Parses the given [Uri] into either an [AttachmentId] or a [Long]

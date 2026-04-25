@@ -5,7 +5,7 @@
 
 @file:JvmName("ExceptionHelper")
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.io.IOException

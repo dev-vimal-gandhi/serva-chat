@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,16 +19,16 @@ import androidx.lifecycle.ViewModelProvider;
 import com.bumptech.glide.Glide;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
 import org.signal.glide.decryptableuri.DecryptableUri;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.DynamicMediaPreviewTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import com.servalabs.chat.mms.PartAuthority;
+import com.servalabs.chat.mms.VideoSlide;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.DynamicMediaPreviewTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.video.VideoPlayer;
 
 import java.util.concurrent.TimeUnit;
 

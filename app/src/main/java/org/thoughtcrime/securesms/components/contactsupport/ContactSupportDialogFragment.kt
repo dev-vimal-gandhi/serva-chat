@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.contactsupport
+package com.servalabs.chat.components.contactsupport
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
@@ -11,7 +11,7 @@ import androidx.compose.runtime.getValue
 import androidx.core.os.bundleOf
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import org.signal.core.ui.compose.ComposeDialogFragment
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.util.viewModel
 
 /**
  * Three-option contact support dialog fragment.

@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate;
+package com.servalabs.chat.apkupdate;
 
 
 import android.content.Context;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.ApkUpdateJob;
-import org.thoughtcrime.securesms.service.PersistentAlarmManagerListener;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.ApkUpdateJob;
+import com.servalabs.chat.service.PersistentAlarmManagerListener;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

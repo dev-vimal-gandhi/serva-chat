@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package com.servalabs.chat.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import com.servalabs.chat.jobmanager.Constraint;
+import com.servalabs.chat.util.NetworkUtil;
 
 public class NetworkConstraint implements Constraint {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import assertk.assertThat
 import assertk.assertions.hasSize
@@ -10,9 +10,9 @@ import org.junit.Test
 import org.signal.core.models.backup.MediaRootBackupKey
 import org.signal.core.util.Base64
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.MockCursor
-import org.thoughtcrime.securesms.keyvalue.BackupValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.MockCursor
+import com.servalabs.chat.keyvalue.BackupValues
+import com.servalabs.chat.keyvalue.SignalStore
 
 class ArchivedMediaObjectIteratorTest {
   private val cursor = mockk<MockCursor>(relaxed = true) {

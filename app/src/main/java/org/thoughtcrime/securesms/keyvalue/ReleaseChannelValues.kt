@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 class ReleaseChannelValues(store: KeyValueStore) : SignalStoreValues(store) {
 

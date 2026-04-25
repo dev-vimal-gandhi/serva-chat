@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -20,17 +20,17 @@ import com.bumptech.glide.RequestManager;
 
 import org.signal.core.ui.view.Stub;
 import org.signal.ringrtc.CallLinkRootKey;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.calls.links.CallLinks;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import com.servalabs.chat.R;
+import com.servalabs.chat.avatar.fallback.FallbackAvatar;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.calls.links.CallLinks;
+import com.servalabs.chat.conversation.colors.AvatarColorHash;
+import com.servalabs.chat.linkpreview.LinkPreview;
+import com.servalabs.chat.linkpreview.LinkPreviewRepository;
+import com.servalabs.chat.mms.ImageSlide;
+import com.servalabs.chat.mms.SlidesClickedListener;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

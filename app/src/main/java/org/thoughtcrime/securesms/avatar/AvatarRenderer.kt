@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar
+package com.servalabs.chat.avatar
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -11,10 +11,10 @@ import androidx.appcompat.content.res.AppCompatResources
 import com.airbnb.lottie.SimpleColorFilter
 import org.signal.core.models.media.Media
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.profiles.AvatarHelper
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.MediaUtil
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.IOException

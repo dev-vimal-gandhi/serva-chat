@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.text.TextUtils
 import okhttp3.internal.http2.StreamResetException
@@ -16,30 +16,30 @@ import org.signal.libsignal.net.RequestResult
 import org.signal.libsignal.net.RetryLaterException
 import org.signal.libsignal.net.UploadTooLargeException
 import org.signal.protos.resumableuploads.ResumableUpload
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.AttachmentUploadUtil
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.PartProgressEvent
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobs.protos.AttachmentUploadJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.net.NotPushRegisteredException
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.AttachmentProgressService
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.MessageUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.attachments.AttachmentUploadUtil
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.events.PartProgressEvent
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.jobmanager.persistence.JobSpec
+import com.servalabs.chat.jobs.protos.AttachmentUploadJobData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.PartAuthority
+import com.servalabs.chat.net.NotPushRegisteredException
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.AttachmentProgressService
+import com.servalabs.chat.transport.UndeliverableMessageException
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.MessageUtil
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.attachment.AttachmentUploadResult
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherStreamUtil
 import org.whispersystems.signalservice.api.messages.AttachmentTransferProgress

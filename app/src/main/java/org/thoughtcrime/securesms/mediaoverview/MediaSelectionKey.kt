@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediaoverview
+package com.servalabs.chat.mediaoverview
 
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.MediaTable.MediaRecord
+import com.servalabs.chat.attachments.AttachmentId
+import com.servalabs.chat.database.MediaTable.MediaRecord
 
 sealed class MediaSelectionKey {
   data class Attachment(val attachmentId: AttachmentId) : MediaSelectionKey()

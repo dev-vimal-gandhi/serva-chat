@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.components.Outliner;
-import org.thoughtcrime.securesms.util.Projection;
+import com.servalabs.chat.components.Outliner;
+import com.servalabs.chat.util.Projection;
 import org.signal.core.util.Util;
 
 import java.util.Collections;

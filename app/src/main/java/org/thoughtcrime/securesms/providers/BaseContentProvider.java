@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package com.servalabs.chat.providers;
 
 import android.content.ContentProvider;
 import android.content.Context;

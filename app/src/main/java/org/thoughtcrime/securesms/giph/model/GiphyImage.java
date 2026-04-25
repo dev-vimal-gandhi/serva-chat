@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.model;
+package com.servalabs.chat.giph.model;
 
 
 import android.text.TextUtils;
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.util.ByteUnit;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import com.servalabs.chat.util.ByteUnit;
+import com.servalabs.chat.util.adapter.mapping.MappingModel;
 
 public class GiphyImage implements MappingModel<GiphyImage> {
 

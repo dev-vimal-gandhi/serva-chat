@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.storage.SignalGroupV2Record
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord
 import org.whispersystems.signalservice.api.storage.StorageId

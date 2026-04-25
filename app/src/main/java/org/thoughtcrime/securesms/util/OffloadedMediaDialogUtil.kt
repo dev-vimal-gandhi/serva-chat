@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
 
 object OffloadedMediaDialogUtil {
 

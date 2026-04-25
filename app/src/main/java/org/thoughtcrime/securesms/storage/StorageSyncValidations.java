@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage;
+package com.servalabs.chat.storage;
 
 import androidx.annotation.NonNull;
 
@@ -6,7 +6,7 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.util.Base64;
 import org.signal.core.util.SetUtil;
 import org.signal.core.models.ServiceId;

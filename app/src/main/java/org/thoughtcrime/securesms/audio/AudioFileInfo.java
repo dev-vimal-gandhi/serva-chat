@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.audio;
+package com.servalabs.chat.audio;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
+import com.servalabs.chat.database.model.databaseprotos.AudioWaveFormData;
 
 import java.util.concurrent.TimeUnit;
 

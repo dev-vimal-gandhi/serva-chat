@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package com.servalabs.chat.gcm;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,15 +10,15 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.FcmRefreshJob;
-import org.thoughtcrime.securesms.jobs.SubmitRateLimitPushChallengeJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.registration.fcm.PushChallengeRequest;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.SignalLocalMetrics;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobs.FcmRefreshJob;
+import com.servalabs.chat.jobs.SubmitRateLimitPushChallengeJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.registration.fcm.PushChallengeRequest;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.NetworkUtil;
+import com.servalabs.chat.util.SignalLocalMetrics;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.Locale;
 

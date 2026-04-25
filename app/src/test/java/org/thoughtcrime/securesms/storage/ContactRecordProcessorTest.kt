@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import android.app.Application
 import io.mockk.every
@@ -20,11 +20,11 @@ import org.signal.core.models.ServiceId
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.testutil.EmptyLogger
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.storage.SignalContactRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import org.whispersystems.signalservice.internal.storage.protos.ContactRecord

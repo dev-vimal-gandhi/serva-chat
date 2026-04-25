@@ -3,24 +3,24 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package com.servalabs.chat.components.settings.app.subscription.manage
 
 import android.widget.ProgressBar
 import android.widget.TextView
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.databinding.MySupportPreferenceBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.badges.Badges
+import com.servalabs.chat.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import com.servalabs.chat.database.model.databaseprotos.DonationErrorValue
+import com.servalabs.chat.database.model.databaseprotos.PendingOneTimeDonation
+import com.servalabs.chat.databinding.MySupportPreferenceBinding
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.visible
 
 /**
  * Holds state information about pending one-time donations.

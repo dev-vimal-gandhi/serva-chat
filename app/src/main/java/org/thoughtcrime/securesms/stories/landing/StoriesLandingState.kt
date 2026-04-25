@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.landing
+package com.servalabs.chat.stories.landing
 
 data class StoriesLandingState(
   val storiesLandingItems: List<StoriesLandingItemData> = emptyList(),

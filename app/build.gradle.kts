@@ -64,7 +64,7 @@ wire {
 }
 
 android {
-  namespace = "org.thoughtcrime.securesms"
+  namespace = "com.servalabs.chat"
 
   buildToolsVersion = libs.versions.buildTools.get()
   compileSdkVersion = libs.versions.compileSdk.get()
@@ -174,11 +174,11 @@ android {
 
     applicationId = basePackageId
 
-    buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"org.thoughtcrime.securesms\"")
+    buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"com.servalabs.chat\"")
     buildConfigField("String", "SIGNAL_CANONICAL_VERSION_NAME", "\"$canonicalVersionName\"")
     buildConfigField("String", "BACKUP_BASE_NAME", "\"$baseAppFileName\"")
     buildConfigField("boolean", "FORCE_INTERNAL_USER_FLAG", forceInternalUserFlag)
-    buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "FDROID_UPDATE_URL", "\"https://servalabs.com/fdroid/repo\"")
 
     vectorDrawables.useSupportLibrary = true
 
@@ -228,7 +228,7 @@ android {
       abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86_64")
     }
 
-    testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
+    testInstrumentationRunner = "com.servalabs.chat.testing.SignalTestRunner"
     testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 
@@ -304,7 +304,7 @@ android {
 
       applicationIdSuffix = ".staging"
 
-      buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"org.thoughtcrime.securesms.staging\"")
+      buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"com.servalabs.chat.staging\"")
       buildConfigField("String", "BACKUP_BASE_NAME", "\"$baseAppFileName-staging\"")
 
       buildConfigField("String", "SIGNAL_URL", "\"https://chat.staging.signal.org\"")

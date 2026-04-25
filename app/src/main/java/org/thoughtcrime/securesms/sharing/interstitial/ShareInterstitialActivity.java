@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package com.servalabs.chat.sharing.interstitial;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,21 +13,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LinkPreviewView;
-import org.thoughtcrime.securesms.components.SelectionAwareEmojiEditText;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.sharing.MultiShareDialogs;
-import org.thoughtcrime.securesms.sharing.ShareFlowConstants;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.LinkPreviewView;
+import com.servalabs.chat.components.SelectionAwareEmojiEditText;
+import com.servalabs.chat.linkpreview.LinkPreviewRepository;
+import com.servalabs.chat.linkpreview.LinkPreviewViewModel;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.sharing.MultiShareArgs;
+import com.servalabs.chat.sharing.MultiShareDialogs;
+import com.servalabs.chat.sharing.ShareFlowConstants;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.text.AfterTextChanged;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

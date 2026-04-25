@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji
+package com.servalabs.chat.components.emoji
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter

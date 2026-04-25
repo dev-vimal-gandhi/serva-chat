@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete
+package com.servalabs.chat.delete
 
 /**
  * Account deletion event.

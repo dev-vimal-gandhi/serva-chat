@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
 import androidx.annotation.WorkerThread
 import androidx.compose.runtime.State
@@ -12,12 +12,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.util.UsernameUtil
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientRepository
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.util.UsernameUtil
 
 class FindByViewModel(
   mode: FindByMode

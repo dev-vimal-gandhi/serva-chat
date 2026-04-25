@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package com.servalabs.chat.components.webrtc.v2
 
 import android.view.Gravity
 import android.view.ViewGroup
@@ -54,16 +54,16 @@ import org.signal.core.ui.compose.NightPreview
 import org.signal.core.ui.compose.Previews
 import org.signal.glide.compose.GlideImage
 import org.signal.glide.compose.GlideImageScaleType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageLarge
-import org.thoughtcrime.securesms.components.webrtc.TextureViewRenderer
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.rememberRecipientField
-import org.thoughtcrime.securesms.ringrtc.CameraState
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.emoji.EmojiTextView
+import com.servalabs.chat.components.settings.app.subscription.BadgeImageLarge
+import com.servalabs.chat.components.webrtc.TextureViewRenderer
+import com.servalabs.chat.contacts.avatars.ProfileContactPhoto
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.rememberRecipientField
+import com.servalabs.chat.ringrtc.CameraState
 import org.webrtc.RendererCommon
 import org.signal.core.ui.R as CoreUiR
 

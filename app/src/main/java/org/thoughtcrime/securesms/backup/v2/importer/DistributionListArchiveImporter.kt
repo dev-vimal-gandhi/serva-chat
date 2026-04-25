@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package com.servalabs.chat.backup.v2.importer
 
 import org.signal.archive.proto.DistributionList
 import org.signal.archive.proto.DistributionListItem
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**

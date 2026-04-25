@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 data class StoryViewerPlaybackState(
   val areSegmentsInitialized: Boolean = false,

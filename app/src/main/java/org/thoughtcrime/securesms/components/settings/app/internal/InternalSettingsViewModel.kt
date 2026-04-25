@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package com.servalabs.chat.components.settings.app.internal
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Observable
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
-import org.thoughtcrime.securesms.jobs.StoryOnboardingDownloadJob
-import org.thoughtcrime.securesms.keyvalue.InternalValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.database.model.RemoteMegaphoneRecord
+import com.servalabs.chat.jobs.StoryOnboardingDownloadJob
+import com.servalabs.chat.keyvalue.InternalValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.livedata.Store
 
 class InternalSettingsViewModel(private val repository: InternalSettingsRepository) : ViewModel() {
   private val preferenceDataStore = SignalStore.getPreferenceDataStore()

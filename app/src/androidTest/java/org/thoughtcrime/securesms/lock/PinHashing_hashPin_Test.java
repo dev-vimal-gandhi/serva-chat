@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock;
+package com.servalabs.chat.lock;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 

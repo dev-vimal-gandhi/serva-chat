@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,19 +25,19 @@ import android.os.Bundle;
 import androidx.core.app.RemoteInput;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.ParentStoryId;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mms.OutgoingMessage;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.ExportedBroadcastReceiver;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.MessageUtil;
+import com.servalabs.chat.database.MessageTable.MarkedMessageInfo;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.ParentStoryId;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.mms.OutgoingMessage;
+import com.servalabs.chat.mms.SlideDeck;
+import com.servalabs.chat.notifications.v2.ConversationId;
+import com.servalabs.chat.notifications.v2.DefaultMessageNotifier;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.service.ExportedBroadcastReceiver;
+import com.servalabs.chat.sms.MessageSender;
+import com.servalabs.chat.util.MessageUtil;
 
 import java.util.List;
 
@@ -46,7 +46,7 @@ import java.util.List;
  */
 public class RemoteReplyReceiver extends ExportedBroadcastReceiver {
 
-  public static final String REPLY_ACTION         = "org.thoughtcrime.securesms.notifications.WEAR_REPLY";
+  public static final String REPLY_ACTION         = "com.servalabs.chat.notifications.WEAR_REPLY";
   public static final String RECIPIENT_EXTRA      = "recipient_extra";
   public static final String REPLY_METHOD         = "reply_method";
   public static final String EARLIEST_TIMESTAMP   = "earliest_timestamp";

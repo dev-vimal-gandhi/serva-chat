@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package com.servalabs.chat.registration.ui.phonenumber
 
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.data.RegistrationRepository
+import com.servalabs.chat.registration.ui.countrycode.Country
 
 /**
  * State holder for the phone number entry screen, including phone number and Play Services errors.

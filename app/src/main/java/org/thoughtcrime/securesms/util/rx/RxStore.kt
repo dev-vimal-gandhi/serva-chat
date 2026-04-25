@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.rx
+package com.servalabs.chat.util.rx
 
 import androidx.annotation.CheckResult
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers

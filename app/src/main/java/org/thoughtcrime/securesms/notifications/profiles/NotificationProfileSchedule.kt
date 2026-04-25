@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package com.servalabs.chat.notifications.profiles
 
-import org.thoughtcrime.securesms.util.isBetween
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import com.servalabs.chat.util.isBetween
+import com.servalabs.chat.util.toLocalDateTime
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.LocalTime

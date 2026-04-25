@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -17,7 +17,7 @@ import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.Util;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import com.servalabs.chat.util.concurrent.SerialExecutor;
 
 import java.util.Collections;
 import java.util.HashMap;

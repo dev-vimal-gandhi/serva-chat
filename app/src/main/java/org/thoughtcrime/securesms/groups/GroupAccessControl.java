@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.GroupTable;
+import com.servalabs.chat.R;
+import com.servalabs.chat.database.GroupTable;
 
 public enum GroupAccessControl {
   ALL_MEMBERS(R.string.GroupManagement_access_level_all_members),

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.service.webrtc
+package com.servalabs.chat.service.webrtc
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.ringrtc.RemotePeer
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.ringrtc.RemotePeer
 import org.whispersystems.signalservice.internal.push.SyncMessage.CallEvent
 
 /**

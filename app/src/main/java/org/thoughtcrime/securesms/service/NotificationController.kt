@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.content.ComponentName
 import android.content.Context
@@ -6,9 +6,9 @@ import android.content.Intent
 import android.content.ServiceConnection
 import android.os.IBinder
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobs.UnableToStartException
-import org.thoughtcrime.securesms.service.GenericForegroundService.Companion.stopForegroundTask
-import org.thoughtcrime.securesms.service.GenericForegroundService.LocalBinder
+import com.servalabs.chat.jobs.UnableToStartException
+import com.servalabs.chat.service.GenericForegroundService.Companion.stopForegroundTask
+import com.servalabs.chat.service.GenericForegroundService.LocalBinder
 import java.util.concurrent.atomic.AtomicReference
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package com.servalabs.chat.stories.viewer.views
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -9,8 +9,8 @@ import androidx.core.view.updateLayoutParams
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.viewModels
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageViewModel
 import kotlin.math.roundToInt
 
 /**

@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup
+package com.servalabs.chat.backup
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.thoughtcrime.securesms.keyvalue.protos.LocalBackupCreationProgress
+import com.servalabs.chat.keyvalue.protos.LocalBackupCreationProgress
 
 object LocalExportProgress {
   val internalEncryptedProgress = MutableStateFlow(LocalBackupCreationProgress())

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package com.servalabs.chat.mediasend;
 
 import android.content.Context;
 
@@ -7,11 +7,11 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.models.media.Media;
 import org.signal.core.models.media.TransformProperties;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
+import com.servalabs.chat.mms.SentMediaQuality;
 
 import java.util.Optional;
 
-import static org.thoughtcrime.securesms.database.TransformPropertiesUtilKt.transformPropertiesForSentMediaQuality;
+import static com.servalabs.chat.database.TransformPropertiesUtilKt.transformPropertiesForSentMediaQuality;
 
 
 /**

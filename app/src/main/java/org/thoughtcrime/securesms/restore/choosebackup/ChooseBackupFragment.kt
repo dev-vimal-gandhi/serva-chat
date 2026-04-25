@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.choosebackup
+package com.servalabs.chat.restore.choosebackup
 
 import android.content.Context
 import android.content.Intent
@@ -19,13 +19,13 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.NavHostFragment
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentChooseBackupBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentChooseBackupBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate
+import com.servalabs.chat.restore.RestoreViewModel
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * This fragment presents a button to the user to browse their local file system for a legacy backup file.

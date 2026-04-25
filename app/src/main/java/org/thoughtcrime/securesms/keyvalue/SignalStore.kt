@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue
+package com.servalabs.chat.keyvalue
 
 import android.app.Application
 import androidx.annotation.VisibleForTesting
 import androidx.preference.PreferenceDataStore
-import org.thoughtcrime.securesms.database.KeyValueDatabase
+import com.servalabs.chat.database.KeyValueDatabase
 
 /**
  * Simple, encrypted key-value store.

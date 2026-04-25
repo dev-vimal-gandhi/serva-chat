@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package com.servalabs.chat.profiles.edit.pnp
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

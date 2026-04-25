@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package com.servalabs.chat.lock.v2;
 
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
@@ -18,11 +18,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.pin.PinOptOutDialog;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import com.servalabs.chat.R;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.pin.PinOptOutDialog;
+import com.servalabs.chat.util.CommunicationActions;
+import com.servalabs.chat.util.navigation.SafeNavigation;
 
 public final class SvrSplashFragment extends Fragment {
 

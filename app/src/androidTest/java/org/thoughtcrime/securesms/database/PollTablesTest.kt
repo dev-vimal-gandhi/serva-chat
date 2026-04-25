@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertEquals
@@ -8,13 +8,13 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.deleteAll
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.polls.Voter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.mms.IncomingMessage
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.polls.Voter
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class PollTablesTest {

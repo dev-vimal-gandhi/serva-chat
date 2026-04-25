@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -31,22 +31,22 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.NameUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.avatar.fallback.FallbackAvatar;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.components.settings.conversation.ConversationSettingsActivity;
+import com.servalabs.chat.contacts.avatars.ContactPhoto;
+import com.servalabs.chat.contacts.avatars.ProfileContactPhoto;
+import com.servalabs.chat.contacts.avatars.SystemContactPhoto;
+import com.servalabs.chat.conversation.colors.AvatarColor;
+import com.servalabs.chat.conversation.colors.AvatarGradientColors;
+import com.servalabs.chat.conversation.colors.ChatColors;
+import com.servalabs.chat.conversation.v2.data.AvatarDownloadStateCache;
+import com.servalabs.chat.jobs.RetrieveProfileAvatarJob;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import com.servalabs.chat.util.NameUtil;
 
 import java.util.Collections;
 import java.util.List;

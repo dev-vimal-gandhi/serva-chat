@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview
+package com.servalabs.chat.components.recyclerview
 
 import android.view.View
 

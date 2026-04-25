@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,10 +16,10 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ServiceUtil
+import com.servalabs.chat.util.fragments.findListener
 
 /**
  * Bottom sheet dialog to prompt user to enable schedule alarms permission for scheduling messages

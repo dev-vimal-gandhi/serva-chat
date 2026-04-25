@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package com.servalabs.chat.stories.settings.group
 
 import android.view.MenuItem
 import android.view.ViewGroup
@@ -10,17 +10,17 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.stories.settings.custom.PrivateStoryItem
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.stories.dialogs.StoryDialogs
+import com.servalabs.chat.stories.settings.custom.PrivateStoryItem
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
 import org.signal.core.ui.R as CoreUiR
 
 /**

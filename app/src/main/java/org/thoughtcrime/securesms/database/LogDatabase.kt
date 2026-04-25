@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -24,9 +24,9 @@ import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.model.LogEntry
+import com.servalabs.chat.crypto.DatabaseSecret
+import com.servalabs.chat.crypto.DatabaseSecretProvider
+import com.servalabs.chat.database.model.LogEntry
 import java.io.Closeable
 import kotlin.math.abs
 import kotlin.time.Duration.Companion.days

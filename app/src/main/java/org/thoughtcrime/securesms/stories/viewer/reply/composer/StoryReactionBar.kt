@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.composer
+package com.servalabs.chat.stories.viewer.reply.composer
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -7,10 +7,10 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.emoji.EmojiImageView
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.visible
 
 class StoryReactionBar @JvmOverloads constructor(
   context: Context,

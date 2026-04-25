@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.secondary
+package com.servalabs.chat.registration.secondary
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.Test
 import org.signal.libsignal.protocol.IdentityKeyPair
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
+import com.servalabs.chat.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 
 class DeviceNameCipherTest {

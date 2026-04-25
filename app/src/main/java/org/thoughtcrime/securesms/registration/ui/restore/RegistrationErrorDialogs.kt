@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.window.DialogProperties
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.R
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
 
 /**
  * Shared error dialogs for registration failures during backup key entry.

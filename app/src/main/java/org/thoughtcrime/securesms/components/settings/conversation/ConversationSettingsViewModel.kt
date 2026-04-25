@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -21,28 +21,28 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.readToList
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelRepository
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.components.settings.conversation.preferences.ButtonStripPreference
+import com.servalabs.chat.components.settings.conversation.preferences.CallPreference
+import com.servalabs.chat.components.settings.conversation.preferences.LegacyGroupPreference
+import com.servalabs.chat.database.MediaTable
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.LiveGroup
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.memberlabel.MemberLabelRepository
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.groups.ui.GroupMemberEntry
+import com.servalabs.chat.groups.v2.GroupAddMembersResult
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.messagerequests.MessageRequestRepository
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientUtil
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.livedata.Store
 
 sealed class ConversationSettingsViewModel(
   private val callMessageIds: LongArray,

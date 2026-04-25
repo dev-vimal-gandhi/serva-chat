@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.emoji
+package com.servalabs.chat.components.emoji
 
 import android.content.Context
 import androidx.compose.foundation.Image
@@ -28,8 +28,8 @@ import androidx.compose.ui.unit.TextUnit
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
 import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.components.emoji.parsing.EmojiParser
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Applies Signal or System emoji to the given content based on user settings.

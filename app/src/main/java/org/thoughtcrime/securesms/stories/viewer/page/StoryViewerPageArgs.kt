@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 @Parcelize
 data class StoryViewerPageArgs(

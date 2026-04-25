@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.revealable;
+package com.servalabs.chat.revealable;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.database.model.MmsMessageRecord;
 
 import java.util.concurrent.TimeUnit;
 

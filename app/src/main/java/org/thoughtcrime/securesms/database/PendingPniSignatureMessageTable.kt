@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
@@ -9,7 +9,7 @@ import org.signal.core.util.exists
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.messages.SendMessageResult
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.withLock

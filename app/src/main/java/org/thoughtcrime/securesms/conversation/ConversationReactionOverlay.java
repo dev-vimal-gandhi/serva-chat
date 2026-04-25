@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package com.servalabs.chat.conversation;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -34,17 +34,17 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.components.menu.ActionItem;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.R;
+import com.servalabs.chat.animation.AnimationCompleteListener;
+import com.servalabs.chat.components.emoji.EmojiImageView;
+import com.servalabs.chat.components.emoji.EmojiUtil;
+import com.servalabs.chat.components.menu.ActionItem;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.ReactionRecord;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.Recipient;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.List;

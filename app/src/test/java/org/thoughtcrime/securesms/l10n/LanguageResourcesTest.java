@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.l10n;
+package com.servalabs.chat.l10n;
 
 import android.app.Application;
 import android.content.res.Resources;
@@ -9,8 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
 
 import java.util.Arrays;
 import java.util.Collections;

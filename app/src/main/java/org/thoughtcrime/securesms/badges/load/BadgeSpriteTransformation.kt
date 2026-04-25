@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.badges.load
+package com.servalabs.chat.badges.load
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

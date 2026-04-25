@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 
 import android.content.Context;
@@ -24,14 +24,14 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.ByteSize;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import com.servalabs.chat.R;
+import com.servalabs.chat.attachments.DatabaseAttachment;
+import com.servalabs.chat.database.AttachmentTable;
+import com.servalabs.chat.events.PartProgressEvent;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.SlideClickListener;
+import com.servalabs.chat.mms.SlidesClickedListener;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

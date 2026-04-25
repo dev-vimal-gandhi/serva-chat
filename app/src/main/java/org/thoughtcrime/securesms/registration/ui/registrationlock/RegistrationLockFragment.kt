@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.registrationlock
+package com.servalabs.chat.registration.ui.registrationlock
 
 import android.os.Bundle
 import android.view.KeyEvent
@@ -16,18 +16,18 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationLockBinding
-import org.thoughtcrime.securesms.lock.v2.SvrConstants
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentRegistrationLockBinding
+import com.servalabs.chat.lock.v2.SvrConstants
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
+import com.servalabs.chat.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.SupportEmailUtil
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.navigation.safeNavigate
 import java.util.concurrent.TimeUnit
 
 class RegistrationLockFragment : LoggingFragment(R.layout.fragment_registration_lock) {

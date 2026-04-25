@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediapreview
+package com.servalabs.chat.mediapreview
 
 import android.net.Uri
-import org.thoughtcrime.securesms.video.VideoPlayer
+import com.servalabs.chat.video.VideoPlayer
 
 /**
  * Class to manage video playback in preview screen.

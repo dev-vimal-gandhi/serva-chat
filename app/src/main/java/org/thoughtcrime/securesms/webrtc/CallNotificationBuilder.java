@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package com.servalabs.chat.webrtc;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -13,15 +13,15 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.Person;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallIntent;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.webrtc.ActiveCallManager;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.DeviceProperties;
+import com.servalabs.chat.MainActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.webrtc.v2.CallIntent;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.notifications.NotificationChannels;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.service.webrtc.ActiveCallManager;
+import com.servalabs.chat.util.ConversationUtil;
+import com.servalabs.chat.util.DeviceProperties;
 
 /**
  * Manages the state of the WebRtc items in the Android notification bar.

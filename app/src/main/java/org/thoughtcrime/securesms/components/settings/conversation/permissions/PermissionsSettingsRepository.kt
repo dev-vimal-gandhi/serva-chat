@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.conversation.permissions
+package com.servalabs.chat.components.settings.conversation.permissions
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupAccessControl
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.groups.ui.GroupChangeErrorCallback
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.groups.GroupAccessControl
+import com.servalabs.chat.groups.GroupChangeException
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupManager
+import com.servalabs.chat.groups.ui.GroupChangeErrorCallback
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
 import java.io.IOException
 
 private val TAG = Log.tag(PermissionsSettingsRepository::class.java)

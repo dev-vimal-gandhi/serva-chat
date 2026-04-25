@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.media3.common.util.Util
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -9,9 +9,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.count
 import org.signal.core.util.readToSingleInt
-import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
-import org.thoughtcrime.securesms.database.BackupMediaSnapshotTable.MediaEntry
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.backup.v2.ArchivedMediaObject
+import com.servalabs.chat.database.BackupMediaSnapshotTable.MediaEntry
+import com.servalabs.chat.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class BackupMediaSnapshotTableTest {

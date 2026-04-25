@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
 import androidx.sqlite.db.SupportSQLiteDatabase
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.database.SQLiteDatabase
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
 
 /**
  * A bad cherry-pick for a database change requires us to attempt to alter the table again

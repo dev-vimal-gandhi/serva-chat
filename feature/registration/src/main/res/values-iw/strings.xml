@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">קח פרטיות איתך.\nהייה עצמך בכל הודעה.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal היא עמותה ללא מטרות רווח\nתנאים ומדיניות פרטיות</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat היא עמותה ללא מטרות רווח\nתנאים ומדיניות פרטיות</string>
     <string name="RegistrationActivity_continue">המשך</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">שחזור או העברה</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">הפעלת הרשאות</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">כדי שתהיה אפשרות לשלוח הודעות לאנשים שאת.ה מכיר.ה, Signal תבקש את ההרשאות האלה. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">כדי שתהיה אפשרות לשלוח הודעות לאנשים שאת.ה מכיר.ה, Serva Chat תבקש את ההרשאות האלה. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">לא עכשיו</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">אנשי קשר</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">למצוא אנשים שאת.ה מכיר.ה. אנשי הקשר שלך מוצפנים ואינם גלויים לשירות Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">למצוא אנשים שאת.ה מכיר.ה. אנשי הקשר שלך מוצפנים ואינם גלויים לשירות Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">שיחות טלפון</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">יש לי את הטלפון הישן שלי</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">אפשר לסרוק קוד QR מחשבון Signal הנוכחי שלך כדי להתחיל במהירות</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">אפשר לסרוק קוד QR מחשבון Serva Chat הנוכחי שלך כדי להתחיל במהירות</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">אין לי את הטלפון הישן שלי</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">או שמדובר בהתקנה חוזרת של Signal על אותו מכשיר</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">או שמדובר בהתקנה חוזרת של Serva Chat על אותו מכשיר</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">איך ברצונך לשחזר את היסטוריית ההודעות ונתוני החשבון שלך?</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">מגיבויי Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">מגיבויי Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">תכנית הגיבוי שלך ב–Signal (בחינם או בתשלום)</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">תכנית הגיבוי שלך ב–Serva Chat (בחינם או בתשלום)</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">שחזור גיבוי מקומי במכשיר</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">לא נמצא גיבוי</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">לא נמצא גיבוי של Signal בתיקייה שנבחרה. נא לנסות תיקייה אחרת.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">לא נמצא גיבוי של Serva Chat בתיקייה שנבחרה. נא לנסות תיקייה אחרת.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">בחירת תיקייה אחרת</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">קישור החשבון שלך</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">עדיין לא ב-Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">עדיין לא ב-Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">יצירת חשבון</string>
 </resources>

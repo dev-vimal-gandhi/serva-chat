@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 /*
  * Copyright (C) 2011 Alexander Blom

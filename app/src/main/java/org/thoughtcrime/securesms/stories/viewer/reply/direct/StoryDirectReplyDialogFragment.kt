@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.direct
+package com.servalabs.chat.stories.viewer.reply.direct
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -11,19 +11,19 @@ import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.stories.viewer.reply.composer.StoryReplyComposer
-import org.thoughtcrime.securesms.util.ViewUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardEntryDialogFragment
+import com.servalabs.chat.components.emoji.EmojiEventListener
+import com.servalabs.chat.components.emoji.MediaKeyboard
+import com.servalabs.chat.keyboard.KeyboardPage
+import com.servalabs.chat.keyboard.KeyboardPagerViewModel
+import com.servalabs.chat.keyboard.emoji.EmojiKeyboardPageFragment
+import com.servalabs.chat.keyboard.emoji.search.EmojiSearchFragment
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageViewModel
+import com.servalabs.chat.stories.viewer.reply.composer.StoryReplyComposer
+import com.servalabs.chat.util.ViewUtil
 
 /**
  * Dialog displayed when the user decides to send a private reply to a story.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package com.servalabs.chat.contacts.paged.collections
 
 import android.database.Cursor
 

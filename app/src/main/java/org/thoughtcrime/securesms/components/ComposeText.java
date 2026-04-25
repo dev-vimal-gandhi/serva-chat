@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -32,29 +32,29 @@ import androidx.core.view.inputmethod.InputContentInfoCompat;
 
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionDeleter;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.mention.MentionValidatorWatcher;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryReplacement;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiEditText;
+import com.servalabs.chat.components.mention.MentionAnnotation;
+import com.servalabs.chat.components.mention.MentionDeleter;
+import com.servalabs.chat.components.mention.MentionRendererDelegate;
+import com.servalabs.chat.components.mention.MentionValidatorWatcher;
+import com.servalabs.chat.components.spoiler.SpoilerRendererDelegate;
+import com.servalabs.chat.conversation.MessageSendType;
+import com.servalabs.chat.conversation.MessageStyler;
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQuery;
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQueryChangedListener;
+import com.servalabs.chat.conversation.ui.inlinequery.InlineQueryReplacement;
+import com.servalabs.chat.database.model.Mention;
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import static org.thoughtcrime.securesms.database.MentionUtil.MENTION_STARTER;
+import static com.servalabs.chat.database.MentionUtil.MENTION_STARTER;
 
 public class ComposeText extends EmojiEditText {
 

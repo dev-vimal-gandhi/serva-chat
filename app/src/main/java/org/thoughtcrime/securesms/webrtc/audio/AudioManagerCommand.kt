@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.webrtc.audio
+package com.servalabs.chat.webrtc.audio
 
 import android.net.Uri
 import android.os.Parcel
 import android.os.Parcelable
 import org.signal.core.util.readParcelableCompat
 import org.signal.core.util.readSerializableCompat
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ParcelUtil
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.ParcelUtil
 
 /**
  * Commands that can be issued to [SignalAudioManager] to perform various tasks.
  *
  * Additional context: The audio management is tied closely with the Android audio and thus benefits from being
- * tied to the [org.thoughtcrime.securesms.service.webrtc.ActiveCallManager] lifecycle. Because of this, all
+ * tied to the [com.servalabs.chat.service.webrtc.ActiveCallManager] lifecycle. Because of this, all
  * calls have to go through it and this allows one entry point for that but multiple operations.
  */
 sealed class AudioManagerCommand : Parcelable {

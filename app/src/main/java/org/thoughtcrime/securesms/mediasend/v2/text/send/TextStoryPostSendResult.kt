@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.text.send
+package com.servalabs.chat.mediasend.v2.text.send
 
-import org.thoughtcrime.securesms.database.model.IdentityRecord
+import com.servalabs.chat.database.model.IdentityRecord
 
 sealed class TextStoryPostSendResult {
   object Success : TextStoryPostSendResult()

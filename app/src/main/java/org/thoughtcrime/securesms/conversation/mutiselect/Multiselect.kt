@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package com.servalabs.chat.conversation.mutiselect
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.mms.TextSlide
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.mms.SlideDeck
+import com.servalabs.chat.mms.TextSlide
 
 /**
  * General helper object for all things multiselect. This is only utilized by

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.messagerequests.MessageRequestState
+import com.servalabs.chat.recipients.Recipient
 
 /**
  * Information necessary for rendering compose input.

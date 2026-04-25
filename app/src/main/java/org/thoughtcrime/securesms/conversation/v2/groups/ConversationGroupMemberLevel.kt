@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package com.servalabs.chat.conversation.v2.groups
 
-import org.thoughtcrime.securesms.database.GroupTable
+import com.servalabs.chat.database.GroupTable
 
 /**
  * @param groupTableMemberLevel Self membership level

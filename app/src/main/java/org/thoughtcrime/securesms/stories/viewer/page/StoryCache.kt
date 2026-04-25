@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 import android.graphics.drawable.Drawable
 import android.net.Uri
@@ -8,9 +8,9 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import org.signal.core.util.logging.Log
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.util.MediaUtil
 
 /**
  * StoryCache loads attachment drawables into memory and holds onto them until it is cleared. This class only

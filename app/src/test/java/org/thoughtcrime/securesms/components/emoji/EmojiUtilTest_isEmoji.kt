@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji
+package com.servalabs.chat.components.emoji
 
 import android.app.Application
 import io.mockk.every
@@ -9,8 +9,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.ParameterizedRobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.emoji.EmojiSource
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
+import com.servalabs.chat.emoji.EmojiSource
+import com.servalabs.chat.testutil.MockAppDependenciesRule
 
 @RunWith(ParameterizedRobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

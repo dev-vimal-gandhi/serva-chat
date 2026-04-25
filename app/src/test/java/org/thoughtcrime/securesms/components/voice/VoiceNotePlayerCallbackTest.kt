@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package com.servalabs.chat.components.voice
 
 import android.app.Application
 import android.content.Context

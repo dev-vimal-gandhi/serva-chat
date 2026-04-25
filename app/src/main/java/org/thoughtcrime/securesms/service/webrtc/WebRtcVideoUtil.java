@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package com.servalabs.chat.service.webrtc;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.CameraEventListener;
-import org.thoughtcrime.securesms.ringrtc.CameraState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink;
+import com.servalabs.chat.components.webrtc.EglBaseWrapper;
+import com.servalabs.chat.ringrtc.Camera;
+import com.servalabs.chat.ringrtc.CameraEventListener;
+import com.servalabs.chat.ringrtc.CameraState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceState;
+import com.servalabs.chat.service.webrtc.state.WebRtcServiceStateBuilder;
 import org.webrtc.CapturerObserver;
 import org.webrtc.VideoFrame;
 import org.webrtc.VideoSink;

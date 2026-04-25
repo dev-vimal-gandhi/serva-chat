@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications
+package com.servalabs.chat.notifications
 
 import android.app.Application
 import android.os.Build
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.robolectric.util.ReflectionHelpers
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.util.RemoteConfig
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.location;
+package com.servalabs.chat.components.location;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -12,8 +12,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.android.gms.maps.model.LatLng;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.maps.AddressData;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.maps.AddressData;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.Locale;

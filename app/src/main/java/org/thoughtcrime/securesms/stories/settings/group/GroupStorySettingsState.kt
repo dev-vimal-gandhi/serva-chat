@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package com.servalabs.chat.stories.settings.group
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.recipients.Recipient
 
 data class GroupStorySettingsState(
   val name: String = "",

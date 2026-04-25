@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.messagedetails;
+package com.servalabs.chat.messagedetails;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.documents.IdentityKeyMismatch;
+import com.servalabs.chat.database.documents.NetworkFailure;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.recipients.Recipient;
 
 public final class RecipientDeliveryStatus {
 

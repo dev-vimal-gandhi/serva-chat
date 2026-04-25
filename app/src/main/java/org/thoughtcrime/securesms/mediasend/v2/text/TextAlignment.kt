@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.view.Gravity
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 enum class TextAlignment(val gravity: Int, @DrawableRes val icon: Int) {
   START(Gravity.START or Gravity.CENTER_VERTICAL, R.drawable.ic_text_start),

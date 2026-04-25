@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.Context
 import org.signal.core.models.ServiceId
@@ -20,7 +20,7 @@ import org.signal.libsignal.protocol.ecc.ECPublicKey
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 
 /**
- * A table for storing data related to [org.thoughtcrime.securesms.crypto.storage.SignalKyberPreKeyStore].
+ * A table for storing data related to [com.servalabs.chat.crypto.storage.SignalKyberPreKeyStore].
  */
 class KyberPreKeyTable(context: Context, databaseHelper: SignalDatabase) : DatabaseTable(context, databaseHelper) {
   companion object {

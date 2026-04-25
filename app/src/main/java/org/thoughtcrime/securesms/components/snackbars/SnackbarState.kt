@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.snackbars
+package com.servalabs.chat.components.snackbars
 
 import androidx.annotation.ColorRes
 import org.signal.core.ui.compose.Snackbars
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 
 /**
  * Represents the state of a snackbar to be displayed.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v3
+package com.servalabs.chat.mediasend.v3
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.fragment.compose.AndroidFragment
 import org.signal.mediasend.MediaSendActivityContract
 import org.signal.mediasend.MediaSendScreen
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
+import com.servalabs.chat.PassphraseRequiredActivity
 
 /**
  * Encapsulates the media send flow for v3.

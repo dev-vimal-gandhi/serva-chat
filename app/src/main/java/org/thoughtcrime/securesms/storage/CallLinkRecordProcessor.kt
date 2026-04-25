@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.storage
+package com.servalabs.chat.storage
 
 import okio.ByteString.Companion.toByteString
 import org.signal.core.util.isNotEmpty
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toOptional
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.service.webrtc.links.CallLinkRoomId
 import org.whispersystems.signalservice.api.storage.SignalCallLinkRecord
 import org.whispersystems.signalservice.api.storage.StorageId
 import org.whispersystems.signalservice.api.storage.toSignalCallLinkRecord

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text.send
+package com.servalabs.chat.mediasend.v2.text.send
 
 import android.graphics.Bitmap
 import android.net.Uri
@@ -7,20 +7,20 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Base64
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediasend.v2.UntrustedRecords
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryPostCreationState
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.database.model.databaseprotos.StoryTextPost
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.keyvalue.StorySend
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mediasend.v2.UntrustedRecords
+import com.servalabs.chat.mediasend.v2.text.TextStoryPostCreationState
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.Stories
 import java.io.ByteArrayOutputStream
 
 private val TAG = Log.tag(TextStoryPostSendRepository::class.java)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.v2
+package com.servalabs.chat.registration.v2
 
 import io.mockk.every
 import io.mockk.mockk
@@ -9,8 +9,8 @@ import org.junit.Test
 import org.signal.core.models.MasterKey
 import org.signal.core.util.StreamUtil
 import org.signal.libsignal.svr2.PinHash
-import org.thoughtcrime.securesms.registration.v2.testdata.KbsTestVector
-import org.thoughtcrime.securesms.testutil.SecureRandomTestUtil
+import com.servalabs.chat.registration.v2.testdata.KbsTestVector
+import com.servalabs.chat.testutil.SecureRandomTestUtil
 import org.whispersystems.signalservice.api.kbs.PinHashUtil.createNewKbsData
 import org.whispersystems.signalservice.api.kbs.PinHashUtil.decryptSvrDataIVCipherText
 import org.whispersystems.signalservice.internal.util.JsonUtil

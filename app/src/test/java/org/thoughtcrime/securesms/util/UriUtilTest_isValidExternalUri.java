@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.app.Application;
 import android.content.Context;
@@ -28,7 +28,7 @@ public class UriUtilTest_isValidExternalUri {
   private final String  input;
   private final boolean output;
 
-  private static final String APPLICATION_ID = "org.thoughtcrime.securesms";
+  private static final String APPLICATION_ID = "com.servalabs.chat";
 
   @ParameterizedRobolectricTestRunner.Parameters
   public static Collection<Object[]> data() {
@@ -55,7 +55,7 @@ public class UriUtilTest_isValidExternalUri {
   @Test
   public void parse() {
     Context context = ApplicationProvider.getApplicationContext();
-    Uri     uri     = Uri.parse(input.replace("org.thoughtcrime.securesms", context.getPackageName()));
+    Uri     uri     = Uri.parse(input.replace("com.servalabs.chat", context.getPackageName()));
 
     assertEquals(output, UriUtil.isValidExternalUri(context, uri));
   }

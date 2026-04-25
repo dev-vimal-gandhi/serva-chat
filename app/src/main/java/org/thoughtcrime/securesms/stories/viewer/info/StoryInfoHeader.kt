@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package com.servalabs.chat.stories.viewer.info
 
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import org.signal.core.util.Util
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

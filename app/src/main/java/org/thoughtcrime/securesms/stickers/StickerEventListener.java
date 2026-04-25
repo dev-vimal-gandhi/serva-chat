@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.StickerRecord;
+import com.servalabs.chat.database.model.StickerRecord;
 
 public interface StickerEventListener {
   void onStickerSelected(@NonNull StickerRecord sticker);

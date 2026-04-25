@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers.preview;
+package com.servalabs.chat.stickers.preview;
 
 import android.app.Application;
 import android.text.TextUtils;
@@ -9,10 +9,10 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.stickers.preview.StickerPackPreviewRepository.StickerManifestResult;
-import org.thoughtcrime.securesms.stickers.manage.StickerManagementRepository;
+import com.servalabs.chat.database.DatabaseObserver;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.stickers.preview.StickerPackPreviewRepository.StickerManifestResult;
+import com.servalabs.chat.stickers.manage.StickerManagementRepository;
 
 import java.util.Optional;
 

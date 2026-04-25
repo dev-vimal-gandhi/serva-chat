@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.signal.core.models.ServiceId
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.RecipientRecord
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Encapsulates data around processing a tuple of user data into a user entry in [RecipientTable].

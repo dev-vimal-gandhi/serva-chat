@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package com.servalabs.chat.scribbles
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -16,12 +16,12 @@ import org.signal.core.util.getParcelableCompat
 import org.signal.imageeditor.core.HiddenEditText
 import org.signal.imageeditor.core.model.EditorElement
 import org.signal.imageeditor.core.renderers.MultiLineTextRenderer
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import com.servalabs.chat.R
+import com.servalabs.chat.components.KeyboardEntryDialogFragment
+import com.servalabs.chat.scribbles.HSVColorSlider.getColor
+import com.servalabs.chat.scribbles.HSVColorSlider.setUpForColor
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.fragments.requireListener
 
 class TextEntryDialogFragment : KeyboardEntryDialogFragment(R.layout.v2_media_image_editor_text_entry_fragment) {
 

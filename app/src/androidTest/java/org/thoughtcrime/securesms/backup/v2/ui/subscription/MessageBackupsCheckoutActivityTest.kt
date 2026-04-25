@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package com.servalabs.chat.backup.v2.ui.subscription
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -35,15 +35,15 @@ import org.signal.core.util.billing.BillingPurchaseState
 import org.signal.core.util.billing.BillingResponseCode
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.CoroutineDispatcherRule
-import org.thoughtcrime.securesms.testing.InAppPaymentsRule
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.R
+import com.servalabs.chat.backup.v2.MessageBackupTier
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.testing.CoroutineDispatcherRule
+import com.servalabs.chat.testing.InAppPaymentsRule
+import com.servalabs.chat.testing.SignalActivityRule
 import java.math.BigDecimal
 import java.util.Currency
 

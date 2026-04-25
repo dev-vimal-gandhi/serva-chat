@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.content.Context
 import android.view.View
@@ -10,19 +10,19 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.search.SearchFilter
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.stories.settings.custom.PrivateStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.conversationlist.chatfilter.ConversationFilterRequest
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.search.SearchFilter
+import com.servalabs.chat.search.SearchRepository
+import com.servalabs.chat.stories.settings.custom.PrivateStorySettingsFragment
+import com.servalabs.chat.stories.settings.my.MyStorySettingsFragment
+import com.servalabs.chat.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
+import com.servalabs.chat.util.Debouncer
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.adapter.mapping.PagingMappingAdapter
+import com.servalabs.chat.util.livedata.LiveDataUtil
 import java.util.concurrent.TimeUnit
 
 /**

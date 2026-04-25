@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package com.servalabs.chat.service.webrtc.state
 
-import org.thoughtcrime.securesms.components.sensors.Orientation
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import com.servalabs.chat.components.sensors.Orientation
+import com.servalabs.chat.events.CallParticipant
+import com.servalabs.chat.ringrtc.CameraState
+import com.servalabs.chat.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 /**

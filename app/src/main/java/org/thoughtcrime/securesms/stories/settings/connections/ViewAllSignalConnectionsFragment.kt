@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.stories.settings.connections
+package com.servalabs.chat.stories.settings.connections
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.databinding.ViewAllSignalConnectionsFragmentBinding
-import org.thoughtcrime.securesms.groups.SelectionLimits
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.contacts.LetterHeaderDecoration
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchMediator
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.databinding.ViewAllSignalConnectionsFragmentBinding
+import com.servalabs.chat.groups.SelectionLimits
 
 class ViewAllSignalConnectionsFragment : Fragment(R.layout.view_all_signal_connections_fragment) {
 

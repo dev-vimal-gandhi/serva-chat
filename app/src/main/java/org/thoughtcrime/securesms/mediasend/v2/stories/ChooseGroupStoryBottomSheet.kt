@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package com.servalabs.chat.mediasend.v2.stories
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -15,17 +15,17 @@ import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.ShareContact
-import org.thoughtcrime.securesms.sharing.ShareSelectionAdapter
-import org.thoughtcrime.securesms.sharing.ShareSelectionMappingModel
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ContactSearchAdapter
+import com.servalabs.chat.contacts.paged.ContactSearchConfiguration
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.contacts.paged.ContactSearchMediator
+import com.servalabs.chat.contacts.paged.ContactSearchSortOrder
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sharing.ShareContact
+import com.servalabs.chat.sharing.ShareSelectionAdapter
+import com.servalabs.chat.sharing.ShareSelectionMappingModel
+import com.servalabs.chat.util.RemoteConfig
 
 class ChooseGroupStoryBottomSheet : FixedRoundedCornerBottomSheetDialogFragment() {
 

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package com.servalabs.chat.jobmanager.migrations
 
-import org.thoughtcrime.securesms.jobmanager.JobMigration
+import com.servalabs.chat.jobmanager.JobMigration
 
 /**
  * Migrate DonationReceiptRedemptionJob to use more lax lifespan and retries to accommodate SEPA.

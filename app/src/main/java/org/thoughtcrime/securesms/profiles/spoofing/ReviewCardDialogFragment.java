@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package com.servalabs.chat.profiles.spoofing;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,13 +16,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.stories.settings.my.SignalConnectionsBottomSheetDialogFragment;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.FullScreenDialogFragment;
+import com.servalabs.chat.groups.BadGroupIdException;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import com.servalabs.chat.stories.settings.my.SignalConnectionsBottomSheetDialogFragment;
 import org.signal.core.ui.BottomSheetUtil;
 
 public class ReviewCardDialogFragment extends FullScreenDialogFragment {

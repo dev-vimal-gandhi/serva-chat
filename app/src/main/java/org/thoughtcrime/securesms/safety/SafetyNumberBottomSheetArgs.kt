@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Fragment argument for `SafetyNumberBottomSheetFragment`

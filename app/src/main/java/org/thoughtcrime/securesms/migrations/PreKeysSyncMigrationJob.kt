@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.migrations
+package com.servalabs.chat.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobs.PreKeysSyncJob
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * Schedules a prekey sync.

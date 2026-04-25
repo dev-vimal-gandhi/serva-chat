@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package com.servalabs.chat.preferences;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,13 +26,13 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SettableFuture;
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.net.NetworkManager;
-import org.thoughtcrime.securesms.net.ProxyType;
-import org.thoughtcrime.securesms.net.SocksProxy;
-import org.thoughtcrime.securesms.util.SignalProxyUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.R;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.net.NetworkManager;
+import com.servalabs.chat.net.ProxyType;
+import com.servalabs.chat.net.SocksProxy;
+import com.servalabs.chat.util.SignalProxyUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;

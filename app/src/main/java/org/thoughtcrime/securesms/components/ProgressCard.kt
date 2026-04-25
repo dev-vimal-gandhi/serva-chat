@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.TextView
 import androidx.core.content.withStyledAttributes
 import com.google.android.material.card.MaterialCardView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.util.visible
 
 /**
  * A small card with a circular progress indicator in it. Usable in place

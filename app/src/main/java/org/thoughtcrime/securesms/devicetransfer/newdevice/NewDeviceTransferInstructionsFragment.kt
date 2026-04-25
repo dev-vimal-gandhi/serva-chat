@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice
+package com.servalabs.chat.devicetransfer.newdevice
 
 import android.os.Bundle
 import android.view.View
@@ -6,8 +6,8 @@ import androidx.navigation.fragment.findNavController
 import org.greenrobot.eventbus.EventBus
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.devicetransfer.TransferStatus
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Shows instructions for new device to being transfer.

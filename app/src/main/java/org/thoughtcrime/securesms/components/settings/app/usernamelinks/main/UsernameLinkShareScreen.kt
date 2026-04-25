@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -37,13 +37,13 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeBadge
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeBadge
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
+import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeState
+import com.servalabs.chat.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import com.servalabs.chat.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents
 import java.util.UUID
 import org.signal.core.ui.R as CoreUiR

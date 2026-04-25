@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package com.servalabs.chat.components.settings.app.privacy.expire
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.Gravity
 import android.widget.LinearLayout
 import android.widget.NumberPicker
-import org.thoughtcrime.securesms.R
+import com.servalabs.chat.R
 import java.util.concurrent.TimeUnit
 
 /**

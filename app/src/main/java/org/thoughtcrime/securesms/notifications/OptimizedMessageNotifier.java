@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package com.servalabs.chat.notifications;
 
 import android.app.Application;
 import android.content.Context;
@@ -11,12 +11,12 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.ExceptionUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BubbleUtil;
-import org.thoughtcrime.securesms.util.LeakyBucketLimiter;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.notifications.v2.DefaultMessageNotifier;
+import com.servalabs.chat.notifications.v2.ConversationId;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.BubbleUtil;
+import com.servalabs.chat.util.LeakyBucketLimiter;
 
 import java.util.Optional;
 

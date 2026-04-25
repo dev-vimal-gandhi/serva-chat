@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package com.servalabs.chat.components.mention;
 
 
 import android.text.Annotation;
@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import com.servalabs.chat.database.model.Mention;
+import com.servalabs.chat.recipients.RecipientId;
 
 import java.util.Collections;
 import java.util.List;

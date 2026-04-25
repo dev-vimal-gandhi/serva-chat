@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,12 +11,12 @@ import androidx.navigation.NavDirections;
 import androidx.navigation.NavGraph;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.navigation.SafeNavigation;
 
 /**
  * Activity for editing your profile after you're already registered.

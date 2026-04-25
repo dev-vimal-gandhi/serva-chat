@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup;
+package com.servalabs.chat.backup;
 
 import androidx.annotation.NonNull;
 
@@ -11,16 +11,16 @@ import org.signal.core.util.Conversions;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.kdf.HKDF;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.backup.proto.Attachment;
-import org.thoughtcrime.securesms.backup.proto.Avatar;
-import org.thoughtcrime.securesms.backup.proto.BackupFrame;
-import org.thoughtcrime.securesms.backup.proto.DatabaseVersion;
-import org.thoughtcrime.securesms.backup.proto.Header;
-import org.thoughtcrime.securesms.backup.proto.KeyValue;
-import org.thoughtcrime.securesms.backup.proto.SharedPreference;
-import org.thoughtcrime.securesms.backup.proto.SqlStatement;
-import org.thoughtcrime.securesms.backup.proto.Sticker;
+import com.servalabs.chat.attachments.AttachmentId;
+import com.servalabs.chat.backup.proto.Attachment;
+import com.servalabs.chat.backup.proto.Avatar;
+import com.servalabs.chat.backup.proto.BackupFrame;
+import com.servalabs.chat.backup.proto.DatabaseVersion;
+import com.servalabs.chat.backup.proto.Header;
+import com.servalabs.chat.backup.proto.KeyValue;
+import com.servalabs.chat.backup.proto.SharedPreference;
+import com.servalabs.chat.backup.proto.SqlStatement;
+import com.servalabs.chat.backup.proto.Sticker;
 import org.signal.core.util.Util;
 
 import java.io.IOException;

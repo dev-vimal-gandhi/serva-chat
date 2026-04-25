@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.managegroup.dialogs;
+package com.servalabs.chat.groups.ui.managegroup.dialogs;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.v2.GroupDescriptionUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiTextView;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.groups.LiveGroup;
+import com.servalabs.chat.groups.v2.GroupDescriptionUtil;
+import com.servalabs.chat.util.LongClickMovementMethod;
 
 /**
  * Dialog to show a full group description. Information regarding the description can be provided

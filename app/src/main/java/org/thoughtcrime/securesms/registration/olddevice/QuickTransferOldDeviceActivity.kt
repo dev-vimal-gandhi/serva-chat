@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.olddevice
+package com.servalabs.chat.registration.olddevice
 
 import android.content.Context
 import android.content.Intent
@@ -23,17 +23,17 @@ import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication
-import org.thoughtcrime.securesms.BiometricDeviceLockContract
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.BiometricDeviceAuthentication
+import com.servalabs.chat.BiometricDeviceLockContract
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.devicetransfer.olddevice.OldDeviceTransferActivity
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.viewModel
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 
 /**

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.events
+package com.servalabs.chat.events
 
 import android.content.Context
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
+import com.servalabs.chat.R
+import com.servalabs.chat.components.webrtc.BroadcastVideoSink
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.ringrtc.CameraState
 
 data class CallParticipant(
   val callParticipantId: CallParticipantId = CallParticipantId(Recipient.UNKNOWN),

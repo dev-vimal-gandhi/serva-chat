@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.thanks
+package com.servalabs.chat.components.settings.app.subscription.thanks
 
 import android.animation.Animator
 import android.content.DialogInterface
@@ -17,16 +17,16 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.animation.AnimationCompleteListener
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.badges.models.Badge
+import com.servalabs.chat.components.settings.app.AppSettingsActivity
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.fragments.findListener
+import com.servalabs.chat.util.visible
 
 class ThanksForYourSupportBottomSheetDialogFragment : FixedRoundedCornerBottomSheetDialogFragment() {
 

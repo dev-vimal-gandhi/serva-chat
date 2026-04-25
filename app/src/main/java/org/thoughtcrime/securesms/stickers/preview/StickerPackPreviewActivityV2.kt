@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers.preview
+package com.servalabs.chat.stickers.preview
 
 import android.content.Intent
 import android.os.Bundle
@@ -58,23 +58,23 @@ import org.signal.core.util.orNull
 import org.signal.core.util.toOptional
 import org.signal.glide.compose.GlideImage
 import org.signal.glide.decryptableuri.DecryptableUri
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackKey
-import org.thoughtcrime.securesms.database.model.StickerPackParams
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.stickers.BlessedPacks
-import org.thoughtcrime.securesms.stickers.StickerManifest
-import org.thoughtcrime.securesms.stickers.StickerPreviewDataFactory
-import org.thoughtcrime.securesms.stickers.StickerRemoteUri
-import org.thoughtcrime.securesms.stickers.StickerUrl
-import org.thoughtcrime.securesms.stickers.preview.StickerPackPreviewUiState.ContentState
-import org.thoughtcrime.securesms.stickers.preview.StickerPackPreviewUiState.NavTarget
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.PassphraseRequiredActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragment
+import com.servalabs.chat.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import com.servalabs.chat.database.model.StickerPackId
+import com.servalabs.chat.database.model.StickerPackKey
+import com.servalabs.chat.database.model.StickerPackParams
+import com.servalabs.chat.sharing.MultiShareArgs
+import com.servalabs.chat.stickers.BlessedPacks
+import com.servalabs.chat.stickers.StickerManifest
+import com.servalabs.chat.stickers.StickerPreviewDataFactory
+import com.servalabs.chat.stickers.StickerRemoteUri
+import com.servalabs.chat.stickers.StickerUrl
+import com.servalabs.chat.stickers.preview.StickerPackPreviewUiState.ContentState
+import com.servalabs.chat.stickers.preview.StickerPackPreviewUiState.NavTarget
+import com.servalabs.chat.util.DeviceProperties
+import com.servalabs.chat.util.viewModel
 import java.text.NumberFormat
 import kotlin.jvm.optionals.getOrElse
 

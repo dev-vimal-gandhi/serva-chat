@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package com.servalabs.chat.mediasend.v2.stories
 
 import com.google.android.material.R as MaterialR
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LargeIconClickPreference
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsAdapter
+import com.servalabs.chat.components.settings.DSLSettingsBottomSheetFragment
+import com.servalabs.chat.components.settings.DSLSettingsIcon
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.components.settings.conversation.preferences.LargeIconClickPreference
+import com.servalabs.chat.util.fragments.requireListener
 
 class ChooseStoryTypeBottomSheet : DSLSettingsBottomSheetFragment(
   layoutId = R.layout.dsl_settings_bottom_sheet

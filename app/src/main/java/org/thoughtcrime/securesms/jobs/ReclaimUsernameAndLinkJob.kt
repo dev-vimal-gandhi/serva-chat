@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.jobmanager.impl.BackoffUtil
+import com.servalabs.chat.jobmanager.impl.NetworkConstraint
+import com.servalabs.chat.profiles.manage.UsernameRepository
+import com.servalabs.chat.util.RemoteConfig
 import kotlin.time.Duration.Companion.days
 
 /**

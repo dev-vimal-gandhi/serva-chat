@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.conversation.ui.error.SafetyNumberChangeDialog
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

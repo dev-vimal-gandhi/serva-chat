@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package com.servalabs.chat.conversation.colors.ui.custom
 
 import android.content.Context
 import android.graphics.Canvas
@@ -28,13 +28,13 @@ import androidx.navigation.Navigation
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ui.ChatColorPreviewView
-import org.thoughtcrime.securesms.conversation.colors.ui.ChatColorSelectionViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.customizeOnDraw
+import com.servalabs.chat.R
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.conversation.colors.ui.ChatColorPreviewView
+import com.servalabs.chat.conversation.colors.ui.ChatColorSelectionViewModel
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.customizeOnDraw
 
 private const val MAX_SEEK_DIVISIONS = 1023
 private const val MAX_HUE = 360

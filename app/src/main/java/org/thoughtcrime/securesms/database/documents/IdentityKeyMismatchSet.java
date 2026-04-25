@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package com.servalabs.chat.database.documents;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

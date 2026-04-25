@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.app.Application
 import androidx.core.os.bundleOf
@@ -11,14 +11,14 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.MockCursor
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.LiveRecipientCache
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import com.servalabs.chat.MockCursor
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.LiveRecipientCache
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.adapter.mapping.MappingModel
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

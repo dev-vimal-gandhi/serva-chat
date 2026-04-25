@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import android.app.Activity
 import android.content.Context
@@ -24,21 +24,21 @@ import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.CreditCardFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorDialogs
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorParams
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.subscription.InAppDonations
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import com.servalabs.chat.components.settings.app.subscription.donate.card.CreditCardFragment
+import com.servalabs.chat.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import com.servalabs.chat.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationError
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationErrorDialogs
+import com.servalabs.chat.components.settings.app.subscription.errors.DonationErrorParams
+import com.servalabs.chat.database.InAppPaymentTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 
 /**
  * Abstracts out some common UI-level interactions between gift flow and normal donate flow.

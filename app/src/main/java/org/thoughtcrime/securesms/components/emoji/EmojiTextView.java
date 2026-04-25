@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -37,16 +37,16 @@ import androidx.core.view.ViewKt;
 import androidx.core.widget.TextViewCompat;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.parsing.EmojiParser;
+import com.servalabs.chat.components.mention.MentionAnnotation;
+import com.servalabs.chat.components.mention.MentionRendererDelegate;
+import com.servalabs.chat.components.spoiler.SpoilerRendererDelegate;
+import com.servalabs.chat.conversation.MessageStyler;
+import com.servalabs.chat.emoji.JumboEmoji;
+import com.servalabs.chat.keyvalue.SignalStore;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor;
+import com.servalabs.chat.util.concurrent.SerialMonoLifoExecutor;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
@@ -6,12 +6,12 @@ import org.signal.core.util.Base64
 import org.signal.core.util.UuidUtil
 import org.signal.core.util.toByteArray
 import org.signal.libsignal.protocol.message.CiphertextMessage
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.messages.TestMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.messages.SignalServiceProtoUtil.buildWith
+import com.servalabs.chat.messages.TestMessage
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.internal.push.AddressableMessage
 import org.whispersystems.signalservice.internal.push.AttachmentPointer

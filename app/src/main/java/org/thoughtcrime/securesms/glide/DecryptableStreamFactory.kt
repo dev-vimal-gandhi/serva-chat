@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.glide
+package com.servalabs.chat.glide
 
 import android.net.Uri
 import org.signal.core.util.logging.Log
 import org.signal.glide.common.io.InputStreamFactory
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import com.servalabs.chat.dependencies.AppDependencies
 import java.io.InputStream
 
 /**

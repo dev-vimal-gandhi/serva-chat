@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package com.servalabs.chat.video.videoconverter;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -11,13 +11,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
-import org.thoughtcrime.securesms.video.videoconverter.exceptions.CodecUnavailableException;
-import org.thoughtcrime.securesms.video.videoconverter.exceptions.HdrDecoderUnavailableException;
-import org.thoughtcrime.securesms.video.videoconverter.utils.Extensions;
-import org.thoughtcrime.securesms.video.videoconverter.utils.MediaCodecCompat;
-import org.thoughtcrime.securesms.video.videoconverter.utils.Preconditions;
+import com.servalabs.chat.video.interfaces.MediaInput;
+import com.servalabs.chat.video.interfaces.Muxer;
+import com.servalabs.chat.video.videoconverter.exceptions.CodecUnavailableException;
+import com.servalabs.chat.video.videoconverter.exceptions.HdrDecoderUnavailableException;
+import com.servalabs.chat.video.videoconverter.utils.Extensions;
+import com.servalabs.chat.video.videoconverter.utils.MediaCodecCompat;
+import com.servalabs.chat.video.videoconverter.utils.Preconditions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

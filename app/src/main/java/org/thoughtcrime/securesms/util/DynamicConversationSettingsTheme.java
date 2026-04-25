@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import androidx.annotation.StyleRes;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public class DynamicConversationSettingsTheme extends DynamicTheme {
 

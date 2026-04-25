@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.database.model.PendingRetryReceiptModel
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.database.model.PendingRetryReceiptModel
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.util.RemoteConfig
 
 /**
  * A write-through cache for [PendingRetryReceiptTable].

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.custom.name
+package com.servalabs.chat.stories.settings.custom.name
 
 import android.os.Bundle
 import android.view.View
@@ -14,10 +14,10 @@ import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import com.servalabs.chat.R
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.util.ViewUtil
+import com.servalabs.chat.util.views.CircularProgressMaterialButton
 
 class EditStoryNameFragment : Fragment(R.layout.stories_edit_story_name_fragment) {
 

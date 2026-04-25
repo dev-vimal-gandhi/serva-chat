@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui.addtogroup
+package com.servalabs.chat.groups.ui.addtogroup
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,15 +14,15 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.addtogroup.AddToGroupsUiState.UserMessage
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.groups.ui.GroupChangeFailureReason
+import com.servalabs.chat.groups.ui.addtogroup.AddToGroupsUiState.UserMessage
+import com.servalabs.chat.groups.v2.GroupAddMembersResult
+import com.servalabs.chat.groups.v2.GroupManagementRepository
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 class AddToGroupsViewModel(
   private val recipientId: RecipientId,

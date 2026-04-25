@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.attachments
+package com.servalabs.chat.attachments
 
 import android.net.Uri
 import android.os.Parcel
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.util.MediaUtil
 import java.util.UUID
 
 /**

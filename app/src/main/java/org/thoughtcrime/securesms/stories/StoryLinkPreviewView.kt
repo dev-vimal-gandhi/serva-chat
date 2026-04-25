@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package com.servalabs.chat.stories
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -12,15 +12,15 @@ import org.signal.core.ui.view.Stub
 import org.signal.core.util.concurrent.ListenableFuture
 import org.signal.core.util.concurrent.SettableFuture
 import org.signal.core.util.isAbsent
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ThumbnailView
-import org.thoughtcrime.securesms.databinding.StoriesTextPostLinkPreviewBinding
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewState
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil
-import org.thoughtcrime.securesms.mms.ImageSlide
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ThumbnailView
+import com.servalabs.chat.databinding.StoriesTextPostLinkPreviewBinding
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.linkpreview.LinkPreviewState
+import com.servalabs.chat.linkpreview.LinkPreviewUtil
+import com.servalabs.chat.mms.ImageSlide
+import com.servalabs.chat.mms.Slide
+import com.servalabs.chat.util.visible
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Locale

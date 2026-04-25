@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.conversation
+package com.servalabs.chat.conversation
 
 import android.os.PowerManager
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.util.WakeLockUtil
+import com.servalabs.chat.util.WakeLockUtil
 import java.util.concurrent.TimeUnit
 
 /**

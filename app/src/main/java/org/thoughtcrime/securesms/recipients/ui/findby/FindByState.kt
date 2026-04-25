@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package com.servalabs.chat.recipients.ui.findby
 
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryUtils
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.registration.ui.countrycode.Country
+import com.servalabs.chat.registration.ui.countrycode.CountryUtils
 
 /**
  * State for driving find by number/username screen.

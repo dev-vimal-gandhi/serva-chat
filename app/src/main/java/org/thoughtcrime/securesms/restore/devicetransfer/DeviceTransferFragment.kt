@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.devicetransfer
+package com.servalabs.chat.restore.devicetransfer
 
 import android.os.Bundle
 import android.view.View
@@ -18,10 +18,10 @@ import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.ui.logging.LoggingFragment
 import org.signal.devicetransfer.DeviceToDeviceTransferService
 import org.signal.devicetransfer.TransferStatus
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentDeviceTransferBinding
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.ViewBinderDelegate
+import com.servalabs.chat.databinding.FragmentDeviceTransferBinding
+import com.servalabs.chat.util.visible
 
 /**
  * Drives the UI for the actual device transfer progress. Shown after setup is complete

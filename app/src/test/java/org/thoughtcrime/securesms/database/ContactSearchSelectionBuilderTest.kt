@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.junit.Assert
 import org.junit.Test
 import org.signal.core.util.SqlUtil
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 class ContactSearchSelectionBuilderTest {
   @Test(expected = IllegalStateException::class)

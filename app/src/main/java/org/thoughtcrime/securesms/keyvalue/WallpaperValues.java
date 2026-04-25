@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import android.net.Uri;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory;
-import org.thoughtcrime.securesms.wallpaper.WallpaperStorage;
+import com.servalabs.chat.database.model.databaseprotos.Wallpaper;
+import com.servalabs.chat.wallpaper.ChatWallpaper;
+import com.servalabs.chat.wallpaper.ChatWallpaperFactory;
+import com.servalabs.chat.wallpaper.WallpaperStorage;
 
 import java.io.IOException;
 import java.util.Collections;

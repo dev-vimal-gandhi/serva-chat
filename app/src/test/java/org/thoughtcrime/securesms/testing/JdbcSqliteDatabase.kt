@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import android.content.ContentValues
 import android.database.Cursor

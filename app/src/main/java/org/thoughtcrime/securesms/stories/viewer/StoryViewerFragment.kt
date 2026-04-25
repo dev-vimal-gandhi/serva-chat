@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import android.graphics.RenderEffect
 import android.graphics.Shader
@@ -16,16 +16,16 @@ import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableArrayListCompat
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.first.StoryFirstTimeNavigationFragment
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageArgs
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageFragment
-import org.thoughtcrime.securesms.stories.viewer.reply.StoriesSharedElementCrossFaderView
+import com.servalabs.chat.R
+import com.servalabs.chat.components.spoiler.SpoilerAnnotation
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.StoryViewerArgs
+import com.servalabs.chat.stories.viewer.first.StoryFirstTimeNavigationFragment
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageArgs
+import com.servalabs.chat.stories.viewer.page.StoryViewerPageFragment
+import com.servalabs.chat.stories.viewer.reply.StoriesSharedElementCrossFaderView
 
 /**
  * Fragment which manages a vertical pager fragment of stories.

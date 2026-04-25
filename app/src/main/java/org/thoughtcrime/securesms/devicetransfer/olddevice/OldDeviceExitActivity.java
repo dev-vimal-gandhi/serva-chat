@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package com.servalabs.chat.devicetransfer.olddevice;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -28,11 +28,11 @@ import android.view.WindowInsets;
 import androidx.appcompat.widget.LinearLayoutCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.SecurePreferenceManager;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.SecurePreferenceManager;
+import com.servalabs.chat.util.ServiceUtil;
 import org.signal.core.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.lang.reflect.Field;
 import java.util.HashSet;

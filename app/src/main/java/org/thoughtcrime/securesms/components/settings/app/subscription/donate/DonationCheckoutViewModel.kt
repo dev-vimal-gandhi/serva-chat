@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package com.servalabs.chat.components.settings.app.subscription.donate
 
 import androidx.lifecycle.ViewModel
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import com.servalabs.chat.database.InAppPaymentTable
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

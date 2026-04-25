@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui
+package com.servalabs.chat.recipients.ui
 
 import android.view.View
 import android.view.ViewGroup
@@ -41,22 +41,22 @@ import org.signal.core.ui.compose.DayNightPreviews
 import org.signal.core.ui.compose.Fragments
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments
-import org.thoughtcrime.securesms.conversation.RecipientSearchBar
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.PhoneNumber
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker.DisplayMode.Companion.flag
-import org.thoughtcrime.securesms.recipients.ui.RecipientPicker.KeyboardType
+import com.servalabs.chat.ContactSelectionListFragment
+import com.servalabs.chat.R
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.contacts.paged.ChatType
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.contacts.selection.ContactSelectionArguments
+import com.servalabs.chat.conversation.RecipientSearchBar
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.PhoneNumber
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.RecipientPicker.DisplayMode.Companion.flag
+import com.servalabs.chat.recipients.ui.RecipientPicker.KeyboardType
 import java.util.Optional
 import java.util.function.Consumer
 
@@ -454,7 +454,7 @@ class RecipientPickerCallbacks(
 
 object RecipientPicker {
   /**
-   * Enum wrapper for [org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode].
+   * Enum wrapper for [com.servalabs.chat.contacts.ContactSelectionDisplayMode].
    */
   enum class DisplayMode(val flag: Int) {
     PUSH(flag = ContactSelectionDisplayMode.FLAG_PUSH),

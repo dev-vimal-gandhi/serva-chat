@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import android.content.Context
 import org.signal.core.util.kibiBytes
 import org.signal.core.util.splitByByteLength
-import org.thoughtcrime.securesms.mms.TextSlide
-import org.thoughtcrime.securesms.providers.BlobProvider
+import com.servalabs.chat.mms.TextSlide
+import com.servalabs.chat.providers.BlobProvider
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

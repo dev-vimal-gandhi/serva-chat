@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.events;
+package com.servalabs.chat.events;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import com.servalabs.chat.attachments.Attachment;
 import org.whispersystems.signalservice.api.messages.AttachmentTransferProgress;
 
 public final class PartProgressEvent {

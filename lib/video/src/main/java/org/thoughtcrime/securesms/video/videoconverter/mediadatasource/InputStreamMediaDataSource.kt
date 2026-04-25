@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.videoconverter.mediadatasource
+package com.servalabs.chat.video.videoconverter.mediadatasource
 
 import android.media.MediaDataSource
 import java.io.IOException

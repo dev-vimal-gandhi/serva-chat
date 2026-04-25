@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package com.servalabs.chat.fonts
 
 import android.content.Context
 import android.graphics.Typeface

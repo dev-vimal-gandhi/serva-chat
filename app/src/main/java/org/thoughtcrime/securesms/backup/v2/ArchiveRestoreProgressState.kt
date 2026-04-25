@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package com.servalabs.chat.backup.v2
 
 import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.backup.RestoreState
+import com.servalabs.chat.backup.RestoreState
 import kotlin.math.max
 import kotlin.math.min
 

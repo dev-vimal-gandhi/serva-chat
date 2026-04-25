@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy
+package com.servalabs.chat.components.settings.app.privacy
 
 data class PrivacySettingsState(
   val blockedCount: Int,

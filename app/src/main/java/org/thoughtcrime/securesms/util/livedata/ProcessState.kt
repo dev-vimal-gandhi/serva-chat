@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.livedata
+package com.servalabs.chat.util.livedata
 
 /**
  * Provide a general representation of a discrete process. States are idle,

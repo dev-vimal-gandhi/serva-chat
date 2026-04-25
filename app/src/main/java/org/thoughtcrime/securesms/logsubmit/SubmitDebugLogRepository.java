@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.app.Application;
 import android.content.Context;
@@ -19,13 +19,13 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.logging.Scrubber;
 import org.signal.debuglogsviewer.DebugLogsViewer;
-import org.thoughtcrime.securesms.database.LogDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.net.Networking;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.database.LogDatabase;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.net.Networking;
+import com.servalabs.chat.net.StandardUserAgentInterceptor;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.RemoteConfig;
 import org.signal.core.util.Stopwatch;
 
 import java.io.IOException;

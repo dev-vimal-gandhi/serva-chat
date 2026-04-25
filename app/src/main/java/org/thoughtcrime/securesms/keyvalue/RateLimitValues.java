@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.keyvalue;
+package com.servalabs.chat.keyvalue;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.ratelimit.RecaptchaRequiredEvent;
+import com.servalabs.chat.ratelimit.RecaptchaRequiredEvent;
 
 import java.util.Collections;
 import java.util.List;

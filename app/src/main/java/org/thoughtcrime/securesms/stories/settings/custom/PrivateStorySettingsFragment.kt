@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package com.servalabs.chat.stories.settings.custom
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
@@ -38,16 +38,16 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.ui.compose.theme.colorAttribute
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.rememberRecipientField
-import org.thoughtcrime.securesms.stories.dialogs.StoryDialogs
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.AvatarImage
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.rememberRecipientField
+import com.servalabs.chat.stories.dialogs.StoryDialogs
+import com.servalabs.chat.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.push.DistributionId
 import java.util.UUID
 

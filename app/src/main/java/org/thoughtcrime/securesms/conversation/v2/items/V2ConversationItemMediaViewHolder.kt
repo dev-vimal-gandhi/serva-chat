@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.util.TypedValue
 import android.view.View
-import org.thoughtcrime.securesms.components.QuoteView
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.changeConstraints
-import org.thoughtcrime.securesms.util.isStoryReaction
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.components.QuoteView
+import com.servalabs.chat.conversation.v2.data.ConversationMessageElement
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.changeConstraints
+import com.servalabs.chat.util.isStoryReaction
+import com.servalabs.chat.util.visible
 
 /**
  * Represents a media-backed conversation item.

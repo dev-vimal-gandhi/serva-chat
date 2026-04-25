@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.updates
+package com.servalabs.chat.components.settings.app.updates
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateNotifications
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateRefreshListener
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ApkUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.apkupdate.ApkUpdateNotifications
+import com.servalabs.chat.apkupdate.ApkUpdateRefreshListener
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.ApkUpdateJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.TextSecurePreferences
 
 class AppUpdatesSettingsViewModel : ViewModel() {
 

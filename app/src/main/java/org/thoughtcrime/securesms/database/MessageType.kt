@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 /**
  * Describes what type of message something is. This serves as an abstraction layer over the bitmasks
- * in [MessageTypes]. Currently only used for [org.thoughtcrime.securesms.mms.IncomingMessage],
+ * in [MessageTypes]. Currently only used for [com.servalabs.chat.mms.IncomingMessage],
  * but will hopefully be used more widely in the future.
  */
 enum class MessageType {

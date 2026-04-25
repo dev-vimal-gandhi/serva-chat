@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.enterbackupkey
+package com.servalabs.chat.restore.enterbackupkey
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -17,11 +17,11 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.RestoreTimestampResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.ui.restore.AccountEntropyPoolVerification
-import org.thoughtcrime.securesms.registration.ui.restore.AccountEntropyPoolVerification.AEPValidationError
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.RestoreTimestampResult
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.ui.restore.AccountEntropyPoolVerification
+import com.servalabs.chat.registration.ui.restore.AccountEntropyPoolVerification.AEPValidationError
 
 class PostRegistrationEnterBackupKeyViewModel : ViewModel() {
   companion object {

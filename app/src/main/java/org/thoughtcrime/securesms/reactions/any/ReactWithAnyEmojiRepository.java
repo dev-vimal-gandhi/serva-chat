@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package com.servalabs.chat.reactions.any;
 
 import android.content.Context;
 
@@ -9,16 +9,16 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.emoji.EmojiCategory;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.reactions.ReactionDetails;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.RecentEmojiPageModel;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.database.model.MessageId;
+import com.servalabs.chat.database.model.ReactionRecord;
+import com.servalabs.chat.emoji.EmojiCategory;
+import com.servalabs.chat.emoji.EmojiSource;
+import com.servalabs.chat.reactions.ReactionDetails;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.sms.MessageSender;
 
 import java.util.Arrays;
 import java.util.Collections;

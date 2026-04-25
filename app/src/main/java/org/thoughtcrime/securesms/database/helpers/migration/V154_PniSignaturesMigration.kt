@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package com.servalabs.chat.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase
 
 /**
  * Introduces the tables and fields required to keep track of whether we need to send a PNI signature message and if the ones we've sent out have been received.

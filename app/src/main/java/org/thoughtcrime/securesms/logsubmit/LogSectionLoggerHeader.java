@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import com.servalabs.chat.service.KeyCachingService;
 
 /**
  * Because the actual contents of this section are paged from the database, this class just has a header and no content.

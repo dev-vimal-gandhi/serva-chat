@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.app.Application
 import io.mockk.every
@@ -18,15 +18,15 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.IdentityKeyPair
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.IdentityUtil
+import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.database.RecipientDatabaseTestUtils
+import com.servalabs.chat.database.model.IdentityRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.testutil.MockAppDependenciesRule
+import com.servalabs.chat.testutil.SystemOutLogger
+import com.servalabs.chat.util.IdentityUtil
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.services.ProfileService
 import org.whispersystems.signalservice.internal.ServiceResponse

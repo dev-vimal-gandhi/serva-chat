@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package com.servalabs.chat.util
 
 import org.signal.core.util.BidiUtil
 import org.signal.core.util.E164Util
 import org.signal.core.util.LRUCache
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
 
 /**
  * A wrapper around [E164Util] that automatically handles fetching our own number and caching formatters.

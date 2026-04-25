@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package com.servalabs.chat.logsubmit;
 
 import android.app.usage.UsageStatsManager;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.util.BucketInfo;
+import com.servalabs.chat.util.BucketInfo;
 
 import java.util.concurrent.TimeUnit;
 

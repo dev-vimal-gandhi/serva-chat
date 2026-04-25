@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.migrations;
+package com.servalabs.chat.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceKeysUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceStorageSyncRequestJob;
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.jobmanager.Job;
+import com.servalabs.chat.jobmanager.JobManager;
+import com.servalabs.chat.jobs.MultiDeviceKeysUpdateJob;
+import com.servalabs.chat.jobs.MultiDeviceStorageSyncRequestJob;
+import com.servalabs.chat.jobs.RefreshAttributesJob;
+import com.servalabs.chat.jobs.RefreshOwnProfileJob;
+import com.servalabs.chat.jobs.StorageForcePushJob;
+import com.servalabs.chat.keyvalue.SignalStore;
+import com.servalabs.chat.util.TextSecurePreferences;
 
 /**
  * This does a couple things:

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package com.servalabs.chat.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -9,14 +9,14 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.GroupTestingUtils.asMember
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import com.servalabs.chat.database.GroupReceiptTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.messages.SignalServiceProtoUtil.buildWith
+import com.servalabs.chat.testing.GroupTestingUtils
+import com.servalabs.chat.testing.GroupTestingUtils.asMember
+import com.servalabs.chat.testing.MessageContentFuzzer
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.MessageTableTestUtils
 import org.whispersystems.signalservice.internal.push.DataMessage
 import org.whispersystems.signalservice.internal.push.GroupContextV2
 

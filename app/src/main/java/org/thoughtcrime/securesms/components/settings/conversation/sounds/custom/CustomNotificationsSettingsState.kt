@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds.custom
+package com.servalabs.chat.components.settings.conversation.sounds.custom
 
 import android.net.Uri
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.RecipientTable
+import com.servalabs.chat.recipients.Recipient
 
 data class CustomNotificationsSettingsState(
   val isInitialLoadComplete: Boolean = false,

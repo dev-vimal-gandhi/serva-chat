@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package com.servalabs.chat.profiles.edit;
 
 
 import android.annotation.SuppressLint;
@@ -11,11 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.BaseActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.groups.GroupId;
+import com.servalabs.chat.util.DynamicRegistrationTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 /**
  * Shows editing screen for your profile during registration. Also handles group name editing.

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Flowable
-import org.thoughtcrime.securesms.util.rx.RxStore
+import com.servalabs.chat.util.rx.RxStore
 
 class StoryVolumeViewModel : ViewModel() {
   private val store = RxStore(StoryVolumeState())

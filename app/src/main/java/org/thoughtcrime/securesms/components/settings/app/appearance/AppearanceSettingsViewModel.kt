@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package com.servalabs.chat.components.settings.app.appearance
 
 import android.app.Activity
 import androidx.lifecycle.ViewModel
@@ -6,11 +6,11 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.core.util.AppUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.Theme
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.SplashScreenUtil
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.EmojiSearchIndexDownloadJob
+import com.servalabs.chat.keyvalue.SettingsValues.Theme
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.SplashScreenUtil
 
 class AppearanceSettingsViewModel : ViewModel() {
   private val store = MutableStateFlow(getState())

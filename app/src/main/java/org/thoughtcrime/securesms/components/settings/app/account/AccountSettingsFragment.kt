@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package com.servalabs.chat.components.settings.app.account
 
 import android.content.Intent
 import android.widget.Toast
@@ -33,17 +33,17 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.Texts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.pin.RegistrationLockV2Dialog
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.lock.v2.CreateSvrPinActivity
+import com.servalabs.chat.lock.v2.PinKeyboardType
+import com.servalabs.chat.pin.RegistrationLockV2Dialog
+import com.servalabs.chat.registration.ui.RegistrationActivity
+import com.servalabs.chat.util.PlayStoreUtil
+import com.servalabs.chat.util.ServiceUtil
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class AccountSettingsFragment : ComposeFragment() {
 

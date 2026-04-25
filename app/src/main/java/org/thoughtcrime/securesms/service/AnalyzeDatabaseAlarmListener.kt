@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.service
+package com.servalabs.chat.service
 
 import android.content.Context
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.AnalyzeDatabaseJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.toMillis
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.AnalyzeDatabaseJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.toMillis
 import java.security.SecureRandom
 import java.time.LocalDateTime
 

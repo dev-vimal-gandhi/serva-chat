@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter.muxer;
+package com.servalabs.chat.video.videoconverter.muxer;
 
 import android.media.MediaCodec;
 import android.media.MediaFormat;
@@ -9,8 +9,8 @@ import androidx.annotation.Nullable;
 import org.mp4parser.boxes.iso14496.part1.objectdescriptors.DecoderSpecificInfo;
 import org.mp4parser.streaming.StreamingTrack;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
-import org.thoughtcrime.securesms.video.videoconverter.utils.MediaCodecCompat;
+import com.servalabs.chat.video.interfaces.Muxer;
+import com.servalabs.chat.video.videoconverter.utils.MediaCodecCompat;
 
 import java.io.IOException;
 import java.io.OutputStream;

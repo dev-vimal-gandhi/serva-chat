@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.routes
+package com.servalabs.chat.components.settings.app.routes
 
 import android.os.Parcelable
 import androidx.annotation.StringRes
 import kotlinx.parcelize.Parcelize
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.manage.UsernameEditMode
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.profiles.manage.UsernameEditMode
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Describes a route that the AppSettings screen can open. Every route listed here is displayed in

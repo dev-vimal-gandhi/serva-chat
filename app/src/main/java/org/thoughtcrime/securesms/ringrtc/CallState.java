@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package com.servalabs.chat.ringrtc;
 
 /**
  *

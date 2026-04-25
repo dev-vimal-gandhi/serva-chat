@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package com.servalabs.chat.conversation.quotes
 
 import android.app.Application
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Observable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.conversation.v2.data.AttachmentHelper
-import org.thoughtcrime.securesms.conversation.v2.data.ReactionHelper
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.getQuote
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.ConversationMessage.ConversationMessageFactory
+import com.servalabs.chat.conversation.v2.data.AttachmentHelper
+import com.servalabs.chat.conversation.v2.data.ReactionHelper
+import com.servalabs.chat.database.DatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.MessageId
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.database.model.Quote
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.util.getQuote
 
 class MessageQuotesRepository {
 

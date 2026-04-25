@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 data class StoryLoadState(
   val isContentReady: Boolean = false,

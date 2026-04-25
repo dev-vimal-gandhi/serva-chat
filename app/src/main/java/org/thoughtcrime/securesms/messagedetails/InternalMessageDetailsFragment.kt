@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messagedetails
+package com.servalabs.chat.messagedetails
 
 import android.content.Context
 import android.widget.Toast
@@ -35,12 +35,12 @@ import androidx.fragment.app.FragmentActivity
 import org.signal.core.ui.compose.ComposeFullScreenDialogFragment
 import org.signal.core.ui.compose.Dividers
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.messagedetails.InternalMessageDetailsViewModel.AttachmentInfo
-import org.thoughtcrime.securesms.messagedetails.InternalMessageDetailsViewModel.ViewState
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.messagedetails.InternalMessageDetailsViewModel.AttachmentInfo
+import com.servalabs.chat.messagedetails.InternalMessageDetailsViewModel.ViewState
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
+import com.servalabs.chat.util.viewModel
 
 class InternalMessageDetailsFragment : ComposeFullScreenDialogFragment() {
   companion object {

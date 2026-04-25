@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package com.servalabs.chat.notifications.v2
 
 import android.app.PendingIntent
 import android.content.Context
@@ -10,24 +10,24 @@ import androidx.core.app.TaskStackBuilder
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.contacts.TurnOffContactJoinedNotificationsActivity
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.notifications.RemoteReplyReceiver
-import org.thoughtcrime.securesms.notifications.ReplyMethod
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.fallback.FallbackAvatar
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable
+import com.servalabs.chat.contacts.TurnOffContactJoinedNotificationsActivity
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.DeleteNotificationReceiver
+import com.servalabs.chat.notifications.MarkReadReceiver
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.notifications.RemoteReplyReceiver
+import com.servalabs.chat.notifications.ReplyMethod
+import com.servalabs.chat.preferences.widgets.NotificationPrivacyPreference
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.service.KeyCachingService
+import com.servalabs.chat.stories.StoryViewerArgs
+import com.servalabs.chat.stories.viewer.StoryViewerActivity
 
 /**
  * Encapsulate all the notifications for a given conversation (thread) and the top

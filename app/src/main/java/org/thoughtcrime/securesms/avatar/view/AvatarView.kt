@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.view
+package com.servalabs.chat.avatar.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,13 +7,13 @@ import android.widget.FrameLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.res.use
 import com.bumptech.glide.RequestManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors.getGradientDrawable
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.components.AvatarImageView
+import com.servalabs.chat.conversation.colors.AvatarGradientColors.getGradientDrawable
+import com.servalabs.chat.database.model.StoryViewState
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.stories.Stories
+import com.servalabs.chat.util.visible
 
 /**
  * AvatarView encapsulating the AvatarImageView and decorations.

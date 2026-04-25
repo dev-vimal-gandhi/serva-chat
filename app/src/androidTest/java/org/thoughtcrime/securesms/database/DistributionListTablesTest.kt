@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
 import org.signal.core.models.ServiceId.ACI
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListRecord
+import com.servalabs.chat.database.model.StoryType
+import com.servalabs.chat.recipients.RecipientId
 import java.util.UUID
 
 class DistributionListTablesTest {

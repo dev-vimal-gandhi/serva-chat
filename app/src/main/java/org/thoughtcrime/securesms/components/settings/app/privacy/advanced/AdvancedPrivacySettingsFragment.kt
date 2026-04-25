@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.advanced
+package com.servalabs.chat.components.settings.app.privacy.advanced
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -41,12 +41,12 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.SecurePreferenceManager
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.R
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.SecurePreferenceManager
+import com.servalabs.chat.util.viewModel
 
 /**
  * Displays advanced privacy controls such as call relaying and

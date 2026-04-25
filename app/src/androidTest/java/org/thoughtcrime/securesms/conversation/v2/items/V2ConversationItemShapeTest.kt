@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package com.servalabs.chat.conversation.v2.items
 
 import android.content.Context
 import android.net.Uri
@@ -19,29 +19,29 @@ import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
-import org.thoughtcrime.securesms.conversation.ConversationItem
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.conversation.colors.ColorizerV2
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediapreview.MediaIntentFactory
-import org.thoughtcrime.securesms.polls.PollOption
-import org.thoughtcrime.securesms.polls.PollRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import com.servalabs.chat.components.voice.VoiceNotePlaybackState
+import com.servalabs.chat.contactshare.Contact
+import com.servalabs.chat.conversation.ConversationAdapter
+import com.servalabs.chat.conversation.ConversationItem
+import com.servalabs.chat.conversation.ConversationItemDisplayMode
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.conversation.colors.Colorizer
+import com.servalabs.chat.conversation.colors.ColorizerV2
+import com.servalabs.chat.conversation.mutiselect.MultiselectPart
+import com.servalabs.chat.database.FakeMessageRecords
+import com.servalabs.chat.database.model.InMemoryMessageRecord
+import com.servalabs.chat.database.model.MessageRecord
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupMigrationMembershipChange
+import com.servalabs.chat.linkpreview.LinkPreview
+import com.servalabs.chat.mediapreview.MediaIntentFactory
+import com.servalabs.chat.polls.PollOption
+import com.servalabs.chat.polls.PollRecord
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stickers.StickerLocator
+import com.servalabs.chat.testing.SignalActivityRule
 import kotlin.time.Duration.Companion.minutes
 
 class V2ConversationItemShapeTest {

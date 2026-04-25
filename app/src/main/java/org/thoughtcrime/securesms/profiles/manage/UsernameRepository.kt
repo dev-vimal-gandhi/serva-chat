@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package com.servalabs.chat.profiles.manage
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Single
@@ -16,16 +16,16 @@ import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
 import org.signal.libsignal.usernames.UsernameLinkInvalidEntropyDataLength
 import org.signal.libsignal.usernames.UsernameLinkInvalidLinkData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkResetResult
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.NetworkUtil
-import org.thoughtcrime.securesms.util.UsernameUtil
+import com.servalabs.chat.components.settings.app.usernamelinks.main.UsernameLinkResetResult
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.AccountValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.net.SignalNetwork
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.NetworkUtil
+import com.servalabs.chat.util.UsernameUtil
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents

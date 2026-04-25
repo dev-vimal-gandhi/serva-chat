@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm
+package com.servalabs.chat.gcm
 
 import android.Manifest
 import android.app.Notification
@@ -13,15 +13,15 @@ import androidx.core.content.ContextCompat
 import org.signal.core.util.PendingIntentFlags.mutable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.MessageFetchJob
-import org.thoughtcrime.securesms.messages.WebSocketDrainer
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.R
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.MessageFetchJob
+import com.servalabs.chat.messages.WebSocketDrainer
+import com.servalabs.chat.notifications.NotificationChannels
+import com.servalabs.chat.notifications.NotificationIds
+import com.servalabs.chat.util.SignalLocalMetrics
+import com.servalabs.chat.util.concurrent.SerialMonoLifoExecutor
 import kotlin.time.Duration.Companion.minutes
 
 /**

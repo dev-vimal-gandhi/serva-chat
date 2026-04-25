@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.internal.push.Content
 
 /**
- * Model class for reading from the [org.thoughtcrime.securesms.database.MessageSendLogTables].
+ * Model class for reading from the [com.servalabs.chat.database.MessageSendLogTables].
  */
 data class MessageLogEntry(
   val recipientId: RecipientId,

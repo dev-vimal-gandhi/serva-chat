@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package com.servalabs.chat.jobmanager.migrations
 
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.FailingJob
-import org.thoughtcrime.securesms.jobs.SenderKeyDistributionSendJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.database.GroupTable
+import com.servalabs.chat.database.model.GroupRecord
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.jobmanager.JobMigration.JobData
+import com.servalabs.chat.jobmanager.JsonJobData
+import com.servalabs.chat.jobs.FailingJob
+import com.servalabs.chat.jobs.SenderKeyDistributionSendJob
+import com.servalabs.chat.recipients.RecipientId
 import java.util.Optional
 
 class SenderKeyDistributionSendJobRecipientMigrationTest {

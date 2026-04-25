@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.reactions.edit
+package com.servalabs.chat.reactions.edit
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.EmojiValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.components.emoji.EmojiUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.keyvalue.EmojiValues
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.livedata.LiveDataUtil
+import com.servalabs.chat.util.livedata.Store
 
 class EditReactionsViewModel : ViewModel() {
 

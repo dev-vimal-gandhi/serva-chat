@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package com.servalabs.chat.contacts.avatars;
 
 
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.database.model.ProfileAvatarFileDetails;
+import com.servalabs.chat.profiles.AvatarHelper;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.push.IasTrustStore;
+import com.servalabs.chat.push.IasTrustStore;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.IOException;

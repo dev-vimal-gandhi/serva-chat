@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice
+package com.servalabs.chat.devicetransfer.newdevice
 
 import android.os.Bundle
 import android.view.View
@@ -8,11 +8,11 @@ import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.signal.devicetransfer.DeviceToDeviceTransferService
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.restore.devicetransfer.DeviceTransferFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.restore.RestoreActivity
+import com.servalabs.chat.restore.devicetransfer.DeviceTransferFragment
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Shows transfer progress on the new device. Most logic is in [DeviceTransferFragment]

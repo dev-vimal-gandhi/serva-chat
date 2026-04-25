@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package com.servalabs.chat.components.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -14,9 +14,9 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.SecurePreferenceManager;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.R;
+import com.servalabs.chat.util.SecurePreferenceManager;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

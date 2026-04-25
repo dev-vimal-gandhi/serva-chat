@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package com.servalabs.chat.backup.v2.database
 
 import org.signal.core.util.select
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.exporters.DistributionListArchiveExporter
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.exporters.DistributionListArchiveExporter
+import com.servalabs.chat.database.DistributionListTables
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.database.model.DistributionListPrivacyMode
+import com.servalabs.chat.recipients.RecipientId
 
 fun DistributionListTables.getAllForBackup(selfRecipientId: RecipientId, exportState: ExportState): DistributionListArchiveExporter {
   val cursor = readableDatabase

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.push;
+package com.servalabs.chat.push;
 
 import android.content.Context;
 
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.RemoteConfig;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

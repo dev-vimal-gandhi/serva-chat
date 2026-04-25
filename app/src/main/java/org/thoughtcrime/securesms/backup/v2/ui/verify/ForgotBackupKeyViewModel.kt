@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.backup.v2.ui.verify
+package com.servalabs.chat.backup.v2.ui.verify
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
-import org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeySaveState
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeyCredentialManagerHandler
+import com.servalabs.chat.components.settings.app.backups.remote.BackupKeySaveState
 
 /**
  * View model for [ForgotBackupKeyFragment]

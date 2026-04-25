@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package com.servalabs.chat.lock.v2;
 
 
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavGraph;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.PassphrasePromptActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.PassphrasePromptActivity;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.service.KeyCachingService;
+import com.servalabs.chat.util.DynamicRegistrationTheme;
+import com.servalabs.chat.util.DynamicTheme;
 
 public class CreateSvrPinActivity extends PassphraseRequiredActivity {
 

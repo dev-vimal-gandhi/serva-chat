@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2.ui.verify
+package com.servalabs.chat.backup.v2.ui.verify
 
 import android.R
 import androidx.compose.runtime.Composable
@@ -6,10 +6,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import org.signal.core.ui.compose.ComposeFragment
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.viewModel
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordMode
+import com.servalabs.chat.backup.v2.ui.subscription.MessageBackupsKeyRecordScreen
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.viewModel
 
 /**
  * Fragment which displays the backup key to the user after users forget it.

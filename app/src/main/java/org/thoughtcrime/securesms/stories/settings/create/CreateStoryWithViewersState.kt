@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.create
+package com.servalabs.chat.stories.settings.create
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientId
 
 data class CreateStoryWithViewersState(
   val label: CharSequence = "",

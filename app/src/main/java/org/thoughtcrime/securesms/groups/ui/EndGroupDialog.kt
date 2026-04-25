@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui
+package com.servalabs.chat.groups.ui
 
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.lifecycleScope
@@ -12,12 +12,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.SignalProgressDialog
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
+import com.servalabs.chat.R
+import com.servalabs.chat.components.SignalProgressDialog
+import com.servalabs.chat.groups.GroupChangeBusyException
+import com.servalabs.chat.groups.GroupChangeException
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.GroupManager
 import java.io.IOException
 
 /**

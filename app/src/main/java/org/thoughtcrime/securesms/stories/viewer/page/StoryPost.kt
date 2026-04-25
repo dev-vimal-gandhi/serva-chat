@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package com.servalabs.chat.stories.viewer.page
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.MediaUtil
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.conversation.ConversationMessage
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.MediaUtil
 import java.util.Objects
 
 /**

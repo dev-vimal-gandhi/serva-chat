@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package com.servalabs.chat.components.settings.app.data
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
@@ -6,11 +6,11 @@ import androidx.lifecycle.ViewModelProvider
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.mms.SentMediaQuality
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.webrtc.CallDataMode
 
 class DataAndStorageSettingsViewModel(
   private val sharedPreferences: SharedPreferences,

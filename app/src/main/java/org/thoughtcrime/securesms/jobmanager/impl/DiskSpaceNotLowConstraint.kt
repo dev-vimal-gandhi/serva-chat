@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.impl
+package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
 import android.os.Build
 import org.signal.core.util.DiskUtil
 import org.signal.core.util.mebiBytes
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Constraint
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobmanager.Constraint
 import kotlin.time.Duration.Companion.seconds
 
 /**

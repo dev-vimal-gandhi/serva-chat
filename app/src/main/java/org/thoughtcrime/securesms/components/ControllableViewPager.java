@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package com.servalabs.chat.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
 
-import org.thoughtcrime.securesms.components.viewpager.HackyViewPager;
+import com.servalabs.chat.components.viewpager.HackyViewPager;
 
 /**
  * An implementation of {@link ViewPager} that disables swiping when the view is disabled.

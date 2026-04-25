@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import com.servalabs.chat.dependencies.AppDependencies;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

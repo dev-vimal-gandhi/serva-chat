@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package com.servalabs.chat.components.settings.app.appearance
 
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
+import com.servalabs.chat.keyvalue.SettingsValues
 
 data class AppearanceSettingsState(
   val theme: SettingsValues.Theme,

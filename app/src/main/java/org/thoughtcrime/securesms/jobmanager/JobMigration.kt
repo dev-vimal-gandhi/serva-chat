@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager
+package com.servalabs.chat.jobmanager
 
 /**
  * Create a subclass of this to perform a migration on persisted [Job]s. A migration targets

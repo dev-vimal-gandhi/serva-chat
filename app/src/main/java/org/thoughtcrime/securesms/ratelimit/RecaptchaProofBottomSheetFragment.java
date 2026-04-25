@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package com.servalabs.chat.ratelimit;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.ui.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 /**
  * A bottom sheet to be shown when we need to prompt the user to fill out a reCAPTCHA.

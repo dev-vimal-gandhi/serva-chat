@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore.local
+package com.servalabs.chat.registration.ui.restore.local
 
 import android.app.Activity
 import android.content.Context
@@ -33,15 +33,15 @@ import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberMode
-import org.thoughtcrime.securesms.registration.ui.restore.EnterBackupKeyViewModel
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.MainActivity
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.phonenumber.EnterPhoneNumberMode
+import com.servalabs.chat.registration.ui.restore.EnterBackupKeyViewModel
+import com.servalabs.chat.restore.RestoreActivity
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Restore an on-device backup during registration

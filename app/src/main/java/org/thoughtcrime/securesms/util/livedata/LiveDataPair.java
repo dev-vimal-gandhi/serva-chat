@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.livedata;
+package com.servalabs.chat.util.livedata;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

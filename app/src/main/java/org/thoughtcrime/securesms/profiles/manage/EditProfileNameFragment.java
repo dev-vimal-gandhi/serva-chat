@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package com.servalabs.chat.profiles.manage;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -19,12 +19,12 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import com.servalabs.chat.R;
+import com.servalabs.chat.profiles.ProfileName;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.util.ViewUtil;
+import com.servalabs.chat.util.text.AfterTextChanged;
+import com.servalabs.chat.util.views.CircularProgressMaterialButton;
 
 /**
  * Simple fragment to edit your profile name.

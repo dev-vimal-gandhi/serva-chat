@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import org.junit.rules.TestWatcher
 import org.junit.runner.Description
 import org.signal.core.models.ServiceId.ACI
 import org.signal.core.models.ServiceId.PNI
 import org.signal.core.util.deleteAll
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.ThreadTable
+import com.servalabs.chat.keyvalue.SignalStore
 import java.util.UUID
 
 /**

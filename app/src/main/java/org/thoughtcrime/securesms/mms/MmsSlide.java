@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package com.servalabs.chat.mms;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import com.servalabs.chat.attachments.Attachment;
 
 public class MmsSlide extends ImageSlide {
 

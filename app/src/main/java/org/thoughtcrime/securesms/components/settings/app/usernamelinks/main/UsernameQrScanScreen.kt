@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -25,10 +25,10 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.qr.QrScannerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXRemoteConfig
-import org.thoughtcrime.securesms.qr.QrScanScreens
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.camerax.CameraXRemoteConfig
+import com.servalabs.chat.qr.QrScanScreens
+import com.servalabs.chat.recipients.Recipient
 import java.util.concurrent.TimeUnit
 
 /**

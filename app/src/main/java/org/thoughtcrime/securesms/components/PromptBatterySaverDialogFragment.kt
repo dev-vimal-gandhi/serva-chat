@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package com.servalabs.chat.components
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -16,12 +16,12 @@ import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.PromptBatterySaverBottomSheetBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig
-import org.thoughtcrime.securesms.util.LocalMetrics
-import org.thoughtcrime.securesms.util.PowerManagerCompat
+import com.servalabs.chat.R
+import com.servalabs.chat.databinding.PromptBatterySaverBottomSheetBinding
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.notifications.DeviceSpecificNotificationConfig
+import com.servalabs.chat.util.LocalMetrics
+import com.servalabs.chat.util.PowerManagerCompat
 
 class PromptBatterySaverDialogFragment : FixedRoundedCornerBottomSheetDialogFragment() {
 

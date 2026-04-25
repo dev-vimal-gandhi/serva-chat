@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package com.servalabs.chat.components.settings.app.privacy.pnp
 
 data class PhoneNumberPrivacySettingsState(
   val phoneNumberSharing: Boolean,

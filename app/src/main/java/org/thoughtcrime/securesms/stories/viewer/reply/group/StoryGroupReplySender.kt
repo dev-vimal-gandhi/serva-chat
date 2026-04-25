@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package com.servalabs.chat.stories.viewer.reply.group
 
 import android.content.Context
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.mediasend.v2.UntrustedRecords
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.sms.MessageSender
+import com.servalabs.chat.contacts.paged.ContactSearchKey
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.identity.IdentityRecordList
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.ParentStoryId
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.mediasend.v2.UntrustedRecords
+import com.servalabs.chat.mms.OutgoingMessage
+import com.servalabs.chat.sms.MessageSender
 
 /**
  * Stateless message sender for Story Group replies and reactions.

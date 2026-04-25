@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.concurrent;
+package com.servalabs.chat.util.concurrent;
 
 import org.signal.core.util.concurrent.ListenableFuture.Listener;
 

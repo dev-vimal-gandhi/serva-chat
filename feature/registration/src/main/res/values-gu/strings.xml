@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">ગોપનીયતા તમારી સાથે રાખો.\nદરેક મેસેજમાં તમે લખતા હોય તેવી રીતે લખો.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal બિનનફાકારક સંસ્થા છે\nનિયમો અને ગોપનીયતા નીતિ</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat બિનનફાકારક સંસ્થા છે\nનિયમો અને ગોપનીયતા નીતિ</string>
     <string name="RegistrationActivity_continue">ચાલુ રાખો</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">રિસ્ટોર અથવા ટ્રાન્સફર કરો</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">પરવાનગીઓને મંજૂરી આપો</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">તમે જાણતા હોય તેવા લોકોને મેસેજ મોકલવામાં તમારી સહાય કરવા માટે, Signal આ પરવાનગીઓની વિનંતી કરશે. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">તમે જાણતા હોય તેવા લોકોને મેસેજ મોકલવામાં તમારી સહાય કરવા માટે, Serva Chat આ પરવાનગીઓની વિનંતી કરશે. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">અત્યારે નહીં</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">સંપર્કો</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">તમે જાણતા હો તે લોકોને શોધો. તમારા સંપર્કો એન્ક્રિપ્ટેડ છે અને Signal સેવાને દેખાતા નથી.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">તમે જાણતા હો તે લોકોને શોધો. તમારા સંપર્કો એન્ક્રિપ્ટેડ છે અને Serva Chat સેવાને દેખાતા નથી.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ફોન કૉલ</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">મારી પાસે મારો જૂનો ફોન છે</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">ઝડપથી શરૂ કરવા માટે તમારા વર્તમાન Signal એકાઉન્ટમાંથી QR કોડ સ્કેન કરો</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">ઝડપથી શરૂ કરવા માટે તમારા વર્તમાન Serva Chat એકાઉન્ટમાંથી QR કોડ સ્કેન કરો</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">મારી પાસે મારો જૂનો ફોન નથી</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">અથવા તમે તે જ ડિવાઇસ પર Signal ફરીથી ઇન્સ્ટોલ કરી રહ્યાં છો</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">અથવા તમે તે જ ડિવાઇસ પર Serva Chat ફરીથી ઇન્સ્ટોલ કરી રહ્યાં છો</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">તમે તમારી મેસેજ હિસ્ટ્રી અને એકાઉન્ટ ડેટાને કેવી રીતે રિસ્ટોર કરવા માંગો છો તે પસંદ કરો.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal બેકઅપમાંથી</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat બેકઅપમાંથી</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">તમારો મફત અથવા ચુકવણી સાથેનો Signal બેકઅપ પ્લાન</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">તમારો મફત અથવા ચુકવણી સાથેનો Serva Chat બેકઅપ પ્લાન</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">ઓન-ડિવાઇસ બેકઅપ રિસ્ટોર કરો</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">કોઈ બેકઅપ મળ્યું નથી</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">પસંદ કરેલા ફોલ્ડરમાં કોઈ Signal બેકઅપ મળ્યું નથી. કૃપા કરીને કોઈ અલગ ફોલ્ડર પસંદ કરો.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">પસંદ કરેલા ફોલ્ડરમાં કોઈ Serva Chat બેકઅપ મળ્યું નથી. કૃપા કરીને કોઈ અલગ ફોલ્ડર પસંદ કરો.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">અલગ ફોલ્ડર અજમાવો</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">તમારા એકાઉન્ટને લિંક કરો</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">હજી સુધી Signal પર નથી?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">હજી સુધી Serva Chat પર નથી?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">એકાઉન્ટ બનાવો</string>
 </resources>

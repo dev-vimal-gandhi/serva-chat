@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package com.servalabs.chat.components.settings.app.chats
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
@@ -8,16 +8,16 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.backup.LocalExportProgress
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.LocalBackupJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
+import com.servalabs.chat.backup.LocalExportProgress
+import com.servalabs.chat.components.settings.app.chats.folders.ChatFoldersRepository
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.LocalBackupJob
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.BackupUtil
+import com.servalabs.chat.util.ConversationUtil
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.TextSecurePreferences
+import com.servalabs.chat.util.ThrottledDebouncer
 
 class ChatsSettingsViewModel @JvmOverloads constructor(
   private val repository: ChatsSettingsRepository = ChatsSettingsRepository()

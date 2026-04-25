@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.storage
+package com.servalabs.chat.components.settings.app.internal.storage
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Column
@@ -49,12 +49,12 @@ import org.signal.core.ui.compose.Rows.TextAndLabel
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.util.Hex
 import org.signal.core.util.Util
-import org.thoughtcrime.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.OneOffEvent
-import org.thoughtcrime.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.StorageInsights
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob
-import org.thoughtcrime.securesms.jobs.StorageSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.OneOffEvent
+import com.servalabs.chat.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.StorageInsights
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.jobs.StorageForcePushJob
+import com.servalabs.chat.jobs.StorageSyncJob
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.storage.RecordIkm
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest
 import org.whispersystems.signalservice.api.storage.SignalStorageRecord

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app
+package com.servalabs.chat.components.settings.app
 
 import androidx.compose.runtime.Immutable
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.util.RemoteConfig
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.util.RemoteConfig
 
 @Immutable
 data class AppSettingsState(

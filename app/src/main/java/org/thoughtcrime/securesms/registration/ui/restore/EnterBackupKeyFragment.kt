@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import android.os.Bundle
 import android.view.View
@@ -28,15 +28,15 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.ComposeFragment
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialog
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportViewModel
-import org.thoughtcrime.securesms.components.contactsupport.SendSupportEmailEffect
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberMode
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.contactsupport.ContactSupportDialog
+import com.servalabs.chat.components.contactsupport.ContactSupportViewModel
+import com.servalabs.chat.components.contactsupport.SendSupportEmailEffect
+import com.servalabs.chat.registration.ui.RegistrationCheckpoint
+import com.servalabs.chat.registration.ui.RegistrationViewModel
+import com.servalabs.chat.registration.ui.phonenumber.EnterPhoneNumberMode
+import com.servalabs.chat.util.CommunicationActions
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Enter backup key screen for manual Signal Backups restore flow.

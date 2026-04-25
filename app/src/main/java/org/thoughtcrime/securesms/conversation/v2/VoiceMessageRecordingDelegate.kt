@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package com.servalabs.chat.conversation.v2
 
 import android.content.pm.ActivityInfo
 import android.view.WindowManager
@@ -19,11 +19,11 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.audio.AudioRecorder
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft
-import org.thoughtcrime.securesms.conversation.VoiceRecorderWakeLock
-import org.thoughtcrime.securesms.util.ServiceUtil
+import com.servalabs.chat.R
+import com.servalabs.chat.audio.AudioRecorder
+import com.servalabs.chat.components.voice.VoiceNoteDraft
+import com.servalabs.chat.conversation.VoiceRecorderWakeLock
+import com.servalabs.chat.util.ServiceUtil
 import java.util.concurrent.TimeUnit
 
 /**

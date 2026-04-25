@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.util
+package com.servalabs.chat.backup.v2.util
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
@@ -15,18 +15,18 @@ import org.signal.core.util.nullIfBlank
 import org.signal.core.util.orNull
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
-import org.thoughtcrime.securesms.attachments.ArchivedAttachment
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.backup.v2.BackupMode
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import com.servalabs.chat.attachments.ArchivedAttachment
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.attachments.Cdn
+import com.servalabs.chat.attachments.DatabaseAttachment
+import com.servalabs.chat.attachments.PointerAttachment
+import com.servalabs.chat.attachments.TombstoneAttachment
+import com.servalabs.chat.backup.v2.BackupMode
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.conversation.colors.ChatColors
+import com.servalabs.chat.database.AttachmentTable
+import com.servalabs.chat.stickers.StickerLocator
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional

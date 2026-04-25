@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package com.servalabs.chat.components.settings.conversation
 
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.ContactSelectionListFragment
+import com.servalabs.chat.groups.SelectionLimits
+import com.servalabs.chat.recipients.RecipientId
 
 class GroupCapacityResult(
   private val selfId: RecipientId,

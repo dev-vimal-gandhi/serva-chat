@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.reactive.asFlow
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.RxDatabaseObserver
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.recipients.Recipient
 
 object MainNavigationRepository {
 

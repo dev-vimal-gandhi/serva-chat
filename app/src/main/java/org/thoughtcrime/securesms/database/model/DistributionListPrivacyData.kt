@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package com.servalabs.chat.database.model
 
 /**
  * Data needed to know how a distribution privacy settings are configured.

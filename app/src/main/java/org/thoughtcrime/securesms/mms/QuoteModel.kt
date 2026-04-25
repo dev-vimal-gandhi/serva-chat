@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mms
+package com.servalabs.chat.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.attachments.Attachment
+import com.servalabs.chat.database.model.Mention
+import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
+import com.servalabs.chat.recipients.RecipientId
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage
 import org.whispersystems.signalservice.internal.push.DataMessage
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.paging;
+package com.servalabs.chat.util.paging;
 
 import androidx.annotation.NonNull;
 

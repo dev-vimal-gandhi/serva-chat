@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package com.servalabs.chat.main
 
 import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
@@ -20,12 +20,12 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.rx3.asFlowable
 import kotlinx.coroutines.withContext
 import org.signal.core.util.concurrent.SignalDispatchers
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.calls.log.CallLogFilter
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.calls.log.CallLogFilter
+import com.servalabs.chat.conversationlist.model.ConversationFilter
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.TextSecurePreferences
 
 class MainToolbarViewModel : ViewModel() {
   private val internalStateFlow = MutableStateFlow(MainToolbarState())

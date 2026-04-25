@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

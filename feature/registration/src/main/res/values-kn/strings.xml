@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">ಖಾಸಗಿತನವನ್ನು ನಿಮ್ಮೊಂದಿಗೆ ಇರಿಸಿಕೊಳ್ಳಿ. \nನಿಮ್ಮ ಪ್ರತಿ ಸಂದೇಶದಲ್ಲಿಯೂ ಸ್ವಂತಿಕೆ ಕಾಯ್ದುಕೊಳ್ಳಿ.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal ಲಾಭರಹಿತ ಸಂಸ್ಥೆಯಾಗಿದೆ\n ನಿಯಮಗಳು ಮತ್ತು ಗೌಪ್ಯತೆ ನೀತಿ</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat ಲಾಭರಹಿತ ಸಂಸ್ಥೆಯಾಗಿದೆ\n ನಿಯಮಗಳು ಮತ್ತು ಗೌಪ್ಯತೆ ನೀತಿ</string>
     <string name="RegistrationActivity_continue">ಮುಂದುವರಿಸಿ</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">ರಿಸ್ಟೋರ್ ಮಾಡಿ ಅಥವಾ ವರ್ಗಾಯಿಸಿ</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">ಅನುಮತಿಗಳನ್ನು ಅನುಮತಿಸಿ</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ನಿಮಗೆ ತಿಳಿದಿರುವ ಜನರಿಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸಲು ನಿಮಗೆ ಸಹಾಯವಾಗಲು, Signal ಈ ಅನುಮತಿಗಳನ್ನು ವಿನಂತಿಸುತ್ತದೆ. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">ನಿಮಗೆ ತಿಳಿದಿರುವ ಜನರಿಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸಲು ನಿಮಗೆ ಸಹಾಯವಾಗಲು, Serva Chat ಈ ಅನುಮತಿಗಳನ್ನು ವಿನಂತಿಸುತ್ತದೆ. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">ಈಗಲ್ಲ</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">ಸಂಪರ್ಕಗಳು</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">ನೀವು ತಿಳಿದಿರುವ ಜನರನ್ನು ಹುಡುಕಿ. ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿವೆ ಮತ್ತು Signal ಸೇವೆಗೆ ಗೋಚರಿಸುವುದಿಲ್ಲ.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">ನೀವು ತಿಳಿದಿರುವ ಜನರನ್ನು ಹುಡುಕಿ. ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿವೆ ಮತ್ತು Serva Chat ಸೇವೆಗೆ ಗೋಚರಿಸುವುದಿಲ್ಲ.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ಫೋನ್ ಕರೆಗಳು</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">ನನ್ನ ಬಳಿ ನನ್ನ ಹಳೆಯ ಫೋನ್ ಇದೆ</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">ತ್ವರಿತವಾಗಿ ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಪ್ರಸ್ತುತ Signal ಖಾತೆಯಿಂದ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">ತ್ವರಿತವಾಗಿ ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ಪ್ರಸ್ತುತ Serva Chat ಖಾತೆಯಿಂದ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">ನನ್ನ ಬಳಿ ನನ್ನ ಹಳೆಯ ಫೋನ್ ಇಲ್ಲ</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">ಅಥವಾ ನೀವು ಅದೇ ಸಾಧನದಲ್ಲಿ Signal ಅನ್ನು ಮರು-ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುತ್ತಿದ್ದೀರಿ</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">ಅಥವಾ ನೀವು ಅದೇ ಸಾಧನದಲ್ಲಿ Serva Chat ಅನ್ನು ಮರು-ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುತ್ತಿದ್ದೀರಿ</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">ನಿಮ್ಮ ಸಂದೇಶ ಇತಿಹಾಸ ಮತ್ತು ಖಾತೆಯ ಡೇಟಾವನ್ನು ನೀವು ಹೇಗೆ ರಿಸ್ಟೋರ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal ಬ್ಯಾಕಪ್‌ಗಳಿಂದ</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat ಬ್ಯಾಕಪ್‌ಗಳಿಂದ</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">ನಿಮ್ಮ ಉಚಿತ ಅಥವಾ ಪಾವತಿಸಿದ Signal ಬ್ಯಾಕಪ್ ಪ್ಲ್ಯಾನ್</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">ನಿಮ್ಮ ಉಚಿತ ಅಥವಾ ಪಾವತಿಸಿದ Serva Chat ಬ್ಯಾಕಪ್ ಪ್ಲ್ಯಾನ್</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಿ</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">ಯಾವುದೇ ಬ್ಯಾಕಪ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡರ್‍‌ನಲ್ಲಿ ಯಾವುದೇ Signal ಬ್ಯಾಕಪ್ ಕಂಡುಬಂದಿಲ್ಲ. ಬೇರೆ ಫೋಲ್ಡರ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡರ್‍‌ನಲ್ಲಿ ಯಾವುದೇ Serva Chat ಬ್ಯಾಕಪ್ ಕಂಡುಬಂದಿಲ್ಲ. ಬೇರೆ ಫೋಲ್ಡರ್ ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">ಬೇರೊಂದು ಫೋಲ್ಡರ್ ಪ್ರಯತ್ನಿಸಿ</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಿಂಕ್ ಮಾಡಿ</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">ಇನ್ನೂ Signal ನಲ್ಲಿ ಇಲ್ಲವೇ?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">ಇನ್ನೂ Serva Chat ನಲ್ಲಿ ಇಲ್ಲವೇ?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">ಖಾತೆಯನ್ನು ರಚಿಸಿ</string>
 </resources>

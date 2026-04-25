@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package com.servalabs.chat.mediasend.v2.text
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.util.next
+import com.servalabs.chat.fonts.TextFont
+import com.servalabs.chat.util.next
 
 typealias OnTextFontChanged = (TextFont) -> Unit
 

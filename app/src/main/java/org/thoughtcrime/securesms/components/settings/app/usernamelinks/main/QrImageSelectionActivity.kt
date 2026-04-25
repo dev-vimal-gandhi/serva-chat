@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.content.Intent
@@ -14,10 +14,10 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import org.signal.core.models.media.Media
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import com.servalabs.chat.R
+import com.servalabs.chat.mediasend.v2.gallery.MediaGalleryFragment
+import com.servalabs.chat.util.DynamicNoActionBarTheme
+import com.servalabs.chat.util.DynamicTheme
 
 /**
  * Select qr code from gallery instead of using camera. Used in usernames and when linking devices

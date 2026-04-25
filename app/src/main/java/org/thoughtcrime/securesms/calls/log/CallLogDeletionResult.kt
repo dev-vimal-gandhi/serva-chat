@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 sealed interface CallLogDeletionResult {
   object Success : CallLogDeletionResult

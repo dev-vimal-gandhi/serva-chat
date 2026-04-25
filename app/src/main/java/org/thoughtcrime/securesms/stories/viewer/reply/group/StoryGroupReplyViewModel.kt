@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package com.servalabs.chat.stories.viewer.reply.group
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.database.model.MessageId
+import com.servalabs.chat.database.model.MessageId
 
 class StoryGroupReplyViewModel(storyId: Long, repository: StoryGroupReplyRepository) : ViewModel() {
 

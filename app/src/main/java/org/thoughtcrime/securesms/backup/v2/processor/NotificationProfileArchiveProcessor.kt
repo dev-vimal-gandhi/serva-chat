@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.processor
+package com.servalabs.chat.backup.v2.processor
 
 import okio.ByteString.Companion.toByteString
 import org.signal.archive.proto.Frame
@@ -13,18 +13,18 @@ import org.signal.core.util.UuidUtil
 import org.signal.core.util.insertInto
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toInt
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.NotificationProfileTables.NotificationProfileAllowedMembersTable
-import org.thoughtcrime.securesms.database.NotificationProfileTables.NotificationProfileScheduleTable
-import org.thoughtcrime.securesms.database.NotificationProfileTables.NotificationProfileTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.serialize
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import com.servalabs.chat.backup.v2.ExportState
+import com.servalabs.chat.backup.v2.ImportSkips
+import com.servalabs.chat.backup.v2.ImportState
+import com.servalabs.chat.conversation.colors.AvatarColor
+import com.servalabs.chat.database.NotificationProfileTables.NotificationProfileAllowedMembersTable
+import com.servalabs.chat.database.NotificationProfileTables.NotificationProfileScheduleTable
+import com.servalabs.chat.database.NotificationProfileTables.NotificationProfileTable
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.serialize
+import com.servalabs.chat.notifications.profiles.NotificationProfile
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.storage.StorageSyncHelper
 import java.time.DayOfWeek
 import org.signal.archive.proto.NotificationProfile as NotificationProfileProto
 

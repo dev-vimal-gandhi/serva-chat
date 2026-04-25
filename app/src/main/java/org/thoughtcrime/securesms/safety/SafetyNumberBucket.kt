@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.safety
+package com.servalabs.chat.safety
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.recipients.Recipient
+import com.servalabs.chat.database.model.DistributionListId
+import com.servalabs.chat.recipients.Recipient
 
 sealed class SafetyNumberBucket {
   data class DistributionListBucket(val distributionListId: DistributionListId, val name: String) : SafetyNumberBucket()

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -12,12 +12,12 @@ import assertk.assertions.isTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageRecordUpdate
-import org.thoughtcrime.securesms.storage.StorageSyncModels
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.storage.StorageRecordUpdate
+import com.servalabs.chat.storage.StorageSyncModels
+import com.servalabs.chat.testing.SignalActivityRule
+import com.servalabs.chat.util.MessageTableTestUtils
 import org.whispersystems.signalservice.api.storage.SignalContactRecord
 import org.whispersystems.signalservice.api.storage.toSignalContactRecord
 import org.whispersystems.signalservice.internal.storage.protos.ContactRecord

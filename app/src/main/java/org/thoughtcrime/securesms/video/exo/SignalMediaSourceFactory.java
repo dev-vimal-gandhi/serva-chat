@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package com.servalabs.chat.video.exo;
 
 import android.content.Context;
 

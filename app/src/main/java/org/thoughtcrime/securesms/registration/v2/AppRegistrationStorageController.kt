@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.v2
+package com.servalabs.chat.registration.v2
 
 import android.content.Context
 import android.net.Uri
@@ -23,17 +23,17 @@ import org.signal.registration.StorageController
 import org.signal.registration.proto.RegistrationData
 import org.signal.registration.screens.localbackuprestore.LocalBackupInfo
 import org.signal.registration.screens.restoreselection.ArchiveRestoreOption
-import org.thoughtcrime.securesms.backup.FullBackupImporter
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.backup.v2.local.SnapshotFileSystem
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.LocalRegistrationMetadata
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.pin.SvrRepository
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
+import com.servalabs.chat.backup.FullBackupImporter
+import com.servalabs.chat.backup.v2.BackupRepository
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.backup.v2.local.SnapshotFileSystem
+import com.servalabs.chat.crypto.AttachmentSecretProvider
+import com.servalabs.chat.crypto.ProfileKeyUtil
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.database.model.databaseprotos.LocalRegistrationMetadata
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.pin.SvrRepository
+import com.servalabs.chat.registration.data.RegistrationRepository
 import java.io.File
 import java.io.IOException
 import java.time.LocalDateTime

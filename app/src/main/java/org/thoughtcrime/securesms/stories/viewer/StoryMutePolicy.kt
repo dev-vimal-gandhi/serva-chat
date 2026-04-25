@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
-import org.thoughtcrime.securesms.util.AppForegroundObserver
+import com.servalabs.chat.util.AppForegroundObserver
 
 /**
  * Stories are to start muted, and once unmuted, remain as such until the

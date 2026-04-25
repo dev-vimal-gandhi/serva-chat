@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.restore
+package com.servalabs.chat.registration.ui.restore
 
 import android.net.Uri
 import androidx.compose.runtime.getValue
@@ -18,12 +18,12 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.models.AccountEntropyPool
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.local.ArchiveFileSystem
-import org.thoughtcrime.securesms.backup.v2.local.LocalArchiver
-import org.thoughtcrime.securesms.backup.v2.local.SnapshotFileSystem
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
+import com.servalabs.chat.backup.v2.local.ArchiveFileSystem
+import com.servalabs.chat.backup.v2.local.LocalArchiver
+import com.servalabs.chat.backup.v2.local.SnapshotFileSystem
+import com.servalabs.chat.dependencies.AppDependencies
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.registration.data.network.RegisterAccountResult
 import java.util.concurrent.atomic.AtomicInteger
 
 class EnterBackupKeyViewModel : ViewModel() {

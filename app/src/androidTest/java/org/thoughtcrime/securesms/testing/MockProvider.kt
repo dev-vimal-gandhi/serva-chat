@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package com.servalabs.chat.testing
 
 import org.signal.core.models.ServiceId
 import org.signal.libsignal.protocol.IdentityKeyPair
@@ -6,8 +6,8 @@ import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.protocol.state.PreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.protocol.util.Medium
-import org.thoughtcrime.securesms.crypto.PreKeyUtil
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import com.servalabs.chat.crypto.PreKeyUtil
+import com.servalabs.chat.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo
 import org.whispersystems.signalservice.api.push.SignedPreKeyEntity
 import org.whispersystems.signalservice.internal.push.AuthCredentials

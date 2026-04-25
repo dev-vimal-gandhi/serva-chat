@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.contacts
+package com.servalabs.chat.contacts
 
 import android.content.res.ColorStateList
 import android.view.View
 import androidx.appcompat.content.res.AppCompatResources
 import com.bumptech.glide.Glide
 import org.signal.core.ui.util.ThemeUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.paged.ChatType
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.adapter.mapping.LayoutFactory
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.adapter.mapping.MappingModel
+import com.servalabs.chat.util.adapter.mapping.MappingViewHolder
 
 object SelectedContacts {
   @JvmStatic

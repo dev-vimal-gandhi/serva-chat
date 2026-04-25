@@ -2,7 +2,7 @@
  * Copyright 2024 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.groups.v2.processing
+package com.servalabs.chat.groups.v2.processing
 
 import org.signal.storageservice.storage.protos.groups.local.DecryptedGroup
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package com.servalabs.chat.crypto;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

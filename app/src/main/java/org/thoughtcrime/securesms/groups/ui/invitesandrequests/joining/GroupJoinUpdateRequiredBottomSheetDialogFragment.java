@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package com.servalabs.chat.groups.ui.invitesandrequests.joining;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,11 +14,11 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 import org.signal.core.ui.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
+import com.servalabs.chat.util.PlayStoreUtil;
 import org.signal.core.ui.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import com.servalabs.chat.util.WindowUtil;
 
 public final class GroupJoinUpdateRequiredBottomSheetDialogFragment extends BottomSheetDialogFragment {
 

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.groups;
+package com.servalabs.chat.groups;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.storageservice.storage.protos.groups.AccessControl;
-import org.thoughtcrime.securesms.R;
+import com.servalabs.chat.R;
 
 public final class GV2AccessLevelUtil {
 

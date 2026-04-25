@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.details
+package com.servalabs.chat.components.settings.app.subscription.donate.transfer.details
 
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.BankDetailsValidator
+import com.servalabs.chat.components.settings.app.subscription.donate.transfer.BankDetailsValidator
 
 data class BankTransferDetailsState(
   val name: String = "",

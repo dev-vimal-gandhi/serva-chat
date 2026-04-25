@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.viewer
+package com.servalabs.chat.stories.viewer
 
 import android.net.Uri
 import org.signal.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
+import com.servalabs.chat.database.model.MmsMessageRecord
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.stories.StoryTextPostModel
 
 data class StoryViewerState(
   val pages: List<RecipientId> = emptyList(),

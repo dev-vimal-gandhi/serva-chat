@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.contacts.paged
+package com.servalabs.chat.contacts.paged
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.ShareContact
+import com.servalabs.chat.contacts.SelectedContact
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.sharing.ShareContact
 
 /**
  * Represents a row in a list of Contact results.

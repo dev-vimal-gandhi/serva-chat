@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package com.servalabs.chat.components.settings.app.subscription.currency
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.livedata.Store
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
+import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import com.servalabs.chat.database.model.InAppPaymentSubscriberRecord
+import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
+import com.servalabs.chat.keyvalue.SignalStore
+import com.servalabs.chat.util.livedata.Store
 import org.whispersystems.signalservice.api.subscriptions.SubscriberId
 import java.util.Currency
 import java.util.Locale

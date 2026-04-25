@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package com.servalabs.chat.sharing.v2
 
 import android.content.Context
 import android.net.Uri
@@ -9,10 +9,10 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.models.media.Media
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.UriUtil
+import com.servalabs.chat.providers.BlobProvider
+import com.servalabs.chat.util.MediaUtil
+import com.servalabs.chat.util.RemoteConfig
+import com.servalabs.chat.util.UriUtil
 import java.io.IOException
 import java.io.InputStream
 

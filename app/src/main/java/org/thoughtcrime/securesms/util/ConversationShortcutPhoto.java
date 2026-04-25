@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package com.servalabs.chat.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,11 +17,11 @@ import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
 import org.signal.core.util.Util;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
+import com.servalabs.chat.contacts.avatars.SystemContactPhoto;
+import com.servalabs.chat.database.model.ProfileAvatarFileDetails;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.recipients.Recipient;
 
 import java.security.MessageDigest;
 import java.util.Objects;

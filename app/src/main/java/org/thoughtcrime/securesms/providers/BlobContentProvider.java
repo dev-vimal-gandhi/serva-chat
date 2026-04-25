@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package com.servalabs.chat.providers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
+import com.servalabs.chat.dependencies.AppDependencies;
+import com.servalabs.chat.util.MemoryFileUtil;
 import org.signal.core.util.Util;
 
 import java.io.FileNotFoundException;

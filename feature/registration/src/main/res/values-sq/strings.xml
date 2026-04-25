@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Ruaj privatësinë kudo që shkon.\nJi vetvetja, në çdo mesazh.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal është ent jofitimprurës\nKushtet dhe Politika e Privatësisë</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat është ent jofitimprurës\nKushtet dhe Politika e Privatësisë</string>
     <string name="RegistrationActivity_continue">Vazhdo</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Rikthe ose transfero</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Lejo lejet</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Për të ndihmuar t\'u dërgosh mesazh njerëzve që njeh, Signal do t\'i kërkojë këto leje. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Për të ndihmuar t\'u dërgosh mesazh njerëzve që njeh, Serva Chat do t\'i kërkojë këto leje. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Jo tani</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Kontakte</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Gjej persona që njeh. Kontaktet janë të koduara dhe nuk janë të dukshme për shërbimin e Signal.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Gjej persona që njeh. Kontaktet janë të koduara dhe nuk janë të dukshme për shërbimin e Serva Chat.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefonata</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">E kam telefonin e vjetër</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Skano kodin QR nga llogaria aktuale e Signal për të filluar më shpejt</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Skano kodin QR nga llogaria aktuale e Serva Chat për të filluar më shpejt</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Nuk e kam telefonin e vjetër</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Ose je duke e riinstaluar Signal në të njëjtën pajisje</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Ose je duke e riinstaluar Serva Chat në të njëjtën pajisje</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Zgjidh se si dëshiron ta rikthehesh historikun e mesazheve dhe të dhënat e llogarisë.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Nga kopjeruajtjet e Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Nga kopjeruajtjet e Serva Chat</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Plani yt falas ose me pagesë i kopjeruajtjeve në Signal</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Plani yt falas ose me pagesë i kopjeruajtjeve në Serva Chat</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Rikthe kopjeruajtjen në pajisje</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Nuk u gjet asnjë kopjeruajtje</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Nuk u gjet asnjë kopjeruajtje e Signal në dosjen e përzgjedhur. Të lutem, provo një dosje tjetër.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Nuk u gjet asnjë kopjeruajtje e Serva Chat në dosjen e përzgjedhur. Të lutem, provo një dosje tjetër.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Provo një dosje tjetër</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Lidh llogarinë</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Akoma nuk ke Signal?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Akoma nuk ke Serva Chat?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Krijo llogari</string>
 </resources>

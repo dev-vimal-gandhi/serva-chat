@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package com.servalabs.chat.maps;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -34,16 +34,16 @@ import com.google.android.gms.maps.model.MapStyleOptions;
 
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.location.SignalMapView;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import com.servalabs.chat.BuildConfig;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.location.SignalMapView;
+import com.servalabs.chat.providers.BlobProvider;
+import com.servalabs.chat.util.BitmapUtil;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
+import com.servalabs.chat.util.MediaUtil;
+import com.servalabs.chat.util.TextSecurePreferences;
+import com.servalabs.chat.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.List;

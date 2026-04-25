@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package com.servalabs.chat.lock.v2
 
 import android.view.animation.Animation
 import android.view.animation.TranslateAnimation
@@ -7,11 +7,11 @@ import androidx.annotation.PluralsRes
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinViewModel.NavigationEvent
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinViewModel.PinErrorEvent
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.lock.v2.CreateSvrPinViewModel.NavigationEvent
+import com.servalabs.chat.lock.v2.CreateSvrPinViewModel.PinErrorEvent
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.navigation.safeNavigate
 
 class CreateSvrPinFragment : BaseSvrPinFragment<CreateSvrPinViewModel?>() {
   override fun initializeViewStates() {

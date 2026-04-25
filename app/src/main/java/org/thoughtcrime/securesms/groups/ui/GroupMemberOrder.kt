@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.ui
+package com.servalabs.chat.groups.ui
 
 import java.text.Collator
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package com.servalabs.chat.stickers;
 
 import android.net.Uri;
 import android.text.TextUtils;

@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">మీతో గోప్యతను తీసుకోండి.\nప్రతి సందేశంలో మీరే ఉండండి.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal అనేది లాభాపేక్ష లేని సంస్థ\nనిబంధనలు &amp; గోప్యతా విధానం</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat అనేది లాభాపేక్ష లేని సంస్థ\nనిబంధనలు &amp; గోప్యతా విధానం</string>
     <string name="RegistrationActivity_continue">కొనసాగించు</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">పునరుద్ధరించండి లేదా బదిలీ చేయండి</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">అనుమతులను అనుమతించండి</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">మీకు తెలిసిన వ్యక్తులకు సందేశం పంపడంలో మీకు సహాయపడటానికి, Signal ఈ అనుమతులను అభ్యర్థిస్తుంది. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">మీకు తెలిసిన వ్యక్తులకు సందేశం పంపడంలో మీకు సహాయపడటానికి, Serva Chat ఈ అనుమతులను అభ్యర్థిస్తుంది. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">ఇప్పుడు కాదు</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">పరిచయాలు</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">మీకు తెలిసిన వ్యక్తులను కనుగొనండి. మీ పరిచయాలు గుప్తీకరించబడ్డాయి మరియు Signal సేవకు కనిపించవు.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">మీకు తెలిసిన వ్యక్తులను కనుగొనండి. మీ పరిచయాలు గుప్తీకరించబడ్డాయి మరియు Serva Chat సేవకు కనిపించవు.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">ఫోన్ కాల్స్</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">నా దగ్గర నా పాత ఫోన్ ఉంది</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">త్వరగా ప్రారంభించడానికి మీ ప్రస్తుత Signal ఖాతా నుండి QR కోడ్‌ను స్కాన్ చేయండి</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">త్వరగా ప్రారంభించడానికి మీ ప్రస్తుత Serva Chat ఖాతా నుండి QR కోడ్‌ను స్కాన్ చేయండి</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">నా దగ్గర నా పాత ఫోన్ లేదు</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">లేదా మీరు అదే పరికరంలో Signal ను మళ్ళీ ఇన్‌స్టాల్ చేస్తున్నారు</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">లేదా మీరు అదే పరికరంలో Serva Chat ను మళ్ళీ ఇన్‌స్టాల్ చేస్తున్నారు</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">మీ సందేశ చరిత్ర మరియు ఖాతా డేటాను మీరు ఎలా పునరుద్ధరించాలనుకుంటున్నారో ఎంచుకోండి.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal బ్యాకప్‌ల నుండి</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat బ్యాకప్‌ల నుండి</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">మీ ఉచిత లేదా చెల్లింపు Signal బ్యాకప్ ప్లాన్</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">మీ ఉచిత లేదా చెల్లింపు Serva Chat బ్యాకప్ ప్లాన్</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">పరికరంలోని బ్యాకప్‌ను పునరుద్ధరించండి</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">బ్యాకప్ ఏదీ కనుగొనబడలేదు</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">ఎంచుకున్న ఫోల్డర్‌లో Signal బ్యాకప్ ఏదీ కనుగొనబడలేదు. దయచేసి వేరే ఫోల్డర్‌లో ప్రయత్నించండి.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">ఎంచుకున్న ఫోల్డర్‌లో Serva Chat బ్యాకప్ ఏదీ కనుగొనబడలేదు. దయచేసి వేరే ఫోల్డర్‌లో ప్రయత్నించండి.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">వేరే ఫోల్డర్‌లో ప్రయత్నించండి</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">మీ ఖాతాను లింక్ చేయండి</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Signal లో ఇంకా లేరా?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Serva Chat లో ఇంకా లేరా?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">ఖాతాను సృష్టించండి</string>
 </resources>

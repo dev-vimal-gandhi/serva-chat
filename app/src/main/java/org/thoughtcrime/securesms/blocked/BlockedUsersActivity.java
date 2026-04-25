@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package com.servalabs.chat.blocked;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -15,20 +15,20 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ContactFilterView;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.paged.ChatType;
-import org.thoughtcrime.securesms.contacts.selection.ContactSelectionArguments;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import com.servalabs.chat.ContactSelectionListFragment;
+import com.servalabs.chat.PassphraseRequiredActivity;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.ContactFilterView;
+import com.servalabs.chat.contacts.ContactSelectionDisplayMode;
+import com.servalabs.chat.contacts.paged.ChatType;
+import com.servalabs.chat.contacts.selection.ContactSelectionArguments;
+import com.servalabs.chat.database.SignalDatabase;
+import com.servalabs.chat.recipients.Recipient;
+import com.servalabs.chat.recipients.RecipientId;
+import com.servalabs.chat.util.DynamicNoActionBarTheme;
+import com.servalabs.chat.util.DynamicTheme;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import com.servalabs.chat.util.ViewUtil;
 
 import java.util.Optional;
 import java.util.function.Consumer;

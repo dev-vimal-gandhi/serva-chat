@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.transfercontrols
+package com.servalabs.chat.components.transfercontrols
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.SizeTransform

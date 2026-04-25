@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package com.servalabs.chat.components.settings.app.appearance
 
 import android.os.Build
 import android.os.Bundle
@@ -23,12 +23,12 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.Texts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.appearance.navbar.ChooseNavigationBarStyleFragment
-import org.thoughtcrime.securesms.compose.rememberStatusBarColorNestedScrollModifier
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import com.servalabs.chat.R
+import com.servalabs.chat.components.settings.app.appearance.navbar.ChooseNavigationBarStyleFragment
+import com.servalabs.chat.compose.rememberStatusBarColorNestedScrollModifier
+import com.servalabs.chat.keyvalue.SettingsValues
+import com.servalabs.chat.util.DynamicTheme
+import com.servalabs.chat.util.navigation.safeNavigate
 
 /**
  * Allows the user to change language, theme, etc. from application settings.

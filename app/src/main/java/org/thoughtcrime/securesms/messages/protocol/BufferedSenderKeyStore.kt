@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messages.protocol
+package com.servalabs.chat.messages.protocol
 
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
-import org.thoughtcrime.securesms.database.SignalDatabase
+import com.servalabs.chat.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalServiceSenderKeyStore
 import org.whispersystems.signalservice.api.push.DistributionId

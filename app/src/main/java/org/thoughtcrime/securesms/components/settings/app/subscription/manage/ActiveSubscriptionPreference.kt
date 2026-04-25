@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package com.servalabs.chat.components.settings.app.subscription.manage
 
 import android.text.method.LinkMovementMethod
 import android.widget.ProgressBar
 import android.widget.TextView
 import org.signal.core.ui.util.ThemeUtil
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.databinding.MySupportPreferenceBinding
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.subscription.Subscription
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.badges.BadgeImageView
+import com.servalabs.chat.components.settings.PreferenceModel
+import com.servalabs.chat.databinding.MySupportPreferenceBinding
+import com.servalabs.chat.payments.FiatMoneyUtil
+import com.servalabs.chat.subscription.Subscription
+import com.servalabs.chat.util.DateUtils
+import com.servalabs.chat.util.SpanUtil
+import com.servalabs.chat.util.adapter.mapping.BindingFactory
+import com.servalabs.chat.util.adapter.mapping.BindingViewHolder
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.util.visible
 import java.util.Locale
 
 /**

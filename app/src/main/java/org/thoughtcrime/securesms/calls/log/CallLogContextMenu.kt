@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import android.view.View
 import android.view.ViewGroup
@@ -7,16 +7,16 @@ import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsActivity
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
+import com.servalabs.chat.R
+import com.servalabs.chat.calls.YouAreAlreadyInACallSnackbar
+import com.servalabs.chat.calls.links.details.CallLinkDetailsActivity
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.menu.SignalContextMenu
+import com.servalabs.chat.components.settings.conversation.ConversationSettingsActivity
+import com.servalabs.chat.conversation.ConversationIntents
+import com.servalabs.chat.database.CallTable
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.util.CommunicationActions
 import org.signal.core.ui.R as CoreUiR
 
 /**

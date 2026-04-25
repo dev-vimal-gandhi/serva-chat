@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package com.servalabs.chat.mediasend.v2.capture
 
 import org.signal.core.models.media.Media
 

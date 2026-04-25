@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.calls.log
+package com.servalabs.chat.calls.log
 
 import android.content.res.Resources
-import org.thoughtcrime.securesms.main.MainToolbarViewModel
+import com.servalabs.chat.main.MainToolbarViewModel
 
 class CallLogActionMode(
   private val callback: Callback,

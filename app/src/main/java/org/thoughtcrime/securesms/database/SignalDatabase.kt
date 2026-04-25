@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.app.Application
 import android.content.Context
@@ -8,12 +8,12 @@ import net.zetetic.database.sqlcipher.SQLiteOpenHelper
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.crypto.AttachmentSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.database.model.AvatarPickerDatabase
+import com.servalabs.chat.crypto.AttachmentSecret
+import com.servalabs.chat.crypto.DatabaseSecret
+import com.servalabs.chat.database.helpers.SignalDatabaseMigrations
+import com.servalabs.chat.database.model.AvatarPickerDatabase
 import java.io.File
-import org.thoughtcrime.securesms.database.SQLiteDatabase as SignalSQLiteDatabase
+import com.servalabs.chat.database.SQLiteDatabase as SignalSQLiteDatabase
 
 open class SignalDatabase(private val context: Application, databaseSecret: DatabaseSecret, attachmentSecret: AttachmentSecret, name: String = DATABASE_NAME) :
   SQLiteOpenHelper(

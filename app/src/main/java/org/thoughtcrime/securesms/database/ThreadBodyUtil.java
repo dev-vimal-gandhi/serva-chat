@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package com.servalabs.chat.database;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
@@ -9,16 +9,16 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import com.servalabs.chat.R;
+import com.servalabs.chat.components.emoji.EmojiStrings;
+import com.servalabs.chat.contactshare.Contact;
+import com.servalabs.chat.contactshare.ContactUtil;
+import com.servalabs.chat.database.model.MessageRecord;
+import com.servalabs.chat.database.model.MmsMessageRecord;
+import com.servalabs.chat.mms.GifSlide;
+import com.servalabs.chat.mms.Slide;
+import com.servalabs.chat.mms.StickerSlide;
+import com.servalabs.chat.util.MessageRecordUtil;
 import org.signal.core.util.Util;
 
 import java.util.ArrayList;

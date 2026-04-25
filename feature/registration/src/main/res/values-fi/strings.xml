@@ -2,7 +2,7 @@
 <resources>
     <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Yksityisyys aina mukana.\nOle itsesi jokaisessa viestissä.</string>
     <!-- Non-English translations should use "Signal is a nonprofit" instead, dropping the 501c3 reference. -->
-    <string name="RegistrationActivity_terms_and_privacy">Signal on voittoa tavoittelematon organisaatio\nKäyttöehdot ja tietosuojapolitiikka</string>
+    <string name="RegistrationActivity_terms_and_privacy">Serva Chat on voittoa tavoittelematon organisaatio\nKäyttöehdot ja tietosuojapolitiikka</string>
     <string name="RegistrationActivity_continue">Jatka</string>
     <!-- Screen title for restoring or transfering account -->
     <string name="registration_activity__restore_or_transfer">Palauta tai siirrä</string>
@@ -11,7 +11,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Myönnä käyttöoikeudet</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Signal pyytää näitä käyttöoikeuksia, jotta voisit viestiä tuntemillesi ihmisille helpommin. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">Serva Chat pyytää näitä käyttöoikeuksia, jotta voisit viestiä tuntemillesi ihmisille helpommin. </string>
     <!-- Displayed as a text-only action button at the bottom start of the screen -->
     <string name="GrantPermissionsFragment__not_now">Ei nyt</string>
     <!-- Displayed as an action button at the bottom end of the screen -->
@@ -23,7 +23,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Yhteystiedot</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Etsi tuntemiasi ihmisiä. Yhteystietosi salataan, eivätkä ne näy Signal-palvelussa.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Etsi tuntemiasi ihmisiä. Yhteystietosi salataan, eivätkä ne näy Serva Chat-palvelussa.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Puhelut</string>
     <!-- Phone calls permission row description -->
@@ -89,11 +89,11 @@
     <!-- Row title for restore/transfer using a previous registered phone/device -->
     <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Minulla on vanha puhelimeni</string>
     <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-    <string name="WelcomeFragment_restore_action_scan_qr">Aloita nopeasti skannaamalla nykyisen Signal-tilisi QR-koodi</string>
+    <string name="WelcomeFragment_restore_action_scan_qr">Aloita nopeasti skannaamalla nykyisen Serva Chat-tilisi QR-koodi</string>
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Minulla ei ole vanhaa puhelintani</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Tai jos asennat Signalia uudelleen samalle laitteelle</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Tai jos asennat Serva Chatia uudelleen samalle laitteelle</string>
 
     <!-- ArchiveRestoreSelectionScreen -->
     <!-- Title text for the archive restore selection screen -->
@@ -101,9 +101,9 @@
     <!-- Subtitle text for the archive restore selection screen -->
     <string name="ArchiveRestoreSelectionScreen__subheading">Valitse, miten haluat palauttaa viestihistoriasi ja tilitietosi.</string>
     <!-- Title for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Signal-varmuuskopiosta</string>
+    <string name="ArchiveRestoreSelectionScreen__from_signal_backups">Serva Chat-varmuuskopiosta</string>
     <!-- Subtitle for the Signal Backups option card -->
-    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ilmainen tai maksullinen Signal-varmuuskopioinnin tilaus</string>
+    <string name="ArchiveRestoreSelectionScreen__your_free_or_paid_signal_backup_plan">Ilmainen tai maksullinen Serva Chat-varmuuskopioinnin tilaus</string>
     <!-- Title for an option that, when clicked, will take the user to a flow to restore form a local backup -->
     <string name="ArchiveRestoreSelectionScreen__local_backup_card_title">Palauta laitteella oleva varmuuskopio</string>
     <!-- Description for an option that, when clicked, will take the user to a flow to restore form a local backup -->
@@ -159,7 +159,7 @@
     <!-- Title when no backup is found -->
     <string name="LocalBackupRestoreScreen__no_backup_found">Varmuuskopiota ei löydy</string>
     <!-- Description when no backup is found -->
-    <string name="LocalBackupRestoreScreen__no_backup_found_description">Valitusta kansiosta ei löytynyt Signal-varmuuskopiota. Valitse toinen kansio.</string>
+    <string name="LocalBackupRestoreScreen__no_backup_found_description">Valitusta kansiosta ei löytynyt Serva Chat-varmuuskopiota. Valitse toinen kansio.</string>
     <!-- Button to try a different folder -->
     <string name="LocalBackupRestoreScreen__try_different_folder">Kokeile toista kansiota</string>
     <!-- Title for V1 passphrase entry screen -->
@@ -208,7 +208,7 @@
     <!-- Button to link an existing Signal account to this device -->
     <string name="WelcomeScreen__link_your_account">Yhdistä tili</string>
     <!-- Prompt shown to users who don\'t have a Signal account yet -->
-    <string name="WelcomeScreen__not_on_signal_yet">Etkö ole vielä Signalissa?</string>
+    <string name="WelcomeScreen__not_on_signal_yet">Etkö ole vielä Serva Chatissa?</string>
     <!-- Button to create a new Signal account -->
     <string name="WelcomeScreen__create_account">Luo tili</string>
 </resources>

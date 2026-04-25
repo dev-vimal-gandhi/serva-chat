@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package com.servalabs.chat.jobs
 
 import android.Manifest
 import android.accounts.Account
@@ -10,13 +10,13 @@ import org.signal.contacts.SystemContactsRepository
 import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SignalE164Util
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.R
+import com.servalabs.chat.contacts.sync.ContactDiscovery
+import com.servalabs.chat.database.SignalDatabase
+import com.servalabs.chat.jobmanager.Job
+import com.servalabs.chat.storage.StorageSyncHelper
+import com.servalabs.chat.util.SignalE164Util
 import java.lang.Exception
 
 /**
@@ -97,9 +97,9 @@ class SyncSystemContactLinksJob private constructor(parameters: Parameters) : Ba
 
     const val KEY = "SyncSystemContactLinksJob"
 
-    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact"
-    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call"
-    private const val VIDEO_CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall"
+    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.com.servalabs.chat.contact"
+    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.com.servalabs.chat.call"
+    private const val VIDEO_CALL_MIMETYPE = "vnd.android.cursor.item/vnd.com.servalabs.chat.videocall"
     private const val CONTACT_TAG = "__TS"
 
     fun buildContactLinkConfiguration(context: Context, account: Account): ContactLinkConfiguration {

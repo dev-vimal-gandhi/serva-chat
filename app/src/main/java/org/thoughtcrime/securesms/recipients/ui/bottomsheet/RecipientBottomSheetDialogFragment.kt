@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.bottomsheet
+package com.servalabs.chat.recipients.ui.bottomsheet
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -25,24 +25,24 @@ import kotlinx.coroutines.launch
 import org.signal.core.ui.BottomSheetUtil
 import org.signal.core.ui.FixedRoundedCornerBottomSheetDialogFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelEducationSheet
-import org.thoughtcrime.securesms.groups.memberlabel.MemberLabelPillView
-import org.thoughtcrime.securesms.nicknames.NicknameActivity
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientExporter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.recipients.ui.about.AboutSheet
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.visible
+import com.servalabs.chat.R
+import com.servalabs.chat.avatar.view.AvatarView
+import com.servalabs.chat.calls.YouAreAlreadyInACallSnackbar
+import com.servalabs.chat.components.settings.DSLSettingsIcon
+import com.servalabs.chat.components.settings.conversation.preferences.ButtonStripPreference
+import com.servalabs.chat.conversation.v2.data.AvatarDownloadStateCache
+import com.servalabs.chat.groups.GroupId
+import com.servalabs.chat.groups.memberlabel.MemberLabelEducationSheet
+import com.servalabs.chat.groups.memberlabel.MemberLabelPillView
+import com.servalabs.chat.nicknames.NicknameActivity
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientExporter
+import com.servalabs.chat.recipients.RecipientId
+import com.servalabs.chat.recipients.RecipientUtil
+import com.servalabs.chat.recipients.ui.about.AboutSheet
+import com.servalabs.chat.util.ContextUtil
+import com.servalabs.chat.util.WindowUtil
+import com.servalabs.chat.util.visible
 
 /**
  * A bottom sheet that shows some simple recipient details, as well as some actions (like calling,

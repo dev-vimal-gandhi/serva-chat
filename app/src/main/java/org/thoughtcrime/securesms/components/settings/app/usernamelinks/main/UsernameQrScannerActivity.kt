@@ -5,7 +5,7 @@
 
 @file:OptIn(ExperimentalPermissionsApi::class)
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package com.servalabs.chat.components.settings.app.usernamelinks.main
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -42,9 +42,9 @@ import org.signal.core.ui.permissions.Permissions
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.permissions.PermissionCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import com.servalabs.chat.R
+import com.servalabs.chat.recipients.Recipient
+import com.servalabs.chat.recipients.RecipientId
 
 /**
  * Prompts the user to scan a username QR code. Uses the activity result to communicate the recipient that was found, or null if no valid usernames were scanned.

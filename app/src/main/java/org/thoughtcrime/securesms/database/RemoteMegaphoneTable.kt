@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package com.servalabs.chat.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -17,8 +17,8 @@ import org.signal.core.util.requireNonNullString
 import org.signal.core.util.requireString
 import org.signal.core.util.select
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
+import com.servalabs.chat.BuildConfig
+import com.servalabs.chat.database.model.RemoteMegaphoneRecord
 import java.util.concurrent.TimeUnit
 
 /**
