@@ -55,7 +55,7 @@ class WelcomeFragment : LoggingFragment(R.layout.fragment_registration_welcome_v
     setDebugLogSubmitMultiTapView(binding.title)
 
     binding.welcomeContinueButton.setOnClickListener { onContinueClicked() }
-    binding.welcomeTermsButton.setOnClickListener { onTermsClicked() }
+    // binding.welcomeTermsButton.setOnClickListener { onTermsClicked() }
     binding.welcomeTransferOrRestore.setOnClickListener { onRestoreOrTransferClicked() }
     binding.welcomeTransferOrRestore.visible = !sharedViewModel.isReregister
 
