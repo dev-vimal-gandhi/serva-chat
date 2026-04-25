@@ -1,10 +1,10 @@
-package org.signal.donations
+package com.servalabs.chat.donations
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.Before
 import org.junit.Test
-import org.signal.core.util.logging.Log
-import org.signal.core.util.logging.Log.Logger
+import com.servalabs.chat.core.util.logging.Log
+import com.servalabs.chat.core.util.logging.Log.Logger
 
 class ResponseFieldLoggerTest {
 

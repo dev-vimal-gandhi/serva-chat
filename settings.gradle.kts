@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     mavenLocal {
       content {
         includeGroup("im.molly")
-        includeGroup("org.signal")
+        includeGroup("com.servalabs.chat")
       }
     }
     maven {

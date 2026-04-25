@@ -5,7 +5,7 @@
  */
 syntax = "proto3";
 
-option java_package = "org.signal.protos.resumableuploads";
+option java_package = "com.servalabs.chat.protos.resumableuploads";
 
 message ResumableUpload {
   message Header {

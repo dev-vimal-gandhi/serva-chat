@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import com.squareup.wire.EnumAdapter
 import com.squareup.wire.FieldEncoding
@@ -31,11 +31,11 @@ class TestMessage(
   @JvmField
   val data: ByteString = ByteString.EMPTY,
 
-  @field:WireField(tag = 4, adapter = "org.signal.core.util.TestMessage${'$'}TestEnum#ADAPTER")
+  @field:WireField(tag = 4, adapter = "com.servalabs.chat.core.util.TestMessage${'$'}TestEnum#ADAPTER")
   @JvmField
   val status: TestEnum? = null,
 
-  @field:WireField(tag = 5, adapter = "org.signal.core.util.TestMessage${'$'}Nested#ADAPTER")
+  @field:WireField(tag = 5, adapter = "com.servalabs.chat.core.util.TestMessage${'$'}Nested#ADAPTER")
   @JvmField
   val nested: Nested? = null,
 

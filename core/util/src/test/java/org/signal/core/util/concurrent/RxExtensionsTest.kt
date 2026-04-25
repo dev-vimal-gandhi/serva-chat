@@ -1,4 +1,4 @@
-package org.signal.core.util.concurrent
+package com.servalabs.chat.core.util.concurrent
 
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.subjects.BehaviorSubject

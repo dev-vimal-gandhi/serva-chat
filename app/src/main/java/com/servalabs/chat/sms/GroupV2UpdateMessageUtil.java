@@ -1,0 +1,74 @@
+package com.servalabs.chat.sms;
+
+import androidx.annotation.NonNull;
+
+import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;
+import com.servalabs.chat.mms.MessageGroupContext;
+import com.servalabs.chat.core.models.ServiceId;
+import org.signal.libsignal.api.groupsv2.DecryptedGroupExtensions;
+
+import java.util.Collections;
+import java.util.Optional;
+
+/**
+ * Helper util for inspecting GV2 {@link MessageGroupContext} for various message processing.
+ */
+public final class GroupV2UpdateMessageUtil {
+
+  public static boolean isGroupV2(@NonNull MessageGroupContext groupContext) {
+    return groupContext.isV2Group();
+  }
+
+  public static boolean isUpdate(@NonNull MessageGroupContext groupContext) {
+    return groupContext.isV2Group();
+  }
+
+  public static boolean isJustAGroupLeave(@NonNull MessageGroupContext groupContext) {
+    if (isGroupV2(groupContext) && isUpdate(groupContext)) {
+      DecryptedGroupChange decryptedGroupChange = groupContext.requireGroupV2Properties()
+                                                              .getChange();
+
+      return changeEditorOnlyWasRemoved(decryptedGroupChange) &&
+             noChangesOtherThanDeletes(decryptedGroupChange);
+    }
+
+    return false;
+  }
+
+  private static boolean changeEditorOnlyWasRemoved(@NonNull DecryptedGroupChange decryptedGroupChange) {
+    return decryptedGroupChange.deleteMembers.size() == 1 &&
+           decryptedGroupChange.deleteMembers.get(0).equals(decryptedGroupChange.editorServiceIdBytes);
+  }
+
+  private static boolean noChangesOtherThanDeletes(@NonNull DecryptedGroupChange decryptedGroupChange) {
+    DecryptedGroupChange withoutDeletedMembers = decryptedGroupChange.newBuilder()
+                                                                     .deleteMembers(Collections.emptyList())
+                                                                     .build();
+    return DecryptedGroupExtensions.getChangedFields(withoutDeletedMembers).isEmpty();
+  }
+
+  public static boolean isJoinRequestCancel(@NonNull MessageGroupContext groupContext) {
+    if (isGroupV2(groupContext) && isUpdate(groupContext)) {
+      DecryptedGroupChange decryptedGroupChange = groupContext.requireGroupV2Properties()
+                                                              .getChange();
+
+      return decryptedGroupChange.deleteRequestingMembers.size() > 0;
+    }
+
+    return false;
+  }
+
+  public static int getChangeRevision(@NonNull MessageGroupContext groupContext) {
+    if (isGroupV2(groupContext) && isUpdate(groupContext)) {
+      return groupContext.requireGroupV2Properties().getChange().revision;
+    }
+    return -1;
+  }
+
+  public static Optional<ServiceId> getChangeEditor(MessageGroupContext groupContext) {
+    if (isGroupV2(groupContext) && isUpdate(groupContext)) {
+      return Optional.ofNullable(groupContext.requireGroupV2Properties().getChange().editorServiceIdBytes).map(ServiceId::parseOrNull);
+    }
+    return Optional.empty();
+  }
+}

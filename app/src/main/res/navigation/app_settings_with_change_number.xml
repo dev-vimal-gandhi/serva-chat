@@ -725,7 +725,7 @@
         <argument
             android:name="direct_to_checkout_type"
             android:defaultValue="UNKNOWN"
-            app:argType="org.signal.donations.InAppPaymentType" />
+            app:argType="com.servalabs.chat.donations.InAppPaymentType" />
     </action>
 
     <action
@@ -1009,7 +1009,7 @@
         <argument
             android:name="direct_to_checkout_type"
             android:defaultValue="UNKNOWN"
-            app:argType="org.signal.donations.InAppPaymentType" />
+            app:argType="com.servalabs.chat.donations.InAppPaymentType" />
     </fragment>
 
     <fragment
@@ -1071,7 +1071,7 @@
     <!-- UnifiedPush -->
     <fragment
         android:id="@+id/notificationUnifiedPushFragment"
-        android:name="im.molly.unifiedpush.components.settings.app.notifications.UnifiedPushSettingsFragment" />
+        android:name="com.servalabs.chat.unifiedpush.components.settings.app.notifications.UnifiedPushSettingsFragment" />
 
     <fragment
         android:id="@+id/editNotificationProfileFragment"

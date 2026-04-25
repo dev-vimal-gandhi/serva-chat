@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration
+package com.servalabs.chat.registration
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNull
 import kotlinx.serialization.json.Json
 import org.junit.Test
-import org.signal.core.models.AccountEntropyPool
-import org.signal.core.models.MasterKey
+import com.servalabs.chat.core.models.AccountEntropyPool
+import com.servalabs.chat.core.models.MasterKey
 
 class PersistedFlowStateTest {
 
@@ -150,7 +150,7 @@ class PersistedFlowStateTest {
 
   @Test
   fun `deserialization ignores unknown keys for forward compatibility`() {
-    val validJson = """{"backStack":[{"type":"org.signal.registration.RegistrationRoute.Welcome"}],"sessionMetadata":null,"sessionE164":null,"doNotAttemptRecoveryPassword":false,"unknownField":"value"}"""
+    val validJson = """{"backStack":[{"type":"com.servalabs.chat.registration.RegistrationRoute.Welcome"}],"sessionMetadata":null,"sessionE164":null,"doNotAttemptRecoveryPassword":false,"unknownField":"value"}"""
     val decoded = json.decodeFromString(PersistedFlowState.serializer(), validJson)
 
     assertThat(decoded.backStack).isEqualTo(listOf(RegistrationRoute.Welcome))

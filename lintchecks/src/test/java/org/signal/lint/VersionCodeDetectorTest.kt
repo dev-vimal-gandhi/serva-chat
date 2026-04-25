@@ -1,4 +1,4 @@
-package org.signal.lint
+package com.servalabs.chat.lint
 
 import com.android.tools.lint.checks.infrastructure.TestFiles.java
 import com.android.tools.lint.checks.infrastructure.TestFiles.kotlin

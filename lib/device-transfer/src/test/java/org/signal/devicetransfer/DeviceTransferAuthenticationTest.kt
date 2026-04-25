@@ -1,11 +1,11 @@
-package org.signal.devicetransfer
+package com.servalabs.chat.devicetransfer
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Before
 import org.junit.Test
-import org.signal.devicetransfer.DeviceTransferAuthentication.DeviceTransferAuthenticationException
-import org.whispersystems.signalservice.test.LibSignalLibraryUtil
+import com.servalabs.chat.devicetransfer.DeviceTransferAuthentication.DeviceTransferAuthenticationException
+import org.signal.libsignal.test.LibSignalLibraryUtil
 import kotlin.random.Random
 
 class DeviceTransferAuthenticationTest {

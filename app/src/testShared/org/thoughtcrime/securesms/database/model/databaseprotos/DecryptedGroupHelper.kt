@@ -1,15 +1,15 @@
 package com.servalabs.chat.database.model.databaseprotos
 
 import okio.ByteString.Companion.toByteString
-import org.signal.core.models.ServiceId
-import org.signal.core.models.ServiceId.ACI
+import com.servalabs.chat.core.models.ServiceId
+import com.servalabs.chat.core.models.ServiceId.ACI
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.signal.storageservice.storage.protos.groups.Member
-import org.signal.storageservice.storage.protos.groups.local.DecryptedGroupChange
-import org.signal.storageservice.storage.protos.groups.local.DecryptedMember
-import org.signal.storageservice.storage.protos.groups.local.DecryptedPendingMember
-import org.signal.storageservice.storage.protos.groups.local.DecryptedRequestingMember
-import org.whispersystems.signalservice.internal.push.GroupContextV2
+import com.servalabs.chat.storageservice.storage.protos.groups.Member
+import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange
+import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMember
+import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPendingMember
+import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedRequestingMember
+import com.servalabs.chat.libsignal.internal.push.GroupContextV2
 import java.util.UUID
 
 fun groupContext(masterKey: GroupMasterKey, init: DecryptedGroupV2Context.Builder.() -> Unit): DecryptedGroupV2Context {

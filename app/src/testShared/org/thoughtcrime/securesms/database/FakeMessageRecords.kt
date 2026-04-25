@@ -1,7 +1,7 @@
 package com.servalabs.chat.database
 
-import org.signal.blurhash.BlurHash
-import org.signal.core.models.media.TransformProperties
+import com.servalabs.chat.blurhash.BlurHash
+import com.servalabs.chat.core.models.media.TransformProperties
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
 import com.servalabs.chat.attachments.DatabaseAttachment

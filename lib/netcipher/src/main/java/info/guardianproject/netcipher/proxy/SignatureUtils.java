@@ -26,7 +26,7 @@ import android.content.pm.Signature;
 
 import androidx.annotation.Nullable;
 
-import org.signal.core.util.logging.Log;
+import com.servalabs.chat.core.util.logging.Log;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

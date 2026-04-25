@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.camera"
+  namespace = "com.servalabs.chat.camera"
 
   buildFeatures {
     compose = true

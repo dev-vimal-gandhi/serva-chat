@@ -1,4 +1,4 @@
-package org.signal.core.util.concurrent
+package com.servalabs.chat.core.util.concurrent
 
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

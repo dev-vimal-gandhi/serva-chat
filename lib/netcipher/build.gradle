@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'info.guardianproject.netcipher'
+    namespace = 'info.guardianproject.netcipher'
 
     buildToolsVersion = libs.versions.buildTools.get()
     compileSdkVersion = libs.versions.compileSdk.get()

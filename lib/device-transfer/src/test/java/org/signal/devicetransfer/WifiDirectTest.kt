@@ -1,4 +1,4 @@
-package org.signal.devicetransfer
+package com.servalabs.chat.devicetransfer
 
 import android.app.Application
 import org.junit.Assert.assertEquals

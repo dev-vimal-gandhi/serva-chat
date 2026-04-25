@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.glide"
+  namespace = "com.servalabs.chat.glide"
 
   buildFeatures {
     compose = true

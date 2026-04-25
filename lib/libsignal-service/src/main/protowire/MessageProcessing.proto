@@ -8,7 +8,7 @@ syntax = "proto2";
 
 package signalservice;
 
-option java_package = "org.whispersystems.signalservice.api.crypto.protos";
+option java_package = "com.servalabs.chat.libsignal.api.crypto.protos";
 
 message EnvelopeMetadata {
   required bytes  sourceServiceId       = 1;

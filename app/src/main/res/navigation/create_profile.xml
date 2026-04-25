@@ -25,7 +25,7 @@
 
             <argument
                 android:name="group_avatar_media"
-                app:argType="org.signal.core.models.media.Media"
+                app:argType="com.servalabs.chat.core.models.media.Media"
                 app:nullable="true" />
         </action>
 

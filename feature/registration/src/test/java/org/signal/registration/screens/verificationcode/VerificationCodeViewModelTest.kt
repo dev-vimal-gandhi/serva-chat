@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration.screens.verificationcode
+package com.servalabs.chat.registration.screens.verificationcode
 
 import assertk.assertThat
 import assertk.assertions.hasSize
@@ -21,12 +21,12 @@ import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
 import org.signal.libsignal.net.RequestResult
-import org.signal.registration.KeyMaterial
-import org.signal.registration.NetworkController
-import org.signal.registration.RegistrationFlowEvent
-import org.signal.registration.RegistrationFlowState
-import org.signal.registration.RegistrationRepository
-import org.signal.registration.RegistrationRoute
+import com.servalabs.chat.registration.KeyMaterial
+import com.servalabs.chat.registration.NetworkController
+import com.servalabs.chat.registration.RegistrationFlowEvent
+import com.servalabs.chat.registration.RegistrationFlowState
+import com.servalabs.chat.registration.RegistrationRepository
+import com.servalabs.chat.registration.RegistrationRoute
 import kotlin.time.Duration.Companion.seconds
 
 class VerificationCodeViewModelTest {

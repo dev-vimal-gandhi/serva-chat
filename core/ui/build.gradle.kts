@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.core.ui"
+  namespace = "com.servalabs.chat.core.ui"
 
   buildFeatures {
     compose = true

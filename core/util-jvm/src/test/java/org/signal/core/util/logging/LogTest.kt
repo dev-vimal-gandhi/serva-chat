@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.signal.core.util.logging
+package com.servalabs.chat.core.util.logging
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

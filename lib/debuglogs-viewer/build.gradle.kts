@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.debuglogsviewer"
+  namespace = "com.servalabs.chat.debuglogsviewer"
 
   buildFeatures {
     buildConfig = true

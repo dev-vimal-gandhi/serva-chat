@@ -33,7 +33,7 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.signal.core.util.logging.Log;
+import com.servalabs.chat.core.util.logging.Log;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -1,4 +1,4 @@
-package org.signal.lint
+package com.servalabs.chat.lint
 
 import com.android.tools.lint.checks.infrastructure.TestFiles.java
 import com.android.tools.lint.checks.infrastructure.TestFiles.kotlin
@@ -38,10 +38,10 @@ class SystemOutPrintLnDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 4: Replace with org.signal.core.util.logging.Log.d(TAG, "Hello World"):
+        Fix for src/foo/Example.java line 4: Replace with com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World"):
         @@ -4 +4
         -     System.out.println("Hello World");
-        +     org.signal.core.util.logging.Log.d(TAG, "Hello World");
+        +     com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World");
         """.trimIndent()
       )
   }
@@ -74,10 +74,10 @@ class SystemOutPrintLnDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 4: Replace with org.signal.core.util.logging.Log.d(TAG, "Hello"):
+        Fix for src/foo/Example.java line 4: Replace with com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello"):
         @@ -4 +4
         -     System.out.print("Hello");
-        +     org.signal.core.util.logging.Log.d(TAG, "Hello");
+        +     com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello");
         """.trimIndent()
       )
   }
@@ -112,10 +112,10 @@ class SystemOutPrintLnDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.kt line 5: Replace with org.signal.core.util.logging.Log.d(TAG, "Hello World"):
+        Fix for src/foo/Example.kt line 5: Replace with com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World"):
         @@ -5 +5
         -     println("Hello World")
-        +     org.signal.core.util.logging.Log.d(TAG, "Hello World")
+        +     com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World")
         """.trimIndent()
       )
   }
@@ -147,10 +147,10 @@ class SystemOutPrintLnDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/test.kt line 3: Replace with org.signal.core.util.logging.Log.d(TAG, "Hello World"):
+        Fix for src/foo/test.kt line 3: Replace with com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World"):
         @@ -3 +3
         -   println("Hello World")
-        +   org.signal.core.util.logging.Log.d(TAG, "Hello World")
+        +   com.servalabs.chat.core.util.logging.Log.d(TAG, "Hello World")
         """.trimIndent()
       )
   }
@@ -183,10 +183,10 @@ class SystemOutPrintLnDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 4: Replace with org.signal.core.util.logging.Log.d(TAG, ""):
+        Fix for src/foo/Example.java line 4: Replace with com.servalabs.chat.core.util.logging.Log.d(TAG, ""):
         @@ -4 +4
         -     System.out.println();
-        +     org.signal.core.util.logging.Log.d(TAG, "");
+        +     com.servalabs.chat.core.util.logging.Log.d(TAG, "");
         """.trimIndent()
       )
   }

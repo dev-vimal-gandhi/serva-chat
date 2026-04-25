@@ -1,0 +1,161 @@
+package com.servalabs.chat.safety.review
+
+import android.view.View
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.viewModels
+import com.servalabs.chat.core.ui.util.ThemeUtil
+import com.google.android.material.R as MaterialR
+import com.servalabs.chat.core.util.concurrent.LifecycleDisposable
+import com.servalabs.chat.R
+import com.servalabs.chat.components.WrapperDialogFragment
+import com.servalabs.chat.components.menu.ActionItem
+import com.servalabs.chat.components.settings.DSLConfiguration
+import com.servalabs.chat.components.settings.DSLSettingsFragment
+import com.servalabs.chat.components.settings.DSLSettingsText
+import com.servalabs.chat.components.settings.configure
+import com.servalabs.chat.crypto.IdentityKeyParcelable
+import com.servalabs.chat.database.IdentityTable
+import com.servalabs.chat.safety.SafetyNumberBottomSheetState
+import com.servalabs.chat.safety.SafetyNumberBottomSheetViewModel
+import com.servalabs.chat.safety.SafetyNumberBucket
+import com.servalabs.chat.safety.SafetyNumberBucketRowItem
+import com.servalabs.chat.safety.SafetyNumberRecipientRowItem
+import com.servalabs.chat.util.adapter.mapping.MappingAdapter
+import com.servalabs.chat.verify.VerifyIdentityFragment
+import com.servalabs.chat.core.ui.R as CoreUiR
+
+/**
+ * Full-screen fragment which displays the list of users who have safety number changes.
+ * Consider this an extension of the bottom sheet.
+ */
+class SafetyNumberReviewConnectionsFragment : DSLSettingsFragment(
+  titleId = R.string.SafetyNumberReviewConnectionsFragment__safety_number_changes,
+  layoutId = R.layout.safety_number_review_fragment
+) {
+
+  private val viewModel: SafetyNumberBottomSheetViewModel by viewModels(ownerProducer = {
+    requireParentFragment().requireParentFragment()
+  })
+
+  private val lifecycleDisposable = LifecycleDisposable()
+
+  override fun bindAdapter(adapter: MappingAdapter) {
+    SafetyNumberBucketRowItem.register(adapter)
+    SafetyNumberRecipientRowItem.register(adapter)
+    lifecycleDisposable.bindTo(viewLifecycleOwner)
+
+    val done = requireView().findViewById<View>(R.id.done)
+    done.setOnClickListener {
+      requireActivity().onBackPressed()
+    }
+
+    lifecycleDisposable += viewModel.state.subscribe { state ->
+      adapter.submitList(getConfiguration(state).toMappingModelList())
+    }
+  }
+
+  private fun getConfiguration(state: SafetyNumberBottomSheetState): DSLConfiguration {
+    return configure {
+      val recipientCount = state.destinationToRecipientMap.values.flatten().size
+      textPref(
+        title = DSLSettingsText.from(
+          resources.getQuantityString(R.plurals.SafetyNumberReviewConnectionsFragment__d_recipients_may_have, recipientCount, recipientCount),
+          DSLSettingsText.TextAppearanceModifier(CoreUiR.style.Signal_Text_BodyMedium),
+          DSLSettingsText.ColorModifier(ThemeUtil.getThemedColor(requireContext(), MaterialR.attr.colorOnSurfaceVariant))
+        )
+      )
+
+      state.destinationToRecipientMap.forEach { (bucket, recipients) ->
+        customPref(SafetyNumberBucketRowItem.createModel(bucket, this@SafetyNumberReviewConnectionsFragment::getActionItemsForBucket))
+
+        recipients.forEach {
+          customPref(
+            SafetyNumberRecipientRowItem.Model(
+              recipient = it.recipient,
+              isVerified = it.identityRecord.verifiedStatus == IdentityTable.VerifiedStatus.VERIFIED,
+              distributionListMembershipCount = it.distributionListMembershipCount,
+              groupMembershipCount = it.groupMembershipCount,
+              getContextMenuActions = { model ->
+                val actions = mutableListOf<ActionItem>()
+
+                actions.add(
+                  ActionItem(
+                    iconRes = R.drawable.ic_safety_number_24,
+                    title = getString(R.string.SafetyNumberBottomSheetFragment__verify_safety_number),
+                    action = {
+                      lifecycleDisposable += viewModel.getIdentityRecord(model.recipient.id).subscribe { record ->
+                        VerifyIdentityFragment.createDialog(
+                          model.recipient.id,
+                          IdentityKeyParcelable(record.identityKey),
+                          false
+                        ).show(childFragmentManager, null)
+                      }
+                    }
+                  )
+                )
+
+                if (model.distributionListMembershipCount > 0) {
+                  actions.add(
+                    ActionItem(
+                      iconRes = R.drawable.ic_circle_x_24,
+                      title = getString(R.string.SafetyNumberBottomSheetFragment__remove_from_story),
+                      action = {
+                        viewModel.removeRecipientFromSelectedStories(model.recipient.id)
+                      }
+                    )
+                  )
+                }
+
+                if (model.distributionListMembershipCount == 0 && model.groupMembershipCount == 0) {
+                  actions.add(
+                    ActionItem(
+                      iconRes = R.drawable.ic_circle_x_24,
+                      title = getString(R.string.SafetyNumberReviewConnectionsFragment__remove),
+                      tintRes = MaterialR.attr.colorOnSurface,
+                      action = {
+                        viewModel.removeDestination(model.recipient.id)
+                      }
+                    )
+                  )
+                }
+
+                actions
+              }
+            )
+          )
+        }
+      }
+    }
+  }
+
+  private fun getActionItemsForBucket(bucket: SafetyNumberBucket): List<ActionItem> {
+    return when (bucket) {
+      is SafetyNumberBucket.DistributionListBucket -> {
+        listOf(
+          ActionItem(
+            iconRes = R.drawable.ic_circle_x_24,
+            title = getString(R.string.SafetyNumberReviewConnectionsFragment__remove_all),
+            tintRes = MaterialR.attr.colorOnSurface,
+            action = {
+              viewModel.removeAll(bucket)
+            }
+          )
+        )
+      }
+      else -> emptyList()
+    }
+  }
+
+  class Dialog : WrapperDialogFragment() {
+    override fun getWrappedFragment(): Fragment {
+      return SafetyNumberReviewConnectionsFragment()
+    }
+  }
+
+  companion object {
+    fun show(fragmentManager: FragmentManager) {
+      Dialog().show(fragmentManager, null)
+    }
+  }
+}

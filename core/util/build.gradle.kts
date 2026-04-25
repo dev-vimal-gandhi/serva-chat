@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.core.util"
+  namespace = "com.servalabs.chat.core.util"
 }
 
 dependencies {

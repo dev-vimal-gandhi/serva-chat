@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import okio.utf8Size
 import org.junit.Assert.assertTrue

@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.video"
+  namespace = "com.servalabs.chat.video"
 }
 
 dependencies {

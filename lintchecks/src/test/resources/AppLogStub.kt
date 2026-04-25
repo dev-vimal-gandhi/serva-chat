@@ -1,4 +1,4 @@
-package org.signal.core.util.logging
+package com.servalabs.chat.core.util.logging
 
 object Log {
   fun tag(clazz: Class<*>?): String {

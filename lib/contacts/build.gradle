@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'org.signal.contacts'
+    namespace = 'com.servalabs.chat.contacts'
 }
 
 dependencies {

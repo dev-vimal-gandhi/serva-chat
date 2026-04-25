@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration.screens.phonenumber
+package com.servalabs.chat.registration.screens.phonenumber
 
 import assertk.assertThat
 import assertk.assertions.hasSize
@@ -23,13 +23,13 @@ import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Test
 import org.signal.libsignal.net.RequestResult
-import org.signal.registration.KeyMaterial
-import org.signal.registration.NetworkController
-import org.signal.registration.PreExistingRegistrationData
-import org.signal.registration.RegistrationFlowEvent
-import org.signal.registration.RegistrationFlowState
-import org.signal.registration.RegistrationRepository
-import org.signal.registration.RegistrationRoute
+import com.servalabs.chat.registration.KeyMaterial
+import com.servalabs.chat.registration.NetworkController
+import com.servalabs.chat.registration.PreExistingRegistrationData
+import com.servalabs.chat.registration.RegistrationFlowEvent
+import com.servalabs.chat.registration.RegistrationFlowState
+import com.servalabs.chat.registration.RegistrationRepository
+import com.servalabs.chat.registration.RegistrationRoute
 import java.io.IOException
 import kotlin.time.Duration.Companion.seconds
 

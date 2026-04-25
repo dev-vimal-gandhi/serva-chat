@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.apng"
+  namespace = "com.servalabs.chat.apng"
 }
 
 dependencies {

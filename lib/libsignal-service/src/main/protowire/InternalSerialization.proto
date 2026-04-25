@@ -9,7 +9,7 @@ package textsecure;
 
 import "SignalService.proto";
 
-option java_package        = "org.whispersystems.signalservice.internal.serialize.protos";
+option java_package        = "com.servalabs.chat.libsignal.internal.serialize.protos";
 option java_multiple_files = true;
 
 message SignalServiceContentProto {

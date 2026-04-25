@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.stream
+package com.servalabs.chat.core.util.stream
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.signal.core.util.readFully
-import org.signal.core.util.readNBytesOrThrow
+import com.servalabs.chat.core.util.readFully
+import com.servalabs.chat.core.util.readNBytesOrThrow
 
 class LimitedInputStreamTest {
 

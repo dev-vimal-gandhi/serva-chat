@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.camera
+package com.servalabs.chat.camera
 
 import android.content.Context
 import androidx.camera.core.Camera

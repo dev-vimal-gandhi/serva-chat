@@ -1,4 +1,4 @@
-package org.signal.donations
+package com.servalabs.chat.donations
 
 import android.app.Application
 import com.fasterxml.jackson.module.kotlin.jsonMapper
@@ -9,8 +9,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.signal.donations.json.StripeIntentStatus
-import org.signal.donations.json.StripePaymentIntent
+import com.servalabs.chat.donations.json.StripeIntentStatus
+import com.servalabs.chat.donations.json.StripePaymentIntent
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class, manifest = Config.NONE)

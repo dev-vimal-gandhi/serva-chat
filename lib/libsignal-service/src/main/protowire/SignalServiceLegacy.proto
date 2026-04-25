@@ -12,7 +12,7 @@ syntax = "proto2";
 
 package signalservice;
 
-option java_package = "org.whispersystems.signalservice.internal.push";
+option java_package = "com.servalabs.chat.libsignal.internal.push";
 option java_outer_classname = "SignalServiceProtos";
 
 import "SignalService.proto";

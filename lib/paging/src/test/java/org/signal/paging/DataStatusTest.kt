@@ -1,4 +1,4 @@
-package org.signal.paging
+package com.servalabs.chat.paging
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

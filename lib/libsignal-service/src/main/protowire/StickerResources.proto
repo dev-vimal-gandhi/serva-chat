@@ -7,7 +7,7 @@ syntax = "proto2";
 
 package signalservice;
 
-option java_package         = "org.whispersystems.signalservice.internal.sticker";
+option java_package         = "com.servalabs.chat.libsignal.internal.sticker";
 option java_outer_classname = "StickerProtos";
 
 message Pack {

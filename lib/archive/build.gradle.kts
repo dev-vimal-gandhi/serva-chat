@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.archive"
+  namespace = "com.servalabs.chat.archive"
 }
 
 wire {

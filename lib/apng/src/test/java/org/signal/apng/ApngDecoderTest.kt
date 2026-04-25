@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.apng
+package com.servalabs.chat.apng
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

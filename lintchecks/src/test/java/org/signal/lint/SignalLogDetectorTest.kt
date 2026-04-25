@@ -1,4 +1,4 @@
-package org.signal.lint
+package com.servalabs.chat.lint
 
 import com.android.tools.lint.checks.infrastructure.TestFiles.java
 import com.android.tools.lint.checks.infrastructure.TestFiles.kotlin
@@ -40,10 +40,10 @@ class SignalLogDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d("TAG", "msg"):
+        Fix for src/foo/Example.java line 5: Replace with com.servalabs.chat.core.util.logging.Log.d("TAG", "msg"):
         @@ -5 +5
         -     Log.d("TAG", "msg");
-        +     org.signal.core.util.logging.Log.d("TAG", "msg");
+        +     com.servalabs.chat.core.util.logging.Log.d("TAG", "msg");
         """.trimIndent()
       )
   }
@@ -79,10 +79,10 @@ class SignalLogDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d("TAG", "msg"):
+        Fix for src/foo/Example.java line 5: Replace with com.servalabs.chat.core.util.logging.Log.d("TAG", "msg"):
         @@ -5 +5
         -     Log.d("TAG", "msg");
-        +     org.signal.core.util.logging.Log.d("TAG", "msg");
+        +     com.servalabs.chat.core.util.logging.Log.d("TAG", "msg");
         """.trimIndent()
       )
   }
@@ -121,7 +121,7 @@ class SignalLogDetectorTest {
         java(
           """
           package foo;
-          import org.signal.core.util.logging.Log;
+          import com.servalabs.chat.core.util.logging.Log;
           public class Example {
             private static final String TAG = Log.tag(Example.class);
             public void log() {
@@ -146,7 +146,7 @@ class SignalLogDetectorTest {
         kotlin(
           """
           package foo
-          import org.signal.core.util.logging.Log
+          import com.servalabs.chat.core.util.logging.Log
           class Example {
             const val TAG: String = Log.tag(Example::class.java)
             fun log() {
@@ -171,7 +171,7 @@ class SignalLogDetectorTest {
         kotlin(
           """
           package foo
-          import org.signal.core.util.logging.Log
+          import com.servalabs.chat.core.util.logging.Log
           class Example {
             companion object { val TAG: String = Log.tag(Example::class.java) }
             fun log() {
@@ -199,7 +199,7 @@ class SignalLogDetectorTest {
         java(
           """
           package foo;
-          import org.signal.core.util.logging.Log;
+          import com.servalabs.chat.core.util.logging.Log;
           public class Example {
             public void log() {
               Log.d("TAG", "msg");
@@ -230,7 +230,7 @@ class SignalLogDetectorTest {
         kotlin(
           """
           package foo
-          import org.signal.core.util.logging.Log
+          import com.servalabs.chat.core.util.logging.Log
           class Example {
             fun log() {
               Log.d("TAG", "msg")
@@ -261,7 +261,7 @@ class SignalLogDetectorTest {
         java(
           """
           package foo;
-          import org.signal.glide.Log;
+          import com.servalabs.chat.glide.Log;
           public class Example {
             public void log() {
               Log.d("TAG", "msg");
@@ -275,7 +275,7 @@ class SignalLogDetectorTest {
       .run()
       .expect(
         """
-        src/foo/Example.java:5: Error: Using 'org.signal.glide.Log' instead of a Signal Logger [LogNotSignal]
+        src/foo/Example.java:5: Error: Using 'com.servalabs.chat.glide.Log' instead of a Signal Logger [LogNotSignal]
             Log.d("TAG", "msg");
             ~~~~~~~~~~~~~~~~~~~
         1 errors, 0 warnings
@@ -283,10 +283,10 @@ class SignalLogDetectorTest {
       )
       .expectFixDiffs(
         """
-        Fix for src/foo/Example.java line 5: Replace with org.signal.core.util.logging.Log.d("TAG", "msg"):
+        Fix for src/foo/Example.java line 5: Replace with com.servalabs.chat.core.util.logging.Log.d("TAG", "msg"):
         @@ -5 +5
         -     Log.d("TAG", "msg");
-        +     org.signal.core.util.logging.Log.d("TAG", "msg");
+        +     com.servalabs.chat.core.util.logging.Log.d("TAG", "msg");
         """.trimIndent()
       )
   }

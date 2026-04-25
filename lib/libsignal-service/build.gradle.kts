@@ -51,7 +51,7 @@ wire {
 
   custom {
     // Comes from wire-handler jar project
-    schemaHandlerFactoryClass = "org.signal.wire.Factory"
+    schemaHandlerFactoryClass = "com.servalabs.chat.wire.Factory"
   }
 }
 

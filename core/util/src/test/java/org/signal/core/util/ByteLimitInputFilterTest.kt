@@ -1,5 +1,5 @@
 
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import android.app.Application
 import android.text.SpannedString

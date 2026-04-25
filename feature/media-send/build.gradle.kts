@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.mediasend"
+  namespace = "com.servalabs.chat.mediasend"
 
   buildFeatures {
     compose = true

@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.registration"
+  namespace = "com.servalabs.chat.registration"
 
   buildFeatures {
     compose = true

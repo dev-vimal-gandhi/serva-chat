@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.stream
+package com.servalabs.chat.core.util.stream
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.Test
-import org.signal.core.util.readFully
+import com.servalabs.chat.core.util.readFully
 import kotlin.math.min
 import kotlin.random.Random
 

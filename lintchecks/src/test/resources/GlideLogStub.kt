@@ -1,4 +1,4 @@
-package org.signal.glide
+package com.servalabs.chat.glide
 
 object Log {
   fun tag(clazz: Class<*>?): String {

@@ -4,7 +4,7 @@ import com.android.tools.lint.client.api.IssueRegistry
 import com.android.tools.lint.client.api.Vendor
 import com.android.tools.lint.detector.api.CURRENT_API
 
-import org.signal.lint.Registry as SignalRegistry
+import com.servalabs.chat.lint.Registry as SignalRegistry
 
 @Suppress("unused")
 class Registry : IssueRegistry() {

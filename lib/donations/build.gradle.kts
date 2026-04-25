@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.donations"
+  namespace = "com.servalabs.chat.donations"
 
   buildFeatures {
     buildConfig = true

@@ -6,7 +6,7 @@
 package androidx.recyclerview.widget
 
 import android.content.Context
-import org.signal.core.util.logging.Log
+import com.servalabs.chat.core.util.logging.Log
 
 /**
  * Variation of a vertical, reversed [LinearLayoutManager] that makes specific assumptions in how it will

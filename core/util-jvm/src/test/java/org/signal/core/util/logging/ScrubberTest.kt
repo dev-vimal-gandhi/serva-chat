@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.logging
+package com.servalabs.chat.core.util.logging
 
 import org.junit.Assert
 import org.junit.BeforeClass
@@ -107,8 +107,8 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "A short email a...@..."
         ),
         arrayOf(
-          "This is not an email Success(result=org.whispersystems.signalservice.api.archive.ArchiveMediaResponse@1ea5e6)",
-          "This is not an email Success(result=org.whispersystems.signalservice.api.archive.ArchiveMediaResponse@1ea5e6)"
+          "This is not an email Success(result=org.signal.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)",
+          "This is not an email Success(result=org.signal.libsignal.api.archive.ArchiveMediaResponse@1ea5e6)"
         ),
         arrayOf(
           "A email with multiple parts before the @ d.c+b.a@mulitpart.domain.com and a multipart domain",

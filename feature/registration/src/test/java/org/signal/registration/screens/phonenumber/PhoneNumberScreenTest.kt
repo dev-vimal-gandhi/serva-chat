@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration.screens.phonenumber
+package com.servalabs.chat.registration.screens.phonenumber
 
 import android.app.Application
 import androidx.compose.ui.test.assertIsEnabled
@@ -17,9 +17,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.signal.core.ui.CoreUiDependenciesRule
-import org.signal.core.ui.compose.theme.SignalTheme
-import org.signal.registration.test.TestTags
+import com.servalabs.chat.core.ui.CoreUiDependenciesRule
+import com.servalabs.chat.core.ui.compose.theme.SignalTheme
+import com.servalabs.chat.registration.test.TestTags
 
 /**
  * Tests for PhoneNumberScreen that validate user interactions and event emissions.

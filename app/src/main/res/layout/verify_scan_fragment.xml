@@ -17,7 +17,7 @@
               app:layout_constraintEnd_toStartOf="parent"
               app:layout_constraintEnd_toEndOf="parent" />
 
-    <org.signal.qr.QrScannerView
+    <com.servalabs.chat.qr.QrScannerView
             android:id="@+id/scanner"
             android:layout_width="match_parent"
             android:layout_height="0dp"

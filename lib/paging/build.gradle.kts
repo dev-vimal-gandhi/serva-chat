@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.paging"
+  namespace = "com.servalabs.chat.paging"
 }
 
 dependencies {

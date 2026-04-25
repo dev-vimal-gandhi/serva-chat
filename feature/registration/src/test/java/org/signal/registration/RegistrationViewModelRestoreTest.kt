@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration
+package com.servalabs.chat.registration
 
 import androidx.lifecycle.SavedStateHandle
 import assertk.assertThat
@@ -217,7 +217,7 @@ class RegistrationViewModelRestoreTest {
     val viewModel = RegistrationViewModel(mockRepository, SavedStateHandle())
     advanceUntilIdle()
 
-    viewModel.onEvent(RegistrationFlowEvent.Registered(org.signal.core.models.AccountEntropyPool.generate()))
+    viewModel.onEvent(RegistrationFlowEvent.Registered(com.servalabs.chat.core.models.AccountEntropyPool.generate()))
     advanceUntilIdle()
 
     coVerify(exactly = 0) { mockRepository.saveFlowState(any()) }
@@ -231,7 +231,7 @@ class RegistrationViewModelRestoreTest {
     val viewModel = RegistrationViewModel(mockRepository, SavedStateHandle())
     advanceUntilIdle()
 
-    viewModel.onEvent(RegistrationFlowEvent.MasterKeyRestoredFromSvr(org.signal.core.models.MasterKey(ByteArray(32))))
+    viewModel.onEvent(RegistrationFlowEvent.MasterKeyRestoredFromSvr(com.servalabs.chat.core.models.MasterKey(ByteArray(32))))
     advanceUntilIdle()
 
     coVerify(exactly = 0) { mockRepository.saveFlowState(any()) }

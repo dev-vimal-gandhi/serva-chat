@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util.stream
+package com.servalabs.chat.core.util.stream
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Test
-import org.signal.core.util.StreamUtil
+import com.servalabs.chat.core.util.StreamUtil
 import java.io.ByteArrayOutputStream
 import java.io.OutputStream
 import javax.crypto.Mac

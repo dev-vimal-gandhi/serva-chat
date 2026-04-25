@@ -1,4 +1,4 @@
-package org.signal.donations
+package com.servalabs.chat.donations
 
 import android.app.Application
 import org.junit.Assert.assertEquals

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration.screens.pinentry
+package com.servalabs.chat.registration.screens.pinentry
 
 import assertk.assertThat
 import assertk.assertions.hasSize
@@ -16,13 +16,13 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Test
-import org.signal.core.models.MasterKey
+import com.servalabs.chat.core.models.MasterKey
 import org.signal.libsignal.net.RequestResult
-import org.signal.registration.NetworkController
-import org.signal.registration.RegistrationFlowEvent
-import org.signal.registration.RegistrationFlowState
-import org.signal.registration.RegistrationRepository
-import org.signal.registration.RegistrationRoute
+import com.servalabs.chat.registration.NetworkController
+import com.servalabs.chat.registration.RegistrationFlowEvent
+import com.servalabs.chat.registration.RegistrationFlowState
+import com.servalabs.chat.registration.RegistrationRepository
+import com.servalabs.chat.registration.RegistrationRoute
 
 class PinEntryForSvrRestoreViewModelTest {
 

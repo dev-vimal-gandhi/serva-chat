@@ -1,4 +1,4 @@
-package org.signal.core.util.money
+package com.servalabs.chat.core.util.money
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

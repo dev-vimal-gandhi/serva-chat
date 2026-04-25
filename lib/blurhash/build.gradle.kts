@@ -4,5 +4,5 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.blurhash"
+  namespace = "com.servalabs.chat.blurhash"
 }

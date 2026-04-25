@@ -1,4 +1,4 @@
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import okio.utf8Size
 import org.junit.Assert.assertEquals

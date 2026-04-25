@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration
+package com.servalabs.chat.registration
 
 import android.app.Application
 import android.os.Looper
@@ -23,11 +23,11 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.Shadows
 import org.robolectric.annotation.Config
-import org.signal.core.ui.CoreUiDependenciesRule
-import org.signal.core.ui.compose.theme.SignalTheme
-import org.signal.registration.screens.util.MockMultiplePermissionsState
-import org.signal.registration.screens.util.MockPermissionsState
-import org.signal.registration.test.TestTags
+import com.servalabs.chat.core.ui.CoreUiDependenciesRule
+import com.servalabs.chat.core.ui.compose.theme.SignalTheme
+import com.servalabs.chat.registration.screens.util.MockMultiplePermissionsState
+import com.servalabs.chat.registration.screens.util.MockPermissionsState
+import com.servalabs.chat.registration.test.TestTags
 
 /**
  * Tests for registration navigation flow using Navigation 3.

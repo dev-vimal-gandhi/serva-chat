@@ -1,6 +1,6 @@
 @file:Suppress("PLATFORM_CLASS_MAPPED_TO_KOTLIN")
 
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import android.app.Application
 import org.junit.Assert.assertEquals

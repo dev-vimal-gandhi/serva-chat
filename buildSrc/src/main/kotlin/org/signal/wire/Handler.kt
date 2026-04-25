@@ -1,4 +1,4 @@
-package org.signal.wire
+package com.servalabs.chat.wire
 
 import com.squareup.wire.schema.*
 import okio.Path

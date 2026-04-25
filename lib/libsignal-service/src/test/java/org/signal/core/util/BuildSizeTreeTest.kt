@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.core.util
+package com.servalabs.chat.core.util
 
 import assertk.assertThat
 import assertk.assertions.contains
@@ -12,11 +12,11 @@ import assertk.assertions.isEqualTo
 import assertk.assertions.startsWith
 import okio.ByteString.Companion.toByteString
 import org.junit.Test
-import org.whispersystems.signalservice.internal.push.BodyRange
-import org.whispersystems.signalservice.internal.push.Content
-import org.whispersystems.signalservice.internal.push.DataMessage
-import org.whispersystems.signalservice.internal.push.GroupContextV2
-import org.whispersystems.signalservice.internal.push.PniSignatureMessage
+import com.servalabs.chat.libsignal.internal.push.BodyRange
+import com.servalabs.chat.libsignal.internal.push.Content
+import com.servalabs.chat.libsignal.internal.push.DataMessage
+import com.servalabs.chat.libsignal.internal.push.GroupContextV2
+import com.servalabs.chat.libsignal.internal.push.PniSignatureMessage
 
 class BuildSizeTreeTest {
 

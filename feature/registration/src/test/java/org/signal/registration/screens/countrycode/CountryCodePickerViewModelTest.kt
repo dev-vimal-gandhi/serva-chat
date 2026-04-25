@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.registration.screens.countrycode
+package com.servalabs.chat.registration.screens.countrycode
 
 import assertk.assertThat
 import assertk.assertions.contains
@@ -25,8 +25,8 @@ import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
-import org.signal.core.ui.navigation.ResultEventBus
-import org.signal.registration.RegistrationFlowEvent
+import com.servalabs.chat.core.ui.navigation.ResultEventBus
+import com.servalabs.chat.registration.RegistrationFlowEvent
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class CountryCodePickerViewModelTest {

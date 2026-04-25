@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-  namespace = "org.signal.baselineprofile"
+  namespace = "com.servalabs.chat.baselineprofile"
   compileSdk {
     version = release(36)
   }
