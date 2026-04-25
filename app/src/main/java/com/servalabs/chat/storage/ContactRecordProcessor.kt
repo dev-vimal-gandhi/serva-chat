@@ -19,11 +19,11 @@ import com.servalabs.chat.recipients.Recipient.Companion.trustedPush
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncModels.localToRemoteRecord
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.signalAci
-import org.signal.libsignal.api.storage.signalPni
-import org.signal.libsignal.api.storage.toSignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.signalAci
+import com.servalabs.chat.libsignal.api.storage.signalPni
+import com.servalabs.chat.libsignal.api.storage.toSignalContactRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord.IdentityState
 import java.io.IOException
 import java.util.Optional

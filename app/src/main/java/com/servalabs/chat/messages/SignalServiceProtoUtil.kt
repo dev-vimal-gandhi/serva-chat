@@ -17,11 +17,11 @@ import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.stickers.StickerLocator
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.InvalidMessageStructureException
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.payments.Money
-import org.signal.libsignal.api.util.AttachmentPointerUtil
+import com.servalabs.chat.libsignal.api.InvalidMessageStructureException
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.payments.Money
+import com.servalabs.chat.libsignal.api.util.AttachmentPointerUtil
 import com.servalabs.chat.libsignal.internal.push.AttachmentPointer
 import com.servalabs.chat.libsignal.internal.push.DataMessage
 import com.servalabs.chat.libsignal.internal.push.DataMessage.Payment
@@ -30,7 +30,7 @@ import com.servalabs.chat.libsignal.internal.push.StoryMessage
 import com.servalabs.chat.libsignal.internal.push.SyncMessage
 import com.servalabs.chat.libsignal.internal.push.SyncMessage.Sent
 import com.servalabs.chat.libsignal.internal.push.TypingMessage
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.util.Optional
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds

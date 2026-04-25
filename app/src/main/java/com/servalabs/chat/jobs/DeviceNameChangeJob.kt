@@ -7,8 +7,8 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint
 import com.servalabs.chat.jobs.protos.DeviceNameChangeJobData
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.crypto.UntrustedIdentityException
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage
 import com.servalabs.chat.libsignal.internal.push.SyncMessage
 import java.io.IOException
 import java.util.concurrent.TimeUnit

@@ -7,9 +7,9 @@ import com.servalabs.chat.blurhash.BlurHash
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.database.AttachmentTable
 import com.servalabs.chat.stickers.StickerLocator
-import org.signal.libsignal.api.InvalidMessageStructureException
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.util.AttachmentPointerUtil
+import com.servalabs.chat.libsignal.api.InvalidMessageStructureException
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.util.AttachmentPointerUtil
 import com.servalabs.chat.libsignal.internal.push.DataMessage
 import java.util.Optional
 import java.util.UUID

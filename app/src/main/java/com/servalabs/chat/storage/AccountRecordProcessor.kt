@@ -8,13 +8,13 @@ import com.servalabs.chat.core.util.nullIfEmpty
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper.applyAccountStorageSyncUpdates
-import org.signal.libsignal.api.storage.IAPSubscriptionId
-import org.signal.libsignal.api.storage.SignalAccountRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.storage.safeSetBackupsSubscriber
-import org.signal.libsignal.api.storage.safeSetPayments
-import org.signal.libsignal.api.storage.safeSetSubscriber
-import org.signal.libsignal.api.storage.toSignalAccountRecord
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.storage.SignalAccountRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.safeSetBackupsSubscriber
+import com.servalabs.chat.libsignal.api.storage.safeSetPayments
+import com.servalabs.chat.libsignal.api.storage.safeSetSubscriber
+import com.servalabs.chat.libsignal.api.storage.toSignalAccountRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.OptionalBool
 import java.util.Optional
 

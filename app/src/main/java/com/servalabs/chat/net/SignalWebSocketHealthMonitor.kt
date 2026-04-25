@@ -18,10 +18,10 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalWebSocketHealthMonitor.Companion.KEEP_ALIVE_SEND_CADENCE
 import com.servalabs.chat.net.SignalWebSocketHealthMonitor.Companion.KEEP_ALIVE_TIMEOUT
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.util.SleepTimer
-import org.signal.libsignal.api.websocket.HealthMonitor
-import org.signal.libsignal.api.websocket.SignalWebSocket
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.api.util.SleepTimer
+import com.servalabs.chat.libsignal.api.websocket.HealthMonitor
+import com.servalabs.chat.libsignal.api.websocket.SignalWebSocket
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 import com.servalabs.chat.libsignal.internal.websocket.OkHttpWebSocketConnection
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors

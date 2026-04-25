@@ -18,8 +18,8 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.RecipientAccessList
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.crypto.ContentHint
-import org.signal.libsignal.api.messages.SendMessageResult
+import com.servalabs.chat.libsignal.api.crypto.ContentHint
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult
 import com.servalabs.chat.libsignal.internal.push.Content
 
 /**

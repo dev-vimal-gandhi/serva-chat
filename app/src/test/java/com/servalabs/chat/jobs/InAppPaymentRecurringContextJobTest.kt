@@ -39,10 +39,10 @@ import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.testutil.MockSignalStoreRule
 import com.servalabs.chat.testutil.SystemOutLogger
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import com.servalabs.chat.libsignal.internal.push.WhoAmIResponse
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.milliseconds

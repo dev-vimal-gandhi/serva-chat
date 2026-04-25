@@ -8,8 +8,8 @@ import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.protocol.util.Medium
 import com.servalabs.chat.crypto.PreKeyUtil
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.messages.multidevice.DeviceInfo
-import org.signal.libsignal.api.push.SignedPreKeyEntity
+import com.servalabs.chat.libsignal.api.messages.multidevice.DeviceInfo
+import com.servalabs.chat.libsignal.api.push.SignedPreKeyEntity
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.DeviceInfoList
 import com.servalabs.chat.libsignal.internal.push.PreKeyEntity

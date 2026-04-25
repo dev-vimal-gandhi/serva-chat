@@ -12,7 +12,7 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.toByteArray
 import com.servalabs.chat.util.MediaUtil
-import org.signal.libsignal.api.messages.SignalServiceAttachmentRemoteId
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentRemoteId
 import com.servalabs.chat.libsignal.internal.push.AttachmentPointer
 import java.io.IOException
 

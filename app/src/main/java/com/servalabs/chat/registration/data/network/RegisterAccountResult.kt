@@ -7,13 +7,13 @@ package com.servalabs.chat.registration.data.network
 
 import com.servalabs.chat.pin.SvrWrongPinException
 import com.servalabs.chat.registration.data.AccountRegistrationResult
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.SvrNoDataException
-import org.signal.libsignal.api.push.exceptions.AuthorizationFailedException
-import org.signal.libsignal.api.push.exceptions.IncorrectRegistrationRecoveryPasswordException
-import org.signal.libsignal.api.push.exceptions.MalformedRequestException
-import org.signal.libsignal.api.push.exceptions.RateLimitException
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.SvrNoDataException
+import com.servalabs.chat.libsignal.api.push.exceptions.AuthorizationFailedException
+import com.servalabs.chat.libsignal.api.push.exceptions.IncorrectRegistrationRecoveryPasswordException
+import com.servalabs.chat.libsignal.api.push.exceptions.MalformedRequestException
+import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.LockedException
 import com.servalabs.chat.libsignal.internal.push.VerifyAccountResponse

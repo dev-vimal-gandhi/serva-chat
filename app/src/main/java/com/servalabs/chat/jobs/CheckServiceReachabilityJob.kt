@@ -7,8 +7,8 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.stories.Stories
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
-import org.signal.libsignal.internal.util.StaticCredentialsProvider
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.internal.util.StaticCredentialsProvider
 import com.servalabs.chat.libsignal.internal.websocket.OkHttpWebSocketConnection
 import java.util.Optional
 import java.util.concurrent.TimeUnit

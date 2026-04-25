@@ -8,7 +8,7 @@ package com.servalabs.chat.components.settings.app.subscription.errors
 import com.servalabs.chat.donations.PaymentSourceType
 import com.servalabs.chat.donations.StripeDeclineCode
 import com.servalabs.chat.donations.StripeFailureCode
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import com.servalabs.chat.libsignal.internal.push.exceptions.InAppPaymentProcessorError
 
 fun InAppPaymentProcessorError.toDonationError(

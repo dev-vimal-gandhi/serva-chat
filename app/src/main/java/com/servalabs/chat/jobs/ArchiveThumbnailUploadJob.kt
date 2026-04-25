@@ -29,10 +29,10 @@ import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.util.ImageCompressionUtil
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.attachment.AttachmentUploadResult
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.messages.SignalServiceAttachmentStream
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.attachment.AttachmentUploadResult
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentStream
 import com.servalabs.chat.libsignal.internal.push.AttachmentUploadForm
 import java.io.ByteArrayInputStream
 import java.io.IOException

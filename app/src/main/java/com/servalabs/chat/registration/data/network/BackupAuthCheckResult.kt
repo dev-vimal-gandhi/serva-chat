@@ -5,8 +5,8 @@
 
 package com.servalabs.chat.registration.data.network
 
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.BackupV2AuthCheckResponse
 import com.servalabs.chat.libsignal.internal.push.BackupV3AuthCheckResponse

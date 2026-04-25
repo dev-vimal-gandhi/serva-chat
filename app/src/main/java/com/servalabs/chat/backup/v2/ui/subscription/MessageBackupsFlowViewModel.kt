@@ -46,7 +46,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.next
-import org.signal.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
 import kotlin.time.Duration.Companion.seconds
 

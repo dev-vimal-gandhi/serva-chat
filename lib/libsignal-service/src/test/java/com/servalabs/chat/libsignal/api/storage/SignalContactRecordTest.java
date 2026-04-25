@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.storage;
+package com.servalabs.chat.libsignal.api.storage;
 
 import org.junit.Test;
 import com.servalabs.chat.core.models.ServiceId.ACI;

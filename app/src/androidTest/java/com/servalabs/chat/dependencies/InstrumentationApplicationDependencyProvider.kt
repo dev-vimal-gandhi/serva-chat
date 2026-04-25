@@ -6,15 +6,15 @@ import io.mockk.spyk
 import com.servalabs.chat.core.util.billing.BillingApi
 import com.servalabs.chat.push.SignalServiceNetworkAccess
 import com.servalabs.chat.recipients.LiveRecipientCache
-import org.signal.libsignal.api.SignalServiceDataStore
-import org.signal.libsignal.api.SignalServiceMessageSender
-import org.signal.libsignal.api.account.AccountApi
-import org.signal.libsignal.api.archive.ArchiveApi
-import org.signal.libsignal.api.attachment.AttachmentApi
-import org.signal.libsignal.api.donations.DonationsApi
-import org.signal.libsignal.api.keys.KeysApi
-import org.signal.libsignal.api.message.MessageApi
-import org.signal.libsignal.api.websocket.SignalWebSocket
+import com.servalabs.chat.libsignal.api.SignalServiceDataStore
+import com.servalabs.chat.libsignal.api.SignalServiceMessageSender
+import com.servalabs.chat.libsignal.api.account.AccountApi
+import com.servalabs.chat.libsignal.api.archive.ArchiveApi
+import com.servalabs.chat.libsignal.api.attachment.AttachmentApi
+import com.servalabs.chat.libsignal.api.donations.DonationsApi
+import com.servalabs.chat.libsignal.api.keys.KeysApi
+import com.servalabs.chat.libsignal.api.message.MessageApi
+import com.servalabs.chat.libsignal.api.websocket.SignalWebSocket
 import com.servalabs.chat.libsignal.internal.push.PushServiceSocket
 
 /**

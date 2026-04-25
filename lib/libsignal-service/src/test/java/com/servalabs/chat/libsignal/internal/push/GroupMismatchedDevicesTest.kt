@@ -5,7 +5,7 @@ import assertk.assertions.containsExactly
 import assertk.assertions.hasSize
 import assertk.assertions.isEqualTo
 import org.junit.Test
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 
 class GroupMismatchedDevicesTest {
   @Test

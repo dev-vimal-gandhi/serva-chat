@@ -16,7 +16,7 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.JsonJobData
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import com.servalabs.chat.libsignal.internal.push.DeviceLimitExceededException
 import java.io.IOException
 import java.util.concurrent.TimeUnit

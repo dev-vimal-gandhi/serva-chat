@@ -24,8 +24,8 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.storage.SignalNotificationProfileRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalNotificationProfileRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import java.time.DayOfWeek
 import java.util.UUID
 import com.servalabs.chat.libsignal.internal.storage.protos.NotificationProfile as RemoteNotificationProfile

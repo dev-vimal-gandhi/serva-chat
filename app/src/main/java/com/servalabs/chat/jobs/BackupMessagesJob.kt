@@ -51,10 +51,10 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.api.svr.SvrBApi
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.svr.SvrBApi
 import com.servalabs.chat.libsignal.internal.push.AttachmentUploadForm
 import java.io.File
 import java.io.FileInputStream

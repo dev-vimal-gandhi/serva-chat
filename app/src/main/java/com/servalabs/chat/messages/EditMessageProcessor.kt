@@ -32,11 +32,11 @@ import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.MessageConstraintsUtil
 import com.servalabs.chat.util.hasAudio
 import com.servalabs.chat.util.hasSharedContact
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.DataMessage
 import com.servalabs.chat.libsignal.internal.push.Envelope
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 
 object EditMessageProcessor {
   fun process(

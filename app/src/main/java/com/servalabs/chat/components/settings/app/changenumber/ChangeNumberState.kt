@@ -11,7 +11,7 @@ import com.servalabs.chat.registration.data.network.Challenge
 import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
 import com.servalabs.chat.registration.ui.countrycode.Country
 import com.servalabs.chat.registration.viewmodel.NumberViewState
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 
 /**

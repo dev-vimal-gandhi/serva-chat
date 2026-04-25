@@ -7,9 +7,9 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderId
 import com.servalabs.chat.database.ChatFolderTables
 import com.servalabs.chat.database.SignalDatabase
-import org.signal.libsignal.api.storage.SignalChatFolderRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.util.OptionalUtil.asOptional
+import com.servalabs.chat.libsignal.api.storage.SignalChatFolderRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.util.OptionalUtil.asOptional
 import com.servalabs.chat.libsignal.internal.storage.protos.ChatFolderRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.Recipient
 import java.util.Optional

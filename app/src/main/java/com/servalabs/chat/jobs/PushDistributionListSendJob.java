@@ -35,12 +35,12 @@ import com.servalabs.chat.stories.Stories;
 import com.servalabs.chat.transport.RetryLaterException;
 import com.servalabs.chat.transport.UndeliverableMessageException;
 import com.servalabs.chat.core.util.Util;
-import org.signal.libsignal.api.crypto.UntrustedIdentityException;
-import org.signal.libsignal.api.messages.SendMessageResult;
-import org.signal.libsignal.api.messages.SignalServiceAttachment;
-import org.signal.libsignal.api.messages.SignalServiceStoryMessage;
-import org.signal.libsignal.api.messages.SignalServiceStoryMessageRecipient;
-import org.signal.libsignal.api.push.exceptions.ServerRejectedException;
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException;
+import com.servalabs.chat.libsignal.api.messages.SendMessageResult;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStoryMessage;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStoryMessageRecipient;
+import com.servalabs.chat.libsignal.api.push.exceptions.ServerRejectedException;
 import com.servalabs.chat.libsignal.internal.push.BodyRange;
 
 import java.io.IOException;

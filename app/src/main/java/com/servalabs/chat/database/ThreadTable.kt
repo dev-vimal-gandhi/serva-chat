@@ -74,11 +74,11 @@ import com.servalabs.chat.util.SignalTrace
 import com.servalabs.chat.util.TextSecurePreferences
 import com.servalabs.chat.util.isPoll
 import com.servalabs.chat.util.isScheduled
-import org.signal.libsignal.api.storage.SignalAccountRecord
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.SignalGroupV1Record
-import org.signal.libsignal.api.storage.SignalGroupV2Record
-import org.signal.libsignal.api.storage.toSignalServiceAddress
+import com.servalabs.chat.libsignal.api.storage.SignalAccountRecord
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.SignalGroupV1Record
+import com.servalabs.chat.libsignal.api.storage.SignalGroupV2Record
+import com.servalabs.chat.libsignal.api.storage.toSignalServiceAddress
 import com.servalabs.chat.libsignal.internal.storage.protos.AccountRecord
 import java.io.Closeable
 import java.io.IOException

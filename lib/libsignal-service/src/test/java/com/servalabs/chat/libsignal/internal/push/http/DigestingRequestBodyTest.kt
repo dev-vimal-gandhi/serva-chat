@@ -10,10 +10,10 @@ import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.ByteArrayInputStream
 
 class DigestingRequestBodyTest {

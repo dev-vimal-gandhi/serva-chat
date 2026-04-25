@@ -4,7 +4,7 @@ import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.database.model.Mention
 import com.servalabs.chat.database.model.databaseprotos.BodyRangeList
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.messages.SignalServiceDataMessage
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage
 import com.servalabs.chat.libsignal.internal.push.DataMessage
 
 class QuoteModel(

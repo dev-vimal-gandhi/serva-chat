@@ -14,14 +14,14 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
-import org.signal.libsignal.internal.CompletableFuture
+import com.servalabs.chat.libsignal.internal.CompletableFuture
 import org.signal.libsignal.net.ChatConnection
 import org.signal.libsignal.net.ChatConnectionListener
 import org.signal.libsignal.net.ChatServiceException
 import org.signal.libsignal.net.Network
 import org.signal.libsignal.net.UnauthenticatedChatConnection
-import org.signal.libsignal.api.websocket.HealthMonitor
-import org.signal.libsignal.api.websocket.WebSocketConnectionState
+import com.servalabs.chat.libsignal.api.websocket.HealthMonitor
+import com.servalabs.chat.libsignal.api.websocket.WebSocketConnectionState
 import java.io.IOException
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.ExecutorService

@@ -14,7 +14,7 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.EarlyMessageCacheEntry
 import com.servalabs.chat.util.SignalTrace
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.Envelope
 import com.servalabs.chat.libsignal.internal.push.ReceiptMessage

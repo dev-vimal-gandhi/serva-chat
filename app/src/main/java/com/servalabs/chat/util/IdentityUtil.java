@@ -34,10 +34,10 @@ import com.servalabs.chat.mms.OutgoingMessage;
 import com.servalabs.chat.notifications.v2.ConversationId;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.SignalSessionLock;
-import org.signal.libsignal.api.messages.multidevice.VerifiedMessage;
+import com.servalabs.chat.libsignal.api.SignalSessionLock;
+import com.servalabs.chat.libsignal.api.messages.multidevice.VerifiedMessage;
 import com.servalabs.chat.core.models.ServiceId;
-import org.signal.libsignal.api.push.SignalServiceAddress;
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 import com.servalabs.chat.libsignal.internal.push.Verified;
 
 import java.util.List;

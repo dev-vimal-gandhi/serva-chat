@@ -49,9 +49,9 @@ import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.SignalLocalMetrics
 import com.servalabs.chat.util.SignalTrace
 import com.servalabs.chat.util.TextSecurePreferences
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import com.servalabs.chat.libsignal.internal.push.CallMessage
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.Envelope

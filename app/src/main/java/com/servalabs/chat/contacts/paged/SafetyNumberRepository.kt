@@ -11,8 +11,8 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.IdentityUtil
-import org.signal.libsignal.api.services.ProfileService
-import org.signal.libsignal.internal.ServiceResponseProcessor
+import com.servalabs.chat.libsignal.api.services.ProfileService
+import com.servalabs.chat.libsignal.internal.ServiceResponseProcessor
 import com.servalabs.chat.libsignal.internal.push.IdentityCheckResponse
 import java.util.concurrent.TimeUnit
 

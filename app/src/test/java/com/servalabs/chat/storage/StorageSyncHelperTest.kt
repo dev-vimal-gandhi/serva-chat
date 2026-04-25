@@ -17,9 +17,9 @@ import com.servalabs.chat.storage.StorageSyncHelper.findIdDifference
 import com.servalabs.chat.storage.StorageSyncHelper.profileKeyChanged
 import com.servalabs.chat.testutil.TestHelpers
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.SignalRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.SignalRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord
 import kotlin.time.Duration.Companion.days
 

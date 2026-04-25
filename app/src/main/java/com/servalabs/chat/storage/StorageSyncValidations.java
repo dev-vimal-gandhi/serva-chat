@@ -10,9 +10,9 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.SetUtil;
 import com.servalabs.chat.core.models.ServiceId;
-import org.signal.libsignal.api.storage.SignalStorageManifest;
-import org.signal.libsignal.api.storage.SignalStorageRecord;
-import org.signal.libsignal.api.storage.StorageId;
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest;
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord;
+import com.servalabs.chat.libsignal.api.storage.StorageId;
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord;
 import com.servalabs.chat.libsignal.internal.storage.protos.ManifestRecord;
 

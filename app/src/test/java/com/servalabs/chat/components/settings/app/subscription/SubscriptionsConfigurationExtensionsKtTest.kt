@@ -14,7 +14,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 import java.util.Currency
 
 @Ignore("Payments are disabled")

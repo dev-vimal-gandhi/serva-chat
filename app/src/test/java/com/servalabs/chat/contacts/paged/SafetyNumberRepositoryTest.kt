@@ -27,9 +27,9 @@ import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.testutil.MockAppDependenciesRule
 import com.servalabs.chat.testutil.SystemOutLogger
 import com.servalabs.chat.util.IdentityUtil
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.services.ProfileService
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.services.ProfileService
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import com.servalabs.chat.libsignal.internal.push.IdentityCheckResponse
 import java.io.IOException
 import java.util.Optional

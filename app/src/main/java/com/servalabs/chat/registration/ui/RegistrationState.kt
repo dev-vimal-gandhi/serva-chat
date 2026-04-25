@@ -15,7 +15,7 @@ import com.servalabs.chat.registration.data.network.Challenge
 import com.servalabs.chat.registration.data.network.RegisterAccountResult
 import com.servalabs.chat.registration.data.network.RegistrationSessionResult
 import com.servalabs.chat.registration.data.network.VerificationCodeRequestResult
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds

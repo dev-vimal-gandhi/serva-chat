@@ -11,8 +11,8 @@ import com.servalabs.chat.jobmanager.Job;
 import com.servalabs.chat.keyvalue.SignalStore;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.storage.StorageSyncHelper;
-import org.signal.libsignal.api.storage.SignalAccountRecord;
-import org.signal.libsignal.api.storage.StorageId;
+import com.servalabs.chat.libsignal.api.storage.SignalAccountRecord;
+import com.servalabs.chat.libsignal.api.storage.StorageId;
 import com.servalabs.chat.libsignal.internal.storage.protos.AccountRecord;
 
 import java.io.IOException;

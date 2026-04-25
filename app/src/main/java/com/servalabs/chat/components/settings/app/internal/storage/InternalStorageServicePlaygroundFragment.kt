@@ -55,10 +55,10 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobs.StorageForcePushJob
 import com.servalabs.chat.jobs.StorageSyncJob
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.api.storage.RecordIkm
-import org.signal.libsignal.api.storage.SignalStorageManifest
-import org.signal.libsignal.api.storage.SignalStorageRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.RecordIkm
+import com.servalabs.chat.libsignal.api.storage.SignalStorageManifest
+import com.servalabs.chat.libsignal.api.storage.SignalStorageRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.StorageRecord
 

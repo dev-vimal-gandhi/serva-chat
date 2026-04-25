@@ -12,8 +12,8 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.jobmanager.impl.SealedSenderConstraint
 import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
 import com.servalabs.chat.libsignal.internal.push.SyncMessage.CallLinkUpdate
 import kotlin.time.Duration.Companion.days
 

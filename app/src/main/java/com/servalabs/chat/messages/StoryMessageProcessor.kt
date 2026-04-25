@@ -21,12 +21,12 @@ import com.servalabs.chat.mms.MmsException
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.stories.Stories
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.Envelope
 import com.servalabs.chat.libsignal.internal.push.StoryMessage
 import com.servalabs.chat.libsignal.internal.push.TextAttachment
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 
 object StoryMessageProcessor {
 

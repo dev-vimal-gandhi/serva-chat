@@ -1,7 +1,7 @@
 package com.servalabs.chat.database.model
 
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.crypto.ContentHint
+import com.servalabs.chat.libsignal.api.crypto.ContentHint
 import com.servalabs.chat.libsignal.internal.push.Content
 
 /**

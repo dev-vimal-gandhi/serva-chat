@@ -25,7 +25,7 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.jobmanager.JobManager.Chain
 import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import com.servalabs.chat.libsignal.internal.push.exceptions.InAppPaymentReceiptCredentialError
 import java.io.IOException
 import kotlin.time.Duration.Companion.days

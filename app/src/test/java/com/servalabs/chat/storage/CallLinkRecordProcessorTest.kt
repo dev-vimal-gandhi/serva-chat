@@ -13,8 +13,8 @@ import org.junit.Test
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.service.webrtc.links.CallLinkCredentials
 import com.servalabs.chat.testutil.EmptyLogger
-import org.signal.libsignal.api.storage.SignalCallLinkRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalCallLinkRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.CallLinkRecord
 
 /**

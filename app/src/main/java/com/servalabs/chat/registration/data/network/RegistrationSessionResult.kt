@@ -6,11 +6,11 @@
 package com.servalabs.chat.registration.data.network
 
 import com.servalabs.chat.core.util.orNull
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.push.exceptions.MalformedRequestException
-import org.signal.libsignal.api.push.exceptions.NoSuchSessionException
-import org.signal.libsignal.api.push.exceptions.NotFoundException
-import org.signal.libsignal.api.push.exceptions.RateLimitException
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.push.exceptions.MalformedRequestException
+import com.servalabs.chat.libsignal.api.push.exceptions.NoSuchSessionException
+import com.servalabs.chat.libsignal.api.push.exceptions.NotFoundException
+import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException
 import com.servalabs.chat.libsignal.internal.push.RegistrationSessionMetadataResponse
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds

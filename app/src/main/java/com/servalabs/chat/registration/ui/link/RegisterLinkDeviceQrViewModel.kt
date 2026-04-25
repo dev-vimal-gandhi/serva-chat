@@ -19,8 +19,8 @@ import com.servalabs.chat.core.util.logging.Log
 import org.signal.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData
 import com.servalabs.chat.dependencies.AppDependencies
-import org.signal.libsignal.api.provisioning.ProvisioningSocket
-import org.signal.libsignal.internal.crypto.SecondaryProvisioningCipher
+import com.servalabs.chat.libsignal.api.provisioning.ProvisioningSocket
+import com.servalabs.chat.libsignal.internal.crypto.SecondaryProvisioningCipher
 import com.servalabs.chat.libsignal.internal.push.ProvisionMessage
 import java.io.Closeable
 

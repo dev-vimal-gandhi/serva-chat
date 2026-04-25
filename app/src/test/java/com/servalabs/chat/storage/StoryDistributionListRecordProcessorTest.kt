@@ -8,9 +8,9 @@ import org.junit.Test
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.testutil.EmptyLogger
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.storage.SignalStoryDistributionListRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.storage.SignalStoryDistributionListRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.StoryDistributionListRecord
 import java.util.UUID
 

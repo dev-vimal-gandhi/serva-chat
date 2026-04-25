@@ -144,25 +144,25 @@ import com.servalabs.chat.util.RemoteConfig
 import com.servalabs.chat.util.ServiceUtil
 import com.servalabs.chat.util.TextSecurePreferences
 import com.servalabs.chat.util.toMillis
-import org.signal.libsignal.api.ApplicationErrorAction
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.StatusCodeErrorAction
-import org.signal.libsignal.api.archive.ArchiveGetMediaItemsResponse
-import org.signal.libsignal.api.archive.ArchiveKeyRotationLimitResponse
-import org.signal.libsignal.api.archive.ArchiveMediaRequest
-import org.signal.libsignal.api.archive.ArchiveMediaResponse
-import org.signal.libsignal.api.archive.ArchiveServiceAccess
-import org.signal.libsignal.api.archive.ArchiveServiceAccessPair
-import org.signal.libsignal.api.archive.ArchiveServiceCredential
-import org.signal.libsignal.api.archive.DeleteArchivedMediaRequest
-import org.signal.libsignal.api.archive.GetArchiveCdnCredentialsResponse
-import org.signal.libsignal.api.crypto.AttachmentCipherStreamUtil
-import org.signal.libsignal.api.link.TransferArchiveResponse
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment.ProgressListener
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.svr.SvrBApi
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.ApplicationErrorAction
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.StatusCodeErrorAction
+import com.servalabs.chat.libsignal.api.archive.ArchiveGetMediaItemsResponse
+import com.servalabs.chat.libsignal.api.archive.ArchiveKeyRotationLimitResponse
+import com.servalabs.chat.libsignal.api.archive.ArchiveMediaRequest
+import com.servalabs.chat.libsignal.api.archive.ArchiveMediaResponse
+import com.servalabs.chat.libsignal.api.archive.ArchiveServiceAccess
+import com.servalabs.chat.libsignal.api.archive.ArchiveServiceAccessPair
+import com.servalabs.chat.libsignal.api.archive.ArchiveServiceCredential
+import com.servalabs.chat.libsignal.api.archive.DeleteArchivedMediaRequest
+import com.servalabs.chat.libsignal.api.archive.GetArchiveCdnCredentialsResponse
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherStreamUtil
+import com.servalabs.chat.libsignal.api.link.TransferArchiveResponse
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment.ProgressListener
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.svr.SvrBApi
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import com.servalabs.chat.libsignal.internal.push.AttachmentUploadForm
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
@@ -2095,7 +2095,7 @@ object BackupRepository {
   }
 
   /**
-   * See [org.signal.libsignal.api.archive.ArchiveApi.getSvrBAuthorization].
+   * See [com.servalabs.chat.libsignal.api.archive.ArchiveApi.getSvrBAuthorization].
    */
   fun getSvrBAuth(): NetworkResult<AuthCredentials> {
     return initBackupAndFetchAuth()

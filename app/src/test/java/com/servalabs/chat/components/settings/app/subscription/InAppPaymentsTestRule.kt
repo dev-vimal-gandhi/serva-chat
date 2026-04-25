@@ -28,12 +28,12 @@ import com.servalabs.chat.database.model.databaseprotos.InAppPaymentData
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription.ChargeFailure
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.concurrent.atomic.AtomicReference

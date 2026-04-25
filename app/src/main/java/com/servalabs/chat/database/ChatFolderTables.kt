@@ -32,8 +32,8 @@ import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.storage.StorageSyncModels
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.storage.SignalChatFolderRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalChatFolderRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.ChatFolderRecord as RemoteChatFolderRecord
 
 /**

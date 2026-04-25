@@ -49,8 +49,8 @@ import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.storage.StorageSyncHelper
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.api.subscriptions.SubscriberId
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.SubscriberId
 import com.servalabs.chat.libsignal.internal.push.DonationProcessor
 import com.servalabs.chat.libsignal.internal.push.exceptions.InAppPaymentProcessorError
 import java.security.SecureRandom

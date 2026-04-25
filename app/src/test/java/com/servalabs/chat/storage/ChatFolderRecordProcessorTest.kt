@@ -8,8 +8,8 @@ import org.junit.Test
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.testutil.EmptyLogger
-import org.signal.libsignal.api.storage.SignalChatFolderRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalChatFolderRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.ChatFolderRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.Recipient
 import java.util.UUID

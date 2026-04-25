@@ -23,8 +23,8 @@ import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.storage.StorageSyncHelper
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.storage.SignalChatFolderRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalChatFolderRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import java.util.UUID
 import com.servalabs.chat.libsignal.internal.storage.protos.ChatFolderRecord as RemoteChatFolderRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.Recipient as RemoteRecipient

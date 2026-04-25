@@ -8,7 +8,7 @@ package com.servalabs.chat.registration.viewmodel
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 
 @Parcelize

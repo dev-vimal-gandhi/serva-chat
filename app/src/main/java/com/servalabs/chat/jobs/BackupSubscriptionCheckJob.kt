@@ -29,9 +29,9 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.recipients.Recipient
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.storage.IAPSubscriptionId
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.storage.IAPSubscriptionId
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
 import kotlin.concurrent.withLock
 import kotlin.time.Duration.Companion.seconds

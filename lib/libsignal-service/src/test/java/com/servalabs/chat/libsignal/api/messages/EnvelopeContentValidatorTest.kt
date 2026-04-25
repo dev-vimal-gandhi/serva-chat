@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api.messages
+package com.servalabs.chat.libsignal.api.messages
 
 import okio.ByteString.Companion.toByteString
 import org.junit.Test

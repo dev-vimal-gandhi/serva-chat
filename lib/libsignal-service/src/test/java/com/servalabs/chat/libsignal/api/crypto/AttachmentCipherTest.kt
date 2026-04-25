@@ -1,4 +1,4 @@
-package org.signal.libsignal.api.crypto
+package com.servalabs.chat.libsignal.api.crypto
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -14,11 +14,11 @@ import org.signal.libsignal.protocol.InvalidMessageException
 import org.signal.libsignal.protocol.incrementalmac.ChunkSizeChoice
 import org.signal.libsignal.protocol.incrementalmac.InvalidMacException
 import org.signal.libsignal.protocol.kdf.HKDF
-import org.signal.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
-import org.signal.libsignal.api.crypto.AttachmentCipherTestHelper.createMediaKeyMaterial
-import org.signal.libsignal.internal.crypto.PaddingInputStream
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck
+import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherTestHelper.createMediaKeyMaterial
+import com.servalabs.chat.libsignal.internal.crypto.PaddingInputStream
 import com.servalabs.chat.libsignal.internal.push.http.AttachmentCipherOutputStreamFactory
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import org.signal.libsignal.testutil.LibSignalLibraryUtil
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream

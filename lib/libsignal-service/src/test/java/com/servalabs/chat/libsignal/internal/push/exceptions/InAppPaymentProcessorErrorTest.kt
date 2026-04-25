@@ -7,8 +7,8 @@ package com.servalabs.chat.libsignal.internal.push.exceptions
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
-import org.signal.libsignal.internal.util.JsonUtil
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.internal.util.JsonUtil
 
 class InAppPaymentProcessorErrorTest {
 

@@ -111,10 +111,10 @@ import com.servalabs.chat.util.MessageConstraintsUtil
 import com.servalabs.chat.util.SignalE164Util
 import com.servalabs.chat.util.TextSecurePreferences
 import com.servalabs.chat.util.hasGiftBadge
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import com.servalabs.chat.libsignal.internal.push.AddressableMessage
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.ConversationIdentifier
@@ -140,7 +140,7 @@ import java.util.concurrent.TimeUnit
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.seconds
-import org.signal.libsignal.internal.util.Util as Utils
+import com.servalabs.chat.libsignal.internal.util.Util as Utils
 
 object SyncMessageProcessor {
 

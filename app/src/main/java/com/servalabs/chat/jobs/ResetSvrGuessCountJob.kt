@@ -15,9 +15,9 @@ import com.servalabs.chat.jobmanager.impl.NetworkConstraint
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.pin.Svr3Migration
 import com.servalabs.chat.pin.SvrRepository
-import org.signal.libsignal.api.svr.SecureValueRecovery
-import org.signal.libsignal.api.svr.SecureValueRecovery.BackupResponse
-import org.signal.libsignal.api.svr.SecureValueRecovery.PinChangeSession
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery.BackupResponse
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery.PinChangeSession
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import kotlin.concurrent.withLock
 import kotlin.time.Duration.Companion.days

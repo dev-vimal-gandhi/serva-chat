@@ -55,19 +55,19 @@ import com.servalabs.chat.pin.SvrRepository
 import com.servalabs.chat.pin.SvrWrongPinException
 import com.servalabs.chat.registration.fcm.PushChallengeRequest
 import com.servalabs.chat.registration.viewmodel.SvrAuthCredentialSet
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.SvrNoDataException
-import org.signal.libsignal.api.provisioning.ProvisioningSocket
-import org.signal.libsignal.api.svr.SecureValueRecovery.BackupResponse
-import org.signal.libsignal.internal.crypto.SecondaryProvisioningCipher
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.SvrNoDataException
+import com.servalabs.chat.libsignal.api.provisioning.ProvisioningSocket
+import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery.BackupResponse
+import com.servalabs.chat.libsignal.internal.crypto.SecondaryProvisioningCipher
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.PushServiceSocket
 import java.io.IOException
 import java.util.Locale
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
-import org.signal.libsignal.api.account.AccountAttributes as ServiceAccountAttributes
-import org.signal.libsignal.api.account.PreKeyCollection as ServicePreKeyCollection
+import com.servalabs.chat.libsignal.api.account.AccountAttributes as ServiceAccountAttributes
+import com.servalabs.chat.libsignal.api.account.PreKeyCollection as ServicePreKeyCollection
 
 /**
  * Implementation of [NetworkController] that bridges to the app's existing network infrastructure.

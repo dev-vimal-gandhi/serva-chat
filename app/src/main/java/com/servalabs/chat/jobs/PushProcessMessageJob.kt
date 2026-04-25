@@ -18,13 +18,13 @@ import com.servalabs.chat.messages.SignalServiceProtoUtil.groupId
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.util.GroupUtil
 import com.servalabs.chat.util.SignalLocalMetrics
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.api.crypto.protos.CompleteMessage
-import org.signal.libsignal.api.groupsv2.NoCredentialForRedemptionTimeException
-import org.signal.libsignal.api.push.exceptions.PushNetworkException
+import com.servalabs.chat.libsignal.api.groupsv2.NoCredentialForRedemptionTimeException
+import com.servalabs.chat.libsignal.api.push.exceptions.PushNetworkException
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.Envelope
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 import com.servalabs.chat.libsignal.api.crypto.protos.EnvelopeMetadata as EnvelopeMetadataProto

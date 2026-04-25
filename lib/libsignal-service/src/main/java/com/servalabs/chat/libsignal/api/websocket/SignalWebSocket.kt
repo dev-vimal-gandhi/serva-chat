@@ -14,7 +14,7 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
-import org.signal.libsignal.internal.CompletableFuture
+import com.servalabs.chat.libsignal.internal.CompletableFuture
 import org.signal.libsignal.net.BadRequestError
 import org.signal.libsignal.net.RequestResult
 import org.signal.libsignal.net.UnauthenticatedChatConnection

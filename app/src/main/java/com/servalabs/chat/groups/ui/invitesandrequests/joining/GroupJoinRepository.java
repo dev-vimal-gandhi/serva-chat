@@ -17,7 +17,7 @@ import com.servalabs.chat.groups.MembershipNotSuitableForV2Exception;
 import com.servalabs.chat.groups.v2.GroupInviteLinkUrl;
 import com.servalabs.chat.jobs.AvatarGroupsV2DownloadJob;
 import com.servalabs.chat.util.AsynchronousCallback;
-import org.signal.libsignal.api.groupsv2.GroupLinkNotActiveException;
+import com.servalabs.chat.libsignal.api.groupsv2.GroupLinkNotActiveException;
 import com.servalabs.chat.libsignal.internal.push.exceptions.GroupPatchNotAcceptedException;
 import com.servalabs.chat.libsignal.internal.push.exceptions.GroupTerminatedException;
 

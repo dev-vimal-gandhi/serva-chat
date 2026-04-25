@@ -33,11 +33,11 @@ import com.servalabs.chat.net.SignalNetwork
 import com.servalabs.chat.service.AttachmentProgressService
 import com.servalabs.chat.util.MediaUtil
 import com.servalabs.chat.util.RemoteConfig
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.archive.ArchiveMediaUploadFormStatusCodes
-import org.signal.libsignal.api.attachment.AttachmentUploadResult
-import org.signal.libsignal.api.messages.AttachmentTransferProgress
-import org.signal.libsignal.api.messages.SignalServiceAttachment
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.archive.ArchiveMediaUploadFormStatusCodes
+import com.servalabs.chat.libsignal.api.attachment.AttachmentUploadResult
+import com.servalabs.chat.libsignal.api.messages.AttachmentTransferProgress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachment
 import com.servalabs.chat.libsignal.internal.push.AttachmentUploadForm
 import com.servalabs.chat.libsignal.internal.push.http.ResumableUploadSpec
 import java.io.FileNotFoundException

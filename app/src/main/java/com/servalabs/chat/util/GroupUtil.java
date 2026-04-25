@@ -19,8 +19,8 @@ import com.servalabs.chat.messages.SignalServiceProtoUtil;
 import com.servalabs.chat.mms.MessageGroupContext;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
-import org.signal.libsignal.api.messages.SignalServiceDataMessage;
-import org.signal.libsignal.api.messages.SignalServiceGroupV2;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceDataMessage;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceGroupV2;
 import com.servalabs.chat.libsignal.internal.push.Content;
 import com.servalabs.chat.libsignal.internal.push.GroupContextV2;
 

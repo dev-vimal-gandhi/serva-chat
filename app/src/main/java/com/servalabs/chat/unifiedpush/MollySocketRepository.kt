@@ -25,7 +25,7 @@ import com.servalabs.chat.push.AccountManagerFactory
 import com.servalabs.chat.registration.data.RegistrationRepository
 import com.servalabs.chat.registration.secondary.DeviceNameCipher
 import com.servalabs.chat.util.JsonUtils
-import org.signal.libsignal.api.account.AccountAttributes
+import com.servalabs.chat.libsignal.api.account.AccountAttributes
 import com.servalabs.chat.libsignal.internal.push.DeviceLimitExceededException
 import java.io.IOException
 import java.net.MalformedURLException

@@ -14,7 +14,7 @@ import com.servalabs.chat.jobs.protos.CallSyncEventJobRecord
 import com.servalabs.chat.recipients.RecipientId
 import org.signal.ringrtc.RemotePeer
 import com.servalabs.chat.service.webrtc.CallEventSyncMessageUtil
-import org.signal.libsignal.api.messages.multidevice.SignalServiceSyncMessage
+import com.servalabs.chat.libsignal.api.messages.multidevice.SignalServiceSyncMessage
 import com.servalabs.chat.libsignal.internal.push.SyncMessage
 import java.util.concurrent.TimeUnit
 

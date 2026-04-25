@@ -6,7 +6,7 @@
 package com.servalabs.chat.registration.data.network
 
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.internal.push.RegistrationSessionMetadataResponse
 
 sealed class SubmitCaptchaResult(cause: Throwable?) : RegistrationResult(cause) {

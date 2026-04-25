@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.signal.libsignal.api.push
+package com.servalabs.chat.libsignal.api.push
 
 import assertk.assertThat
 import assertk.assertions.hasSize

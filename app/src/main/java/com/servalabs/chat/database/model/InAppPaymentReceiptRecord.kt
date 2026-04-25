@@ -1,7 +1,7 @@
 package com.servalabs.chat.database.model
 
 import com.servalabs.chat.core.util.money.FiatMoney
-import org.signal.libsignal.api.subscriptions.ActiveSubscription
+import com.servalabs.chat.libsignal.api.subscriptions.ActiveSubscription
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
 import java.util.Currency
 

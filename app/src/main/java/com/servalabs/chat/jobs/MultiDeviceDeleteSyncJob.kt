@@ -29,7 +29,7 @@ import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.messages.SignalServiceProtoUtil.pad
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.crypto.UntrustedIdentityException
+import com.servalabs.chat.libsignal.api.crypto.UntrustedIdentityException
 import com.servalabs.chat.libsignal.internal.push.AddressableMessage
 import com.servalabs.chat.libsignal.internal.push.Content
 import com.servalabs.chat.libsignal.internal.push.ConversationIdentifier

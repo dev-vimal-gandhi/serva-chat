@@ -14,8 +14,8 @@ import com.servalabs.chat.database.RecipientTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord
 import java.util.UUID
 

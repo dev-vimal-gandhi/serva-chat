@@ -17,7 +17,7 @@ import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.recipients.RecipientId;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.util.SignalE164Util;
-import org.signal.libsignal.api.groupsv2.DecryptedGroupUtil;
+import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupUtil;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 import com.servalabs.chat.libsignal.internal.push.GroupContext;

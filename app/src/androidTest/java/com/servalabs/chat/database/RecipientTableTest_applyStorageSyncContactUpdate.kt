@@ -18,8 +18,8 @@ import com.servalabs.chat.storage.StorageRecordUpdate
 import com.servalabs.chat.storage.StorageSyncModels
 import com.servalabs.chat.testing.SignalActivityRule
 import com.servalabs.chat.util.MessageTableTestUtils
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.toSignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.toSignalContactRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord
 
 @Suppress("ClassName")

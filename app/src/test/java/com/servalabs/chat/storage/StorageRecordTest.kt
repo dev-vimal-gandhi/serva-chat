@@ -10,9 +10,9 @@ import okio.ByteString.Companion.toByteString
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import com.servalabs.chat.core.util.Util
-import org.signal.libsignal.api.storage.SignalAccountRecord
-import org.signal.libsignal.api.storage.SignalContactRecord
-import org.signal.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.storage.SignalAccountRecord
+import com.servalabs.chat.libsignal.api.storage.SignalContactRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
 import com.servalabs.chat.libsignal.internal.storage.protos.AccountRecord
 import com.servalabs.chat.libsignal.internal.storage.protos.ContactRecord
 

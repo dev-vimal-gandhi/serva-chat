@@ -7,10 +7,10 @@ package com.servalabs.chat.components.settings.app.changenumber
 
 import com.servalabs.chat.pin.SvrWrongPinException
 import com.servalabs.chat.registration.data.network.RegistrationResult
-import org.signal.libsignal.api.NetworkResult
-import org.signal.libsignal.api.SvrNoDataException
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.api.svr.Svr3Credentials
+import com.servalabs.chat.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.SvrNoDataException
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.api.svr.Svr3Credentials
 import com.servalabs.chat.libsignal.internal.push.AuthCredentials
 import com.servalabs.chat.libsignal.internal.push.PushServiceSocket.RegistrationLockFailure
 import com.servalabs.chat.libsignal.internal.push.VerifyAccountResponse

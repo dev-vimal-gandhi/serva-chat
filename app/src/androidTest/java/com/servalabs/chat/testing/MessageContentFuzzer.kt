@@ -12,7 +12,7 @@ import com.servalabs.chat.messages.SignalServiceProtoUtil.buildWith
 import com.servalabs.chat.messages.TestMessage
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.internal.push.AddressableMessage
 import com.servalabs.chat.libsignal.internal.push.AttachmentPointer
 import com.servalabs.chat.libsignal.internal.push.BodyRange

@@ -15,7 +15,7 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.logging.Log
-import org.signal.libsignal.internal.CompletableFuture
+import com.servalabs.chat.libsignal.internal.CompletableFuture
 import org.signal.libsignal.net.AppExpiredException
 import org.signal.libsignal.net.AuthenticatedChatConnection
 import org.signal.libsignal.net.ChatConnection

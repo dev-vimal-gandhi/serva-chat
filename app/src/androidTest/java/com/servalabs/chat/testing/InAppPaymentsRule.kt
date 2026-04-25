@@ -10,7 +10,7 @@ import io.mockk.every
 import org.junit.rules.ExternalResource
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.util.JsonUtils
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.internal.push.SubscriptionsConfiguration
 
 /**

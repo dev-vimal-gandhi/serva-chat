@@ -6,7 +6,7 @@ import com.servalabs.chat.components.settings.app.changenumber.ChangeNumberRepos
 import com.servalabs.chat.jobmanager.Job
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.net.SignalNetwork
-import org.signal.libsignal.api.NetworkResult
+import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.internal.push.WhoAmIResponse
 import java.io.IOException
 

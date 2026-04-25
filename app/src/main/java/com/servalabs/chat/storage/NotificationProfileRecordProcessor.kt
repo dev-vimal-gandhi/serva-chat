@@ -7,9 +7,9 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.database.NotificationProfileTables
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.notifications.profiles.NotificationProfileId
-import org.signal.libsignal.api.storage.SignalNotificationProfileRecord
-import org.signal.libsignal.api.storage.StorageId
-import org.signal.libsignal.api.util.OptionalUtil.asOptional
+import com.servalabs.chat.libsignal.api.storage.SignalNotificationProfileRecord
+import com.servalabs.chat.libsignal.api.storage.StorageId
+import com.servalabs.chat.libsignal.api.util.OptionalUtil.asOptional
 import com.servalabs.chat.libsignal.internal.storage.protos.Recipient
 import java.util.Optional
 import java.util.UUID

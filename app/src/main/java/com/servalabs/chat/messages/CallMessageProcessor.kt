@@ -19,9 +19,9 @@ import com.servalabs.chat.service.webrtc.WebRtcData.OfferMetadata
 import com.servalabs.chat.service.webrtc.WebRtcData.OpaqueMessageMetadata
 import com.servalabs.chat.service.webrtc.WebRtcData.ReceivedAnswerMetadata
 import com.servalabs.chat.service.webrtc.WebRtcData.ReceivedOfferMetadata
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
-import org.signal.libsignal.api.messages.calls.HangupMessage
-import org.signal.libsignal.api.messages.calls.OfferMessage
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.messages.calls.HangupMessage
+import com.servalabs.chat.libsignal.api.messages.calls.OfferMessage
 import com.servalabs.chat.libsignal.internal.push.CallMessage
 import com.servalabs.chat.libsignal.internal.push.CallMessage.Offer
 import com.servalabs.chat.libsignal.internal.push.CallMessage.Opaque

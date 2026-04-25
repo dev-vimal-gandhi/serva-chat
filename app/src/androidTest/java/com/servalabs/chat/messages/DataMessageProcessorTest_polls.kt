@@ -22,7 +22,7 @@ import com.servalabs.chat.testing.GroupTestingUtils
 import com.servalabs.chat.testing.GroupTestingUtils.asMember
 import com.servalabs.chat.testing.MessageContentFuzzer
 import com.servalabs.chat.testing.SignalActivityRule
-import org.signal.libsignal.api.crypto.EnvelopeMetadata
+import com.servalabs.chat.libsignal.api.crypto.EnvelopeMetadata
 import com.servalabs.chat.libsignal.internal.push.DataMessage
 
 @Suppress("ClassName")

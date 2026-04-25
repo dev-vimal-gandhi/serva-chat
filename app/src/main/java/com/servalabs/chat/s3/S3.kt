@@ -12,8 +12,8 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.util.EncryptedStreamUtils
 import com.servalabs.chat.util.JsonUtils
-import org.signal.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
-import org.signal.libsignal.internal.ServiceResponse
+import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
+import com.servalabs.chat.libsignal.internal.ServiceResponse
 import com.servalabs.chat.libsignal.internal.websocket.DefaultErrorMapper
 import com.servalabs.chat.libsignal.internal.websocket.DefaultResponseMapper
 import java.io.ByteArrayOutputStream

@@ -6,10 +6,10 @@ import androidx.annotation.Nullable;
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.attachments.Attachment;
 import com.servalabs.chat.attachments.PointerAttachment;
-import org.signal.libsignal.api.InvalidMessageStructureException;
-import org.signal.libsignal.api.messages.SignalServiceAttachmentPointer;
-import org.signal.libsignal.api.messages.shared.SharedContact;
-import org.signal.libsignal.api.util.AttachmentPointerUtil;
+import com.servalabs.chat.libsignal.api.InvalidMessageStructureException;
+import com.servalabs.chat.libsignal.api.messages.SignalServiceAttachmentPointer;
+import com.servalabs.chat.libsignal.api.messages.shared.SharedContact;
+import com.servalabs.chat.libsignal.api.util.AttachmentPointerUtil;
 import com.servalabs.chat.libsignal.internal.push.DataMessage;
 
 import java.util.ArrayList;

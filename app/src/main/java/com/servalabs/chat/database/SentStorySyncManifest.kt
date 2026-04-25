@@ -4,11 +4,11 @@ import androidx.annotation.WorkerThread
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
-import org.signal.libsignal.api.messages.SignalServiceStoryMessageRecipient
-import org.signal.libsignal.api.push.DistributionId
-import org.signal.libsignal.api.push.SignalServiceAddress
+import com.servalabs.chat.libsignal.api.messages.SignalServiceStoryMessageRecipient
+import com.servalabs.chat.libsignal.api.push.DistributionId
+import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import com.servalabs.chat.libsignal.internal.push.SyncMessage
-import org.signal.libsignal.internal.util.Util
+import com.servalabs.chat.libsignal.internal.util.Util
 
 /**
  * Represents a list of, or update to a list of, who can access a story through what
