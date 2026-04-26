@@ -13,11 +13,11 @@ import com.servalabs.chat.core.util.readToSingleObject
 import com.servalabs.chat.core.util.requireLongOrNull
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.update
-import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.kem.KEMKeyPair
-import com.servalabs.chat.libsignal.protocol.kem.KEMKeyType
-import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import org.signal.libsignal.protocol.ecc.ECKeyPair
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.kem.KEMKeyPair
+import org.signal.libsignal.protocol.kem.KEMKeyType
+import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import com.servalabs.chat.database.KyberPreKeyTable
 import com.servalabs.chat.database.SignalDatabase
 import java.security.SecureRandom

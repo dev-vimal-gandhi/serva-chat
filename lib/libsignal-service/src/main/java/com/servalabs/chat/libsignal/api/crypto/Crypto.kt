@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.api.crypto
 
-import com.servalabs.chat.libsignal.protocol.kdf.HKDF
+import org.signal.libsignal.protocol.kdf.HKDF
 
 /**
  * A collection of cryptographic functions in the same namespace for easy access.

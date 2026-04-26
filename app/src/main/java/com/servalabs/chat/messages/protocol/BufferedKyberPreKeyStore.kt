@@ -6,10 +6,10 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException
-import com.servalabs.chat.libsignal.protocol.ReusedBaseKeyException
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import org.signal.libsignal.protocol.InvalidKeyIdException
+import org.signal.libsignal.protocol.ReusedBaseKeyException
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import com.servalabs.chat.database.KyberPreKeyTable.KyberPreKey
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore

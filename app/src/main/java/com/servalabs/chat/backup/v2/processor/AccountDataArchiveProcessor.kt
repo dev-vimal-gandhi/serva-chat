@@ -15,7 +15,7 @@ import com.servalabs.chat.archive.stream.BackupFrameEmitter
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.toByteArray
-import com.servalabs.chat.libsignal.zkgroup.backups.BackupLevel
+import org.signal.libsignal.zkgroup.backups.BackupLevel
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.v2.ExportState
 import com.servalabs.chat.backup.v2.ImportState

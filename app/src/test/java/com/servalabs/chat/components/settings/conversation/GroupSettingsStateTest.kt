@@ -12,7 +12,7 @@ import com.servalabs.chat.groups.GroupId
 
 class GroupSettingsStateTest {
 
-  private val v2GroupId = GroupId.v2(com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey(ByteArray(32)))
+  private val v2GroupId = GroupId.v2(org.signal.libsignal.zkgroup.groups.GroupMasterKey(ByteArray(32)))
   private val v1GroupId = GroupId.v1(ByteArray(16))
 
   private fun createState(

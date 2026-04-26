@@ -7,10 +7,10 @@ package com.servalabs.chat.libsignal.internal.crypto
 
 import com.servalabs.chat.core.util.isEmpty
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.IdentityKey
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.kdf.HKDF
+import org.signal.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.kdf.HKDF
 import com.servalabs.chat.registration.proto.RegistrationProvisionEnvelope
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.libsignal.internal.push.ProvisionEnvelope

@@ -1,16 +1,16 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
-import com.servalabs.chat.libsignal.zkgroup.ServerPublicParams;
-import com.servalabs.chat.libsignal.zkgroup.ServerSecretParams;
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupPublicParams;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCommitment;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ServerZkProfileOperations;
+import org.signal.libsignal.zkgroup.ServerPublicParams;
+import org.signal.libsignal.zkgroup.ServerSecretParams;
+import org.signal.libsignal.zkgroup.VerificationFailedException;
+import org.signal.libsignal.zkgroup.groups.GroupPublicParams;
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredentialResponse;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCommitment;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialPresentation;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import org.signal.libsignal.zkgroup.profiles.ServerZkProfileOperations;
 import com.servalabs.chat.core.models.ServiceId.ACI;
-import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil;
+import org.signal.libsignal.testutil.LibSignalLibraryUtil;
 
 import java.time.Instant;
 

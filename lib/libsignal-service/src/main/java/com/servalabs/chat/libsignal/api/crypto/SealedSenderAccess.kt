@@ -6,8 +6,8 @@
 package com.servalabs.chat.libsignal.api.crypto
 
 import com.servalabs.chat.core.util.Base64
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendFullToken
+import org.signal.libsignal.metadata.certificate.SenderCertificate
+import org.signal.libsignal.zkgroup.groupsend.GroupSendFullToken
 import com.servalabs.chat.libsignal.api.groupsv2.GroupSendEndorsements
 
 /**

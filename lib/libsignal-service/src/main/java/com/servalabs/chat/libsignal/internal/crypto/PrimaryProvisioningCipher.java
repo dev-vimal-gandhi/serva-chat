@@ -6,12 +6,12 @@
 
 package com.servalabs.chat.libsignal.internal.crypto;
 
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair;
-import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey;
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
-import com.servalabs.chat.libsignal.protocol.kdf.HKDF;
+import org.signal.libsignal.protocol.IdentityKeyPair;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.ecc.ECKeyPair;
+import org.signal.libsignal.protocol.ecc.ECPrivateKey;
+import org.signal.libsignal.protocol.ecc.ECPublicKey;
+import org.signal.libsignal.protocol.kdf.HKDF;
 import com.servalabs.chat.registration.proto.RegistrationProvisionEnvelope;
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage;
 import com.servalabs.chat.libsignal.internal.push.ProvisionEnvelope;

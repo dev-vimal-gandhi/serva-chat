@@ -1,11 +1,11 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.protocol.DuplicateMessageException;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
-import com.servalabs.chat.libsignal.protocol.LegacyMessageException;
-import com.servalabs.chat.libsignal.protocol.NoSessionException;
-import com.servalabs.chat.libsignal.protocol.groups.GroupCipher;
-import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage;
+import org.signal.libsignal.protocol.DuplicateMessageException;
+import org.signal.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.LegacyMessageException;
+import org.signal.libsignal.protocol.NoSessionException;
+import org.signal.libsignal.protocol.groups.GroupCipher;
+import org.signal.libsignal.protocol.message.CiphertextMessage;
 import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 import java.util.UUID;

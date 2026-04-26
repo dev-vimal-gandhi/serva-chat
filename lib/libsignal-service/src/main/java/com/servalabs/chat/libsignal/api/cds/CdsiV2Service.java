@@ -5,10 +5,10 @@
 
 package com.servalabs.chat.libsignal.api.cds;
 
-import com.servalabs.chat.libsignal.net.CdsiLookupRequest;
-import com.servalabs.chat.libsignal.net.CdsiLookupResponse;
-import com.servalabs.chat.libsignal.net.Network;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.net.CdsiLookupRequest;
+import org.signal.libsignal.net.CdsiLookupResponse;
+import org.signal.libsignal.net.Network;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.libsignal.api.NetworkResult;
 import com.servalabs.chat.core.models.ServiceId;
 import com.servalabs.chat.core.models.ServiceId.ACI;
@@ -87,7 +87,7 @@ public final class CdsiV2Service {
   }
 
   private static CdsiLookupRequest buildLibsignalRequest(Request request) {
-    HashMap<com.servalabs.chat.libsignal.protocol.ServiceId, ProfileKey> serviceIds = new HashMap<>(request.serviceIds.size());
+    HashMap<org.signal.libsignal.protocol.ServiceId, ProfileKey> serviceIds = new HashMap<>(request.serviceIds.size());
     request.serviceIds.forEach((key, value) -> serviceIds.put(key.getLibSignalServiceId(), value));
     return new CdsiLookupRequest(request.previousE164s, request.newE164s, serviceIds, Optional.ofNullable(request.token));
   }
@@ -99,14 +99,14 @@ public final class CdsiV2Service {
   }
 
   private static Throwable mapLibsignalError(Throwable lookupError) {
-    if (lookupError instanceof com.servalabs.chat.libsignal.net.CdsiInvalidTokenException) {
+    if (lookupError instanceof org.signal.libsignal.net.CdsiInvalidTokenException) {
       return new CdsiInvalidTokenException();
-    } else if (lookupError instanceof com.servalabs.chat.libsignal.net.RetryLaterException) {
-      com.servalabs.chat.libsignal.net.RetryLaterException e = (com.servalabs.chat.libsignal.net.RetryLaterException) lookupError;
+    } else if (lookupError instanceof org.signal.libsignal.net.RetryLaterException) {
+      org.signal.libsignal.net.RetryLaterException e = (org.signal.libsignal.net.RetryLaterException) lookupError;
       return new CdsiResourceExhaustedException((int) e.duration.getSeconds());
     } else if (lookupError instanceof IllegalArgumentException) {
       return new CdsiInvalidArgumentException();
-    } else if (lookupError instanceof com.servalabs.chat.libsignal.net.CdsiProtocolException) {
+    } else if (lookupError instanceof org.signal.libsignal.net.CdsiProtocolException) {
       return new IOException(lookupError);
     }
     return lookupError;

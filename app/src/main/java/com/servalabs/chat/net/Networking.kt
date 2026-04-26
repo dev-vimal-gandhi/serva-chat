@@ -1,7 +1,7 @@
 package com.servalabs.chat.net
 
 import okhttp3.Dns
-import com.servalabs.chat.libsignal.net.Network
+import org.signal.libsignal.net.Network
 import java.io.IOException
 import java.net.InetAddress
 import java.net.InetSocketAddress

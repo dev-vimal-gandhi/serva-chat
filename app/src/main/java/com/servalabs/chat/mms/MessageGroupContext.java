@@ -5,8 +5,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMember;

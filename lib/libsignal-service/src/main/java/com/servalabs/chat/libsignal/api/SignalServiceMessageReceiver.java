@@ -7,8 +7,8 @@
 package com.servalabs.chat.libsignal.api;
 
 import com.servalabs.chat.core.util.StreamUtil;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.core.models.backup.MediaRootBackupKey;
 import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream;
 import com.servalabs.chat.libsignal.api.crypto.AttachmentCipherInputStream.IntegrityCheck;

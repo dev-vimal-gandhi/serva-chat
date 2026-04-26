@@ -50,7 +50,7 @@ import androidx.media3.ui.LegacyPlayerControlView;
 import androidx.media3.ui.PlayerView;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.incrementalmac.InvalidMacException;
+import org.signal.libsignal.protocol.incrementalmac.InvalidMacException;
 import com.servalabs.chat.R;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.mediapreview.MediaPreviewPlayerControlView;

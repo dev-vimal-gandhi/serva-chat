@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.recipients.Recipient;
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.Util;

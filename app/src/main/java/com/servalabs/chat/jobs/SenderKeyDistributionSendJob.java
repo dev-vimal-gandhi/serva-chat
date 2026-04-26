@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.message.SenderKeyDistributionMessage;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
 import com.servalabs.chat.crypto.SealedSenderAccessUtil;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.model.DistributionListRecord;

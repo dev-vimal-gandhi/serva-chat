@@ -6,8 +6,8 @@ import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.isNotEmpty
 import com.servalabs.chat.core.util.orNull
-import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.protocol.message.DecryptionErrorMessage
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.Cdn

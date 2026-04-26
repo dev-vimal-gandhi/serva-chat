@@ -12,7 +12,7 @@ import androidx.media3.datasource.DataSpec;
 import androidx.media3.datasource.TransferListener;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.attachments.DatabaseAttachment;
 import com.servalabs.chat.backup.v2.DatabaseAttachmentArchiveUtil;
 import com.servalabs.chat.database.AttachmentTable;

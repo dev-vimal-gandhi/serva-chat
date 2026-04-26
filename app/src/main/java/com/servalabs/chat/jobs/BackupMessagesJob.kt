@@ -20,9 +20,9 @@ import com.servalabs.chat.core.util.Stopwatch
 import com.servalabs.chat.core.util.isNotNullOrBlank
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.logging.logW
-import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
-import com.servalabs.chat.libsignal.net.SvrBStoreResponse
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
+import org.signal.libsignal.net.SvrBStoreResponse
+import org.signal.libsignal.zkgroup.VerificationFailedException
 import com.servalabs.chat.protos.resumableuploads.ResumableUpload
 import com.servalabs.chat.R
 import com.servalabs.chat.attachments.AttachmentUploadUtil

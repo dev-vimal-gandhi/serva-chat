@@ -10,11 +10,11 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.requireInt
 import com.servalabs.chat.core.util.requireLong
 import com.servalabs.chat.core.util.requireNonNullString
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
-import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair
-import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord
+import org.signal.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.ecc.ECKeyPair
+import org.signal.libsignal.protocol.ecc.ECPrivateKey
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import java.io.IOException
 import java.util.LinkedList
 

@@ -5,8 +5,8 @@
 
 package com.servalabs.chat.libsignal.api.calling
 
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequest
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.messages.calls.CallingResponse
 import com.servalabs.chat.libsignal.api.messages.calls.TurnServerInfo

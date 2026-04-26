@@ -5,8 +5,8 @@
 
 package com.servalabs.chat.libsignal.api
 
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.SignalProtocolAddress
 import java.io.IOException
 
 /**

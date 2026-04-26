@@ -10,7 +10,7 @@ import com.servalabs.chat.core.util.deleteAll
 import com.servalabs.chat.core.util.readToList
 import com.servalabs.chat.core.util.requireLong
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMember

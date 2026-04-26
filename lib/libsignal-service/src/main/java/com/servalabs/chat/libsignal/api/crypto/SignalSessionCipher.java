@@ -1,17 +1,17 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.protocol.DuplicateMessageException;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
-import com.servalabs.chat.libsignal.protocol.InvalidVersionException;
-import com.servalabs.chat.libsignal.protocol.LegacyMessageException;
-import com.servalabs.chat.libsignal.protocol.NoSessionException;
-import com.servalabs.chat.libsignal.protocol.SessionCipher;
-import com.servalabs.chat.libsignal.protocol.UntrustedIdentityException;
-import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage;
-import com.servalabs.chat.libsignal.protocol.message.PreKeySignalMessage;
-import com.servalabs.chat.libsignal.protocol.message.SignalMessage;
+import org.signal.libsignal.protocol.DuplicateMessageException;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.InvalidKeyIdException;
+import org.signal.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.InvalidVersionException;
+import org.signal.libsignal.protocol.LegacyMessageException;
+import org.signal.libsignal.protocol.NoSessionException;
+import org.signal.libsignal.protocol.SessionCipher;
+import org.signal.libsignal.protocol.UntrustedIdentityException;
+import org.signal.libsignal.protocol.message.CiphertextMessage;
+import org.signal.libsignal.protocol.message.PreKeySignalMessage;
+import org.signal.libsignal.protocol.message.SignalMessage;
 import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 /**
@@ -27,13 +27,13 @@ public class SignalSessionCipher {
     this.cipher = cipher;
   }
 
-  public CiphertextMessage encrypt(byte[] paddedMessage) throws com.servalabs.chat.libsignal.protocol.UntrustedIdentityException, NoSessionException {
+  public CiphertextMessage encrypt(byte[] paddedMessage) throws org.signal.libsignal.protocol.UntrustedIdentityException, NoSessionException {
     try (SignalSessionLock.Lock unused = lock.acquire()) {
       return cipher.encrypt(paddedMessage);
     }
   }
 
-  public byte[] decrypt(PreKeySignalMessage ciphertext) throws DuplicateMessageException, LegacyMessageException, InvalidMessageException, InvalidKeyIdException, InvalidKeyException, com.servalabs.chat.libsignal.protocol.UntrustedIdentityException {
+  public byte[] decrypt(PreKeySignalMessage ciphertext) throws DuplicateMessageException, LegacyMessageException, InvalidMessageException, InvalidKeyIdException, InvalidKeyException, org.signal.libsignal.protocol.UntrustedIdentityException {
     try (SignalSessionLock.Lock unused = lock.acquire()) {
       return cipher.decrypt(ciphertext);
     }

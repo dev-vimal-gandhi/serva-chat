@@ -1,11 +1,11 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.protocol.IdentityKey
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
-import com.servalabs.chat.libsignal.protocol.state.IdentityKeyStore
-import com.servalabs.chat.libsignal.protocol.state.IdentityKeyStore.IdentityChange
+import org.signal.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.state.IdentityKeyStore
+import org.signal.libsignal.protocol.state.IdentityKeyStore.IdentityChange
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
 

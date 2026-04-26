@@ -2,7 +2,7 @@ package com.servalabs.chat.crypto;
 
 import androidx.annotation.NonNull;
 
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.keyvalue.SignalStore;

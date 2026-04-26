@@ -13,8 +13,8 @@ import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.util.UuidUtil
 import java.util.UUID
-import com.servalabs.chat.libsignal.protocol.ServiceId.Aci as LibSignalAci
-import com.servalabs.chat.libsignal.protocol.ServiceId.Pni as LibSignalPni
+import org.signal.libsignal.protocol.ServiceId.Aci as LibSignalAci
+import org.signal.libsignal.protocol.ServiceId.Pni as LibSignalPni
 
 class ServiceIdTests {
 

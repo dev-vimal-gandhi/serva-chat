@@ -1,7 +1,7 @@
 package com.servalabs.chat.database.model
 
 import androidx.annotation.WorkerThread
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState
 import com.servalabs.chat.database.GroupTable

@@ -24,7 +24,7 @@ import com.servalabs.chat.core.util.ThreadUtil
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.requireParcelableCompat
-import com.servalabs.chat.libsignal.protocol.fingerprint.Fingerprint
+import org.signal.libsignal.protocol.fingerprint.Fingerprint
 import com.servalabs.chat.R
 import com.servalabs.chat.components.ViewBinderDelegate
 import com.servalabs.chat.components.verify.SafetyNumberQrView.Companion.getSegments

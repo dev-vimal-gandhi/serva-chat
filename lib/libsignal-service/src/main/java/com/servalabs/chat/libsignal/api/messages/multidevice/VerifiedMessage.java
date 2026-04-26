@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.api.messages.multidevice;
 
 
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.libsignal.api.push.SignalServiceAddress;
 
 public class VerifiedMessage {

@@ -18,7 +18,7 @@ import com.servalabs.chat.core.models.backup.MessageBackupKey
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.Util
-import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
+import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
 import java.io.ByteArrayOutputStream
 import java.util.UUID
 

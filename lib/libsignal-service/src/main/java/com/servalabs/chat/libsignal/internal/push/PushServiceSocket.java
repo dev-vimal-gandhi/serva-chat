@@ -12,8 +12,8 @@ import com.squareup.wire.Message;
 
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.Hex;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.logging.Log;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.logging.Log;
 import com.servalabs.chat.storageservice.storage.protos.groups.AvatarUploadAttributes;
 import com.servalabs.chat.storageservice.storage.protos.groups.ExternalGroupCredential;
 import com.servalabs.chat.storageservice.storage.protos.groups.Group;

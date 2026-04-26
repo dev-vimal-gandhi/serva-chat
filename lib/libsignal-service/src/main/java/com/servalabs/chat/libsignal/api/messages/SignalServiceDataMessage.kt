@@ -6,8 +6,8 @@
 package com.servalabs.chat.libsignal.api.messages
 
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import com.servalabs.chat.libsignal.api.messages.shared.SharedContact
 import com.servalabs.chat.libsignal.api.util.OptionalUtil.asOptional
 import com.servalabs.chat.libsignal.api.util.OptionalUtil.emptyIfStringEmpty

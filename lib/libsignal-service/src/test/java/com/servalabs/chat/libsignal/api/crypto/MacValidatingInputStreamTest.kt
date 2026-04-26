@@ -8,7 +8,7 @@ import org.junit.Test
 import com.servalabs.chat.core.util.kibiBytes
 import com.servalabs.chat.core.util.mebiBytes
 import com.servalabs.chat.core.util.readFully
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream

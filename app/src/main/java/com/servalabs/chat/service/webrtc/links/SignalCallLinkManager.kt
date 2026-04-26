@@ -7,13 +7,13 @@ package com.servalabs.chat.service.webrtc.links
 
 import io.reactivex.rxjava3.core.Single
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.zkgroup.GenericServerPublicParams
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CallLinkSecretParams
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredential
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialPresentation
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequestContext
-import com.servalabs.chat.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
+import org.signal.libsignal.zkgroup.GenericServerPublicParams
+import org.signal.libsignal.zkgroup.calllinks.CallLinkAuthCredentialPresentation
+import org.signal.libsignal.zkgroup.calllinks.CallLinkSecretParams
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredential
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialPresentation
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialRequestContext
+import org.signal.libsignal.zkgroup.calllinks.CreateCallLinkCredentialResponse
 import org.signal.ringrtc.CallLinkRootKey
 import org.signal.ringrtc.CallLinkState
 import org.signal.ringrtc.CallLinkState.Restrictions

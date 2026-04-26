@@ -62,10 +62,10 @@ import com.servalabs.chat.core.util.requireString
 import com.servalabs.chat.core.util.stream.NonClosingOutputStream
 import com.servalabs.chat.core.util.urlEncode
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
-import com.servalabs.chat.libsignal.zkgroup.backups.BackupLevel
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
+import org.signal.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.zkgroup.backups.BackupLevel
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.R
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn

@@ -5,8 +5,8 @@
 
 package com.servalabs.chat.messages
 
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.database.MessageTable
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.GroupRecord

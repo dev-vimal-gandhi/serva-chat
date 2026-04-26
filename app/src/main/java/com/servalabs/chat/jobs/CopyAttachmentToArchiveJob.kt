@@ -7,7 +7,7 @@ import com.servalabs.chat.core.util.ByteSize
 import com.servalabs.chat.core.util.bytes
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.logging.logW
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.zkgroup.VerificationFailedException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
 import com.servalabs.chat.attachments.DatabaseAttachment

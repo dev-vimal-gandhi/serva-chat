@@ -10,8 +10,8 @@ import com.servalabs.chat.archive.proto.Group
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.toInt
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedBannedMember

@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api
 
-import com.servalabs.chat.libsignal.protocol.state.PreKeyStore
+import org.signal.libsignal.protocol.state.PreKeyStore
 
 /**
  * And extension of the normal protocol prekey store interface that has additional methods that are

@@ -13,9 +13,9 @@ import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.isNotEmpty
 import com.servalabs.chat.core.util.orNull
-import com.servalabs.chat.libsignal.protocol.IdentityKey
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.ringrtc.CallException
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.CallLinkRootKey

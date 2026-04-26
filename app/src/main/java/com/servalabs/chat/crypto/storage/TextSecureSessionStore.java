@@ -4,9 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.NoSessionException;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.state.SessionRecord;
+import org.signal.libsignal.protocol.NoSessionException;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.state.SessionRecord;
 import com.servalabs.chat.crypto.ReentrantSessionLock;
 import com.servalabs.chat.database.SessionTable;
 import com.servalabs.chat.database.SignalDatabase;

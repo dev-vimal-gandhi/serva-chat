@@ -17,7 +17,7 @@ import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.isNotNullOrBlank
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.nullIfBlank
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import com.servalabs.chat.R
 import com.servalabs.chat.avatar.fallback.FallbackAvatar
 import com.servalabs.chat.badges.models.Badge

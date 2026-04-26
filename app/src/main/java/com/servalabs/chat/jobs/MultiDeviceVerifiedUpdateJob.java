@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.InvalidKeyException;
 import com.servalabs.chat.database.IdentityTable.VerifiedStatus;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.jobmanager.Job;

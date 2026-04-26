@@ -1,4 +1,4 @@
-package com.servalabs.chat.libsignal.testutil;
+package org.signal.libsignal.testutil;
 
 import com.servalabs.chat.libsignal.internal.Native;
 

@@ -10,8 +10,8 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.groups.UuidCiphertext;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedPendingMember;
 import com.servalabs.chat.database.GroupTable;

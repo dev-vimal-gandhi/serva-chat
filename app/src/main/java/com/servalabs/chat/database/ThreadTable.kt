@@ -33,8 +33,8 @@ import com.servalabs.chat.core.util.toInt
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.updateAll
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.components.settings.app.chats.folders.ChatFolderRecord
 import com.servalabs.chat.conversationlist.model.ConversationFilter
 import com.servalabs.chat.database.MessageTable.MarkedMessageInfo

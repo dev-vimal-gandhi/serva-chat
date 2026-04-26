@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
 import com.servalabs.chat.storageservice.storage.protos.groups.MemberPendingAdminApproval;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedApproveMember;

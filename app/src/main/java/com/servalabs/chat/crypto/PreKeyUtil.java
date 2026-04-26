@@ -20,16 +20,16 @@ package com.servalabs.chat.crypto;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException;
-import com.servalabs.chat.libsignal.protocol.ecc.ECKeyPair;
-import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey;
-import com.servalabs.chat.libsignal.protocol.kem.KEMKeyPair;
-import com.servalabs.chat.libsignal.protocol.kem.KEMKeyType;
-import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.state.SignalProtocolStore;
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.util.Medium;
+import org.signal.libsignal.protocol.InvalidKeyIdException;
+import org.signal.libsignal.protocol.ecc.ECKeyPair;
+import org.signal.libsignal.protocol.ecc.ECPrivateKey;
+import org.signal.libsignal.protocol.kem.KEMKeyPair;
+import org.signal.libsignal.protocol.kem.KEMKeyType;
+import org.signal.libsignal.protocol.state.KyberPreKeyRecord;
+import org.signal.libsignal.protocol.state.PreKeyRecord;
+import org.signal.libsignal.protocol.state.SignalProtocolStore;
+import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
+import org.signal.libsignal.protocol.util.Medium;
 import com.servalabs.chat.crypto.storage.PreKeyMetadataStore;
 import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore;
 

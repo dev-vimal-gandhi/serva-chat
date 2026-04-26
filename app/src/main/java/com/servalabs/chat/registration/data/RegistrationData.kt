@@ -1,6 +1,6 @@
 package com.servalabs.chat.registration.data
 
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 
 data class RegistrationData(
   val code: String,

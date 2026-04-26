@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.database.GroupTable;
 import com.servalabs.chat.database.model.GroupRecord;
 import com.servalabs.chat.database.SignalDatabase;

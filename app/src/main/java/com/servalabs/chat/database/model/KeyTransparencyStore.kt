@@ -1,14 +1,14 @@
 package com.servalabs.chat.database.model
 
 import com.servalabs.chat.core.util.logging.Log.tag
-import com.servalabs.chat.libsignal.keytrans.Store
-import com.servalabs.chat.libsignal.protocol.ServiceId
+import org.signal.libsignal.keytrans.Store
+import org.signal.libsignal.protocol.ServiceId
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.keyvalue.SignalStore
 import java.util.Optional
 
 /**
- * Store used by [com.servalabs.chat.libsignal.net.KeyTransparencyClient] during key transparency
+ * Store used by [org.signal.libsignal.net.KeyTransparencyClient] during key transparency
  */
 data object KeyTransparencyStore : Store {
 

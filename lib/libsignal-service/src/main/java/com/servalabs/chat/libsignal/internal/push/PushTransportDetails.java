@@ -7,7 +7,7 @@
 package com.servalabs.chat.libsignal.internal.push;
 
 
-import com.servalabs.chat.libsignal.protocol.logging.Log;
+import org.signal.libsignal.protocol.logging.Log;
 
 public class PushTransportDetails {
 

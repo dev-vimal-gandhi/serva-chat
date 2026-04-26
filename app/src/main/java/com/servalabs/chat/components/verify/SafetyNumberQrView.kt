@@ -30,7 +30,7 @@ import androidx.core.widget.ImageViewCompat
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import com.google.android.material.button.MaterialButton
 import com.servalabs.chat.core.util.dp
-import com.servalabs.chat.libsignal.protocol.fingerprint.Fingerprint
+import org.signal.libsignal.protocol.fingerprint.Fingerprint
 import com.servalabs.chat.R
 import com.servalabs.chat.qr.QrCodeUtil
 import com.servalabs.chat.util.ContextUtil

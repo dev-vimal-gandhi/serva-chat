@@ -5,11 +5,11 @@ import androidx.annotation.NonNull;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import com.servalabs.chat.argon2.Argon2;
-import com.servalabs.chat.argon2.Argon2Exception;
-import com.servalabs.chat.argon2.MemoryCost;
-import com.servalabs.chat.argon2.Type;
-import com.servalabs.chat.argon2.Version;
+import org.signal.argon2.Argon2;
+import org.signal.argon2.Argon2Exception;
+import org.signal.argon2.MemoryCost;
+import org.signal.argon2.Type;
+import org.signal.argon2.Version;
 import com.servalabs.chat.util.JsonUtils;
 
 import java.io.IOException;

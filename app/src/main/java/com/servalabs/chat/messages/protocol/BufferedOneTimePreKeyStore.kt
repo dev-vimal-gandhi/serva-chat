@@ -1,9 +1,9 @@
 package com.servalabs.chat.messages.protocol
 
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException
-import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord
-import com.servalabs.chat.libsignal.protocol.state.PreKeyStore
+import org.signal.libsignal.protocol.InvalidKeyIdException
+import org.signal.libsignal.protocol.state.PreKeyRecord
+import org.signal.libsignal.protocol.state.PreKeyStore
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
 

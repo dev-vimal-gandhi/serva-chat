@@ -2,7 +2,7 @@ package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Test;
 import com.servalabs.chat.core.util.UuidUtil;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange;

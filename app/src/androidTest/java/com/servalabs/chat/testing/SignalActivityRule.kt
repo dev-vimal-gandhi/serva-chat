@@ -10,9 +10,9 @@ import kotlinx.coroutines.runBlocking
 import org.junit.rules.ExternalResource
 import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.util.Util
-import com.servalabs.chat.libsignal.protocol.IdentityKey
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.SignalProtocolAddress
 import com.servalabs.chat.SignalInstrumentationApplicationContext
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.IdentityTable

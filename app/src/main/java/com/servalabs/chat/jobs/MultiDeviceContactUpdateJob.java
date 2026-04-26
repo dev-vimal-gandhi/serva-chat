@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.BuildConfig;
 import com.servalabs.chat.conversation.colors.ChatColorsMapper;
 import com.servalabs.chat.crypto.ProfileKeyUtil;

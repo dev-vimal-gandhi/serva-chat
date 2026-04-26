@@ -1,11 +1,11 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
 
-import com.servalabs.chat.libsignal.metadata.certificate.InvalidCertificateException;
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate;
-import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
-import com.servalabs.chat.libsignal.zkgroup.internal.ByteArray;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
+import org.signal.libsignal.metadata.certificate.SenderCertificate;
+import org.signal.libsignal.protocol.util.ByteUtil;
+import org.signal.libsignal.zkgroup.internal.ByteArray;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

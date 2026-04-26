@@ -13,7 +13,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.nullIfBlank
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.update
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.InvalidInputException
 import com.servalabs.chat.backup.v2.exporters.ContactArchiveExporter
 import com.servalabs.chat.backup.v2.exporters.GroupArchiveExporter
 import com.servalabs.chat.database.GroupTable

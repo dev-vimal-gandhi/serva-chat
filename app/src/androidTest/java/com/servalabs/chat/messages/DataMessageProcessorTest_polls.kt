@@ -8,7 +8,7 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage
+import org.signal.libsignal.protocol.message.CiphertextMessage
 import com.servalabs.chat.database.MessageTable
 import com.servalabs.chat.database.MessageType
 import com.servalabs.chat.database.SignalDatabase

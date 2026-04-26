@@ -9,12 +9,12 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.Base64;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.metadata.certificate.CertificateValidator;
-import com.servalabs.chat.libsignal.metadata.certificate.InvalidCertificateException;
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.metadata.certificate.CertificateValidator;
+import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
+import org.signal.libsignal.metadata.certificate.SenderCertificate;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.ecc.ECPublicKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.BuildConfig;
 import com.servalabs.chat.keyvalue.CertificateType;
 import com.servalabs.chat.keyvalue.SignalStore;

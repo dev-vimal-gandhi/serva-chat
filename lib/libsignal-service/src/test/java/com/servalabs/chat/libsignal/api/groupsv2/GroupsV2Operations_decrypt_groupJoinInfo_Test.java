@@ -2,14 +2,14 @@ package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupJoinInfo;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
 import com.servalabs.chat.libsignal.internal.util.Util;
-import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil;
+import org.signal.libsignal.testutil.LibSignalLibraryUtil;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

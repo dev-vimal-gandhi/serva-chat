@@ -1,8 +1,8 @@
 package com.servalabs.chat.verify
 
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.net.KeyTransparency.CheckMode
-import com.servalabs.chat.libsignal.net.RequestResult
+import org.signal.libsignal.net.KeyTransparency.CheckMode
+import org.signal.libsignal.net.RequestResult
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.model.KeyTransparencyStore
 import com.servalabs.chat.dependencies.AppDependencies

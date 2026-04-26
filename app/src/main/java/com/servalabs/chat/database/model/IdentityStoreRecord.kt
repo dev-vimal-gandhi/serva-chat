@@ -1,6 +1,6 @@
 package com.servalabs.chat.database.model
 
-import com.servalabs.chat.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.IdentityKey
 import com.servalabs.chat.database.IdentityTable
 import com.servalabs.chat.recipients.RecipientId
 

@@ -8,7 +8,7 @@ import androidx.annotation.WorkerThread;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
+import org.signal.libsignal.zkgroup.VerificationFailedException;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupJoinInfo;
 import com.servalabs.chat.groups.GroupChangeBusyException;
 import com.servalabs.chat.groups.GroupChangeFailedException;

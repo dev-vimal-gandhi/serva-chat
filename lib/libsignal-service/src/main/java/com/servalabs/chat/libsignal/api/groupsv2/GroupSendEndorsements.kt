@@ -6,10 +6,10 @@
 package com.servalabs.chat.libsignal.api.groupsv2
 
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsement
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendFullToken
+import org.signal.libsignal.metadata.certificate.SenderCertificate
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsement
+import org.signal.libsignal.zkgroup.groupsend.GroupSendFullToken
 import com.servalabs.chat.libsignal.api.push.SignalServiceAddress
 import java.time.Instant
 

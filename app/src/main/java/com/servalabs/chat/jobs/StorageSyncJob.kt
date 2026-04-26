@@ -8,7 +8,7 @@ import com.servalabs.chat.core.util.SqlUtil
 import com.servalabs.chat.core.util.Stopwatch
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.InvalidKeyException
 import com.servalabs.chat.database.ChatFolderTables.ChatFolderTable
 import com.servalabs.chat.database.NotificationProfileTables
 import com.servalabs.chat.database.RecipientTable

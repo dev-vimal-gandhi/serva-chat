@@ -21,9 +21,9 @@ import com.servalabs.chat.core.util.requireBoolean
 import com.servalabs.chat.core.util.requireInt
 import com.servalabs.chat.core.util.requireLong
 import com.servalabs.chat.core.util.requireString
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.badges.Badges
 import com.servalabs.chat.badges.models.Badge
 import com.servalabs.chat.conversation.colors.AvatarColor

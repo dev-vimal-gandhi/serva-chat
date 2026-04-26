@@ -24,10 +24,10 @@ import com.servalabs.chat.core.models.ServiceId.PNI
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.ThreadUtil
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLogger
-import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLoggerProvider
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.protocol.logging.SignalProtocolLogger
+import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.GroupChangeResponse
 import com.servalabs.chat.storageservice.storage.protos.groups.Member

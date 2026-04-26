@@ -5,7 +5,7 @@ import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.toByteArray
-import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage
+import org.signal.libsignal.protocol.message.CiphertextMessage
 import com.servalabs.chat.database.AttachmentTable
 import com.servalabs.chat.groups.GroupId
 import com.servalabs.chat.messages.SignalServiceProtoUtil.buildWith

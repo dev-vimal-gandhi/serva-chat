@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 
-import com.servalabs.chat.libsignal.zkgroup.groups.UuidCiphertext;
+import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
 import com.servalabs.chat.conversation.colors.NameColor;
 import com.servalabs.chat.groups.memberlabel.MemberLabel;
 import com.servalabs.chat.recipients.Recipient;

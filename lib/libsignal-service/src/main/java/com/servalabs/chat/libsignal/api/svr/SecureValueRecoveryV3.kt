@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import com.servalabs.chat.core.models.MasterKey
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.net.Network
+import org.signal.libsignal.net.Network
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException
 import com.servalabs.chat.libsignal.api.svr.SecureValueRecovery.BackupResponse

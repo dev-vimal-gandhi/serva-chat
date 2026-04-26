@@ -11,7 +11,7 @@ import com.servalabs.chat.core.util.Result.Companion.success
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.toByteArray
-import com.servalabs.chat.libsignal.net.RequestResult
+import org.signal.libsignal.net.RequestResult
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
 import org.signal.libsignal.usernames.UsernameLinkInvalidEntropyDataLength

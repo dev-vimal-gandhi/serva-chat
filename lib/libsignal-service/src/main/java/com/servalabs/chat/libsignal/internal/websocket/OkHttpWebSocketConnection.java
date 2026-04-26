@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.internal.websocket;
 
 import org.jetbrains.annotations.NotNull;
-import com.servalabs.chat.libsignal.protocol.logging.Log;
+import org.signal.libsignal.protocol.logging.Log;
 import com.servalabs.chat.libsignal.api.push.TrustStore;
 import com.servalabs.chat.libsignal.api.push.exceptions.NonSuccessfulResponseCodeException;
 import com.servalabs.chat.libsignal.api.util.CredentialsProvider;

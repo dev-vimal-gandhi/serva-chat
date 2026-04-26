@@ -5,7 +5,7 @@
 package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.InvalidAttachmentException
 import com.servalabs.chat.backup.v2.ArchiveDatabaseExecutor

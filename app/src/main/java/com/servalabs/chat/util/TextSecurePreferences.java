@@ -17,7 +17,7 @@ import androidx.core.content.ContextCompat;
 
 import com.servalabs.chat.core.util.PendingIntentFlags;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.BuildConfig;
 import com.servalabs.chat.R;
 import com.servalabs.chat.apkupdate.ApkUpdateRefreshListener;

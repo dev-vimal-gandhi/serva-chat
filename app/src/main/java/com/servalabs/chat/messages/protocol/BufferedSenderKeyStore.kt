@@ -1,7 +1,7 @@
 package com.servalabs.chat.messages.protocol
 
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
-import com.servalabs.chat.libsignal.protocol.groups.state.SenderKeyRecord
+import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.groups.state.SenderKeyRecord
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.libsignal.api.SignalServiceAccountDataStore
 import com.servalabs.chat.libsignal.api.SignalServiceSenderKeyStore

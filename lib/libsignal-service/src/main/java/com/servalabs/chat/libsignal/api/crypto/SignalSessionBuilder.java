@@ -1,9 +1,9 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.SessionBuilder;
-import com.servalabs.chat.libsignal.protocol.UntrustedIdentityException;
-import com.servalabs.chat.libsignal.protocol.state.PreKeyBundle;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.SessionBuilder;
+import org.signal.libsignal.protocol.UntrustedIdentityException;
+import org.signal.libsignal.protocol.state.PreKeyBundle;
 import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 /**

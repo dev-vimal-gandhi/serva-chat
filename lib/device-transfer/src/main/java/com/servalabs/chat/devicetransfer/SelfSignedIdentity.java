@@ -3,7 +3,7 @@ package com.servalabs.chat.devicetransfer;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.servalabs.chat.libsignal.devicetransfer.DeviceTransferKey;
+import org.signal.libsignal.devicetransfer.DeviceTransferKey;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

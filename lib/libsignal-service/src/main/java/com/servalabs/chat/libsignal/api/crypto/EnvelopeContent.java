@@ -1,14 +1,14 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate;
-import com.servalabs.chat.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.NoSessionException;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.UntrustedIdentityException;
-import com.servalabs.chat.libsignal.protocol.message.CiphertextMessage;
-import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage;
-import com.servalabs.chat.libsignal.protocol.message.PlaintextContent;
+import org.signal.libsignal.metadata.certificate.SenderCertificate;
+import org.signal.libsignal.metadata.protocol.UnidentifiedSenderMessageContent;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.NoSessionException;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.UntrustedIdentityException;
+import org.signal.libsignal.protocol.message.CiphertextMessage;
+import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
+import org.signal.libsignal.protocol.message.PlaintextContent;
 import com.servalabs.chat.libsignal.internal.push.Content;
 import com.servalabs.chat.libsignal.internal.push.Envelope.Type;
 import com.servalabs.chat.libsignal.internal.push.OutgoingPushMessage;

@@ -1,10 +1,10 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.ServerPublicParams;
-import com.servalabs.chat.libsignal.zkgroup.auth.ClientZkAuthOperations;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import com.servalabs.chat.libsignal.zkgroup.receipts.ClientZkReceiptOperations;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.ServerPublicParams;
+import org.signal.libsignal.zkgroup.auth.ClientZkAuthOperations;
+import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations;
 import com.servalabs.chat.libsignal.internal.configuration.SignalServiceConfiguration;
 
 /**

@@ -14,8 +14,8 @@ import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.Base64.decode
 import com.servalabs.chat.core.util.isNotNullOrBlank
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.ecc.ECPublicKey
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.backup.v2.MessageBackupTier
 import com.servalabs.chat.database.SignalDatabase

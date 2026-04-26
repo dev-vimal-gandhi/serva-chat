@@ -1,15 +1,15 @@
 package com.servalabs.chat.libsignal.api.services;
 
 import com.servalabs.chat.core.util.Hex;
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
-import com.servalabs.chat.libsignal.protocol.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyVersion;
+import org.signal.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.logging.Log;
+import org.signal.libsignal.zkgroup.VerificationFailedException;
+import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations;
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequest;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyVersion;
 import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess;
 import com.servalabs.chat.libsignal.api.profiles.ProfileAndCredential;
 import com.servalabs.chat.libsignal.api.profiles.SignalServiceProfile;

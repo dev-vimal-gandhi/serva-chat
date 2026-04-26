@@ -10,9 +10,9 @@ import com.servalabs.chat.core.util.logging.logD
 import com.servalabs.chat.core.util.logging.logI
 import com.servalabs.chat.core.util.logging.logW
 import com.servalabs.chat.core.util.toByteArray
-import com.servalabs.chat.libsignal.net.RequestResult
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.net.RequestResult
+import org.signal.libsignal.protocol.InvalidKeyException
+import org.signal.libsignal.protocol.ecc.ECPublicKey
 import com.servalabs.chat.attachments.AttachmentUploadUtil
 import com.servalabs.chat.backup.BackupFileIOError
 import com.servalabs.chat.backup.v2.ArchiveValidator

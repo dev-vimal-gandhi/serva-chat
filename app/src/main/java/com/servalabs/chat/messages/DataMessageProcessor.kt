@@ -12,7 +12,7 @@ import com.servalabs.chat.core.util.isNotEmpty
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.core.util.toOptional
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.LocalStickerAttachment
 import com.servalabs.chat.attachments.PointerAttachment

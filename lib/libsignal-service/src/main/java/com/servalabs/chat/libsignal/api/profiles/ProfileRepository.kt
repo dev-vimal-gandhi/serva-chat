@@ -13,9 +13,9 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.crypto.SealedSenderAccess
 import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException

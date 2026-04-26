@@ -5,8 +5,8 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.models.ServiceId.ACI;
 import com.servalabs.chat.core.util.Util;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.Member;
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedApproveMember;

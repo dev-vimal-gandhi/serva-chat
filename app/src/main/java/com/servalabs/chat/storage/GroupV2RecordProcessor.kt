@@ -1,7 +1,7 @@
 package com.servalabs.chat.storage
 
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.database.GroupTable
 import com.servalabs.chat.database.RecipientTable
 import com.servalabs.chat.database.SignalDatabase

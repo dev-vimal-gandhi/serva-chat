@@ -12,8 +12,8 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
 import com.servalabs.chat.crypto.ReentrantSessionLock;
 import com.servalabs.chat.crypto.storage.SignalIdentityKeyStore;
 import com.servalabs.chat.database.IdentityTable;

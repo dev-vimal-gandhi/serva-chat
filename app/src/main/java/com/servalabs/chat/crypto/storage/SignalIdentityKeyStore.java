@@ -2,10 +2,10 @@ package com.servalabs.chat.crypto.storage;
 
 import androidx.annotation.NonNull;
 
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.state.IdentityKeyStore;
+import org.signal.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.IdentityKeyPair;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.state.IdentityKeyStore;
 import com.servalabs.chat.database.IdentityTable.VerifiedStatus;
 import com.servalabs.chat.database.identity.IdentityRecordList;
 import com.servalabs.chat.database.model.IdentityRecord;

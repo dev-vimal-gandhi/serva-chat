@@ -7,10 +7,10 @@ package com.servalabs.chat.libsignal.api.username
 
 import kotlinx.coroutines.runBlocking
 import com.servalabs.chat.core.models.ServiceId
-import com.servalabs.chat.libsignal.net.LookUpUsernameLinkFailure
-import com.servalabs.chat.libsignal.net.RequestResult
-import com.servalabs.chat.libsignal.net.UnauthUsernamesService
-import com.servalabs.chat.libsignal.net.getOrError
+import org.signal.libsignal.net.LookUpUsernameLinkFailure
+import org.signal.libsignal.net.RequestResult
+import org.signal.libsignal.net.UnauthUsernamesService
+import org.signal.libsignal.net.getOrError
 import org.signal.libsignal.usernames.Username
 import com.servalabs.chat.libsignal.api.account.AccountApi
 import com.servalabs.chat.libsignal.api.websocket.SignalWebSocket

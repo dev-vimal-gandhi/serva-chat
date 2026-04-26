@@ -10,7 +10,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import com.servalabs.chat.libsignal.protocol.IdentityKey;
+import org.signal.libsignal.protocol.IdentityKey;
 import com.servalabs.chat.libsignal.internal.util.JsonUtil;
 
 import java.util.List;

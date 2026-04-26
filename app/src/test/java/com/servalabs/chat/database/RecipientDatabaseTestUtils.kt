@@ -3,7 +3,7 @@ package com.servalabs.chat.database
 import android.net.Uri
 import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.util.toOptional
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
 import com.servalabs.chat.badges.models.Badge
 import com.servalabs.chat.conversation.colors.AvatarColor
 import com.servalabs.chat.conversation.colors.ChatColors

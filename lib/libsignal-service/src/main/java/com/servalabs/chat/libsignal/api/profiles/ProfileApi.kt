@@ -8,11 +8,11 @@ package com.servalabs.chat.libsignal.api.profiles
 import com.servalabs.chat.core.models.ServiceId
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
-import com.servalabs.chat.libsignal.zkgroup.profiles.ClientZkProfileOperations
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext
+import org.signal.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.zkgroup.profiles.ClientZkProfileOperations
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.profiles.ProfileKeyCredentialRequestContext
 import com.servalabs.chat.libsignal.api.NetworkResult
 import com.servalabs.chat.libsignal.api.crypto.ProfileCipher
 import com.servalabs.chat.libsignal.api.crypto.ProfileCipherOutputStream

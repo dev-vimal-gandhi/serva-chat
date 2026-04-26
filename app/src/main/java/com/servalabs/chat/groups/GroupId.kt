@@ -15,11 +15,11 @@ import com.servalabs.chat.core.util.DatabaseId
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.LRUCache
 import com.servalabs.chat.core.util.Util
-import com.servalabs.chat.libsignal.protocol.kdf.HKDF
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupIdentifier
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.protocol.kdf.HKDF
+import org.signal.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.groups.GroupIdentifier
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import java.io.IOException
 import java.security.SecureRandom
 

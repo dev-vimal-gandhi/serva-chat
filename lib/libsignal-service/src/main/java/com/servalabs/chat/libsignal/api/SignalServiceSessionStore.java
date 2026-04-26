@@ -1,8 +1,8 @@
 package com.servalabs.chat.libsignal.api;
 
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.state.SessionRecord;
-import com.servalabs.chat.libsignal.protocol.state.SessionStore;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.state.SessionRecord;
+import org.signal.libsignal.protocol.state.SessionStore;
 
 import java.util.List;
 import java.util.Map;

@@ -7,7 +7,7 @@ package com.servalabs.chat.core.models
 
 import com.servalabs.chat.core.models.backup.MessageBackupKey
 
-private typealias LibSignalAccountEntropyPool = com.servalabs.chat.libsignal.messagebackup.AccountEntropyPool
+private typealias LibSignalAccountEntropyPool = org.signal.libsignal.messagebackup.AccountEntropyPool
 
 /**
  * The Root of All Entropy. You can use this to derive the [com.servalabs.chat.libsignal.api.kbs.MasterKey] or [com.servalabs.chat.libsignal.api.backup.MessageBackupKey].

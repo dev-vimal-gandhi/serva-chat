@@ -1,9 +1,9 @@
 package com.servalabs.chat.libsignal.api.services;
 
-import com.servalabs.chat.libsignal.protocol.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
+import org.signal.libsignal.protocol.logging.Log;
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation;
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialRequest;
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
 import com.servalabs.chat.libsignal.api.NetworkResult;
 import com.servalabs.chat.libsignal.api.NetworkResultUtil;
 import com.servalabs.chat.libsignal.api.donations.DonationsApi;

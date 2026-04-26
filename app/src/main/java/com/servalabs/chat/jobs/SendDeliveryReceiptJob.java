@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendFullToken;
+import org.signal.libsignal.zkgroup.groupsend.GroupSendFullToken;
 import com.servalabs.chat.crypto.SealedSenderAccessUtil;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.model.MessageId;

@@ -1,9 +1,9 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.protocol.SessionBuilder;
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.groups.GroupSessionBuilder;
-import com.servalabs.chat.libsignal.protocol.message.SenderKeyDistributionMessage;
+import org.signal.libsignal.protocol.SessionBuilder;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.groups.GroupSessionBuilder;
+import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage;
 import com.servalabs.chat.libsignal.api.SignalSessionLock;
 
 import java.util.UUID;

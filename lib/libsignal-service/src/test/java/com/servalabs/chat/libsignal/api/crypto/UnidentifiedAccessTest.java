@@ -2,8 +2,8 @@ package com.servalabs.chat.libsignal.api.crypto;
 
 import org.conscrypt.OpenSSLProvider;
 import org.junit.Test;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 
 import java.security.Security;
 import java.util.Arrays;

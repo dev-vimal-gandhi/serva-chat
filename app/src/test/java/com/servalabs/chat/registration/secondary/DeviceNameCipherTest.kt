@@ -3,7 +3,7 @@ package com.servalabs.chat.registration.secondary
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.Test
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 

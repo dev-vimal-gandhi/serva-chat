@@ -1,7 +1,7 @@
 package com.servalabs.chat.libsignal.api;
 
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress;
-import com.servalabs.chat.libsignal.protocol.groups.state.SenderKeyStore;
+import org.signal.libsignal.protocol.SignalProtocolAddress;
+import org.signal.libsignal.protocol.groups.state.SenderKeyStore;
 import com.servalabs.chat.libsignal.api.push.DistributionId;
 
 import java.util.Collection;

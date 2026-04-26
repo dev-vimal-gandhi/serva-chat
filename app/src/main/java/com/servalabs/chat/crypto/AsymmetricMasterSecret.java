@@ -17,8 +17,8 @@
  */
 package com.servalabs.chat.crypto;
 
-import com.servalabs.chat.libsignal.protocol.ecc.ECPrivateKey;
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey;
+import org.signal.libsignal.protocol.ecc.ECPrivateKey;
+import org.signal.libsignal.protocol.ecc.ECPublicKey;
 
 /**
  * When a user first initializes TextSecure, a few secrets

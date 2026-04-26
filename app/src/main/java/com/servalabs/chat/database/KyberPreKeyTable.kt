@@ -16,8 +16,8 @@ import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.toInt
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 
 /**
  * A table for storing data related to [com.servalabs.chat.crypto.storage.SignalKyberPreKeyStore].

@@ -57,7 +57,7 @@ class SignalLogDetectorTest {
         java(
           """
           package foo;
-          import com.servalabs.chat.libsignal.protocol.logging.Log;
+          import org.signal.libsignal.protocol.logging.Log;
           public class Example {
             public void log() {
               Log.d("TAG", "msg");
@@ -95,7 +95,7 @@ class SignalLogDetectorTest {
         java(
           """
           package foo;
-          import com.servalabs.chat.libsignal.protocol.logging.Log;
+          import org.signal.libsignal.protocol.logging.Log;
           public class Example {
             public void log() {
               Log.w("TAG", "msg", new Exception());

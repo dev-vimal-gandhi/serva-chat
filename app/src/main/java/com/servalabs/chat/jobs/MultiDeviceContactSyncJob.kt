@@ -2,7 +2,7 @@ package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.isAbsent
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Job

@@ -11,7 +11,7 @@ import com.servalabs.chat.core.util.requireInt
 import com.servalabs.chat.core.util.requireString
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.SignalProtocolAddress
 import com.servalabs.chat.recipients.Recipient
 import com.servalabs.chat.recipients.RecipientId
 import com.servalabs.chat.libsignal.api.push.DistributionId

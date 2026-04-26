@@ -12,8 +12,8 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Hex
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.InvalidMacException
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMacException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.Attachment
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.Cdn
@@ -361,7 +361,7 @@ class AttachmentDownloadJob private constructor(
       } else {
         markFailed(messageId, attachmentId)
       }
-    } catch (e: com.servalabs.chat.libsignal.protocol.incrementalmac.InvalidMacException) {
+    } catch (e: org.signal.libsignal.protocol.incrementalmac.InvalidMacException) {
       Log.w(TAG, "[$attachmentId] Detected an invalid incremental mac. Clearing and marking as a temporary failure, requiring the user to manually try again.")
       SignalDatabase.attachments.clearIncrementalMacsForAttachmentAndAnyDuplicates(attachmentId, attachment.remoteKey, attachment.dataHash)
       markFailed(messageId, attachmentId)

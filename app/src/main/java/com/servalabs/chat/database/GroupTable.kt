@@ -37,11 +37,11 @@ import com.servalabs.chat.core.util.requireString
 import com.servalabs.chat.core.util.select
 import com.servalabs.chat.core.util.update
 import com.servalabs.chat.core.util.withinTransaction
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsement
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendFullToken
+import org.signal.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsement
+import org.signal.libsignal.zkgroup.groupsend.GroupSendFullToken
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup

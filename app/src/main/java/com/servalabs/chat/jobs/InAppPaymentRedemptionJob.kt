@@ -7,7 +7,7 @@ package com.servalabs.chat.jobs
 
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.donations.InAppPaymentType
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
 import com.servalabs.chat.backup.v2.BackupRepository
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository
 import com.servalabs.chat.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType

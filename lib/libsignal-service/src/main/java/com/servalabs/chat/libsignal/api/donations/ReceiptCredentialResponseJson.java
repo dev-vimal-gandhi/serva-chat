@@ -7,8 +7,8 @@ package com.servalabs.chat.libsignal.api.donations;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialResponse;
 import com.servalabs.chat.core.util.Base64;
 
 import java.io.IOException;

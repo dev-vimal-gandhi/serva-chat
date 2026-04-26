@@ -5,13 +5,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import com.servalabs.chat.core.util.Hex;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
 
 import java.util.Arrays;
 import java.util.Collection;
 
 import static org.junit.Assert.assertEquals;
-import static com.servalabs.chat.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
+import static org.signal.libsignal.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS;
 
 @RunWith(Parameterized.class)
 public final class GroupId_v1_v2_migration_derivation_Test {

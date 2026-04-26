@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api;
 
-import com.servalabs.chat.libsignal.protocol.state.SignalProtocolStore;
+import org.signal.libsignal.protocol.state.SignalProtocolStore;
 
 /**
  * And extension of the normal protocol store interface that has additional methods that are needed

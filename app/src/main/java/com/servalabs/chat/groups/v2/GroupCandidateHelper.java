@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 import com.servalabs.chat.database.RecipientTable;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.dependencies.AppDependencies;

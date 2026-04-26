@@ -16,7 +16,7 @@ import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
 import com.servalabs.chat.core.util.Util;
-import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
+import org.signal.libsignal.protocol.util.ByteUtil;
 import com.servalabs.chat.avatar.fallback.FallbackAvatarDrawable;
 import com.servalabs.chat.contacts.avatars.SystemContactPhoto;
 import com.servalabs.chat.database.model.ProfileAvatarFileDetails;

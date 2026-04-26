@@ -8,7 +8,7 @@ import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.util.Hex
 import org.signal.libsignal.attest.AttestationDataException
-import com.servalabs.chat.libsignal.protocol.logging.Log
+import org.signal.libsignal.protocol.logging.Log
 import org.signal.libsignal.sgxsession.SgxCommunicationFailureException
 import org.signal.libsignal.svr2.Svr2Client
 import com.servalabs.chat.libsignal.api.buildOkHttpClient

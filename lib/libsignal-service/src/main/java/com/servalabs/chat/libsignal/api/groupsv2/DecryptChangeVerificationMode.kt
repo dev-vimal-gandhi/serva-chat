@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.api.groupsv2
 
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupIdentifier
+import org.signal.libsignal.zkgroup.groups.GroupIdentifier
 
 /**
  * Details what verification should take place when decrypting a group change.

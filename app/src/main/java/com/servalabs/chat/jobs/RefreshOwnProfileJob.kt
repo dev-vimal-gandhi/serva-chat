@@ -4,11 +4,11 @@ import android.text.TextUtils
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.net.RequestResult
+import org.signal.libsignal.net.RequestResult
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.crypto.ProfileKeyUtil
 import com.servalabs.chat.database.RecipientTable.PhoneNumberSharingState
 import com.servalabs.chat.database.SignalDatabase

@@ -3,7 +3,7 @@ package com.servalabs.chat
 import com.servalabs.chat.core.util.concurrent.SignalExecutors
 import com.servalabs.chat.core.util.logging.AndroidLogger
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLoggerProvider
+import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
 import com.servalabs.chat.crypto.MasterSecretUtil
 import com.servalabs.chat.database.LogDatabase
 import com.servalabs.chat.dependencies.AppDependencies

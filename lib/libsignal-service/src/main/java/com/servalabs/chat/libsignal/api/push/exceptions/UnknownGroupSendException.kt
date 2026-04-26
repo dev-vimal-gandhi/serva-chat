@@ -6,7 +6,7 @@
 package com.servalabs.chat.libsignal.api.push.exceptions
 
 /**
- * Wraps a [com.servalabs.chat.libsignal.net.RequestResult.ApplicationError]'s cause in a named
+ * Wraps a [org.signal.libsignal.net.RequestResult.ApplicationError]'s cause in a named
  * [RuntimeException] so it is more identifiable.
  */
 class UnknownGroupSendException(cause: Throwable) : RuntimeException(cause)

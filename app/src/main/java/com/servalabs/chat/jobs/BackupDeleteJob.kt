@@ -293,7 +293,7 @@ class BackupDeleteJob private constructor(
   private fun <T> handleNetworkError(networkResult: NetworkResult<T>): Result {
     Log.d(TAG, "An error occurred.", networkResult.getCause())
 
-    if (networkResult.getCause() is com.servalabs.chat.libsignal.zkgroup.VerificationFailedException) {
+    if (networkResult.getCause() is org.signal.libsignal.zkgroup.VerificationFailedException) {
       Log.i(TAG, "ZK Verification failed. Retrying.")
       return Result.retry(defaultBackoff())
     }

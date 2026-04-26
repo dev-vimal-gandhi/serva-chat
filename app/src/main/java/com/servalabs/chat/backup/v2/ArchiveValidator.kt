@@ -7,9 +7,9 @@ package com.servalabs.chat.backup.v2
 
 import com.servalabs.chat.core.models.backup.MessageBackupKey
 import com.servalabs.chat.core.util.isNotNullOrBlank
-import com.servalabs.chat.libsignal.messagebackup.BackupForwardSecrecyToken
-import com.servalabs.chat.libsignal.messagebackup.MessageBackup
-import com.servalabs.chat.libsignal.messagebackup.ValidationError
+import org.signal.libsignal.messagebackup.BackupForwardSecrecyToken
+import org.signal.libsignal.messagebackup.MessageBackup
+import org.signal.libsignal.messagebackup.ValidationError
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.keyvalue.SignalStore
 import com.servalabs.chat.recipients.Recipient
@@ -18,8 +18,8 @@ import com.servalabs.chat.util.isStory
 import com.servalabs.chat.util.isStoryReaction
 import java.io.File
 import java.io.IOException
-import com.servalabs.chat.libsignal.messagebackup.BackupKey as LibSignalBackupKey
-import com.servalabs.chat.libsignal.messagebackup.MessageBackupKey as LibSignalMessageBackupKey
+import org.signal.libsignal.messagebackup.BackupKey as LibSignalBackupKey
+import org.signal.libsignal.messagebackup.MessageBackupKey as LibSignalMessageBackupKey
 
 object ArchiveValidator {
 

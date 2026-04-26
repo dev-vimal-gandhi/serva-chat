@@ -6,7 +6,7 @@ import assertk.assertions.isTrue
 import assertk.fail
 import org.junit.Test
 import com.servalabs.chat.core.util.readFully
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMessageException
 import java.io.ByteArrayInputStream
 import java.security.MessageDigest
 

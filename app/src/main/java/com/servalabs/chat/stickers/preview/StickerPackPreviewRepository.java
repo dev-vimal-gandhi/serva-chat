@@ -10,7 +10,7 @@ import com.annimon.stream.Stream;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.InvalidMessageException;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.database.StickerTable;
 import com.servalabs.chat.database.model.StickerPackRecord;

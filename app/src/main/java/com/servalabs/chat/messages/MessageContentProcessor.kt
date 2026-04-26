@@ -6,10 +6,10 @@ import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
 import com.servalabs.chat.core.util.toOptional
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
-import com.servalabs.chat.libsignal.protocol.ecc.ECPublicKey
-import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.ecc.ECPublicKey
+import org.signal.libsignal.protocol.message.DecryptionErrorMessage
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.database.MessageType
 import com.servalabs.chat.database.SignalDatabase
 import com.servalabs.chat.database.model.GroupRecord

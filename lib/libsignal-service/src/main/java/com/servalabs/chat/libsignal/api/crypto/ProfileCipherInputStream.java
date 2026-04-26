@@ -1,15 +1,15 @@
 package com.servalabs.chat.libsignal.api.crypto;
 
-import com.servalabs.chat.libsignal.crypto.Aes256GcmDecryption;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.crypto.Aes256GcmDecryption;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.libsignal.internal.util.Util;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static com.servalabs.chat.libsignal.crypto.Aes256GcmDecryption.TAG_SIZE_IN_BYTES;
+import static org.signal.libsignal.crypto.Aes256GcmDecryption.TAG_SIZE_IN_BYTES;
 
 public class ProfileCipherInputStream extends FilterInputStream {
 

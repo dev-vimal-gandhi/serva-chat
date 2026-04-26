@@ -6,9 +6,9 @@
 package com.servalabs.chat.registration.data
 
 import okio.ByteString.Companion.toByteString
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
-import com.servalabs.chat.libsignal.protocol.state.KyberPreKeyRecord
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord
+import org.signal.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.state.KyberPreKeyRecord
+import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import com.servalabs.chat.database.model.databaseprotos.LinkedDeviceInfo
 import com.servalabs.chat.database.model.databaseprotos.LocalRegistrationMetadata
 import com.servalabs.chat.libsignal.api.account.PreKeyCollection

@@ -4,9 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyException;
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException;
-import com.servalabs.chat.libsignal.protocol.message.DecryptionErrorMessage;
+import org.signal.libsignal.protocol.InvalidKeyException;
+import org.signal.libsignal.protocol.InvalidMessageException;
+import org.signal.libsignal.protocol.message.DecryptionErrorMessage;
 import com.servalabs.chat.crypto.SealedSenderAccessUtil;
 import com.servalabs.chat.dependencies.AppDependencies;
 import com.servalabs.chat.groups.GroupId;

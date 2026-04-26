@@ -2,7 +2,7 @@ package com.servalabs.chat.jobmanager.impl
 
 import android.app.job.JobInfo
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.metadata.certificate.SenderCertificate
+import org.signal.libsignal.metadata.certificate.SenderCertificate
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.jobmanager.Constraint
 import com.servalabs.chat.jobmanager.ConstraintObserver

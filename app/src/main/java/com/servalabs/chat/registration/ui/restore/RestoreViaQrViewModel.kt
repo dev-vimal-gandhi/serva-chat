@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.IdentityKeyPair
+import org.signal.libsignal.protocol.IdentityKeyPair
 import com.servalabs.chat.registration.proto.RegistrationProvisionMessage
 import com.servalabs.chat.backup.v2.MessageBackupTier
 import com.servalabs.chat.components.settings.app.usernamelinks.QrCodeData

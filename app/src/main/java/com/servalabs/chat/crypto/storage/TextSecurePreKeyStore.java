@@ -3,10 +3,10 @@ package com.servalabs.chat.crypto.storage;
 import androidx.annotation.NonNull;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.InvalidKeyIdException;
-import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyStore;
+import org.signal.libsignal.protocol.InvalidKeyIdException;
+import org.signal.libsignal.protocol.state.PreKeyRecord;
+import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
+import org.signal.libsignal.protocol.state.SignedPreKeyStore;
 import com.servalabs.chat.crypto.ReentrantSessionLock;
 import com.servalabs.chat.database.SignalDatabase;
 import com.servalabs.chat.libsignal.api.SignalServicePreKeyStore;

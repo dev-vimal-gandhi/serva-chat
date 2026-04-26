@@ -25,9 +25,9 @@ import com.servalabs.chat.core.util.readToSingleBoolean
 import com.servalabs.chat.core.util.requireLong
 import com.servalabs.chat.core.util.requireNonNullString
 import com.servalabs.chat.core.util.select
-import com.servalabs.chat.libsignal.protocol.IdentityKey
-import com.servalabs.chat.libsignal.protocol.SignalProtocolAddress
-import com.servalabs.chat.libsignal.protocol.state.SessionRecord
+import org.signal.libsignal.protocol.IdentityKey
+import org.signal.libsignal.protocol.SignalProtocolAddress
+import org.signal.libsignal.protocol.state.SessionRecord
 import com.servalabs.chat.conversation.colors.AvatarColor
 import com.servalabs.chat.database.model.DistributionListId
 import com.servalabs.chat.database.model.DistributionListRecord

@@ -21,7 +21,7 @@ import com.servalabs.chat.core.util.ByteSize
 import com.servalabs.chat.core.util.Result
 import com.servalabs.chat.core.util.bytes
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.backup.v2.BackupRepository
 import com.servalabs.chat.backup.v2.RestoreV2Event
 import com.servalabs.chat.backup.v2.local.ArchiveFileSystem

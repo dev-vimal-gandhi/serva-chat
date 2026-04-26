@@ -10,8 +10,8 @@ import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.StreamUtil
 import com.servalabs.chat.core.util.androidx.DocumentFileInfo
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.InvalidMacException
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMacException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.v2.ArchiveRestoreProgress
 import com.servalabs.chat.backup.v2.local.ArchiveFileSystem

@@ -36,7 +36,7 @@ import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readNBytesOrThrow
 import com.servalabs.chat.core.util.roundedString
 import com.servalabs.chat.core.util.stream.LimitedInputStream
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey
+import org.signal.libsignal.zkgroup.profiles.ProfileKey
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.attachments.DatabaseAttachment
 import com.servalabs.chat.backup.ArchiveUploadProgress

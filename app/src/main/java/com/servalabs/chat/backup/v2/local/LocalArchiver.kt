@@ -22,7 +22,7 @@ import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.readFully
 import com.servalabs.chat.core.util.toJson
-import com.servalabs.chat.libsignal.crypto.Aes256Ctr32
+import org.signal.libsignal.crypto.Aes256Ctr32
 import com.servalabs.chat.attachments.AttachmentId
 import com.servalabs.chat.backup.LocalExportProgress
 import com.servalabs.chat.backup.v2.BackupRepository

@@ -2,12 +2,12 @@ package com.servalabs.chat.libsignal.api.groupsv2;
 
 import org.junit.Before;
 import org.junit.Test;
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException;
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException;
-import com.servalabs.chat.libsignal.zkgroup.groups.ClientZkGroupCipher;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.InvalidInputException;
+import org.signal.libsignal.zkgroup.VerificationFailedException;
+import org.signal.libsignal.zkgroup.groups.ClientZkGroupCipher;
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.storageservice.storage.protos.groups.AccessControl;
 import com.servalabs.chat.storageservice.storage.protos.groups.MemberBanned;
 import com.servalabs.chat.storageservice.storage.protos.groups.Group;
@@ -22,7 +22,7 @@ import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedRe
 import com.servalabs.chat.storageservice.storage.protos.groups.local.EnabledState;
 import com.servalabs.chat.core.models.ServiceId.ACI;
 import com.servalabs.chat.libsignal.internal.util.Util;
-import com.servalabs.chat.libsignal.testutil.LibSignalLibraryUtil;
+import org.signal.libsignal.testutil.LibSignalLibraryUtil;
 
 import java.util.List;
 import java.util.UUID;

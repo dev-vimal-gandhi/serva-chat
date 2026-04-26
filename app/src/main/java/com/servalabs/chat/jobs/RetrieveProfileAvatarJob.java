@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.concurrent.SignalExecutors;
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.zkgroup.profiles.ProfileKey;
+import org.signal.libsignal.zkgroup.profiles.ProfileKey;
 import com.servalabs.chat.conversation.v2.data.AvatarDownloadStateCache;
 import com.servalabs.chat.crypto.ProfileKeyUtil;
 import com.servalabs.chat.database.RecipientTable;

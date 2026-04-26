@@ -33,7 +33,7 @@ import com.bumptech.glide.Glide;
 
 import net.zetetic.database.Logger;
 
-import org.conscrypt.ConscryptSignal;
+import org.conscrypt.Conscrypt;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.aesgcmprovider.AesGcmProvider;
 import com.servalabs.chat.core.util.DiskUtil;
@@ -44,8 +44,8 @@ import com.servalabs.chat.core.util.logging.AndroidLogger;
 import com.servalabs.chat.core.util.logging.Log;
 import com.servalabs.chat.core.util.logging.Scrubber;
 import com.servalabs.chat.glide.SignalGlideCodecs;
-import com.servalabs.chat.libsignal.net.ChatServiceException;
-import com.servalabs.chat.libsignal.protocol.logging.SignalProtocolLoggerProvider;
+import org.signal.libsignal.net.ChatServiceException;
+import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider;
 import org.signal.ringrtc.CallManager;
 import com.servalabs.chat.apkupdate.ApkUpdateRefreshListener;
 import com.servalabs.chat.avatar.AvatarPickerStorage;
@@ -390,7 +390,7 @@ public class ApplicationContext extends Application implements AppForegroundObse
       throw new ProviderInitializationException();
     }
 
-    int conscryptPosition = Security.insertProviderAt(ConscryptSignal.newProvider(), 2);
+    int conscryptPosition = Security.insertProviderAt(Conscrypt.newProvider(), 2);
     Log.i(TAG, "Installed Conscrypt provider: " + conscryptPosition);
 
     if (conscryptPosition < 0) {

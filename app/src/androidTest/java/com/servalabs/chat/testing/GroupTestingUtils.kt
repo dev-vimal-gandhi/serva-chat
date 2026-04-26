@@ -2,7 +2,7 @@ package com.servalabs.chat.testing
 
 import okio.ByteString.Companion.toByteString
 import com.servalabs.chat.core.models.ServiceId.ACI
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import com.servalabs.chat.storageservice.storage.protos.groups.Member
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedMember

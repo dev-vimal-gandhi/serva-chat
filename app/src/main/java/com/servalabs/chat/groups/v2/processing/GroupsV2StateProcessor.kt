@@ -12,10 +12,10 @@ import com.servalabs.chat.core.models.ServiceId.ACI
 import com.servalabs.chat.core.util.UuidUtil
 import com.servalabs.chat.core.util.logging.Log
 import com.servalabs.chat.core.util.orNull
-import com.servalabs.chat.libsignal.zkgroup.InvalidInputException
-import com.servalabs.chat.libsignal.zkgroup.VerificationFailedException
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupMasterKey
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams
+import org.signal.libsignal.zkgroup.InvalidInputException
+import org.signal.libsignal.zkgroup.VerificationFailedException
+import org.signal.libsignal.zkgroup.groups.GroupMasterKey
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange
 import com.servalabs.chat.database.SignalDatabase

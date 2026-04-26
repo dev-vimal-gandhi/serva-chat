@@ -4,7 +4,7 @@ import com.annimon.stream.Stream;
 import com.google.common.collect.Sets;
 
 import com.servalabs.chat.core.util.Conversions;
-import com.servalabs.chat.libsignal.protocol.util.ByteUtil;
+import org.signal.libsignal.protocol.util.ByteUtil;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

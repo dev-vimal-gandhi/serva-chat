@@ -1,6 +1,6 @@
 package com.servalabs.chat.groups.v2.processing
 
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
+import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroupChange
 import com.servalabs.chat.libsignal.api.groupsv2.DecryptedGroupChangeLog

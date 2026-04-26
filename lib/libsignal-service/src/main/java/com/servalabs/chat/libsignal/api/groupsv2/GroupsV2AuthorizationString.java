@@ -1,8 +1,8 @@
 package com.servalabs.chat.libsignal.api.groupsv2;
 
 import com.servalabs.chat.core.util.Hex;
-import com.servalabs.chat.libsignal.zkgroup.auth.AuthCredentialPresentation;
-import com.servalabs.chat.libsignal.zkgroup.groups.GroupSecretParams;
+import org.signal.libsignal.zkgroup.auth.AuthCredentialPresentation;
+import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
 
 import okhttp3.Credentials;
 

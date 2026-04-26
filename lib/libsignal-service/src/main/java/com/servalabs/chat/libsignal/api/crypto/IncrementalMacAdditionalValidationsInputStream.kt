@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.api.crypto
 
-import com.servalabs.chat.libsignal.protocol.InvalidMessageException
+import org.signal.libsignal.protocol.InvalidMessageException
 import com.servalabs.chat.libsignal.internal.util.Util
 import java.io.FilterInputStream
 import java.io.InputStream
@@ -14,7 +14,7 @@ import javax.crypto.Mac
 import kotlin.math.max
 
 /**
- * This is meant as a helper stream to go along with [com.servalabs.chat.libsignal.protocol.incrementalmac.IncrementalMacInputStream].
+ * This is meant as a helper stream to go along with [org.signal.libsignal.protocol.incrementalmac.IncrementalMacInputStream].
  * That class does not validate the overall digest, nor the overall MAC. This class does that for us.
  *
  * To use, wrap the IncrementalMacInputStream around this class, and then this class should wrap the lowest-level data stream.

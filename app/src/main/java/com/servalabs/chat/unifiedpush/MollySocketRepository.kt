@@ -15,7 +15,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import com.servalabs.chat.core.util.Base64
 import com.servalabs.chat.core.util.Util
 import com.servalabs.chat.core.util.logging.Log
-import com.servalabs.chat.libsignal.protocol.util.KeyHelper
+import org.signal.libsignal.protocol.util.KeyHelper
 import com.servalabs.chat.AppCapabilities
 import com.servalabs.chat.dependencies.AppDependencies
 import com.servalabs.chat.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode

@@ -5,7 +5,7 @@
 
 package com.servalabs.chat.libsignal.api.groupsv2
 
-import com.servalabs.chat.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
+import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
 import com.servalabs.chat.storageservice.storage.protos.groups.local.DecryptedGroup
 
 /**

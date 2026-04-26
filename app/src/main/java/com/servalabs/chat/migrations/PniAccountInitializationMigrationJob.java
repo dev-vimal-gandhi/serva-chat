@@ -4,8 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.servalabs.chat.core.util.logging.Log;
-import com.servalabs.chat.libsignal.protocol.state.PreKeyRecord;
-import com.servalabs.chat.libsignal.protocol.state.SignedPreKeyRecord;
+import org.signal.libsignal.protocol.state.PreKeyRecord;
+import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
 import com.servalabs.chat.crypto.PreKeyUtil;
 import com.servalabs.chat.crypto.storage.PreKeyMetadataStore;
 import com.servalabs.chat.dependencies.AppDependencies;

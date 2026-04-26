@@ -18,7 +18,7 @@ import com.servalabs.chat.libsignal.api.push.exceptions.ProofRequiredException
 import com.servalabs.chat.libsignal.api.push.exceptions.RateLimitException
 import com.servalabs.chat.libsignal.api.push.exceptions.RetryNetworkException
 import java.util.concurrent.TimeUnit
-import com.servalabs.chat.libsignal.net.RetryLaterException as LibSignalRetryLaterException
+import org.signal.libsignal.net.RetryLaterException as LibSignalRetryLaterException
 
 fun Job.getBackoffMillisFromException(tag: String, pastAttemptCount: Int, exception: Exception, default: () -> Long): Long {
   when (exception) {

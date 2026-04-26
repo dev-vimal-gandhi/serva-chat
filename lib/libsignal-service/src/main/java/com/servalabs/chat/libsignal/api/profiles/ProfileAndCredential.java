@@ -1,6 +1,6 @@
 package com.servalabs.chat.libsignal.api.profiles;
 
-import com.servalabs.chat.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
+import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential;
 
 import java.util.Optional;
 
